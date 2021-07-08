@@ -1,4 +1,4 @@
-name: GSheets Test
+name: sheets_test
 
 on:
   push:
@@ -14,8 +14,9 @@ jobs:
     steps:
       - name: Pull GSheet data
         id: 'sheet_to_csv'
-        uses: dolthub/gsheets-to-csv/gsheets-to-csv@1
+        uses: dolthub/gsheets-to-csv@v0.5
         with:
+          creds: ${{ secrets.GSHEET_CREDENTIALS }}
           sheets: |
             [
               { "id": "${{ env.id }}", "range": "${{ env.range }}", "title": "${{ env.name }}" },
