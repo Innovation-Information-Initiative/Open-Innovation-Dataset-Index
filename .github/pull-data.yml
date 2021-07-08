@@ -1,0 +1,32 @@
+name: GSheets Test
+
+on:
+  push:
+env:
+  id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
+  name: 'Open_Patent_Datsets'
+  range: 'A1:Q100'
+
+jobs:
+  pull_sheet:
+    runs-on: ubuntu-latest
+    name: Pulling regular updates from the I3 Essential Patent Datasets sheet
+    steps:
+      - name: Pull GSheet data
+        id: 'sheet_to_csv'
+        uses: gsheets-to-csv@1
+        with:
+          sheets: |
+            [
+              { "id": "${{ env.id }}", "range": "${{ env.range }}", "title": "${{ env.name }}" },
+              { "id": "${{ env.id }}" }
+            ]
+      - name: Print CSV
+        id: "print_csv"
+        env:
+          FILES: ${{ steps.sheet_to_csv.outputs.results }}
+        run: |
+          file_list=($FILES)
+          for file in "${file_list[@]}"; do
+              echo "$(wc -l $file)"
+          done
