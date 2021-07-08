@@ -4,7 +4,6 @@ on:
   push:
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-  name: 'Open_Patent_Datsets'
   range: 'A1:Q100'
 
 jobs:
@@ -19,7 +18,6 @@ jobs:
           creds: ${{ secrets.GSHEET_CREDENTIALS }}
           sheets: |
             [
-              { "id": "${{ env.id }}", "range": "${{ env.range }}", "title": "${{ env.name }}" },
               { "id": "${{ env.id }}" }
             ]
       - name: Print CSV
