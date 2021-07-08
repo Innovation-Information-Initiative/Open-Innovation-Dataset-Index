@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Pull GSheet data
         id: 'sheet_to_csv'
-        uses: dolthub/gsheets-to-csv@1
+        uses: dolthub/gsheets-to-csv/gsheets-to-csv@1
         with:
           sheets: |
             [
