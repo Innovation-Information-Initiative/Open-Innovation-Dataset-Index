@@ -16,6 +16,7 @@ jobs:
         id: 'sheet_to_csv'
         uses: dolthub/gsheets-to-csv@v0.5
         with:
+          creds: ${{ secrets.GSHEET_CREDENTIALS }}
           sheets: |
             [
               { "id": "${{ env.id }}", "range": "${{ env.range }}", "title": "${{ env.name }}" },
