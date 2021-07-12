@@ -1,7 +1,8 @@
 name: index_archive
 
 on:
-  push:
+  schedule:
+  - cron: "0 0 * * *"
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   range: 'A1:Q100'
