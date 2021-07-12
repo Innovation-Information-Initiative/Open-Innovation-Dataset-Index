@@ -1,4 +1,4 @@
-name: sheets_test
+name: index_archive
 
 on:
   push:
@@ -21,7 +21,8 @@ jobs:
           creds: ${{ secrets.GSHEET_CREDENTIALS }}
           sheets: |
             [
-              { "id": "${{ env.id }}" }
+              { "id": "${{ env.id }}", "title": "Open_Patent_Datsets" },
+              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
             ]
       - name: Print CSV
         id: "print_csv"
@@ -34,6 +35,8 @@ jobs:
           done
       - name: commit files
         run: |
+            mv tmp0.csv dataset_index.csv
+            mv tmp1.csv repository_index.csv
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add .
