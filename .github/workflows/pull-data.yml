@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Pulling regular updates from the I3 Essential Patent Datasets sheet
     steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
       - name: Pull GSheet data
         id: 'sheet_to_csv'
         uses: dolthub/gsheets-to-csv@v0.5
@@ -30,3 +32,6 @@ jobs:
           for file in "${file_list[@]}"; do
               echo "$(wc -l $file)"
           done
+      - name: list workspace
+        run: |
+          ls /github/workspace
