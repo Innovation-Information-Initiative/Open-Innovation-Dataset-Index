@@ -5,7 +5,8 @@ on:
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   range: 'A1:Q100'
-
+  remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
+  branch: main
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
