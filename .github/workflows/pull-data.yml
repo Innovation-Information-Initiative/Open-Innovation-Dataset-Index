@@ -6,12 +6,6 @@ env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
   branch: main
-  creds: ${{ secrets.GSHEET_CREDENTIALS }}
-  sheets: |
-    [
-      { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Open_Patent_Datsets" },
-      { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Data_Publishing_Platform_Guide" }
-    ]
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
@@ -23,12 +17,23 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
-      - name: Pull GSheet data
-        id: 'sheet_to_csv'
+      - name: set up Python environment
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
-          python3 -m entrypoint.py
+
+      - name: Pull GSheet data
+        id: 'sheet_to_csv'
+        env: 
+          INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
+          INPUT_SHEETS: |
+            [
+              { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Open_Patent_Datsets" },
+              { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Data_Publishing_Platform_Guide" }
+            ]
+          INPUT_TEMPDIR: 'index_archive'
+        run: python3 entrypoint.py
+          
       # - name: commit files
       #   run: |
       #       git pull
