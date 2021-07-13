@@ -5,9 +5,14 @@ on:
   - cron: "0 0 * * *"
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-  range: 'A1:Q100'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
   branch: main
+  creds: ${{ secrets.GSHEET_CREDENTIALS }}
+  sheets: |
+    [
+      { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Open_Patent_Datsets" },
+      { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Data_Publishing_Platform_Guide" }
+    ]
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
@@ -15,32 +20,21 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
       - name: Pull GSheet data
         id: 'sheet_to_csv'
-        uses: dolthub/gsheets-to-csv@v0.5
-        with:
-          creds: ${{ secrets.GSHEET_CREDENTIALS }}
-          sheets: |
-            [
-              { "id": "${{ env.id }}", "title": "Open_Patent_Datsets" },
-              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
-            ]
-      - name: Print CSV
-        id: "print_csv"
-        env:
-          FILES: ${{ steps.sheet_to_csv.outputs.results }}
         run: |
-          file_list=($FILES)
-          for file in "${file_list[@]}"; do
-              echo "$(wc -l $file)"
-          done
-      - name: commit files
-        run: |
-            git pull
-            sudo mv index_archive/tmp0.csv index_archive/dataset_index.csv
-            sudo mv index_archive/tmp1.csv index_archive/repository_index.csv
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "generated files based on google sheet"
-            git push
+          python3 -m entrypoint.py
+      # - name: commit files
+      #   run: |
+      #       git pull
+      #       sudo mv index_archive/tmp0.csv index_archive/dataset_index.csv
+      #       sudo mv index_archive/tmp1.csv index_archive/repository_index.csv
+      #       git config user.name github-actions
+      #       git config user.email github-actions@github.com
+      #       git add .
+      #       git commit -m "generated files based on google sheet"
+      #       git push
