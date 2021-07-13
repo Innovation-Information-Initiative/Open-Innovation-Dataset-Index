@@ -33,14 +33,11 @@ jobs:
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 entrypoint.py
-          
-      # - name: commit files
-      #   run: |
-      #       git pull
-      #       sudo mv index_archive/tmp0.csv index_archive/dataset_index.csv
-      #       sudo mv index_archive/tmp1.csv index_archive/repository_index.csv
-      #       git config user.name github-actions
-      #       git config user.email github-actions@github.com
-      #       git add .
-      #       git commit -m "generated files based on google sheet"
-      #       git push
+      - name: commit files
+        run: |
+            git pull
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "generated files based on google sheet"
+            git push
