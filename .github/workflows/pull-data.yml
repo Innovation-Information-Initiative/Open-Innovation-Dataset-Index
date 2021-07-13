@@ -28,8 +28,8 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_SHEETS: |
             [
-              { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Open_Patent_Datsets" },
-              { "id": '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms', "title": "Data_Publishing_Platform_Guide" }
+              { "id": "${{ env.id }}", "title": "Open_Patent_Datsets" },
+              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 entrypoint.py
