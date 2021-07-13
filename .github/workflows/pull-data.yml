@@ -1,8 +1,7 @@
 name: index_archive
 
 on:
-  schedule:
-  - cron: "0 0 * * *"
+  push:
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
