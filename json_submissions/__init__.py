@@ -12,6 +12,10 @@ def parse_and_submit(sheet_id, output_dir, creds):
 	with open(os.environ.get("INPUT_FILE"), 'r') as json_file:
 		data = json.load(json_file)
 
+	row=[]
+	for attribute, value in data:
+		row.append(value)
+
 	#append to google sheet
 	sheet = gc.open_by_key(key=sheet_id)
 	try:
@@ -22,4 +26,4 @@ def parse_and_submit(sheet_id, output_dir, creds):
 	# add an empty row to the sheet 
 	# ws.resize(1)
 	# (don't overwrite the whole file or it makes it illegible)
-	ws.append_row(data)
+	ws.append_row(row)
