@@ -5,3 +5,5 @@ This repository is set up to track and version updates to the [I3 Essential Open
 The versioned sheets may be accessed in the folder `index_archive`. If you'd like to browse and query either sheet, you can do so using Github's Flat Data tool [here](https://flatgithub.com/Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker?filename=index_archive%2FOpen_Patent_Datsets.csv&filters=&sha=50624ec98ff61d670b75aa9f9206650395bc624b&sort=Title%2Casc&stickyColumnName=Title).
 
 The Github Action that pulls the sheet is based on Dolthub's [Gsheets-to-csv](https://github.com/dolthub/gsheets-to-csv) action.
+
+<img width="1280" alt="Screenshot 2021-07-13 at 13 35 49" src="https://user-images.githubusercontent.com/16444898/125452541-3ca1ac05-16b8-4fa3-8b21-beee9b6db01b.png">
