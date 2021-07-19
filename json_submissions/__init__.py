@@ -1,7 +1,8 @@
-import re
 import json
 import requests
 import csv
+import logging
+import os
 import gspread
 
 def parse_and_submit(sheet_id, output_dir, creds):
