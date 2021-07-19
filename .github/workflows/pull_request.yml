@@ -1,8 +1,7 @@
 name: index_archive
 
 on:
-  schedule:
-  - cron: "0 0 * * *"
+  push:
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
@@ -10,7 +9,7 @@ env:
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
-    name: Pulling regular updates from the I3 Essential Patent Datasets sheet
+    name: appending submitted dataset to the google sheet
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
@@ -23,22 +22,10 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
 
-      - name: Pull GSheet data
+      - name: Push To GSheet and CSV
         id: 'sheet_to_csv'
-        env: 
+        env:
+          INPUT_FILE: 'json_submission/dataset.json'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
-          INPUT_SHEETS: |
-            [
-              { "id": "${{ env.id }}", "title": "Open_Patent_Datsets" },
-              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
-            ]
           INPUT_TEMPDIR: 'index_archive'
-        run: python3 request.py
-      - name: commit files
-        run: |
-            git pull
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "generated files based on google sheet"
-            git push
+        run: python3 submission.py
