@@ -13,8 +13,9 @@ def parse_and_submit(sheet_id, output_dir, creds):
 		data = json.load(json_file)
 
 	row=[]
-	for attribute, value in data:
-		row.append(value)
+	for item in data:
+		for attribute, value in item:
+			row.append(value)
 
 	#append to google sheet
 	sheet = gc.open_by_key(key=sheet_id)
