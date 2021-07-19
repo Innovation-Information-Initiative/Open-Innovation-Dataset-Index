@@ -25,7 +25,7 @@ jobs:
       - name: Push To GSheet and CSV
         id: 'sheet_to_csv'
         env:
-          INPUT_FILE: 'json_submission/dataset.json'
+          INPUT_FILE: 'json_submissions/dataset.json'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: python3 submission.py
