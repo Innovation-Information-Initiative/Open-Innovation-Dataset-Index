@@ -1,7 +1,7 @@
 import json
 import os
 
-from json_submission import parse_and_submit
+from json_submissions import parse_and_submit
 
 if __name__ == "__main__":
     creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
@@ -9,7 +9,7 @@ if __name__ == "__main__":
     output_dir = os.environ.get("INPUT_TEMPDIR")
 
     parse_and_submit(
-        sheets=sheet_id,
+        sheet_id=sheet_id,
         output_dir=output_dir,
         creds=creds,
     )
