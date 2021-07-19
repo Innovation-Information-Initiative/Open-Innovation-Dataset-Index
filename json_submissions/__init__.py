@@ -2,6 +2,7 @@ import re
 import json
 import requests
 import csv
+import gspread
 
 def parse_and_submit(sheet_id, output_dir, creds):
 	scope = ["https://spreadsheets.google.com/feeds"]
