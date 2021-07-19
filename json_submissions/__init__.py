@@ -14,7 +14,10 @@ def parse_and_submit(sheet_id, output_dir, creds):
 
 	#append to google sheet
 	sheet = gc.open_by_key(key=sheet_id)
-	ws = sheet.worksheets()[0]
+	try:
+		ws = sheet.worksheets()[0]
+	except gspread.exceptions.APIError:
+		raise Exception(f"failed to download sheet {sh}")
 
 	# add an empty row to the sheet 
 	# ws.resize(1)

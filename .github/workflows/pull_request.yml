@@ -26,6 +26,7 @@ jobs:
         id: 'sheet_to_csv'
         env:
           INPUT_FILE: 'json_submissions/dataset.json'
+          INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: python3 submission.py
