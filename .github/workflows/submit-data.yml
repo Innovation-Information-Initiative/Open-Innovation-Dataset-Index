@@ -33,8 +33,8 @@ jobs:
       - id: 'read_files'
         uses: jitterbit/get-changed-files@v1
       - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            echo "Do something with this ${changed_file}."
+          for changed_file in ${{ steps.read_files.outputs.all }}; do
+            echo "found ${changed_file}."
           done
 
       - name: Push To GSheet and CSV
