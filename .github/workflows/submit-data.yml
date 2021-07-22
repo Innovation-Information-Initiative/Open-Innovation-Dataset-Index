@@ -30,9 +30,8 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
 
-      - name: read files
+      - id: read files
         uses: jitterbit/get-changed-files@v1
-      - name: operate on files
       - run: |
           for changed_file in ${{ steps.files.outputs.all }}; do
             echo "Do something with this ${changed_file}."
