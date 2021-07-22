@@ -1,16 +1,24 @@
 name: index_archive
 
 on:
-  push:
+  pull_request:
+    types: [opened]
+    paths:
+    - 'json_submissions/**.md'
+
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
   branch: main
 jobs:
-  pull_sheet:
+  submit:
     runs-on: ubuntu-latest
     name: appending submitted dataset to the google sheet
     steps:
+      - name: say hello
+        run: |
+          echo "running!"
+
       - name: checkout repository
         uses: actions/checkout@v2
       - name: Install Python 3
@@ -21,6 +29,13 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+
+      - name: read files
+        uses: jitterbit/get-changed-files@v1
+        run: |
+          for changed_file in ${{ steps.files.outputs.all }}; do
+            echo "Do something with this ${changed_file}."
+          done
 
       - name: Push To GSheet and CSV
         id: 'sheet_to_csv'
