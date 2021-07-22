@@ -29,19 +29,25 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+          python3 -m pip install python-frontmatter
 
       - id: 'read_files'
         uses: jitterbit/get-changed-files@v1
-      - run: |
-          for changed_file in ${{ steps.read_files.outputs.all }}; do
-            echo "found ${changed_file}."
-          done
-
-      - name: Push To GSheet and CSV
-        id: 'sheet_to_csv'
         env:
           INPUT_FILE: 'json_submissions/dataset.json'
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
-        run: python3 submission.py
+      - run: |
+          for changed_file in ${{ steps.read_files.outputs.all }}; do
+            echo "python3 submission.py ${changed_file}"
+          done
+
+      # - name: Push To GSheet and CSV
+      #   id: 'sheet_to_csv'
+      #   env:
+      #     INPUT_FILE: 'json_submissions/dataset.json'
+      #     INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
+      #     INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
+      #     INPUT_TEMPDIR: 'index_archive'
+      #   run: python3 submission.py
