@@ -1,6 +1,7 @@
 name: index_archive
 
 on:
+  push:
   pull_request:
     types: [opened, reopened]
     paths:
@@ -34,7 +35,7 @@ jobs:
       - id: 'read_files'
         uses: jitterbit/get-changed-files@v1
         env:
-          INPUT_FILE: 'json_submissions/dataset.json'
+          INPUT_FILE: 'datasets/dataset.md'
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
