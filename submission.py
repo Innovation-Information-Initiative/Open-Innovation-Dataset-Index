@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-from json_submissions import parse_and_submit
+from datasets import parse_and_submit
 
 if __name__ == "__main__":
     new_file = sys.argv[1]
@@ -11,6 +11,7 @@ if __name__ == "__main__":
     output_dir = os.environ.get("INPUT_TEMPDIR")
 
     parse_and_submit(
+        new_file=sys.argv[1],
         sheet_id=sheet_id,
         output_dir=output_dir,
         creds=creds,

@@ -3,10 +3,12 @@ import requests
 import csv
 import logging
 import os
+import re
 import gspread
 import frontmatter
+from urllib.parse import urlparse
 
-def parse_and_submit(sheet_id, output_dir, creds):
+def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	# with open(os.environ.get("INPUT_FILE"), 'r') as json_file:
 	# 	data = json.load(json_file)
 	# 	print(data)
@@ -16,10 +18,13 @@ def parse_and_submit(sheet_id, output_dir, creds):
 	# 	print(val)
 	# 	row.append(val)
 
-	dataset = frontmatter.load(os.environ.get('INPUT_FILE'))
-	print('dataset', dataset['title'], dataset['url'])
+	dataset = frontmatter.load(new_file)
+	parsed_url = urlparse(dataset['url'])
+	req = 'https://en.wikipedia.org/api/rest_v1/data/citation/zotero/' + parsed_url.netloc + parsed_url.path + parsed_url.params
+	req = re.sub(r'\/$', '', req)
+	print('request url is ', req)
 
-	res = requests.get('https://en.wikipedia.org/api/rest_v1/data/citation/zotero/' + dataset['url'])
+	res = requests.get(req)
 	json = res.json()
 	print(json)
 
@@ -39,7 +44,7 @@ def parse_and_submit(sheet_id, output_dir, creds):
 	except gspread.exceptions.APIError:
 		raise Exception(f"failed to download sheet {sh}")
 
-	# add an empty row to the sheet 
-	# ws.resize(1)
-	# (don't overwrite the whole file or it makes it illegible)
-	# ws.append_row(row)
+	# # add an empty row to the sheet 
+	# # ws.resize(1)
+	# # (don't overwrite the whole file or it makes it illegible)
+	# # ws.append_row(row)
