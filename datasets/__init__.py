@@ -16,7 +16,7 @@ def parse_and_submit(sheet_id, output_dir, creds):
 	# 	print(val)
 	# 	row.append(val)
 
-	dataset = frontmatter.load('INPUT_FILE')
+	dataset = frontmatter.load(os.environ.get('INPUT_FILE'))
 	print('dataset', dataset['title'], dataset['url'])
 
 	res = requests.get('https://en.wikipedia.org/api/rest_v1/data/citation/zotero/' + dataset['url'])

@@ -39,9 +39,14 @@ jobs:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
-      - run: |
+      - name: iterate over pull request files
+        run: |
           for changed_file in ${{ steps.read_files.outputs.all }}; do
-            echo "python3 submission.py ${changed_file}"
+            if [ "${changed_file: -3}" == ".md" ]
+            then
+              echo "this is a markdown file ${changed_file}"
+              echo "python3 submission.py ${changed_file}"
+            fi
           done
 
       # - name: Push To GSheet and CSV
