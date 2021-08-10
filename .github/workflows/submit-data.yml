@@ -45,7 +45,7 @@ jobs:
             if [ "${changed_file: -3}" == ".md" ]
             then
               echo "this is a markdown file ${changed_file}"
-              echo "python3 submission.py ${changed_file}"
+              python3 submission.py ${changed_file}
             fi
           done
 
