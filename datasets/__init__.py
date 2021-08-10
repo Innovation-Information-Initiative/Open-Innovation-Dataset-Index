@@ -23,7 +23,8 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	except gspread.exceptions.APIError:
 		raise Exception(f"failed to download sheet {sh}")
 
-	df = gd.get_as_dataframe(ws)
+	data = ws.get()
+	df = pd.DataFrame(data)
 	print(df)
 
 	#get citation metadata associated with file
