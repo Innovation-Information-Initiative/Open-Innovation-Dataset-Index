@@ -37,9 +37,9 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	print(json)
 
 	if len(json.items) > 0:
-
+		print('length is greater than 0')
 	else:
-
+		print('length is 0')
 
 	#if nothing returned, just append title and url (in future append message to PR)
 
