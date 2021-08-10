@@ -6,43 +6,46 @@ import os
 import re
 import gspread
 import frontmatter
+import pandas as pd
 from urllib.parse import urlparse
 
 def parse_and_submit(new_file, sheet_id, output_dir, creds):
-	# with open(os.environ.get("INPUT_FILE"), 'r') as json_file:
-	# 	data = json.load(json_file)
-	# 	print(data)
 
-	# row=[]
-	# for val in data.values():
-	# 	print(val)
-	# 	row.append(val)
-
-	dataset = frontmatter.load(new_file)
-	parsed_url = urlparse(dataset['url'])
-	req = 'https://en.wikipedia.org/api/rest_v1/data/citation/zotero/' + parsed_url.netloc + parsed_url.path + parsed_url.params
-	req = re.sub(r'\/$', '', req)
-	print('request url is ', req)
-
-	res = requests.get(req)
-	json = res.json()
-	print(json)
-
+	#get google sheet object
 	scope = ["https://spreadsheets.google.com/feeds"]
 	gc = gspread.service_account_from_dict(creds, scope)
 
-	#parse frontmatter of markdown file
-
-	#get citation metadata from citoid
-
-	# format as json object
-
-	#append to google sheet
+	#download google sheet
 	sheet = gc.open_by_key(key=sheet_id)
 	try:
 		ws = sheet.worksheets()[0]
 	except gspread.exceptions.APIError:
 		raise Exception(f"failed to download sheet {sh}")
+
+	data = ws.get()
+	df = pd.DataFrame(data)
+	print(df)
+
+	#get citation metadata associated with file
+	dataset = frontmatter.load(new_file)
+	parsed_url = urlparse(dataset['url'])
+	req = 'https://en.wikipedia.org/api/rest_v1/data/citation/zotero/' + parsed_url.netloc + parsed_url.path + parsed_url.params
+	req = re.sub(r'\/$', '', req)
+
+	res = requests.get(req)
+	json = res.json()
+	print(json)
+
+	if len(json.items) > 0:
+
+	else:
+
+
+	#if nothing returned, just append title and url (in future append message to PR)
+
+
+	# format as json object
+
 
 	# # add an empty row to the sheet 
 	# # ws.resize(1)

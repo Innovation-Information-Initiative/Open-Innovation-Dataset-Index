@@ -1,11 +1,10 @@
 name: index_archive
 
 on:
-  push:
   pull_request:
     types: [opened, reopened]
     paths:
-    - 'json_submissions/**.md'
+    - 'datasets/**.md'
 
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -30,6 +29,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+          python3 -m pip install pandas
           python3 -m pip install python-frontmatter
 
       - id: 'read_files'
