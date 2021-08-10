@@ -6,6 +6,7 @@ import re
 import gspread
 import frontmatter
 import pandas as pd
+import gspread_dataframe as gd
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -22,8 +23,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	except gspread.exceptions.APIError:
 		raise Exception(f"failed to download sheet {sh}")
 
-	data = ws.get()
-	df = pd.DataFrame(data)
+	df = gd.get_as_dataframe(ws)
 	print(df)
 
 	#get citation metadata associated with file
@@ -40,42 +40,51 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
 	print(list(map(lambda item: item["tag"].split(), result["tags"])))
 
-	# try:
+	try:
 		#crosswalk zotero to sheet schema
-	metadata = {
-		"Title": result["title"],
-		"Record Creation Timestamp": datetime.now(),
-		"URL": result["url"],
-		"DOI?": result["extra"] if "DOI" in result["extra"] else '',
-		"I3 member author?": "",
-		"Would you like to add additional metadata?": '',
-		"Description": result["abstractNote"],
-		"Terms of use": "",
-		"Timeframe": "",
-		"Documentation": "",
-		"Performance/error metrics": "",
-		"Citation": citation,
-		"Open-source code": "",
-		"Versioning": "",
-		"API or Bulk downloads": "",
-		"Keywords associated with this dataset": list(map(lambda item: item["tag"], result["tags"])),
-		"Datasets and publications using this dataset": ""
-	}
+		metadata = {
+			"Title": result["title"],
+			"Record Creation Timestamp": datetime.now(),
+			"URL": result["url"],
+			"DOI?": result["extra"] if "DOI" in result["extra"] else '',
+			"I3 member author?": "",
+			"Would you like to add additional metadata?": '',
+			"Description": result["abstractNote"],
+			"Terms of use": "",
+			"Timeframe": "",
+			"Documentation": "",
+			"Performance/error metrics": "",
+			"Citation": citation,
+			"Open-source code": "",
+			"Versioning": "",
+			"API or Bulk downloads": "",
+			"Keywords associated with this dataset": list(map(lambda item: item["tag"], result["tags"])),
+			"Datasets and publications using this dataset": ""
+		}
+
+	except:
+		e = sys.exc_info()[0]
+		print('could not fetch metadata', e)
+
 
 	new_df = pd.json_normalize(metadata)
-	df = df.append(new_df, verify_integrity=True)
+
+	try:
+		df = df.append(new_df)
+	except:
+		e = sys.exc_info()[0]
+		print('could not append dataframe', e)
+
 	print(df)
-	# except:
-	# 	e = sys.exc_info()[0]
-	# 	print('could not fetch metadata', e)
 
-	#if nothing returned, just append title and url (in future append message to PR)
+	try:
+		gd.set_with_dataframe(ws, df)
+	except:
+		e = sys.exc_info()[0]
+		print('could not write to google sheet', e)
 
-
-	# format as json object
-
-
-	# # add an empty row to the sheet 
-	# # ws.resize(1)
-	# # (don't overwrite the whole file or it makes it illegible)
-	# # ws.append_row(row)
+	try:
+		df.to_csv(os.path.join(output_dir, f"{sh['title']}.csv"), index=False, encoding='utf-8')
+	except:
+		e = sys.exc_info()[0]
+		print('issue writing to csv', e)
