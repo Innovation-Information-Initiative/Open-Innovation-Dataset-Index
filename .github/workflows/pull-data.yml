@@ -14,10 +14,12 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
+
       - name: Install Python 3
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
+
       - name: set up Python environment
         run: |
           python3 -m pip install --upgrade pip
@@ -34,6 +36,7 @@ jobs:
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 request.py
+
       - name: commit files
         run: |
             git pull

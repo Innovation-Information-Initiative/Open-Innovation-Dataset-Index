@@ -33,7 +33,7 @@ jobs:
           python3 -m pip install pandas
           python3 -m pip install python-frontmatter
 
-      - id: 'read_files'
+      - id: 'iterate_files'
         uses: jitterbit/get-changed-files@v1
       - name: iterate over pull request files
         env:
@@ -50,11 +50,16 @@ jobs:
             fi
           done
 
-      # - name: Push To GSheet and CSV
-      #   id: 'sheet_to_csv'
-      #   env:
-      #     INPUT_FILE: 'json_submissions/dataset.json'
-      #     INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-      #     INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
-      #     INPUT_TEMPDIR: 'index_archive'
-      #   run: python3 submission.py
+      - name: commit updated csv
+        run: |
+            git pull
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "generated files based on google sheet"
+            git push
+
+      - name: Merge Pull Request
+        uses: juliangruber/merge-pull-request-action@v1.0.0
+
+
