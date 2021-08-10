@@ -5,10 +5,17 @@ import sys
 import re
 import gspread
 import frontmatter
-import pandas as pd
-import gspread_dataframe as gd
+import os
 from datetime import datetime
 from urllib.parse import urlparse
+
+def write_worksheet_to_csv(data, metadata, file):
+	print(file)
+	with open(file, "w", newline="") as csvfile:
+		writer = csv.writer(csvfile, delimiter=",")
+		writer.writerows(data)
+		writer.writerow(metadata)
+
 
 def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
@@ -21,11 +28,9 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	try:
 		ws = sheet.worksheets()[0]
 	except gspread.exceptions.APIError:
-		raise Exception(f"failed to download sheet {sh}")
+		raise Exception(f"failed to download sheet")
 
 	data = ws.get()
-	df = pd.DataFrame(data)
-	print(df)
 
 	#get citation metadata associated with file
 	dataset = frontmatter.load(new_file)
@@ -34,58 +39,55 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	wiki_req = re.sub(r'\/$', '', wiki_req)
 	wiki_res = requests.get(wiki_req)
 	result = wiki_res.json()[0]
+	# print(result)
 
 	bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url.netloc + parsed_url.path + parsed_url.params
 	bib_req = re.sub(r'\/$', '', bib_req)
-	citation = requests.get(bib_req)
+	citation = requests.get(bib_req).text
+	# print(citation)
 
-	print(list(map(lambda item: item["tag"].split(), result["tags"])))
+	tag_arr = []
+	tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
+	flat_tags = [val for sublist in tags for val in sublist]
 
 	try:
 		#crosswalk zotero to sheet schema
-		metadata = {
-			"Title": result["title"],
-			"Record Creation Timestamp": datetime.now(),
-			"URL": result["url"],
-			"DOI?": result["extra"] if "DOI" in result["extra"] else '',
-			"I3 member author?": "",
-			"Would you like to add additional metadata?": '',
-			"Description": result["abstractNote"],
-			"Terms of use": "",
-			"Timeframe": "",
-			"Documentation": "",
-			"Performance/error metrics": "",
-			"Citation": citation,
-			"Open-source code": "",
-			"Versioning": "",
-			"API or Bulk downloads": "",
-			"Keywords associated with this dataset": list(map(lambda item: item["tag"], result["tags"])),
-			"Datasets and publications using this dataset": ""
-		}
-
+		#cast to strings to append to google sheet
+		metadata = [
+			str(result["title"]), # Title
+			str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
+			str(result["url"]), # URL
+			str(result["extra"] if "DOI" in result["extra"] else ''), # DOI?
+			" ", # I3 member author?
+			' ', # additional metadata?
+			str(result["abstractNote"]), # Description
+			" ", # Terms of use
+			" ", # Timeframe
+			" ", # Documentation
+			" ", # Performance/error metrics
+			str(citation), # Citation
+			" ", # Open-source code
+			" ", # Versioning
+			" ", # API or Bulk downloads
+			str(flat_tags), # Keywords associated with this dataset
+			" " # Datasets and publications using this dataset
+		]
 	except:
 		e = sys.exc_info()[0]
 		print('could not fetch metadata', e)
 
-
-	new_df = pd.json_normalize(metadata)
-
+	#first, append to csv (write updated sheet in case of any changes)
 	try:
-		df = df.append(new_df)
+		filename = os.path.join(output_dir, "Open_Patent_Datasets.csv")
+		write_worksheet_to_csv(data, metadata, filename)
 	except:
 		e = sys.exc_info()[0]
-		print('could not append dataframe', e)
+		print('issue writing to csv', e)
 
-	print(df)
-
+	#then, push row to google sheet
 	try:
-		gd.set_with_dataframe(ws, df)
+		ws.append_row(metadata, value_input_option='RAW', insert_data_option='INSERT_ROWS')
 	except:
 		e = sys.exc_info()[0]
 		print('could not write to google sheet', e)
 
-	try:
-		df.to_csv(os.path.join(output_dir, f"{sh['title']}.csv"), index=False, encoding='utf-8')
-	except:
-		e = sys.exc_info()[0]
-		print('issue writing to csv', e)
