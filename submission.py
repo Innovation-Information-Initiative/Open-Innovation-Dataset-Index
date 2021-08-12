@@ -10,6 +10,8 @@ if __name__ == "__main__":
     sheet_id = os.environ.get("INPUT_SHEET_ID")
     output_dir = os.environ.get("INPUT_TEMPDIR")
 
+    print('parsing data for', new_file)
+
     parse_and_submit(
         new_file=sys.argv[1],
         sheet_id=sheet_id,
