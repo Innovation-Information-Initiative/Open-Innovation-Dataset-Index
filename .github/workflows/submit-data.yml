@@ -37,7 +37,6 @@ jobs:
         uses: jitterbit/get-changed-files@v1
       - name: iterate over pull request files
         env:
-          INPUT_FILE: 'datasets/dataset.md'
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
