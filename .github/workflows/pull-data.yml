@@ -35,7 +35,7 @@ jobs:
               { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
             ]
           INPUT_TEMPDIR: 'index_archive'
-        run: python3 request.py
+        run: python3 pull_sheet.py
 
       - name: commit files
         run: |
