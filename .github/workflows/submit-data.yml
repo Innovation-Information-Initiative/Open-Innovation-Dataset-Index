@@ -29,12 +29,11 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
-          python3 -m pip install gspread_dataframe
-          python3 -m pip install pandas
           python3 -m pip install python-frontmatter
 
-      - id: 'iterate_files'
+      - id: 'read_files'
         uses: jitterbit/get-changed-files@v1
+
       - name: iterate over pull request files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
