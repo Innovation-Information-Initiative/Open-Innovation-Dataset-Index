@@ -6,6 +6,7 @@ import re
 import gspread
 import frontmatter
 import os
+import uuid
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -41,6 +42,13 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	result = wiki_res.json()[0]
 	# print(result)
 
+	#generate UUID for entry and write to file
+	rec_uuid = uuid.uuid4()
+	dataset['uuid'] = str(rec_uuid)
+	f = open(new_file, "w")
+	f.write(frontmatter.dumps(dataset))
+	f.close()
+
 	bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url.netloc + parsed_url.path + parsed_url.params
 	bib_req = re.sub(r'\/$', '', bib_req)
 	citation = requests.get(bib_req).text
@@ -54,6 +62,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 		#crosswalk zotero to sheet schema
 		#cast to strings to append to google sheet
 		metadata = [
+			str(rec_uuid),
 			str(result["title"]), # Title
 			str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
 			str(result["url"]), # URL
