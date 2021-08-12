@@ -7,8 +7,8 @@ import gspread
 import frontmatter
 import os
 import uuid
+import urllib.parse
 from datetime import datetime
-from urllib.parse import urlparse
 
 def write_worksheet_to_csv(data, metadata, file):
 	print(file)
@@ -35,12 +35,12 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
 	#get citation metadata associated with file
 	dataset = frontmatter.load(new_file)
-	parsed_url = urlparse(dataset['url'])
-	wiki_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/' + parsed_url.netloc + parsed_url.path + parsed_url.params
-	wiki_req = re.sub(r'\/$', '', wiki_req)
+	parsed_url = urllib.parse.quote(dataset['url'], safe='')
+	# parsed_url = re.sub(r'www\.|^https?:\/\/|\/$', '', dataset['url'])
+	wiki_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/' + parsed_url
+	print('request url is', wiki_req)
 	wiki_res = requests.get(wiki_req)
 	result = wiki_res.json()[0]
-	# print(result)
 
 	#generate UUID for entry and write to file
 	rec_uuid = uuid.uuid4()
@@ -49,10 +49,8 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	f.write(frontmatter.dumps(dataset))
 	f.close()
 
-	bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url.netloc + parsed_url.path + parsed_url.params
-	bib_req = re.sub(r'\/$', '', bib_req)
+	bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
 	citation = requests.get(bib_req).text
-	# print(citation)
 
 	tag_arr = []
 	tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))

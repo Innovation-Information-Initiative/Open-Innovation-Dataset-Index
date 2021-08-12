@@ -15,9 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     name: appending submitted dataset to the google sheet
     steps:
-      - name: say hello
-        run: |
-          echo "running!"
 
       - name: checkout repository
         uses: actions/checkout@v2
