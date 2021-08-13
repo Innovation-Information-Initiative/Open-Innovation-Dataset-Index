@@ -96,8 +96,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				" ", # I3 member author?
 				' ', # additional metadata?
 				str(dataset["description"] if "description" in dataset 
-					else result["abstractNote"] 
-					if "abstractNote" in result else ''), # Description
+					else result["abstractNote"] if "abstractNote" in result else ''), # Description
 				" ", # Terms of use
 				" ", # Timeframe
 				" ", # Documentation

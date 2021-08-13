@@ -47,7 +47,8 @@ jobs:
 
       - name: commit updated csv
         run: |
-            git pull
+            git status
+            git pull origin main
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add .
