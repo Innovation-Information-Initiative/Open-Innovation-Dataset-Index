@@ -31,7 +31,7 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_SHEETS: |
             [
-              { "id": "${{ env.id }}", "title": "Open_Patent_Datsets" },
+              { "id": "${{ env.id }}", "title": "Open_Patent_Datasets" },
               { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
             ]
           INPUT_TEMPDIR: 'index_archive'

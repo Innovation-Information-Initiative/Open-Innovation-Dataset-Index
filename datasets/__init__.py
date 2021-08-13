@@ -33,14 +33,16 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
 	data = ws.get()
 
-	#get citation metadata associated with file
+	#get metadata associated with dataset
 	dataset = frontmatter.load(new_file)
 	parsed_url = urllib.parse.quote(dataset['url'], safe='')
-	# parsed_url = re.sub(r'www\.|^https?:\/\/|\/$', '', dataset['url'])
 	wiki_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/' + parsed_url
-	print('request url is', wiki_req)
 	wiki_res = requests.get(wiki_req)
-	result = wiki_res.json()[0]
+	try:
+		result = wiki_res.json()[0]
+	except:
+		print('could not complete request')
+		return
 
 	#generate UUID for entry and write to file
 	rec_uuid = uuid.uuid4()
@@ -49,39 +51,67 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	f.write(frontmatter.dumps(dataset))
 	f.close()
 
-	bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
-	citation = requests.get(bib_req).text
-
-	tag_arr = []
-	tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
-	flat_tags = [val for sublist in tags for val in sublist]
-
-	try:
-		#crosswalk zotero to sheet schema
-		#cast to strings to append to google sheet
+	# if it's a webpage, zotero did not complete request
+	if 'itemType' in result and result['itemType'] == 'webpage':
+		print('no citation metadata available for this source')
 		metadata = [
-			str(rec_uuid),
-			str(result["title"]), # Title
-			str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
-			str(result["url"]), # URL
-			str(result["extra"] if "DOI" in result["extra"] else ''), # DOI?
-			" ", # I3 member author?
-			' ', # additional metadata?
-			str(result["abstractNote"]), # Description
-			" ", # Terms of use
-			" ", # Timeframe
-			" ", # Documentation
-			" ", # Performance/error metrics
-			str(citation), # Citation
-			" ", # Open-source code
-			" ", # Versioning
-			" ", # API or Bulk downloads
-			str(flat_tags), # Keywords associated with this dataset
-			" " # Datasets and publications using this dataset
+				str(rec_uuid),
+				str(dataset["title"]), # Title
+				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
+				str(dataset["url"]), # URL
+				" " # DOI?
+				" ", # I3 member author?
+				" ", # additional metadata?
+				str(dataset["description"] if "description" in dataset else ''), # Description
+				" ", # Terms of use
+				" ", # Timeframe
+				" ", # Documentation
+				" ", # Performance/error metrics
+				str(dataset["citation"] if "citation" in dataset else ''), # Citation
+				" ", # Open-source code
+				" ", # Versioning
+				" ", # API or Bulk downloads
+				str("".join(dataset["tags"]) if "tags" in dataset else ''), # Keywords associated with this dataset
+				" " # Datasets and publications using this dataset
 		]
-	except:
-		e = sys.exc_info()[0]
-		print('could not fetch metadata', e)
+
+
+	else:
+		tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
+		flat_tags = [val for sublist in tags for val in sublist]
+
+		# get citation associated with dataset
+		bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
+		citation = requests.get(bib_req).text
+
+		try:
+			#crosswalk zotero to sheet schema
+			#cast to strings to append to google sheet
+			metadata = [
+				str(rec_uuid),
+				str(result["title"] if result["title"] else dataset["title"]), # Title
+				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
+				str(result["url"]if result["url"] else dataset["url"]), # URL
+				str(result["extra"] if "DOI" in result["extra"] else ''), # DOI?
+				" ", # I3 member author?
+				' ', # additional metadata?
+				str(dataset["description"] if "description" in dataset 
+					else result["abstractNote"] 
+					if "abstractNote" in result else ''), # Description
+				" ", # Terms of use
+				" ", # Timeframe
+				" ", # Documentation
+				" ", # Performance/error metrics
+				str(citation if citation else ''), # Citation
+				" ", # Open-source code
+				" ", # Versioning
+				" ", # API or Bulk downloads
+				str("".join(flat_tags)), # Keywords associated with this dataset
+				" " # Datasets and publications using this dataset
+			]
+		except:
+			e = sys.exc_info()[0]
+			print('could not fetch metadata', e)
 
 	#first, append to csv (write updated sheet in case of any changes)
 	try:
