@@ -51,13 +51,12 @@ jobs:
             git config user.email github-actions@github.com
             git status
             git fetch
-            git checkout -b temp2
+            git checkout -b temp3
             git add .
             git commit -m "committing files"
-            git pull origin temp2
-            git push --set-upstream origin temp2
             git checkout main
-            git pull origin temp2
+            git pull temp3
+            git branch -d temp3
             git push origin main
 
       - name: Merge Pull Request
