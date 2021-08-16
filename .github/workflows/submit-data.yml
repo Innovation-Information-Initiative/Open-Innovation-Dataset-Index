@@ -45,21 +45,11 @@ jobs:
             fi
           done
 
-      - name: commit updated csv
-        run: |
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git status
-            git fetch
-            git checkout -b temp3
-            git add .
-            git commit -m "committing files"
-            git checkout main
-            git pull temp3
-            git branch -d temp3
-            git push origin main
-
-      - name: Merge Pull Request
-        uses: juliangruber/merge-pull-request-action@v1.0.0
-
-
+      - uses: reitermarkus/automerge@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: rebase
+          do-not-merge-labels: never-merge
+          required-labels: automerge
+          pull-request: ${{ github.event.inputs.pull-request }}
+          dry-run: true
