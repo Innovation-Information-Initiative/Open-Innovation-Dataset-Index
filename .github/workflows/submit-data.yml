@@ -47,13 +47,15 @@ jobs:
 
       - name: commit updated csv
         run: |
-            git status
-            git pull origin main
             git config user.name github-actions
             git config user.email github-actions@github.com
+            git status
+            git checkout –b temp
             git add .
             git commit -m "generated files based on google sheet"
-            git push
+            git branch –f main temp
+            git branch –d temp
+            git push origin main
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1.0.0
