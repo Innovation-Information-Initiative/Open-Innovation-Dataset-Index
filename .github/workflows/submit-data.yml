@@ -52,6 +52,9 @@ jobs:
             git status
             git fetch
             git checkout -b temp
+            git add .
+            git commit -m "committing files"
+            git push --set-upstream origin temp
             git branch –f main temp
             git branch –d temp
             git push origin main
