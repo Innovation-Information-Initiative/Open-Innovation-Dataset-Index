@@ -55,9 +55,9 @@ jobs:
             git add .
             git commit -m "committing files"
             git push --set-upstream origin temp
-            git branch –f main temp
-            git branch –d temp
-            git push origin main
+            git checkout main
+            git pull origin temp
+            git push
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1.0.0
