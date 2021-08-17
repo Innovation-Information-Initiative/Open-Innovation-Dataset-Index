@@ -49,9 +49,8 @@ jobs:
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.TOKEN_GIT }}
-          number: 1
+          number: ${{ github.event.inputs.pull-request.number }}
           method: squash
-          pull-request: ${{ github.event.inputs.pull-request }}
 
       # - uses: reitermarkus/automerge@v1.5.2
       #   with:
