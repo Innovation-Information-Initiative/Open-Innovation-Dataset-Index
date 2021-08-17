@@ -48,7 +48,6 @@ jobs:
       - name: Get details of PR
         run:
           echo ${{ github.event.inputs.pull_request }}
-        run:
           echo ${{ github.event.inputs.pull_request.number }}
 
       - name: Merge Pull Request
