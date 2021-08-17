@@ -146,3 +146,31 @@ dc1af313-2dec-4d92-bd57-1648ed54b611,HistPat Dataset,"08/17/2021, 11:28:21",http
 	note = {type: dataset},
 }
 ", , , ,, 
+ff086e17-fb67-410e-a398-80941209dbba,HistPat Dataset,"08/17/2021, 11:32:03",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,, , ,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
+@article{petralia_histpat_2019,
+	title = {{HistPat} {Dataset}},
+	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W},
+	doi = {10.7910/DVN/BPC15W},
+	abstract = {HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo...},
+	language = {en},
+	urldate = {2021-08-17},
+	author = {Petralia, Sergio and Balland, Pierre-Alexandre and Rigby, David},
+	month = jan,
+	year = {2019},
+	note = {type: dataset},
+}
+", , , ,, 
+e77e8861-ba0c-4203-aa76-e0016ef38639,HistPat Dataset,"08/17/2021, 11:35:22",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,, , ,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
+@article{petralia_histpat_2019,
+	title = {{HistPat} {Dataset}},
+	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W},
+	doi = {10.7910/DVN/BPC15W},
+	abstract = {HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo...},
+	language = {en},
+	urldate = {2021-08-17},
+	author = {Petralia, Sergio and Balland, Pierre-Alexandre and Rigby, David},
+	month = jan,
+	year = {2019},
+	note = {type: dataset},
+}
+", , , ,, 
