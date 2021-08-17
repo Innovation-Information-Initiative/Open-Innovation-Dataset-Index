@@ -50,8 +50,6 @@ jobs:
       - name: get PR branch
         run: |
           echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
-          echo ${{ BRANCH_NAME }}
-
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1
