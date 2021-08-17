@@ -47,9 +47,11 @@ jobs:
             fi
           done
 
-      - name: commit update to files
+      - name: get PR branch
         run: |
           echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+          echo ${{ github.ref }}
+
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1
