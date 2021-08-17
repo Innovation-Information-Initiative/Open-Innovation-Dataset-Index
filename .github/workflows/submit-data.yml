@@ -45,9 +45,17 @@ jobs:
             fi
           done
 
-      - uses: reitermarkus/automerge@v1.5.2
+      - name: Merge Pull Request
+        uses: juliangruber/merge-pull-request-action@v1
         with:
-          token: ${{ secrets.TOKEN_GIT }}
-          merge-method: rebase
-          do-not-merge-labels: never-merge
+          github-token: ${{ secrets.TOKEN_GIT }}
+          number: 1
+          method: squash
           pull-request: ${{ github.event.inputs.pull-request }}
+
+      # - uses: reitermarkus/automerge@v1.5.2
+      #   with:
+      #     token: ${{ secrets.TOKEN_GIT }}
+      #     merge-method: rebase
+      #     do-not-merge-labels: never-merge
+      #     pull-request: ${{ github.event.inputs.pull-request }}
