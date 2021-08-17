@@ -49,6 +49,8 @@ jobs:
         run:
           echo ${{ github.event.inputs.pull_request }}
           echo ${{ github.event.inputs.pull_request.number }}
+          echo ${{ github.event.inputs.pull-request }}
+          echo ${{ github.event.inputs.pull-request.number }}
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1
