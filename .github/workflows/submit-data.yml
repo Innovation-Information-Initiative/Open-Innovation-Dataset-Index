@@ -47,16 +47,13 @@ jobs:
 
       - name: Get details of PR
         run:
-          echo ${{ github.event.inputs.pull_request }}
-          echo ${{ github.event.inputs.pull_request.number }}
-          echo ${{ github.event.inputs.pull-request }}
-          echo ${{ github.event.inputs.pull-request.number }}
+          echo ${{ github.event.number }}
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1
         with:
           github-token: ${{ secrets.TOKEN_GIT }}
-          number: ${{ github.event.inputs.pull_request.number }}
+          number: ${{ github.event.number }}
           method: squash
 
       # - uses: reitermarkus/automerge@v1.5.2
