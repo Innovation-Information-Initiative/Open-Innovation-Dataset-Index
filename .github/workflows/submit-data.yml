@@ -16,13 +16,15 @@ jobs:
     name: appending submitted dataset to the google sheet
     steps:
 
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v2
+
       - name: Install Python 3
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
-      - name: set up Python environment
+
+      - name: Set up Python environment
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
@@ -45,9 +47,9 @@ jobs:
             fi
           done
 
-      - name: Get details of PR
+      - name: commit update to files
         run:
-          echo ${{ github.event.number }}
+          echo "branch name is ${{ github.event.ref }}"
 
       - name: Merge Pull Request
         uses: juliangruber/merge-pull-request-action@v1
