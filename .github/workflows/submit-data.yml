@@ -48,7 +48,7 @@ jobs:
           done
 
       - name: commit update to files
-        run:
+        run: |
           echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
 
       - name: Merge Pull Request
