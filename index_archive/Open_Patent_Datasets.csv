@@ -59,3 +59,18 @@ We use information about U.S. residing inventors from patents which include name
 ", , , ,"Inventors, Ages, Gender, Death Dates, Patents", 
 fddedcfc-9f4e-47c6-bc82-3e04bb3c4262,Newpaper.com Index,"08/12/2021, 15:45:21",https://elisabethperlman.net/code.html,  , ,, , , , ,, , , ,, 
 6ba552a7-ec31-4710-9d8b-d8177b293a90,Tools for Harmonizing County Boundaries,"08/13/2021, 08:55:41",https://elisabethperlman.net/code.html,  , ,"This tool creates the csv tables that allow county boundaries to be synchronized to a base year, exported to the directory you run this from. While this code takes shape files of any type and preforms an intersect, it was written to follow the method used in Hornbeck (2010) (see https://www.dropbox.com/s/1cygkeoo4p89vrw/BWreplication_BorderFixes.rar for those replication files), that is to say, I wrote it to take shapefiles of US counties from NHGIS from a selections of years and then to reapportioning them by area to the boundaries as they were in a base year. The stata code that uses these csvs was writen to be used with Haines' census data (ICPSR 02896).", , , , ,, , , ,, 
+1f556a96-61fc-4d4c-a046-ed711d9807f9,Long-Term Productivity database,"08/16/2021, 13:46:40",http://longtermproductivity.com/download.html,  , ,"The Long-Term Productivity database was created as a project at the Bank of France in 2013 by Antonin Bergeaud, Gilbert Cette and Remy Lecat. Following the work of Cette, Mairesse and Kocoglu (2009), we extended the database to include 17 countries in the latest version (2016). The latest version of the database includes the following countries -- Australia, Belgium, Canada, Denmark, Germany, Finland, France, Italy, Japan, the Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States. We offer data on Total Factor Productivity per hour worked, Labor productivity per hour worked, capital intensity and GDP per capita. These series cover at least the period 1890 to present annually. In addition, other data corresponding to each of the papers linked to this project are available. This includes age of capital stock, education attainment, electricity production per capita.", , , , ,, , , ,, 
+410dd9de-2520-4f57-a409-0ade7ec11b65,Collection of Historical Data on the Uses of Petroleum International Network,"08/16/2021, 14:36:05",http://www.longtermproductivity.com/chdupin/,  , ,, , , , ,, , , ,, 
+38d33849-fad2-4171-b72e-82ae4a926561,"Classification Data for ""Classifying Patents Based on their Semantic Content""","08/16/2021, 16:24:37",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY,, , ,"Classification Data for Bergeaud, Potiron and Raimbault, 2017, Classifying Patents Based on their Semantic Content.", , , , ,"
+@article{bergeaud_classification_2017,
+	title = {Classification {Data} for ""{Classifying} {Patents} {Based} on their {Semantic} {Content}""},
+	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY},
+	abstract = {Classification Data for Bergeaud, Potiron and Raimbault, 2017, Classifying Patents Based on their Semantic Content.},
+	language = {en},
+	urldate = {2021-08-16},
+	author = {Bergeaud, Antonin and Yoann, Potiron and Raimbault, Juste},
+	month = apr,
+	year = {2017},
+	note = {type: dataset},
+}
+", , , ,, 
