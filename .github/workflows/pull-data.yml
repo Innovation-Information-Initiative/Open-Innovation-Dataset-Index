@@ -24,6 +24,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+          python3 -m pip install six
 
       - name: Pull GSheet data
         id: 'sheet_to_csv'
