@@ -89,14 +89,14 @@ fb81106d-3933-488b-acd9-aff177f82423,HistPat International Dataset,"08/17/2021, 
 	note = {type: dataset},
 }
 ", , , ,, 
-2849df62-5c35-4df9-8d23-c42847bcdad3,HistPat Dataset,"08/17/2021, 09:28:09",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
+40f30ff4-d152-4aa8-89a9-e31dddc812dc,HistPat Dataset,"08/24/2021, 15:31:52",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,10.7910/DVN/BPC15W,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
 @article{petralia_histpat_2019,
 	title = {{HistPat} {Dataset}},
 	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W},
 	doi = {10.7910/DVN/BPC15W},
 	abstract = {HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo...},
 	language = {en},
-	urldate = {2021-08-17},
+	urldate = {2021-08-24},
 	author = {Petralia, Sergio and Balland, Pierre-Alexandre and Rigby, David},
 	month = jan,
 	year = {2019},
@@ -143,20 +143,6 @@ fb46d05b-2bd9-41fc-a739-91b77a2e85d6,Imputation of missing applicant country cod
 	author = {Seliger, Florian},
 	month = oct,
 	year = {2020},
-	note = {type: dataset},
-}
-", , , ,, 
-40f30ff4-d152-4aa8-89a9-e31dddc812dc,HistPat Dataset,"08/24/2021, 15:31:52",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,10.7910/DVN/BPC15W,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
-@article{petralia_histpat_2019,
-	title = {{HistPat} {Dataset}},
-	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W},
-	doi = {10.7910/DVN/BPC15W},
-	abstract = {HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo...},
-	language = {en},
-	urldate = {2021-08-24},
-	author = {Petralia, Sergio and Balland, Pierre-Alexandre and Rigby, David},
-	month = jan,
-	year = {2019},
 	note = {type: dataset},
 }
 ", , , ,, 
