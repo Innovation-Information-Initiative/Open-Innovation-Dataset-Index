@@ -58,7 +58,7 @@ jobs:
           number: ${{ github.event.number }}
           method: squash
 
-      - name: commit files
+      - name: Commit files
         run: |
             git fetch
             git checkout main

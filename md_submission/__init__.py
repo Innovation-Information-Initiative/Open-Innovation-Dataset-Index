@@ -33,9 +33,14 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
 	data = ws.get()
 
-	#get metadata associated with dataset
+	#get frontmatter of changed file
 	dataset = frontmatter.load(new_file)
-	parsed_url = urllib.parse.quote(dataset['url'], safe='')
+
+	#check UUID against UUIDs in sheet -- if there then just update record
+	print(data)
+
+	#get metadata associated with dataset
+	parsed_url = urllib.parse.quote(dataset['url'], safe=" ")
 	wiki_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/' + parsed_url
 	wiki_res = requests.get(wiki_req)
 	try:
@@ -59,19 +64,17 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
 				str(dataset["url"]), # URL
-				" " # DOI?
-				" ", # I3 member author?
-				" ", # additional metadata?
-				str(dataset["description"] if "description" in dataset else ''), # Description
-				" ", # Terms of use
-				" ", # Timeframe
-				" ", # Documentation
-				" ", # Performance/error metrics
-				str(dataset["citation"] if "citation" in dataset else ''), # Citation
-				" ", # Open-source code
-				" ", # Versioning
-				" ", # API or Bulk downloads
-				str("".join(dataset["tags"]) if "tags" in dataset else ''), # Keywords associated with this dataset
+				str(dataset["DOI"] if "DOI" in dataset else " "), # DOI?
+				str(dataset["description"] if "description" in dataset else " "), # Description
+				str(dataset["terms"] if "terms" in dataset else " "), # Terms of use
+				str(dataset["timeframe"] if "timeframe" in dataset else " "), # Timeframe
+				str(dataset["documentation"] if "documentation" in dataset else " "), # Documentation
+				str(dataset["error_metrics"] if "error_metrics" in dataset else " "), # Performance/error metrics
+				str(dataset["citation"] if "citation" in dataset else " "), # Citation
+				str(dataset["code"] if "code" in dataset else " "), # Open-source code
+				str(dataset["versioning"] if "versioning" in dataset else " "), # Versioning
+				str(dataset["access"] if "access" in dataset else " "), # API or Bulk downloads
+				str("".join(dataset["tags"]) if "tags" in dataset else " "), # Keywords associated with this dataset
 				" " # Datasets and publications using this dataset
 		]
 
@@ -79,6 +82,8 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	else:
 		tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
 		flat_tags = [val for sublist in tags for val in sublist]
+		if "tags" in dataset:
+			flat_tags = flat_tags + dataset["tags"]
 
 		# get citation associated with dataset
 		bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
@@ -91,20 +96,17 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(rec_uuid),
 				str(result["title"] if result["title"] else dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
-				str(result["url"]if result["url"] else dataset["url"]), # URL
-				str(result["extra"] if "DOI" in result["extra"] else ''), # DOI?
-				" ", # I3 member author?
-				' ', # additional metadata?
-				str(dataset["description"] if "description" in dataset 
-					else result["abstractNote"] if "abstractNote" in result else ''), # Description
-				" ", # Terms of use
-				" ", # Timeframe
-				" ", # Documentation
-				" ", # Performance/error metrics
-				str(citation if citation else ''), # Citation
-				" ", # Open-source code
-				" ", # Versioning
-				" ", # API or Bulk downloads
+				str(result["url"] if "url" in result else dataset["url"]), # URL
+				str(result["DOI"] if "DOI" in result else result["extra"] if "DOI" in result["extra"] else " "), # DOI?
+				str(dataset["description"] if "description" in dataset else result["abstractNote"] if "abstractNote" in result else " "), # Description
+				str(dataset["terms"] if "terms" in dataset else " "), # Terms of use
+				str(dataset["timeframe"] if "timeframe" in dataset else " "), # Timeframe
+				str(dataset["documentation"] if "documentation" in dataset else " "), # Documentation
+				str(dataset["error_metrics"] if "error_metrics" in dataset else " "), # Performance/error metrics
+				str(citation if citation else " "), # Citation
+				str(dataset["code"] if "code" in dataset else " "), # Open-source code
+				str(dataset["versioning"] if "versioning" in dataset else " "), # Versioning
+				str(dataset["access"] if "access" in dataset else " "), # API or Bulk downloads
 				str("".join(flat_tags)), # Keywords associated with this dataset
 				" " # Datasets and publications using this dataset
 			]

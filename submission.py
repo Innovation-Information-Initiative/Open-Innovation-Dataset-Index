@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-from datasets import parse_and_submit
+from md_submission import parse_and_submit
 
 if __name__ == "__main__":
     new_file = sys.argv[1]
