@@ -146,7 +146,7 @@ fb46d05b-2bd9-41fc-a739-91b77a2e85d6,Imputation of missing applicant country cod
 	note = {type: dataset},
 }
 ", , , ,, 
-f59ee440-6246-4571-8371-17616fd94303,HistPat Dataset,"08/24/2021, 16:21:18",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,10.7910/DVN/BPC15W,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
+40f30ff4-d152-4aa8-89a9-e31dddc812dc,HistPat Dataset,"08/24/2021, 15:31:52",https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W,10.7910/DVN/BPC15W,HistPat provides the geography of historical patents granted by the United States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo..., , , , ,"
 @article{petralia_histpat_2019,
 	title = {{HistPat} {Dataset}},
 	url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W},
