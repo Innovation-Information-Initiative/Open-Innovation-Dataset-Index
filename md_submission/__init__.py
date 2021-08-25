@@ -56,6 +56,8 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	f.write(frontmatter.dumps(dataset))
 	f.close()
 
+
+	# add licenses!!
 	# if it's a webpage, zotero did not complete request
 	if 'itemType' in result and result['itemType'] == 'webpage':
 		print('no citation metadata available for this source')
