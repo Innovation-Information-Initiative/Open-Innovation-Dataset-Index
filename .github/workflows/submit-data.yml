@@ -2,7 +2,7 @@ name: index_archive
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
     paths:
     - 'datasets/**.md'
 
