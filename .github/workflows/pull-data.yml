@@ -24,6 +24,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+          python3 -m pip install python-frontmatter
           python3 -m pip install six
 
       - name: Pull GSheet data
@@ -38,11 +39,14 @@ jobs:
           INPUT_TEMPDIR: 'index_archive'
         run: python3 pull_sheet.py
 
-      - name: commit files
+      - name: Generate Markdown Files
+        run: python3 generate_markdown.py
+
+      - name: Commit files
         run: |
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add .
+            git add index_archive
             git commit -m "generated files based on google sheet"
             git push
