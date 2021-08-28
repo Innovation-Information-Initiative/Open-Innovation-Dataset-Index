@@ -52,11 +52,8 @@ jobs:
           do
             echo "$file"
             if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
-              echo "This modified file is not under the 'db' folder."
+              echo "updated files"
               echo "::set-output name=run_job::true"
-              break
-            else
-              echo "::set-output name=run_job::false"
             fi
           done < files.txt
 
