@@ -54,8 +54,7 @@ jobs:
           done < files.txt
 
       - name: Commit files
-        needs: check
-        if: needs.check.outputs.run_pull == 'true'
+        if: steps.check_diff.outputs.run_pull == 'true'
         run: |
             git pull
             git config user.name github-actions
