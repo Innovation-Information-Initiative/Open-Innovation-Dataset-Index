@@ -47,6 +47,6 @@ jobs:
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add index_archive
+            git add index_archive datasets
             git commit -m "generated files based on google sheet"
             git push
