@@ -50,13 +50,14 @@ jobs:
           git diff --name-only > files.txt
           while IFS= read -r file
           do
-            echo $file
+            echo "$file"
             if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
               echo "This modified file is not under the 'db' folder."
               echo "::set-output name=run_job::true"
               break
             else
               echo "::set-output name=run_job::false"
+            fi
           done < files.txt
 
       - name: Commit files
