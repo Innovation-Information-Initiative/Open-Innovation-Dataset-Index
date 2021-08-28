@@ -1,4 +1,4 @@
-name: index_archive
+name: markdown_submission
 
 on:
   pull_request:
