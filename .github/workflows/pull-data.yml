@@ -39,7 +39,23 @@ jobs:
           INPUT_TEMPDIR: 'index_archive'
         run: python3 pull_sheet.py
 
+      - name: Check if files changed
+        id: check_diff
+        run: |
+          echo "=============== list changed files ==============="
+          git diff --name-only HEAD^ HEAD
+          
+          echo "========== check paths of changed files =========="
+          git diff --name-only HEAD^ HEAD > files.txt
+          while IFS= read -r file
+          do
+            echo $file
+            echo "::set-output name=run_pull::true"
+          done < files.txt
+
       - name: Commit files
+        needs: check
+        if: needs.check.outputs.run_pull == 'true'
         run: |
             git pull
             git config user.name github-actions
