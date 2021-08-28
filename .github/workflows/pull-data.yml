@@ -27,7 +27,7 @@ jobs:
           python3 -m pip install python-frontmatter
           python3 -m pip install six
 
-      - name: Pull GSheet data
+      - name: Pull GSheet data and generate markdown
         id: 'sheet_to_csv'
         env: 
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
@@ -38,9 +38,6 @@ jobs:
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 pull_sheet.py
-
-      - name: Generate Markdown Files
-        run: python3 generate_markdown.py
 
       - name: Commit files
         run: |
