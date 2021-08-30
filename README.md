@@ -12,7 +12,7 @@ When a markdown file is added to the `datasets/` repository, a second GitHub act
 
 ## Adding A Dataset via Pull Request
 
-If you'd like to add datasets via pull request, please use the template file [`datasets/template.md`](datasets/template.md) as a reference.
+If you'd like to add datasets via pull request, please use the template file [`datasets/_template.md`](datasets/_template.md) as a reference.
 
 ```
 ---
@@ -37,7 +37,7 @@ body text. info about `queries`, links and images goes here :)
 
 **Steps**
 
-1. pull the repository, create a markdown in the folder 'datasets' based on the [template file](datasets/template.md) 
+1. pull the repository, create a markdown in the folder 'datasets' based on the [template file](datasets/_template.md) 
 2. add as much metadata as you like, and create a pull request in the repository
 3. all being well, this should automatically merge. if not, you can check the GitHub actions log, or open an issue. (make sure it's in the correct folder, and has a .md file extension before doing so)
 
