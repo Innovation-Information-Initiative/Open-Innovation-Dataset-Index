@@ -1,11 +1,67 @@
 import csv
 import logging
 import os
-
+import frontmatter
 import gspread  # type: ignore
 
 logger = logging.getLogger("gsheets-to-csv")
 logger.setLevel(logging.INFO)
+
+# def json_from_data(data):
+#     result = []
+#     headers = data[0]
+#     del data[0]
+
+#     for row in data:
+#         print(row)
+#         obj = {}
+#         for i, header in enumerate(headers):
+#             try:
+#                 obj[header] = row[i]
+#             except:
+#                 print('end of row')
+#         result.append(obj)
+
+#     return result
+
+
+def generate_markdown(data):
+    # remove headers
+    del data[0]
+
+    uuids = []
+    for file in os.listdir('datasets'):
+        if file.endswith(".md"):
+            # if the UUIDs match, remove from the list
+            dataset = frontmatter.load(os.path.join('datasets/', file))
+            if 'uuid' in dataset: 
+                uuids.append(dataset['uuid'])
+                
+    to_gen = []
+    for i, row in enumerate(data):
+        if row[0] not in uuids:
+            to_gen.append(data[i])
+
+    # json_gen = json_from_data(to_gen)
+    # print(json_gen)
+
+    for row in to_gen:
+        #create title
+        filepath = os.path.join('datasets/', row[3] + '.md')
+
+        # create file
+        f = open(filepath, 'w')
+
+        dataset = frontmatter.load(filepath)
+        dataset["uuid"] = row[0]
+        dataset["title"] = row[1]
+        dataset["url"] = row[4]
+        if row[5] != '':
+            dataset["doi"] = row[5]
+        dataset["description"] = row[6].replace('\n', ' ')
+
+        f.write(frontmatter.dumps(dataset))
+        f.close()
 
 
 def write_worksheet_to_csv(data, file):
@@ -45,6 +101,10 @@ def load_sheets_into_csv(sheets, output_dir, creds):
 
         filename = os.path.join(output_dir, f"{sh['title']}.csv")
         write_worksheet_to_csv(data, filename)
+
+        if sh["title"] == 'Open_Patent_Datasets':
+            generate_markdown(data)
+
         outputs.append(filename)
         logger.info(f"sheet written to {filename}")
     return outputs

@@ -1,5 +1,6 @@
 ---
-title: HistPat Dataset
+description: ''
+title: Geography of patents
 url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
-timeframe: 1959-2021
+uuid: f9127a91-85f3-483d-a817-437671875d56
 ---

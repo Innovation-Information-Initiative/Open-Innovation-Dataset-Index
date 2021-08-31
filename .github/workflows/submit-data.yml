@@ -1,8 +1,8 @@
-name: index_archive
+name: markdown_submission
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
     paths:
     - 'datasets/**.md'
 
@@ -32,7 +32,7 @@ jobs:
           python3 -m pip install six
 
       - id: 'read_files'
-        uses: jitterbit/get-changed-files@v1
+        uses: Ana06/get-changed-files@v2.0.0
 
       - name: iterate over pull request files
         env:

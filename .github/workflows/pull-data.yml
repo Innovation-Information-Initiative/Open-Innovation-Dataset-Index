@@ -1,6 +1,7 @@
 name: index_archive
 
 on:
+  push:
   schedule:
   - cron: "*/5 * * * *"
 env:
@@ -24,9 +25,10 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install gspread
+          python3 -m pip install python-frontmatter
           python3 -m pip install six
 
-      - name: Pull GSheet data
+      - name: Pull GSheet data and generate markdown
         id: 'sheet_to_csv'
         env: 
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
@@ -38,11 +40,29 @@ jobs:
           INPUT_TEMPDIR: 'index_archive'
         run: python3 pull_sheet.py
 
-      - name: commit files
+      - name: Check if files changed
+        id: check_diff
+        run: |
+          echo "list changed files:"
+          git diff --name-only
+          
+          echo "check paths of changed files:"
+          git diff --name-only > files.txt
+          while IFS= read -r file
+          do
+            echo "$file"
+            if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
+              echo "updated files"
+              echo "::set-output name=run_job::true"
+            fi
+          done < files.txt
+
+      - name: Commit files
+        if: steps.check_diff.outputs.run_pull == 'true'
         run: |
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add .
+            git add index_archive datasets
             git commit -m "generated files based on google sheet"
             git push

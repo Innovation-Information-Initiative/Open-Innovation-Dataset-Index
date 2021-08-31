@@ -56,6 +56,9 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	f.write(frontmatter.dumps(dataset))
 	f.close()
 
+	shortname, ext = os.path.splitext(os.path.basename(new_file))
+
+	# add licenses!!
 	# if it's a webpage, zotero did not complete request
 	if 'itemType' in result and result['itemType'] == 'webpage':
 		print('no citation metadata available for this source')
@@ -63,8 +66,9 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(rec_uuid),
 				str(dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
+				shortname,
 				str(dataset["url"]), # URL
-				str(dataset["DOI"] if "DOI" in dataset else " "), # DOI?
+				str(dataset["doi"] if "DOI" in dataset else " "), # DOI?
 				str(dataset["description"] if "description" in dataset else " "), # Description
 				str(dataset["terms"] if "terms" in dataset else " "), # Terms of use
 				str(dataset["timeframe"] if "timeframe" in dataset else " "), # Timeframe
@@ -96,6 +100,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(rec_uuid),
 				str(result["title"] if result["title"] else dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
+				shortname,
 				str(result["url"] if "url" in result else dataset["url"]), # URL
 				str(result["DOI"] if "DOI" in result else result["extra"] if "DOI" in result["extra"] else " "), # DOI?
 				str(dataset["description"] if "description" in dataset else result["abstractNote"] if "abstractNote" in result else " "), # Description
