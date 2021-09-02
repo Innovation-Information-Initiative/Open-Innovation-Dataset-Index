@@ -16,8 +16,14 @@ jobs:
     name: appending submitted dataset to the google sheet
     steps:
 
+      - name: get PR branch
+        run: |
+          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
 
       - name: Install Python 3
         uses: actions/setup-python@v1
@@ -54,10 +60,6 @@ jobs:
               python3 submission.py ${changed_file}
             fi
           done
-
-      - name: get PR branch
-        run: |
-          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
 
       - name: Commit files
         run: |
