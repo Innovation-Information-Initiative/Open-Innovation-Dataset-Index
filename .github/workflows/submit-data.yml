@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch
         run: |
-          git fetch
+          git fetch origin pull/${{ github.event.number }}/head:${{ BRANCH_NAME }}
 
       - name: Install Python 3
         uses: actions/setup-python@v1
