@@ -11,7 +11,6 @@ import urllib.parse
 from datetime import datetime
 
 def write_worksheet_to_csv(data, metadata, file):
-	print(file)
 	with open(file, "w", newline="") as csvfile:
 		writer = csv.writer(csvfile, delimiter=",")
 		writer.writerows(data)
@@ -35,9 +34,6 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 
 	#get frontmatter of changed file
 	dataset = frontmatter.load(new_file)
-
-	#check UUID against UUIDs in sheet -- if there then just update record
-	print(data)
 
 	#get metadata associated with dataset
 	parsed_url = urllib.parse.quote(dataset['url'], safe=" ")
