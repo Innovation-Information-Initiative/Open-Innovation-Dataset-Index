@@ -40,6 +40,7 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: |
+          git checkout main
           for changed_file in ${{ steps.read_files.outputs.all }}; do
             if [ "${changed_file: -3}" == ".md" ]
             then
@@ -62,7 +63,6 @@ jobs:
       - name: Commit files
         run: |
             git fetch
-            git checkout main
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add .
