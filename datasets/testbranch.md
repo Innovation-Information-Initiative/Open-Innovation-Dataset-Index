@@ -5,5 +5,5 @@ description: WTFC (World Trade Flows Characterization) provides reconciled unit 
   products) and a price range (low, middle or high range).
 title: World Trade Flows Characterization
 url: http://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=29
-uuid: 2b67761f-dbe3-425c-96b1-b9a3f5160c3b
+uuid: 33513bb2-7821-4fe4-a3a2-d4f7f23f0e61
 ---
