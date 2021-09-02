@@ -1,7 +1,6 @@
 name: index_archive
 
 on:
-  push:
   schedule:
   - cron: "*/5 * * * *"
 env:
