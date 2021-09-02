@@ -165,37 +165,5 @@ type: dataset",CEO Dismissal data for S&P 1500 Companies, ,1992-2018, , ,"
 	note = {type: dataset},
 	keywords = {CEO Dismissal, Management, Strategic Management},
 }
-", , , ,"CEO, Dismissal Management, Strategic Management", 
+", , , ,CEO DismissalManagementStrategic Management, 
 7db0ebff-1fe5-4eb9-806b-80ca470ec3dc,BACI,"09/02/2021, 12:01:27",tagstest,http://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37, ,BACI provides disaggregated data on bilateral trade flows for more than 5000 products and 200 countries., , , , , , , , ,"trade, products, international", 
-b0882bbd-ffe0-426f-a8ef-c944ab594996,Open Sourced Database for CEO Dismissal 1992-2018,"09/02/2021, 13:45:36",ceo_dismissal,https://zenodo.org/record/4618103,"DOI: 10.5281/zenodo.4618103
-type: dataset",CEO Dismissal data for S&P 1500 Companies, ,1992-2018, , ,"
-@misc{richard_j._gentry_open_2021,
-	title = {Open {Sourced} {Database} for {CEO} {Dismissal} 1992-2018},
-	url = {https://zenodo.org/record/4618103},
-	abstract = {There is a newer version of this database - please check the right-hand navigation for the latest version. We update the change log, versioning and other information on a Google Doc that is updated and continuous between posted versions of this database. We have included a snapshot of the documentation file here to help with future use along with an Excel version of the file for non-STATA users. This document also includes information on submitting edits and corrections to the open source data, which we welcome and encourage. We will acknowledge the participation of editors in the versioning changes at the bottom of the Google Doc.  This revision includes potentially relevant 8k filings from 270 days before and after the CEO's departure date. These filings were not all useful for understanding the departure, but might be useful in general.   If you would like to get an email notification when we update the database, sign-up here. We're happy to let you know when it is updated.},
-	urldate = {2021-09-02},
-	publisher = {Zenodo},
-	author = {{Richard J. Gentry} and {Joseph Harrison} and {Timothy Quigley} and {Steven Boivie}},
-	month = feb,
-	year = {2021},
-	doi = {10.5281/zenodo.4618103},
-	note = {type: dataset},
-	keywords = {CEO Dismissal, Management, Strategic Management},
-}
-", , , ,"CEO Dismissal, Management, Strategic Management", 
-2acaf418-7ab8-41a8-b44f-e7b6c65901ce,Open Sourced Database for CEO Dismissal 1992-2018,"09/02/2021, 13:46:09",ceo_dismissal,https://zenodo.org/record/4618103,"DOI: 10.5281/zenodo.4618103
-type: dataset",CEO Dismissal data for S&P 1500 Companies, ,1992-2018, , ,"
-@misc{richard_j._gentry_open_2021,
-	title = {Open {Sourced} {Database} for {CEO} {Dismissal} 1992-2018},
-	url = {https://zenodo.org/record/4618103},
-	abstract = {There is a newer version of this database - please check the right-hand navigation for the latest version. We update the change log, versioning and other information on a Google Doc that is updated and continuous between posted versions of this database. We have included a snapshot of the documentation file here to help with future use along with an Excel version of the file for non-STATA users. This document also includes information on submitting edits and corrections to the open source data, which we welcome and encourage. We will acknowledge the participation of editors in the versioning changes at the bottom of the Google Doc.  This revision includes potentially relevant 8k filings from 270 days before and after the CEO's departure date. These filings were not all useful for understanding the departure, but might be useful in general.   If you would like to get an email notification when we update the database, sign-up here. We're happy to let you know when it is updated.},
-	urldate = {2021-09-02},
-	publisher = {Zenodo},
-	author = {{Richard J. Gentry} and {Joseph Harrison} and {Timothy Quigley} and {Steven Boivie}},
-	month = feb,
-	year = {2021},
-	doi = {10.5281/zenodo.4618103},
-	note = {type: dataset},
-	keywords = {CEO Dismissal, Management, Strategic Management},
-}
-", , , ,"CEO Dismissal, Management, Strategic Management", 
