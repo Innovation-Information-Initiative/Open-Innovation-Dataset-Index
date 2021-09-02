@@ -34,6 +34,13 @@ jobs:
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
 
+      - name: Merge Pull Request
+        uses: juliangruber/merge-pull-request-action@v1
+        with:
+          github-token: ${{ secrets.TOKEN_GIT }}
+          number: ${{ github.event.number }}
+          method: squash
+
       - name: iterate over pull request files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -47,13 +54,6 @@ jobs:
               python3 submission.py ${changed_file}
             fi
           done
-
-      - name: Merge Pull Request
-        uses: juliangruber/merge-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.TOKEN_GIT }}
-          number: ${{ github.event.number }}
-          method: squash
 
       - name: get PR branch
         run: |
