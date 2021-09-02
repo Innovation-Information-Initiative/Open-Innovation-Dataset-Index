@@ -22,8 +22,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          ref: "refs/pull/${{ github.event.number }}/merge"
+        # with:
+        #   ref: "refs/pull/${{ github.event.number }}/merge"
 
       - name: Fetch
         run: |
@@ -58,14 +58,6 @@ jobs:
               python3 submission.py ${changed_file}
             fi
           done
-
-      # - name: Commit files
-      #   run: |
-      #       git checkout ${{ env.BRANCH_NAME }}
-      #       git config user.name github-actions
-      #       git config user.email github-actions@github.com
-      #       git add .
-      #       git commit -m "changed files on branch"
 
       - name: Merge Pull Request
         uses: ridedott/merge-me-action@v2
