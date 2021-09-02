@@ -1,7 +1,7 @@
 name: markdown_submission
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, reopened, edited]
     paths:
     - 'datasets/**.md'
@@ -16,8 +16,18 @@ jobs:
     name: appending submitted dataset to the google sheet
     steps:
 
+      - name: get PR branch
+        run: |
+          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
+
+      - name: Fetch
+        run: |
+          git fetch origin pull/${{ github.event.number }}/head:${{ env.BRANCH_NAME }}
 
       - name: Install Python 3
         uses: actions/setup-python@v1
@@ -34,6 +44,11 @@ jobs:
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
 
+      - name: Merge Pull Request
+        uses: ridedott/merge-me-action@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
+
       - name: iterate over pull request files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -48,17 +63,6 @@ jobs:
               python3 submission.py ${changed_file}
             fi
           done
-
-      - name: get PR branch
-        run: |
-          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
-
-      - name: Merge Pull Request
-        uses: juliangruber/merge-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.TOKEN_GIT }}
-          number: ${{ github.event.number }}
-          method: squash
 
       - name: Commit files
         run: |
