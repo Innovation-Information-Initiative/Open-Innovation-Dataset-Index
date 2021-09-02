@@ -87,7 +87,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 		tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
 		flat_tags = [val for sublist in tags for val in sublist]
 		if "tags" in dataset:
-			flat_tags = flat_tags + dataset["tags"]
+			flat_tags = flat_tags + dataset["tags"].split(' ').trim()
 
 		# get citation associated with dataset
 		bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
