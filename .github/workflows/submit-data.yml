@@ -50,6 +50,7 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: |
+          git status
           for changed_file in ${{ steps.read_files.outputs.all }}; do
             if [ "${changed_file: -3}" == ".md" ]
             then
@@ -58,13 +59,13 @@ jobs:
             fi
           done
 
-      - name: Commit files
-        run: |
-            git checkout ${{ env.BRANCH_NAME }}
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "changed files on branch"
+      # - name: Commit files
+      #   run: |
+      #       git checkout ${{ env.BRANCH_NAME }}
+      #       git config user.name github-actions
+      #       git config user.email github-actions@github.com
+      #       git add .
+      #       git commit -m "changed files on branch"
 
       - name: Merge Pull Request
         uses: ridedott/merge-me-action@v2
