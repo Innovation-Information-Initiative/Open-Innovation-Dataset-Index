@@ -74,17 +74,23 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(dataset["code"] if "code" in dataset else " "), # Open-source code
 				str(dataset["versioning"] if "versioning" in dataset else " "), # Versioning
 				str(dataset["access"] if "access" in dataset else " "), # API or Bulk downloads
-				str("".join(dataset["tags"]) if "tags" in dataset else " "), # Keywords associated with this dataset
+				str(dataset["tags"] if "tags" in dataset else " "), # Keywords associated with this dataset
 				" " # Datasets and publications using this dataset
 		]
 
 
 	else:
-		tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
-		flat_tags = [val for sublist in tags for val in sublist]
-		if "tags" in dataset:
-			flat_tags = flat_tags + dataset["tags"].split(' ').trim()
+		if "tags" in result and len(result["tags"]) > 0:
+			tags = (list(map(lambda item: item["tag"].split(', '), result["tags"])))
+			flat_tags = [val for sublist in tags for val in sublist]
+		else:
+			flat_tags = []
 
+		if "tags" in dataset and len(dataset["tags"]) > 0:
+			flat_tags = flat_tags + dataset["tags"].split(' ')
+			flat_tags = [tag.rstrip(',').rstrip(';') for tag in flat_tags]
+
+		print('flat tags is', str(', '.join(str(tag) for tag in flat_tags) ))
 		# get citation associated with dataset
 		bib_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/bibtex/' + parsed_url
 		citation = requests.get(bib_req).text
@@ -108,7 +114,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(dataset["code"] if "code" in dataset else " "), # Open-source code
 				str(dataset["versioning"] if "versioning" in dataset else " "), # Versioning
 				str(dataset["access"] if "access" in dataset else " "), # API or Bulk downloads
-				str("".join(flat_tags)), # Keywords associated with this dataset
+				str(', '.join(str(tag) for tag in flat_tags)), # Keywords associated with this dataset
 				" " # Datasets and publications using this dataset
 			]
 		except:
