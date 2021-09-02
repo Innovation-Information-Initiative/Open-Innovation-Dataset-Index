@@ -44,11 +44,6 @@ jobs:
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
 
-      - name: Merge Pull Request
-        uses: ridedott/merge-me-action@v2
-        with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
-
       - name: iterate over pull request files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -62,6 +57,11 @@ jobs:
               python3 submission.py ${changed_file}
             fi
           done
+
+      - name: Merge Pull Request
+        uses: ridedott/merge-me-action@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
 
       - name: Commit files
         run: |
