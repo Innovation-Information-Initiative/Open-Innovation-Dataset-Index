@@ -45,11 +45,9 @@ jobs:
         uses: Ana06/get-changed-files@v2.0.0
 
       - name: Merge Pull Request
-        uses: juliangruber/merge-pull-request-action@v1
+        uses: ridedott/merge-me-action@v2
         with:
-          github-token: ${{ secrets.TOKEN_GIT }}
-          number: ${{ github.event.number }}
-          method: squash
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
 
       - name: iterate over pull request files
         env:
