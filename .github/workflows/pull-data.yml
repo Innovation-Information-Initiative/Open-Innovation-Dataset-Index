@@ -58,13 +58,13 @@ jobs:
           done < files.txt
 
       - name: Copy new markdown files to website folders
-        if: steps.check_diff.outputs.run_pull == 'true'
+        if: steps.check_diff.outputs.run_job == 'true'
         run: |
             cp -r datasets/* app/collections/_datasets
             ./app/collections/add_layouts.sh
 
       - name: Commit files
-        if: steps.check_diff.outputs.run_pull == 'true'
+        if: steps.check_diff.outputs.run_job == 'true'
         run: |
             git pull
             git config user.name github-actions
