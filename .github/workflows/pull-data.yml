@@ -61,7 +61,9 @@ jobs:
         if: steps.check_diff.outputs.run_job == 'true'
         run: |
             cp -r datasets/* app/collections/_datasets
-            ./app/collections/add_layouts.sh
+            cd /app/collections
+            ./add_layouts.sh
+            cd ../..
 
       - name: Commit files
         if: steps.check_diff.outputs.run_job == 'true'
