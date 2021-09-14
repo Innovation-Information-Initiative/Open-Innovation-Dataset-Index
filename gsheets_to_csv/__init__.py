@@ -24,6 +24,17 @@ logger.setLevel(logging.INFO)
 
 #     return result
 
+def update_markdown(data):
+    for file in os.listdir('datasets'):
+        if file.endswith(".md"):
+            dataset = frontmatter.load(os.path.join('datasets/', file))
+
+            # find row with the same UUID
+            for row in data:
+                if 'uuid' in dataset and row[0] == dataset["uuid"]:
+                    sheet_row = row
+                    print('file is', file, "row is", row)
+
 
 def generate_markdown(data):
     # remove headers
@@ -104,6 +115,7 @@ def load_sheets_into_csv(sheets, output_dir, creds):
 
         if sh["title"] == 'Open_Patent_Datasets':
             generate_markdown(data)
+            update_markdown(data)
 
         outputs.append(filename)
         logger.info(f"sheet written to {filename}")
