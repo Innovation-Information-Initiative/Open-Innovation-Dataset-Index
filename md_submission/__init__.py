@@ -49,8 +49,6 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	rec_uuid = uuid.uuid4()
 	dataset['uuid'] = str(rec_uuid)
 	f = open(new_file, "w")
-	f.write(frontmatter.dumps(dataset))
-	f.close()
 
 	shortname, ext = os.path.splitext(os.path.basename(new_file))
 
@@ -120,6 +118,12 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 		except:
 			e = sys.exc_info()[0]
 			print('could not fetch metadata', e)
+
+
+	# write out additions to metadata
+	f.write(frontmatter.dumps(dataset))
+	f.close()
+
 
 	#first, append to csv (write updated sheet in case of any changes)
 	try:

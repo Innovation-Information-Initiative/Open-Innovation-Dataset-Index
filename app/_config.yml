@@ -1,0 +1,17 @@
+title: I3 Dataset Index
+description: >- # this means to ignore newlines until "baseurl:"
+  Index of Innovation Datasets.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+collections_dir: collections
+
+collections:
+  datasets:
+    output: true
+  selections:
+    output: true
