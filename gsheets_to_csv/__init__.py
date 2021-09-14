@@ -73,6 +73,9 @@ def generate_markdown(data):
         #create title
         filepath = os.path.join('datasets/', row['shortname'] + '.md')
 
+        # create file
+        f = open(filepath, 'w')
+
         dataset = frontmatter.load(filepath)
         dataset["uuid"] = row["uuid"]
         dataset["title"] = row["title"]
@@ -81,8 +84,6 @@ def generate_markdown(data):
             dataset["doi"] = row["doi"]
         dataset["description"] = row["description"].replace('\n', ' ')
 
-        # create file and write data
-        f = open(filepath, 'w')
         f.write(frontmatter.dumps(dataset))
         f.close()
 
