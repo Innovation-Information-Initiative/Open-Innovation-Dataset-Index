@@ -1,5 +1,5 @@
 ---
-access: CC-By Attribution 4.0 International
+terms_of_use: CC-By Attribution 4.0 International
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
   Project, Research Council of Norway

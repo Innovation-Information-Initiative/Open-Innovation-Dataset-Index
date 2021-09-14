@@ -1,5 +1,5 @@
 ---
-access: null
+terms_of_use: null
 citation: null
 code: null
 description: Platform for accessing indian public patents data
