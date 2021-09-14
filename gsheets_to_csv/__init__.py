@@ -30,7 +30,6 @@ def json_from_data(data):
 def update_markdown(data):
 
     for file in os.listdir('datasets'):
-        print('processing', file)
         filepath = os.path.join('datasets/', file)
         if file.endswith(".md"):
             dataset = frontmatter.load(filepath)
@@ -58,7 +57,6 @@ def generate_markdown(data):
     for file in os.listdir('datasets'):
         if file.endswith(".md"):
             # if the UUIDs match, remove from the list
-            print('processing', file)
             dataset = frontmatter.load(os.path.join('datasets/', file))
             if 'uuid' in dataset: 
                 uuids.append(dataset['uuid'])
