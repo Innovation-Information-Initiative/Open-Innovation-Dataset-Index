@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{petralia_gpt_2020,\n\ttitle = {{GPT} {Indicators}},\n\turl =
   {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA},\n\tdoi
   = {10.7910/DVN/PQGHKA},\n\tabstract = {This database contains yearly technology-level
