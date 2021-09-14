@@ -61,7 +61,7 @@ jobs:
         if: steps.check_diff.outputs.run_job == 'true'
         run: |
             cp -r datasets/* app/collections/_datasets
-            cd /app/collections
+            cd app/collections
             ./add_layouts.sh
             cd ../..
 
