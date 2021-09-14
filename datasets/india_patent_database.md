@@ -1,16 +1,19 @@
 ---
-terms_of_use: null
-citation: null
-code: null
+api_or_bulk_downloads: None
+citation: None
+code: None
 description: Platform for accessing indian public patents data
-documentation: null
+documentation: None
 doi: null
-error_metrics: null
+error_metrics: None
+record_creation_timestamp: 08/31/2021, 08:28:19
 references: null
+shortname: india_patent_database
 tags: innovation, platform
-timeframe: null
+terms_of_use: null
+timeframe: None
 title: Indian Patent Advanced Search System
 url: https://ipindiaservices.gov.in/publicsearch
 uuid: fc72efb0-8b24-4415-9b50-b0b7f33dc8b4
-versioning: null
+versioning: None
 ---

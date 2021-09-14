@@ -1,9 +1,21 @@
 ---
-terms_of_use: CC-By Attribution 4.0 International
+api_or_bulk_downloads: CC-By Attribution 4.0 International
+citation: "\n@article{oldham_biospolar_2019,\n\ttitle = {Biospolar {Antarctic} {Literature}
+  and {Patents}},\n\turl = {https://osf.io/py6ve/},\n\tdoi = {10.17605/OSF.IO/PY6VE},\n\tabstract
+  = {Mapping the scientific and patent landscapes for biodiversity based research
+  and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
+  Project, Research Council of Norway (RCN project number 257631/E10) \n    Hosted
+  on the Open Science Framework},\n\tlanguage = {en},\n\turldate = {2021-09-10},\n\tauthor
+  = {Oldham, Paul},\n\tmonth = may,\n\tyear = {2019},\n}\n"
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
   Project, Research Council of Norway
+doi: 10.17605/OSF.IO/PY6VE
+record_creation_timestamp: 09/10/2021, 08:10:36
 references: Lens
+shortname: biospolar
+tags: antarctic, krill
+terms_of_use: CC-By Attribution 4.0 International
 title: Biospolar Antarctic Literature and Patents
 url: https://osf.io/py6ve/
 uuid: fcf09f34-d5a8-483d-94a3-09a03c167100
