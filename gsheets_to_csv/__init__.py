@@ -2,43 +2,56 @@ import csv
 import logging
 import os
 import frontmatter
+import json
 import gspread  # type: ignore
 
 logger = logging.getLogger("gsheets-to-csv")
 logger.setLevel(logging.INFO)
 
-# def json_from_data(data):
-#     result = []
-#     headers = data[0]
-#     del data[0]
+def json_from_data(data):
+    result = []
+    headers = data[0]
+    headers = list(map(lambda header: header.replace(" ", "_").lower(), headers))
+    print(headers)
 
-#     for row in data:
-#         print(row)
-#         obj = {}
-#         for i, header in enumerate(headers):
-#             try:
-#                 obj[header] = row[i]
-#             except:
-#                 print('end of row')
-#         result.append(obj)
+    del data[0]
 
-#     return result
+    for row in data:
+        obj = {}
+        for i, header in enumerate(headers):
+            try:
+                obj[header] = row[i]
+            except:
+                obj[header] = ""
+        result.append(obj)
+
+    return result
 
 def update_markdown(data):
+
     for file in os.listdir('datasets'):
+        filepath = os.path.join('datasets/', file)
         if file.endswith(".md"):
-            dataset = frontmatter.load(os.path.join('datasets/', file))
+            dataset = frontmatter.load(filepath)
 
             # find row with the same UUID
-            for row in data:
-                if 'uuid' in dataset and row[0] == dataset["uuid"]:
-                    sheet_row = row
-                    print('file is', file, "row is", row)
+            for entry in data:
+                if 'uuid' in dataset and entry['uuid'] == dataset["uuid"]:
+                    row = entry
 
+            # diff 
+            for term in row:
+                #check not empty null or blank
+                if row[term] and row[term].strip():
+                    print(term, "-", row[term])
+                    dataset[term] = row[term]
+
+            f = open(filepath, 'w')
+            f.write(frontmatter.dumps(dataset))
+            f.close()
 
 def generate_markdown(data):
     # remove headers
-    del data[0]
 
     uuids = []
     for file in os.listdir('datasets'):
@@ -49,8 +62,8 @@ def generate_markdown(data):
                 uuids.append(dataset['uuid'])
                 
     to_gen = []
-    for i, row in enumerate(data):
-        if row[0] not in uuids:
+    for i, dataset in enumerate(data):
+        if dataset['uuid'] not in uuids:
             to_gen.append(data[i])
 
     # json_gen = json_from_data(to_gen)
@@ -58,19 +71,18 @@ def generate_markdown(data):
 
     for row in to_gen:
         #create title
-        filepath = os.path.join('datasets/', row[3] + '.md')
-
-        # create file
-        f = open(filepath, 'w')
+        filepath = os.path.join('datasets/', row['shortname'] + '.md')
 
         dataset = frontmatter.load(filepath)
-        dataset["uuid"] = row[0]
-        dataset["title"] = row[1]
-        dataset["url"] = row[4]
-        if row[5] != '':
-            dataset["doi"] = row[5]
-        dataset["description"] = row[6].replace('\n', ' ')
+        dataset["uuid"] = row["uuid"]
+        dataset["title"] = row["title"]
+        dataset["url"] = row["url"]
+        if 'doi' in row and row["doi"] != '':
+            dataset["doi"] = row["doi"]
+        dataset["description"] = row["description"].replace('\n', ' ')
 
+        # create file and write data
+        f = open(filepath, 'w')
         f.write(frontmatter.dumps(dataset))
         f.close()
 
@@ -114,8 +126,10 @@ def load_sheets_into_csv(sheets, output_dir, creds):
         write_worksheet_to_csv(data, filename)
 
         if sh["title"] == 'Open_Patent_Datasets':
-            generate_markdown(data)
-            update_markdown(data)
+            data_json = json_from_data(data)
+            # print(json.dumps(data_json, indent = 2))
+            generate_markdown(data_json)
+            update_markdown(data_json)
 
         outputs.append(filename)
         logger.info(f"sheet written to {filename}")

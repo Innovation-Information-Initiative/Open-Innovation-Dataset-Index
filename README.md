@@ -26,7 +26,7 @@ documentation:
 error_metrics:
 code:
 versioning: #scrapeable
-access: #scrapeable
+terms_of_use: #scrapeable
 tags:
 references:
 ---
