@@ -1,8 +1,7 @@
 ---
 api_or_bulk_downloads: Bulk
-citation: "\n@misc{banda_large-scale_2021,\n\ttitle = {A large-scale {COVID}-19 {Twitter}
-  chatter dataset for open scientific research - an international collaboration},\n\turl
-  = {https://zenodo.org/record/5458943},\n\tabstract
+citation: "\n@misc{banda_large-scale_2021,\n\ttitle = {A large-scale COVID-19 Twitter
+  chatter dataset for open scientific research - an international collaboration}"
 description: 'Dataset of tweets acquired from the Twitter Stream related to COVID-19
   chatter. The first 9 weeks of data (from January 1st, 2020 to March 11th, 2020)
   contain very low tweet counts as we filtered other data we were collecting for other
@@ -15,10 +14,10 @@ description: 'Dataset of tweets acquired from the Twitter Stream related to COVI
   one of them. For NLP tasks we provide the top 1000 frequent terms, the top 1000
   bigrams, and the top 1000 trigrams. Some general statistics per day are included
   for both datasets.'
-documentation: 'http://www.panacealab.org/covid19/, https://github.com/thepanacealab/covid19_twitter/blob/master/COVID_19_dataset_Tutorial.ipynb'
+documentation: http://www.panacealab.org/covid19/
 doi: 10.5281/zenodo.5458943
 error_metrics: null
-record_creation_timestamp: 09/07/2021, 16:35:04
+record_creation_timestamp: 09/07/2021
 references: null
 shortname: covid_twitter_chatter
 tags: social media, twitter, nlp, covid-19, covid19, twitter, covid, open-source
