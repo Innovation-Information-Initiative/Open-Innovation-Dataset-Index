@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'De Rassenfosse, G., Dernis, H., Guellec, D., Picci, L., & van Pottelsberghe
   de la Potterie, B. (2013). The worldwide count of priority patents: A new indicator
   of inventive activity. Research Policy, 42(3), 720–737. doi:10.1016/j.respol.2012.11.002 '

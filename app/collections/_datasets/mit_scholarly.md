@@ -1,4 +1,5 @@
 ---
+layout: default
 description: Scholarly works produced by MIT 1950-2018
 record_creation_timestamp: 11/17/2020 17:20:46
 shortname: mit_scholarly

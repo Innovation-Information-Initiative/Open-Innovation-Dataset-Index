@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: '@inproceedings{DBLP:conf/semweb/Farber19,   author    = {Michael F{\"{a}}rber},   title     =
   "{The Microsoft Academic Knowledge Graph: {A} Linked Data Source with 8 Billion
   Triples of Scholarly Data}",   booktitle = "{Proceedings of the 18th International

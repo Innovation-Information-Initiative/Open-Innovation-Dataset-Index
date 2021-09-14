@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: Bronwyn H. Hall, Jim Bessen, Grid Thoma
 description: The main dataset extends from Jan 1, 1963, through december 30, 1999,
   and includes all the utility patents granted during that period. The citations file

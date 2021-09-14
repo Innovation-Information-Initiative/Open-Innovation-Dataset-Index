@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'de Rassenfosse Gaétan, & Emilio Raiteri. (2019). 3PFL: Database of Patents
   and Publications with a Public-Funding Linkage (Version 1.2) [Data set]. Zenodo.
   http://doi.org/10.5281/zenodo.3369582'

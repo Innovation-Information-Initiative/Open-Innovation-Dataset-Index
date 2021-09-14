@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'Rassenfosse, G. de, & Potterie, B. van P. de la. '
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.

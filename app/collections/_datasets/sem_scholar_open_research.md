@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'Waleed Ammar et al. 2018. Construction of the Literature Graph in Semantic
   Scholar. NAACL https://www.semanticscholar.org/paper/09e3cf5704bcb16e6657f6ceed70e93373a54618 '
 description: 'Semantic Scholar''s records for research papers published in all fields

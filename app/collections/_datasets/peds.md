@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: API and Bulk
 description: 'PEDS contains the bibliographic, published document and patent term
   extension data tabs in Public PAIR from 1981 to present. There is also some data

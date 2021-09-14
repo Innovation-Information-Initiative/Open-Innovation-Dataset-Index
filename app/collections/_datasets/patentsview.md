@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: Attribution should be given to PatentsView for use, distribution, or derivative
   works.
 code: https://github.com/CSSIP-AIR/PatentsView-Code-Snippets/

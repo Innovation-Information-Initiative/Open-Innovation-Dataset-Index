@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: Bryan, Kevin, 2019, "In-Text Patent Citation Database Bryan/Ozcan/Sampat
   Beta version .9", https://doi.org/10.7910/DVN/ZEZWBX, Harvard Dataverse, V2, UNF:6:+28YcwvDoaxFl/9hPXQaSA==
   [fileUNF]

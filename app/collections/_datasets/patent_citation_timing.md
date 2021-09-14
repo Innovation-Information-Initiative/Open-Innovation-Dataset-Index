@@ -1,4 +1,5 @@
 ---
+layout: default
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Innovation studies frequently distinguish between patent citation submitted
   by the patent examiner and those submitted by the patent application. However, publicly

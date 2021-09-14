@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: coming soon
 code: https://github.com/Antoberge/patent_city
 description: Data coming soon; accessible via Google BigQuery

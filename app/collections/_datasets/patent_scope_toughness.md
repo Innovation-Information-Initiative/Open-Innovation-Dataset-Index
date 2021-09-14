@@ -1,4 +1,5 @@
 ---
+layout: default
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2977273
 description: This dataset includes an easy-to-use measure of patent scope that is
   grounded both in patent law and in the practices of patent attorneys. Our measure

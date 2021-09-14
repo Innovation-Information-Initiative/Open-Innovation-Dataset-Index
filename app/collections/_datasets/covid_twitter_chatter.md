@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: "\n@misc{banda_large-scale_2021,\n\ttitle = {A large-scale {COVID}-19 {Twitter}
   chatter dataset for open scientific research - an international collaboration},\n\turl

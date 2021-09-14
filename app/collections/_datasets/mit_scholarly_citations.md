@@ -1,4 +1,5 @@
 ---
+layout: default
 description: MIT Scholarly Works Cited by Patents 1950-2018
 record_creation_timestamp: 11/18/2020 17:20:46
 shortname: mit_scholarly_citations

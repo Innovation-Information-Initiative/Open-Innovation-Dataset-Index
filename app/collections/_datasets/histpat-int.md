@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {International}
   {Dataset}},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS},\n\tdoi
   = {10.7910/DVN/QT4OJS},\n\tabstract = {HistPat International provides the geography

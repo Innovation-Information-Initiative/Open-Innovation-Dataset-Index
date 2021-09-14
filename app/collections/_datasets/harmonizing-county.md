@@ -1,4 +1,5 @@
 ---
+layout: default
 description: This tool creates the csv tables that allow county boundaries to be synchronized
   to a base year, exported to the directory you run this from. While this code takes
   shape files of any type and preforms an intersect, it was written to follow the

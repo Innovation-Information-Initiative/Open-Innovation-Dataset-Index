@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: API
 citation: null
 code: null

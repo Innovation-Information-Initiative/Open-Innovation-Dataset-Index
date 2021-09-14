@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{seliger_imputation_2020,\n\ttitle = {Imputation of missing applicant
   country codes in worldwide patent data},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W},\n\tdoi
   = {10.7910/DVN/XNTL0W},\n\tabstract = {The file ctry\\_app\\_person.txt contains

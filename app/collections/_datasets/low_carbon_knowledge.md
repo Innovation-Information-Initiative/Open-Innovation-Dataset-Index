@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Hötte, Pichler, Lafond (2021): "The rise of science in low-carbon energy
   technologies", RSER. DOI: 10.1016/j.rser.2020.110654'

@@ -1,4 +1,5 @@
 ---
+layout: default
 description: BACI provides disaggregated data on bilateral trade flows for more than
   5000 products and 200 countries.
 record_creation_timestamp: 08/24/2021, 15:32:40

@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Darrin Eide, Bo-June (Paul)
   Hsu, and Kuansan Wang. 2015. An Overview of Microsoft Academic Service (MA) and
   Applications. In Proceedings of the 24th International Conference on World Wide

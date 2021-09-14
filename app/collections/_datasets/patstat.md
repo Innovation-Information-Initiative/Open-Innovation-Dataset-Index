@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: PATSTAT
 code: 'patstat cookbook'' by Gaétan de Rassenfosse https://onlinelibrary.wiley.com/doi/full/10.1111/1467-8462.12073 '
 description: 'PATSTAT contains bibliographical and legal event patent data from leading

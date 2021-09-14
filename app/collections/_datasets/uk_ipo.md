@@ -1,4 +1,5 @@
 ---
+layout: default
 description: Snapshots of British patent/SPC applications received and subsequently
   published by the Intellectual Property Office.
 doi: ' '

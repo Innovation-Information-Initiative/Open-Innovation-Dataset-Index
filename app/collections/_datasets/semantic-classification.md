@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{bergeaud_classification_2017,\n\ttitle = {Classification {Data}
   for \"{Classifying} {Patents} {Based} on their {Semantic} {Content}\"},\n\turl =
   {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY},\n\tabstract

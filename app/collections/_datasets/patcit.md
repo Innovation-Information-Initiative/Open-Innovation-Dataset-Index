@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, & Gaétan
   de Rassenfosse. (2020). PatCit: A Comprehensive Dataset of Patent Citations (Version

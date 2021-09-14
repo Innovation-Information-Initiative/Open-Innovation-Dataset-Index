@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{kaltenberg_matched_2021,\n\ttitle = {Matched inventor ages from
   patents, based on web scraped sources},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YRLSKU},\n\tdoi
   = {10.7910/DVN/YRLSKU},\n\tabstract = {We use information about U.S. residing inventors

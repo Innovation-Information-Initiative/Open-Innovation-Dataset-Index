@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: ' Lee Fleming; Hillary Green; Guan-Cheng Li; Matt Marx; Dennis Yao, 2019,
   "Replication Data for: Government-funded research increasingly fuels innovation",
   https://doi.org/10.7910/DVN/DKESRC, Harvard Dataverse, V4, UNF:6:kMIqsh3DCvKiKYgMT6/H8A==

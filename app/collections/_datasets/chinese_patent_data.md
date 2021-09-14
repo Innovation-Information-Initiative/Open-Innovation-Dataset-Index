@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 description: In this project, patents from China's State Intellectual Property Office
   (SIPO) are matched to various types of companies. Matching SIPO patents to firms

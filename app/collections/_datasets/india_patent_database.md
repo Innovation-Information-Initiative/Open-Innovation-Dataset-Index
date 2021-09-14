@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: None
 citation: None
 code: None

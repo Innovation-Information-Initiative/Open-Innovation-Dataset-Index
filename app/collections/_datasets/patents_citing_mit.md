@@ -1,4 +1,5 @@
 ---
+layout: default
 description: 'This collection encompasses patents that cite the scholarly works of
   Massachusetts Institute of Technology. '
 record_creation_timestamp: 11/19/2020 17:20:46

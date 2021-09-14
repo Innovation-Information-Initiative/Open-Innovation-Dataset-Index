@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: 'Seliger, Florian; Kozak, Jan; de Rassenfosse, Gaétan, 2019, "Geocoding
   of worldwide patent data", https://doi.org/10.7910/DVN/OTTBDX, Harvard Dataverse,
   V5 '

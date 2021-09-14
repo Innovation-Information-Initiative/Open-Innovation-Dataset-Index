@@ -1,4 +1,5 @@
 ---
+layout: default
 description: Updated Mar 19, 2014 by Noah Stoffman
 shortname: patent_value
 timeframe: 1926-2010

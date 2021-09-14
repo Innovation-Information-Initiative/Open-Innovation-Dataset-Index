@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Arora Ashish, Belenzon Sharon, and Sheer Lia, 2021. "Knowledge spillovers
   and corporate investment in scientific research". American Economic Review, 111(3),

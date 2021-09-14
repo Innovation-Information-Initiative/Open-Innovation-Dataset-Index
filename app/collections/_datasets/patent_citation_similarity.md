@@ -1,4 +1,5 @@
 ---
+layout: default
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Many studies of innovation rely on patent citations to measure intellectual
   lineage and impact. To create this dataset, we use a vector space model of patent

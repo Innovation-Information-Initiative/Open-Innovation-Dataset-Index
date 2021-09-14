@@ -1,4 +1,5 @@
 ---
+layout: default
 record_creation_timestamp: 08/12/2021, 15:45:21
 shortname: newspaper_com
 title: Newpaper.com Index

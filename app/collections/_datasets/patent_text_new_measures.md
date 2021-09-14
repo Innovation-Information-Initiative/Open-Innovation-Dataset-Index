@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Arts S, Hou J, Gomez JC. (2020). Natural language processing to identify
   the creation and impact of new technologies in patent text: code, data, and new

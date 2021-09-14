@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Marx, Matt and Aaron Fuegi, "Reliance on Science: Worldwide Front-Page
   Patent Citations to Scientific Articles"'

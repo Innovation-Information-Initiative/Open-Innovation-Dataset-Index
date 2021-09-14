@@ -1,4 +1,5 @@
 ---
+layout: default
 description: These statistics include monthly data for designs, patents, trade marks.
 doi: ' '
 record_creation_timestamp: 09/02/2021, 10:13:39

@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: Bulk
 citation: 'Lee Fleming; Hillary Green; Guan-Cheng Li; Matt Marx; Dennis Yao, 2019,
   "Replication Data for: Government-funded research increasingly fuels innovation",

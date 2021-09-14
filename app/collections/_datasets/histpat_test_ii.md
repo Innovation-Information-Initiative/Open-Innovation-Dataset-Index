@@ -1,4 +1,5 @@
 ---
+layout: default
 citation: "\n@article{he_matching_2019,\n\ttitle = {Matching {SIPO} patents to {Chinese}
   listed firms (\"{Main} {Board}\")},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO},\n\tdoi
   = {10.7910/DVN/CF1IXO},\n\tabstract = {Matching SIPO patents to Chinese listed firms

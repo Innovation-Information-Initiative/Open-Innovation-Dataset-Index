@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: CC-By Attribution 4.0 International
 citation: "\n@article{oldham_biospolar_2019,\n\ttitle = {Biospolar {Antarctic} {Literature}
   and {Patents}},\n\turl = {https://osf.io/py6ve/},\n\tdoi = {10.17605/OSF.IO/PY6VE},\n\tabstract

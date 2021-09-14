@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: API, Bulk export
 citation: “Google Patents Public Data” by IFI CLAIMS Patent Services and Google, used
   under CC BY 4.0

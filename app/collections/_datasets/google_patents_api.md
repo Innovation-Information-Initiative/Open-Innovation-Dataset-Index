@@ -1,4 +1,5 @@
 ---
+layout: default
 api_or_bulk_downloads: API
 description: Turn an unformatted application or publication number into the DOCDB
   format publication number
