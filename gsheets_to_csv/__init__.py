@@ -30,6 +30,7 @@ def json_from_data(data):
 def update_markdown(data):
 
     for file in os.listdir('datasets'):
+        print('processing', file)
         filepath = os.path.join('datasets/', file)
         if file.endswith(".md"):
             dataset = frontmatter.load(filepath)
