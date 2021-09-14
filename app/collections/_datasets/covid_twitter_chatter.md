@@ -3,17 +3,14 @@ layout: default
 api_or_bulk_downloads: Bulk
 citation: "\n@misc{banda_large-scale_2021,\n\ttitle = {A large-scale {COVID}-19 {Twitter}
   chatter dataset for open scientific research - an international collaboration},\n\turl
-  = {https://zenodo.org/record/5458943},\n\tabstract = {Version 78 of the dataset.
-  The peer-reviewed publication for this dataset has now been published  in Epidemiologia
-  an MDPI journal, and can be accessed here -- https://doi.org/10.3390/epidemiologia2030024.
-  Please cite this when using the dataset. 
+  = {https://zenodo.org/record/5458943},\n\tabstract
 description: 'Dataset of tweets acquired from the Twitter Stream related to COVID-19
   chatter. The first 9 weeks of data (from January 1st, 2020 to March 11th, 2020)
   contain very low tweet counts as we filtered other data we were collecting for other
   research purposes, however, one can see the dramatic increase as the awareness for
   the virus spread. Dedicated data gathering started from March 11th yielding over
   4 million tweets a day. The data collected from the stream captures all languages, but the higher prevalence
-  are: English, Spanish, and French. We release all tweets and retweets on the full
+  are English, Spanish, and French. We release all tweets and retweets on the full
   dataset, and a cleaned version with no retweets. There are several practical reasons
   for us to leave the retweets, tracing important tweets and their dissemination is
   one of them. For NLP tasks we provide the top 1000 frequent terms, the top 1000
