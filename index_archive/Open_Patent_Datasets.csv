@@ -200,3 +200,19 @@ fcf09f34-d5a8-483d-94a3-09a03c167100,Biospolar Antarctic Literature and Patents,
 }
 ", , ,CC-By Attribution 4.0 International,"antarctic, krill", 
 ,,,aaaaa
+868eaad1-3c6a-4730-a70f-853996962d39,US Patent Similarity Data,"09/15/2021, 05:50:18",us_patent_similarity,https://zenodo.org/record/3552078,"DOI: 10.5281/zenodo.3552078
+type: dataset",None, ,None,"Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.",None,"
+@misc{whalen_us_2019,
+	title = {{US} {Patent} {Similarity} {Data}},
+	url = {https://zenodo.org/record/3552078},
+	abstract = {Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.},
+	urldate = {2021-09-15},
+	publisher = {Zenodo},
+	author = {Whalen, Ryan and Lungeanu, Alina and DeChurch, Leslie and Contractor, Noshir},
+	month = nov,
+	year = {2019},
+	doi = {10.5281/zenodo.3552078},
+	note = {type: dataset},
+	keywords = {patents, intellectual property, innovation, semantic similarity, empirical legal studies},
+}
+",None,None, ,"patents, intellectual property, innovation, semantic similarity, empirical legal studies, patents, similarity", 
