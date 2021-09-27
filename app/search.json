@@ -1,0 +1,16 @@
+---
+---
+
+[
+  {% for dataset in site.datasets %}
+    {
+
+      "title"    : "{{ dataset.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ dataset.url }}",
+      "category" : "{{ dataset.category }}",
+      "tags"     : "{{ dataset.tags | join: ', ' }}",
+      "date"     : "{{ dataset.date }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

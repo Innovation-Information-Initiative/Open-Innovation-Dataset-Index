@@ -6,8 +6,28 @@ layout: default
 
 <p>This is the web version of the I3 Open Datasets Index, a collection of innovation datasets, and related tools, platforms and resources used by the broader innovation research community. In order to contribute to this site, you can edit either our <a href="https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911">google sheet (updates made to the sheet will take a couple of minutes to display), or make a pull request to our <a href="https://github.com/Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker">GitHub repository</a> directly.</p>
 
+<h2>Search:</h2>
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="search.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+	searchInput: document.getElementById('search-input'),
+	resultsContainer: document.getElementById('results-container'),
+	json: 'search.json'
+})
+</script>
+
 <h2>Datasets:</h2>
 
 {% for dataset in site.datasets %}
 	<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
 {% endfor %}
+
