@@ -8,7 +8,7 @@ e65da1db-6608-4246-98a7-c260dfc28e45,Chilean IP and firm data,11/13/2020 17:20:4
 bfc3892d-2170-47ed-b056-a573c845efa5,MIT Scholarly Works 1950-2018,11/17/2020 17:20:46,mit_scholarly,https://lens-public.s3-us-west-2.amazonaws.com/sloan/scholarly/201932/mit_scholarly.zip,,Scholarly works produced by MIT 1950-2018
 265a814e-a4a5-4302-9cc0-0f78cf1c70fc,MIT Scholarly Works Cited by Patents,11/18/2020 17:20:46,mit_scholarly_citations,https://lens-public.s3-us-west-2.amazonaws.com/sloan/scholarly/201932/mit_scholarly_cited_by_patents.zip,,MIT Scholarly Works Cited by Patents 1950-2018
 6476ac03-71ee-4480-b2aa-e25871179689,Patents Citing MIT Publications,11/19/2020 17:20:46,patents_citing_mit,https://www.lens.org/lens/search/patent/list?collectionId=22790&p=0&n=10,,This collection encompasses patents that cite the scholarly works of Massachusetts Institute of Technology. 
-a238826e-8135-4b6d-8b59-615fc9769f03,Disambiguation and Co-authorship Networks of the U.S. Patent Inventor Database,11/20/2020 17:20:46,co_authorship_disambiguation,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI,https://doi.org/10.7910/DVN/5F1RRI,"Name disambiguation of US inventors, 1975-2010","CC0 - ""Public Domain Dedication""",,,,"Ronald Lai; Alexander D'Amour; Amy Yu; Ye Sun; Lee Fleming, 2011, ""Disambiguation and Co-authorship Networks of the U.S. Patent Inventor Database (1975 - 2010)"", https://doi.org/10.7910/DVN/5F1RRI, Harvard Dataverse, V5, UNF:5:RqsI3LsQEYLHkkg5jG/jRg== [fileUNF] ",https://github.com/funginstitute/downloads,,,coauthor network
+a238826e-8135-4b6d-8b59-615fc9769f03,Disambiguation and Co-authorship Networks of the U.S. Patent Inventor Database,5/14/2022 14:41:04,co_authorship_disambiguation,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI,https://doi.org/10.7910/DVN/5F1RRI,"Name disambiguation of US inventors, 1975-2010","CC0 - ""Public Domain Dedication""",,,,"Ronald Lai; Alexander D'Amour; Amy Yu; Ye Sun; Lee Fleming, 2011, ""Disambiguation and Co-authorship Networks of the U.S. Patent Inventor Database (1975 - 2010)"", https://doi.org/10.7910/DVN/5F1RRI, Harvard Dataverse, V5, UNF:5:RqsI3LsQEYLHkkg5jG/jRg== [fileUNF] ",https://github.com/funginstitute/downloads,,,coauthor network
 3e2ed123-d6c0-46af-8683-e23d64b04efc,"The careers and co-authorship networks of U.S. patent-holders, since 1975",11/21/2020 17:20:46,co_authorship_careers,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN,https://doi.org/10.7910/DVN/YJUNUN,"The identification enables construction of social networks based on patent co-authorship. We will eventually provide descriptive statistics of individual and collaborative variables and illustrated examples of networks for an individual, an organization, a technology, and a region. The data and code will be publically available for community use and improvement and will enable updating as frequently as new patents are issued. ","CC0 - ""Public Domain Dedication""",,,," Ronald Lai; Alexander D'Amour; Lee Fleming, 2010, ""The careers and co-authorship networks of U.S. patent-holders, since 1975"", https://doi.org/10.7910/DVN/YJUNUN, Harvard Dataverse, V3, UNF:5:daJuoNgCZlcYY8RqU+/j2Q== [fileUNF] ",,,,coauthor network
 00c6f78f-f689-4d50-a965-812bfd528477,Penn World Tables,11/22/2020 17:20:46,pwt,https://doi.org/10.15141/S50T0R,https://doi.org/10.15141/S50T0R,"PWT version 9.1 is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2017. ",CC 4.0,1950-2017,,,"Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), ""The Next Generation of the Penn World Table"" American Economic Review, 105(10), 3150-3182, available for download at www.ggdc.net/pwt"
 068fb03e-642a-4896-b61c-ff6a16251e08,Worldwide Count of Priority Patents,11/23/2020 17:20:46,priority_patents,http://www.gder.info/download_wwc_excel.html,,"The goal of the project was to produce a dataset of priority patent applications filed across the globe, allocated by inventor and applicant location.",,,,,"De Rassenfosse, G., Dernis, H., Guellec, D., Picci, L., & van Pottelsberghe de la Potterie, B. (2013). The worldwide count of priority patents: A new indicator of inventive activity. Research Policy, 42(3), 720–737. doi:10.1016/j.respol.2012.11.002 ",http://www.gder.info/download_wwc_mysql.html
@@ -199,4 +199,19 @@ fcf09f34-d5a8-483d-94a3-09a03c167100,Biospolar Antarctic Literature and Patents,
 	year = {2019},
 }
 ", , ,CC-By Attribution 4.0 International,"antarctic, krill", 
-0f2982cb-e3db-495f-8b71-b6ba5d2eabfd,ooooooo,,aaaaa,https://osf.io/py6ve/
+868eaad1-3c6a-4730-a70f-853996962d39,US Patent Similarity Data,"09/15/2021, 05:50:18",us_patent_similarity,https://zenodo.org/record/3552078,"10.5281/zenodo.3552078
+","Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.", Creative Commons Attribution 4.0 International,,,,"
+@misc{whalen_us_2019,
+	title = {{US} {Patent} {Similarity} {Data}},
+	url = {https://zenodo.org/record/3552078},
+	abstract = {Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.},
+	urldate = {2021-09-15},
+	publisher = {Zenodo},
+	author = {Whalen, Ryan and Lungeanu, Alina and DeChurch, Leslie and Contractor, Noshir},
+	month = nov,
+	year = {2019},
+	doi = {10.5281/zenodo.3552078},
+	note = {type: dataset},
+	keywords = {patents, intellectual property, innovation, semantic similarity, empirical legal studies},
+}
+",,Yes, ,"patents, intellectual property, innovation, semantic similarity, empirical legal studies, patents, similarity", 
