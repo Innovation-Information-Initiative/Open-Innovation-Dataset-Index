@@ -11,11 +11,11 @@ description: A large RDF data set with over eight billion triples with informati
   journals, and fields of study. The data set is based on the Microsoft Academic Graph
   and licensed under the Open Data Attributions license. Furthermore, we provide entity
   embeddings for all 210M represented scientific papers.
+location: http://ma-graph.org/
 record_creation_timestamp: 12/3/2020 17:20:46
 shortname: makg
 tags: Microsoft Academic
 terms_of_use: Open Data Commons Attribution License (ODC-By) v1.0
 title: Microsoft Academic Knowledge Graph
-location: http://ma-graph.org/
 uuid: 6f3605ad-5edb-4a73-8b3b-6d6d35064d4c
 ---

@@ -8,11 +8,11 @@ citation: 'Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Darrin Eide, Bo-June (P
 description: 'The Microsoft Academic Graph is a heterogeneous graph containing scientific
   publication records, citation relationships between those publications, as well
   as authors, institutions, journals, conferences, and fields of study. '
+location: https://academic.microsoft.com/home
 record_creation_timestamp: 11/29/2020 17:20:46
 shortname: mag
 tags: Microsoft Academic
 terms_of_use: ODC-BY
 title: Microsoft Academic Graph
-location: https://academic.microsoft.com/home
 uuid: 9c4124ed-5337-4b36-a1c9-7cf256a3384b
 ---

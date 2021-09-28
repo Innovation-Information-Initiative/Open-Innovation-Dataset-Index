@@ -7,9 +7,9 @@ description: This tool creates the csv tables that allow county boundaries to be
   counties from NHGIS from a selections of years and then to reapportioning them by
   area to the boundaries as they were in a base year. The stata code that uses these
   csvs was writen to be used with Haines' census data (ICPSR 02896).
+location: https://elisabethperlman.net/code.html
 record_creation_timestamp: 08/13/2021, 08:55:41
 shortname: harmonising_county_boundaries
 title: Tools for Harmonizing County Boundaries
-location: https://elisabethperlman.net/code.html
 uuid: 6ba552a7-ec31-4710-9d8b-d8177b293a90
 ---

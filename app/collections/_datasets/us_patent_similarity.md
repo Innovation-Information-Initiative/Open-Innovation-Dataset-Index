@@ -19,6 +19,7 @@ doi: '10.5281/zenodo.3552078
 
   '
 error_metrics: None
+location: https://zenodo.org/record/3552078
 record_creation_timestamp: 09/15/2021, 05:50:18
 shortname: us_patent_similarity
 tags: patents, intellectual property, innovation, semantic similarity, empirical legal
@@ -26,7 +27,6 @@ tags: patents, intellectual property, innovation, semantic similarity, empirical
 terms_of_use: ' Creative Commons Attribution 4.0 International'
 timeframe: None
 title: US Patent Similarity Data
-location: https://zenodo.org/record/3552078
 uuid: 868eaad1-3c6a-4730-a70f-853996962d39
 versioning: 'Yes'
 ---
