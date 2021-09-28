@@ -12,10 +12,10 @@ description: The Long-Term Productivity database was created as a project at the
   data corresponding to each of the papers linked to this project are available. This
   includes age of capital stock, education attainment, electricity production per
   capita.
+location: http://longtermproductivity.com/download.html
 record_creation_timestamp: 08/16/2021, 13:46:40
 shortname: long_term_productivity
 timeframe: 1890-2016
 title: Long-Term Productivity database
-location: http://longtermproductivity.com/download.html
 uuid: 1f556a96-61fc-4d4c-a046-ed711d9807f9
 ---

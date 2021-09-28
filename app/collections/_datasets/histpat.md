@@ -10,9 +10,9 @@ citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {Dataset}},\n
 description: HistPat provides the geography of historical patents granted by the United
   States Patent and Trademark Office (USPTO) from 1790 to 1975. This histo...
 doi: 10.7910/DVN/BPC15W
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
 record_creation_timestamp: 08/24/2021, 15:31:52
 shortname: histpat
 title: HistPat Dataset
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
 uuid: 40f30ff4-d152-4aa8-89a9-e31dddc812dc
 ---

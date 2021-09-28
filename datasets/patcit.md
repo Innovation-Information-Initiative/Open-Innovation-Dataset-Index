@@ -10,13 +10,13 @@ description: In-text and front page citations to non-patent literature + in-text
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
+location: https://doi.org/10.5281/zenodo.3710993
 record_creation_timestamp: 11/17/2020 10:38:00
 shortname: patcit
 tags: Citations, In-text, Front page, Patent, Science, Database, Wikipedia, Standard
 terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit
-location: https://doi.org/10.5281/zenodo.3710993
 uuid: bd8a562a-ce58-4a61-925d-88f0d0695974
 versioning: 'Yes'
 ---

@@ -10,11 +10,11 @@ description: 'PEDS contains the bibliographic, published document and patent ter
   Any applications that have not been released by the USPTO will not be available
   in PEDS.'
 documentation: https://ped.uspto.gov/peds/#!/#%2FuserManual
+location: https://ped.uspto.gov/peds/#!/
 record_creation_timestamp: 08/28/2021, 16:51:00
 shortname: peds
 terms_of_use: 'terms given here: https://www.uspto.gov/sites/default/files/documents/Patent%20Electronic%20System%20Access%20Document_0.pdf'
 timeframe: 1981-2021
 title: Patent Examination Data System
-location: https://ped.uspto.gov/peds/#!/
 uuid: 46a031fd-8827-4bab-91b3-b41ca447f152
 ---

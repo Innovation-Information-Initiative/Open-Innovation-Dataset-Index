@@ -5,9 +5,9 @@ citation: 'De Rassenfosse, G., Dernis, H., Guellec, D., Picci, L., & van Pottels
 code: http://www.gder.info/download_wwc_mysql.html
 description: The goal of the project was to produce a dataset of priority patent applications
   filed across the globe, allocated by inventor and applicant location.
+location: http://www.gder.info/download_wwc_excel.html
 record_creation_timestamp: 11/23/2020 17:20:46
 shortname: priority_patents
 title: Worldwide Count of Priority Patents
-location: http://www.gder.info/download_wwc_excel.html
 uuid: 068fb03e-642a-4896-b61c-ff6a16251e08
 ---

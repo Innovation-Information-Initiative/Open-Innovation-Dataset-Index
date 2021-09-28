@@ -8,9 +8,9 @@ citation: "\n@article{petralia_gpt_2020,\n\ttitle = {{GPT} {Indicators}},\n\turl
   = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2020},\n\tnote = {type: dataset},\n}\n"
 description: This database contains yearly technology-level measures of Growth, Use
   Complementarity (UC) and Innovation Complementarity (IC) since 1920 for all ...
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
 record_creation_timestamp: 08/17/2021, 11:25:28
 shortname: gpt_indicators
 title: GPT Indicators
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
 uuid: 5ab54caa-f53c-4537-8dac-8bf20cab594e
 ---

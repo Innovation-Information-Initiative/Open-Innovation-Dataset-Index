@@ -60,6 +60,7 @@ doi: 'DOI: 10.5281/zenodo.5458943
 
   type: dataset'
 error_metrics: null
+location: https://zenodo.org/record/5458943
 record_creation_timestamp: 09/07/2021, 16:35:04
 references: null
 shortname: covid_twitter_chatter
@@ -67,7 +68,6 @@ tags: social media, twitter, nlp, covid-19, covid19, twitter, covid, open-source
 terms_of_use: null
 timeframe: Jan 2020-present
 title: A large-scale COVID-19 Twitter chatter dataset for open scientific research
-location: https://zenodo.org/record/5458943
 uuid: 1a7fc85d-38af-4fe6-83b8-0d629e85d418
 versioning: 'Yes'
 ---

@@ -7,9 +7,9 @@ citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {Internationa
   = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2019},\n\tnote = {type: dataset},\n}\n"
 description: HistPat International provides the geography of historical patents granted
   to foreigns by the United States Patent and Trademark Office (USPTO) fro...
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
 record_creation_timestamp: 08/17/2021, 09:21:25
 shortname: histpat_international
 title: HistPat International Dataset
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
 uuid: fb81106d-3933-488b-acd9-aff177f82423
 ---

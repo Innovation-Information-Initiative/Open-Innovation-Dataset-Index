@@ -9,11 +9,11 @@ description: 'The identification enables construction of social networks based o
   available for community use and improvement and will enable updating as frequently
   as new patents are issued. '
 doi: https://doi.org/10.7910/DVN/YJUNUN
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
 record_creation_timestamp: 11/21/2020 17:20:46
 shortname: co_authorship_careers
 tags: coauthor network
 terms_of_use: CC0 - "Public Domain Dedication"
 title: The careers and co-authorship networks of U.S. patent-holders, since 1975
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
 uuid: 3e2ed123-d6c0-46af-8683-e23d64b04efc
 ---
