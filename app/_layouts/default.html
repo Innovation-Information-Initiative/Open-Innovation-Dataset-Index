@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+  {% include head.html %}
 	<body>
-		<h1>{{ page.title }}</h1>
-		{% if page.timeframe %}
-			<p>timeframe: {{ page.timeframe }}</p>
-		{% endif %}
-		<p>{{ page.description }}</p>
+		<div class="pageContainer">
+			<h1>{{ page.title }}</h1>
+			{% if page.timeframe %}
+				<p>timeframe: {{ page.timeframe }}</p>
+			{% endif %}
+			<p>{{ page.description }}</p>
 
-		{{ content }}
+			{{ content }}
+		</div>
 	</body>
 </html>
