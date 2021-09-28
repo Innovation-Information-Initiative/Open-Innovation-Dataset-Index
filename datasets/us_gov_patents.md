@@ -9,6 +9,6 @@ shortname: us_gov_patents
 terms_of_use: CC-BY 4.0 International
 timeframe: 2000-2019
 title: Patents arising from U.S. government funding
-url: https://zenodo.org/record/3369582
+location: https://zenodo.org/record/3369582
 uuid: c66bdabd-a80c-4a7e-b9b9-f706e4ed7395
 ---

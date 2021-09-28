@@ -22,7 +22,7 @@ shortname: discern
 tags: Compustat, Patents, Publications, NPL, Name changes, Dynamic reassignment, GVKEY
 timeframe: 1980-2015
 title: DISCERN patent/compustat crosswalk
-url: https://zenodo.org/record/4320782#.YONFTugzY2w
+location: https://zenodo.org/record/4320782#.YONFTugzY2w
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
 versioning: 'Yes'
 ---

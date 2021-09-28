@@ -9,6 +9,6 @@ shortname: inventor_disambiguation
 tags: Disambiguation
 timeframe: 1975-2010
 title: Inventor disambiguation
-url: https://dataverse.harvard.edu/dataverse/patent
+location: https://dataverse.harvard.edu/dataverse/patent
 uuid: e77ef2c0-6a35-437a-8893-83eb88ad7bc9
 ---

@@ -9,6 +9,6 @@ record_creation_timestamp: 11/27/2020 17:20:46
 shortname: patstat
 terms_of_use: Requires a subscription to access
 title: PATSTAT
-url: https://www.epo.org/searching-for-patents/business/patstat.html#tab3
+location: https://www.epo.org/searching-for-patents/business/patstat.html#tab3
 uuid: e390a212-3a92-4d8f-ac4d-ca2c960a36d3
 ---

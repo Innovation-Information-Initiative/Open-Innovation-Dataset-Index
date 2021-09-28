@@ -21,7 +21,7 @@ terms_of_use: 'CC BY 4.0 license. See: https://creativecommons.org/licenses/by/4
 timeframe: 1836-2019
 title: The scientific knowledge base of low carbon energy technologies (updated and
   extended version)
-url: https://doi.org/10.4119/unibi/2950291
+location: https://doi.org/10.4119/unibi/2950291
 uuid: 50fbdb5a-1288-46e9-b93d-27ac99cd4eb2
 versioning: 'No'
 ---

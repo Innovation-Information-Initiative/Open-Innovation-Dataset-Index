@@ -13,6 +13,6 @@ shortname: gov_research_fuels_innovation
 terms_of_use: CC0 - "Public Domain Dedication"
 timeframe: 1926-1975 and 1975-2017
 title: 'Replication Data for: Government-funded research increasingly fuels innovation'
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
 uuid: 50c1e32c-d2f5-4328-be8e-b7f172772a26
 ---

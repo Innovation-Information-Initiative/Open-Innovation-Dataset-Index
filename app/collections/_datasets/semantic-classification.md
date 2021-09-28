@@ -12,6 +12,6 @@ description: Classification Data for Bergeaud, Potiron and Raimbault, 2017, Clas
 record_creation_timestamp: 08/17/2021, 08:40:25
 shortname: classifying_patents_semantic_content
 title: Classification Data for "Classifying Patents Based on their Semantic Content"
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
 uuid: bf073285-5243-4dc6-a990-c8a8c3f79898
 ---

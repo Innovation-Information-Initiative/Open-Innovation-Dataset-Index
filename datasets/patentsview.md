@@ -10,6 +10,6 @@ shortname: patentsview
 terms_of_use: Creative Commons Attribution 4.0 International License.
 timeframe: 1963-1999
 title: USPTO PatentsView
-url: https://www.patentsview.org/download/
+location: https://www.patentsview.org/download/
 uuid: cf1780b1-e265-4e49-8d1d-83b9cfe0fd9a
 ---

@@ -9,6 +9,6 @@ shortname: sem_scholar_open_research
 tags: Citation affect
 terms_of_use: ODC-BY
 title: Semantic Scholar Open Research Corpus
-url: http://s2-public-api-prod.us-west-2.elasticbeanstalk.com/corpus/
+location: http://s2-public-api-prod.us-west-2.elasticbeanstalk.com/corpus/
 uuid: ff4ffcf9-5721-4148-ac59-140b9ed4dab5
 ---

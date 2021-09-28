@@ -14,7 +14,7 @@ tags: Google Patents
 terms_of_use: CC BY 4.0, requires subscription to query API
 timeframe: 1834-present (quarterly)
 title: Google Patents Public Datasets
-url: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
+location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 uuid: d24e8a7e-7d27-4280-9d85-c6598a1b9b8e
 versioning: Yes, quarterly
 ---

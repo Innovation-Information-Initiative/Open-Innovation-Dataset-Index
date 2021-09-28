@@ -8,6 +8,6 @@ record_creation_timestamp: 12/4/2020 17:20:46
 shortname: iproduct
 tags: Products
 title: IPRoduct
-url: https://iproduct.io/app
+location: https://iproduct.io/app
 uuid: 303ce18b-f411-4752-9fe6-d4fcc369f43c
 ---

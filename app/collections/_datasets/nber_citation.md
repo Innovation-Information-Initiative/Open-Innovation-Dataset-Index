@@ -11,6 +11,6 @@ record_creation_timestamp: 12/1/2020 17:20:46
 shortname: nber_citation
 timeframe: 1963-1999
 title: NBER US Patent Data Project
-url: https://sites.google.com/site/patentdataproject/Home/downloads
+location: https://sites.google.com/site/patentdataproject/Home/downloads
 uuid: d9cf4e57-a90e-4d18-8a3b-08fea43a2f49
 ---

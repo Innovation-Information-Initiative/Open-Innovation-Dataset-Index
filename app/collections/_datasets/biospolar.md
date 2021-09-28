@@ -18,7 +18,7 @@ shortname: biospolar
 tags: antarctic, krill
 terms_of_use: CC-By Attribution 4.0 International
 title: Biospolar Antarctic Literature and Patents
-url: https://osf.io/py6ve/
+location: https://osf.io/py6ve/
 uuid: fcf09f34-d5a8-483d-94a3-09a03c167100
 ---
 

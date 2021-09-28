@@ -79,7 +79,7 @@ def generate_markdown(data):
         dataset = frontmatter.load(filepath)
         dataset["uuid"] = row["uuid"]
         dataset["title"] = row["title"]
-        dataset["url"] = row["url"]
+        dataset["location"] = row["location"]
         if 'doi' in row and row["doi"] != '':
             dataset["doi"] = row["doi"]
         dataset["description"] = row["description"].replace('\n', ' ')

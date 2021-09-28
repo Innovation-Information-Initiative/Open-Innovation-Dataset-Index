@@ -8,6 +8,6 @@ description: In this project, patents from China's State Intellectual Property O
 record_creation_timestamp: 11/14/2020 17:20:46
 shortname: chinese_patent_data
 title: Chinese Patent Data Project
-url: https://sites.google.com/site/sipopdb/home/sipo---asie
+location: https://sites.google.com/site/sipopdb/home/sipo---asie
 uuid: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 ---

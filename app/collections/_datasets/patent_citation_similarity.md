@@ -17,6 +17,6 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
   use the data in academic research — please just cite the supporting article.
 timeframe: 1976-2017
 title: Patent Citation Similarity
-url: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Similarity_2017-10-23.csv
+location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Similarity_2017-10-23.csv
 uuid: f1a7dfa7-c1f0-4414-a6b9-5a0f0d0e37f1
 ---

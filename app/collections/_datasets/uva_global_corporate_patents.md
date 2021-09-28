@@ -14,6 +14,6 @@ shortname: uva_global_corporate_patents
 terms_of_use: CC BY-NC 4.0 Attribution-NonCommercial 4.0 International
 timeframe: 1980-2017
 title: UVA Darden Global Corporate Patent Dataset (disambiguated assignees)
-url: https://patents.darden.virginia.edu/
+location: https://patents.darden.virginia.edu/
 uuid: e80542a8-a9bb-4205-8364-c0e9f3a2b683
 ---

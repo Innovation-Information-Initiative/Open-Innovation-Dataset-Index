@@ -14,6 +14,6 @@ shortname: co_authorship_careers
 tags: coauthor network
 terms_of_use: CC0 - "Public Domain Dedication"
 title: The careers and co-authorship networks of U.S. patent-holders, since 1975
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
 uuid: 3e2ed123-d6c0-46af-8683-e23d64b04efc
 ---

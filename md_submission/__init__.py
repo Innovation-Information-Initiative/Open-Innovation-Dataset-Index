@@ -36,7 +36,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 	dataset = frontmatter.load(new_file)
 
 	#get metadata associated with dataset
-	parsed_url = urllib.parse.quote(dataset['url'], safe=" ")
+	parsed_url = urllib.parse.quote(dataset['location'], safe=" ")
 	wiki_req = 'https://en.wikipedia.org/api/rest_v1/data/citation/mediawiki/' + parsed_url
 	wiki_res = requests.get(wiki_req)
 	try:
@@ -61,7 +61,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
 				shortname,
-				str(dataset["url"]), # URL
+				str(dataset["location"]), # URL
 				str(dataset["doi"] if "DOI" in dataset else " "), # DOI?
 				str(dataset["description"] if "description" in dataset else " "), # Description
 				str(dataset["terms"] if "terms" in dataset else " "), # Terms of use
@@ -101,7 +101,7 @@ def parse_and_submit(new_file, sheet_id, output_dir, creds):
 				str(result["title"] if result["title"] else dataset["title"]), # Title
 				str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), # Record Creation Timestamp
 				shortname,
-				str(result["url"] if "url" in result else dataset["url"]), # URL
+				str(result["url"] if "url" in result else dataset["location"]), # URL
 				str(result["DOI"] if "DOI" in result else result["extra"] if "DOI" in result["extra"] else " "), # DOI?
 				str(dataset["description"] if "description" in dataset else result["abstractNote"] if "abstractNote" in result else " "), # Description
 				str(dataset["terms"] if "terms" in dataset else " "), # Terms of use

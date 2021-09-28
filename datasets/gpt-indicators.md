@@ -10,6 +10,6 @@ description: This database contains yearly technology-level measures of Growth, 
 record_creation_timestamp: 08/17/2021, 11:25:28
 shortname: gpt_indicators
 title: GPT Indicators
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
 uuid: 5ab54caa-f53c-4537-8dac-8bf20cab594e
 ---

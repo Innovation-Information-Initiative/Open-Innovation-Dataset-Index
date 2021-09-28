@@ -20,6 +20,6 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
   use the data in academic research — please just cite the supporting article.
 timeframe: Need to check paper https://ssrn.com/abstract=2977273
 title: Patent Scope and Examiner Toughness
-url: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
+location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
 uuid: b547441d-efdd-4b30-8c78-852d68c9c2ac
 ---

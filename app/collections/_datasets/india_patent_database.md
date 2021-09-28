@@ -14,7 +14,7 @@ tags: innovation, platform
 terms_of_use: null
 timeframe: None
 title: Indian Patent Advanced Search System
-url: https://ipindiaservices.gov.in/publicsearch
+location: https://ipindiaservices.gov.in/publicsearch
 uuid: fc72efb0-8b24-4415-9b50-b0b7f33dc8b4
 versioning: None
 ---

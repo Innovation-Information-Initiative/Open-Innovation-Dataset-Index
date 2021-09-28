@@ -28,7 +28,7 @@ tags: patent measures, text, natural language processing, novelty, impact, USPTO
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1969-2018
 title: 'Patent text: code, data, and new measures'
-url: https://zenodo.org/record/3515985
+location: https://zenodo.org/record/3515985
 uuid: 44f33a6f-5099-4481-abed-af9aadf0bd4f
 versioning: 'Yes'
 ---

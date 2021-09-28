@@ -7,6 +7,6 @@ documentation: https://www.nature.com/articles/sdata201674#MOESM51
 shortname: patent_geography
 timeframe: 1836-1975
 title: Geography of patents
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
 uuid: f9127a91-85f3-483d-a817-437671875d56
 ---

@@ -16,7 +16,7 @@ tags: Citations, In-text, Front page, Patent, Science, Database, Wikipedia, Stan
 terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit
-url: https://doi.org/10.5281/zenodo.3710993
+location: https://doi.org/10.5281/zenodo.3710993
 uuid: bd8a562a-ce58-4a61-925d-88f0d0695974
 versioning: 'Yes'
 ---

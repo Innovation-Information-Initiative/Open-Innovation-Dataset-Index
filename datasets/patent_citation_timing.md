@@ -17,6 +17,6 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
   use the data in academic research — please just cite the supporting article.
 timeframe: 2001-2004
 title: Patent Citation Timing and Source
-url: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
+location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
 uuid: 2d88904f-056b-4230-96b4-f70c178d9f88
 ---

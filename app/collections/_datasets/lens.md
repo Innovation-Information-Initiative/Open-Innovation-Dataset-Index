@@ -14,6 +14,6 @@ terms_of_use: Cambia grants you a non-exclusive, non-transferable, revocable, li
   by which The Lens data may be used are intended to resonate with the principles
   of Creative Commons Attribution licenses with a public benefit element.
 title: Lens.org
-url: https://lens.org/
+location: https://lens.org/
 uuid: c39f4844-5ae2-4dcb-bf2c-d6b957125704
 ---

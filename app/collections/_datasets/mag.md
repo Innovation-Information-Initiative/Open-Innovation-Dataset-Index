@@ -14,6 +14,6 @@ shortname: mag
 tags: Microsoft Academic
 terms_of_use: ODC-BY
 title: Microsoft Academic Graph
-url: https://academic.microsoft.com/home
+location: https://academic.microsoft.com/home
 uuid: 9c4124ed-5337-4b36-a1c9-7cf256a3384b
 ---

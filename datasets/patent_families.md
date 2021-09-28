@@ -14,6 +14,6 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
   use the data in academic research — please just cite the supporting article.
 timeframe: 2005-2014
 title: Patent Families Dataset
-url: https://storage.googleapis.com/jmk_public/Younge-Kuhn_Patent_Families_2017-09-25.csv
+location: https://storage.googleapis.com/jmk_public/Younge-Kuhn_Patent_Families_2017-09-25.csv
 uuid: eaee5eaa-985b-4ba5-a13a-797d3cfeef1f
 ---

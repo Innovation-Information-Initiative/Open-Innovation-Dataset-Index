@@ -11,6 +11,6 @@ description: HistPat International provides the geography of historical patents 
 record_creation_timestamp: 08/17/2021, 09:21:25
 shortname: histpat_international
 title: HistPat International Dataset
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
 uuid: fb81106d-3933-488b-acd9-aff177f82423
 ---

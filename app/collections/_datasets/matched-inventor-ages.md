@@ -17,7 +17,7 @@ record_creation_timestamp: 08/12/2021, 15:17:03
 shortname: matched_inventor_ages
 tags: Inventors, Ages, Gender, Death Dates, Patents
 title: Matched inventor ages from patents, based on web scraped sources
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YRLSKU
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YRLSKU
 uuid: e22dcf03-9504-48c7-9cb4-468d98ec2bb2
 ---
 

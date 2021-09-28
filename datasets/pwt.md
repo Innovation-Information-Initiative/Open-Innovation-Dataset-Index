@@ -11,6 +11,6 @@ shortname: pwt
 terms_of_use: CC 4.0
 timeframe: 1950-2017
 title: Penn World Tables
-url: https://doi.org/10.15141/S50T0R
+location: https://doi.org/10.15141/S50T0R
 uuid: 00c6f78f-f689-4d50-a965-812bfd528477
 ---

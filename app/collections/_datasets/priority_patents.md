@@ -9,6 +9,6 @@ description: The goal of the project was to produce a dataset of priority patent
 record_creation_timestamp: 11/23/2020 17:20:46
 shortname: priority_patents
 title: Worldwide Count of Priority Patents
-url: http://www.gder.info/download_wwc_excel.html
+location: http://www.gder.info/download_wwc_excel.html
 uuid: 068fb03e-642a-4896-b61c-ff6a16251e08
 ---

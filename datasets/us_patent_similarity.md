@@ -25,7 +25,7 @@ tags: patents, intellectual property, innovation, semantic similarity, empirical
 terms_of_use: ' Creative Commons Attribution 4.0 International'
 timeframe: None
 title: US Patent Similarity Data
-url: https://zenodo.org/record/3552078
+location: https://zenodo.org/record/3552078
 uuid: 868eaad1-3c6a-4730-a70f-853996962d39
 versioning: 'Yes'
 ---

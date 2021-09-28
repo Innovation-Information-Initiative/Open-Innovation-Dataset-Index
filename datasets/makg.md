@@ -16,6 +16,6 @@ shortname: makg
 tags: Microsoft Academic
 terms_of_use: Open Data Commons Attribution License (ODC-By) v1.0
 title: Microsoft Academic Knowledge Graph
-url: http://ma-graph.org/
+location: http://ma-graph.org/
 uuid: 6f3605ad-5edb-4a73-8b3b-6d6d35064d4c
 ---

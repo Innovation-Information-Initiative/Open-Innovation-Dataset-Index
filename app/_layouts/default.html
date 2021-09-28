@@ -4,10 +4,22 @@
 	<body>
 		<div class="pageContainer">
 			<h1>{{ page.title }}</h1>
+			{% if page.location %}
+				location: <a href='{{ page.location }}'>{{ page.location }}</a><br>
+			{% endif %}</p>
 			{% if page.timeframe %}
-				<p>timeframe: {{ page.timeframe }}</p>
+				<p>timeframe: {{ page.timeframe }}<br>
 			{% endif %}
-			<p>{{ page.description }}</p>
+			{% if page.terms_of_use %}
+				license: {{ page.terms_of_use }}<br>
+			{% endif %}
+			{% if page.tags and page.tags.size > 0 %}
+				tags: {{ page.tags }}<br>
+			{% endif %}
+			{% if page.doi %}
+				doi: {{ page.doi }}<br>
+			{% endif %}</p>
+				<p>{{ page.description }}</p>
 
 			{{ content }}
 		</div>

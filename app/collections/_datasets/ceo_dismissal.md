@@ -27,6 +27,6 @@ shortname: ceo_dismissal
 tags: CEO, Dismissal Management, Strategic Management
 timeframe: 1992-2018
 title: Open Sourced Database for CEO Dismissal 1992-2018
-url: https://zenodo.org/record/4618103
+location: https://zenodo.org/record/4618103
 uuid: 29154d41-30ef-4539-b428-819ca4c66965
 ---

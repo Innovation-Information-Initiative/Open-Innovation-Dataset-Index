@@ -14,7 +14,7 @@ tags: error margins
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting
-url: https://zenodo.org/record/3575146#.XfQZMWRKiUk
+location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
 uuid: 53f2e34b-8088-42a3-a763-f471c26b5ac6
 versioning: 'Yes'
 ---

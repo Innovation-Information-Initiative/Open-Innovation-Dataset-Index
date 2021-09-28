@@ -9,6 +9,6 @@ shortname: chilean_ip
 terms_of_use: '?'
 timeframe: 1995-2005
 title: Chilean IP and firm data
-url: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
+location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
 uuid: e65da1db-6608-4246-98a7-c260dfc28e45
 ---

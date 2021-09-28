@@ -15,7 +15,7 @@ tags: Google Patents
 terms_of_use: null
 timeframe: 1834-present (~weekly)
 title: Google Patents number linking API
-url: https://patents.google.com/api/match
+location: https://patents.google.com/api/match
 uuid: e3fbfd90-aa48-4d45-942f-11bc95d2f28a
 versioning: null
 ---

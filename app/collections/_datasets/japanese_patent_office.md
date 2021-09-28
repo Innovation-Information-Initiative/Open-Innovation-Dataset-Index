@@ -9,6 +9,6 @@ terms_of_use: Only for use by academic research institutions and other instituti
   for academic research purposes, cannot be used for commercial purposes.
 timeframe: 1964-9/2019
 title: Japanese Patent Office
-url: http://www.iip.or.jp/e/index.html
+location: http://www.iip.or.jp/e/index.html
 uuid: 07ec4549-2429-4e8e-9ee3-6deefca0b075
 ---

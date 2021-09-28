@@ -15,7 +15,7 @@ shortname: gov_funded_us_patents
 terms_of_use: 'CC0 - "Public Domain Dedication" '
 timeframe: 1926-2017
 title: Government-funded US patents
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
 uuid: fa668908-1b25-4582-92aa-3d8bf4d3085a
 versioning: N
 ---

@@ -11,6 +11,6 @@ description: This tool creates the csv tables that allow county boundaries to be
 record_creation_timestamp: 08/13/2021, 08:55:41
 shortname: harmonising_county_boundaries
 title: Tools for Harmonizing County Boundaries
-url: https://elisabethperlman.net/code.html
+location: https://elisabethperlman.net/code.html
 uuid: 6ba552a7-ec31-4710-9d8b-d8177b293a90
 ---

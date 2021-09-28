@@ -67,7 +67,7 @@ tags: social media, twitter, nlp, covid-19, covid19, twitter, covid, open-source
 terms_of_use: null
 timeframe: Jan 2020-present
 title: A large-scale COVID-19 Twitter chatter dataset for open scientific research
-url: https://zenodo.org/record/5458943
+location: https://zenodo.org/record/5458943
 uuid: 1a7fc85d-38af-4fe6-83b8-0d629e85d418
 versioning: 'Yes'
 ---

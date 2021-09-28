@@ -10,6 +10,6 @@ description: The file ctry_app_person.txt contains identifiers for patent first 
 record_creation_timestamp: 08/17/2021, 11:51:42
 shortname: missing_applicant_codes
 title: Imputation of missing applicant country codes in worldwide patent data
-url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W
+location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W
 uuid: fb46d05b-2bd9-41fc-a739-91b77a2e85d6
 ---
