@@ -9,3 +9,16 @@ body {
     max-width: 800px;
     padding: 5px;
 }
+
+.headerContainer {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#resultsContainer {
+    padding: 5px;
+    position: absolute;
+    z-index: 3;
+}

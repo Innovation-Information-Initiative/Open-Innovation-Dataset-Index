@@ -1,9 +1,12 @@
 <header>
-	<a href="/">home</a>
-	<span id="search-container">
-		<input type="text" id="search-input" placeholder="search...">
-		<ul id="results-container"></ul>
-	</span>
+	<div class="headerContainer">
+		<a href="/">home</a>
+		<a href="/datasets">datasets</a>
+		<span id="search-container">
+			<input type="text" id="searchInput" placeholder="search...">
+			<div id="resultsContainer"></div>
+		</span>
+	</div>
 </header>
 
 <!-- Script pointing to search-script.js -->
@@ -12,8 +15,8 @@
 <!-- Configuration -->
 <script>
 SimpleJekyllSearch({
-	searchInput: document.getElementById('search-input'),
-	resultsContainer: document.getElementById('results-container'),
+	searchInput: document.getElementById('searchInput'),
+	resultsContainer: document.getElementById('resultsContainer'),
 	json: '/search.json'
 })
 </script>

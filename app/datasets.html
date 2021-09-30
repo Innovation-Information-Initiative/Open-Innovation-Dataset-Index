@@ -1,0 +1,8 @@
+---
+title: List of Open Patent Datasets
+layout: default
+---
+
+{% for dataset in site.datasets %}
+	<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+{% endfor %}
