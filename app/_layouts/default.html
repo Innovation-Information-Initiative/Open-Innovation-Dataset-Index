@@ -15,7 +15,7 @@
 				license: {{ page.terms_of_use }}<br>
 			{% endif %}
 			{% if page.tags and page.tags.size > 0 %}
-				tags: {{ page.tags }}<br>
+				tags: {{ page.tags | join: " " }}<br>
 			{% endif %}
 			{% if page.doi %}
 				doi: {{ page.doi }}<br>
