@@ -215,3 +215,6 @@ fcf09f34-d5a8-483d-94a3-09a03c167100,Biospolar Antarctic Literature and Patents,
 	keywords = {patents, intellectual property, innovation, semantic similarity, empirical legal studies},
 }
 ",,Yes, ,"patents, intellectual property, innovation, semantic similarity, empirical legal studies, patents, similarity", 
+eb43fc38-8786-4b0f-b3b8-b9d610f456ed,Patstat Register,10/04/2021,patstat_register,https://www.epo.org/searching-for-patents/business/patstat.html,,"This database contains bibliographic and legal event data on published European and Euro-PCT patent applications.
+
+Like the core PATSTAT database, it is maintained by the EPO, however PATSTAT Register only contains information about patent applications at the European Patent Ofﬁce (EPO). The information in PATSTAT Register is, however, considerably deeper and more detailed.",Requires a subscription to access,,https://www.epo.org/searching-for-patents/business/patstat.html,,,https://github.com/gderasse/patstat_register
