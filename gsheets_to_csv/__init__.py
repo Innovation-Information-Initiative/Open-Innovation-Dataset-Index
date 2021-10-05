@@ -1,12 +1,8 @@
 import csv
-import logging
 import os
 import frontmatter
 import json
 import gspread  # type: ignore
-
-logger = logging.getLogger("gsheets-to-csv")
-logger.setLevel(logging.INFO)
 
 def json_from_data(data):
     result = []
@@ -107,19 +103,17 @@ def load_sheets_into_csv(sheets, output_dir, creds):
     outputs = []
 
     for i, sh in enumerate(sheets):
-        logger.info(f"downloading sheet: {sh}")
-        print(f"downloading sheet: {sh}")
         if "id" not in sh:
-            logger.warning("Id required to lookup sheet")
+            print("id required to lookup sheet")
             continue
         sheet = gc.open_by_key(key=sh["id"])
 
         try:
             if "title" in sh:
-                print(sh["title"]) 
+                print("downloading", sh["title"]) 
                 ws = sheet.worksheet(title=sh["title"])
             else:
-                logger.info("Sheet title not specified; selecting first")
+                print("Sheet title not specified; selecting first")
                 ws = sheet.worksheets()[0]
         except gspread.exceptions.APIError:
             raise Exception(f"failed to download sheet {sh['title']}")
@@ -139,7 +133,7 @@ def load_sheets_into_csv(sheets, output_dir, creds):
             update_markdown(data_json, sh["directory"])
 
         outputs.append(filename)
-        logger.info(f"sheet written to {filename}")
+        print(f"sheet written to {filename}")
     return outputs
 
     
