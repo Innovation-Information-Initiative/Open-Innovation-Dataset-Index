@@ -31,7 +31,7 @@ def update_markdown(data, directory):
 
     for file in os.listdir(directory):
         filepath = os.path.join(directory + '/', file)
-        if file.endswith(".md"):
+        if file.endswith(".md") and not file.startswith("_"):
             dataset = frontmatter.load(filepath)
 
             # find row with the same UUID
@@ -55,7 +55,7 @@ def generate_markdown(data, directory):
 
     uuids = []
     for file in os.listdir(directory):
-        if file.endswith(".md"):
+        if file.endswith(".md") and not file.startswith("_"):
             # if the UUIDs match, remove from the list
             dataset = frontmatter.load(os.path.join(directory + '/', file))
             if 'uuid' in dataset: 
