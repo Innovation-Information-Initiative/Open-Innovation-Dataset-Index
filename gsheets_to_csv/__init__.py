@@ -118,12 +118,13 @@ def load_sheets_into_csv(sheets, output_dir, creds):
 
         try:
             if "title" in sh:
+                print(sh["title"]) 
                 ws = sheet.worksheet(title=sh["title"])
             else:
                 logger.info("Sheet title not specified; selecting first")
                 ws = sheet.worksheets()[0]
         except gspread.exceptions.APIError:
-            raise Exception(f"failed to download sheet {sh}")
+            raise Exception(f"failed to download sheet {sh['title']}")
 
         if "range" in sh:
             data = ws.get(sh["range"])
