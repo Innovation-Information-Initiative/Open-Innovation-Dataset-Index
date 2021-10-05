@@ -13,5 +13,7 @@ collections_dir: collections
 collections:
   datasets:
     output: true
+  tools:
+    output: true
   selections:
     output: true
