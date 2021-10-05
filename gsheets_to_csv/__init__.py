@@ -12,7 +12,6 @@ def json_from_data(data):
     result = []
     headers = data[0]
     headers = list(map(lambda header: header.replace(" ", "_").lower(), headers))
-    print(headers)
 
     del data[0]
 
@@ -43,7 +42,6 @@ def update_markdown(data, directory):
             for term in row:
                 #check not empty null or blank
                 if row[term] and row[term].strip():
-                    print(term, "-", row[term])
                     dataset[term] = row[term]
 
             f = open(filepath, 'w')
@@ -67,6 +65,7 @@ def generate_markdown(data, directory):
             to_gen.append(data[i])
 
     for row in to_gen:
+        print("creating file for", row["title"])
         #create title
         filepath = os.path.join(directory + '/', row['shortname'] + '.md')
 
@@ -78,7 +77,6 @@ def generate_markdown(data, directory):
         for term in row:
             #check not empty null or blank
             if row[term] and row[term].strip():
-                print(term, "-", row[term])
                 dataset[term] = row[term]
 
         dataset["description"] = row["description"].replace('\n', ' ')
