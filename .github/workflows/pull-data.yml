@@ -3,7 +3,7 @@ name: index_archive
 on:
   push:
   schedule:
-  - cron: "*/5 * * * *"
+  - cron: "*/1 * * * *"
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
@@ -34,8 +34,9 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_SHEETS: |
             [
-              { "id": "${{ env.id }}", "title": "Open_Patent_Datasets" },
-              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide" }
+              { "id": "${{ env.id }}", "title": "Open_Patent_Datasets", "directory": "datasets" },
+              { "id": "${{ env.id }}", "title": "Innovation_Data_Toolkit", "directory": "tools" },
+              { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide", "directory": "platforms" }
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 pull_sheet.py

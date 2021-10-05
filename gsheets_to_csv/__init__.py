@@ -27,10 +27,10 @@ def json_from_data(data):
 
     return result
 
-def update_markdown(data):
+def update_markdown(data, directory):
 
-    for file in os.listdir('datasets'):
-        filepath = os.path.join('datasets/', file)
+    for file in os.listdir(directory):
+        filepath = os.path.join(directory + '/', file)
         if file.endswith(".md"):
             dataset = frontmatter.load(filepath)
 
@@ -50,14 +50,14 @@ def update_markdown(data):
             f.write(frontmatter.dumps(dataset))
             f.close()
 
-def generate_markdown(data):
+def generate_markdown(data, directory):
     # remove headers
 
     uuids = []
-    for file in os.listdir('datasets'):
+    for file in os.listdir(directory):
         if file.endswith(".md"):
             # if the UUIDs match, remove from the list
-            dataset = frontmatter.load(os.path.join('datasets/', file))
+            dataset = frontmatter.load(os.path.join(directory + '/', file))
             if 'uuid' in dataset: 
                 uuids.append(dataset['uuid'])
                 
@@ -66,23 +66,30 @@ def generate_markdown(data):
         if dataset['uuid'] not in uuids:
             to_gen.append(data[i])
 
-    # json_gen = json_from_data(to_gen)
-    # print(json_gen)
-
     for row in to_gen:
         #create title
-        filepath = os.path.join('datasets/', row['shortname'] + '.md')
+        filepath = os.path.join(directory + '/', row['shortname'] + '.md')
 
         # create file
         f = open(filepath, 'w')
 
         dataset = frontmatter.load(filepath)
-        dataset["uuid"] = row["uuid"]
-        dataset["title"] = row["title"]
-        dataset["location"] = row["location"]
-        if 'doi' in row and row["doi"] != '':
-            dataset["doi"] = row["doi"]
+
+        for term in row:
+            #check not empty null or blank
+            if row[term] and row[term].strip():
+                print(term, "-", row[term])
+                dataset[term] = row[term]
+
         dataset["description"] = row["description"].replace('\n', ' ')
+
+
+        # dataset["uuid"] = row["uuid"]
+        # dataset["title"] = row["title"]
+        # dataset["location"] = row["location"]
+        # if 'doi' in row and row["doi"] != '':
+        #     dataset["doi"] = row["doi"]
+        # dataset["description"] = row["description"].replace('\n', ' ')
 
         f.write(frontmatter.dumps(dataset))
         f.close()
@@ -126,11 +133,11 @@ def load_sheets_into_csv(sheets, output_dir, creds):
         filename = os.path.join(output_dir, f"{sh['title']}.csv")
         write_worksheet_to_csv(data, filename)
 
-        if sh["title"] == 'Open_Patent_Datasets':
+        if sh["title"] == 'Open_Patent_Datasets' or sh["title"] == 'Innovation_Data_Toolkit':
             data_json = json_from_data(data)
             # print(json.dumps(data_json, indent = 2))
-            generate_markdown(data_json)
-            update_markdown(data_json)
+            generate_markdown(data_json, sh["directory"])
+            update_markdown(data_json, sh["directory"])
 
         outputs.append(filename)
         logger.info(f"sheet written to {filename}")
