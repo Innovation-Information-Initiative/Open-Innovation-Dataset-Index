@@ -12,3 +12,9 @@ terms_of_use: Requires a subscription to access
 title: PATSTAT
 uuid: e390a212-3a92-4d8f-ac4d-ca2c960a36d3
 ---
+
+PATSTAT is managed by the EPO, and offers bibliographic data for over 100 patent offices.
+
+## Example Queries
+
+Gaétan de Rassenfosse, Hélène Dernis and Geert Boedt wrote a guide to PATSTAT, including 10 queries and details of the schema, full details of which are available [here](https://onlinelibrary.wiley.com/doi/epdf/10.1111/1467-8462.12073). Their example queries are reproduced below, and are also available [on GitHub](https://github.com/gderasse/patstat_register).
