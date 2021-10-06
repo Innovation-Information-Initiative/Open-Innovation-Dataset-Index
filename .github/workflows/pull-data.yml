@@ -47,8 +47,9 @@ jobs:
           echo "list changed files:"
           git diff --name-only
           
-          echo "check paths of changed files:"
+          echo "check paths of new and changed files:"
           git diff --name-only > files.txt
+          git status --porcelain | grep -e '^??' | sed -e 's/^?? //g' >> files.txt
           while IFS= read -r file
           do
             echo "$file"
