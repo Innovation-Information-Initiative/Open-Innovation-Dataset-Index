@@ -1,6 +1,7 @@
 import io
 import uuid
 import frontmatter
+import sys
 
 if __name__ == "__main__":
 	new_file = sys.argv[1]
