@@ -4,7 +4,7 @@ import frontmatter
 import sys
 
 if __name__ == "__main__":
-	new_file = sys.argv[1]
+	new_file = frontmatter.load(sys.argv[1])
 	new_uuid = uuid.uuid4()
 	new_file['uuid'] = str(new_uuid)
 
