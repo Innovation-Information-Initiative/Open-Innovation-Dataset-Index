@@ -9,7 +9,7 @@ if __name__ == "__main__":
 	new_file['uuid'] = str(new_uuid)
 
 	# write out additions to metadata
-	f = io.open(sys.argv[1], 'w', encoding='utf8')
+	f = io.open(sys.argv[1], 'wb')
 	frontmatter.dump(new_file, f)
 	f.close()
 
