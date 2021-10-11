@@ -1,0 +1,77 @@
+name: collection_submission
+
+on:
+  pull_request_target:
+    types: [opened, reopened, edited]
+    paths:
+    - 'collections/**.md'
+
+env:
+  remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
+  branch: main
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    name: pulling in submitted collections and compiling the site
+    steps:
+
+      - name: get PR branch
+        run: |
+          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
+
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+
+      - name: Set up Python environment
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install python-frontmatter
+
+      - name: Fetch
+        run: |
+          git fetch origin pull/${{ github.event.number }}/head:${{ env.BRANCH_NAME }}
+          git checkout ${{ env.BRANCH_NAME }}
+
+      - id: 'read_files'
+        uses: Ana06/get-changed-files@v2.0.0
+
+      - name: generate UUIDs for submission files
+        run: |
+          git status
+          for changed_file in ${{ steps.read_files.outputs.all }}; do
+            if [ "${changed_file: -3}" == ".md" ]
+            then
+              echo "this is a markdown file ${changed_file}"
+              python3 uuid_gen.py ${changed_file}
+            fi
+          done
+
+      - name: Copy files to site and add layout
+        run: |
+            cp -r collections/* app/collections/_selections
+            for file in app/collections/_selections/*.md; do
+              sed -e -i '2s/^/layout\: default\n/;' $file
+            done
+
+      - name: Commit files
+        run: |
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add collections/*.md app/collections/_selections/*.md
+            git commit -m "accepted new collection PR (#${{ github.event.number }})"
+            git push --set-upstream origin ${{ env.BRANCH_NAME }}
+
+      - name: Commit merge
+        run: |
+            git fetch
+            git checkout main
+            git pull origin ${{ env.BRANCH_NAME }}
+            git pull
+            git push
