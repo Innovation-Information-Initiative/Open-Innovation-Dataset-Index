@@ -45,8 +45,8 @@ jobs:
       - name: generate UUIDs for submission files
         run: |
           git status
-          for changed_file in ${{ steps.read_files.outputs.all }}; do
-            if [ "${changed_file: -3}" == ".md" ]
+          for added_file in ${{ steps.read_files.outputs.added }}; do
+            if [ "${added_file: -3}" == ".md" ]
             then
               echo "this is a markdown file ${changed_file}"
               python3 uuid_gen.py ${changed_file}
