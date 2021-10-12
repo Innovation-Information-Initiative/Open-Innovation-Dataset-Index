@@ -57,7 +57,7 @@ jobs:
         run: |
             cp -r collections/* app/collections/_selections
             for file in app/collections/_selections/*.md; do
-              sed -e -i '2s/^/layout\: default\n/;' $file
+              sed -e '2s/^/layout\: default\n/;' $file
             done
 
       - name: Commit files
