@@ -14,14 +14,10 @@ You can use the search bar to explore the datasets, or browse the <a href="/data
 	<div id="resultsContainer"></div>
 </div>
 
-<h2>Start here!</h2>
-<ul>
-	<li><a href="/datasets/discern.html">DISCERN</a></li>
-	<li><a href="/datasets/rons.html">rons</a></li>
-	<li><a href="/datasets/patentsview.html">patentsview</a></li>
-	<li><a href="/datasets/patstat.html">patstat</a></li>
-	<li><a href="/datasets/iproduct.html">iproduct</a></li>
-</ul>
+{% assign intro = site.selections | where:"title", "Essential Patent Analysis Datasets"  | first %}
+
+<h2>{{ intro.title }}</h2>
+{{ intro.content }}
 
 <!-- Script pointing to search-script.js -->
 <script src="search.js" type="text/javascript"></script>
