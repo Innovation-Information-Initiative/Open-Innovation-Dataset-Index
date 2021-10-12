@@ -23,4 +23,19 @@ body {
     z-index: 3;
     list-style-type: none;
     background-color: white;
+    overflow: scroll;
+    tabindex: 0;
+}
+
+.searchResult {
+    tabindex: -1;
+}
+
+.searchResult > a {
+    color: black;
+    text-decoration: none;
+}
+
+.searchResult:hover {
+    background-color: lightblue;
 }
