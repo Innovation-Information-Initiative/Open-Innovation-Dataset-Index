@@ -11,7 +11,7 @@ You can use the search bar to explore the datasets, or browse the <a href="/data
 
 <div id="searchContainer">
 	<input type="text" id="searchInput" placeholder="search...">
-	<div id="resultsContainer"></div>
+	<ul id="resultsContainer"></ul>
 </div>
 
 {% assign intro = site.selections | where:"title", "Essential Patent Analysis Datasets"  | first %}
@@ -27,13 +27,8 @@ You can use the search bar to explore the datasets, or browse the <a href="/data
 SimpleJekyllSearch({
 	searchInput: document.getElementById('searchInput'),
 	resultsContainer: document.getElementById('resultsContainer'),
-	json: 'search.json'
+	json: 'search.json',
+	searchResultTemplate: '<li class="searchResult"><a href="{{ site.url }}{url}">{title}</a></li>'
 })
 </script>
 
-<!-- <h2>Datasets:</h2>
-
-{% for dataset in site.datasets %}
-	<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
-{% endfor %}
- -->

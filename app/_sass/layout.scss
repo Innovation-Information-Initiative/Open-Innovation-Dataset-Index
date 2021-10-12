@@ -18,7 +18,9 @@ body {
 }
 
 #resultsContainer {
-    padding: 5px;
+    padding: 0px;
     position: absolute;
     z-index: 3;
+    list-style-type: none;
+    background-color: white;
 }
