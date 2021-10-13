@@ -4,5 +4,23 @@ layout: default
 ---
 
 {% for dataset in site.datasets %}
-	<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+	<li class="dataset" data-value="{{ dataset.citation }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a></li>
 {% endfor %}
+
+
+<script type="text/javascript">
+	$(".dataset").each(function(){ 
+
+		// console.log()
+		try{
+			const citation = new Cite($(this).data('value'))
+			const format = citation.format('data', {format: 'object'})
+			console.log(format[0].author)
+			// $(this).append(parsed)
+		}
+		catch(e){
+			// console.log(e)
+		}
+
+	})
+</script>

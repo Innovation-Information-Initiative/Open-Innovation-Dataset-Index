@@ -5,6 +5,10 @@ body {
     line-height: 1.2;
 }
 
+li {
+    list-style-type: none;
+}
+
 .pageContainer {
     max-width: 800px;
     padding: 5px;
