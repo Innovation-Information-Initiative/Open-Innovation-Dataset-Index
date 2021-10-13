@@ -1,11 +1,12 @@
 ---
-citation: "\n@article{bergeaud_classification_2017,\n\ttitle = {Classification {Data}
-  for \"{Classifying} {Patents} {Based} on their {Semantic} {Content}\"},\n\turl =
-  {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY},\n\tabstract
-  = {Classification Data for Bergeaud, Potiron and Raimbault, 2017, Classifying Patents
-  Based on their Semantic Content.},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
-  = {Bergeaud, Antonin and Yoann, Potiron and Raimbault, Juste},\n\tmonth = apr,\n\tyear
-  = {2017},\n\tnote = {type: dataset},\n}\n"
+citation: "\n@article{bergeaud_classification_2017,\n        title = {Classification
+  {Data} for \"{Classifying} {Patents} {Based} on their {Semantic} {Content}\"},\n
+  \       url = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY},\n
+  \       abstract = {Classification Data for Bergeaud, Potiron and Raimbault, 2017,
+  Classifying Patents Based on their Semantic Content.},\n        language = {en},\n
+  \       urldate = {2021-08-17},\n        author = {Bergeaud, Antonin and Yoann,
+  Potiron and Raimbault, Juste},\n        month = apr,\n        year = {2017},\n        note
+  = {type: dataset},\n}\n"
 description: Classification Data for Bergeaud, Potiron and Raimbault, 2017, Classifying
   Patents Based on their Semantic Content.
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
