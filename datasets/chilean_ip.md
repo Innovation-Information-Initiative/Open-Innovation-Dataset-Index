@@ -7,7 +7,7 @@ documentation: https://eml.berkeley.edu//~bhhall/Chile_ipdata/chile_inno_ip.txt
 location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
 record_creation_timestamp: 11/13/2020 17:20:46
 shortname: chilean_ip
-terms_of_use: '?'
+terms_of_use: not specified
 timeframe: 1995-2005
 title: Chilean IP and firm data
 uuid: e65da1db-6608-4246-98a7-c260dfc28e45
