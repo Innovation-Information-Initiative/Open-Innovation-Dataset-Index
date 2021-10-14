@@ -19,8 +19,9 @@ def archive_gsheet(sheets, output_dir, creds):
 
 		if sh["title"] in archive_targets:
 			data_json = gsheets.json_from_data(data)
-			files.generate_markdown(data_json, os.path.join(get_project_root(), sh["directory"]))
-			files.update_markdown(data_json, os.path.join(get_project_root(), sh["directory"]))
+			md_path = os.path.join(get_project_root(), sh["directory"])
+			files.generate_markdown(data_json, md_path)
+			files.update_markdown(data_json, md_path)
 
 		print(f"sheet written to {filename}")
 
