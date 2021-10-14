@@ -13,7 +13,7 @@ env:
 jobs:
   submit:
     runs-on: ubuntu-latest
-    name: appending submitted dataset to the google sheet
+    name: Handling additions and edits to the dataset index
     steps:
 
       - name: get PR branch

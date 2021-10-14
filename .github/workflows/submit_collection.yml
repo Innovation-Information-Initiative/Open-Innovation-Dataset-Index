@@ -12,7 +12,7 @@ env:
 jobs:
   submit:
     runs-on: ubuntu-latest
-    name: pulling in submitted collections and compiling the site
+    name: Handling additions and edits to index collections
     steps:
 
       - name: get PR branch
