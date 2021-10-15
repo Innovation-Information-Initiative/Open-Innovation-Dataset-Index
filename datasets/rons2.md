@@ -9,7 +9,7 @@ doi: 'This contains citations from the front pages of worldwide patents to artic
   in the Microsoft Academic Graph (MAG) from 1800-2018. '
 error_metrics: https://github.com/mattmarx/reliance_on_science
 location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
-record_creation_timestamp: 10/15/2021, 15:16:01
+record_creation_timestamp: 10/15/2021, 15:09:26
 shortname: rons2
 tags: 'DOI: 10.5281/zenodo.3575146
 
@@ -17,6 +17,6 @@ tags: 'DOI: 10.5281/zenodo.3575146
 terms_of_use: https://zenodo.org/record/4235193#.X6Fgb5CSm38
 timeframe: 'Yes'
 title: Reliance on Science in Patenting
-uuid: 81649c77-ea90-4e5f-9eb5-d46ea61d34bf
+uuid: 31505278-a3a9-49ce-be03-180694733711
 versioning: innovation, patenting, science, citation, error, margins
 ---
