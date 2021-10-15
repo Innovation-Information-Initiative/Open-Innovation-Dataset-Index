@@ -1,31 +1,23 @@
 ---
 layout: default
-api_or_bulk_downloads: Bulk
-citation: 'Arora Ashish, Belenzon Sharon, and Sheer Lia, 2021. "Knowledge spillovers
-  and corporate investment in scientific research". American Economic Review, 111(3),
-  pp.871-98.​
-
-
-  Arora Ashish, Belenzon Sharon, and Sheer Lia, 2021. "Matching patents to Compustat
-  firms, 1980–2015: Dynamic reassignment, name changes, and ownership structures".
-  Research Policy, 50(5), p.104217.'
+api_or_bulk_downloads: https://zenodo.org/record/3575146
+citation: 'Yes'
 code: Bulk
-description: 'Patents (as well as scientific articles, and NPL citations at the aggregate
-  firm-level) matched to U.S. Compustat firms over the period 1980-2015. In extending
-  the match to Compustat up to 2015, we address two major challenges: name changes
-  and ownership changes. Our UO and subsidiary historical standardized firm name lists,
-  including the dynamic reassignment, are publicly available for researches to match
-  to their database of interest.'
-documentation: Provided at link
-doi: https://doi.org/10.5281/zenodo.4320782`
+description: 1834-2019
+documentation: 'Marx, Matt and Aaron Fuegi, "Reliance on Science: Worldwide Front-Page
+  Patent Citations to Scientific Articles"'
+doi: 'This contains citations from the front pages of worldwide patents to articles
+  in the Microsoft Academic Graph (MAG) from 1800-2018. '
 error_metrics: https://github.com/mattmarx/reliance_on_science
-location: https://zenodo.org/record/4320782#.YONFTugzY2w
-record_creation_timestamp: 11/13/2020 17:47:00
-shortname: discern
-tags: Compustat, Patents, Publications, NPL, Name changes, Dynamic reassignment, GVKEY
+location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
+record_creation_timestamp: 10/15/2021, 15:16:01
+shortname: rons2
+tags: 'DOI: 10.5281/zenodo.3575146
+
+  Type: dataset'
 terms_of_use: https://zenodo.org/record/4235193#.X6Fgb5CSm38
-timeframe: 1980-2015
-title: DISCERN patent/compustat crosswalk
-uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
-versioning: 'Yes'
+timeframe: 'Yes'
+title: Reliance on Science in Patenting
+uuid: 81649c77-ea90-4e5f-9eb5-d46ea61d34bf
+versioning: innovation, patenting, science, citation, error, margins
 ---
