@@ -48,17 +48,20 @@ jobs:
       - name: iterate over pull request files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
+          INPUT_SHEET_TITLE: 'Open_Patent_Datasets'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: |
           git status
-          for changed_file in ${{ steps.read_files.outputs.all }}; do
-            if [ "${changed_file: -3}" == ".md" ]
+          for added_file in ${{ steps.read_files.outputs.added }}; do
+            if [ "${added_file: -3}" == ".md" ]
             then
-              echo "this is a markdown file ${changed_file}"
-              python3 submission.py ${changed_file}
+              echo "this is a markdown file ${added_file}"
+              python3 submission.py ${added_file}
             fi
           done
+
+      # todo: add separate for loops for edits
 
       - name: Commit files
         run: |

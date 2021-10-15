@@ -1,5 +1,7 @@
 import gspread
 import json
+import pandas as pd
+from gspread_dataframe import get_as_dataframe, set_with_dataframe
 
 def json_from_data(data):
 	result = []
@@ -17,7 +19,7 @@ def json_from_data(data):
 				obj[header] = ""
 		result.append(obj)
 
-	return result
+	return result, headers
 
 def init(sheet_id, sheet_title, creds):
 	scope = ["https://spreadsheets.google.com/feeds"]
@@ -40,11 +42,27 @@ def get(ws, data_range=None):
 
 	return data
 
+def get_df(ws):
+	data = ws.get()
+	headers = data[0]
+	print(data[1])
+
+	print(list(map(lambda header: header.replace(" ", "_").lower(), headers)))
+
+	df = pd.DataFrame(data[1:], columns = 
+		list(map(lambda header: header.replace(" ", "_").lower(), headers)))
+
+	return df, headers
 
 def post(ws, data):
 	try:
-		ws.append_rows(data, value_input_option='RAW', insert_data_option='INSERT_ROWS')
+		ws.append_row(data, value_input_option='RAW', insert_data_option='INSERT_ROWS')
 	except gspread.exceptions.APIError:
-		print(f"error submitting data to {sheet_title}")
+		print(f"error submitting data to sheet")
 
+def post_df(ws, data):
+	try:
+		set_with_dataframe(ws, data)
+	except gspread.exceptions.APIError:
+		print(f"error submitting dataframe to sheet")
 
