@@ -15,5 +15,6 @@ tags: error margins
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting
+uuid: e27c77eb-26e9-4bfe-9ce7-bcbb531cfcaa
 versioning: 'Yes'
 ---
