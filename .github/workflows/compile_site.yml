@@ -3,9 +3,11 @@ name: collection_submission
 on:
   push:
     paths:
-    - 'collections/**.md'
-    - 'datasets/**.md'
-    - 'tools/**.md'
+      - 'collections/**.md'
+      - 'datasets/**.md'
+      - 'tools/**.md'
+    branches:
+      - master
 
 env:
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
