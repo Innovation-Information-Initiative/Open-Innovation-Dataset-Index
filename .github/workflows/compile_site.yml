@@ -7,7 +7,7 @@ on:
       - 'datasets/**.md'
       - 'tools/**.md'
     branches:
-      - master
+      - main
 
 env:
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
