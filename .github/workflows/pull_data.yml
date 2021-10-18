@@ -76,3 +76,5 @@ jobs:
             git add index_archive datasets tools
             git commit -m "generated files based on google sheet"
             git push
+        with:
+          ssh-key: "${{ secrets.COMMIT_KEY }}"

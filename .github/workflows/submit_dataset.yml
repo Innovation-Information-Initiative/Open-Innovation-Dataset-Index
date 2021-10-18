@@ -81,3 +81,5 @@ jobs:
             git pull origin ${{ env.BRANCH_NAME }}
             git pull
             git push
+        with:
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
