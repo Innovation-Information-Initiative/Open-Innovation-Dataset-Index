@@ -1,0 +1,41 @@
+name: collection_submission
+
+on:
+  push:
+    paths:
+    - 'collections/**.md'
+    - 'datasets/**.md'
+    - 'tools/**.md'
+
+env:
+  remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
+  branch: main
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    name: Take added markdown files and compose into site
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Copy files to site and add layout
+        env: 
+          INPUT_FOLDERS: ["collections", "datasets", "tools"]
+        run: |
+            for dir in ${{ env.INPUT_FOLDERS }}; do
+              cp -r ${dir}/* app/${dir}/_selections
+              for file in app/${dir}/_selections/*.md; do
+                sed -e '2s/^/layout\: default\n/;' $file
+              done
+            done
+
+      - name: Commit files
+        run: |
+            git pull
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add app/**.md
+            git commit -m "compiled site after edit to markdown files"
+            git push
+

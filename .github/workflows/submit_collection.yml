@@ -53,18 +53,11 @@ jobs:
             fi
           done
 
-      - name: Copy files to site and add layout
-        run: |
-            cp -r collections/* app/collections/_selections
-            for file in app/collections/_selections/*.md; do
-              sed -e '2s/^/layout\: default\n/;' $file
-            done
-
       - name: Commit files
         run: |
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add collections/*.md app/collections/_selections/*.md
+            git add collections/*.md
             git commit -m "accepted new collection PR (#${{ github.event.number }})"
             git push --set-upstream origin ${{ env.BRANCH_NAME }}
 

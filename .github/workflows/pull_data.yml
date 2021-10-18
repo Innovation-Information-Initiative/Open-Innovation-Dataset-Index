@@ -60,10 +60,10 @@ jobs:
             fi
           done < files.txt
 
-      - name: Copy new markdown files to website folders
-        if: steps.check_diff.outputs.run_job == 'true'
-        run: |
-            ./add_layouts.sh
+      # - name: Copy new markdown files to website folders
+      #   if: steps.check_diff.outputs.run_job == 'true'
+      #   run: |
+      #       ./add_layouts.sh
 
       - name: Commit files
         if: steps.check_diff.outputs.run_job == 'true'
@@ -71,6 +71,6 @@ jobs:
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add index_archive datasets tools app
+            git add index_archive datasets tools
             git commit -m "generated files based on google sheet"
             git push
