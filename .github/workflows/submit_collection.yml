@@ -48,8 +48,8 @@ jobs:
           for added_file in ${{ steps.read_files.outputs.added }}; do
             if [ "${added_file: -3}" == ".md" ]
             then
-              echo "this is a markdown file ${changed_file}"
-              python3 scripts/submit_collection.py ${changed_file}
+              echo "this is a markdown file ${added_file}"
+              python3 scripts/submit_collection.py ${added_file}
             fi
           done
 
