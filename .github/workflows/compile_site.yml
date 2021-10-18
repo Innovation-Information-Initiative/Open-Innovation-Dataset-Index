@@ -1,4 +1,4 @@
-name: collection_submission
+name: compile_site
 
 on:
   push:
@@ -20,6 +20,9 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
+
 
       - name: Copy files to site and add layout
         env: 

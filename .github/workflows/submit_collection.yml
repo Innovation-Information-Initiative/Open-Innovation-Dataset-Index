@@ -1,4 +1,4 @@
-name: collection_submission
+name: submit_collection
 
 on:
   pull_request_target:
@@ -23,6 +23,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
 
       - name: Install Python 3
         uses: actions/setup-python@v1

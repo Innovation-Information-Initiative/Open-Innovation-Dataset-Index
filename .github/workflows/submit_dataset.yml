@@ -1,4 +1,4 @@
-name: markdown_submission
+name: submit_dataset
 
 on:
   pull_request_target:
@@ -24,6 +24,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
 
       - name: Fetch
         run: |

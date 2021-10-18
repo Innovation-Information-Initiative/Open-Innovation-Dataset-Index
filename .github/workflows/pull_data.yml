@@ -1,4 +1,4 @@
-name: index_archive
+name: pull_data
 
 on:
   schedule:
@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
+        with:
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
 
       - name: Install Python 3
         uses: actions/setup-python@v1
