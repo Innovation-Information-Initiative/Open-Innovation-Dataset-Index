@@ -1,18 +1,20 @@
 ---
 api_or_bulk_downloads: Bulk
-citation: 
-code:
-description: This dataset contains both front-page and in-text citations from patents to scientific articles through 2020.
-documentation:
-doi: 
+citation: null
+code: null
+description: This dataset contains both front-page and in-text citations from patents
+  to scientific articles through 2020.
+documentation: null
+doi: null
 error_metrics: true
 location: https://zenodo.org/record/5111261
-record_creation_timestamp:
-references:
-tags: patents, 
+record_creation_timestamp: null
+references: null
+tags: patents,
 terms_of_use: Open Data Commons Attribution License 1.0
-timeframe:
+timeframe: null
 title: Reliance on Science
+uuid: 9e69e294-ff55-4b1f-ba43-106441888cac
 versioning: true
 ---
 
