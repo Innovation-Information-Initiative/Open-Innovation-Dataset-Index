@@ -8,12 +8,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
 
-collections_dir: collections
+collections_dir: index
 
 collections:
   datasets:
     output: true
   tools:
     output: true
-  selections:
+  collections:
     output: true
