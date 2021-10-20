@@ -1,4 +1,5 @@
 ---
+layout: default
 author: Agnes Cameron
 tags: patents
 title: Essential Patent Analysis Datasets
