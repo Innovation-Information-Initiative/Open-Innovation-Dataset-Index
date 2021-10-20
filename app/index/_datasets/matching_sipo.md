@@ -12,6 +12,7 @@ description: 'Matching SIPO patents to Chinese listed firms ("Main Board"). Plea
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO
 record_creation_timestamp: 08/17/2021, 11:16:07
 shortname: sipo_matching
+timeframe: to 2016
 title: Matching SIPO patents to Chinese listed firms ("Main Board")
 uuid: 1b372a68-18ae-45e3-9a28-a6feecc3e7b8
 ---
