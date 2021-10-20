@@ -44,18 +44,19 @@ jobs:
         uses: Ana06/get-changed-files@v2.0.0
 
       - name: generate UUIDs for submission files
+        id: changed_files
         run: |
           for added_file in ${{ steps.read_files.outputs.added }}; do
             if [ "${added_file: -3}" == ".md" ]
             then
               echo "this is a markdown file ${added_file}"
-              python3 scripts/submit_collection.py ${added_file}
               echo "::set-output name=commit_files::true"
+              python3 scripts/submit_collection.py ${added_file}
             fi
           done
 
       - name: Commit files
-        if: steps.check_diff.outputs.commit_files == 'true'
+        if: steps.changed_files.outputs.commit_files == 'true'
         run: |
             git status
             git config user.name github-actions
