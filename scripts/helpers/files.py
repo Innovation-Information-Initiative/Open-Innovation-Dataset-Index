@@ -57,8 +57,17 @@ def generate_markdown(data, directory):
 
 	for row in to_gen:
 		print("creating file for", row["title"])
+
 		#create title
-		filepath = os.path.join(directory + '/', row['shortname'] + '.md')
+		if row['shortname'] and row['shortname'].strip():
+			filepath = os.path.join(directory + '/', row['shortname'] + '.md')
+		else:
+			shortname = row["title"].lower().replace(' ', '_') + "_" + rand(0,50)
+			filepath = os.path.join(directory + '/', shortname + '.md')
+
+		#open and close file
+		if not os.path.exists(filepath):
+			open(filepath, 'w').close()
 
 		record = frontmatter.load(filepath)
 
