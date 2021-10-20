@@ -1,5 +1,4 @@
 ---
-layout: default
 api_or_bulk_downloads: Bulk
 citation: "\n@misc{marx_reliance_2019,\n\ttitle = {Reliance on {Science} in {Patenting}},\n\turl
   = {https://zenodo.org/record/3575146},\n\tabstract = {This contains citations from
@@ -33,6 +32,7 @@ doi: 'DOI: 10.5281/zenodo.3575146
 
   Type: dataset'
 error_metrics: 'Yes'
+layout: default
 location: https://zenodo.org/record/3575146
 record_creation_timestamp: 10/20/2021, 11:52:19
 shortname: rons4
@@ -40,6 +40,6 @@ tags: innovation, patenting, science, citation, error, margins
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting
-uuid: 2c825174-4a0b-4d7c-a548-649f31cefaa5
+uuid: 2b9b151d-c1cb-4a8f-9222-ca1b860ca5f7
 versioning: 'Yes'
 ---
