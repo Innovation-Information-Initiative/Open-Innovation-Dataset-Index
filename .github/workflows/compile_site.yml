@@ -26,9 +26,11 @@ jobs:
 
       - name: Copy files to site and add layout
         env: 
-          INPUT_FOLDERS: ["collections", "datasets", "tools"]
+          # need to read in as string; GA doesn't support array assignment
+          INPUT_FOLDERS: "collections;datasets;tools"
         run: |
-            for dir in ${{ env.INPUT_FOLDERS }}; do
+            IFS=';' read -ra input_array <<< "${{ env.INPUT_FOLDERS }}"
+            for dir in "${input_array[@]}"; do
               cp -r ${dir}/* app/${dir}/_selections
               for file in app/${dir}/_selections/*.md; do
                 sed -e '2s/^/layout\: default\n/;' $file
