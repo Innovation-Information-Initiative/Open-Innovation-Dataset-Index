@@ -40,5 +40,6 @@ tags: innovation, patenting, science, citation, error, margins
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting
+uuid: 6d5c7757-a69a-4424-8b8e-7e12d0a71db5
 versioning: 'Yes'
 ---
