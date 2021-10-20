@@ -2,6 +2,7 @@
 layout: default
 layout: default
 layout: default
+layout: default
 api_or_bulk_downloads: Bulk
 citation: "\n@misc{marx_reliance_2019,\n\ttitle = {Reliance on {Science} in {Patenting}},\n\turl
   = {https://zenodo.org/record/3575146},\n\tabstract = {This contains citations from
