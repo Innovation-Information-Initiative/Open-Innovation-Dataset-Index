@@ -58,17 +58,12 @@ jobs:
             echo "$file"
             if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
               echo "updated files"
-              echo "::set-output name=run_job::true"
+              echo "::set-output name=commit_files::true"
             fi
           done < files.txt
 
-      # - name: Copy new markdown files to website folders
-      #   if: steps.check_diff.outputs.run_job == 'true'
-      #   run: |
-      #       ./add_layouts.sh
-
       - name: Commit files
-        if: steps.check_diff.outputs.run_job == 'true'
+        if: steps.check_diff.outputs.commit_files == 'true'
         run: |
             git pull
             git config user.name github-actions
