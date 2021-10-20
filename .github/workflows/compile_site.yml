@@ -31,11 +31,12 @@ jobs:
         run: |
             IFS=';' read -ra input_array <<< "${{ env.INPUT_FOLDERS }}"
             for dir in "${input_array[@]}"; do
-              cp -r ${dir}/* app/${dir}/_selections
-              for file in app/${dir}/_selections/*.md; do
-                sed -e '2s/^/layout\: default\n/;' $file
+              cp -r ${dir}/* app/collections/_${dir}/
+              for file in app/collections/_${dir}/*.md; do
+                sed -i '2s/^/layout\: default\n/;' $file
               done
             done
+
 
       - name: Commit files
         run: |
