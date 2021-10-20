@@ -49,6 +49,7 @@ jobs:
         uses: Ana06/get-changed-files@v2.0.0
 
       - name: iterate over pull request files
+        id: changed_files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           INPUT_SHEET_TITLE: 'Open_Patent_Datasets'
@@ -66,7 +67,7 @@ jobs:
           done
 
       - name: Commit files
-        if: steps.check_diff.outputs.commit_files == 'true'
+        if: steps.changed_files.outputs.commit_files == 'true'
         run: |
             git config user.name github-actions
             git config user.email github-actions@github.com
