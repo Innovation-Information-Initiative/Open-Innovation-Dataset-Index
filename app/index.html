@@ -14,7 +14,7 @@ You can use the search bar to explore the datasets, or browse the <a href="/data
 	<ul id="resultsContainer"></ul>
 </div>
 
-{% assign intro = site.selections | where:"title", "Essential Patent Analysis Datasets"  | first %}
+{% assign intro = site.collections | where:"title", "Essential Patent Analysis Datasets"  | first %}
 
 <h2>{{ intro.title }}</h2>
 {{ intro.content }}
