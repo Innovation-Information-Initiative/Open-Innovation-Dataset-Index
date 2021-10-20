@@ -5,7 +5,7 @@ description: In this project, patents from China's State Intellectual Property O
   (SIPO) are matched to various types of companies. Matching SIPO patents to firms
   in the Annual Survey of Industrial Enterprises (ASIE) of China's National Bureau
   of Statistics.
-location: https://sites.google.com/site/sipopdb/home/sipo---asie
+location: https://sites.google.com/site/sipopdb/cpdp-home
 record_creation_timestamp: 11/14/2020 17:20:46
 shortname: chinese_patent_data
 title: Chinese Patent Data Project

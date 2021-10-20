@@ -9,9 +9,11 @@ citation: "\n@article{he_matching_2019,\n\ttitle = {Matching {SIPO} patents to {
   = {2019},\n\tnote = {type: dataset},\n}\n"
 description: 'Matching SIPO patents to Chinese listed firms ("Main Board"). Please
   refer to the user documentation "Chinese Patent Database User Documentation: M...'
+documentation: 'last updated 2017.  See also this 2019 update w/ 3 varieties: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT'
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO
 record_creation_timestamp: 08/17/2021, 11:16:07
 shortname: sipo_matching
+timeframe: to 2016
 title: Matching SIPO patents to Chinese listed firms ("Main Board")
 uuid: 1b372a68-18ae-45e3-9a28-a6feecc3e7b8
 ---
