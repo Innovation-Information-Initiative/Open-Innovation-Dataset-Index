@@ -1,5 +1,4 @@
 ---
-uuid:
 title:
 record_creation_timestamp:
 shortname:

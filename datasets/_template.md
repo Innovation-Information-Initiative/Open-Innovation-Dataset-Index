@@ -1,21 +1,18 @@
 ---
-api_or_bulk_downloads:
-citation:
-code:
-description:
-documentation:
-doi:
-error_metrics:
-location:
-record_creation_timestamp:
-references:
-shortname:
-tags:
-terms_of_use:
+title: #required
+url: #required
+doi: #scrapeable
+citation: #scrapeable
+description: #scrapeable
 timeframe:
-title:
-uuid:
-versioning:
+documentation:
+error_metrics:
+code:
+versioning: #scrapeable
+terms_of_use: #scrapeable
+tags:
+references:
 ---
+
 
 body text. info about `queries`, links and images goes here :)
