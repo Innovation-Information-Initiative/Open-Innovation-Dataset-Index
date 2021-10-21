@@ -3,6 +3,7 @@ code: https://github.com/gderasse/patstat_register
 description: 'This database contains bibliographic and legal event data on published
   European and Euro-PCT patent applications.
 
+
   Like the core PATSTAT database, it is maintained by the EPO, however PATSTAT Register
   only contains information about patent applications at the European Patent Ofﬁce
   (EPO). The information in PATSTAT Register is, however, considerably deeper and
