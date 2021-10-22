@@ -65,6 +65,7 @@ jobs:
             git commit -m "accepted new collection PR (#${{ github.event.number }})"
 
       - name: Push to new branch
+        run: |
             git push --set-upstream origin ${{ env.BRANCH_NAME }}
 
       - name: Checkout to main branch
