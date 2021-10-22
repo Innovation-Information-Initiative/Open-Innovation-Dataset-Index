@@ -68,7 +68,7 @@ jobs:
       - name: Commit merge
         run: |
             git fetch
-            git checkout origin main
+            git checkout Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker main
             git config pull.rebase false
             git pull origin ${{ env.BRANCH_NAME }}
             git pull
