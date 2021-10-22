@@ -3,7 +3,13 @@
 body {
     font-family: helvetica;
     line-height: 1.2;
+    padding: 10px;
 }
+
+header img {
+    height: 60px;
+}
+
 /*
 li {
     list-style-type: none;
@@ -11,10 +17,33 @@ li {
 
 .pageContainer {
     max-width: 800px;
-    padding: 5px;
+    min-width: 400px;
+}
+
+#logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logoTitle {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
 }
 
 .headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer {
+    width: 50%;
+    min-width: 400px;
     padding: 5px;
     display: flex;
     flex-direction: row;

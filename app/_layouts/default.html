@@ -5,23 +5,23 @@
 		{% include header.html %}
 		<div class="pageContainer">
 			<h1>{{ page.title }}</h1>
-			{% if page.location %}
-				location: <a href='{{ page.location }}'>{{ page.location }}</a><br>
-			{% endif %}</p>
-			{% if page.timeframe %}
-				<p>timeframe: {{ page.timeframe }}<br>
-			{% endif %}
-			{% if page.terms_of_use %}
-				license: {{ page.terms_of_use }}<br>
-			{% endif %}
-			{% if page.tags and page.tags.size > 0 %}
-				tags: {{ page.tags | join: " " }}<br>
-			{% endif %}
-			{% if page.doi %}
-				doi: {{ page.doi }}<br>
-			{% endif %}</p>
-				<p>{{ page.description }}</p>
-
+				{% include nav.html %}
+				{% if page.location %}
+					location: <a href='{{ page.location }}'>{{ page.location }}</a><br>
+				{% endif %}</p>
+				{% if page.timeframe %}
+					<p>timeframe: {{ page.timeframe }}<br>
+				{% endif %}
+				{% if page.terms_of_use %}
+					license: {{ page.terms_of_use }}<br>
+				{% endif %}
+				{% if page.tags and page.tags.size > 0 %}
+					tags: {{ page.tags | join: " " }}<br>
+				{% endif %}
+				{% if page.doi %}
+					doi: {{ page.doi }}<br>
+				{% endif %}</p>
+					<p>{{ page.description }}</p>
 			{{ content }}
 		</div>
 		<p id="output"></p>
