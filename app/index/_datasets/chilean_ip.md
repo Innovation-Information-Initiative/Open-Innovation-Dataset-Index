@@ -3,6 +3,7 @@ layout: default
 api_or_bulk_downloads: Bulk
 citation: Abud, M.J., Fink, C., Hall, B. and Helmers, C., 2013. The use of intellectual
   property in Chile (Vol. 11). WIPO.
+cost: None
 description: 'These data are a public release from a joint WIPO-INAPI project. '
 documentation: https://eml.berkeley.edu//~bhhall/Chile_ipdata/chile_inno_ip.txt
 location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
