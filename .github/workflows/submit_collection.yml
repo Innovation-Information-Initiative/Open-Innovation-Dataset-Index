@@ -73,7 +73,6 @@ jobs:
       - name: Commit merge
         run: |
             git fetch
-            git fetch origin pull/${{ github.event.number }}/head:${{ env.BRANCH_NAME }}
             git config pull.rebase false
             git pull origin ${{ env.BRANCH_NAME }}
             git pull
