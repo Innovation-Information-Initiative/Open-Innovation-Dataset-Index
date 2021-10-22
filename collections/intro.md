@@ -6,6 +6,8 @@ title: Essential Patent Analysis Datasets
 
 The following datasets provide a great start point for analysis of innovation data:
 
+here, I added a sentence
+
 * patent data and disambiguation
 	* [PatentsView](/datasets/patcit)
 	* [PATSTAT](/datasets/patstat)
