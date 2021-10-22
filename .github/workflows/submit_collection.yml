@@ -68,7 +68,7 @@ jobs:
       - name: Commit merge
         run: |
             git fetch
-            git checkout Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker main
+            git checkout git@github.com:Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker.git main
             git config pull.rebase false
             git pull origin ${{ env.BRANCH_NAME }}
             git pull
