@@ -63,6 +63,8 @@ jobs:
             git config user.email github-actions@github.com
             git add collections/*.md
             git commit -m "accepted new collection PR (#${{ github.event.number }})"
+
+      - name: Push to new branch
             git push --set-upstream origin ${{ env.BRANCH_NAME }}
 
       - name: Checkout to main branch
