@@ -1,5 +1,6 @@
 ---
 code: https://github.com/gderasse/patstat_register
+cost: € 1.420,00 - € 1.460,00
 description: 'This database contains bibliographic and legal event data on published
   European and Euro-PCT patent applications.
 

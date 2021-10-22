@@ -3,6 +3,7 @@ api_or_bulk_downloads: Bulk
 citation: 'Marx, Matt and Aaron Fuegi, "Reliance on Science: Worldwide Front-Page
   Patent Citations to Scientific Articles"'
 code: https://github.com/mattmarx/reliance_on_science
+cost: None
 description: 'This contains citations from the front pages of worldwide patents to
   articles in the Microsoft Academic Graph (MAG) from 1800-2018. '
 documentation: https://zenodo.org/record/4235193#.X6Fgb5CSm38

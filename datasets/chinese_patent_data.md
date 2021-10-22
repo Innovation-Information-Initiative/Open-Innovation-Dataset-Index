@@ -1,5 +1,6 @@
 ---
 api_or_bulk_downloads: Bulk
+cost: None
 description: In this project, patents from China's State Intellectual Property Office
   (SIPO) are matched to various types of companies. Matching SIPO patents to firms
   in the Annual Survey of Industrial Enterprises (ASIE) of China's National Bureau

@@ -1,6 +1,7 @@
 ---
 api_or_bulk_downloads: Bulk
 citation: 'State that you used: III Patent DB'
+cost: None
 description: Patent database of the IIP
 location: http://www.iip.or.jp/e/index.html
 record_creation_timestamp: 11/15/2020 17:20:46

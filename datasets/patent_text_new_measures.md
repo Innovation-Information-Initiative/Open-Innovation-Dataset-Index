@@ -22,6 +22,9 @@ documentation: https://zenodo.org/record/3515985
 doi: https://doi.org/10.5281/zenodo.3515985
 error_metrics: 'Yes'
 location: https://zenodo.org/record/3515985
+related_publications: 'Arts S, Hou J, Gomez JC. (2020). Natural language processing
+  to identify the creation and impact of new technologies in patent text: code, data,
+  and new measures. Forthcoming Research Policy. (https://doi.org/10.1016/j.respol.2020.104144)'
 shortname: patent_text_new_measures
 tags: patent measures, text, natural language processing, novelty, impact, USPTO,
   technological progress

@@ -2,6 +2,7 @@
 citation: ' Ronald Lai; Alexander D''Amour; Lee Fleming, 2010, "The careers and co-authorship
   networks of U.S. patent-holders, since 1975", https://doi.org/10.7910/DVN/YJUNUN,
   Harvard Dataverse, V3, UNF:5:daJuoNgCZlcYY8RqU+/j2Q== [fileUNF] '
+cost: None
 description: 'The identification enables construction of social networks based on
   patent co-authorship. We will eventually provide descriptive statistics of individual
   and collaborative variables and illustrated examples of networks for an individual,

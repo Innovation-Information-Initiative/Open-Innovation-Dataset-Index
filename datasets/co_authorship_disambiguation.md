@@ -4,6 +4,7 @@ citation: 'Ronald Lai; Alexander D''Amour; Amy Yu; Ye Sun; Lee Fleming, 2011, "D
   https://doi.org/10.7910/DVN/5F1RRI, Harvard Dataverse, V5, UNF:5:RqsI3LsQEYLHkkg5jG/jRg==
   [fileUNF] '
 code: https://github.com/funginstitute/downloads
+cost: None
 description: Name disambiguation of US inventors, 1975-2010
 doi: https://doi.org/10.7910/DVN/5F1RRI
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI
