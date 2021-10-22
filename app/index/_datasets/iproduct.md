@@ -1,5 +1,6 @@
 ---
 layout: default
+cost: None
 description: The IPRoduct project seeks to link innovative goods to the patents upon
   which they are based. By directly linking products to patents, this project tracks
   innovation to the point where it meets consumers, the true commercial end point

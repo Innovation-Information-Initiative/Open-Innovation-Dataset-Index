@@ -2,6 +2,7 @@
 layout: default
 citation: 'Coffano, M., & Tarasconi, G. (2014). CRIOS - Patstat Database: Sources,
   Contents and Access Rules. SSRN Electronic Journal. doi:10.2139/ssrn.2404344 '
+cost: None
 description: Disambiguated inventor's and applicant's names for EPO records.
 documentation: 'For a detailed description of the algorithm please refer to Coffano,
   Monica and Tarasconi, Gianluca, Crios - Patstat Database: Sources, Contents and

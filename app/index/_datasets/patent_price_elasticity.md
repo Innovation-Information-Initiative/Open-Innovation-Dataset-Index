@@ -1,6 +1,7 @@
 ---
 layout: default
 citation: 'Rassenfosse, G. de, & Potterie, B. van P. de la. '
+cost: None
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.
 location: http://www.gder.info/download_OBES_data.html

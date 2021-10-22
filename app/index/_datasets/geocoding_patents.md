@@ -4,6 +4,7 @@ citation: 'Seliger, Florian; Kozak, Jan; de Rassenfosse, Gaétan, 2019, "Geocodi
   of worldwide patent data", https://doi.org/10.7910/DVN/OTTBDX, Harvard Dataverse,
   V5 '
 code: https://github.com/seligerf/Imputation-of-missing-location-information-for-worldwide-patent-data
+cost: None
 description: ''
 documentation: 'A detailed data description can be found in de Rassenfosse, Kozak,
   Seliger 2019: Geocoding of worldwide patent data, published in ''Scientific Data''
