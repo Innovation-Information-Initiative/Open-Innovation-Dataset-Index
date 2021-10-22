@@ -3,6 +3,9 @@ title: Index of Tools for Innovation Data Research
 layout: default
 ---
 
+
+<ul>
 {% for tool in site.tools %}
-	<a href="{{ tool.url }}">{{ tool.title }}</a><br>
+	<li><a href="{{ tool.url }}">{{ tool.title }}</a><br></li>
 {% endfor %}
+</ul>
