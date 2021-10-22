@@ -69,6 +69,7 @@ jobs:
         run: |
             git fetch
             git checkout main
+            git config pull.rebase false
             git pull origin ${{ env.BRANCH_NAME }}
             git pull
             git push
