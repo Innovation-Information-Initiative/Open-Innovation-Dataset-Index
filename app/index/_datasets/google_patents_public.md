@@ -13,7 +13,7 @@ documentation: https://cloud.google.com/blog/topics/public-datasets/google-paten
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 record_creation_timestamp: 12/6/2020 17:20:46
 shortname: google_patents_public
-tags: Google Patents
+tags: '[Google Patents]'
 terms_of_use: CC BY 4.0, requires subscription to query API
 timeframe: 1834-present (quarterly)
 title: Google Patents Public Datasets

@@ -13,7 +13,7 @@ error_metrics: 'Yes'
 location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
 record_creation_timestamp: 11/16/2020 17:20:46
 shortname: rons
-tags: error margins
+tags: '[error margins]'
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting

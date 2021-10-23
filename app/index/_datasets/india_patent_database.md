@@ -11,7 +11,7 @@ location: https://ipindiaservices.gov.in/publicsearch
 record_creation_timestamp: 08/31/2021, 08:28:19
 references: null
 shortname: india_patent_database
-tags: innovation, platform
+tags: '[innovation, platform]'
 terms_of_use: null
 timeframe: None
 title: Indian Patent Advanced Search System
