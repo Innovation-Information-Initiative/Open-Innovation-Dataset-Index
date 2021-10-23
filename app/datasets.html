@@ -1,23 +1,56 @@
 ---
 title: Index of Open Patent Datasets
-layout: default
+layout: list
 ---
+
+<div class="infoBox">
+	<b>filter by tags:</b><br>
+	{% assign tag_arr = "" | split: ',' %}
+
+	{% for dataset in site.datasets %}
+		{% for tag in dataset.tags  %}
+			{% assign tag_words = tag | url_encode %}
+			{% assign tag_arr = tag_arr | push: tag_words %}
+		{% endfor %}
+	{% endfor %}
+
+	<div id="checkboxes" data-value='{{ tag_arr | join: "," }}'> </div>
+</div>
 
 <ul class=indexList>
 	{% for dataset in site.datasets %}
-		<li data-value="{{ dataset.citation }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a></li>
+		<li><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+		<span class="author" data-value="{{ dataset.citation }}"></span>
+		{{ dataset.description | truncate_words: 50 }}
+		</li>
 	{% endfor %}
 </ul>
 
 <script type="text/javascript">
-	$(".dataset").each(function(){ 
 
+	let tags_arr = $("#checkboxes").data('value').split(',')
+	tags_arr = tags_arr.map(tag => tag.toLowerCase())
+	let tags_set = [...new Set(tags_arr)];
+	count_tags = []
+
+	tags_set.forEach(element => {
+		count = tags_arr.filter(x => x==element).length
+		count_tags.push({ tag_name: element, count: count })
+	})
+
+	count_tags.forEach(tag => {
+		if(tag.count > 1){
+			$("#checkboxes").append(`<input type="checkbox">${tag.tag_name.replace('+', ' ')} ${tag.count}</input><br>`)
+			}
+		})
+
+	$(".dataset").each(function(){ 
 		// console.log()
 		try{
 			const citation = new Cite($(this).data('value'))
 			const format = citation.format('data', {format: 'object'})
 			console.log(format[0].author)
-			// $(this).append(parsed)
+			$(this).append(parsed + "<br>")
 		}
 		catch(e){
 			// console.log(e)

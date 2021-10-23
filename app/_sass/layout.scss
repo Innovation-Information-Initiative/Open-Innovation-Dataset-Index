@@ -24,6 +24,13 @@ a:hover {
     min-width: 400px;
 }
 
+.infoBox {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 600px;
+}
+
 .headerContainer > a:hover {
     background-color: lightgray;
 }
@@ -38,6 +45,16 @@ a:hover {
 .navContainer {
     border-bottom: 1px solid black;
 }
+
+.indexList {
+    list-style-type: none;
+    /*padding: 0;*/
+}
+
+.indexList li {
+    margin-bottom: 10px;
+}
+
 
 .nav {
     width: 60%;

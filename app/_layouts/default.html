@@ -6,23 +6,34 @@
 		{% include header.html %}
 				{% include nav.html %}
 				<h1>{{ page.title }}</h1>
-				<p>
-				{% if page.location %}
-					location: <a href='{{ page.location }}'>{{ page.location }}</a><br>
-				{% endif %}</p>
-				{% if page.timeframe %}
-					<p>timeframe: {{ page.timeframe }}<br>
-				{% endif %}
-				{% if page.terms_of_use %}
-					license: {{ page.terms_of_use }}<br>
-				{% endif %}
-				{% if page.tags and page.tags.size > 0 %}
-					tags: {{ page.tags | join: " " }}<br>
-				{% endif %}
-				{% if page.doi %}
-					doi: {{ page.doi }}<br>
-				{% endif %}</p>
-					<p>{{ page.description }}</p>
+				<div class="infoBox">
+						{% if page.location %}
+						<p>
+								<b>location:</b> <a href='{{ page.location }}'>{{ page.location }}</a><br>
+						</p>
+						{% endif %}
+						{% if page.timeframe %}
+							<p>
+								<b>timeframe:</b> {{ page.timeframe }}
+							</p>
+						{% endif %}
+						{% if page.terms_of_use %}
+							<p>
+								<b>license:</b> {{ page.terms_of_use }}
+							</p>
+						{% endif %}
+						{% if page.tags and page.tags.size > 0 %}
+							<p>
+								<b>tags:</b> {{ page.tags | join: " " }}
+							</p>
+						{% endif %}
+						{% if page.doi %}
+							<p>
+								<b>doi:</b> {{ page.doi }}
+							</p>
+						{% endif %}
+							<p><b>description:</b> {{ page.description }}</p>
+				</div>
 				<div class="pageContent">
 					{{ content }}
 				</div>
