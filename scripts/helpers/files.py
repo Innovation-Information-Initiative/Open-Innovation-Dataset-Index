@@ -36,6 +36,9 @@ def update_markdown(data, directory):
 				if row[term] and row[term].strip():
 					record[term] = row[term]
 
+			if row["tags"] and row["tags"].strip():
+				record["tags"] = '[' + row["tags"] + ']'
+
 			update_frontmatter(record, filepath)
 
 
@@ -75,6 +78,9 @@ def generate_markdown(data, directory):
 			#check not empty null or blank
 			if row[term] and row[term].strip():
 				record[term] = row[term]
+
+		if row["tags"] and row["tags"].strip():
+			record["tags"] = '[' + row["tags"] + ']'
 
 		record["description"] = row["description"].replace('\n', ' ')
 
