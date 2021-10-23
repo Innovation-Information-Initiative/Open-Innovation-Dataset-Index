@@ -19,7 +19,7 @@ layout: list
 
 <ul class=indexList>
 	{% for dataset in site.datasets %}
-		<li><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+		<li class="dataset_list {{ dataset.tags | join: ' ' | downcase }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
 		<span class="author" data-value="{{ dataset.citation }}"></span>
 		{{ dataset.description | truncate_words: 50 }}
 		</li>
@@ -27,6 +27,26 @@ layout: list
 </ul>
 
 <script type="text/javascript">
+
+	function updateFilters() {
+		checked = []
+		$("input[type=checkbox]").each(function() {
+		if($(this).is(":checked")){
+			console.log($(this).attr('name'))
+			checked.push($(this).attr('name'))
+			}
+		})
+
+		if(checked.length > 0){
+			$(".dataset_list").hide()
+			checked.forEach( tag => {
+				$("." + tag).show()
+			})
+		}
+		else{
+			$(".dataset_list").show()
+		}
+	}
 
 	let tags_arr = $("#tagsBox").data('value').split(',')
 	tags_arr = tags_arr.map(tag => tag.toLowerCase())
@@ -40,7 +60,7 @@ layout: list
 
 	count_tags.forEach(tag => {
 		if(tag.count > 1){
-			$("#tagsBox").append(`<div><input type="checkbox">${tag.tag_name.replace('+', ' ')} ${tag.count}</input></div>`)
+			$("#tagsBox").append(`<div><input name="${tag.tag_name}" type="checkbox" onClick="updateFilters()">${tag.tag_name.replace('+', ' ')} ${tag.count}</input></div>`)
 			}
 		})
 
