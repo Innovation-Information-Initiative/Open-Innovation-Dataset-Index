@@ -13,10 +13,12 @@ description: Innovation studies frequently distinguish between patent citation s
   in internal data availability at the USPTO.
 documentation: Not unless it’s in the paper here https://ssrn.com/abstract=2714954
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
+maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/16/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_timing
-tags: '[timing, citation, United States]'
+tags:
+- timing, citation, United States
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.

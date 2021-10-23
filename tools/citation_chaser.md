@@ -12,7 +12,8 @@ description: 'In systematic reviews, we often want to obtain lists of references
   Microsoft Academic Graph and CORE; ''https://www.lens.org'').'
 location: https://github.com/nealhaddaway/citationchaser
 shortname: citation_chaser
-tags: '[citations, reviews, lens]'
+tags:
+- citations, reviews, lens
 terms_of_use: MIT License
 title: Citation Chaser
 uuid: db1c19b5-a1b3-4a49-9fce-583c0b522d9f

@@ -17,7 +17,8 @@ error_metrics: 'No'
 location: https://doi.org/10.4119/unibi/2950291
 record_creation_timestamp: 6/13/2021 20:55:50
 shortname: low_carbon_knowledge
-tags: '[citations to scholarly literature, low-carbon energy technologies]'
+tags:
+- citations to scholarly literature, low-carbon energy technologies
 terms_of_use: 'CC BY 4.0 license. See: https://creativecommons.org/licenses/by/4.0/legalcode '
 timeframe: 1836-2019
 title: The scientific knowledge base of low carbon energy technologies (updated and

@@ -20,8 +20,9 @@ location: https://doi.org/10.5281/zenodo.3710993
 record_creation_timestamp: 11/17/2020 10:38:00
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
 shortname: patcit
-tags: '[citations to scholarly literature, In-text, Front page, Patent, Science, Database,
-  Wikipedia, Standard]'
+tags:
+- citations to scholarly literature, In-text, Front page, Patent, Science, Database,
+  Wikipedia, Standard
 terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit

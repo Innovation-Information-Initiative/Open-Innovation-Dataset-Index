@@ -8,9 +8,11 @@ description: PatentsView includes US patent data including raw data and disambug
   of inventors and assignees, also inventor gender.
 documentation: Provided at link
 location: https://patentsview.org/
+maintained_by: USPTO
 record_creation_timestamp: 12/2/2020 17:20:46
 shortname: patentsview
-tags: '[disambiguation, United States, gender]'
+tags:
+- disambiguation, United States, gender
 terms_of_use: Creative Commons Attribution 4.0 International License.
 timeframe: 1963-1999
 title: USPTO PatentsView

@@ -11,10 +11,12 @@ description: Many studies of innovation rely on patent citations to measure inte
   or published patent applications.
 documentation: 'Paper: https://ssrn.com/abstract=2714954'
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Similarity_2017-10-23.csv
+maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/14/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_similarity
-tags: '[similarity, citation]'
+tags:
+- similarity, citation
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.
