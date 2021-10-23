@@ -11,6 +11,7 @@ description: 'Lens serves nearly all of the patent documents in the world as ope
 location: https://lens.org/
 record_creation_timestamp: 11/28/2020 17:20:46
 shortname: lens
+tags: '[citations to scholarly literature]'
 terms_of_use: Cambia grants you a non-exclusive, non-transferable, revocable, limited
   license to access and personally use the features of the Service. The conditions
   by which The Lens data may be used are intended to resonate with the principles

@@ -1,5 +1,6 @@
 ---
 layout: default
+cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2709238
 description: Patent applicants frequently file groups of patent applications linked
   together by priority claims. These priority claims create families of patent applications

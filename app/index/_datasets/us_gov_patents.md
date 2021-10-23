@@ -4,11 +4,21 @@ citation: 'de Rassenfosse Gaétan, & Emilio Raiteri. (2019). 3PFL: Database of P
   and Publications with a Public-Funding Linkage (Version 1.2) [Data set]. Zenodo.
   http://doi.org/10.5281/zenodo.3369582'
 cost: None
-description: 'Dataset of patents arising from government funding since the year 2000. '
+description: 'The 3PFL database links information on patented inventions and scientific
+  publications related to a public procurement contract or a research grant awarded
+  by the U.S. Federal Government to detailed contract-level/grant-level information
+  (e.g., awarding agency, recipient organization, award size). We have combined data
+  from multiple sources, including (but not limited to) the United States Patent and
+  Trademark Office bulk database, the Federal Procurement Database System, the Award
+  Submission Portal (ASP), and the European Patent Office''s PATSTAT database. We
+  also provide a link to the scientific publications associated with these patents.
+  The 3PFL database provides rich and original information that opens the door to
+  novel empirical research in the economics of innovation and science. '
 doi: https://doi.org/10.5281/zenodo.3369582
 location: https://zenodo.org/record/3369582
 record_creation_timestamp: 11/26/2020 17:20:46
 shortname: us_gov_patents
+tags: '[research funding, United States]'
 terms_of_use: CC-BY 4.0 International
 timeframe: 2000-2019
 title: Patents arising from U.S. government funding

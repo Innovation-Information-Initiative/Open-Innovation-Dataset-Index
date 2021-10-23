@@ -1,5 +1,6 @@
 ---
 layout: default
+cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Innovation studies frequently distinguish between patent citation submitted
   by the patent examiner and those submitted by the patent application. However, publicly
@@ -15,10 +16,11 @@ location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Cit
 record_creation_timestamp: 11/16/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_timing
+tags: '[timing, citation, United States]'
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.
-timeframe: 2001-2004
+timeframe: 2001-2014
 title: Patent Citation Timing and Source
 uuid: 2d88904f-056b-4230-96b4-f70c178d9f88
 ---

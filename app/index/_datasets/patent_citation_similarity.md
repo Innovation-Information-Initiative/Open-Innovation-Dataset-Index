@@ -1,5 +1,6 @@
 ---
 layout: default
+cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Many studies of innovation rely on patent citations to measure intellectual
   lineage and impact. To create this dataset, we use a vector space model of patent
@@ -14,6 +15,7 @@ location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Cit
 record_creation_timestamp: 11/14/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_similarity
+tags: '[similarity, citation]'
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.
