@@ -9,6 +9,7 @@ plugins:
   - jekyll-feed
 
 collections_dir: index
+emptyArray: []
 
 collections:
   datasets:
