@@ -15,7 +15,8 @@ maintained_by: Jeff Kuhn
 related_publications: https://ssrn.com/abstract=2709238
 shortname: patent_families
 tags:
-- patent family, similarity
+- patent family
+- ' similarity'
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.

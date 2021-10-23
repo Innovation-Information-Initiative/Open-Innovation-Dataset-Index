@@ -21,7 +21,10 @@ maintained_by: Bronwyn Hall
 record_creation_timestamp: 11/13/2020 17:20:46
 shortname: chilean_ip
 tags:
-- Chile, trademark squatting, pharmaceuticals, disambiguation
+- Chile
+- ' trademark squatting'
+- ' pharmaceuticals'
+- ' disambiguation'
 terms_of_use: not specified
 timeframe: 1995-2005
 title: Chilean IP and firm data

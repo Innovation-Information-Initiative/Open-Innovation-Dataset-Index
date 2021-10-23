@@ -16,7 +16,10 @@ maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 12/4/2020 17:20:46
 shortname: iproduct
 tags:
-- Products, disambiguation, trademarks, physical patent marking
+- Products
+- ' disambiguation'
+- ' trademarks'
+- ' physical patent marking'
 title: IPRoduct
 uuid: 303ce18b-f411-4752-9fe6-d4fcc369f43c
 ---

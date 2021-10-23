@@ -9,6 +9,7 @@ description: This tool creates the csv tables that allow county boundaries to be
   area to the boundaries as they were in a base year. The stata code that uses these
   csvs was writen to be used with Haines' census data (ICPSR 02896).
 location: https://elisabethperlman.net/code.html
+maintained_by: Bitsy Perlman
 record_creation_timestamp: 08/13/2021, 08:55:41
 shortname: harmonising_county_boundaries
 title: Tools for Harmonizing County Boundaries

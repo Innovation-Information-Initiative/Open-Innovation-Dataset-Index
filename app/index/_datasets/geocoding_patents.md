@@ -22,7 +22,9 @@ record_creation_timestamp: 11/24/2020 17:20:46
 related_publications: https://doi.org/10.1038/s41597-019-0264-6
 shortname: geocoding_patents
 tags:
-- geography, location of inventors, PATSTAT
+- geography
+- ' location of inventors'
+- ' PATSTAT'
 terms_of_use: 'CC0 - "Public Domain Dedication" '
 timeframe: 30 years
 title: Geocoding of worldwide patent data
