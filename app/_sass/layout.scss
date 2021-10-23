@@ -29,7 +29,14 @@ a:hover {
     border-radius: 30px;
     padding: 15px;
     max-width: 600px;
+    height: 400;
 }
+
+#tagsBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
 
 .headerContainer > a:hover {
     background-color: lightgray;
