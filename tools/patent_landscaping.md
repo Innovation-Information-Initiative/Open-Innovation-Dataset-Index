@@ -13,7 +13,9 @@ documentation: https://github.com/google/patents-public-data/tree/master/models/
 location: https://github.com/google/patents-public-data/tree/master/models/landscaping
 shortname: patent_landscaping
 tags:
-- machine learning, patent landscaping, citation
+- machine learning
+- ' patent landscaping'
+- ' citation'
 terms_of_use: http://www.apache.org/licenses/LICENSE-2.0
 title: Automated Patent Landscaping
 uuid: 23999351-4c68-4e28-aec2-9b16e18e4d9c
