@@ -9,8 +9,8 @@ layout: list
 
 	{% for dataset in site.datasets %}
 		{% for tag in dataset.tags  %}
-			{% assign tag_words = tag | url_encode %}
-			{% assign tag_arr = tag_arr | push: tag_words %}
+			{% assign tag_clean = tag | strip %}
+			{% assign tag_arr = tag_arr | push: tag_clean %}
 		{% endfor %}
 	{% endfor %}
 
@@ -19,7 +19,12 @@ layout: list
 
 <ul class=indexList>
 	{% for dataset in site.datasets %}
-		<li class="dataset_list {{ dataset.tags | join: ' ' | downcase }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+		{% assign dataset_tags = "" | split: ',' %}
+		{% for tag in dataset.tags  %}
+			{% assign tag_clean = tag | strip | replace: ' ', '-' %}
+			{% assign dataset_tags = tag_arr | push: tag_clean %}
+		{% endfor %}
+		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
 		<span class="author" data-value="{{ dataset.citation }}"></span>
 		{{ dataset.description | truncate_words: 50 }}
 		</li>
@@ -59,8 +64,8 @@ layout: list
 	})
 
 	count_tags.forEach(tag => {
-		if(tag.count > 1){
-			$("#tagsBox").append(`<div><input name="${tag.tag_name}" type="checkbox" onClick="updateFilters()">${tag.tag_name.replace('+', ' ')} ${tag.count}</input></div>`)
+		if(tag.count > 2 && tag.tag_name !== ''){
+			$("#tagsBox").append(`<div><input name="${tag.tag_name.replaceAll(' ', "-")}" type="checkbox" onClick="updateFilters()">${tag.tag_name}</input></div>`)
 			}
 		})
 
