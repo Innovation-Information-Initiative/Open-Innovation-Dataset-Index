@@ -24,9 +24,14 @@ layout: list
 			{% assign tag_clean = tag | strip | replace: ' ', '-' %}
 			{% assign dataset_tags = dataset_tags | push: tag_clean %}
 		{% endfor %}
-		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}"><a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
-		<span class="author" data-value="{{ dataset.citation }}"></span>
-		{{ dataset.description | truncate_words: 50 }}
+		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}">
+			<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
+			<span class="author" data-value="{{ dataset.citation }}"></span>
+<!-- 			{% for tag in dataset_tags  %}
+				<span class="tagBlock">| {{ tag }}</span>
+			{% endfor %}
+			{% unless dataset_tags=site.emptyArray %} |<br>{% endunless %} -->
+			{{ dataset.description | strip_html | truncate: 250 }}
 		</li>
 	{% endfor %}
 </ul>

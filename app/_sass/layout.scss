@@ -34,9 +34,8 @@ a:hover {
 
 #tagsBox {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
-
 
 .headerContainer > a:hover {
     background-color: lightgray;
@@ -55,7 +54,7 @@ a:hover {
 
 .indexList {
     list-style-type: none;
-    /*padding: 0;*/
+    padding: 5px;
 }
 
 .indexList li {
