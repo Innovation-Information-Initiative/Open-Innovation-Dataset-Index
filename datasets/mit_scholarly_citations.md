@@ -5,7 +5,7 @@ location: https://lens-public.s3-us-west-2.amazonaws.com/sloan/scholarly/201932/
 record_creation_timestamp: 11/18/2020 17:20:46
 shortname: mit_scholarly_citations
 tags:
-- citations to scholarly literature
+- citation to scholarly literature
 title: MIT Scholarly Works Cited by Patents
 uuid: 265a814e-a4a5-4302-9cc0-0f78cf1c70fc
 ---
