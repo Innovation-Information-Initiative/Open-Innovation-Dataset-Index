@@ -30,14 +30,14 @@ def update_markdown(data, directory):
 				if 'uuid' in record and entry['uuid'] == record["uuid"]:
 					row = entry
 
-			# diff 
-			for term in row:
-				#check not empty null or blank
-				if row[term] and row[term].strip():
-					record[term] = row[term]
+					# diff 
+					for term in row:
+						#check not empty null or blank
+						if row[term] and row[term].strip():
+							record[term] = row[term]
 
-			if row["tags"] and row["tags"].strip():
-				record["tags"] = '[' + row["tags"] + ']'
+					if row["tags"] and row["tags"].strip():
+						record["tags"] = '[' + row["tags"] + ']'
 
 			update_frontmatter(record, filepath)
 
