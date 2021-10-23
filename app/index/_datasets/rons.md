@@ -20,7 +20,7 @@ maintained_by: Matt Marx, mmarx@cornell.edu
 record_creation_timestamp: 11/16/2020 17:20:46
 shortname: rons
 tags:
-- citations to scholarly literature
+- citation to scholarly literature
 - ' front-page citation'
 - ' error metrics'
 terms_of_use: Open Data Commons Attribution License v1.0

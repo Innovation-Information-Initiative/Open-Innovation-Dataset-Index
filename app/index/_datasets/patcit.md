@@ -22,7 +22,7 @@ record_creation_timestamp: 11/17/2020 10:38:00
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
 shortname: patcit
 tags:
-- citations to scholarly literature
+- citation to scholarly literature
 - ' In-text'
 - ' Front page'
 - ' Patent'
