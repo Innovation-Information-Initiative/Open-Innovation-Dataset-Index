@@ -13,7 +13,7 @@ doi: https://doi.org/10.7910/DVN/YJUNUN
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
 record_creation_timestamp: 11/21/2020 17:20:46
 shortname: co_authorship_careers
-tags: '[coauthor network]'
+tags: '[coauthor network, United States, social networks]'
 terms_of_use: CC0 - "Public Domain Dedication"
 title: The careers and co-authorship networks of U.S. patent-holders, since 1975
 uuid: 3e2ed123-d6c0-46af-8683-e23d64b04efc

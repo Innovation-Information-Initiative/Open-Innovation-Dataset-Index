@@ -2,7 +2,10 @@
 citation: Bryan, Kevin, 2019, "In-Text Patent Citation Database Bryan/Ozcan/Sampat
   Beta version .9", https://doi.org/10.7910/DVN/ZEZWBX, Harvard Dataverse, V2, UNF:6:+28YcwvDoaxFl/9hPXQaSA==
   [fileUNF]
-description: ''
+cost: None
+description: 'The data contains all articles in 244 journals as described in "In-Text
+  Patent Citations: A User''s Guide"'
+documentation: http://www.kevinbryanecon.com/UsersGuidetoIntextCitations.pdf
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZEZWBX
 shortname: patent_to_article_intext
 timeframe: 197?-2015?
