@@ -5,7 +5,8 @@ citation: Bryan, Kevin, 2019, "In-Text Patent Citation Database Bryan/Ozcan/Samp
   [fileUNF]
 cost: None
 description: 'The data contains all articles in 244 journals as described in "In-Text
-  Patent Citations: A User''s Guide"'
+  Patent Citations: A User''s Guide", and all front-page and in-text citations as
+  found by the algorithm described in this paper. '
 documentation: http://www.kevinbryanecon.com/UsersGuidetoIntextCitations.pdf
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZEZWBX
 shortname: patent_to_article_intext
