@@ -11,7 +11,8 @@ doi: https://doi.org/10.15141/S50T0R
 location: https://www.rug.nl/ggdc/productivity/pwt/?lang=en
 record_creation_timestamp: 11/22/2020 17:20:46
 shortname: pwt
-tags: '[geograpy, GDP, productivity]'
+tags:
+- geograpy, GDP, productivity
 terms_of_use: CC 4.0
 timeframe: 1950-2017
 title: Penn World Tables

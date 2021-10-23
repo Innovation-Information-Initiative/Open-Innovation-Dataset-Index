@@ -16,9 +16,11 @@ description: "This database contains all patent, trademark, utility model and in
   a public release from a joint WIPO-INAPI project. "
 documentation: https://eml.berkeley.edu//~bhhall/Chile_ipdata/chile_inno_ip.txt
 location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
+maintained_by: Bronwyn Hall
 record_creation_timestamp: 11/13/2020 17:20:46
 shortname: chilean_ip
-tags: '[Chile, trademark squatting, pharmaceuticals, disambiguation]'
+tags:
+- Chile, trademark squatting, pharmaceuticals, disambiguation
 terms_of_use: not specified
 timeframe: 1995-2005
 title: Chilean IP and firm data

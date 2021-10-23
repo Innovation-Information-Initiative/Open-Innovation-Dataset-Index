@@ -12,7 +12,8 @@ description: 'The Microsoft Academic Graph is a heterogeneous graph containing s
 location: https://academic.microsoft.com/home
 record_creation_timestamp: 11/29/2020 17:20:46
 shortname: mag
-tags: '[citation to scholarly literature]'
+tags:
+- citation to scholarly literature
 terms_of_use: ODC-BY
 title: Microsoft Academic Graph
 uuid: 9c4124ed-5337-4b36-a1c9-7cf256a3384b
