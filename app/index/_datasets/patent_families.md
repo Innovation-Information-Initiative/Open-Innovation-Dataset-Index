@@ -11,9 +11,11 @@ description: Patent applicants frequently file groups of patent applications lin
   for each patent issued 2005-2014
 documentation: Not unless it’s in the paper (https://ssrn.com/abstract=2709238)
 location: https://storage.googleapis.com/jmk_public/Younge-Kuhn_Patent_Families_2017-09-25.csv
+maintained_by: Jeff Kuhn
 related_publications: https://ssrn.com/abstract=2709238
 shortname: patent_families
-tags: '[patent family, similarity]'
+tags:
+- patent family, similarity
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.

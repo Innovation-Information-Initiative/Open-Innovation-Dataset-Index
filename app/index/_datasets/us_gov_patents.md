@@ -16,9 +16,11 @@ description: 'The 3PFL database links information on patented inventions and sci
   novel empirical research in the economics of innovation and science. '
 doi: https://doi.org/10.5281/zenodo.3369582
 location: https://zenodo.org/record/3369582
+maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 11/26/2020 17:20:46
 shortname: us_gov_patents
-tags: '[research funding, United States]'
+tags:
+- research funding, United States
 terms_of_use: CC-BY 4.0 International
 timeframe: 2000-2019
 title: Patents arising from U.S. government funding

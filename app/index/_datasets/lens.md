@@ -9,9 +9,11 @@ description: 'Lens serves nearly all of the patent documents in the world as ope
   collections, aggregations, and analyses to be shared, annotated, and embedded to
   forge open mapping of the world of knowledge-directed innovation. '
 location: https://lens.org/
+maintained_by: "Lens Labs, \nhttps://about.lens.org/contact-us/"
 record_creation_timestamp: 11/28/2020 17:20:46
 shortname: lens
-tags: '[citations to scholarly literature]'
+tags:
+- citations to scholarly literature
 terms_of_use: Cambia grants you a non-exclusive, non-transferable, revocable, limited
   license to access and personally use the features of the Service. The conditions
   by which The Lens data may be used are intended to resonate with the principles

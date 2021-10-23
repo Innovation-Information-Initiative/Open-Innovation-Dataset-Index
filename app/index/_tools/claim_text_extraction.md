@@ -9,7 +9,8 @@ description: Imagine you're analyzing a subset of patents and want to do some te
   using python, BigQuery, and Google's new public dataset on patents.
 location: https://github.com/google/patents-public-data/blob/master/examples/claim-text/claim_text_extraction.ipynb
 shortname: claim_text_extraction
-tags: '[machine learning]'
+tags:
+- machine learning
 terms_of_use: http://www.apache.org/licenses/LICENSE-2.0
 title: Claim Text Extraction
 uuid: 2af204fa-8074-44a1-8137-f0b605d97c68
