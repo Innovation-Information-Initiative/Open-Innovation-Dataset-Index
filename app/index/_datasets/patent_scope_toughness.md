@@ -17,7 +17,7 @@ location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2
 record_creation_timestamp: 11/15/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2977273
 shortname: patent_scope_toughness
-tags: Examiners
+tags: '[Examiners]'
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.

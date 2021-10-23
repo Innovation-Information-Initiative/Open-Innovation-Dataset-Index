@@ -10,7 +10,7 @@ doi: https://doi.org/10.7910/DVN/5F1RRI
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI
 record_creation_timestamp: 5/14/2022 14:41:04
 shortname: co_authorship_disambiguation
-tags: coauthor network
+tags: '[coauthor network]'
 terms_of_use: CC0 - "Public Domain Dedication"
 title: Disambiguation and Co-authorship Networks of the U.S. Patent Inventor Database
 uuid: a238826e-8135-4b6d-8b59-615fc9769f03

@@ -6,7 +6,7 @@ description: 'Semantic Scholar''s records for research papers published in all f
 location: http://s2-public-api-prod.us-west-2.elasticbeanstalk.com/corpus/
 record_creation_timestamp: 12/7/2020 17:20:46
 shortname: sem_scholar_open_research
-tags: Citation affect
+tags: '[Citation affect]'
 terms_of_use: ODC-BY
 title: Semantic Scholar Open Research Corpus
 uuid: ff4ffcf9-5721-4148-ac59-140b9ed4dab5
