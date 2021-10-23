@@ -11,7 +11,7 @@ description: OpenRefine is a desktop application that uses your web browser as a
 documentation: https://openrefine.org/documentation.html
 location: https://openrefine.org/
 shortname: openrefine
-tags: data cleaning
+tags: '[data cleaning]'
 title: OpenRefine
 uuid: 20d46742-3c4c-4563-90f3-ec3e5ebeb0b8
 ---
