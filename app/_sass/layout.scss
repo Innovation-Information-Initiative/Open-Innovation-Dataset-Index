@@ -72,9 +72,36 @@ a:hover {
     font-size: large;
 }
 
+.editNav {
+    width: 80%;
+    min-width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
 .nav a {
     text-decoration: none;
     padding: 5px;
+}
+
+.editNav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+#editInfo {
+    float: right;
+}
+
+#editInfo img {
+    width: 20px;
+}
+
+#editInfo a:hover {
+    background-color: lightgray;
 }
 
 #resultsContainer {

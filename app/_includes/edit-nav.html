@@ -1,0 +1,14 @@
+<div class="navContainer">
+	<div class="editNav">
+		<a href="/">home</a>
+		<a href="/collections">collections</a>
+		<a href="/datasets">datasets</a>
+		<a href="/tools">tools</a>
+		<a id="editLink">edit this page</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var editUrl = 'https://github.com/Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker/blob/main' + window.location.pathname + '.md'
+	document.getElementById('editLink').href = editUrl
+</script>
