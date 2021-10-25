@@ -10,6 +10,7 @@ description: PWT version 10.0 is a database with information on relative levels 
 documentation: https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf
 doi: https://doi.org/10.15141/S50T0R
 location: https://www.rug.nl/ggdc/productivity/pwt/?lang=en
+maintained_by: Contact pwt@rug.nl
 record_creation_timestamp: 11/22/2020 17:20:46
 shortname: pwt
 tags:

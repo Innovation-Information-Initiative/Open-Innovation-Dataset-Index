@@ -12,6 +12,7 @@ description: 'The identification enables construction of social networks based o
   as new patents are issued. '
 doi: https://doi.org/10.7910/DVN/YJUNUN
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
+maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 11/21/2020 17:20:46
 shortname: co_authorship_careers
 tags:
