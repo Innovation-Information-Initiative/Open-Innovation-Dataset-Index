@@ -8,6 +8,7 @@ cost: None
 description: Name disambiguation of US inventors, 1975-2010
 doi: https://doi.org/10.7910/DVN/5F1RRI
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI
+maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 5/14/2022 14:41:04
 shortname: co_authorship_disambiguation
 tags:

@@ -10,6 +10,7 @@ description: 'The Microsoft Academic Graph is a heterogeneous graph containing s
   publication records, citation relationships between those publications, as well
   as authors, institutions, journals, conferences, and fields of study. '
 location: https://academic.microsoft.com/home
+maintained_by: Currently in transition
 record_creation_timestamp: 11/29/2020 17:20:46
 shortname: mag
 tags:
