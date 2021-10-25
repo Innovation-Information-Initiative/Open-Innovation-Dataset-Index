@@ -12,6 +12,7 @@ documentation: 'last updated 2017.  See also this 2019 update w/ 3 varieties (no
   #66): https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT'
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO
 record_creation_timestamp: 08/17/2021, 11:16:07
+record_superceded_by: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 shortname: sipo_matching
 timeframe: through 2016?
 title: Matching SIPO patents to Chinese listed firms ("Main Board")
