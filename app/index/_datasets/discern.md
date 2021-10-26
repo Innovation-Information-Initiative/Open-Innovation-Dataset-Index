@@ -31,7 +31,7 @@ tags:
 - ' Dynamic reassignment'
 - ' GVKEY'
 timeframe: 1980-2015
-title: DISCERN patent/compustat crosswalk
+title: 'DISCERN: Duke Innovation & SCientific Enterprises Research Network '
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
 versioning: 'Yes'
 ---

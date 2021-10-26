@@ -13,6 +13,7 @@ description: 'PEDS contains the bibliographic, published document and patent ter
   in PEDS.'
 documentation: https://ped.uspto.gov/peds/#!/#%2FuserManual
 location: https://ped.uspto.gov/peds/#!/
+maintained_by: USPTO
 record_creation_timestamp: 08/28/2021, 16:51:00
 shortname: peds
 terms_of_use: 'terms given here: https://www.uspto.gov/sites/default/files/documents/Patent%20Electronic%20System%20Access%20Document_0.pdf'
