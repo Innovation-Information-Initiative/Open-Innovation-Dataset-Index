@@ -10,6 +10,7 @@ citation: "\n@misc{banda_large-scale_2021,\n        title = {A large-scale {COVI
   \       note = {type: dataset},\n        keywords = {social media, twitter, nlp,
   covid-19, covid19},\n}\n"
 code: https://github.com/thepanacealab/covid19_twitter
+cost: None
 description: 'Dataset of tweets acquired from the Twitter Stream related to COVID-19
   chatter. The first 9 weeks of data (from January 1st, 2020 to March 11th, 2020)
   contain very low tweet counts as we filtered other data we were collecting for other
@@ -26,13 +27,16 @@ description: 'Dataset of tweets acquired from the Twitter Stream related to COVI
   bigrams, and the top 1000 trigrams. Some general statistics per day are included
   for both datasets.'
 documentation: http://www.panacealab.org/covid19/
-doi: 'DOI: 10.5281/zenodo.5458943
+doi: '10.5281/zenodo.5458943
 
-  type: dataset'
+  '
 error_metrics: null
-location: https://zenodo.org/record/5458943
+location: https://zenodo.org/record/5595136
+maintained_by: Panacea Labs, http://www.panacealab.org/covid19/
 record_creation_timestamp: 09/07/2021, 16:35:04
 references: null
+related_publications: 'https://doi.org/10.3390/epidemiologia2030024, http://doi.org/10.2196/25108,
+  http://doi.org/10.1002/isaf.1482 '
 shortname: covid_twitter_chatter
 tags:
 - social media
