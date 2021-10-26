@@ -14,10 +14,6 @@ record_creation_timestamp: 11/28/2020 17:20:46
 shortname: lens
 tags:
 - citation to scholarly literature
-- biological sequences
-- legal
-- patent families
-- disambiguation
 terms_of_use: Cambia grants you a non-exclusive, non-transferable, revocable, limited
   license to access and personally use the features of the Service. The conditions
   by which The Lens data may be used are intended to resonate with the principles
@@ -43,5 +39,4 @@ The [Lens Metarecord](https://about.lens.org/the-lens-metarecord/) and LensID ar
 
 ## Knowledge Base
 
-The Lens also hosts a [Knowledge Base](https://support.lens.org/knowledge-database/), with detailed overviews covering patent law, legal status, geographical variation of patenting law and the structure of claims. 
-
+The Lens also hosts a [Knowledge Base](https://support.lens.org/knowledge-database/), with detailed overviews covering patent law, legal status, geographical variation of patenting law and the structure of claims.
