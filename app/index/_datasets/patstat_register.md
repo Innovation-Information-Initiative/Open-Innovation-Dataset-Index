@@ -12,8 +12,14 @@ description: 'This database contains bibliographic and legal event data on publi
   more detailed.'
 documentation: https://www.epo.org/searching-for-patents/business/patstat.html
 location: https://www.epo.org/searching-for-patents/business/patstat.html
+maintained_by: EPO
 record_creation_timestamp: 10/04/2021
 shortname: patstat_register
+tags:
+- Europe
+- ' patents'
+- ' legal'
+- ' citations'
 terms_of_use: Requires a subscription to access
 title: Patstat Register
 uuid: eb43fc38-8786-4b0f-b3b8-b9d610f456ed

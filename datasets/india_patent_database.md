@@ -2,17 +2,19 @@
 api_or_bulk_downloads: None
 citation: None
 code: None
+cost: None
 description: Platform for accessing indian public patents data
-documentation: None
+documentation: ' https://ipindiaservices.gov.in/PublicSearch/PublicationSearch/Help'
 doi: null
 error_metrics: None
 location: https://ipindiaservices.gov.in/publicsearch
+maintained_by: Intellectual Property India
 record_creation_timestamp: 08/31/2021, 08:28:19
 references: null
 shortname: india_patent_database
 tags:
-- innovation
-- ' platform'
+- India
+- ' patents'
 terms_of_use: null
 timeframe: None
 title: Indian Patent Advanced Search System

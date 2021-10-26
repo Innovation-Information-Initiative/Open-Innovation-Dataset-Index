@@ -19,6 +19,8 @@ tags:
 - ' disambiguation'
 - ' trademarks'
 - ' physical patent marking'
+terms_of_use: These data are currently not available for sale. They are available
+  in exchange of credits, which you earn by contributing to the project.
 title: IPRoduct
 uuid: 303ce18b-f411-4752-9fe6-d4fcc369f43c
 ---

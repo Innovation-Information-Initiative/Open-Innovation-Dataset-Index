@@ -11,6 +11,7 @@ description: Worldwide (100+ countries) bibliographic and USPTO full-text, avail
   and US full-text dataset of patent publications. Updated quarterly.
 documentation: https://cloud.google.com/blog/topics/public-datasets/google-patents-public-datasets-connecting-public-paid-and-private-patent-data
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
+maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46
 shortname: google_patents_public
 tags:

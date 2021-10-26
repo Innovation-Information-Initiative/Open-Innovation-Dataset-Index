@@ -1,25 +1,43 @@
 ---
 layout: default
 api_or_bulk_downloads: CC-By Attribution 4.0 International
-citation: "\n@article{oldham_biospolar_2019,\n\ttitle = {Biospolar {Antarctic} {Literature}
-  and {Patents}},\n\turl = {https://osf.io/py6ve/},\n\tdoi = {10.17605/OSF.IO/PY6VE},\n\tabstract
-  = {Mapping the scientific and patent landscapes for biodiversity based research
-  and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
-  Project, Research Council of Norway (RCN project number 257631/E10) \n    Hosted
-  on the Open Science Framework},\n\tlanguage = {en},\n\turldate = {2021-09-10},\n\tauthor
-  = {Oldham, Paul},\n\tmonth = may,\n\tyear = {2019},\n}\n"
+citation: "@article{oldham_biospolar_2019,\n        title = {Biospolar {Antarctic}
+  {Literature} and {Patents}},\n        url = {https://osf.io/py6ve/},\n        doi
+  = {10.17605/OSF.IO/PY6VE},\n        abstract = {Mapping the scientific and patent
+  landscapes for biodiversity based research and innovation from Antarctica and the
+  Southern Ocean. Created under the Biospolar Project, Research Council of Norway
+  (RCN project number 257631/E10) \n    Hosted on the Open Science Framework},\n        language
+  = {en},\n        urldate = {2021-09-10},\n        author = {Oldham, Paul},\n        month
+  = may,\n        year = {2019},\n}\n"
+cost: None
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
   Project, Research Council of Norway
+documentation: https://osf.io/py6ve/wiki/home/
 doi: 10.17605/OSF.IO/PY6VE
 location: https://osf.io/py6ve/
+maintained_by: Paul Oldham
 record_creation_timestamp: 09/10/2021, 08:10:36
 references: Lens
+related_datasets: lens.org
 shortname: biospolar
 tags:
 - antarctic
 - ' krill'
-terms_of_use: CC-By Attribution 4.0 International
+- ' biodiversity'
+terms_of_use: 'The datasets are made available under a Creative Commons Attribution
+  4.0 International Licence.
+
+
+  When using datasets from the repository please retain the lens_id to meet with the
+  Lens terms of use. The lens_id along with the paperid (Microsoft Academic Graph)
+  are the main unique identifiers for table joins so you will want to keep them anyway.
+
+
+  Data from Microsoft Academic Graph is made available under the Open Data Commons
+  Attribution License (ODC-By) v1.0. If using the data in a product. service or data
+  redistribution please include this url https://aka.ms/msracad as described here.
+  If using in a publication please cite the two articles described here.'
 title: Biospolar Antarctic Literature and Patents
 uuid: fcf09f34-d5a8-483d-94a3-09a03c167100
 ---

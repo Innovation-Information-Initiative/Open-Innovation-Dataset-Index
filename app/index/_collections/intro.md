@@ -2,6 +2,7 @@
 layout: default
 author: Agnes Cameron
 tags: patents
+description: Start point for patent analysis
 title: Essential Patent Analysis Datasets
 ---
 
@@ -18,3 +19,9 @@ The following datasets provide a great start point for analysis of innovation da
 * matching patents to firms
 	* [DISCERN Patent Compustat Crosswalk](/datasets/discern)
 	* [Chinese Patent Data Project](/datasets/chinese_patent_data)
+
+## Guides
+
+* [WIPO Manual on Open Source Patent Analytics](https://wipo-analytics.github.io/) and accompanying [Github Repository](https://github.com/wipo-analytics), which gives a practical guide to free and open source software tools for patent analytics
+* [Lens Labs Knowledge Database](https://support.lens.org/knowledge-database/), which contains extensive information about patent analysis, including legal status calculation, geographical variability in patent law, analysis of biological patents and guides to reading patents
+* Paul Oldham's guide [Understanding Patent Data Fields](https://www.pauloldham.net/patent-data-fields/), which gives a thorough overview of using patent identifiers, and also features in the WIPO manual

@@ -5,6 +5,7 @@ layout: list
 
 <ul class=indexList>
 {% for collection in site.collections %}
-	<li><a href="{{ collection.url }}">{{ collection.title }}</a><br></li>
+	<li><a href="{{ collection.url }}">{{ collection.title }}</a><br>
+	{{ collection.description | strip_html | truncate: 250 }}</li>
 {% endfor %}
 </ul>

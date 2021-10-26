@@ -17,6 +17,7 @@ description: 'HistPat provides the geography of historical patents granted by th
   extend it until today. (2016-05-23) '
 doi: 10.7910/DVN/BPC15W
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
+maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/24/2021, 15:31:52
 shortname: histpat
 tags:

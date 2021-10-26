@@ -17,7 +17,7 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   to their database of interest.'
 documentation: Provided at link
 doi: https://doi.org/10.5281/zenodo.4320782`
-location: https://zenodo.org/record/4320782#.YONFTugzY2w
+location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 record_creation_timestamp: 11/13/2020 17:47:00
 shortname: discern
@@ -30,7 +30,7 @@ tags:
 - ' Dynamic reassignment'
 - ' GVKEY'
 timeframe: 1980-2015
-title: DISCERN patent/compustat crosswalk
+title: 'DISCERN: Duke Innovation & SCientific Enterprises Research Network '
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
 versioning: 'Yes'
 ---
