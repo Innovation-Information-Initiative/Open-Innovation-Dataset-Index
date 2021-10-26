@@ -4,11 +4,11 @@ citation: Please use the expression 'Enabled by The Lens' or 'Data Sourced from 
 cost: None
 description: 'Lens serves nearly all of the patent documents in the world as open,
   annotatable digital public goods that are integrated with scholarly and technical
-  literature along with regulatory and business data. The Lens will allow document
-  collections, aggregations, and analyses to be shared, annotated, and embedded to
-  forge open mapping of the world of knowledge-directed innovation. '
+  literature along with regulatory and business data. The Lens will allow documents
+  and analyses to be shared and embedded to support open mapping of knowledge-directed
+  innovation. '
 location: https://lens.org/
-maintained_by: "Lens Labs, \nhttps://about.lens.org/contact-us/"
+maintained_by: "Cambia Foundation, \nhttps://about.lens.org/contact-us/"
 record_creation_timestamp: 11/28/2020 17:20:46
 shortname: lens
 tags:
