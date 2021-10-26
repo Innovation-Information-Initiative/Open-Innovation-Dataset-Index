@@ -16,6 +16,7 @@ documentation: Not unless it’s in the paper
 location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/15/2020 17:47:00
+related_datasets: USPTO patent claims dataset
 related_publications: https://ssrn.com/abstract=2977273
 shortname: patent_scope_toughness
 tags:
