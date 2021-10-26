@@ -5,6 +5,7 @@ description: 'DOCDB is the EPO''s master documentation database with worldwide c
   It contains bibliographic data, abstracts, citations and the DOCDB simple patent
   family, but no full text or images. '
 location: https://www.epo.org/searching-for-patents/data/bulk-data-sets/docdb.html#tab-1
+maintained_by: EPO
 shortname: docdb
 terms_of_use: available through paid subscription, https://www.epo.org/service-support/ordering/raw-data-terms-and-conditions.html
 title: EPO worldwide bibliographic data (DOCDB)

@@ -22,6 +22,7 @@ doi: '10.5281/zenodo.3552078
   '
 error_metrics: None
 location: https://zenodo.org/record/3552078
+maintained_by: Ryan Whalen
 record_creation_timestamp: 09/15/2021, 05:50:18
 shortname: us_patent_similarity
 tags:
