@@ -1,6 +1,7 @@
 ---
 layout: default
 layout: default
+layout: default
 author: agnes
 tags: tag1, tag2
 title: test!
