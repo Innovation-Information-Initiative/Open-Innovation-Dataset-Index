@@ -15,7 +15,9 @@ description: This is a database of qualitatively coded reasons for a CEO’s dis
 documentation: Documentation included as a .docx on Zenodo
 doi: 10.5281/zenodo.4618103
 location: https://zenodo.org/record/5348198
+maintained_by: Richard Gentry
 record_creation_timestamp: 09/02/2021, 11:24:03
+related_datasets: Execucomp, https://libguides.uml.edu/wrds/ExecuComp
 related_publications: ' https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278'
 shortname: ceo_dismissal
 tags:
