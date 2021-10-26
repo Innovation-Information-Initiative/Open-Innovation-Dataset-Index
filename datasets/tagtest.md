@@ -2,6 +2,7 @@
 cost: None
 description: Snapshots of British patent/SPC applications received and subsequently
   published by the Intellectual Property Office.
+documentation: The attached documents describe the data
 location: https://www.gov.uk/government/publications/ipo-patent-data
 maintained_by: UK Intellectual Property Office, https://www.gov.uk/government/organisations/intellectual-property-office
 record_creation_timestamp: 09/02/2021, 09:58:24

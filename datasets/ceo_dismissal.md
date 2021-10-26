@@ -17,11 +17,12 @@ citation: "\n@misc{richard_j._gentry_open_2021,\n\ttitle = {Open {Sourced} {Data
   Harrison} and {Timothy Quigley} and {Steven Boivie}},\n\tmonth = feb,\n\tyear =
   {2021},\n\tdoi = {10.5281/zenodo.4618103},\n\tnote = {type: dataset},\n\tkeywords
   = {CEO Dismissal, Management, Strategic Management},\n}\n"
+cost: None
 description: CEO Dismissal data for S&P 1500 Companies
 doi: 'DOI: 10.5281/zenodo.4618103
 
   type: dataset'
-location: https://zenodo.org/record/4618103
+location: https://zenodo.org/record/5348198
 record_creation_timestamp: 09/02/2021, 11:24:03
 shortname: ceo_dismissal
 tags:
