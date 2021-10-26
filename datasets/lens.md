@@ -36,7 +36,7 @@ The Lens also hosts [APIs](https://www.lens.org/lens/user/subscriptions#subscrip
 
 ## The Lens Metarecord and LensID
 
-The [Lens Metarecord](https://about.lens.org/the-lens-metarecord/) and LensID are an open system to link and disambiguate records including patents, scholarly works, authors and institutions. The Lens Metarecord aggregates and normalises related versions and variants on a particular work, that might otherwise be treated as separate entities.
+The [Lens Metarecord](https://about.lens.org/the-lens-metarecord/) and LensID are an open system to link and disambiguate records including patents, scholarly works, authors and institutions. The Lens Metarecord aggregates and normalises related versions and variants on a particular work, as well as different unique identifiers (DOI, PMID) that might otherwise be treated as separate entities.
 
 <img src='https://about.lens.org/wp-content/uploads/2019/11/Lens-meta-record.jpg' width=700 />
 
