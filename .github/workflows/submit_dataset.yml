@@ -68,8 +68,8 @@ jobs:
           for modified_file in ${{ steps.read_files.outputs.modified }}; do
             if [ "${modified_file: -3}" == ".md" ]
             then
-              echo "this is a markdown file ${added_file}"
-              git diff -U0
+              echo "this is a markdown file ${modified_file}"
+              python3 scripts/edit_dataset.py ${modified_file}
             fi
           done
 

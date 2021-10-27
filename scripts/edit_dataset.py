@@ -12,28 +12,18 @@ from helpers.utils import get_project_root
 def parse_and_submit(edited_file, sheet_id, sheet_title, output_dir, creds):
 	#download google sheets
 	ws = gsheets.init(sheet_id, sheet_title, creds)
-	# raw_data = gsheets.get(ws)
-	# data, schema = gsheets.json_from_data(raw_data)
 	sheet_df, schema = gsheets.get_df(ws)
 
 	#generate UUID for entry and write to file
-	record = frontmatter.load(filepath)
+	file_record = frontmatter.load(filepath)
 	dataset = {}
+	sheet_uuid = file_record['uuid']
 
-	print('head is', sheet_df.head())
+	sheets_record = df.query('uuid == @sheet_uuid')
 
-	#copy submitted info from markdown to record
-	for field in sheet_df.head():
-		if field in record: 
-			dataset[field] = record[field]
-		else:
-			dataset[field] = ''
+	print(sheets_record)
 
-
-	#get citation
-	result, bibtex = metadata.citoid_request(record['location'])
-
-	gsheets.post(ws, row)
+	# check differences between record on particular fields
 
 
 if __name__ == "__main__":
