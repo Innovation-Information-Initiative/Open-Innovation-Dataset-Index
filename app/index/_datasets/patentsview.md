@@ -4,8 +4,10 @@ citation: Attribution should be given to PatentsView for use, distribution, or d
   works.
 code: https://github.com/CSSIP-AIR/PatentsView-Code-Snippets/
 cost: None
-description: PatentsView includes US patent data including raw data and disambugations
-  of inventors and assignees, also inventor gender.
+description: 'PatentsView includes US patent data including raw data (summaries, applications,
+  pregrant applications), disambugations of inventors and assignees, and inventor
+  gender estimates.  Also foreign priority data, # of figures and sheets, and government
+  interest statements.'
 documentation: Provided at link
 location: https://patentsview.org/
 maintained_by: USPTO
