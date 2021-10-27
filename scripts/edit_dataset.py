@@ -16,10 +16,9 @@ def parse_and_submit(edited_file, sheet_id, sheet_title, output_dir, creds):
 
 	#generate UUID for entry and write to file
 	file_record = frontmatter.load(filepath)
-	dataset = {}
 	sheet_uuid = file_record['uuid']
 
-	sheets_record = df.query('uuid == @sheet_uuid')
+	sheets_record = sheet_df.query('uuid == @sheet_uuid')
 
 	print(sheets_record)
 
