@@ -65,6 +65,14 @@ jobs:
               echo "::set-output name=commit_files::true"
             fi
           done
+          for modified_file in ${{ steps.read_files.outputs.modified }}; do
+            if [ "${modified_file: -3}" == ".md" ]
+            then
+              echo "this is a markdown file ${added_file}"
+              git diff -U0
+            fi
+          done
+
 
       - name: Commit files
         if: steps.changed_files.outputs.commit_files == 'true'
