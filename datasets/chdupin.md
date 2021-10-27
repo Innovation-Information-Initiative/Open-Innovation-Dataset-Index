@@ -13,7 +13,9 @@ record_creation_timestamp: 08/16/2021, 14:36:05
 shortname: uses_of_petroleum
 tags:
 - petroleum
-- ' oil consumption'
+- oil consumption
+- GDP
+- productivity
 terms_of_use: 'You are free to use the data for non-commercial use. We only ask you
   to cite the associated articles:
 
