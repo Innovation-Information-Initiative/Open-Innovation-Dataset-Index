@@ -16,19 +16,19 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   to their database of interest.'
 documentation: Provided at link
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: 11/13/2020 17:47:00
+last_edit: 10/28/2021, 12:55:15
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 shortname: discern
 tags:
-- Compustat
-- Patents
-- Publications
-- NPL
-- Name changes
-- Dynamic reassignment
-- GVKEY
-- Disambiguation
+- '[''Compustat'''
+- ' ''Patents'''
+- ' ''Publications'''
+- ' ''NPL'''
+- ' ''Name changes'''
+- ' ''Dynamic reassignment'''
+- ' ''GVKEY'''
+- ' ''Disambiguation'']'
 timeframe: 1980-2015
 title: 'DISCERN: Duke Innovation & SCientific Enterprises Research Network '
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
