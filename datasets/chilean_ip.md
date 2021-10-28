@@ -1,5 +1,6 @@
 ---
 api_or_bulk_downloads: Bulk
+authors: Bronwyn H. Hall
 citation: Abud, M.J., Fink, C., Hall, B. and Helmers, C., 2013. The use of intellectual
   property in Chile (Vol. 11). WIPO.
 cost: None
