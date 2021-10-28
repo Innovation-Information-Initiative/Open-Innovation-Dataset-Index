@@ -14,6 +14,7 @@ description: This is a database of qualitatively coded reasons for a CEO’s dis
   a signup [here](https://docs.google.com/forms/d/e/1FAIpQLSfiZZHwyeWYEZ5fOT1_RygH-ComG9ltad5IUUY60Fsw9z3hZg/viewform)
 documentation: Documentation included as a .docx on Zenodo
 doi: 10.5281/zenodo.4618103
+last_edit: 09/02/2021, 11:24:03
 location: https://zenodo.org/record/5348198
 maintained_by: Richard Gentry
 record_creation_timestamp: 09/02/2021, 11:24:03

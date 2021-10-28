@@ -11,6 +11,7 @@ description: Many studies of innovation rely on patent citations to measure inte
   for all citations made by patents issued between 1976 and 2017 to issued patents
   or published patent applications.
 documentation: 'Paper: https://ssrn.com/abstract=2714954'
+last_edit: 11/14/2020 17:47:00
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Similarity_2017-10-23.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/14/2020 17:47:00

@@ -10,6 +10,7 @@ description: '
   of patents based on the Japan Patent Office (JPO) “Standardized Data.“ Intellectual
   Property Institute (IIP) provides the IIP patent DB to further promote patent statistical
   research.'
+last_edit: 11/15/2020 17:20:46
 location: https://www.iip.or.jp/e/patentdb/index.html
 maintained_by: Foundation for Intellectual Property, iip-patentdb@fdn-ip.or.jp
 record_creation_timestamp: 11/15/2020 17:20:46

@@ -5,6 +5,7 @@ citation: 'Waleed Ammar et al. 2018. Construction of the Literature Graph in Sem
 cost: None
 description: 'Semantic Scholar''s records for research papers published in all fields
   provided as an easy-to-use JSON archive. '
+last_edit: 12/7/2020 17:20:46
 location: https://api.semanticscholar.org/corpus
 maintained_by: Semantic Scholar, feedback@semanticscholar.org
 record_creation_timestamp: 12/7/2020 17:20:46
