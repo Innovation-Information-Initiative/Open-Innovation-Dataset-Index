@@ -17,10 +17,10 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 	sheet_df, schema = gsheets.get_df(ws)
 
 	#generate UUID for entry and write to file
-	record = frontmatter.load(filepath)
+	record = frontmatter.load(new_file)
 	new_uuid = uuid.uuid4()
 	record['uuid'] = str(new_uuid)
-	files.update_frontmatter(record, filepath)
+	files.update_frontmatter(record, new_file)
 
 	dataset = {}
 
@@ -35,7 +35,7 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 
 	# add additional metadata
 	shortname, ext = os.path.splitext(os.path.basename(new_file))
-	dataset['record_creation_timestamp'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+	dataset['last_edit'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 	dataset['shortname'] = shortname
 	dataset['uuid'] = str(new_uuid)
 

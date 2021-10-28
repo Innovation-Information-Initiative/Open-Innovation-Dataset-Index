@@ -45,9 +45,6 @@ def get(ws, data_range=None):
 def get_df(ws):
 	data = ws.get()
 	headers = data[0]
-	print(data[1])
-
-	print(list(map(lambda header: header.replace(" ", "_").lower(), headers)))
 
 	df = pd.DataFrame(data[1:], columns = 
 		list(map(lambda header: header.replace(" ", "_").lower(), headers)))

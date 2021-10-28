@@ -12,17 +12,18 @@ from helpers.utils import get_project_root
 def parse_and_submit(edited_file, sheet_id, sheet_title, output_dir, creds):
 	#download google sheets
 	ws = gsheets.init(sheet_id, sheet_title, creds)
-	sheet_df, schema = gsheets.get_df(ws)
+	sheets_record, schema = gsheets.get_df(ws)
 
 	#generate UUID for entry and write to file
-	file_record = frontmatter.load(filepath)
+	file_record = frontmatter.load(edited_file)
+	ind = sheets_record.index[sheets_record['uuid']==file_record['uuid']].tolist()[0]
+	print(sheets_record.loc[[ind]])
 
-	# sheets_record = sheet_df.query('uuid == @sheet_uuid')
-	sheets_record = sheet_df.index[sheet_df['uuid']==file_record['uuid']].tolist()[0]
+	for key in file_record.keys():
+		sheets_record.at[ind, key] = file_record[key]
 
-	print(sheets_record)
-
-	# check differences between record on particular fields
+	sheets_record.at[ind, 'last_edit'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+	gsheets.post_df(ws, sheets_record)
 
 
 if __name__ == "__main__":
