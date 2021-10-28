@@ -1,5 +1,5 @@
 ---
-citation: ' Ronald Lai; Alexander D''Amour; Lee Fleming, 2010, "The careers and co-authorship
+citation: 'Ronald Lai; Alexander D''Amour; Lee Fleming, 2010, "The careers and co-authorship
   networks of U.S. patent-holders, since 1975", https://doi.org/10.7910/DVN/YJUNUN,
   Harvard Dataverse, V3, UNF:5:daJuoNgCZlcYY8RqU+/j2Q== [fileUNF] '
 cost: None

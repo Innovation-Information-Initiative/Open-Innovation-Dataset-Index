@@ -4,6 +4,7 @@ authors: Matt Marx, Aaron Fuegi
 citation: 'Marx, Matt and Aaron Fuegi, "Reliance on Science: Worldwide Front-Page
   Patent Citations to Scientific Articles"'
 code: https://github.com/mattmarx/reliance_on_science
+contributors: Matt Marx, Aaron Fuegi
 cost: None
 description: 'We introduce an open-access dataset of references from the front pages
   of patents granted worldwide to scientific papers published since 1800. Each patent-paper
