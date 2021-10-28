@@ -3,6 +3,7 @@ description: from the paper "Innovation and Top Income Inequality" (Aghion, Akci
   Bergeaud, Blundell, Hémous). This dataset lists all USPTO patent from 1969 to 2016
   whose assignee is a univeristy and give the name and state of this university (originally
   taken from USPTO and improved).
+last_edit: 08/17/2021, 09:11:41
 location: https://sites.google.com/site/abergeaudeco/data?authuser=0
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 09:11:41

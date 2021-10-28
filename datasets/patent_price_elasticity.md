@@ -3,6 +3,7 @@ citation: 'Rassenfosse, G. de, & Potterie, B. van P. de la. '
 cost: None
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.
+last_edit: 11/25/2020 17:20:46
 location: http://www.gder.info/download_OBES_data.html
 maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 11/25/2020 17:20:46
