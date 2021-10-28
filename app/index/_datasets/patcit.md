@@ -1,6 +1,8 @@
 ---
 layout: default
 api_or_bulk_downloads: Bulk
+authors: Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, Gaétan de
+  Rassenfosse
 citation: 'Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, & Gaétan
   de Rassenfosse. (2020). PatCit: A Comprehensive Dataset of Patent Citations (Version
   0.3.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4391095'
