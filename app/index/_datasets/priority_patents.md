@@ -4,6 +4,8 @@ citation: 'De Rassenfosse, G., Dernis, H., Guellec, D., Picci, L., & van Pottels
   de la Potterie, B. (2013). The worldwide count of priority patents: A new indicator
   of inventive activity. Research Policy, 42(3), 720–737. doi:10.1016/j.respol.2012.11.002 '
 code: http://www.gder.info/download_wwc_mysql.html
+contributors: Gaétan de Rassenfosse, Hélène Dernis, Dominique Guellec, Lucio Picci,
+  Bruno van Pottelsberghe de la Potterie
 cost: None
 description: The goal of the project was to produce a dataset of priority patent applications
   filed across the globe, allocated by inventor and applicant location.
