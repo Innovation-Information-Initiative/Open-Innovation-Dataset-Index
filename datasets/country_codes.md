@@ -20,6 +20,7 @@ description: We present a general method for imputing missing information in the
   in PATSTAT.
 documentation: https://www.sciencedirect.com/science/article/pii/S2352340920314955
 doi: https://doi.org/10.7910/DVN/XNTL0W
+last_edit: 08/17/2021, 11:51:42
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 11:51:42

@@ -15,6 +15,7 @@ description: "This database contains all patent, trademark, utility model and in
   waves (1997-2008) of the Chilean innovation survey (INNOVACION). These data are
   a public release from a joint WIPO-INAPI project. "
 documentation: https://eml.berkeley.edu//~bhhall/Chile_ipdata/chile_inno_ip.txt
+last_edit: 11/13/2020 17:20:46
 location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
 maintained_by: Bronwyn Hall
 record_creation_timestamp: 11/13/2020 17:20:46

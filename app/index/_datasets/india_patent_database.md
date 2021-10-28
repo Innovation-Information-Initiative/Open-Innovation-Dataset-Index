@@ -8,6 +8,7 @@ description: Platform for accessing indian public patents data
 documentation: ' https://ipindiaservices.gov.in/PublicSearch/PublicationSearch/Help'
 doi: null
 error_metrics: None
+last_edit: 08/31/2021, 08:28:19
 location: https://ipindiaservices.gov.in/publicsearch
 maintained_by: Intellectual Property India
 record_creation_timestamp: 08/31/2021, 08:28:19

@@ -13,6 +13,7 @@ description: A large RDF data set with over eight billion triples with informati
   journals, and fields of study. The data set is based on the Microsoft Academic Graph
   and licensed under the Open Data Attributions license. Furthermore, we provide entity
   embeddings for all 210M represented scientific papers.
+last_edit: 12/3/2020 17:20:46
 location: http://ma-graph.org/
 record_creation_timestamp: 12/3/2020 17:20:46
 shortname: makg

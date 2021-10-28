@@ -15,6 +15,7 @@ description: 'The 3PFL database links information on patented inventions and sci
   The 3PFL database provides rich and original information that opens the door to
   novel empirical research in the economics of innovation and science. '
 doi: https://doi.org/10.5281/zenodo.3369582
+last_edit: 11/26/2020 17:20:46
 location: https://zenodo.org/record/3369582
 maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 11/26/2020 17:20:46

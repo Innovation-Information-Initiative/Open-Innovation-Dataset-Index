@@ -4,6 +4,7 @@ cost: None
 description: 'This collection encompasses patents that cite the scholarly works of
   Massachusetts Institute of Technology. '
 documentation: https://www.lens.org/lens/labs/dashboards
+last_edit: 11/19/2020 17:20:46
 location: https://www.lens.org/lens/search/patent/list?collectionId=22790&p=0&n=10
 maintained_by: The Lens
 record_creation_timestamp: 11/19/2020 17:20:46

@@ -7,15 +7,14 @@ description: ' The research project CH.DUPIN (Collection of Historical Data on t
 
   The current dataset contains yearly information on oil consumption, oil consumption
   per capita and oil consumption per unit of GDP for 16 OECD countries from 1890.'
+last_edit: 08/16/2021, 14:36:05
 location: http://www.longtermproductivity.com/chdupin/
 maintained_by: Antonin Bergeaud
 record_creation_timestamp: 08/16/2021, 14:36:05
 shortname: uses_of_petroleum
 tags:
 - petroleum
-- oil consumption
-- GDP
-- productivity
+- ' oil consumption'
 terms_of_use: 'You are free to use the data for non-commercial use. We only ask you
   to cite the associated articles:
 

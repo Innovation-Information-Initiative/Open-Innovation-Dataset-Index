@@ -7,6 +7,7 @@ description: 'The European Business Performance database describes the performan
   been collected for five benchmark years, namely on the eve of WWI (1913), before
   the Great Depression (1927), at the extremes of the golden age (1954 and 1972),
   and in 2000.'
+last_edit: 10/21 13:35
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/EUROPEAN+BUSINESS+PERFORMANCE+database/
 maintained_by: crios@unibocconi.it
 record_creation_timestamp: 10/21 13:35

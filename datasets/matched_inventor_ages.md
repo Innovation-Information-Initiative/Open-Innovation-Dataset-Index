@@ -12,6 +12,7 @@ description: " \t\nWe use information about U.S. residing inventors from patents
   the quality of information that we collect. After applying a variety of heuristics
   and robustness checks, we find 1,508,676 inventor ages. We also find the death dates
   of 206,589 inventors, though are not as confident in its accuracy."
+last_edit: 08/12/2021, 15:17:03
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YRLSKU
 maintained_by: Mary Kaltenberg
 record_creation_timestamp: 08/12/2021, 15:17:03

@@ -9,6 +9,7 @@ cost: None
 description: 'The Microsoft Academic Graph is a heterogeneous graph containing scientific
   publication records, citation relationships between those publications, as well
   as authors, institutions, journals, conferences, and fields of study. '
+last_edit: 11/29/2020 17:20:46
 location: https://academic.microsoft.com/home
 maintained_by: Currently in transition
 record_creation_timestamp: 11/29/2020 17:20:46
