@@ -17,12 +17,16 @@ def parse_and_submit(edited_file, sheet_id, sheet_title, output_dir, creds):
 	#generate UUID for entry and write to file
 	file_record = frontmatter.load(edited_file)
 	ind = sheets_record.index[sheets_record['uuid']==file_record['uuid']].tolist()[0]
-	print(sheets_record.loc[[ind]])
+	# print(sheets_record.loc[[ind]])
+	print(schema)
+	print(sheets_record.columns.values)
 
 	for key in file_record.keys():
-		sheets_record.at[ind, key] = file_record[key]
+		if key in list(sheets_record.columns.values):
+			sheets_record.at[ind, key] = file_record[key]
 
 	sheets_record.at[ind, 'last_edit'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+	sheets_record.columns=schema
 	gsheets.post_df(ws, sheets_record)
 
 
