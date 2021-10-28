@@ -1,5 +1,6 @@
 ---
 citation: 'Rassenfosse, G. de, & Potterie, B. van P. de la. '
+contributors: Gaétan de Rassenfosse, Bruno van Pottelsberghe de la Potterie
 cost: None
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.
