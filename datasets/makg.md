@@ -6,6 +6,7 @@ citation: '@inproceedings{DBLP:conf/semweb/Farber19,   author    = {Michael F{\"
   New Zealand}",   pages     = {113--129},   year      = {2019},   url       = {https://doi.org/10.1007/978-3-030-30796-7\_8},   doi       =
   {10.1007/978-3-030-30796-7\_8} }'
 code: https://github.com/michaelfaerber/makg-linking
+contributors: Michael Färber
 cost: None
 description: A large RDF data set with over eight billion triples with information
   about scientific publications and related entities, such as authors, institutions,

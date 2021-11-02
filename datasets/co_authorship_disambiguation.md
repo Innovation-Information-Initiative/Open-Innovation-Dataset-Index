@@ -1,9 +1,11 @@
 ---
+authors: Ronald Lai, Alexander D'Amour, Amy Yu, Ye Sun, Lee Fleming
 citation: 'Ronald Lai; Alexander D''Amour; Amy Yu; Ye Sun; Lee Fleming, 2011, "Disambiguation
   and Co-authorship Networks of the U.S. Patent Inventor Database (1975 - 2010)",
   https://doi.org/10.7910/DVN/5F1RRI, Harvard Dataverse, V5, UNF:5:RqsI3LsQEYLHkkg5jG/jRg==
   [fileUNF] '
 code: https://github.com/funginstitute/downloads
+contributors: Ronald Lai, Alexander D'Amour, Amy Yu, Ye Sun, Lee Fleming
 cost: None
 description: Name disambiguation of US inventors, 1975-2010
 doi: https://doi.org/10.7910/DVN/5F1RRI

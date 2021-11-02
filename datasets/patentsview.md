@@ -2,6 +2,7 @@
 citation: Attribution should be given to PatentsView for use, distribution, or derivative
   works.
 code: https://github.com/CSSIP-AIR/PatentsView-Code-Snippets/
+contributors: USPTO
 cost: None
 description: 'PatentsView includes US patent data including raw data (summaries, applications,
   pregrant applications), disambugations of inventors and assignees, and inventor

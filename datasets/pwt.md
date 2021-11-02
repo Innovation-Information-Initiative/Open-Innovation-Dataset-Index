@@ -2,6 +2,7 @@
 citation: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next
   Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182,
   available for download at www.ggdc.net/pwt
+contributors: Robert C. Feenstra, Robert Inklaar, Marcel P. Timmer
 cost: None
 description: PWT version 10.0 is a database with information on relative levels of
   income, output, input and productivity, covering 183 countries between 1950 and
