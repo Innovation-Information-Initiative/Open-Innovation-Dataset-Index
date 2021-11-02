@@ -26,7 +26,7 @@ If there's a piece of metadata you think we should collect but don't, please add
 
 To contribute a new dataset via pull request, please use the template file [`datasets/_template.md`](datasets/_template.md) as a reference:
 
-```
+```markdown
 ---
 title: #required
 url: #required
@@ -47,12 +47,31 @@ references:
 body text. info about `queries`, links and images goes here :)
 ```
 
-
 ## Collections
 
 The site also indexes collections, which are pages containing thematic information about datasets, tools and resources. These are housed in the folder [`collections/`](/collections). The collection [`intro.md`](/collections/intro.md) is an example -- this particular collection is also rendered on the front page of the site.
 
 In the same manner as datasets, collection files can be added or edited using pull requests, where the repository is forked, and additions or edits to the collections can be made. The collections are not currently tracked via Google Sheets, and so may only be edited via git.
+
+To create a new collection, the collection template may be copied to use as a reference:
+
+```markdown
+---
+title:
+author:
+tags:
+---
+
+Collections are a way to list resources around a theme, relevant to a research agenda or set of papers, or as an introduction to various aspects of the field. They are formatted in markdown:
+
+To list a dataset that's in the index, use a relative link, e.g.
+
+```markdown
+[local dataset name](/datasets/dataset_shortname)
+```
+
+Dataset shortnames can be found either by looking at the urls directly, or through the 'shortnames' column of the [Google Sheet](https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911).
+```
 
 ## Index
 
