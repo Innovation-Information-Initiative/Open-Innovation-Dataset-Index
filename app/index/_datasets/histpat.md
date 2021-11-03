@@ -23,10 +23,10 @@ record_creation_timestamp: 08/24/2021, 15:31:52
 shortname: histpat
 tags:
 - Historical Patents
-- ' Technological Change'
-- ' Inventions'
-- ' Geography'
-- ' Economics'
+- 'Technological Change'
+- 'Inventions'
+- 'Geography'
+- 'Economics'
 title: HistPat Dataset
 uuid: 40f30ff4-d152-4aa8-89a9-e31dddc812dc
 ---

@@ -23,13 +23,13 @@ maintained_by: Lia Sheer
 shortname: discern
 tags:
 - '[''Compustat'''
-- ' ''Patents'''
-- ' ''Publications'''
-- ' ''NPL'''
-- ' ''Name changes'''
-- ' ''Dynamic reassignment'''
-- ' ''GVKEY'''
-- ' ''Disambiguation'']'
+- '''Patents'''
+- '''Publications'''
+- '''NPL'''
+- '''Name changes'''
+- '''Dynamic reassignment'''
+- '''GVKEY'''
+- '''Disambiguation'']'
 timeframe: 1980-2015
 title: 'DISCERN: Duke Innovation & SCientific Enterprises Research Network '
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98

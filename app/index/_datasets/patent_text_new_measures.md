@@ -30,12 +30,12 @@ related_publications: 'Arts S, Hou J, Gomez JC. (2020). Natural language process
 shortname: patent_text_new_measures
 tags:
 - patent measures
-- ' text'
-- ' natural language processing'
-- ' novelty'
-- ' impact'
-- ' USPTO'
-- ' technological progress'
+- 'text'
+- 'natural language processing'
+- 'novelty'
+- 'impact'
+- 'USPTO'
+- 'technological progress'
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1969-2018
 title: 'Patent text: code, data, and new measures'

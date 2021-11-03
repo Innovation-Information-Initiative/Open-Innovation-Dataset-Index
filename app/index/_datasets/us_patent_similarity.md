@@ -28,12 +28,12 @@ record_creation_timestamp: 09/15/2021, 05:50:18
 shortname: us_patent_similarity
 tags:
 - patents
-- ' intellectual property'
-- ' innovation'
-- ' semantic similarity'
-- ' empirical legal studies'
-- ' patents'
-- ' similarity'
+- 'intellectual property'
+- 'innovation'
+- 'semantic similarity'
+- 'empirical legal studies'
+- 'patents'
+- 'similarity'
 terms_of_use: ' Creative Commons Attribution 4.0 International'
 timeframe: None
 title: US Patent Similarity Data
