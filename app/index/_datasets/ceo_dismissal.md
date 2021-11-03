@@ -23,8 +23,8 @@ related_publications: ' https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278
 shortname: ceo_dismissal
 tags:
 - CEO
-- ' Dismissal Management'
-- ' Strategic Management'
+- 'Dismissal Management'
+- 'Strategic Management'
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1992-2018
 title: Open Sourced Database for CEO Dismissal 1992-2018

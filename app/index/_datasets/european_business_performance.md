@@ -16,8 +16,8 @@ related_publications: https://global.oup.com/academic/product/the-performance-of
 shortname: european_business_performance
 tags:
 - Europe
-- ' GDP'
-- ' productivity'
+- 'GDP'
+- 'productivity'
 timeframe: 1910-2000
 title: European Business Performance Database
 uuid: 1ba76694-1853-4721-88f9-1079418fc3d6

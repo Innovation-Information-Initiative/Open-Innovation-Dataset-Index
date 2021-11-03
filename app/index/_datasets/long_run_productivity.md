@@ -20,9 +20,9 @@ record_creation_timestamp: 08/16/2021, 13:46:40
 shortname: long_term_productivity
 tags:
 - productivity
-- ' Europe'
-- ' United States'
-- ' GDP'
+- 'Europe'
+- 'United States'
+- 'GDP'
 terms_of_use: You are free to use the data for non-commercial use.
 timeframe: 1890-2020
 title: Long-Term Productivity database
