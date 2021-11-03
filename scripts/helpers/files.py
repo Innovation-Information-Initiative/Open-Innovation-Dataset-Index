@@ -37,7 +37,7 @@ def update_markdown(data, directory):
 							record[term] = row[term]
 
 					if row["tags"] and row["tags"].strip():
-						record["tags"] = row["tags"].split(',')
+						record["tags"] = row["tags"].split(',').strip()
 
 			update_frontmatter(record, filepath)
 
@@ -80,7 +80,7 @@ def generate_markdown(data, directory):
 				record[term] = row[term]
 
 		if row["tags"] and row["tags"].strip():
-			record["tags"] = row["tags"].split(',')
+			record["tags"] = row["tags"].split(',').strip()
 
 		record["description"] = row["description"].replace('\n', ' ')
 
