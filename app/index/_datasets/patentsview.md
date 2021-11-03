@@ -17,8 +17,8 @@ record_creation_timestamp: 12/2/2020 17:20:46
 shortname: patentsview
 tags:
 - disambiguation
-- 'United States'
-- 'gender'
+- United States
+- gender
 terms_of_use: Creative Commons Attribution 4.0 International License.
 timeframe: 1963-1999
 title: USPTO PatentsView

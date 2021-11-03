@@ -21,7 +21,7 @@ record_creation_timestamp: 6/13/2021 20:55:50
 shortname: low_carbon_knowledge
 tags:
 - citation to scholarly literature
-- 'low-carbon energy technologies'
+- low-carbon energy technologies
 terms_of_use: 'CC BY 4.0 license. See: https://creativecommons.org/licenses/by/4.0/legalcode '
 timeframe: 1836-2019
 title: The scientific knowledge base of low carbon energy technologies (updated and

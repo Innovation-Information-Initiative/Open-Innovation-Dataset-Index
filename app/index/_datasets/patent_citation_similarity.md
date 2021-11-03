@@ -19,7 +19,7 @@ related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_similarity
 tags:
 - similarity
-- 'citation'
+- citation
 terms_of_use: These datasets are provided to the public  subject to the Creative Commons
   Attribution-NonCommercial-NoDerivatives license. No co‑authorship is required to
   use the data in academic research — please just cite the supporting article.
