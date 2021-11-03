@@ -17,9 +17,9 @@ record_creation_timestamp: 10/04/2021
 shortname: patstat_register
 tags:
 - Europe
-- ' patents'
-- ' legal'
-- ' citations'
+- 'patents'
+- 'legal'
+- 'citations'
 terms_of_use: Requires a subscription to access
 title: Patstat Register
 uuid: eb43fc38-8786-4b0f-b3b8-b9d610f456ed

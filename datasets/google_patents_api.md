@@ -22,8 +22,8 @@ record_creation_timestamp: 08/17/2021, 08:40:25
 shortname: classifying_patents_semantic_content
 tags:
 - United States
-- ' patents'
-- ' semantic similarity'
+- 'patents'
+- 'semantic similarity'
 timeframe: 1834-present (~weekly)
 title: Classification Data for "Classifying Patents Based on their Semantic Content"
 uuid: bf073285-5243-4dc6-a990-c8a8c3f79898

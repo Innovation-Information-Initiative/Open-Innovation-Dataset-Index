@@ -23,8 +23,8 @@ related_datasets: lens.org
 shortname: biospolar
 tags:
 - antarctic
-- ' krill'
-- ' biodiversity'
+- 'krill'
+- 'biodiversity'
 terms_of_use: 'The datasets are made available under a Creative Commons Attribution
   4.0 International Licence.
 
