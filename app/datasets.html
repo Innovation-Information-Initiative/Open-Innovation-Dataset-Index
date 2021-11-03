@@ -27,10 +27,6 @@ layout: list
 		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}">
 			<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
 			<span class="author" data-value="{{ dataset.citation }}"></span>
-<!-- 			{% for tag in dataset_tags  %}
-				<span class="tagBlock">| {{ tag }}</span>
-			{% endfor %}
-			{% unless dataset_tags=site.emptyArray %} |<br>{% endunless %} -->
 			{{ dataset.description | strip_html | truncate: 250 }}
 		</li>
 	{% endfor %}
@@ -70,7 +66,7 @@ layout: list
 	})
 
 	count_tags.forEach(tag => {
-		if(tag.count > 2 && tag.tag_name !== ''){
+		if(tag.count > 1 && tag.tag_name !== ''){
 			$("#tagsBox").append(`<div><input name="${tag.tag_name.replaceAll(' ', "-")}" type="checkbox" onClick="updateFilters()">${tag.tag_name}</input></div>`)
 			}
 		})
