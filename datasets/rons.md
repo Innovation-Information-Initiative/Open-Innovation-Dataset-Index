@@ -23,8 +23,8 @@ record_creation_timestamp: 11/16/2020 17:20:46
 shortname: rons
 tags:
 - citation to scholarly literature
-- 'front-page citation'
-- 'error metrics'
+- front-page citation
+- error metrics
 terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1834-2019
 title: Reliance on Science in Patenting

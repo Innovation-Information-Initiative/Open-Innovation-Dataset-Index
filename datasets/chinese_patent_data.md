@@ -15,8 +15,8 @@ record_creation_timestamp: 11/14/2020 17:20:46
 shortname: chinese_patent_data
 tags:
 - disambiguation
-- 'China'
-- 'corporate structure'
+- China
+- corporate structure
 title: Chinese Patent Data Project
 uuid: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 ---

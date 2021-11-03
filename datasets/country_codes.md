@@ -28,9 +28,9 @@ related_publications: ' https://doi.org/10.1016/j.dib.2020.106615'
 shortname: missing_applicant_codes
 tags:
 - Patents
-- 'Location of applicants'
-- 'PATSTAT'
-- 'Imputation'
+- Location of applicants
+- PATSTAT
+- Imputation
 terms_of_use: ' CC0 - "Public Domain Dedication" '
 title: Imputation of missing applicant country codes in worldwide patent data
 uuid: fb46d05b-2bd9-41fc-a739-91b77a2e85d6

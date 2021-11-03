@@ -16,8 +16,8 @@ record_creation_timestamp: 11/22/2020 17:20:46
 shortname: pwt
 tags:
 - geograpy
-- 'GDP'
-- 'productivity'
+- GDP
+- productivity
 terms_of_use: CC 4.0
 timeframe: 1950-2017
 title: Penn World Tables

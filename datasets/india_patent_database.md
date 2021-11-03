@@ -15,7 +15,7 @@ references: null
 shortname: india_patent_database
 tags:
 - India
-- 'patents'
+- patents
 terms_of_use: null
 timeframe: None
 title: Indian Patent Advanced Search System

@@ -22,7 +22,7 @@ record_creation_timestamp: 11/26/2020 17:20:46
 shortname: us_gov_patents
 tags:
 - research funding
-- 'United States'
+- United States
 terms_of_use: CC-BY 4.0 International
 timeframe: 2000-2019
 title: Patents arising from U.S. government funding

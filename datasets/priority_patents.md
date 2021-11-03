@@ -15,7 +15,7 @@ record_creation_timestamp: 11/23/2020 17:20:46
 shortname: priority_patents
 tags:
 - priority patents
-- 'location of inventors'
+- location of inventors
 title: Worldwide Count of Priority Patents
 uuid: 068fb03e-642a-4896-b61c-ff6a16251e08
 ---

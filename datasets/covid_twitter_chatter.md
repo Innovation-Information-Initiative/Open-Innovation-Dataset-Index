@@ -41,13 +41,13 @@ related_publications: 'https://doi.org/10.3390/epidemiologia2030024, http://doi.
 shortname: covid_twitter_chatter
 tags:
 - social media
-- 'twitter'
-- 'nlp'
-- 'covid-19'
-- 'covid19'
-- 'twitter'
-- 'covid'
-- 'open-source'
+- twitter
+- nlp
+- covid-19
+- covid19
+- twitter
+- covid
+- open-source
 terms_of_use: null
 timeframe: 2000-2018
 title: A large-scale COVID-19 Twitter chatter dataset for open scientific research

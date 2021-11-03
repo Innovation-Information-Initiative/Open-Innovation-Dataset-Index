@@ -28,13 +28,13 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 shortname: patcit
 tags:
 - citation to scholarly literature
-- 'In-text'
-- 'Front page'
-- 'Patent'
-- 'Science'
-- 'Database'
-- 'Wikipedia'
-- 'Standard'
+- In-text
+- Front page
+- Patent
+- Science
+- Database
+- Wikipedia
+- Standard
 terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit

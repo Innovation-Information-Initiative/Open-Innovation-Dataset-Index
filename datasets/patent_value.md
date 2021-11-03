@@ -14,8 +14,8 @@ maintained_by: Noah Stoffman, nstoffma@iu.edu
 shortname: patent_value
 tags:
 - scientific value
-- 'economic growth'
-- 'United States'
+- economic growth
+- United States
 timeframe: 1926-2010
 title: Patent value
 uuid: 798f092c-3597-41bb-be5d-e5eb15c2b5d3
