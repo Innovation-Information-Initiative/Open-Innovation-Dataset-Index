@@ -18,9 +18,9 @@ record_creation_timestamp: 12/4/2020 17:20:46
 shortname: iproduct
 tags:
 - Products
-- 'disambiguation'
-- 'trademarks'
-- 'physical patent marking'
+- disambiguation
+- trademarks
+- physical patent marking
 terms_of_use: These data are currently not available for sale. They are available
   in exchange of credits, which you earn by contributing to the project.
 title: IPRoduct

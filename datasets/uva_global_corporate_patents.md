@@ -16,7 +16,7 @@ record_creation_timestamp: 11/13/2020 17:47:00
 shortname: uva_global_corporate_patents
 tags:
 - United States
-- 'disambiguation'
+- disambiguation
 terms_of_use: CC BY-NC 4.0 Attribution-NonCommercial 4.0 International
 timeframe: 1980-2017
 title: UVA Darden Global Corporate Patent Dataset (disambiguated assignees)

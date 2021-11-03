@@ -12,7 +12,7 @@ record_creation_timestamp: 10/13/2021
 shortname: patentscope
 tags:
 - patents
-- 'legal'
+- legal
 timeframe: 1978-2021
 title: PATENTSCOPE
 uuid: 3360e0a5-ee9b-47d3-91df-9348b86af0cf

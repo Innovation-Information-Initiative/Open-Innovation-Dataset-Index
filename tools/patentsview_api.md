@@ -9,7 +9,7 @@ location: https://patentsview.org/apis/api-query-language
 shortname: patentsview_api
 tags:
 - disambiguation
-- ' entity reconciliation'
+- entity reconciliation
 terms_of_use: Currently no key is necessary to access the PatentsView API. However,
   we reserve the right to halt excessive usage of the API. Users are free to use,
   share, or adapt the material for any purpose, subject to the standards of the Creative
