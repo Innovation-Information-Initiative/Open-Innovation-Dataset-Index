@@ -5,12 +5,12 @@ layout: list
 
 <div class="infoBox">
 	<b>filter by tags:</b><br>
-	{% assign tag_arr = "" | split: ',' %}
+	{% assign tag_arr = site.emptyArray %}
+	{% assign count = 0 %}
 
 	{% for dataset in site.datasets %}
 		{% for tag in dataset.tags  %}
-			{% assign tag_clean = tag | strip %}
-			{% assign tag_arr = tag_arr | push: tag_clean %}
+			{% assign tag_arr = tag_arr | push: tag %}
 		{% endfor %}
 	{% endfor %}
 
@@ -55,8 +55,10 @@ layout: list
 		}
 	}
 
-	let tags_arr = $("#tagsBox").data('value').split(',')
+	let tags_arr = $("#tagsBox").data('value').split(",")
+	console.log(tags_arr)
 	tags_arr = tags_arr.map(tag => tag.toLowerCase())
+	console.log(tags_arr)
 	let tags_set = [...new Set(tags_arr)];
 	count_tags = []
 
@@ -66,7 +68,7 @@ layout: list
 	})
 
 	count_tags.forEach(tag => {
-		if(tag.count > 1 && tag.tag_name !== ''){
+		if(tag.count > 2 && tag.tag_name !== ''){
 			$("#tagsBox").append(`<div><input name="${tag.tag_name.replaceAll(' ', "-")}" type="checkbox" onClick="updateFilters()">${tag.tag_name}</input></div>`)
 			}
 		})
