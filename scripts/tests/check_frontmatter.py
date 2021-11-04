@@ -21,21 +21,14 @@ def get_frontmatter(filename, errCount):
 	errList = list()
 	try:
 		record = frontmatter.load(filename)
-		print(frontmatter.dumps(record))
 	except Exception as e:
 		errCount += 1
-		print(e)
 		errList.append("ERROR: {}".format(e))
 
 	return post_vars, errCount, errList
 
 if __name__ == "__main__":
 	filename = sys.argv[1]
-	print(filename)
-
 	errCount = 0
 	frontmatter, errCount, errList = get_frontmatter(filename, errCount)
-	if errCount > 0:
-		print(errCount, errList)
-	else:
-		print('looks fine')
+	print(errList)
