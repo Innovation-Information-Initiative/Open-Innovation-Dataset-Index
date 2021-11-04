@@ -48,6 +48,18 @@ jobs:
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
 
+      - name: test changed files are valid
+        id: run_test
+        run: |
+          git status
+          for new_file in ${{ steps.read_files.outputs.added_modified }}; do
+            if [ "${new_file: -3}" == ".md" ]
+            then
+              echo "testing validity of ${new_file}"
+              echo ::set-env name=test_error::$(python3 scripts/tests/check_frontmatter.py ${new_file})
+            fi
+          done
+
       - name: iterate over pull request files
         id: changed_files
         env:
