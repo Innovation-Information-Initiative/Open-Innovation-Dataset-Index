@@ -61,7 +61,7 @@ jobs:
           done
 
       - name: iterate over pull request files
-        if: steps.run_test.outputs.test_error == []
+        if: steps.run_test.outputs.test_error == '[]'
         id: changed_files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
