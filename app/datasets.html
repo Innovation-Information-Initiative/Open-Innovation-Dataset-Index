@@ -74,7 +74,6 @@ layout: list
 		})
 
 	$(".dataset").each(function(){ 
-		// console.log()
 		try{
 			const citation = new Cite($(this).data('value'))
 			const format = citation.format('data', {format: 'object'})

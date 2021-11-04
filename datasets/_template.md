@@ -11,6 +11,9 @@ code:
 versioning: #scrapeable
 terms_of_use: #scrapeable
 tags:
+	- tag1
+	- tag2
+	- tag3
 references:
 ---
 
