@@ -10,11 +10,12 @@ env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
   branch: main
-jobs:
 
+jobs:
   test:
     runs-on: ubuntu-latest
     name: Check proposed additions are valid
+    steps:
 
       - name: get PR branch
         run: |
