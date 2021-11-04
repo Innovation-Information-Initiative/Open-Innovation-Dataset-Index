@@ -62,6 +62,18 @@ jobs:
         run: |
             echo ${{ steps.run_test.outputs.test_error }}
 
+      - name: Create comment
+        if: false==(steps.run_test.outputs.test_error == '[]')
+        uses: jungwinter/comment@v1
+        with:
+          type: create
+          body: "Your markdown files weren't able to be automatically merged\
+           -- the testing script encountered the error: ${{ steps.run_test.outputs.test_error[0] }}\
+           please check your submission and try again"
+          issue_number: ${{ github.event.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
   submit:
     needs: test
     runs-on: ubuntu-latest
