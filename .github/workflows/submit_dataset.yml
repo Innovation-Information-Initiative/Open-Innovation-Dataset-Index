@@ -72,7 +72,7 @@ jobs:
         uses: jungwinter/comment@v1
         with:
           type: create
-          body: ${{ steps.run_test.outputs.test_error[0] }}
+          body: "integration of file failed with errors ${{ steps.run_test.outputs.test_error }}. Please check your files and try again"
           issue_number: ${{ github.event.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
