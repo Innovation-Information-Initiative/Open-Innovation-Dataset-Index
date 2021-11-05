@@ -17,18 +17,15 @@ jobs:
     name: Check proposed additions are valid
     steps:
 
-      - name: get PR branch
-        run: |
-          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
-
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
           ssh-key: "${{ secrets.COMMIT_KEY }}"
 
-      - name: Fetch
+      - name: get PR branch
         run: |
+          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
           git fetch origin pull/${{ github.event.number }}/head:${{ env.BRANCH_NAME }}
           git checkout ${{ env.BRANCH_NAME }}
 
@@ -72,7 +69,8 @@ jobs:
         uses: jungwinter/comment@v1
         with:
           type: create
-          body: "integration of file failed with errors ${{ steps.run_test.outputs.test_error }}. Please check your files and try again"
+          body: "integration of file failed with errors ${{ steps.run_test.outputs.test_error }}. \
+            Please check your files and try again"
           issue_number: ${{ github.event.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
