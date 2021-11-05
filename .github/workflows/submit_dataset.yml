@@ -17,15 +17,18 @@ jobs:
     name: Check proposed additions are valid
     steps:
 
+      - name: get PR branch
+        run: |
+          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
           ssh-key: "${{ secrets.COMMIT_KEY }}"
 
-      - name: get PR branch
+      - name: Fetch
         run: |
-          echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
           git fetch origin pull/${{ github.event.number }}/head:${{ env.BRANCH_NAME }}
           git checkout ${{ env.BRANCH_NAME }}
 
