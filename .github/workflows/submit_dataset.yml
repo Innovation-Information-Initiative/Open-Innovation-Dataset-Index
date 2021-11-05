@@ -38,6 +38,10 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install python-frontmatter
+          python3 -m pip install gspread
+          python3 -m pip install gspread_dataframe
+          python3 -m pip install pandas
+          python3 -m pip install six
 
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
@@ -59,11 +63,6 @@ jobs:
         run: |
             echo ${{ steps.run_test.outputs.test_error }}
 
-      - name: report success
-        if: steps.run_test.outputs.test_error == '[]'
-        run: |
-            echo "no errors found in submitted files, will now run integration script"
-
       - name: Create comment
         if: false==(steps.run_test.outputs.test_error == '[]')
         uses: jungwinter/comment@v1
@@ -80,12 +79,9 @@ jobs:
         if: false==(steps.run_test.outputs.test_error == '[]')
         run: exit 1
 
-  submit:
-    needs: test
-    runs-on: ubuntu-latest
-    if: needs.test.steps.run_test.outputs.test_error == '[]'
-    name: Integrating valid additions and edits to the dataset index
-    steps:
+      - name: report success
+        run: |
+            echo "no errors found in submitted files, will now run integration script"
 
       - name: iterate over pull request files
         id: changed_files
