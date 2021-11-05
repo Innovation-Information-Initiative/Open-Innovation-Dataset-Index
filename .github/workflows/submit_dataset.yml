@@ -62,17 +62,23 @@ jobs:
         run: |
             echo ${{ steps.run_test.outputs.test_error }}
 
+      - name: report success
+        if: steps.run_test.outputs.test_error == '[]'
+        run: |
+            echo "no errors found in submitted files, will now run integration script"
+
       - name: Create comment
         if: false==(steps.run_test.outputs.test_error == '[]')
         uses: jungwinter/comment@v1
         with:
           type: create
-          body: "Your markdown files weren't able to be automatically merged\
-           -- the testing script encountered the error: ${{ steps.run_test.outputs.test_error[0] }}\
-           please check your submission and try again"
+          body: ${{ steps.run_test.outputs.test_error[0] }}
           issue_number: ${{ github.event.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: exit on failure
+        if: false==(steps.run_test.outputs.test_error == '[]')
+        run: exit 1
 
   submit:
     needs: test
