@@ -10,7 +10,7 @@ env:
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
-    name: Pulling regular updates from the I3 Essential Patent Datasets sheet
+    name: Pulling regular updates from the I3 Essential Innovation Datasets sheet
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
@@ -37,7 +37,7 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_SHEETS: |
             [
-              { "id": "${{ env.id }}", "title": "Open_Patent_Datasets", "directory": "datasets" },
+              { "id": "${{ env.id }}", "title": "Open_Innovation_Datasets", "directory": "datasets" },
               { "id": "${{ env.id }}", "title": "Innovation_Data_Toolkit", "directory": "tools" },
               { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide", "directory": "platforms" }
             ]

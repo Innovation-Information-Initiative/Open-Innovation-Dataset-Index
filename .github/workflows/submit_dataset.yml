@@ -90,7 +90,7 @@ jobs:
         id: changed_files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-          INPUT_SHEET_TITLE: 'Open_Patent_Datasets'
+          INPUT_SHEET_TITLE: 'Open_Innovation_Datasets'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
         run: |

@@ -5,7 +5,7 @@ import os
 from helpers import gsheets, files
 from helpers.utils import get_project_root
 
-archive_targets = ['Open_Patent_Datasets', 'Innovation_Data_Toolkit']
+archive_targets = ['Open_Innovation_Datasets', 'Innovation_Data_Toolkit']
 
 def archive_gsheet(sheets, output_dir, creds):
 	os.makedirs(output_dir, exist_ok=True)

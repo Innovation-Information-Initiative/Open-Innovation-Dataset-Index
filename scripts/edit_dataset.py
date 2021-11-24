@@ -36,7 +36,7 @@ if __name__ == "__main__":
 	parse_and_submit(
 		edited_file = filepath,
 		sheet_id = os.environ.get("INPUT_SHEET_ID"),
-		sheet_title = 'Open_Patent_Datasets',
+		sheet_title = 'Open_Innovation_Datasets',
 		output_dir = os.environ.get("INPUT_TEMPDIR"),
 		creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
 	)
