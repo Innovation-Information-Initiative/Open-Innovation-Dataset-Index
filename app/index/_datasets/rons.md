@@ -32,3 +32,5 @@ title: Reliance on Science in Patenting
 uuid: 53f2e34b-8088-42a3-a763-f471c26b5ac6
 versioning: 'Yes'
 ---
+
+Reliance on Science links [U.S. Patent & Trademark Office data](/datasets/patentsview.html) to a broad set of scientific articles not limited by industry or field. These linkages involve not only proprietary article databases, which cannot be shared, but also the [Microsoft Academic Graph](/datasets/mag.html) which permits us to post the resulting PCS for public use. Based on third-party assessment, we estimate that our algorithm can capture up to 93% of patent citations to science with an accuracy rate of 99% or higher. We believe this to be the longest panel of patent-to-paper citations (spanning more than seven decades) that is publicly available and is accompanied by rigorous performance metrics. We also provide matches from worldwide patents to PubMed.
