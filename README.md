@@ -1,6 +1,6 @@
-# I3 Essential Open Innovation Datasets Tracker
+# I³ Essential Open Innovation Datasets Tracker
 
-This repository is set up to track, version, and contribute updates to the [I3 Essential Open Innovation Datasets Index](https://iiindex.org/), which consists of lists of datasets and tools relevant to Innovation Data. This index may be collaboratively edited, either by making edits to markdown files contained in this repository, or editing metadata in the [Google Sheet](https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911).
+This repository is set up to track, version, and contribute updates to the [I³ Essential Open Innovation Datasets Index](https://iiindex.org/), which consists of lists of datasets and tools relevant to Innovation Data. This index may be collaboratively edited, either by making edits to markdown files contained in this repository, or editing metadata in the [Google Sheet](https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911).
 
 The repository checks the Google Sheet for changes every 5min (and will update the site if there are any), and will also re-build the site automatically when somebody makes an edit via git. The site is generated from markdown files in this repository using the static site generator Jekyll.
 
