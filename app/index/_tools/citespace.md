@@ -1,6 +1,6 @@
 ---
 layout: default
-authors: Chaomei Chen
+authors: 'Chaomei Chen '
 description: CiteSpace generates interactive visualizations of structural and temporal
   patterns and trends of a scientific field. It facilitates a systematic review of
   a knowledge domain through an in-depth visual analytic process. It can process citation
@@ -12,6 +12,7 @@ description: CiteSpace generates interactive visualizations of structural and te
   attention. CiteSpace can be applied repeatedly so as to track the development of
   a field closely and extensively.
 documentation: http://cluster.ischool.drexel.edu/~cchen/citespace/tutorial/
+last_edit: Tue, 30 Nov 2021 17:24:01 GMT
 location: https://citespace.podia.com
 shortname: citespace
 title: CiteSpace
