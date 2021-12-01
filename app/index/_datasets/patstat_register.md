@@ -16,6 +16,7 @@ location: https://www.epo.org/searching-for-patents/business/patstat.html
 maintained_by: EPO
 record_creation_timestamp: 10/04/2021
 shortname: patstat_register
+superseded_by: Wed, 01 Dec 2021 19:25:00 GMT
 tags:
 - Europe
 - patents
