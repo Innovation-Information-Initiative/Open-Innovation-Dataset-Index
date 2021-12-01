@@ -11,7 +11,7 @@ description: 'This includes patent level metadata, 1926-1975 (OCRed from USPTO I
   agencies, entity size of the patent owner etc, government support categories at
   patent level and finally, aggregate yearly statistics. (2019-06-02) '
 documentation: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
-last_edit: 12/05/2020 17:20:46
+last_edit: Wed, 01 Dec 2021 19:36:11 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 12/05/2020 17:20:46

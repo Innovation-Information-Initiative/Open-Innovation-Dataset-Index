@@ -8,7 +8,7 @@ contributors: Gaétan de Rassenfosse, Hélène Dernis, Dominique Guellec, Lucio 
 cost: None
 description: The goal of the project was to produce a dataset of priority patent applications
   filed across the globe, allocated by inventor and applicant location.
-last_edit: 11/23/2020 17:20:46
+last_edit: Wed, 01 Dec 2021 19:36:05 GMT
 location: http://www.gder.info/download_wwc_excel.html
 maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 11/23/2020 17:20:46

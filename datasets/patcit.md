@@ -20,16 +20,17 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: 11/17/2020 10:38:00
+last_edit: Wed, 01 Dec 2021 19:36:30 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 record_creation_timestamp: 11/17/2020 10:38:00
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
 shortname: patcit
 tags:
-- citation to scholarly literature
+- citation
+- scholarly literature
 - In-text
-- Front page
+- Front-page
 - Patent
 - Science
 - Database

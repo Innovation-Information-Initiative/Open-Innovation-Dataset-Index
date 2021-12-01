@@ -9,7 +9,7 @@ description: 'The dataset has information on about 3 million USPTO patents, whic
   Number, as given by the USPTO, GVKEY, as the firm identifier, from the S&P Compustat
   Global database. '
 documentation: https://patents.darden.virginia.edu/documents/DataConstructionDetails_v01.pdf
-last_edit: 11/13/2020 17:47:00
+last_edit: Wed, 01 Dec 2021 19:36:13 GMT
 location: https://patents.darden.virginia.edu/
 maintained_by: GCPD@darden.virginia.edu
 record_creation_timestamp: 11/13/2020 17:47:00

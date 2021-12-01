@@ -7,12 +7,14 @@ description: 'The data contains all articles in 244 journals as described in "In
   Patent Citations: A User''s Guide", and all front-page and in-text citations as
   found by the algorithm described in this paper. '
 documentation: http://www.kevinbryanecon.com/UsersGuidetoIntextCitations.pdf
+last_edit: Wed, 01 Dec 2021 19:36:16 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZEZWBX
 maintained_by: Kevin Bryan, http://www.kevinbryanecon.com/
 shortname: patent_to_article_intext
 tags:
 - in-text citations
-- patent citation to scholarly literature
+- patent citation
+- scholarly literature
 - citation
 - academic science
 - diffusion

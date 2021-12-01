@@ -14,12 +14,13 @@ description: 'This data publication offers updated data about low-carbon energy 
 documentation: https://doi.org/10.4119/unibi/2950291
 doi: https://doi.org/10.4119/unibi/2950291
 error_metrics: 'No'
-last_edit: 6/13/2021 20:55:50
+last_edit: Wed, 01 Dec 2021 19:35:59 GMT
 location: https://doi.org/10.4119/unibi/2950291
 record_creation_timestamp: 6/13/2021 20:55:50
 shortname: low_carbon_knowledge
 tags:
-- citation to scholarly literature
+- citation
+- scholarly literature
 - low-carbon energy technologies
 terms_of_use: 'CC BY 4.0 license. See: https://creativecommons.org/licenses/by/4.0/legalcode '
 timeframe: 1836-2019
