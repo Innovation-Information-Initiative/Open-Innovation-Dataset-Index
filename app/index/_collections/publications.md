@@ -1,6 +1,5 @@
 ---
 layout: default
-layout: default
 author: Lia Sheer
 tags:
 - publications
