@@ -18,7 +18,7 @@ description: "Disambiguated inventor's and applicant's names for EPO records. A 
 documentation: 'For a detailed description of the algorithm please refer to Coffano,
   Monica and Tarasconi, Gianluca, Crios - Patstat Database: Sources, Contents and
   Access Rules (February 1, 2014). Available at SSRN: http://ssrn.com/abstract=2404344'
-last_edit: 11/30/2020 17:20:46
+last_edit: Wed, 01 Dec 2021 19:36:09 GMT
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/PATENTS-ICRIOS+database/
 maintained_by: crios@unibocconi.it
 record_creation_timestamp: 11/30/2020 17:20:46

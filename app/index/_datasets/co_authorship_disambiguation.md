@@ -10,7 +10,7 @@ contributors: Ronald Lai, Alexander D'Amour, Amy Yu, Ye Sun, Lee Fleming
 cost: None
 description: Name disambiguation of US inventors, 1975-2010
 doi: https://doi.org/10.7910/DVN/5F1RRI
-last_edit: 5/14/2022 14:41:04
+last_edit: Wed, 01 Dec 2021 19:36:03 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5F1RRI
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 5/14/2022 14:41:04

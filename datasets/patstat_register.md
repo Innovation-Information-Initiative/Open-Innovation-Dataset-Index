@@ -15,14 +15,16 @@ location: https://www.epo.org/searching-for-patents/business/patstat.html
 maintained_by: EPO
 record_creation_timestamp: 10/04/2021
 shortname: patstat_register
+superseded_by: Wed, 01 Dec 2021 19:25:00 GMT
 tags:
 - Europe
 - patents
 - legal
-- citations
+- citation
 terms_of_use: Requires a subscription to access
 title: Patstat Register
 uuid: eb43fc38-8786-4b0f-b3b8-b9d610f456ed
+wed,_01_dec_2021_19:13:44_gmt: Wed, 01 Dec 2021 19:25:00 GMT
 ---
 
 This database contains bibliographic and legal event data on published European and Euro-PCT patent applications.

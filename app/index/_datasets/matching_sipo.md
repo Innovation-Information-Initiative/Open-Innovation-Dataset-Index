@@ -19,6 +19,7 @@ maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 11:16:07
 record_superceded_by: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 shortname: sipo_matching
+superseded_by: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 timeframe: through 2016?
 title: Matching SIPO patents to Chinese listed firms ("Main Board")
 uuid: 1b372a68-18ae-45e3-9a28-a6feecc3e7b8
