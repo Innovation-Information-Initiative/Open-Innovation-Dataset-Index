@@ -3,8 +3,17 @@ title: Index of Open Innovation Scripts and Tools
 layout: list
 ---
 
-<ul>
-{% for tool in site.tools %}
-	<li><a href="{{ tool.url }}">{{ tool.title }}</a><br></li>
-{% endfor %}
+<ul class=indexList>
+	{% for tool in site.tools %}
+		{% assign tool_tags = site.emptyArray %}
+		{% for tag in tool.tags  %}
+			{% assign tag_clean = tag | strip | replace: ' ', '-' %}
+			{% assign tool_tags = tool_tags | push: tag_clean %}
+		{% endfor %}
+		<li class="dataset_list {{ tool_tags | join: ' ' | downcase }}">
+			<a href="{{ tool.url }}">{{ tool.title }}</a><br>
+			<span class="author" data-value="{{ tool.citation }}"></span>
+			{{ tool.description | strip_html | truncate: 250 }}
+		</li>
+	{% endfor %}
 </ul>
