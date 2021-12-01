@@ -4,7 +4,8 @@ author: Lia Sheer
 tags:
 - publications
 - scientific research
-title: Essential publication analysis datasets and measures
+title: Essential Publication Analysis Datasets and Measures
+description: Start point for publication analysis
 uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b
 ---
 
@@ -26,6 +27,6 @@ uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b
 
 # Publication measures
 * Journal Commercial Impact Factor (JCIF) (by Matt Marx): [JCIF](https://github.com/mattmarx/jcif)
-*
+
 # Funded publications
 * [Federal ExPORTER](https://federalreporter.nih.gov/FileDownload)
