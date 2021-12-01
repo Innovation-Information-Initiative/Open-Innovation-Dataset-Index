@@ -1,7 +1,7 @@
 ---
 authors: Neal Haddaway
-citation: 'Haddaway, N. R., Grainger, M. J., Gray, C. T. 2021. citationchaser: An
-  R package and Shiny app for forward and backward citations chasing in academic searching.'
+citation: 'Haddaway, N.R., Grainger, M.J., Gray, C.T. 2021. citationchaser: An R package
+  and Shiny app for forward and backward citations chasing in academic searching.'
 description: 'In systematic reviews, we often want to obtain lists of references from
   across studies: forward citation chasing looks for all records citing one or more
   articles of known relevance; backward ciation chasing looks for all records referenced
@@ -10,6 +10,7 @@ description: 'In systematic reviews, we often want to obtain lists of references
   article list can be used to return a list of all referenced records, and/or all
   citing records in the Lens.org database (consisting of PubMed, PubMed Central, CrossRef,
   Microsoft Academic Graph and CORE; ''https://www.lens.org'').'
+last_edit: Wed, 01 Dec 2021 18:52:14 GMT
 location: https://github.com/nealhaddaway/citationchaser
 shortname: citation_chaser
 tags:
