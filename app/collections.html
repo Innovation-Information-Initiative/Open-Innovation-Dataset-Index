@@ -11,7 +11,8 @@ layout: list
 
 <ul class=indexList>
 {% for collection in site.collections %}
-	<li><a href="{{ collection.url }}">{{ collection.title }}</a><br>
-	{{ collection.description | strip_html | truncate: 250 }}</li>
+	<li onclick="location.href='{{ collection.url }}';"><div class="itemThumb"></div>
+	<div class="itemCard"><b>{{ collection.title }}</b><br>
+	{{ collection.description | strip_html | truncate: 250 }}</div></li>
 {% endfor %}
 </ul>

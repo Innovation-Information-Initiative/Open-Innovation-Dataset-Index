@@ -24,10 +24,13 @@ layout: list
 			{% assign tag_clean = tag | strip | replace: ' ', '-' %}
 			{% assign dataset_tags = dataset_tags | push: tag_clean %}
 		{% endfor %}
-		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}">
-			<a href="{{ dataset.url }}">{{ dataset.title }}</a><br>
-			<span class="author" data-value="{{ dataset.citation }}"></span>
-			{{ dataset.description | strip_html | truncate: 250 }}
+		<li class="dataset_list {{ dataset_tags | join: ' ' | downcase }}" onclick="location.href='{{ dataset.url }}';">
+			<div class="itemThumb"></div>
+			<div class="itemCard">
+				<b>{{ dataset.title }}</b><br>
+				<span class="author" data-value="{{ dataset.citation }}"></span>
+				{{ dataset.description | strip_html | truncate: 250 }}
+			</div>
 		</li>
 	{% endfor %}
 </ul>

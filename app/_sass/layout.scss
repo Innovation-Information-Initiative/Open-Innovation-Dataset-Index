@@ -52,15 +52,35 @@ a:hover {
     border-bottom: 1px solid black;
 }
 
-.indexList {
+.indexList {;
     list-style-type: none;
     padding: 5px;
 }
 
 .indexList li {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid lightgrey;
 }
 
+.indexList li:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.itemThumb {
+    width: 50px;
+    height: 50px;
+    background-color: lightyellow;
+}
+
+.itemCard {
+    width: calc(100% - 65px);
+}
 
 .nav {
     width: 60%;
@@ -116,11 +136,7 @@ a:hover {
 .searchResult {
     tabindex: -1;
 }
-/*
-.pageContent {
-    margin-left: 15px;
-}
-*/
+
 .searchResult > a {
     text-decoration: none;
     padding: 2px;
