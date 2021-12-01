@@ -22,4 +22,5 @@ shortname: sipo_matching
 timeframe: through 2016?
 title: Matching SIPO patents to Chinese listed firms ("Main Board")
 uuid: 1b372a68-18ae-45e3-9a28-a6feecc3e7b8
+wed,_01_dec_2021_19:13:44_gmt: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 ---
