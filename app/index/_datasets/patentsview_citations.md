@@ -11,8 +11,9 @@ record_creation_timestamp: 10/26/2021
 shortname: patentsview_citations
 tags:
 - United States
-- citations
+- citation
 terms_of_use: Creative Commons Attribution 4.0 International License.
 title: PatentsView Citation data
 uuid: 5d36b07b-b6c6-4aac-8181-c540a95dc26f
+wed,_01_dec_2021_19:13:44_gmt: Wed, 01 Dec 2021 19:25:29 GMT
 ---
