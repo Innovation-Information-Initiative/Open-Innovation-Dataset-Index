@@ -10,6 +10,7 @@ description: Patent applicants frequently file groups of patent applications lin
   of family identifiers (clone for near copies, and extended for more attenuated linkages)
   for each patent issued 2005-2014
 documentation: Not unless it’s in the paper (https://ssrn.com/abstract=2709238)
+last_edit: Wed, 01 Dec 2021 19:36:15 GMT
 location: https://storage.googleapis.com/jmk_public/Younge-Kuhn_Patent_Families_2017-09-25.csv
 maintained_by: Jeff Kuhn
 related_publications: https://ssrn.com/abstract=2709238

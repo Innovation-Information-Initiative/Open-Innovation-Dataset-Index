@@ -12,7 +12,7 @@ description: Innovation studies frequently distinguish between patent citation s
   issued 2001-2014, although some level of leftward truncation is evident due to limitations
   in internal data availability at the USPTO.
 documentation: Not unless it’s in the paper here https://ssrn.com/abstract=2714954
-last_edit: 11/16/2020 17:47:00
+last_edit: Wed, 01 Dec 2021 19:36:14 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/16/2020 17:47:00

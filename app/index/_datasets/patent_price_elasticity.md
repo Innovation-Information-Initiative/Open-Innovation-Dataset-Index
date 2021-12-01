@@ -5,7 +5,7 @@ contributors: Gaétan de Rassenfosse, Bruno van Pottelsberghe de la Potterie
 cost: None
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.
-last_edit: 11/25/2020 17:20:46
+last_edit: Wed, 01 Dec 2021 19:36:06 GMT
 location: http://www.gder.info/download_OBES_data.html
 maintained_by: Gaétan de Rassenfosse
 record_creation_timestamp: 11/25/2020 17:20:46

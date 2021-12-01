@@ -12,7 +12,7 @@ description: 'The identification enables construction of social networks based o
   available for community use and improvement and will enable updating as frequently
   as new patents are issued. '
 doi: https://doi.org/10.7910/DVN/YJUNUN
-last_edit: 11/21/2020 17:20:46
+last_edit: Wed, 01 Dec 2021 19:36:04 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YJUNUN
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 11/21/2020 17:20:46
