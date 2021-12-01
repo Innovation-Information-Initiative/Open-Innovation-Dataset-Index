@@ -1,10 +1,12 @@
 ---
 author: Lia Sheer
-tags: 
-- publications 
+tags:
+- publications
 - scientific research
 title: Essential publication analysis datasets and measures
+uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b
 ---
+
 # Raw Publication Data
 * Web of Science (WoS): 
   * WoS Core Collection XML files can be obtained from Clarivate Analytics by license
