@@ -81,7 +81,13 @@ a:hover {
 .itemThumb {
     width: 50px;
     height: 50px;
-    background-color: lightyellow;
+    background-color: white;
+}
+
+.itemThumb img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
 }
 
 .itemCard {

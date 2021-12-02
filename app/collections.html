@@ -11,7 +11,12 @@ layout: list
 
 <ul class=indexList>
 {% for collection in site.collections %}
-	<li onclick="location.href='{{ collection.url }}';"><div class="itemThumb"></div>
+	<li onclick="location.href='{{ collection.url }}';">
+		<div class="itemThumb">
+			{% if collection.thumbnail_url %}
+				<img src="{{ collection.thumbnail_url }}"/>
+			{% endif %}
+		</div>
 	<div class="itemCard"><b>{{ collection.title }}</b><br>
 	{{ collection.description | strip_html | truncate: 250 }}</div></li>
 {% endfor %}
