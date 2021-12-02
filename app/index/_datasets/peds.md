@@ -12,7 +12,7 @@ description: 'PEDS contains the bibliographic, published document and patent ter
   Any applications that have not been released by the USPTO will not be available
   in PEDS.'
 documentation: https://ped.uspto.gov/peds/#!/#%2FuserManual
-last_edit: Thu, 02 Dec 2021 13:22:38 GMT
+last_edit: Thu, 02 Dec 2021 17:15:29 GMT
 location: https://ped.uspto.gov/peds/#!/
 maintained_by: USPTO
 record_creation_timestamp: 08/28/2021, 16:51:00

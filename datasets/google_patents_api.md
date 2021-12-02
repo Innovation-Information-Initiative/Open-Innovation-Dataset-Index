@@ -15,7 +15,7 @@ description: 'An open consolidated database from raw data on 4 million patents t
   the relevant keywords accordingly. We refer to this classification as semantic approach
   in contrast with the more common technological approach which consists in taking
   the topology when considering US Patent office technological classes. '
-last_edit: 08/17/2021, 08:40:25
+last_edit: Thu, 02 Dec 2021 17:15:25 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 08:40:25
@@ -23,7 +23,7 @@ shortname: classifying_patents_semantic_content
 tags:
 - United States
 - patents
-- semantic similarity
+- similarity
 timeframe: 1834-present (~weekly)
 title: Classification Data for "Classifying Patents Based on their Semantic Content"
 uuid: bf073285-5243-4dc6-a990-c8a8c3f79898
