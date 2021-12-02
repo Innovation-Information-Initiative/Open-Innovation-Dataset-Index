@@ -16,9 +16,9 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   and ownership changes. Our UO and subsidiary historical standardized firm name lists,
   including the dynamic reassignment, are publicly available for researches to match
   to their database of interest.'
-documentation: Provided at link
+documentation: https://doi.org/10.5281/zenodo.3594642
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Thu, 02 Dec 2021 13:31:32 GMT
+last_edit: Thu, 02 Dec 2021 17:29:13 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 shortname: discern

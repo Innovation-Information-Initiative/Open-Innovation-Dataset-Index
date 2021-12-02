@@ -15,8 +15,8 @@ description: Innovation studies frequently distinguish between patent citation s
   first submitted it. The dataset includes observations for citations made by patents
   issued 2001-2014, although some level of leftward truncation is evident due to limitations
   in internal data availability at the USPTO.
-documentation: Not unless it’s in the paper here https://ssrn.com/abstract=2714954
-last_edit: Thu, 02 Dec 2021 13:35:06 GMT
+documentation: https://ssrn.com/abstract=2714954
+last_edit: Thu, 02 Dec 2021 17:29:45 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/16/2020 17:47:00

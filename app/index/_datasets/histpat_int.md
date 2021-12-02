@@ -14,7 +14,7 @@ description: 'HistPat International provides the geography of historical patents
   disciplines ranging from geography, economics, history, network science, and science
   and technology studies. Additionally, it can easily be merged with post-1975 USPTO
   digital patent data to extend it until today. '
-last_edit: Thu, 02 Dec 2021 13:20:12 GMT
+last_edit: Thu, 02 Dec 2021 17:15:27 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 09:21:25

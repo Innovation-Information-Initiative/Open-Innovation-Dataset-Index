@@ -9,8 +9,8 @@ description: 'PatentsView includes US patent data including raw data (summaries,
   pregrant applications), disambugations of inventors and assignees, and inventor
   gender estimates.  Also foreign priority data, # of figures and sheets, and government
   interest statements.'
-documentation: Provided at link
-last_edit: Wed, 01 Dec 2021 19:36:10 GMT
+documentation: https://patentsview.org/query/builder-faqs
+last_edit: Thu, 02 Dec 2021 17:28:19 GMT
 location: https://patentsview.org/
 maintained_by: USPTO
 record_creation_timestamp: 12/2/2020 17:20:46

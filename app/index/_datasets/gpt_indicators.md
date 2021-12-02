@@ -14,7 +14,7 @@ description: 'This database contains yearly technology-level measures of Growth,
   system, as described in the article entitled "Mapping General Purpose Technologies
   with Patent Data". (2020-03-06) '
 documentation: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PQGHKA/KZDEBE&version=1.0
-last_edit: Thu, 02 Dec 2021 13:20:09 GMT
+last_edit: Thu, 02 Dec 2021 17:15:28 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
 maintained_by: Sergio Petralia (contact maintainer through Dataverse)
 record_creation_timestamp: 08/17/2021, 11:25:28
