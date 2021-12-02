@@ -2,7 +2,7 @@
 layout: default
 author: Agnes Cameron
 tags: patents
-description: Start point for patent analysis
+description: Datasets and resources for studying patents
 title: Essential Patent Analysis Datasets
 ---
 
