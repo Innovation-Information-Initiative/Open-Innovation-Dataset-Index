@@ -28,6 +28,7 @@ jobs:
           python3 -m pip install -v gspread==4.0.1
           python3 -m pip install gspread_dataframe
           python3 -m pip install pandas
+          python3 -m pip install Pillow
           python3 -m pip install python-frontmatter
           python3 -m pip install six
 
