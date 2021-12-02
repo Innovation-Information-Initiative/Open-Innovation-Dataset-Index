@@ -1,5 +1,7 @@
 ---
-author: Agnes Cameron
+author: 
+	- Agnes Cameron
+	- Matt Marx
 tags: patents
 description: Datasets and resources for studying patents
 title: Essential Patent Analysis Datasets
