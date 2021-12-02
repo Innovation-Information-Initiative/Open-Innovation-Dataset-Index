@@ -1,5 +1,5 @@
 ---
-author: 
+authors: 
 	- Ian Wetherbee
 tags: 
 	- machine learning

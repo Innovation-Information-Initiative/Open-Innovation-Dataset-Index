@@ -1,5 +1,5 @@
 ---
-author: Lia Sheer
+authors: Lia Sheer
 tags:
 - publications
 - scientific research

@@ -1,5 +1,5 @@
 ---
-author: 
+authors: 
 	- Lens Labs
 tags: 
 	- patents

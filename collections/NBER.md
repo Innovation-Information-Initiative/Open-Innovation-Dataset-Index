@@ -1,5 +1,5 @@
 ---
-author: 
+authors: 
 	- NBER
 tags: 
 	- patents
