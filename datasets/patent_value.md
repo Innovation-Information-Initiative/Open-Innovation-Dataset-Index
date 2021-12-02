@@ -1,4 +1,5 @@
 ---
+contributors: Noah Stoffman
 cost: None
 description: 'We propose a new measure of the economic importance of each innovation.
   Our measure uses newly collected data on patents issued to US firms in the 1926
@@ -9,6 +10,7 @@ description: 'We propose a new measure of the economic importance of each innova
   and creative destruction, consistent with the predictions of Schumpeterian growth
   models. Aggregating our measure suggests that technological innovation accounts
   for significant medium-run fluctuations in aggregate economic growth and TFP. '
+last_edit: Thu, 02 Dec 2021 13:36:17 GMT
 location: https://iu.box.com/patents
 maintained_by: Noah Stoffman, nstoffma@iu.edu
 shortname: patent_value
