@@ -1,4 +1,9 @@
 ---
+citation: ' Kuhn, Jeffrey M. and Thompson, Neil, How to Measure and Draw Causal Inferences
+  with Patent Scope (October 9, 2017). International Journal of the Economics of Business,
+  26(1) 5-38 (2019), Kenan Institute of Private Enterprise Research Paper No. 19-29,
+  Available at SSRN: https://ssrn.com/abstract=2977273 or http://dx.doi.org/10.2139/ssrn.2977273 '
+contributors: Jeffrey Kuhn, Neil Thompson
 cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2977273
 description: This dataset includes an easy-to-use measure of patent scope that is
@@ -13,7 +18,7 @@ description: This dataset includes an easy-to-use measure of patent scope that i
   our measure, we show how it can be used to create an instrumental variable, patent
   examiner Scope Toughness, which we also validate.
 documentation: Not unless it’s in the paper
-last_edit: Wed, 01 Dec 2021 19:36:14 GMT
+last_edit: Thu, 02 Dec 2021 13:34:56 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/15/2020 17:47:00

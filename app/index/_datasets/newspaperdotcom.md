@@ -1,8 +1,9 @@
 ---
 layout: default
+contributors: Bitsy Perlman
 cost: None
 description: Index of newspaper.com articles
-last_edit: 08/12/2021, 15:45:21
+last_edit: Thu, 02 Dec 2021 13:36:58 GMT
 location: https://elisabethperlman.net/code.html
 maintained_by: Bitsy Perlman
 record_creation_timestamp: 08/12/2021, 15:45:21

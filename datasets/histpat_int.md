@@ -5,6 +5,7 @@ citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {Internationa
   of historical patents granted to foreigns by the United States Patent and Trademark
   Office (USPTO) fro...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
   = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2019},\n\tnote = {type: dataset},\n}\n"
+cost: None
 description: 'HistPat International provides the geography of historical patents granted
   to foreign nationals by the United States Patent and Trademark Office (USPTO) from
   1836 to 1975. This historical dataset is constructed using digitalized records of
@@ -12,7 +13,7 @@ description: 'HistPat International provides the geography of historical patents
   disciplines ranging from geography, economics, history, network science, and science
   and technology studies. Additionally, it can easily be merged with post-1975 USPTO
   digital patent data to extend it until today. '
-last_edit: 08/17/2021, 09:21:25
+last_edit: Thu, 02 Dec 2021 13:20:12 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 09:21:25

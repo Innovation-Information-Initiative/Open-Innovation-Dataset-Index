@@ -15,10 +15,8 @@ description: "Disambiguated inventor's and applicant's names for EPO records. A 
   patent office only; last update has been released on 10/2016; starting date for
   EPO applications is 1978, bytheway in many reports by priority date you'll meat
   earlier dates."
-documentation: 'For a detailed description of the algorithm please refer to Coffano,
-  Monica and Tarasconi, Gianluca, Crios - Patstat Database: Sources, Contents and
-  Access Rules (February 1, 2014). Available at SSRN: http://ssrn.com/abstract=2404344'
-last_edit: Thu, 02 Dec 2021 11:55:01 GMT
+documentation: http://ssrn.com/abstract=2404344
+last_edit: Thu, 02 Dec 2021 12:27:11 GMT
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/PATENTS-ICRIOS+database/
 maintained_by: crios@unibocconi.it
 record_creation_timestamp: 11/30/2020 17:20:46

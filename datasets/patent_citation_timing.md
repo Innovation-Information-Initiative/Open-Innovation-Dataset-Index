@@ -1,4 +1,8 @@
 ---
+citation: ' Kuhn, Jeffrey M. and Younge, Kenneth A. and Marco, Alan C., Patent Citations
+  Reexamined (June 24, 2019). RAND Journal of Economics, Forthcoming, Available at
+  SSRN: https://ssrn.com/abstract=2714954 or http://dx.doi.org/10.2139/ssrn.2714954 '
+contributors: Jeffrey Kuhn, Kenneth Younge, Alan Marco
 cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Innovation studies frequently distinguish between patent citation submitted
@@ -11,7 +15,7 @@ description: Innovation studies frequently distinguish between patent citation s
   issued 2001-2014, although some level of leftward truncation is evident due to limitations
   in internal data availability at the USPTO.
 documentation: Not unless it’s in the paper here https://ssrn.com/abstract=2714954
-last_edit: Wed, 01 Dec 2021 19:36:14 GMT
+last_edit: Thu, 02 Dec 2021 13:35:06 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/16/2020 17:47:00

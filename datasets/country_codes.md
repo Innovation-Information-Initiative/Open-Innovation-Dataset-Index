@@ -6,6 +6,7 @@ citation: "\n@article{seliger_imputation_2020,\n\ttitle = {Imputation of missing
   and person\\_id in PATSTAT) a...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
   = {Seliger, Florian},\n\tmonth = oct,\n\tyear = {2020},\n\tnote = {type: dataset},\n}\n"
 code: ' https://github.com/seligerf/Imputation-of-missing-location-information-for-worldwide-patent-data'
+cost: None
 datasets_and_publications_using_this_dataset: ' https://doi.org/10.1016/j.dib.2020.106615'
 description: We present a general method for imputing missing information in the Worldwide
   Patent Statistical Database (PATSTAT) and make the resulting datasets publicly available.
@@ -20,7 +21,7 @@ description: We present a general method for imputing missing information in the
   in PATSTAT.
 documentation: https://www.sciencedirect.com/science/article/pii/S2352340920314955
 doi: https://doi.org/10.7910/DVN/XNTL0W
-last_edit: 08/17/2021, 11:51:42
+last_edit: Thu, 02 Dec 2021 13:20:05 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 11:51:42

@@ -1,9 +1,10 @@
 ---
 layout: default
+contributors: The Lens
 cost: None
 description: MIT Scholarly Works Cited by Patents 1950-2018
 documentation: https://www.lens.org/lens/labs/dashboards
-last_edit: Wed, 01 Dec 2021 19:36:02 GMT
+last_edit: Thu, 02 Dec 2021 13:28:44 GMT
 location: https://lens-public.s3-us-west-2.amazonaws.com/sloan/scholarly/201932/mit_scholarly_cited_by_patents.zip
 maintained_by: The Lens
 record_creation_timestamp: 11/18/2020 17:20:46
