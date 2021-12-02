@@ -5,7 +5,7 @@ tags:
 - publications
 - scientific research
 title: Essential Publication Analysis Datasets and Measures
-description: Start point for publication analysis
+description: Starting point for the analysis of scholarly literature in relation to innovation. 
 uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b
 ---
 
@@ -23,7 +23,7 @@ uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b
   * [free web App](https://app.dimensions.ai/discover/publication)
 
 ## Firm level data
-* Scientific articles at the aggregate Compustat firm-level: [Discern](https://iiindex.org/datasets/discern)
+* Scientific articles at the aggregate Compustat firm-level: [Discern](/datasets/discern)
 
 ## Publication measures
 * Journal Commercial Impact Factor (JCIF) (by Matt Marx): [JCIF](https://github.com/mattmarx/jcif)
