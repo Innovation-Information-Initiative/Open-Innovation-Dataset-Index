@@ -1,4 +1,5 @@
 ---
+contributors: Gaétan de Rassenfosse
 cost: None
 description: 'The IPRoduct project seeks to link innovative goods to the patents upon
   which they are based. By directly linking products to patents, this project tracks
@@ -10,9 +11,9 @@ description: 'The IPRoduct project seeks to link innovative goods to the patents
   The data is sourced from virtual patent marking web pages. Everyone has seen the
   ‘patent pending’ notice on some products. Sometimes, manufacturers print the actual
   patent numbers on products -- ‘physical patent marking''.'
-last_edit: Wed, 01 Dec 2021 19:36:11 GMT
+last_edit: Thu, 02 Dec 2021 12:32:44 GMT
 location: https://iproduct.io/app
-maintained_by: Gaétan de Rassenfosse
+maintained_by: Gaétan de Rassenfosse, Samuel Arnod-Prin
 record_creation_timestamp: 12/4/2020 17:20:46
 shortname: iproduct
 tags:
