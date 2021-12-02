@@ -3,9 +3,8 @@ layout: default
 authors: 
   - Agnes Cameron
   - Matt Marx
-tags: 
-  - patents
-description: Datasets and resources for studying patents
+tags: patents
+description: Starting point list of datasets and resources for the study of patents, including guides to interpreting patent identifiers, request APIs, and disambiguation tools.
 title: Essential Patent Analysis Datasets
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-authors: 
+author: 
   - Lens Labs
 tags: 
   - patents
