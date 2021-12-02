@@ -1,6 +1,6 @@
 ---
 layout: default
-author: 
+authors: 
 	- NBER
 tags: 
 	- patents

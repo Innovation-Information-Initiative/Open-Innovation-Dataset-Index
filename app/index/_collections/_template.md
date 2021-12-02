@@ -1,13 +1,22 @@
 ---
 layout: default
-title:
-author:
+title: title
+authors:
+	- author1
 tags:
+	- tag1
+	- tag2
+description: describe contents and source of collection
 ---
 
 Collections are a way to list resources around a theme, relevant to a research agenda or set of papers, or as an introduction to various aspects of the field. They are formatted in markdown:
 
-To list a dataset that's in the index, use a relative link, e.g.
+## titles should be formatted with 2 hash symbols (a single-hash title is reserved for page titles)
+
+* bullet points formatted with a star
+	* secondary bullets are tabbed in
+
+If you would like to list a dataset that's recorded in the I3 index, you can use a relative link, e.g.
 
 ```markdown
 [local dataset name](/datasets/dataset_shortname)

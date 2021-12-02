@@ -1,6 +1,6 @@
 ---
 layout: default
-author: 
+authors: 
 	- Agnes Cameron
 	- Matt Marx
 tags: patents
