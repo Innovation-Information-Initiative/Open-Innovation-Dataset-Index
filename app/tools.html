@@ -14,6 +14,8 @@ layout: list
 			<div class="itemThumb">
 				{% if tool.thumbnail_url %}
 					<img src="{{ tool.thumbnail_url }}"/>
+				{% else %}
+					<img src="/assets/thumbnails/{{ tool.uuid }}.png"/>
 				{% endif %}
 			</div>
 			<div class="itemCard"><b>{{ tool.title }}</b><br>

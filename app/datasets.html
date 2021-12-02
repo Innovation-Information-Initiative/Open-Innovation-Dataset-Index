@@ -28,6 +28,8 @@ layout: list
 			<div class="itemThumb">
 				{% if dataset.thumbnail_url %}
 				<img src="{{ dataset.thumbnail_url }}"/>
+				{% else %}
+				<img src="/assets/thumbnails/{{ dataset.uuid }}.png"/>
 				{% endif %}
 			</div>
 			<div class="itemCard">
