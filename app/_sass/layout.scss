@@ -32,6 +32,11 @@ a:hover {
     height: 400;
 }
 
+.infoBox p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #tagsBox {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
