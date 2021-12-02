@@ -1,5 +1,7 @@
 ---
+cost: Free and paid versions
 description: ''
+last_edit: Thu, 02 Dec 2021 11:47:26 GMT
 location: https://www.dimensions.ai/products/free/
 shortname: dimensions
 title: Dimensions
