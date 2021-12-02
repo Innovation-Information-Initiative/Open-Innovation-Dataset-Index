@@ -1,12 +1,12 @@
 ---
-authors: 
-	- Lens Labs
+author: 
+  - Lens Labs
 tags: 
-	- patents
-	- citation
-	- scholarly literature
-	- biotechnology
-	- COVID-19
+  - patents
+  - citation
+  - scholarly literature
+  - biotechnology
+  - COVID-19
 description: Projects relating to the Lens platform, and to patent citation to scholarly literature, curated by the Lens.
 title: Lens Labs Apps and Data
 ---

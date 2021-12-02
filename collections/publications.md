@@ -1,8 +1,9 @@
 ---
-authors: Lia Sheer
+authors: 
+  - Lia Sheer
 tags:
-- publications
-- scientific research
+  - publications
+  - scientific research
 title: Essential Publication Analysis Datasets and Measures
 description: Starting point for the analysis of scholarly literature in relation to innovation. 
 uuid: 36cff5c7-17f4-4891-9080-5dfe0282110b

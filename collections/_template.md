@@ -1,10 +1,10 @@
 ---
 title: title
 authors:
-	- author1
+  - author1
 tags:
-	- tag1
-	- tag2
+  - tag1
+  - tag2
 description: describe contents and source of collection
 ---
 

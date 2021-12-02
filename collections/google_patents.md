@@ -1,14 +1,14 @@
 ---
 authors: 
-	- Ian Wetherbee
+  - Ian Wetherbee
 tags: 
-	- machine learning
-	- economics
-	- health
-	- research
-	- finance
-	- patents
-	- drug discovery
+  - machine learning
+  - economics
+  - health
+  - research
+  - finance
+  - patents
+  - drug discovery
 description: The Google Patents team hosts a set of linked public, paid and private data, publicly accessible on BigQuery. The core of these datasets is the public Google Patents Public Data table of worldwide bibliographic information on more than 90 million patent publications from 17 countries and US full text, provided by IFI CLAIMS Patent Services.
 title: Google Patents Public Datasets
 ---
