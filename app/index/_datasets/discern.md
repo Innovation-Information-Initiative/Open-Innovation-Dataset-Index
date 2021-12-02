@@ -8,6 +8,7 @@ citation: 'Arora Ashish, Belenzon Sharon, and Sheer Lia, 2021. "Knowledge spillo
   Arora Ashish, Belenzon Sharon, and Sheer Lia, 2021. "Matching patents to Compustat
   firms, 1980–2015: Dynamic reassignment, name changes, and ownership structures".
   Research Policy, 50(5), p.104217.'
+contributors: Ashish Arora, Sharon Belenzon, Lia Sheer
 cost: None
 description: 'Patents (as well as scientific articles, and NPL citations at the aggregate
   firm-level) matched to U.S. Compustat firms over the period 1980-2015. In extending
@@ -17,7 +18,7 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   to their database of interest.'
 documentation: Provided at link
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Wed, 01 Dec 2021 19:36:13 GMT
+last_edit: Thu, 02 Dec 2021 13:31:32 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 shortname: discern
