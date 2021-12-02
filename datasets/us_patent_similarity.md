@@ -20,7 +20,7 @@ doi: '10.5281/zenodo.3552078
 
   '
 error_metrics: None
-last_edit: 09/15/2021, 05:50:18
+last_edit: Thu, 02 Dec 2021 17:15:45 GMT
 location: https://zenodo.org/record/3552078
 maintained_by: Ryan Whalen
 record_creation_timestamp: 09/15/2021, 05:50:18
@@ -29,10 +29,9 @@ tags:
 - patents
 - intellectual property
 - innovation
-- semantic similarity
-- empirical legal studies
-- patents
 - similarity
+- legal
+- patents
 terms_of_use: ' Creative Commons Attribution 4.0 International'
 timeframe: None
 title: US Patent Similarity Data

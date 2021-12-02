@@ -11,7 +11,8 @@ description: 'The IPRoduct project seeks to link innovative goods to the patents
   The data is sourced from virtual patent marking web pages. Everyone has seen the
   ‘patent pending’ notice on some products. Sometimes, manufacturers print the actual
   patent numbers on products -- ‘physical patent marking''.'
-last_edit: Thu, 02 Dec 2021 12:32:44 GMT
+documentation: https://iproduct.io/app/#/public/page/about
+last_edit: Thu, 02 Dec 2021 17:29:02 GMT
 location: https://iproduct.io/app
 maintained_by: Gaétan de Rassenfosse, Samuel Arnod-Prin
 record_creation_timestamp: 12/4/2020 17:20:46
