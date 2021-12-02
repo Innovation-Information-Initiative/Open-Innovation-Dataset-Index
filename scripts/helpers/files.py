@@ -58,8 +58,10 @@ def generate_markdown(data, directory):
 		if record['uuid'] not in uuids:
 			to_gen.append(data[i])
 
+	new_files = []
 	for row in to_gen:
 		print("creating file for", row["title"])
+		new_files.append(row['uuid'])
 
 		#create title
 		if row['shortname'] and row['shortname'].strip():
@@ -85,5 +87,7 @@ def generate_markdown(data, directory):
 		record["description"] = row["description"].replace('\n', ' ')
 
 		update_frontmatter(record, filepath)
+
+	return new_files
 
 

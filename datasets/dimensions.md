@@ -1,13 +1,12 @@
 ---
 contributors: Digital Science, https://www.digital-science.com/
-cost: All publications and citations are freely available for personal, non-commercial
-  use.
+cost: Free for personal, non-commercial use.
 description: Dimensions contains more than 100 million publications, ranging from
   articles published in scholarly journals, books and book chapters, to preprints
   and conference proceedings. All publications are contextualized with linked data
   sets, funding, publications, patents, clinical trials, and policy documents. You
   can also view associated categories, funders, institutions, and researcher profiles.
-last_edit: Thu, 02 Dec 2021 13:27:16 GMT
+last_edit: Thu, 02 Dec 2021 18:04:32 GMT
 location: https://www.dimensions.ai/products/free/
 maintained_by: Digital Science, https://www.digital-science.com/
 shortname: dimensions
