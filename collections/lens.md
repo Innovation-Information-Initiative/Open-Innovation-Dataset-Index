@@ -1,14 +1,16 @@
 ---
-author: 
-  - Lens Labs
-tags: 
-  - patents
-  - citation
-  - scholarly literature
-  - biotechnology
-  - COVID-19
-description: Projects relating to the Lens platform, and to patent citation to scholarly literature, curated by the Lens.
+author:
+- Lens Labs
+description: Projects relating to the Lens platform, and to patent citation to scholarly
+  literature, curated by the Lens.
+tags:
+- patents
+- citation
+- scholarly literature
+- biotechnology
+- COVID-19
 title: Lens Labs Apps and Data
+uuid: a86f4fb0-6975-4192-8ca9-be43d224e2ef
 ---
 
 This collection tracks the [Lens Labs Apps and Data](https://www.lens.org/lens/labs/datafacilities) page, which is curated and maintained by the Lens. To contribute to this collection, contact the Lens through their [feedback address](https://about.lens.org/contact-us/).
@@ -40,6 +42,3 @@ This collection tracks the [Lens Labs Apps and Data](https://www.lens.org/lens/l
 	* [Reliance on Science in Patenting](https://zenodo.org/record/3593486#.YIJXg-9KjtM)
 	* [PatCit](https://github.com/cverluise/PatCit)
 	* [NBER Patent Data Project](https://sites.google.com/site/patentdataproject/Home/downloads?authuser=0)
-
-
-
