@@ -24,9 +24,10 @@ documentation: 'For the 2019 and later releases, new technical documentation is 
   Graham, Stuart J.H. and Marco, Alan C. and Miller, Richard, The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination (November 30, 2015).
   Available at SSRN: https://ssrn.com/abstract=2702637.'
-last_edit: Fri, 03 Dec 2021 11:08:37 GMT
+last_edit: Fri, 03 Dec 2021 11:28:04 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair
 maintained_by: EconomicsData@uspto.gov
+related_publications: https://ssrn.com/abstract=29956744, https://ssrn.com/abstract=2702637
 shortname: patex
 tags:
 - patents
