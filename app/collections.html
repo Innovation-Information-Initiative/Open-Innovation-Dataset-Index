@@ -15,9 +15,11 @@ layout: list
 		<div class="itemThumb">
 			{% if collection.thumbnail_url %}
 				<img src="{{ collection.thumbnail_url }}"/>
+			{% elsif collection.uuid %}
+				<img src="/assets/thumbnails/{{ collection.uuid }}.png"/>
 			{% endif %}
 		</div>
-	<div class="itemCard"><b>{{ collection.title }}</b><br>
+	<div class="itemCard"><b>{{ collection.title }} {{ collection.uuid }}</b><br>
 	{{ collection.description | strip_html | truncate: 250 }}</div></li>
 {% endfor %}
 </ul>

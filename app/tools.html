@@ -14,7 +14,7 @@ layout: list
 			<div class="itemThumb">
 				{% if tool.thumbnail_url %}
 					<img src="{{ tool.thumbnail_url }}"/>
-				{% else %}
+				{% elsif tool.uuid %}
 					<img src="/assets/thumbnails/{{ tool.uuid }}.png"/>
 				{% endif %}
 			</div>
