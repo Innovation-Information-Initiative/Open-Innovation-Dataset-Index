@@ -8,7 +8,7 @@ description: Using cross-state panel and cross-U.S. commuting-zone data to look 
   assignee is a univeristy and give the name and state of this university (originally
   taken from USPTO and improved).
 doi: https://doi.org/10.1093/restud/rdy027
-last_edit: Thu, 02 Dec 2021 17:15:26 GMT
+last_edit: Fri, 03 Dec 2021 20:14:51 GMT
 location: https://sites.google.com/site/abergeaudeco/data?authuser=0
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/17/2021, 09:11:41
