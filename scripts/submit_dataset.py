@@ -8,6 +8,7 @@ import pandas as pd
 
 from helpers import files, gsheets, metadata
 from helpers.utils import get_project_root
+from helpers.sprites import create_sprites
 
 def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 	#download google sheets
@@ -21,6 +22,9 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 	new_uuid = uuid.uuid4()
 	record['uuid'] = str(new_uuid)
 	files.update_frontmatter(record, new_file)
+
+	#create sprite for UUID
+	create_sprites([str(new_uuid)])
 
 	dataset = {}
 

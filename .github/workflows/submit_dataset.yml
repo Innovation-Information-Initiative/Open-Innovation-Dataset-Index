@@ -116,7 +116,7 @@ jobs:
         run: |
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add index_archive/*.csv datasets/*.md
+            git add index_archive/*.csv datasets/*.md app/assets/thumbnails
             git commit -m "added uuid to file, updated CSV (#${{ github.event.number }})"
 
       - name: Push to new branch
