@@ -22,5 +22,5 @@ location: https://github.com/kermitt2/grobid
 shortname: grobid
 terms_of_use: GROBID is distributed under Apache 2.0 license.
 title: Grobid
-uuid: c6b61a07-2fd6-426d-99e6-2b825b98d102
+uuid: e2554beb-7174-49d5-b6d7-1067e088dfeb
 ---

@@ -52,7 +52,6 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 		print('no citation metadata available for this source')
 
 	else:
-		print('gets here')
 		try:
 			if "tags" in result and len(result["tags"]) > 0:
 				tags = list(map(lambda item: item.split(', ').strip(), result["tags"]))
@@ -83,12 +82,13 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 	print(pd.json_normalize(dataset))
 	# sheet_df = sheet_df.append(pd.json_normalize(dataset), ignore_index=True)
 	sheet_df = pd.concat([sheet_df,pd.json_normalize(dataset)],join='inner')
+	print('df is', sheet_df)
 	sheet_df.columns=schema
 
 	#first, append to csv (write updated sheet in case of any changes)
 	try:
 		filename = os.path.join(get_project_root(), output_dir, os.environ.get("OUTPUT_FILE"))
-		sheet_df.to_csv(filename)
+		sheet_df.to_csv(filename, index=False)
 	except:
 		e = sys.exc_info()[0]
 		print('issue writing to csv', e)
