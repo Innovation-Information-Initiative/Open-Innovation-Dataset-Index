@@ -53,15 +53,22 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 
 	else:
 		print('gets here')
-		if "tags" in result and len(result["tags"]) > 0:
-			tags = list(map(lambda item: item.split(', ').strip(), result["tags"]))
-			flat_tags = [val for sublist in tags for val in sublist]
-		else:
+		try:
+			if "tags" in result and len(result["tags"]) > 0:
+				tags = list(map(lambda item: item.split(', ').strip(), result["tags"]))
+				flat_tags = [val for sublist in tags for val in sublist]
+			else:
+				flat_tags = []
+		except:
 			flat_tags = []
+			print('could not extract tags from result')
 
-		if "tags" in dataset and len(dataset["tags"]) > 0:
-			flat_tags = flat_tags + list(map(lambda tag: tag.split(' ').strip(), dataset["tags"]))
-			flat_tags = [tag.rstrip(',').rstrip(';') for tag in flat_tags]
+		try:
+			if "tags" in dataset and len(dataset["tags"]) > 0:
+				flat_tags = flat_tags + list(map(lambda tag: tag.split(' ').strip(), dataset["tags"]))
+				flat_tags = [tag.rstrip(',').rstrip(';') for tag in flat_tags]
+		except:
+			print('could not extract tags from dataset')
 
 		dataset["title"] = result["title"] if "title" in result else ''
 		dataset["location"] = result["url"] if "url" in result else ''

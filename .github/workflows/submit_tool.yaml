@@ -1,4 +1,4 @@
-name: submit_dataset
+name: submit_tool
 
 on:
   pull_request_target:
