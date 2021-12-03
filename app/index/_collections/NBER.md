@@ -30,7 +30,6 @@ The US National Bureau of Economic Research (NBER) public data archive is a sear
 
 * [Historical Cross-County Technology Adoption Dataset](/datasets/historical_cross_county)
 * [US Patent Data Project](/datasets/nber_citation)
-* 
 
 ## Categories
 * [Science and Technology](https://www.nber.org/research/data?facet=datasetCat%3AScience%20%26%20Technology&page=1&perPage=100) -- Includes scientific papers, studies of innovation
