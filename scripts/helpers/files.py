@@ -49,10 +49,13 @@ def generate_markdown(data, directory):
 	for file in os.listdir(directory):
 		if file.endswith(".md") and not file.startswith("_"):
 			# if the UUIDs match, remove from the list
-			record = frontmatter.load(os.path.join(directory + '/', file))
-			if 'uuid' in record: 
-				uuids.append(record['uuid'])
-				
+			try:
+				record = frontmatter.load(os.path.join(directory + '/', file))
+				if 'uuid' in record: 
+					uuids.append(record['uuid'])
+			except:
+				print('error in markdown')
+
 	to_gen = []
 	for i, record in enumerate(data):
 		if record['uuid'] not in uuids:
