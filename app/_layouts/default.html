@@ -23,6 +23,11 @@
 								<b>location:</b> <a href='{{ page.location }}'>{{ page.location }}</a><br>
 						</p>
 						{% endif %}
+						{% if page.bigquery and page.bigquery != '' %}
+							<p>
+								This dataset is also queriable online <a href="{{ page.bigquery }}">here</a> via Google BigQuery.
+							</p>
+						{% endif %}
 						{% if page.timeframe and page.timeframe != '' %}
 							<p>
 								<b>timeframe:</b> {{ page.timeframe }}
