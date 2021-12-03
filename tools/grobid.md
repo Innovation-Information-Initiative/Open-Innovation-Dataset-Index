@@ -4,12 +4,9 @@ authors: 'The main author is Patrice Lopez (patrice.lopez@science-miner.com).
 
   Core committers and maintenance: Patrice Lopez (science-miner) and Luca Foppiano
   (NIMS).'
-citation: "\n@misc{lopez_grobid_2021,\n\ttitle = {{GROBID}},\n\tcopyright = {Apache-2.0},\n\turl
-  = {https://github.com/kermitt2/grobid},\n\tabstract = {A machine learning software
-  for extracting information from scholarly documents},\n\turldate = {2021-12-03},\n\tauthor
-  = {Lopez, Patrice},\n\tmonth = dec,\n\tyear = {2021},\n\tnote = {original-date:
-  2012-09-13T15:48:54Z},\n\tkeywords = {metadata, pdf, machine-learning, deep-learning,
-  crf, fulltext, scientific-articles, bibliographical-references, hamburger-to-cow},\n}\n"
+citation: "@misc{GROBID,\n    title = {GROBID},\n    howpublished = {\\url{https://github.com/kermitt2/grobid}},\n
+  \   publisher = {GitHub},\n    year = {2008--2021},\n    archivePrefix = {swh},\n
+  \   eprint = {1:dir:dab86b296e3c3216e2241968f0d63b68e8209d3c}\n}\n"
 description: 'GROBID (or Grobid, but not GroBid nor GroBiD) means GeneRation Of BIbliographic
   Data.
 
@@ -26,5 +23,5 @@ location: https://github.com/kermitt2/grobid
 shortname: grobid
 terms_of_use: GROBID is distributed under Apache 2.0 license.
 title: Grobid
-uuid: e2554beb-7174-49d5-b6d7-1067e088dfeb
+uuid: c6b61a07-2fd6-426d-99e6-2b825b98d102
 ---
