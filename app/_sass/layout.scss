@@ -154,12 +154,19 @@ a:hover {
     position: absolute;
     z-index: 3;
     list-style-type: none;
-    background-color: lightgray;
-    tabindex: 0;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .searchResult {
-    tabindex: -1;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+
+.searchResult:hover {
+    background-color: lightyellow;
 }
 
 .searchResult > a {
