@@ -2,11 +2,10 @@
 layout: default
 authors:
 - NBER
-description: The NBER public data archive is an eclectic mix of public use economic, demographic,
-  and enterprise data obtained over the years to satisfy the specific requests of
-  NBER affiliated researchers for particular projects. There are also files created
-  as the output of NBER projects and intended for wider use. It is maintained by the
-  NBER.
+description: The NBER public data archive is a mix of public economic, demographic,
+  and enterprise data, obtained over the years in response to requests by NBER-affiliated
+  researchers for particular projects. There are also files created as the output of NBER
+  projects and intended for wider use. It is maintained by the NBER.
 location: https://www.nber.org/research/data?page=1&perPage=100
 tags:
 - patents
@@ -24,7 +23,8 @@ title: NBER Public Use Data Archive
 uuid: f891497d-5229-4a5b-8211-83a69e296bb4
 ---
 
-The US National Bureau of Economic Research (NBER) public data archive is a searchable index of datasets created for different NBER researchers over the years. The full index contains 233 datasets, with topics including from US healthcare costs, transportation data, population surveys, drug codes, import and export data, births and deaths. A subset of these datasets directly relevant to innovation research is curated below, along with links to topical searches. Unless otherwise specified, these datasets are maintained by the NBER.
+The US National Bureau of Economic Research (NBER) public data archive is a searchable index of datasets created for different NBER researchers over the years. The full index contains 233 datasets, with topics including US healthcare costs, transportation data, population surveys, drug codes, import and export data, births and deaths. A subset of these datasets directly relevant to innovation research is curated below, along with links to topical searches. 
+Unless otherwise specified, these datasets are maintained by the NBER.
 
 ## Innovation Data
 
