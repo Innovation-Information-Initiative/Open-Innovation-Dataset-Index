@@ -3,6 +3,7 @@ api_or_bulk_downloads: Bulk
 citation: 'Hötte, Pichler, Lafond (2021): "The rise of science in low-carbon energy
   technologies", RSER. DOI: 10.1016/j.rser.2020.110654'
 code: Included in the bulk download
+contributors: Hötte K, Lafond F, Pichler A
 cost: None
 description: 'This data publication offers updated data about low-carbon energy technology
   (LCET) patents and citations links to the scientific literature. Compared to a previous
@@ -14,7 +15,7 @@ description: 'This data publication offers updated data about low-carbon energy 
 documentation: https://doi.org/10.4119/unibi/2950291
 doi: https://doi.org/10.4119/unibi/2950291
 error_metrics: 'No'
-last_edit: Wed, 01 Dec 2021 19:35:59 GMT
+last_edit: Fri, 03 Dec 2021 22:52:21 GMT
 location: https://doi.org/10.4119/unibi/2950291
 record_creation_timestamp: 6/13/2021 20:55:50
 shortname: low_carbon_knowledge
