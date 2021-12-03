@@ -5,7 +5,18 @@
 		<div class="pageContainer">
 		{% include header.html %}
 				{% include edit-nav.html %}
-				<h1>{{ page.title }}</h1>
+				<div  class="pageTitle"> 
+					<div>
+						{% if page.thumbnail_url %}
+							<img class="pageThumb" src="{{ page.thumbnail_url }}"/>
+						{% elsif page.uuid %}
+							<img class="pageThumb" src="/assets/thumbnails/{{ page.uuid }}.png"/>
+						{% endif %}
+					</div>
+					<div>
+						<h1>{{ page.title }}</h1>
+					</div>
+				</div>
 					{% if page.record_superceded_by %}
 						{% for dataset in site.datasets %}
 							{% if dataset.uuid == page.record_superceded_by %}
@@ -17,7 +28,9 @@
 						</p>
 					{% endif %}
 				<div class="infoBox">
-					<div id="editInfo" ><a href="https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911"><img src="/assets/edit.png"></a></div>
+						<div id="editInfo" >
+							<a href="https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1389884911"><img src="/assets/edit.png"></a>
+						</div>
 						{% if page.location and page.location != '' %}
 						<p>
 								<b>location:</b> <a href='{{ page.location }}'>{{ page.location }}</a><br>

@@ -24,6 +24,19 @@ a:hover {
     min-width: 400px;
 }
 
+.pageTitle {
+    display: flex;
+}
+
+.pageTitle div {
+    padding: 10px 10px 10px 0px;
+}
+
+.pageTitle img {
+    width: 120px;
+}
+
+
 .infoBox {
     border: 1px solid black;
     border-radius: 30px;
