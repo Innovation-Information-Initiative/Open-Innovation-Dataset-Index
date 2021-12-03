@@ -5,7 +5,7 @@ on:
   - cron: "*/2 * * * *"
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-  remote: 'Innovation-Information-Initiative/Dataset-Index-Sheet-Tracker'
+  remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
   branch: main
 jobs:
   pull_sheet:
