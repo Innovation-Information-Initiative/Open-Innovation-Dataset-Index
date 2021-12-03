@@ -1,5 +1,6 @@
 ---
 layout: default
+layout: default
 authors: Patrice Lopez
 citation: "\n@misc{lopez_grobid_2021,\n\ttitle = {{GROBID}},\n\tcopyright = {Apache-2.0},\n\turl
   = {https://github.com/kermitt2/grobid},\n\tabstract = {A machine learning software
