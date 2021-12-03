@@ -24,7 +24,7 @@ PATSTAT contains bibliographical and legal event patent data from over 100 paten
 
 The PATSTAT product line consists of two individual databases. They are available as a bulk data set or via PATSTAT Online, a web-based interface to the databases.
 
-The first, [PATSTAT Global](https://www.epo.org/searching-for-patents/business/patstat.html), is the database most commonly referred to as 'PATSTAT'. The second, PATSTAT Register, and associated queries, is indexed [here]('datasets/patstat_register').
+The first, [PATSTAT Global](https://www.epo.org/searching-for-patents/business/patstat.html), is the database most commonly referred to as 'PATSTAT'. The second, PATSTAT Register, and associated queries, is indexed [here](/datasets/patstat_register).
 
 ## Example Queries for PATSTAT Global
 
