@@ -80,7 +80,7 @@ def parse_and_submit(new_file, sheet_id, sheet_title, output_dir, creds):
 
 	#first, append to csv (write updated sheet in case of any changes)
 	try:
-		filename = os.path.join(get_project_root(), output_dir, "Open_Innovation_Datasets.csv")
+		filename = os.path.join(get_project_root(), output_dir, os.environ.get("OUTPUT_FILE"))
 		sheet_df.to_csv(filename)
 	except:
 		e = sys.exc_info()[0]
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 	parse_and_submit(
 		new_file = filepath,
 		sheet_id = os.environ.get("INPUT_SHEET_ID"),
-		sheet_title = 'Open_Innovation_Datasets',
+		sheet_title = os.environ.get("INPUT_SHEET_TITLE"),
 		output_dir = os.environ.get("INPUT_TEMPDIR"),
 		creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
 	)

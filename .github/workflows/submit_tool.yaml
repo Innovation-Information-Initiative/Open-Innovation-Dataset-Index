@@ -4,7 +4,7 @@ on:
   pull_request_target:
     types: [opened, reopened, edited, review_requested]
     paths:
-    - 'datasets/**.md'
+    - 'tools/**.md'
 
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -90,10 +90,10 @@ jobs:
         id: changed_files
         env:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-          INPUT_SHEET_TITLE: 'Open_Innovation_Datasets'
+          INPUT_SHEET_TITLE: 'Innovation_Data_Toolkit'
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
-          OUTPUT_FILE: 'Open_Innovation_Datasets.csv'
+          OUTPUT_FILE: 'Innovation_Data_Toolkit.csv'
         run: |
           git status
           for added_file in ${{ steps.read_files.outputs.added }}; do
