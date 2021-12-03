@@ -19,7 +19,7 @@ layout: list
 				<img src="/assets/thumbnails/{{ collection.uuid }}.png"/>
 			{% endif %}
 		</div>
-	<div class="itemCard"><b>{{ collection.title }} {{ collection.uuid }}</b><br>
+	<div class="itemCard"><b>{{ collection.title }}</b><br>
 	{{ collection.description | strip_html | truncate: 250 }}</div></li>
 {% endfor %}
 </ul>
