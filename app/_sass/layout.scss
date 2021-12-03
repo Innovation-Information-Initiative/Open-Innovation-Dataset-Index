@@ -158,3 +158,16 @@ a:hover {
     box-shadow: -50px 50px 30px lightgray;
     max-width: 350px;
 }
+
+footer {
+    font-size: small;
+    position: relative;
+    bottom: 0px;
+    background-color: lightgrey;
+    height: 20px;
+    margin-top: 70px;
+    max-width: 800px;
+    min-width: 400px;
+    border-top: 1px solid black;
+    padding: 5px;
+}
