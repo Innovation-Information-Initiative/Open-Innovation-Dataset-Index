@@ -26,10 +26,6 @@ last_edit: 12/03/2021, 19:20:52
 location: https://github.com/kermitt2/grobid
 shortname: grobid
 terms_of_use: GROBID is distributed under Apache 2.0 license.
-<<<<<<< HEAD
 title: Grobid
-=======
-title: GROBID
->>>>>>> c2b44d1729a88573b471fdda4165d531be32083d
 uuid: e2554beb-7174-49d5-b6d7-1067e088dfeb
 ---
