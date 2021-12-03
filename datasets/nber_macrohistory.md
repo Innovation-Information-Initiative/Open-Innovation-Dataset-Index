@@ -1,7 +1,5 @@
 ---
-contributors: 'Daniel Feenberg, Jeff Miron
-
-  '
+contributors: Daniel Feenberg, Jeff Miron, NBER
 cost: None
 description: 'During the first several decades of its existence, the National Bureau
   of Economic Research (NBER) assembled an extensive data set that covers all aspects
@@ -12,7 +10,7 @@ description: 'During the first several decades of its existence, the National Bu
   although it predominantly covers the United States.
 
   '
-last_edit: Fri, 03 Dec 2021 13:25:23 GMT
+last_edit: Fri, 03 Dec 2021 13:28:26 GMT
 location: https://www.nber.org/research/data/nber-macrohistory-database
 maintained_by: 'Daniel Feenberg (feenberg at nber dot org)
 
