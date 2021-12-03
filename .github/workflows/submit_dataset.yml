@@ -45,6 +45,7 @@ jobs:
           python3 -m pip install gspread_dataframe
           python3 -m pip install pandas
           python3 -m pip install six
+          python3 -m pip install Pillow
 
       - id: 'read_files'
         uses: Ana06/get-changed-files@v2.0.0
