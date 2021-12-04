@@ -23,8 +23,6 @@ The following datasets provide a great start point for analysis of innovation da
 	* [Reliance on Science](/datasets/rons)
 * matching patents to firms
 	* [DISCERN Patent Compustat Crosswalk](https://iiindex.org/datasets/discern)
-	* [UVA Darden Global Corporate Patent Dataset] (https://patents.darden.virginia.edu/)
-	* [KPSS patent assignees to firms 1920-2019] (https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data)
 	* [Chinese Patent Data Project](https://iiindex.org/datasets/chinese_patent_data)
 
 ## Guides
