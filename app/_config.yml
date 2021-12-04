@@ -18,3 +18,9 @@ collections:
     output: true
   collections:
     output: true
+    order:
+      - intro.md
+      - lens.md
+      - publications.md
+      - google_patents.md
+      - nber.md
