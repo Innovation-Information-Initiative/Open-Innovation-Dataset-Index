@@ -34,7 +34,7 @@ Unless otherwise specified, these datasets are maintained by the NBER.
 * [Science and Technology](https://www.nber.org/research/data?facet=datasetCat%3AScience%20%26%20Technology&page=1&perPage=100) -- Includes scientific papers, studies of innovation
 * [Geographic Data](https://www.nber.org/research/data?facet=datasetCat%3AGeographic%20Data&page=1&perPage=100) -- Includes census and transportation data
 * [Individual Data (US)](https://www.nber.org/research/data?facet=datasetCat%3AIndividual%20Data%20-%20US&page=1&perPage=100) and [(non-US)](https://www.nber.org/research/data?facet=datasetCat%3AIndividual%20Data%20-%20Non-US&page=1&perPage=100) -- Includes consumer and population surveys
-* [Macroeconomics ](https://www.nber.org/research/data?facet=datasetCat%3AMacro%20-%20US&page=1&perPage=100) -- Historic and contemporary macroeconomic datasets, mostly relevant to the USA
+* [Macroeconomics](https://www.nber.org/research/data?facet=datasetCat%3AMacro%20-%20US&page=1&perPage=100) -- Historic and contemporary macroeconomic datasets, mostly relevant to the USA
 * [Global Macroeconomic Data](https://www.nber.org/research/data?facet=datasetCat%3AMacro%20-%20International&page=1&perPage=100) -- Includes international wage data
 * [US Census Data](https://www.nber.org/research/data?facet=datasetCat%3AU.%20S.%20Census&page=1&perPage=100)
 * [International Finance and Trade](https://www.nber.org/research/data?facet=datasetCat%3AInternational%20Finance%20and%20Trade&page=1&perPage=100) -- Includes imports, exports, price quality indexes
