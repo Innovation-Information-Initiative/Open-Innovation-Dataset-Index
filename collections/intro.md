@@ -13,16 +13,16 @@ uuid: 4f841bda-4401-4cfd-ab89-403d577099f4
 The following datasets provide a great start point for analysis of innovation data:
 
 * patent data and disambiguation
-	* [PatentsView](/datasets/patcit)
-	* [PATSTAT](/datasets/patstat) (NB: not an open dataset)
-	* [Google Patents Public Datasets](/datasets/google_patents_public)
+	* [PatentsView](https://iiindex.org/datasets/patentsview)
+	* [PATSTAT](https://iiindex.org/datasets/patstat) (NB: not an open dataset)
+	* [Google Patents Public Datasets](https://iiindex.org/datasets/google_patents_public)
 * patent citation to literature
-	* [Lens.org](/datasets/lens)
-	* [Patcit](/datasets/patcit)
+	* [Lens.org](https://iiindex.org/datasets/lens)
+	* [Patcit](https://iiindex.org/datasets/patcit)
 	* [Reliance on Science](/datasets/rons)
 * matching patents to firms
-	* [DISCERN Patent Compustat Crosswalk](/datasets/discern)
-	* [Chinese Patent Data Project](/datasets/chinese_patent_data)
+	* [DISCERN Patent Compustat Crosswalk](https://iiindex.org/datasets/discern)
+	* [Chinese Patent Data Project](https://iiindex.org/datasets/chinese_patent_data)
 
 ## Guides
 
