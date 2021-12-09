@@ -26,4 +26,4 @@ collections:
       - nber.md
 
 include:
-  - redirects
+  - _redirects
