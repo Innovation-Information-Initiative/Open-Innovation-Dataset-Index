@@ -3,7 +3,12 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<meta charset="utf-8">
 	<title>{{ site.title }}</title>
-
+	<script>
+		window.goatcounter = {
+			path: function(p) { return location.host + p }
+		}
+	</script>
+	<script data-goatcounter="https://i3index.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/citation-js" type="text/javascript"></script>
 	<script>
 		const Cite = require('citation-js')
