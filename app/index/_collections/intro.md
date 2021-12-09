@@ -18,7 +18,7 @@ The following datasets provide a great start point for analysis of innovation da
 	* [PATSTAT](https://iiindex.org/datasets/patstat) (NB: not an open dataset)
 	* [Google Patents Public Datasets](https://iiindex.org/datasets/google_patents_public)
 * patent citation to literature
-	* [Lens.org](https://iiindex.org/datasets/lens)
+	* [Lens.org](https://iiindex.org/datasets/lens) -- Data queriable through the Lens API and also downloadable in bulk. Creates a unique identifier for papers, patents, authors, inventors and institutions.
 	* [Patcit](https://iiindex.org/datasets/patcit)
 	* [Reliance on Science](/datasets/rons)
 * matching patents to firms
