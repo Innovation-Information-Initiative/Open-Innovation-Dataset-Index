@@ -24,3 +24,6 @@ collections:
       - publications.md
       - google_patents.md
       - nber.md
+
+include:
+  - redirects
