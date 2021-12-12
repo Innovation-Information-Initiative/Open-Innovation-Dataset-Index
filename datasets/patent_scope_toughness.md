@@ -18,7 +18,7 @@ description: This dataset includes an easy-to-use measure of patent scope that i
   our measure, we show how it can be used to create an instrumental variable, patent
   examiner Scope Toughness, which we also validate.
 documentation: Not unless it’s in the paper
-last_edit: Thu, 02 Dec 2021 13:34:56 GMT
+last_edit: Sun, 12 Dec 2021 21:21:36 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
 maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/15/2020 17:47:00
