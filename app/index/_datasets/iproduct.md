@@ -19,7 +19,7 @@ description: 'The IPRoduct project seeks to link innovative goods to the patents
 
   '
 documentation: https://iproduct.io/app/#/public/page/about
-last_edit: Fri, 03 Dec 2021 12:29:37 GMT
+last_edit: Fri, 17 Dec 2021 03:03:13 GMT
 location: https://iproduct.io/app
 maintained_by: Gaétan de Rassenfosse, Samuel Arnod-Prin
 record_creation_timestamp: 12/4/2020 17:20:46
