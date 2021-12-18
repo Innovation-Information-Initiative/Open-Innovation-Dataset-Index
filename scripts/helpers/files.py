@@ -4,6 +4,7 @@
 import frontmatter
 import json
 import io
+import random
 import os
 import csv
 
@@ -70,7 +71,7 @@ def generate_markdown(data, directory):
 		if row['shortname'] and row['shortname'].strip():
 			filepath = os.path.join(directory + '/', row['shortname'] + '.md')
 		else:
-			shortname = row["title"].lower().replace(' ', '_') + "_" + rand(0,50)
+			shortname = row["title"].lower().replace(' ', '_') + "_" + random.randrange(0,50)
 			filepath = os.path.join(directory + '/', shortname + '.md')
 
 		#open and close file
