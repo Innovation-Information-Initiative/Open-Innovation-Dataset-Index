@@ -10,6 +10,7 @@ shortname: baci
 tags:
 - trade
 - global
+- products
 terms_of_use: BACI is freely available to anyone, after a quick registration.
 thumbnail_url: https://beta.asef.org/images/stories/partners/CEPII_logo_mappemonde.jpg
 title: BACI
