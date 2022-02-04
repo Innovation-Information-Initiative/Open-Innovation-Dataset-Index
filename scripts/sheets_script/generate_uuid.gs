@@ -41,10 +41,9 @@ function onEdit(evt) {
 
       var timeRange = sheet.getRange( range.getRow() + index, TIMESTAMP_COL );
       var editCell = timeRange.getCell( 1, 1 );
-      var editVal = editCell.getValue();
-      if(editVal !== "Last Edit"){
+      if(range.getRow() !== 1){
         editCell.setValue(timeStamp);
-       } 
+       }
     }
   });
   
