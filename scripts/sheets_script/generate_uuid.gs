@@ -6,10 +6,10 @@
 // https://developers.google.com/apps-script/guides/triggers/events
 // https://www.fiznool.com/blog/2014/11/16/short-id-generation-in-javascript/
 
-var SHEETNAMES = ["Open_Innovation_Datasets", "Innovation_Data_Toolkit"]
+var SHEETNAMES = ["Open_Innovation_Datasets", "Innovation_Data_Toolkit"] // change names!
 var ID_COLUMN = 1;
 var ID_LENGTH = 10;
-var EDIT_COL;
+var TIMESTAMP_COL;
 
 // Thanks to Tom Spencer for this function
 // Tom's website/blog is at fiznool.com
@@ -22,22 +22,14 @@ function onEdit(evt) {
   var sheet = range.getSheet();
   console.log(sheet.getSheetName())
   if(!SHEETNAMES.includes(sheet.getSheetName()) ) return;
-  if(sheet.getSheetName() === "Open_Innovation_Datasets") EDIT_COL = 22
-  if(sheet.getSheetName() === "Innovation_Data_Toolkit") EDIT_COL = 14
-  // getValues()
-  // as cells: [[A1,B1,C1],[A2,B2,C2],[A3,B3,C3],[A4,B4,C4],[...]]
-  // as locals: [[11,21,31],[12,22,32],[13,23,33],[14,24,34],[...]]
+  if(sheet.getSheetName() === "Open_Innovation_Datasets") TIMESTAMP_COL = 22 // change name and timestamp cols!
+  if(sheet.getSheetName() === "Innovation_Data_Toolkit") TIMESTAMP_COL = 14
   var rangeValues = range.getValues();
 
-  // Loop over each row of the range and check for data being entered.
-  // We don't want to commit a UID value to the ID column if the data
-  // in adjacent columns was just deleted. We only want a UID for rows
-  // with data in them.
-
   rangeValues.forEach(function(row,index,arr){
-    var conc = row.join("").length; // Where we check for data in the row
+    var conc = row.join("").length;
     if(conc > 0) { // The current row edited is NOT empty. Proceed.
-      var idRange = sheet.getRange( range.getRow() + index, ID_COLUMN ); // This is a 1-dimensional range that contains the ID cell we want to populate
+      var idRange = sheet.getRange( range.getRow() + index, ID_COLUMN ); 
       var idCell = idRange.getCell( 1, 1 );
       var idValue = idCell.getValue();
       if (idValue == "") {
@@ -47,7 +39,7 @@ function onEdit(evt) {
       var d = new Date();
       var timeStamp = d.toUTCString();
 
-      var timeRange = sheet.getRange( range.getRow() + index, EDIT_COL );
+      var timeRange = sheet.getRange( range.getRow() + index, TIMESTAMP_COL );
       var editCell = timeRange.getCell( 1, 1 );
       var editVal = editCell.getValue();
       if(editVal !== "Last Edit"){
