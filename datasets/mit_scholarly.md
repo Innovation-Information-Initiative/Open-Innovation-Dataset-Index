@@ -3,7 +3,7 @@ contributors: The Lens
 cost: None
 description: Scholarly works produced by MIT 1950-2018
 documentation: https://www.lens.org/lens/search/scholar/analysis?q=&st=true&regex=false&institution.must=Massachusetts%20Institute%20of%20Technology&p=0&n=10&s=score&d=%2B&dateFilterField=publishedYear&dashboardId=189&preview=false
-last_edit: Thu, 02 Dec 2021 13:27:55 GMT
+last_edit: Tue, 22 Feb 2022 08:00:39 GMT
 location: https://lens-public.s3-us-west-2.amazonaws.com/sloan/scholarly/201932/mit_scholarly.zip
 maintained_by: The Lens
 record_creation_timestamp: 11/17/2020 17:20:46
