@@ -1,4 +1,5 @@
 ---
+'': 200Gb
 contributors: MAG, Crossref, OurResearch, Heather Piwowar, Jason Priem
 cost: None
 description: OpenAlex is a free and open catalog of the world's scholarly papers,
@@ -9,6 +10,7 @@ last_edit: Thu, 03 Feb 2022 19:28:50 GMT
 location: https://docs.openalex.org/download-snapshot
 maintained_by: info@ourresearch.org
 shortname: openalex
+superseded_by: Tue, 22 Feb 2022 08:49:41 GMT
 tags:
 - citation
 - scholarly literature
