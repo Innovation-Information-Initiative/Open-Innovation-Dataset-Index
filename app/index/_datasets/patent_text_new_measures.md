@@ -28,6 +28,7 @@ related_publications: 'Arts S, Hou J, Gomez JC. (2020). Natural language process
   to identify the creation and impact of new technologies in patent text: code, data,
   and new measures. Forthcoming Research Policy. (https://doi.org/10.1016/j.respol.2020.104144)'
 shortname: patent_text_new_measures
+superseded_by: Fri, 25 Feb 2022 23:35:52 GMT
 tags:
 - patent measures
 - text
