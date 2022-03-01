@@ -26,6 +26,7 @@ maintained_by: Jeff Kuhn
 record_creation_timestamp: 11/15/2020 17:47:00
 related_datasets: USPTO patent claims dataset
 related_publications: https://ssrn.com/abstract=2977273
+relationship_description: USPTO patent claims dataset
 shortname: patent_scope_toughness
 tags:
 - Examiners
