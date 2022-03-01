@@ -13,6 +13,7 @@ cost: None
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
   Project, Research Council of Norway
+description_of_relationships_to_other_projects: lens.org
 documentation: https://osf.io/py6ve/wiki/home/
 doi: 10.17605/OSF.IO/PY6VE
 last_edit: Thu, 02 Dec 2021 17:15:32 GMT
