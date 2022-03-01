@@ -16,6 +16,7 @@ location: https://console.cloud.google.com/marketplace/details/google_patents_pu
 maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46
 shortname: google_patents_public
+superseded_by: Fri, 25 Feb 2022 23:34:33 GMT
 tags:
 - Google Patents
 terms_of_use: CC BY 4.0, requires subscription to query API

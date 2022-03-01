@@ -12,6 +12,7 @@ cost: None
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar
   Project, Research Council of Norway
+description_of_relationships_to_other_projects: lens.org
 documentation: https://osf.io/py6ve/wiki/home/
 doi: 10.17605/OSF.IO/PY6VE
 last_edit: Thu, 02 Dec 2021 17:15:32 GMT
@@ -48,7 +49,7 @@ The Biospolar project aimed to identify research and innovation involving Antarc
 
 The datasets are made available under a [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
 
-When using datasets from the repository please retain the lens_id to meet with the Lens [terms of use](https://about.lens.org/policies/#termsuse). The lens_id along with the paperid (Microsoft Academic Graph) are the main unique identifiers for table joins so you will want to keep them anyway.
+When using datasets from the repository please retain the lens_id to meet with the Lens [terms of use](https://about.lens.org/policies/#termsuse). The lens_id along with the paperid ([Microsoft Academic Graph](https://iiindex.org/datasets/mag.html)) are the main unique identifiers for table joins so you will want to keep them anyway.
 
 Data from Microsoft Academic Graph is made available under the [Open Data Commons Attribution License (ODC-By) v1.0](https://opendatacommons.org/licenses/by/1.0/). If using the data in a product. service or data redistribution please include this url https://aka.ms/msracad as described here. If using in a publication please cite the two articles described here.
 Datasets

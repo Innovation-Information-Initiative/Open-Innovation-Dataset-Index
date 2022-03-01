@@ -12,6 +12,7 @@ cost: None
 description: This is a database of qualitatively coded reasons for a CEO’s dismissal,
   for S&P 1500 Companies. The maintainers of this dataset run a mailing list with
   a signup [here](https://docs.google.com/forms/d/e/1FAIpQLSfiZZHwyeWYEZ5fOT1_RygH-ComG9ltad5IUUY60Fsw9z3hZg/viewform)
+description_of_relationships_to_other_projects: Execucomp, https://libguides.uml.edu/wrds/ExecuComp
 documentation: Documentation included as a .docx on Zenodo
 doi: 10.5281/zenodo.4618103
 last_edit: Thu, 02 Dec 2021 17:41:04 GMT

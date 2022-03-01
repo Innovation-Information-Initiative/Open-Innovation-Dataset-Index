@@ -5,7 +5,7 @@ contributors: Waleed Ammar, Dirk Groneveld, +20 authors
 cost: None
 description: 'Semantic Scholar''s records for research papers published in all fields
   provided as an easy-to-use JSON archive. '
-last_edit: Thu, 02 Dec 2021 13:31:03 GMT
+last_edit: Thu, 27 Jan 2022 16:31:50 GMT
 location: https://api.semanticscholar.org/corpus
 maintained_by: Semantic Scholar, feedback@semanticscholar.org
 record_creation_timestamp: 12/7/2020 17:20:46
