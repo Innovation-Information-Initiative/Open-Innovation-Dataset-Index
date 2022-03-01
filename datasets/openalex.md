@@ -10,6 +10,7 @@ last_edit: Thu, 03 Feb 2022 19:28:50 GMT
 location: https://docs.openalex.org/download-snapshot
 maintained_by: info@ourresearch.org
 shortname: openalex
+size: 200Gb
 superseded_by: Tue, 22 Feb 2022 08:49:41 GMT
 tags:
 - citation
