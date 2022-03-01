@@ -22,6 +22,7 @@ maintained_by: Paul Oldham
 record_creation_timestamp: 09/10/2021, 08:10:36
 references: Lens
 related_datasets: lens.org
+relationship_description: lens.org
 shortname: biospolar
 tags:
 - antarctic
