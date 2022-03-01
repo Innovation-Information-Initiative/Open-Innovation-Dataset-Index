@@ -23,7 +23,7 @@ tags:
 - geography
 - institutions
 terms_of_use: CC0 Creative Commons license
-title: 'GRID: Global Database of Research Institutes '
+title: 'GRID: Global Database of Research Institutes'
 uuid: fbd6c408-e2b1-4581-8cdb-e1bca46146f7
 versioning: 'yes'
 ---
