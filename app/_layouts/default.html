@@ -45,7 +45,44 @@
 								This dataset is also queriable online <a href="{{ page.bigquery }}">here</a> via Google BigQuery.
 							</p>
 						{% endif %}
-						{% if page.timeframe and page.timeframe != '' %}
+
+						{% if page.authors and page.authors.size > 0 %}
+							<p>
+								<b>authors:</b> {{ page.authors | join: ", " }}
+							</p>
+						{% endif %}
+
+						{% if page.tags and page.tags.size > 0 %}
+							<p>
+								<b>tags:</b> {{ page.tags | join: ", " }}
+							</p>
+						{% endif %}
+
+						{% if page.relationship_description and page.relationship_description != '' %}
+							<p>
+								<b>relationships to other tools:</b> {{ page.relationship_description }}
+							</p>
+						{% endif %}
+						{% if page.relationships and page.relationships.size > 0 %}
+							<p>
+								<b>related pages:</b>
+								<ul>
+									{% for relationship in page.relationships %}
+										<li><a href="{{ site.baseurl }}{{ relationship }}">{{ relationship }}</a></li>
+									{% endfor %}
+								</ul>
+							</p>
+						{% endif %}
+
+						{% assign DISPLAY_FIELDS = "timeframe, terms_of_use, documentation, size, code, related_publications, description, last_edit" | split: ', ' %}
+
+						{% for field in page %}
+							{% if DISPLAY_FIELDS contains field %}
+								<p id="{{ field }}" data-value="{{ page[field] }}" ><b>{{ field | split: "_" | join: " " }}:</b> {{ page[field] }} </p>
+							{% endif %}
+						{% endfor %}
+
+<!-- 						{% if page.timeframe and page.timeframe != '' %}
 							<p>
 								<b>timeframe:</b> {{ page.timeframe }}
 							</p>
@@ -60,11 +97,6 @@
 								<b>authors:</b> {{ page.authors | join: ", " }}
 							</p>
 						{% endif %}
-						{% if page.tags and page.tags.size > 0 %}
-							<p>
-								<b>tags:</b> {{ page.tags | join: ", " }}
-							</p>
-						{% endif %}
 						{% if page.documentation and page.documentation != '' %}
 							<p id="documentation" data-value="{{ page.documentation }}">
 								<b>documentation:</b> {{ page.documentation }}
@@ -75,7 +107,7 @@
 								<b>doi:</b> {{ page.doi }}
 							</p>
 						{% endif %}
-							<p><b>description:</b> {{ page.description }}</p>
+							<p><b>description:</b> {{ page.description }}</p> -->
 				</div>
 				<div class="pageContent">
 					{{ content }}
