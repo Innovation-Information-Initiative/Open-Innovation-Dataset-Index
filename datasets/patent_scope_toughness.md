@@ -17,6 +17,7 @@ description: This dataset includes an easy-to-use measure of patent scope that i
   of patenters is consistent with it. To facilitate drawing causal inferences with
   our measure, we show how it can be used to create an instrumental variable, patent
   examiner Scope Toughness, which we also validate.
+description_of_relationships_to_other_projects: USPTO patent claims dataset
 documentation: Not unless it’s in the paper
 last_edit: Sun, 12 Dec 2021 21:21:36 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
