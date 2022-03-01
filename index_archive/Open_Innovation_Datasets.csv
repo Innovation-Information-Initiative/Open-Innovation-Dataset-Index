@@ -228,7 +228,7 @@ Data from Microsoft Academic Graph is made available under the Open Data Commons
         keywords = {patents, intellectual property, innovation, semantic similarity, empirical legal studies},
 }
 ",None,Ryan Whalen,"patents, intellectual property, innovation, similarity, legal, patents", Creative Commons Attribution 4.0 International,,,,,,Yes,,"10.5281/zenodo.3552078
-", ,,,,,,"Tue, 18 Jan 2022 00:10:55 GMT"
+", ,,,,,,"Tue, 01 Mar 2022 17:21:25 GMT"
 eb43fc38-8786-4b0f-b3b8-b9d610f456ed,Patstat Register,patstat_register,https://www.epo.org/searching-for-patents/business/patstat.html,"This database contains bibliographic and legal event data on published European and Euro-PCT patent applications.
 
 Like the core PATSTAT database, it is maintained by the EPO, however PATSTAT Register only contains information about patent applications at the European Patent Ofﬁce (EPO). The information in PATSTAT Register is, however, considerably deeper and more detailed.",,,"€ 1.420,00 - € 1.460,00",EPO,"Europe, patents, legal, citation",Requires a subscription to access,,https://www.epo.org/searching-for-patents/business/patstat.html,,,https://github.com/gderasse/patstat_register,,,,,,,,,,"Wed, 01 Dec 2021 15:19:19 GMT"
