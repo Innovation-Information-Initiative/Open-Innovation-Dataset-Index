@@ -16,6 +16,6 @@ tags:
 - standards
 - technology
 terms_of_use: Creative Commons Attribution 4.0
-title: 'CPA Global Technical Standards ETSI Data '
+title: CPA Global Technical Standards ETSI Data
 uuid: 289055b8-4e07-4d52-9f5a-7d35fa0d942b
 ---

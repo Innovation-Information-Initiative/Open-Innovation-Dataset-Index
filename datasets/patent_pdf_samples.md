@@ -33,6 +33,6 @@ tags:
 - document recognition
 - benchmarking
 terms_of_use: CC BY 4.0
-title: 'Patent PDF Samples with Extracted Structured Data '
+title: Patent PDF Samples with Extracted Structured Data
 uuid: 8b8da8ff-2b09-4e1f-9523-c0c549c5cfa1
 ---

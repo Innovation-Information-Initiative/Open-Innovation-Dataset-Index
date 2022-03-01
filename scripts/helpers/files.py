@@ -7,6 +7,7 @@ import io
 import random
 import os
 import csv
+import re
 
 def write_csv(data, filepath):
 	with open(filepath, "w", newline="") as csvfile:
@@ -30,14 +31,21 @@ def update_markdown(data, directory):
 			for entry in data:
 				if 'uuid' in record and entry['uuid'] == record["uuid"]:
 					row = entry
-
+					print(row)
 					# diff 
 					for term in row:
 						#check not empty null or blank
-						if row[term] and row[term].strip():
+						if term in row and row[term].strip():
 							record[term] = row[term]
 
-					if row["tags"] and row["tags"].strip():
+					if "title" in row and row["title"].strip():
+						title = re.sub('\s+',' ',row["title"]).strip() # stop the titles breaking search
+						record["title"] = title
+
+					if "related_project_shortnames" in row and row["related_project_shortnames"].strip():
+						record["relationships"] = list(map(lambda tag: tag.strip(), row["related_project_shortnames"].split(',')))
+
+					if "tags" in row and row["tags"].strip():
 						record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
 
 			update_frontmatter(record, filepath)
@@ -82,10 +90,17 @@ def generate_markdown(data, directory):
 
 		for term in row:
 			#check not empty null or blank
-			if row[term] and row[term].strip():
+			if term in row and row[term].strip():
 				record[term] = row[term]
 
-		if row["tags"] and row["tags"].strip():
+		if "title" in row and row["title"].strip():
+			title = re.sub('\s+',' ',row["title"]).strip() # stop the titles breaking search
+			record["title"] = title
+
+		if "related_project_shortnames" in row and row["related_project_shortnames"].strip():
+			record["relationships"] = list(map(lambda tag: tag.strip(), row["related_project_shortnames"].split(',')))
+
+		if "tags" in row and row["tags"].strip():
 			record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
 
 		record["description"] = row["description"].replace('\n', ' ')

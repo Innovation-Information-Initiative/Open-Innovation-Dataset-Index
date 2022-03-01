@@ -7,7 +7,7 @@ description: In this project, patents from China's State Intellectual Property O
   (SIPO) are matched to various types of companies. Matching SIPO patents to firms
   in the Annual Survey of Industrial Enterprises (ASIE) of China's National Bureau
   of Statistics.
-last_edit: Tue, 01 Mar 2022 12:22:03 GMT
+last_edit: Tue, 01 Mar 2022 17:47:42 GMT
 location: https://sites.google.com/site/sipopdb/cpdp-home
 maintained_by: Zi-lin He, Z.L.He@uvt.nl; Tony W. Tong, tony.tong@colorado.edu; Yuchen
   Zhang, yzhang54@tulane.edu

@@ -27,6 +27,6 @@ tags:
 - novelty
 terms_of_use: Creative Commons Attribution 4.0 International license
 timeframe: 1976-2016
-title: 'UCB Fung Institute Patent Data '
+title: UCB Fung Institute Patent Data
 uuid: e3d20ecd-fa26-4572-9c1f-2b26aa47e15d
 ---

@@ -21,6 +21,6 @@ tags:
 - trials
 - appeals
 timeframe: 1997-2020
-title: 'USPTO Patent Trial and Appeal Board (PTAB) API Data '
+title: USPTO Patent Trial and Appeal Board (PTAB) API Data
 uuid: 76d0ee06-c78e-4a5a-ba1a-f0b41378b3cd
 ---
