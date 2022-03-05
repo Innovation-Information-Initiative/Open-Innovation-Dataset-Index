@@ -16,7 +16,7 @@ description: "Disambiguated inventor's and applicant's names for EPO records. A 
   EPO applications is 1978, bytheway in many reports by priority date you'll meat
   earlier dates."
 documentation: http://ssrn.com/abstract=2404344
-last_edit: Thu, 02 Dec 2021 12:27:11 GMT
+last_edit: Sat, 05 Mar 2022 18:46:31 GMT
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/PATENTS-ICRIOS+database/
 maintained_by: crios@unibocconi.it
 record_creation_timestamp: 11/30/2020 17:20:46
