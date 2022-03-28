@@ -2,16 +2,10 @@
 layout: default
 contributors: Noah Stoffman
 cost: None
-description: 'We propose a new measure of the economic importance of each innovation.
-  Our measure uses newly collected data on patents issued to US firms in the 1926
-  to 2010 period, combined with the stock market response to news about patents. Our
-  patent-level estimates of private economic value are positively related to the scientific
-  value of these patents, as measured by the number of citations that the patent receives
-  in the future. Our new measure is associated with substantial growth, reallocation
-  and creative destruction, consistent with the predictions of Schumpeterian growth
-  models. Aggregating our measure suggests that technological innovation accounts
-  for significant medium-run fluctuations in aggregate economic growth and TFP. '
-last_edit: Sun, 12 Dec 2021 21:31:16 GMT
+description: 'The data contains all articles in 244 journals as described in "In-Text
+  Patent Citations: A User''s Guide", and all front-page and in-text citations as
+  found by the algorithm described in this paper. '
+last_edit: Mon, 28 Mar 2022 19:59:28 GMT
 location: https://iu.box.com/patents
 maintained_by: Noah Stoffman, nstoffma@iu.edu
 shortname: patent_value
