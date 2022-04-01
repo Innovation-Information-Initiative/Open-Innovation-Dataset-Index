@@ -46,9 +46,12 @@ jobs:
           INPUT_TEMPDIR: 'index_archive'
         run: python3 scripts/pull_data.py
 
+      - name: Set Up GCP Credentials
+        uses: nodes-app/action-google-credentials@v1
+        with:
+          service-account-key: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+
       - name: Test local import of bigquery modules
-        env: 
-           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         run: python3 scripts/helpers/bigquery.py
 
       - name: Check if files changed
