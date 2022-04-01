@@ -49,7 +49,7 @@ jobs:
       - name: Set Up GCP Credentials
         uses: nodes-app/action-google-credentials@v1
         with:
-          service-account-key: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+          service-account-key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
       - name: Test local import of bigquery modules
         run: python3 scripts/helpers/bigquery.py
