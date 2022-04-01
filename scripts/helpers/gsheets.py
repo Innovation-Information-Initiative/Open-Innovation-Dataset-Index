@@ -45,13 +45,9 @@ def get(ws, data_range=None):
 def get_df(ws):
 	data = ws.get()
 	headers = data[0]
-	print(len(headers), len(data[1]), list(map(lambda header: header.replace(" ", "_").lower(), headers)))
 
 	df = pd.DataFrame(data[1:], columns = 
 		list(map(lambda header: header.replace(" ", "_").lower(), headers)))
-	print(df)
-
-	print('gets here')
 
 	return df, headers
 

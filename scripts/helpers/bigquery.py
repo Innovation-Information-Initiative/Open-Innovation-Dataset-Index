@@ -1,4 +1,8 @@
+import sys
+sys.path.append('/scripts/libraries')
+
 from google.cloud import bigquery
+
 
 # Construct a BigQuery client object.
 client = bigquery.Client()
@@ -14,4 +18,4 @@ for dataset in datasets:
 		for field in table.schema:
 			field_set.add(field.name)
 
-print(list(field_set))
+# print(list(field_set))

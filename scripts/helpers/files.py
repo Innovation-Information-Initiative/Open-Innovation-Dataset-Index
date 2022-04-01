@@ -31,7 +31,6 @@ def update_markdown(data, directory):
 			for entry in data:
 				if 'uuid' in record and entry['uuid'] == record["uuid"]:
 					row = entry
-					print(row)
 					# diff 
 					for term in row:
 						#check not empty null or blank

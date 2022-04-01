@@ -37,7 +37,6 @@ def draw_sprite(border, draw, size):
 				element += i
 
 def create_sprites(uuids):
-	print('uuids length is', len(uuids))
 	size = 7
 	imgSize = 150
 	origDimension = imgSize

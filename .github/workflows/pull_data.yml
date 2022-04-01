@@ -3,6 +3,7 @@ name: pull_data
 on:
   schedule:
   - cron: "*/2 * * * *"
+  push:
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
@@ -44,6 +45,9 @@ jobs:
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 scripts/pull_data.py
+
+      - name: Test local import of bigquery modules
+        run: python3 scripts/helpers/bigquery.py
 
       - name: Check if files changed
         id: check_diff
