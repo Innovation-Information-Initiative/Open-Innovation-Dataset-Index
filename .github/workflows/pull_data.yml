@@ -48,7 +48,7 @@ jobs:
 
       - name: Test local import of bigquery modules
         env: 
-           GOOGLE_ACCOUNT_CREDENTIALS: ${{ secrets.GOOGLE_ACCOUNT_CREDENTIALS }}
+           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         run: python3 scripts/helpers/bigquery.py
 
       - name: Check if files changed
