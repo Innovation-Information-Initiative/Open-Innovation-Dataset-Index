@@ -1,6 +1,6 @@
 import sys
-sys.path.append('/scripts/libraries')
-
+sys.path.append('scripts/libraries')
+import google
 from google.cloud import bigquery
 
 
