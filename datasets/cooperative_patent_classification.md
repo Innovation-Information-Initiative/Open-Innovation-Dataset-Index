@@ -13,13 +13,14 @@ documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefin
 last_edit: Mon, 04 Apr 2022 19:07:06 GMT
 location: https://www.cooperativepatentclassification.org/index
 maintained_by: USPTO, EPO
-schema_fields: '[''limitingReferences'', ''additional_only'', ''child_groups'', ''date_revised'',
-  ''synonyms'', ''notAllocatable'', ''not_allocatable'', ''definition'', ''informative_references'',
-  ''symbol'', ''children'', ''title_full'', ''childGroups'', ''glossary'', ''title_part'',
-  ''ipc_concordant'', ''titlePart'', ''status'', ''informativeReferences'', ''titleFull'',
-  ''limiting_references'', ''breakdownCode'', ''level'', ''ipcConcordant'', ''parents'',
-  ''residualReferences'', ''applicationReferences'', ''breakdown_code'', ''dateRevised'',
-  ''application_references'', ''sizeCache'', ''residual_references'']'
+schema_fields: '[''breakdown_code'', ''limitingReferences'', ''additional_only'',
+  ''date_revised'', ''informativeReferences'', ''dateRevised'', ''ipcConcordant'',
+  ''glossary'', ''title_full'', ''child_groups'', ''level'', ''informative_references'',
+  ''residual_references'', ''synonyms'', ''sizeCache'', ''symbol'', ''notAllocatable'',
+  ''not_allocatable'', ''residualReferences'', ''childGroups'', ''breakdownCode'',
+  ''parents'', ''status'', ''applicationReferences'', ''ipc_concordant'', ''limiting_references'',
+  ''title_part'', ''titleFull'', ''children'', ''titlePart'', ''application_references'',
+  ''definition'']'
 shortname: cooperative_patent_classification
 tags:
 - patents
