@@ -15,10 +15,10 @@ documentation: https://developer.uspto.gov/ptab-api/swagger-ui.html
 last_edit: Mon, 04 Apr 2022 19:06:45 GMT
 location: https://developer.uspto.gov/ptab-web/#/search/decisions
 maintained_by: USPTO
-schema_fields: '[''PetitionerPartyName'', ''FilingDate'', ''PatentNumber'', ''TrialNumber'',
-  ''application_number'', ''ProsecutionStatus'', ''AccordedFilingDate'', ''InventorName'',
-  ''LastModifiedDatetime'', ''publication_number'', ''PatentOwnerName'', ''Documents'',
-  ''ApplicationNumber'', ''InstitutionDecisionDate'']'
+schema_fields: '[''PetitionerPartyName'', ''PatentOwnerName'', ''Documents'', ''publication_number'',
+  ''FilingDate'', ''AccordedFilingDate'', ''InstitutionDecisionDate'', ''InventorName'',
+  ''TrialNumber'', ''LastModifiedDatetime'', ''ApplicationNumber'', ''PatentNumber'',
+  ''ProsecutionStatus'', ''application_number'']'
 shortname: ptab
 tags:
 - legal
