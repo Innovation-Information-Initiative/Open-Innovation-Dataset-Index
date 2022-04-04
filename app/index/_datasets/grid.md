@@ -17,6 +17,7 @@ documentation: 'https://www.grid.ac/pages/policies '
 last_edit: Mon, 04 Apr 2022 19:13:32 GMT
 location: https://www.grid.ac/
 maintained_by: contact@grid.ac, Digital Science
+schema_fields: '[]'
 shortname: grid
 tags:
 - disambiguation

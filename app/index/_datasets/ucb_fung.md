@@ -19,6 +19,14 @@ documentation: https://funginstitute.berkeley.edu/wp-content/uploads/2016/11/Mac
 last_edit: Mon, 04 Apr 2022 19:12:10 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ucb-fung-patent
 related_publications: ' https://doi.org/10.1111/jems.12259'
+schema_fields: '[''PatentNo'', ''CountryCodeOrNPL_cited'', ''sequence'', ''FutureUse'',
+  ''Self_Citation_Flag'', ''ApplNo'', ''State'', ''id'', ''City'', ''string_field_1'',
+  ''AssistExaminer'', ''Company'', ''FamilyID'', ''InventorFullname'', ''IssueDate'',
+  ''Title'', ''CPC_Full'', ''InventorID'', ''CPC_Layer_1'', ''int64_field_0'', ''assignee_disambiguated'',
+  ''PatentNoOrNPL_cited'', ''Sequence'', ''Word'', ''FirstMiddleName'', ''CurrentUse'',
+  ''Abstract'', ''ApplDate'', ''FullName'', ''Type'', ''LawFirm'', ''pdpass'', ''Country'',
+  ''PatentNo_citing'', ''string_field_2'', ''Geography'', ''CPC_Layer_2'', ''PrimaryExaminer'',
+  ''GovernmentInterests'', ''LastName'']'
 shortname: ucb_fung
 tags:
 - patents

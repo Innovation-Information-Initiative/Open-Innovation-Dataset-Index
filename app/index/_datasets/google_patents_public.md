@@ -16,6 +16,14 @@ last_edit: Mon, 04 Apr 2022 19:03:34 GMT
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46
+schema_fields: '[''publication_number'', ''parent'', ''art_unit'', ''application_kind'',
+  ''priority_claim'', ''spif_publication_number'', ''uspc'', ''filing_date'', ''family_id'',
+  ''country_code'', ''claims_localized_html'', ''assignee'', ''kind_code'', ''description_localized'',
+  ''inventor'', ''application_number'', ''description_localized_html'', ''ipc'', ''spif_application_number'',
+  ''locarno'', ''application_number_formatted'', ''pct_number'', ''publication_date'',
+  ''grant_date'', ''claims_localized'', ''inventor_harmonized'', ''examiner'', ''child'',
+  ''abstract_localized'', ''title_localized'', ''priority_date'', ''citation'', ''cpc'',
+  ''fi'', ''assignee_harmonized'', ''fterm'', ''entity_status'']'
 shortname: google_patents_public
 superseded_by: Fri, 25 Feb 2022 23:34:33 GMT
 tags:

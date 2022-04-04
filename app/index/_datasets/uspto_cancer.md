@@ -17,6 +17,7 @@ documentation: https://bulkdata.uspto.gov/data/patent/cancer/moonshot/2016/cance
 last_edit: Mon, 04 Apr 2022 19:11:52 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/cancer-moonshot-patent-data
 maintained_by: economicsData@uspto.gov
+schema_fields: '[]'
 shortname: uspto_cancer
 tags:
 - health
