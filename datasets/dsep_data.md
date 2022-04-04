@@ -21,11 +21,10 @@ description: "The OEIDD database provides a full overview of all disclosed IPR a
 documentation: Included with files
 last_edit: Mon, 04 Apr 2022 19:04:41 GMT
 location: http://ssopatents.org/
-schema_fields: '[''blanket_scope'', ''sc_name'', ''licensing_commitment'', ''disclosure_event'',
-  ''committee_project'', ''blanket_type'', ''serial_cleaned'', ''patent_owner_harmonized'',
-  ''copyright'', ''reciprocity'', ''record_id'', ''date'', ''third_party'', ''sso'',
-  ''pub_cleaned'', ''standard'', ''family_id'', ''wg_name'', ''patent_owner_unharmonized'',
-  ''tc_name'']'
+schema_fields: '[''serial_cleaned'', ''wg_name'', ''committee_project'', ''licensing_commitment'',
+  ''record_id'', ''blanket_scope'', ''sc_name'', ''sso'', ''family_id'', ''date'',
+  ''blanket_type'', ''standard'', ''tc_name'', ''reciprocity'', ''third_party'', ''patent_owner_unharmonized'',
+  ''pub_cleaned'', ''disclosure_event'', ''patent_owner_harmonized'', ''copyright'']'
 shortname: dsep_data
 tags:
 - disclosure
