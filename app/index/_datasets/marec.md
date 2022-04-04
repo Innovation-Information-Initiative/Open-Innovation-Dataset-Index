@@ -13,7 +13,8 @@ description: 'MAREC Data is a static collection of over 19 million patent applic
 last_edit: Mon, 04 Apr 2022 19:05:39 GMT
 location: http://www.ifs.tuwien.ac.at/imp/marec.shtml
 maintained_by: marec@fandan.net
-schema_fields: '[''truncated'', ''xml'', ''publication_number_original'', ''publication_number'']'
+schema_fields: '[''xml'', ''publication_number'', ''publication_number_original'',
+  ''truncated'']'
 shortname: marec
 tags:
 - global
