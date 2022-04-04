@@ -54,12 +54,18 @@ The last step, is to share access to the sheet with the service account you just
 
 ## 2. Integrating Github Actions
 
-Fork a copy of the repository
+Fork a copy of the repository. 
+
+Testing
 
 Changing Tab names
 
 Leave citation for now
 
+schema: tool/software -> title
 
+## 3. jekyll app
 
-## 3.
+redo config folder names
+
+make about etc page markdown and thus importable from gh

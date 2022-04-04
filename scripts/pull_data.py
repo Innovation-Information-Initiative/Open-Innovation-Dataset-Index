@@ -4,18 +4,12 @@ import os
 import pkg_resources
 import subprocess
 
-from helpers import gsheets, files
+from helpers import gsheets, files, schemas
 from helpers.utils import get_project_root
 from helpers.sprites import create_sprites
 
 archive_targets = ['Open_Innovation_Datasets', 'Innovation_Data_Toolkit']
 
-def check_bigquery(data):
-	bq_fields = []
-	for row in data:
-		if 'bigquery' in row and row['bigquery'].strip() != '' and 'schema' not in row:
-			print(row['title'], row['bigquery'])
-	return bq_fields
 
 def archive_gsheet(sheets, output_dir, creds):
 	os.makedirs(output_dir, exist_ok=True)
@@ -25,7 +19,11 @@ def archive_gsheet(sheets, output_dir, creds):
 		data = gsheets.get(ws)
 
 		filename = os.path.join(output_dir, f"{sh['title']}.csv")
-		files.write_csv(data, filename)
+
+		# get the bigquery datasets
+		data_with_schemas = schemas.get_schemas(data)
+
+		files.write_csv(data_with_schemas, filename)
 
 		if sh["title"] in archive_targets:
 			data, schema = gsheets.json_from_data(data)
@@ -33,11 +31,6 @@ def archive_gsheet(sheets, output_dir, creds):
 			new_files = files.generate_markdown(data, md_path)
 			create_sprites(new_files)
 			files.update_markdown(data, md_path)
-			bq_fields = check_bigquery(data)
-
-			if len(bq_fields) > 0:
-				print('bq fields true')
-				# subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'google-cloud-bigquery'])
 
 		print(f"sheet written to {filename}")
 
