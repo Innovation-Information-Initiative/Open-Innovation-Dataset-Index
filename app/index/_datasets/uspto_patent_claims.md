@@ -20,12 +20,12 @@ last_edit: Mon, 04 Apr 2022 19:05:59 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=2844964
-schema_fields: '[''pub_dep_wrd_min'', ''char_ct'', ''pub_no'', ''or_ct'', ''dependencies'',
-  ''claim_txt'', ''publication_number'', ''pub_wrd_avg'', ''pat_dep_wrd_ct'', ''pub_wrd_min'',
-  ''sf_ct'', ''ind_flg'', ''pub_dep_wrd_avg'', ''pat_dep_wrd_min'', ''pub_dep_clm_ct'',
-  ''pub_clm_ct'', ''pat_clm_ct'', ''pat_dep_wrd_avg'', ''pat_dep_clm_ct'', ''pat_no'',
-  ''cns_ct'', ''pat_wrd_ct'', ''claim_no'', ''pat_wrd_min'', ''appl_id'', ''word_ct'',
-  ''pat_wrd_avg'', ''pub_wrd_ct'', ''pub_dep_wrd_ct'']'
+schema_fields: '[''dependencies'', ''char_ct'', ''sf_ct'', ''pat_no'', ''or_ct'',
+  ''pub_clm_ct'', ''pub_no'', ''word_ct'', ''appl_id'', ''pub_dep_clm_ct'', ''pat_dep_wrd_min'',
+  ''pub_dep_wrd_avg'', ''pat_wrd_min'', ''pub_wrd_min'', ''pat_wrd_avg'', ''pat_dep_wrd_avg'',
+  ''pat_dep_clm_ct'', ''ind_flg'', ''claim_txt'', ''pub_wrd_ct'', ''publication_number'',
+  ''pat_dep_wrd_ct'', ''cns_ct'', ''pub_wrd_avg'', ''pat_clm_ct'', ''pub_dep_wrd_min'',
+  ''claim_no'', ''pub_dep_wrd_ct'', ''pat_wrd_ct'']'
 shortname: uspto_patent_claims
 tags:
 - financial services
