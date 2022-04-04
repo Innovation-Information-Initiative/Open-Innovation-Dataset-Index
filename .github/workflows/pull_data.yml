@@ -34,6 +34,11 @@ jobs:
           python3 -m pip install python-frontmatter
           python3 -m pip install six
 
+      - name: Set Up GCP Credentials
+        uses: nodes-app/action-google-credentials@v1
+        with:
+          service-account-key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+
       - name: Pull GSheet data and generate markdown
         id: 'sheet_to_csv'
         env: 
@@ -46,14 +51,6 @@ jobs:
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 scripts/pull_data.py
-
-      - name: Set Up GCP Credentials
-        uses: nodes-app/action-google-credentials@v1
-        with:
-          service-account-key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-
-      - name: Test local import of bigquery modules
-        run: python3 scripts/helpers/bigquery.py
 
       - name: Check if files changed
         id: check_diff
