@@ -1,5 +1,5 @@
 ---
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/uspto-oce-claims
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_oce_claims&page=dataset
 citation: 'Marco, Alan C. and Sarnoff, Joshua D. and deGrazia, Charles, Patent Claims
   and Patent Scope (October 2016). USPTO Economic Working Paper 2016-04. Available
   at: SSRN: https://ssrn.com/abstract=2844964'
@@ -15,7 +15,7 @@ description: The Patent Claims Research Dataset contain detailed information on 
   measures of patent scope.
 documentation: Available at source, including documentation of variables
 doi: 'http://dx.doi.org/10.2139/ssrn.2844964 '
-last_edit: Fri, 03 Dec 2021 11:28:49 GMT
+last_edit: Mon, 04 Apr 2022 19:05:59 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=2844964

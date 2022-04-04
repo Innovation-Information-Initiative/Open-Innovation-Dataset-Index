@@ -1,5 +1,5 @@
 ---
-bigquery: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
+bigquery: https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=labeled_patents&page=dataset
 contributors: Google Patents
 cost: None
 description: 'The dataset consists of PDFs in Google Cloud Storage from the first
@@ -23,7 +23,7 @@ description: 'The dataset consists of PDFs in Google Cloud Storage from the firs
 
   '
 documentation: At site
-last_edit: Mon, 10 Jan 2022 22:09:46 GMT
+last_edit: Mon, 04 Apr 2022 19:12:30 GMT
 location: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
 maintained_by: Google Cloud Public Datasets Program
 shortname: patent_pdf_samples

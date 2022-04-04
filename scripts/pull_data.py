@@ -20,19 +20,23 @@ def archive_gsheet(sheets, output_dir, creds):
 
 		filename = os.path.join(output_dir, f"{sh['title']}.csv")
 
-		# get the bigquery datasets
-		data_with_schemas = schemas.get_schemas(data)
-
-		files.write_csv(data_with_schemas, filename)
-
 		if sh["title"] in archive_targets:
-			data, schema = gsheets.json_from_data(data)
+			data, headers = gsheets.json_from_data(data)
 			md_path = os.path.join(get_project_root(), sh["directory"])
 			new_files = files.generate_markdown(data, md_path)
 			create_sprites(new_files)
 			files.update_markdown(data, md_path)
+			data, update_metadata = schemas.get_schemas(data)
 
+		files.write_csv_from_dict(data, filename)
 		print(f"sheet written to {filename}")
+
+		# push schema changes back to gsheet
+		if update_metadata:
+			data_df = pd.DataFrame.from_dict(data)
+			data_df.colums = headers
+			gsheets.post_df(ws, data_df)
+
 
 if __name__ == "__main__":
 	creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))

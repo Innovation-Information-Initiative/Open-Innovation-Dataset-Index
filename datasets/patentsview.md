@@ -1,5 +1,5 @@
 ---
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/patentsview
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=patentsview&page=dataset
 citation: Attribution should be given to PatentsView for use, distribution, or derivative
   works.
 code: https://github.com/CSSIP-AIR/PatentsView-Code-Snippets/
@@ -10,7 +10,7 @@ description: 'PatentsView includes US patent data including raw data (summaries,
   gender estimates.  Also foreign priority data, # of figures and sheets, and government
   interest statements.'
 documentation: https://patentsview.org/query/builder-faqs
-last_edit: Tue, 29 Mar 2022 14:10:32 GMT
+last_edit: Mon, 04 Apr 2022 19:02:57 GMT
 location: https://patentsview.org/
 maintained_by: USPTO
 record_creation_timestamp: 12/2/2020 17:20:46

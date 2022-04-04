@@ -1,6 +1,6 @@
 ---
 api_or_bulk_downloads: API, Bulk export
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-public-data
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&page=dataset
 citation: “Google Patents Public Data” by IFI CLAIMS Patent Services and Google, used
   under CC BY 4.0
 code: 'patent analysis sample code: https://github.com/google/patents-public-data,
@@ -11,7 +11,7 @@ description: Worldwide (100+ countries) bibliographic and USPTO full-text, avail
   via BigQuery. Provided by IFI CLAIMS Patent Services, a worldwide bibliographic
   and US full-text dataset of patent publications. Updated quarterly.
 documentation: https://cloud.google.com/blog/topics/public-datasets/google-patents-public-datasets-connecting-public-paid-and-private-patent-data
-last_edit: Tue, 04 Jan 2022 13:52:58 GMT
+last_edit: Mon, 04 Apr 2022 19:03:34 GMT
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46

@@ -8,11 +8,14 @@ import random
 import os
 import csv
 import re
+import pandas as pd
 
-def write_csv(data, filepath):
-	with open(filepath, "w", newline="") as csvfile:
-		writer = csv.writer(csvfile, delimiter=",")
-		writer.writerows(data)
+def write_csv_from_dict(data, filepath):
+	df = pd.DataFrame.from_dict(data)
+	df.to_csv(filepath)
+	# with open(filepath, "w", newline="") as csvfile:
+	# 	writer = csv.writer(csvfile, delimiter=",")
+	# 	writer.writerows(data)
 
 
 def update_frontmatter(record, filepath):

@@ -1,5 +1,5 @@
 ---
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/chembl
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=ebi_chembl&page=dataset
 citation: '"The ChEMBL database in 2017." Anna Gaulton, Anne Hersey, Michał Nowotka,
   A Patrícia Bento, Jon Chambers, David Mendez, Prudence Mutowo, Francis Atkinson,
   Louisa J Bellis, Elena Cibrián-Uhalte, Mark Davies, Nathan Dedman, Anneli Karlsson,
@@ -13,7 +13,7 @@ documentation: 'schema: https://www.ebi.ac.uk/chembl/db_schema
 
 
   '
-last_edit: Fri, 03 Dec 2021 11:41:35 GMT
+last_edit: Mon, 04 Apr 2022 19:07:30 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/chembl
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 related_publications: '
