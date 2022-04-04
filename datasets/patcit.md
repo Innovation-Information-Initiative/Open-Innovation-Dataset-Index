@@ -30,16 +30,16 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 relationships:
 - rons
 - lens
-schema_fields: '[''author'', ''wg'', ''reference_count'', ''title'', ''issue'', ''is_referenced_by_count'',
-  ''npl_cat_score'', ''npl_publn_id'', ''event'', ''tech'', ''type'', ''patcit_id'',
-  ''volume'', ''page'', ''is_cited_by_count'', ''URL'', ''tsg'', ''tdoc_num'', ''language_is_reliable'',
-  ''ISSN'', ''PMCID'', ''cited_by'', ''md5'', ''journal_title'', ''reference_doi'',
-  ''publication_date'', ''funder'', ''journal_title_abbrev'', ''hostname'', ''DOI'',
-  ''PMID'', ''npl_cat_language_flag'', ''version'', ''docdb_family_id'', ''hash_id'',
-  ''npl_cat'', ''url'', ''meeting'', ''item'', ''name'', ''inpadoc_family_id'', ''ref'',
-  ''publication_number'', ''acc_num'', ''language_code'', ''bibref_score'', ''abstract'',
-  ''source'', ''ISBN'', ''appln_id'', ''institution'', ''body'', ''citation'', ''subject'',
-  ''date'', ''pat_publn_id'']'
+schema_fields: '[''PMID'', ''issue'', ''npl_cat'', ''URL'', ''title'', ''abstract'',
+  ''name'', ''source'', ''institution'', ''author'', ''tdoc_num'', ''version'', ''type'',
+  ''npl_publn_id'', ''language_code'', ''reference_doi'', ''funder'', ''tech'', ''is_cited_by_count'',
+  ''md5'', ''event'', ''patcit_id'', ''appln_id'', ''journal_title'', ''journal_title_abbrev'',
+  ''pat_publn_id'', ''is_referenced_by_count'', ''publication_number'', ''wg'', ''date'',
+  ''language_is_reliable'', ''citation'', ''volume'', ''reference_count'', ''ref'',
+  ''meeting'', ''bibref_score'', ''cited_by'', ''hostname'', ''DOI'', ''docdb_family_id'',
+  ''body'', ''PMCID'', ''acc_num'', ''inpadoc_family_id'', ''page'', ''ISBN'', ''ISSN'',
+  ''tsg'', ''subject'', ''npl_cat_language_flag'', ''item'', ''hash_id'', ''url'',
+  ''npl_cat_score'', ''publication_date'']'
 shortname: patcit
 superseded_by: Wed, 23 Feb 2022 03:04:44 GMT
 tags:
