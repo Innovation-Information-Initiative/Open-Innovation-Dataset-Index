@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/marec
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=marec&page=dataset
 cost: None
 description: 'MAREC Data is a static collection of over 19 million patent applications
   and granted patents in a unified file format normalized from EP, WO, US, and JP
@@ -10,7 +10,7 @@ description: 'MAREC Data is a static collection of over 19 million patent applic
   languages, references, person names, and companies as well as rich subject classifications.
   It is a comparable corpus, where many documents are available in similar versions
   in other languages. '
-last_edit: Fri, 03 Dec 2021 11:24:25 GMT
+last_edit: Mon, 04 Apr 2022 19:05:39 GMT
 location: http://www.ifs.tuwien.ac.at/imp/marec.shtml
 maintained_by: marec@fandan.net
 shortname: marec

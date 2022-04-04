@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/dsep
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=dsep&page=dataset
 citation: 'Bekkers, R., Catalini, C., Martinelli, A., & Simcoe, T. (2012). Intellectual
   Property Disclosure in Standards Development. Proceedings from NBER conference on
   Standards, Patents & Innovation, Tucson (AZ), January 20 and 21, 2012.
@@ -20,7 +20,7 @@ description: "The OEIDD database provides a full overview of all disclosed IPR a
   or patent applications identified in PATSTAT, belonging to 4814 different INPADOC
   patent families and 5337 different DOCDB patent families. \n"
 documentation: Included with files
-last_edit: Fri, 03 Dec 2021 11:08:33 GMT
+last_edit: Mon, 04 Apr 2022 19:04:41 GMT
 location: http://ssopatents.org/
 shortname: dsep_data
 tags:

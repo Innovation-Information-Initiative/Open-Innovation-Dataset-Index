@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/usitc-investigations
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=usitc_investigations&page=dataset&project=sheets-management-319211
 citation: US International Trade Commission 337Info Unfair Import Investigations Information
   System
 contributors: US International Trade Comission
@@ -12,7 +12,7 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: Fri, 03 Dec 2021 11:56:35 GMT
+last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 shortname: unfair_import_investigations
