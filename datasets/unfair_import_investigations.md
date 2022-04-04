@@ -14,6 +14,17 @@ documentation: FAQ and tutorial available on the site
 last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
+schema_fields: '[''trademarkNumbers'', ''publication_number'', ''teoReliefGranted'',
+  ''actualEndDateEvidHear'', ''endDateMarkmanHearing'', ''finalDetViolation'', ''id'',
+  ''docketNo'', ''dateComplaintFiled'', ''finalIdOnViolationDue'', ''scheduledStartDateEvidHear'',
+  ''issueDateOtherNonFinal'', ''startDateMarkmanHearing'', ''complainant'', ''cafcAppeals'',
+  ''respondent'', ''copyrightNumbers'', ''invUnfairAct'', ''currentStatus'', ''dateCreated'',
+  ''markmanHearing'', ''finalDetNoViolation'', ''aljAssigned'', ''targetDate'', ''lastUpdated'',
+  ''dateOfPublicationFrNotice'', ''investigationTermDate'', ''gcAttorney'', ''currentActiveALJ'',
+  ''htsNumbers'', ''finalIdOnViolationIssue'', ''teoIdIssueDate'', ''ouiiParticipation'',
+  ''reportingRequirements'', ''investigationNo'', ''title'', ''investigationType'',
+  ''scheduledEndDateEvidHear'', ''ouiiAttorney'', ''teoIdDueDate'', ''patentNumber'',
+  ''patentNumbers'', ''teoProceedingInvolved'', ''actualStartDateEvidHear'', ''internalRemand'']'
 shortname: unfair_import_investigations
 tags:
 - import

@@ -19,6 +19,14 @@ last_edit: Mon, 04 Apr 2022 19:06:23 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-assignment-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: http://ssrn.com/abstract=2636461
+schema_fields: '[''publication_number'', ''or_name'', ''convey_ty'', ''caddress_3'',
+  ''appno_doc_num'', ''ack_dt'', ''record_dt'', ''ee_city'', ''admin_pat_no_for_appno'',
+  ''page_count'', ''pgpub_date'', ''appno_date'', ''grant_country'', ''ee_country'',
+  ''admin_appl_id_for_grant'', ''last_update_dt'', ''lang'', ''ee_name'', ''appno_country'',
+  ''caddress_1'', ''convey_text'', ''grant_date'', ''cname'', ''pgpub_country'', ''frame_no'',
+  ''ee_address_1'', ''caddress_2'', ''grant_doc_num'', ''ee_postcode'', ''employer_assign'',
+  ''reel_no'', ''exec_dt'', ''title'', ''pgpub_doc_num'', ''error'', ''purge_in'',
+  ''rf_id'', ''caddress_4'', ''file_id'', ''ee_address_2'', ''ee_state'']'
 shortname: uspto_patent_assignment
 tags:
 - patents

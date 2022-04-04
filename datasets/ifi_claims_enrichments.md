@@ -9,6 +9,7 @@ documentation: https://www.ificlaims.com/news/view/blog-posts/public-patent-data
 last_edit: Fri, 03 Dec 2021 12:00:13 GMT
 location: https://www.ificlaims.com/product/product-data-enrichments.htm
 maintained_by: IFI CLAIMS
+schema_fields: '[]'
 shortname: ifi_claims_enrichments
 tags:
 - analytics
