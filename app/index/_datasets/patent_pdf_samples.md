@@ -27,11 +27,11 @@ documentation: At site
 last_edit: Mon, 04 Apr 2022 19:12:30 GMT
 location: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
 maintained_by: Google Cloud Public Datasets Program
-schema_fields: '[''publication_date'', ''applicant_line_1'', ''title_line_1'', ''language'',
-  ''class_international'', ''class_us'', ''issuer'', ''x_relative_min'', ''application_number'',
-  ''y_relative_min'', ''filing_date'', ''gcs_path'', ''y_relative_max'', ''x_relative_max'',
-  ''number'', ''representative_line_1_eu'', ''inventor_line_1'', ''priority_date_eu'',
-  ''invention_type'']'
+schema_fields: '[''x_relative_min'', ''applicant_line_1'', ''inventor_line_1'', ''y_relative_max'',
+  ''priority_date_eu'', ''publication_date'', ''invention_type'', ''language'', ''gcs_path'',
+  ''title_line_1'', ''class_us'', ''number'', ''y_relative_min'', ''representative_line_1_eu'',
+  ''issuer'', ''application_number'', ''class_international'', ''x_relative_max'',
+  ''filing_date'']'
 shortname: patent_pdf_samples
 tags:
 - machine learning
