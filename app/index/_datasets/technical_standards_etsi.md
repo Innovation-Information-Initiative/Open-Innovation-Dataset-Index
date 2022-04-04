@@ -12,7 +12,7 @@ documentation: https://github.com/google/patents-public-data/blob/master/tables/
 last_edit: Mon, 04 Apr 2022 19:09:59 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/cpa-global-technical-standards-etsi
 maintained_by: Google Patents Public Data
-schema_fields: '[''TechnicalStandard'', ''PublicationNumber'', ''StandardBody'']'
+schema_fields: '[''PublicationNumber'', ''StandardBody'', ''TechnicalStandard'']'
 shortname: technical_standards_etsi
 tags:
 - standards
