@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/digitalscience-public/dimensions-ai
+bigquery: https://console.cloud.google.com/bigquery?p=covid-19-dimensions-ai&page=table&d=data&t=publications
 contributors: Digital Science, https://www.digital-science.com/
 cost: Free for personal, non-commercial use.
 description: Dimensions contains more than 100 million publications, ranging from
@@ -9,7 +9,7 @@ description: Dimensions contains more than 100 million publications, ranging fro
   sets, funding, publications, patents, clinical trials, and policy documents. You
   can also view associated categories, funders, institutions, and researcher profiles.
 documentation: https://docs.dimensions.ai/bigquery/index.html
-last_edit: Fri, 03 Dec 2021 12:09:49 GMT
+last_edit: Mon, 04 Apr 2022 19:04:00 GMT
 location: https://www.dimensions.ai/products/free/
 maintained_by: Digital Science, https://www.digital-science.com/
 shortname: dimensions

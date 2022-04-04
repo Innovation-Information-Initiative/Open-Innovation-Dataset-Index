@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/uspto-oce-pairr
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_oce_pair&page=dataset
 citation: 'Graham, S. Marco, A., and Miller, A. (2015). “The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination.”'
 contributors: Graham, S. Marco, A., Miller, A.
@@ -24,7 +24,7 @@ documentation: 'For the 2019 and later releases, new technical documentation is 
   Graham, Stuart J.H. and Marco, Alan C. and Miller, Richard, The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination (November 30, 2015).
   Available at SSRN: https://ssrn.com/abstract=2702637.'
-last_edit: Fri, 03 Dec 2021 11:28:04 GMT
+last_edit: Mon, 04 Apr 2022 19:06:22 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=29956744, https://ssrn.com/abstract=2702637

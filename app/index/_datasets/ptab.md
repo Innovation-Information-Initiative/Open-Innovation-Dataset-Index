@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/uspto-ptab
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_ptab&page=dataset
 citation: “USPTO PTAB API” by the USPTO, for public use.
 cost: None
 description: 'USPTO Patent Trial and Appeal Board (PTAB) API Data contains data from
@@ -13,7 +13,7 @@ description: 'USPTO Patent Trial and Appeal Board (PTAB) API Data contains data 
   request a bulk download of PTAB content. The PTAB API synchronizes close to real
   time with the PTAB E2E (end-to-end) system.'
 documentation: https://developer.uspto.gov/ptab-api/swagger-ui.html
-last_edit: Fri, 03 Dec 2021 11:34:22 GMT
+last_edit: Mon, 04 Apr 2022 19:06:45 GMT
 location: https://developer.uspto.gov/ptab-web/#/search/decisions
 maintained_by: USPTO
 shortname: ptab

@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/surechembl
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=ebi_surechembl&page=dataset
 citation: '“SureChEMBL” by the European Bioinformatics Institute (EMBL-EBI), used
   under CC BY-SA 3.0. G. Papadatos, M. Davies, N. Dedman, J. Chambers, A. Gaulton,
   J. Siddle, R. Koks, S. A. Irvine, J. Pettersson, N. Goncharoff, A. Hersey, J. P.
@@ -20,7 +20,7 @@ description: 'SureChEMBL is a publicly available large-scale resource containing
   17 million compounds extracted from 14 million patent documents. '
 documentation: http://chembl.blogspot.com/
 doi: https://doi.org/10.1093/nar/gkv1253
-last_edit: Fri, 03 Dec 2021 11:15:45 GMT
+last_edit: Mon, 04 Apr 2022 19:05:20 GMT
 location: https://www.surechembl.org/search/
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 shortname: surechembl

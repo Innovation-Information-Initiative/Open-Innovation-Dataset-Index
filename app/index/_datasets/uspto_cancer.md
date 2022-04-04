@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/uspto-oce-cancer
+bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_cancer&page=dataset&project=sheets-management-319211
 citation: 'Frumkin, Jesse and Myers, Amanda F., Cancer Moonshot Patent Data (August,
   2016). '
 contributors: Jesse Frumkin, Amanda F. Myers
@@ -14,7 +14,7 @@ description: 'The USPTO Cancer Moonshot Patent Data contains detailed informatio
   surgical devices, data analytics, and genomic-based inventions. The final dataset
   consist of roughly 270,000 patent documents spanning the 1976 to 2016 period. '
 documentation: https://bulkdata.uspto.gov/data/patent/cancer/moonshot/2016/cancer_patent_data_doc_v15.docx
-last_edit: Fri, 03 Dec 2021 12:03:29 GMT
+last_edit: Mon, 04 Apr 2022 19:11:52 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/cancer-moonshot-patent-data
 maintained_by: economicsData@uspto.gov
 shortname: uspto_cancer

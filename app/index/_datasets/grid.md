@@ -1,6 +1,6 @@
 ---
 layout: default
-bigquery: https://console.cloud.google.com/marketplace/product/digitalscience-public/grid-ac-database
+bigquery: https://console.cloud.google.com/bigquery?p=grid-ac&page=table&d=data&t=research_orgs&project=sheets-management-319211
 contributors: Digital Science & Research Solutions Ltd
 cost: None
 description: 'GRID is a free and openly available global database of over 100,000
@@ -14,7 +14,7 @@ description: 'GRID is a free and openly available global database of over 100,00
   Registry IDs, ISNI and link to country specific IDs like UCAS codes, UKPRN numbers,
   HESA codes are used. '
 documentation: 'https://www.grid.ac/pages/policies '
-last_edit: Fri, 03 Dec 2021 12:18:11 GMT
+last_edit: Mon, 04 Apr 2022 19:13:32 GMT
 location: https://www.grid.ac/
 maintained_by: contact@grid.ac, Digital Science
 shortname: grid
