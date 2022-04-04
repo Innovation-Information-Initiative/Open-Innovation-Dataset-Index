@@ -3,6 +3,7 @@ import json
 import os
 import pkg_resources
 import subprocess
+import pandas as pd
 
 from helpers import gsheets, files, schemas
 from helpers.utils import get_project_root
