@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 21:33:13
+last_edit: 04/05/2022, 21:49:50
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- patentNumbers
-- targetDate
-- teoProceedingInvolved
-- endDateMarkmanHearing
-- ouiiAttorney
-- reportingRequirements
-- finalDetViolation
-- investigationType
-- ouiiParticipation
-- scheduledEndDateEvidHear
-- respondent
-- dateOfPublicationFrNotice
 - dateCreated
-- investigationNo
-- currentActiveALJ
-- dateComplaintFiled
-- finalDetNoViolation
-- finalIdOnViolationDue
-- patentNumber
 - cafcAppeals
-- title
-- invUnfairAct
-- copyrightNumbers
-- finalIdOnViolationIssue
-- aljAssigned
-- investigationTermDate
-- teoReliefGranted
-- actualStartDateEvidHear
-- complainant
-- scheduledStartDateEvidHear
 - actualEndDateEvidHear
-- currentStatus
-- docketNo
-- issueDateOtherNonFinal
-- teoIdDueDate
-- startDateMarkmanHearing
+- patentNumbers
+- dateComplaintFiled
+- finalDetViolation
 - trademarkNumbers
-- markmanHearing
-- publication_number
+- actualStartDateEvidHear
 - gcAttorney
-- teoIdIssueDate
-- internalRemand
+- markmanHearing
+- respondent
+- ouiiParticipation
+- targetDate
+- startDateMarkmanHearing
+- finalDetNoViolation
+- currentActiveALJ
+- teoIdDueDate
+- teoReliefGranted
+- issueDateOtherNonFinal
+- copyrightNumbers
+- ouiiAttorney
 - lastUpdated
+- aljAssigned
+- publication_number
+- complainant
+- invUnfairAct
+- title
+- finalIdOnViolationIssue
+- endDateMarkmanHearing
+- docketNo
+- scheduledStartDateEvidHear
 - htsNumbers
+- scheduledEndDateEvidHear
+- investigationTermDate
+- patentNumber
+- investigationNo
+- currentStatus
+- dateOfPublicationFrNotice
 - id
+- investigationType
+- finalIdOnViolationDue
+- teoIdIssueDate
+- reportingRequirements
+- teoProceedingInvolved
+- internalRemand
 shortname: unfair_import_investigations
 tags:
 - import
