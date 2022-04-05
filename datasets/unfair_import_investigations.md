@@ -14,17 +14,17 @@ documentation: FAQ and tutorial available on the site
 last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
-schema_fields: '[''title'', ''investigationType'', ''finalDetNoViolation'', ''finalIdOnViolationIssue'',
-  ''targetDate'', ''internalRemand'', ''publication_number'', ''docketNo'', ''currentActiveALJ'',
-  ''invUnfairAct'', ''teoProceedingInvolved'', ''reportingRequirements'', ''id'',
-  ''patentNumbers'', ''aljAssigned'', ''gcAttorney'', ''startDateMarkmanHearing'',
-  ''trademarkNumbers'', ''teoIdDueDate'', ''markmanHearing'', ''scheduledEndDateEvidHear'',
-  ''dateOfPublicationFrNotice'', ''teoIdIssueDate'', ''dateCreated'', ''investigationTermDate'',
-  ''dateComplaintFiled'', ''ouiiAttorney'', ''respondent'', ''scheduledStartDateEvidHear'',
-  ''copyrightNumbers'', ''complainant'', ''finalIdOnViolationDue'', ''htsNumbers'',
-  ''issueDateOtherNonFinal'', ''endDateMarkmanHearing'', ''patentNumber'', ''lastUpdated'',
-  ''actualStartDateEvidHear'', ''finalDetViolation'', ''cafcAppeals'', ''actualEndDateEvidHear'',
-  ''ouiiParticipation'', ''currentStatus'', ''investigationNo'', ''teoReliefGranted'']'
+schema_fields: '[''teoIdDueDate'', ''finalDetNoViolation'', ''scheduledStartDateEvidHear'',
+  ''investigationNo'', ''teoReliefGranted'', ''docketNo'', ''finalDetViolation'',
+  ''lastUpdated'', ''dateOfPublicationFrNotice'', ''teoProceedingInvolved'', ''endDateMarkmanHearing'',
+  ''aljAssigned'', ''actualStartDateEvidHear'', ''complainant'', ''currentStatus'',
+  ''currentActiveALJ'', ''cafcAppeals'', ''issueDateOtherNonFinal'', ''htsNumbers'',
+  ''copyrightNumbers'', ''reportingRequirements'', ''internalRemand'', ''investigationTermDate'',
+  ''startDateMarkmanHearing'', ''ouiiAttorney'', ''patentNumber'', ''invUnfairAct'',
+  ''markmanHearing'', ''ouiiParticipation'', ''title'', ''patentNumbers'', ''actualEndDateEvidHear'',
+  ''finalIdOnViolationDue'', ''scheduledEndDateEvidHear'', ''trademarkNumbers'', ''respondent'',
+  ''teoIdIssueDate'', ''finalIdOnViolationIssue'', ''id'', ''targetDate'', ''dateCreated'',
+  ''dateComplaintFiled'', ''publication_number'', ''investigationType'', ''gcAttorney'']'
 shortname: unfair_import_investigations
 tags:
 - import
