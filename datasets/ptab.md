@@ -12,24 +12,24 @@ description: 'USPTO Patent Trial and Appeal Board (PTAB) API Data contains data 
   request a bulk download of PTAB content. The PTAB API synchronizes close to real
   time with the PTAB E2E (end-to-end) system.'
 documentation: https://developer.uspto.gov/ptab-api/swagger-ui.html
-last_edit: 04/05/2022, 16:38:39
+last_edit: 04/05/2022, 17:03:46
 location: https://developer.uspto.gov/ptab-web/#/search/decisions
 maintained_by: USPTO
 schema_fields:
-- PatentNumber
-- InventorName
-- FilingDate
-- PatentOwnerName
-- Documents
-- publication_number
 - AccordedFilingDate
-- PetitionerPartyName
-- TrialNumber
-- ApplicationNumber
 - InstitutionDecisionDate
+- PatentOwnerName
 - ProsecutionStatus
-- application_number
+- FilingDate
+- TrialNumber
+- Documents
+- ApplicationNumber
 - LastModifiedDatetime
+- application_number
+- PatentNumber
+- PetitionerPartyName
+- publication_number
+- InventorName
 shortname: ptab
 tags:
 - legal
