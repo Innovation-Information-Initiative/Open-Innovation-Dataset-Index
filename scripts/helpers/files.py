@@ -50,6 +50,10 @@ def update_markdown(data, directory):
 					if "tags" in row and row["tags"].strip():
 						record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
 
+					if "schema_fields" in row and row["schema_fields"].strip():
+						record["schema_fields"] = list(map(lambda field: field.strip(), row["schema_fields"].split(',')))
+
+
 			update_frontmatter(record, filepath)
 
 
@@ -104,6 +108,9 @@ def generate_markdown(data, directory):
 
 		if "tags" in row and row["tags"].strip():
 			record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
+
+		if "schema_fields" in row and row["schema_fields"].strip():
+			record["schema_fields"] = list(map(lambda field: field.strip(), row["schema_fields"].split(',')))
 
 		record["description"] = row["description"].replace('\n', ' ')
 

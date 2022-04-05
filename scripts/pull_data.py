@@ -23,11 +23,11 @@ def archive_gsheet(sheets, output_dir, creds):
 
 		if sh["title"] in archive_targets:
 			data, headers = gsheets.json_from_data(data)
+			data, update_metadata = schemas.get_schemas(data)
 			md_path = os.path.join(get_project_root(), sh["directory"])
 			new_files = files.generate_markdown(data, md_path)
 			create_sprites(new_files)
 			files.update_markdown(data, md_path)
-			data, update_metadata = schemas.get_schemas(data)
 
 		files.write_csv_from_dict(data, filename)
 		print(f"sheet written to {filename}")

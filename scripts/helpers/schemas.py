@@ -3,6 +3,7 @@ sys.path.append('scripts/libraries')
 import google
 from google.cloud import bigquery
 from furl import furl
+import datetime
 
 client = bigquery.Client()
 
@@ -78,7 +79,7 @@ def get_schemas(data):
 	bq_projects = get_bq_datasets(bq_fields)
 
 	for project in bq_projects:
-		project['schema'] = get_schema_fields(project)
+		project['schema'] = ', '.join(get_schema_fields(project))
 
 	for row in data:
 		project = next((item for item in bq_projects if item["uuid"] == row["uuid"]), None)
@@ -89,6 +90,7 @@ def get_schemas(data):
 			elif 'schema_fields' not in row:
 				update_metadata = True
 			row['schema_fields'] = project['schema']
+			row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 			print('added fields to', row['title'])
 
 	return data, update_metadata

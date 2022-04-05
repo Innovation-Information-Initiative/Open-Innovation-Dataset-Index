@@ -29,76 +29,375 @@ related_publications: '
   — Nucleic Acids Res. 2019; 47(D1):D930-D940. doi: 10.1093/nar/gky1075
 
   '
-schema_fields: '[''target_mapping'', ''target_desc'', ''therapeutic_flag'', ''uberon_id'',
-  ''volume'', ''curated_by'', ''biocomp_id'', ''abstract'', ''standard_upper_value'',
-  ''cell_id'', ''related_tid'', ''met_conversion'', ''inorganic_flag'', ''cx_most_bpka'',
-  ''normal_range_min'', ''level1_description'', ''mesh_heading'', ''aspect'', ''isoform'',
-  ''level1'', ''published_value'', ''delist_flag'', ''level2_description'', ''tid'',
-  ''label'', ''innovator_company'', ''irac_code'', ''first_in_class'', ''mc_tax_id'',
-  ''molregno'', ''alert_id'', ''set_name'', ''class_type'', ''confidence_score'',
-  ''assay_source'', ''source'', ''withdrawn_flag'', ''mutation'', ''potential_duplicate'',
-  ''entity_id'', ''sequence_md5sum'', ''ro3_pass'', ''molfile'', ''creation_date'',
-  ''usan_stem_definition'', ''level2'', ''drug_substance_flag'', ''text_value'', ''parent_molregno'',
-  ''chembl_id'', ''assay_cell_type'', ''major_class'', ''relation'', ''l4'', ''l2'',
-  ''orig_description'', ''mec_id'', ''mol_atc_id'', ''units'', ''name'', ''hrac_class_id'',
-  ''alert_set_id'', ''l6'', ''caloha_id'', ''acd_logd'', ''comp_go_id'', ''protein_class_id'',
-  ''mw_freebase'', ''alert_name'', ''upper_value'', ''ref_type'', ''level3_description'',
-  ''start_position'', ''type'', ''cl_lincs_id'', ''doc_type'', ''mecref_id'', ''efo_id'',
-  ''protein_class_synonym'', ''approval_date'', ''syn_type'', ''synonyms'', ''level4_description'',
-  ''ridx'', ''molsyn_id'', ''ref_url'', ''enzyme_name'', ''site_name'', ''tbl'', ''nda_type'',
-  ''withdrawn_country'', ''annotation'', ''src_assay_id'', ''aromatic_rings'', ''standard_inchi'',
-  ''publication_number'', ''mechanism_comment'', ''drug_product_flag'', ''priority'',
-  ''indref_id'', ''record_id'', ''co_stem_id'', ''cidx'', ''met_comment'', ''compsyn_id'',
-  ''tid_fixed'', ''clo_id'', ''drug_record_id'', ''site_residues'', ''site_id'', ''ass_cls_map_id'',
-  ''compd_id'', ''molecule_type'', ''mol_hrac_id'', ''rtb'', ''standard_type'', ''acd_most_apka'',
-  ''molecular_species'', ''direct_interaction'', ''withdrawn_class'', ''src_id'',
-  ''patent_no'', ''relationship_type'', ''component_type'', ''first_page'', ''relationship'',
-  ''status'', ''warning_description'', ''mesh_id'', ''cx_logp'', ''parent_type'',
-  ''hba'', ''ddd_comment'', ''confidence'', ''data_validity_comment'', ''mol_irac_id'',
-  ''smid'', ''pathway_key'', ''assay_organism'', ''active_molregno'', ''src_compound_id'',
-  ''parameter_type'', ''bao_endpoint'', ''prodrug'', ''authors'', ''cell_source_tissue'',
-  ''uo_units'', ''company'', ''hrac_code'', ''journal'', ''who_name'', ''polymer_flag'',
-  ''ddd_admr'', ''comments'', ''smarts'', ''targcomp_id'', ''domain_id'', ''db_version'',
-  ''hba_lipinski'', ''structure_type'', ''full_mwt'', ''patent_id'', ''entity_type'',
-  ''subgroup'', ''who_extra'', ''component_synonym'', ''short_name'', ''pathway_id'',
-  ''end_position'', ''bei'', ''target_type'', ''enzyme_tid'', ''standard_relation'',
-  ''tax_id'', ''compound_name'', ''cell_ontology_id'', ''src_description'', ''standard_units'',
-  ''hbd_lipinski'', ''standard_value'', ''mw_monoisotopic'', ''helm_notation'', ''black_box_warning'',
-  ''bto_id'', ''assay_param_id'', ''domain_type'', ''acd_logp'', ''applicant_full_name'',
-  ''src_short_name'', ''job_id'', ''frac_class_id'', ''assay_tissue'', ''parameter_value'',
-  ''sitecomp_id'', ''cell_source_tax_id'', ''species_group_flag'', ''mc_organism'',
-  ''research_stem'', ''mechanism_of_action'', ''cellosaurus_id'', ''ap_id'', ''std_act_id'',
-  ''rgid'', ''normal_range_max'', ''assay_strain'', ''mc_target_type'', ''previous_company'',
-  ''availability_type'', ''acd_most_bpka'', ''published_units'', ''sei'', ''sequence'',
-  ''oc_id'', ''canonical_smiles'', ''heavy_atoms'', ''pchembl_value'', ''ref_id'',
-  ''mc_target_name'', ''curation_comment'', ''dosage_form'', ''stat'', ''warning_type'',
-  ''parent_id'', ''ddd_value'', ''chebi_par_id'', ''oral'', ''path'', ''binding_site_comment'',
-  ''action_type'', ''assay_id'', ''assay_category'', ''prediction_method'', ''updated_by'',
-  ''log_id'', ''variant_id'', ''lle'', ''usan_substem'', ''met_id'', ''cell_source_organism'',
-  ''ad_type'', ''prod_pat_id'', ''standard_flag'', ''num_alerts'', ''product_id'',
-  ''homologue'', ''strength'', ''level5'', ''l8'', ''indication_class'', ''cpd_str_alert_id'',
-  ''domain_description'', ''max_phase'', ''go_id'', ''cx_most_apka'', ''withdrawn_year'',
-  ''usan_stem_id'', ''drugind_id'', ''cell_description'', ''max_phase_for_ind'', ''source_domain_id'',
-  ''topical'', ''disease_efficacy'', ''predbind_id'', ''published_type'', ''patent_use_code'',
-  ''aidx'', ''compound_key'', ''tissue_id'', ''alogp'', ''assay_class_id'', ''full_molformula'',
-  ''organism'', ''assay_desc'', ''title'', ''metref_id'', ''downgraded'', ''domain_name'',
-  ''trade_name'', ''l7'', ''activity_comment'', ''country'', ''db_source'', ''qudt_units'',
-  ''comp_class_id'', ''natural_product'', ''bao_format'', ''protclasssyn_id'', ''stem_class'',
-  ''withdrawn_reason'', ''activity_id'', ''molecular_mechanism'', ''assay_subcellular_fraction'',
-  ''issue'', ''relationship_desc'', ''warning_year'', ''ddd_units'', ''frac_code'',
-  ''warning_country'', ''version'', ''level4'', ''atc_code'', ''patent_expire_date'',
-  ''component_id'', ''as_id'', ''doc_id'', ''ddd_id'', ''psa'', ''value'', ''stem'',
-  ''description'', ''num_lipinski_ro5_violations'', ''accession'', ''usan_year'',
-  ''class_level'', ''route'', ''cell_name'', ''pubmed_id'', ''toid'', ''doi'', ''standard_inchi_key'',
-  ''level3'', ''submission_date'', ''protein_class_desc'', ''metabolite_record_id'',
-  ''ingredient'', ''parenteral'', ''dosed_ingredient'', ''assay_tax_id'', ''substrate_record_id'',
-  ''selectivity_comment'', ''standard_text_value'', ''l5'', ''chirality'', ''efo_term'',
-  ''first_approval'', ''definition'', ''actsm_id'', ''published_relation'', ''active_ingredient'',
-  ''warning_id'', ''le'', ''idx'', ''l1'', ''warnref_id'', ''assay_type'', ''activity_count'',
-  ''last_page'', ''formulation_id'', ''hbd'', ''mol_frac_id'', ''qed_weighted'', ''warning_class'',
-  ''assay_test_type'', ''pref_name'', ''year'', ''cx_logd'', ''last_active'', ''usan_stem'',
-  ''res_stem_id'', ''parent_go_id'', ''mc_target_accession'', ''l3'', ''num_ro5_violations'',
-  ''result_flag'', ''irac_class_id'', ''updated_on'', ''targrel_id'', ''bao_id'']'
+schema_fields:
+- assay_organism
+- idx
+- bao_id
+- ro3_pass
+- mc_organism
+- uo_units
+- activity_comment
+- mc_target_accession
+- standard_value
+- therapeutic_flag
+- l7
+- cell_ontology_id
+- journal
+- dosage_form
+- smarts
+- comments
+- ap_id
+- name
+- warnref_id
+- uberon_id
+- ad_type
+- ddd_id
+- accession
+- component_type
+- enzyme_name
+- irac_code
+- potential_duplicate
+- drug_record_id
+- polymer_flag
+- frac_class_id
+- mol_irac_id
+- usan_substem
+- metabolite_record_id
+- units
+- last_active
+- withdrawn_class
+- prediction_method
+- mol_atc_id
+- prod_pat_id
+- hbd
+- standard_units
+- parent_id
+- domain_name
+- protclasssyn_id
+- nda_type
+- standard_relation
+- start_position
+- syn_type
+- oral
+- pubmed_id
+- molregno
+- standard_upper_value
+- aidx
+- cell_source_tax_id
+- assay_tissue
+- l6
+- active_molregno
+- ref_id
+- binding_site_comment
+- publication_number
+- sequence
+- patent_no
+- ddd_units
+- warning_country
+- aromatic_rings
+- helm_notation
+- pathway_id
+- targrel_id
+- creation_date
+- site_name
+- cell_name
+- submission_date
+- domain_description
+- tissue_id
+- hba
+- protein_class_desc
+- class_level
+- molfile
+- pathway_key
+- mesh_heading
+- warning_class
+- structure_type
+- patent_expire_date
+- downgraded
+- published_units
+- res_stem_id
+- substrate_record_id
+- data_validity_comment
+- mw_monoisotopic
+- withdrawn_reason
+- compsyn_id
+- orig_description
+- assay_source
+- assay_strain
+- level3_description
+- sei
+- clo_id
+- indication_class
+- usan_year
+- first_in_class
+- standard_inchi
+- patent_id
+- irac_class_id
+- selectivity_comment
+- direct_interaction
+- organism
+- assay_class_id
+- ridx
+- curated_by
+- parent_molregno
+- level5
+- assay_desc
+- max_phase
+- drug_substance_flag
+- l1
+- ddd_admr
+- warning_description
+- smid
+- num_ro5_violations
+- published_relation
+- abstract
+- delist_flag
+- innovator_company
+- upper_value
+- route
+- assay_type
+- atc_code
+- version
+- co_stem_id
+- approval_date
+- set_name
+- value
+- major_class
+- type
+- full_molformula
+- met_conversion
+- mw_freebase
+- assay_tax_id
+- efo_id
+- parent_type
+- l8
+- disease_efficacy
+- status
+- l3
+- std_act_id
+- source
+- mechanism_comment
+- warning_id
+- molecular_mechanism
+- log_id
+- cx_most_bpka
+- ingredient
+- chebi_par_id
+- path
+- relationship
+- molsyn_id
+- compd_id
+- formulation_id
+- assay_id
+- db_source
+- domain_id
+- molecule_type
+- priority
+- protein_class_id
+- ddd_value
+- cellosaurus_id
+- hrac_class_id
+- cell_source_tissue
+- availability_type
+- level4_description
+- src_assay_id
+- component_synonym
+- first_approval
+- bao_format
+- synonyms
+- species_group_flag
+- tid
+- who_extra
+- warning_type
+- inorganic_flag
+- targcomp_id
+- cidx
+- alert_set_id
+- doi
+- parent_go_id
+- sitecomp_id
+- standard_inchi_key
+- sequence_md5sum
+- db_version
+- authors
+- assay_test_type
+- level4
+- num_lipinski_ro5_violations
+- efo_term
+- pref_name
+- domain_type
+- qudt_units
+- description
+- drugind_id
+- as_id
+- mutation
+- alogp
+- pchembl_value
+- toid
+- bao_endpoint
+- alert_id
+- stem
+- max_phase_for_ind
+- mol_frac_id
+- mecref_id
+- canonical_smiles
+- indref_id
+- mol_hrac_id
+- full_mwt
+- oc_id
+- active_ingredient
+- compound_key
+- acd_logd
+- acd_most_apka
+- hbd_lipinski
+- definition
+- metref_id
+- confidence
+- comp_go_id
+- lle
+- protein_class_synonym
+- level2
+- standard_type
+- enzyme_tid
+- relationship_type
+- curation_comment
+- issue
+- hba_lipinski
+- cpd_str_alert_id
+- actsm_id
+- chembl_id
+- psa
+- homologue
+- volume
+- activity_count
+- company
+- withdrawn_year
+- who_name
+- cl_lincs_id
+- num_alerts
+- title
+- updated_on
+- level1
+- qed_weighted
+- src_description
+- doc_type
+- ref_url
+- withdrawn_country
+- mesh_id
+- predbind_id
+- cx_most_apka
+- target_mapping
+- stem_class
+- tid_fixed
+- patent_use_code
+- tax_id
+- mechanism_of_action
+- withdrawn_flag
+- compound_name
+- prodrug
+- go_id
+- previous_company
+- heavy_atoms
+- result_flag
+- acd_most_bpka
+- biocomp_id
+- target_type
+- normal_range_max
+- l5
+- l2
+- aspect
+- short_name
+- hrac_code
+- stat
+- doc_id
+- assay_param_id
+- src_id
+- cx_logd
+- label
+- published_value
+- bto_id
+- parameter_value
+- rgid
+- isoform
+- standard_text_value
+- drug_product_flag
+- acd_logp
+- source_domain_id
+- variant_id
+- end_position
+- rtb
+- l4
+- country
+- alert_name
+- updated_by
+- frac_code
+- comp_class_id
+- ref_type
+- level3
+- cell_source_organism
+- cell_id
+- le
+- activity_id
+- text_value
+- annotation
+- assay_category
+- site_residues
+- cell_description
+- met_comment
+- usan_stem_definition
+- subgroup
+- trade_name
+- component_id
+- black_box_warning
+- src_short_name
+- topical
+- src_compound_id
+- class_type
+- entity_type
+- relationship_desc
+- strength
+- caloha_id
+- met_id
+- related_tid
+- target_desc
+- last_page
+- research_stem
+- mc_tax_id
+- mec_id
+- warning_year
+- assay_cell_type
+- entity_id
+- cx_logp
+- usan_stem_id
+- confidence_score
+- action_type
+- relation
+- mc_target_name
+- natural_product
+- applicant_full_name
+- bei
+- record_id
+- level1_description
+- parenteral
+- mc_target_type
+- product_id
+- ass_cls_map_id
+- ddd_comment
+- tbl
+- standard_flag
+- usan_stem
+- site_id
+- dosed_ingredient
+- normal_range_min
+- chirality
+- published_type
+- molecular_species
+- year
+- first_page
+- level2_description
+- parameter_type
+- job_id
+- assay_subcellular_fraction
 shortname: chembl
 tags:
 - biotechnology

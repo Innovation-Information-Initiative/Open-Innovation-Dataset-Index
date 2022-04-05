@@ -14,18 +14,52 @@ documentation: FAQ and tutorial available on the site
 last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
-schema_fields: '[''title'', ''actualEndDateEvidHear'', ''complainant'', ''aljAssigned'',
-  ''currentStatus'', ''finalDetNoViolation'', ''finalIdOnViolationIssue'', ''markmanHearing'',
-  ''lastUpdated'', ''investigationTermDate'', ''docketNo'', ''trademarkNumbers'',
-  ''invUnfairAct'', ''actualStartDateEvidHear'', ''teoIdDueDate'', ''scheduledStartDateEvidHear'',
-  ''scheduledEndDateEvidHear'', ''ouiiParticipation'', ''teoProceedingInvolved'',
-  ''currentActiveALJ'', ''teoIdIssueDate'', ''teoReliefGranted'', ''gcAttorney'',
-  ''dateOfPublicationFrNotice'', ''ouiiAttorney'', ''internalRemand'', ''reportingRequirements'',
-  ''investigationNo'', ''finalIdOnViolationDue'', ''cafcAppeals'', ''issueDateOtherNonFinal'',
-  ''investigationType'', ''finalDetViolation'', ''dateCreated'', ''endDateMarkmanHearing'',
-  ''dateComplaintFiled'', ''htsNumbers'', ''publication_number'', ''copyrightNumbers'',
-  ''patentNumbers'', ''startDateMarkmanHearing'', ''targetDate'', ''patentNumber'',
-  ''id'', ''respondent'']'
+schema_fields:
+- gcAttorney
+- finalDetViolation
+- htsNumbers
+- teoIdIssueDate
+- currentStatus
+- cafcAppeals
+- invUnfairAct
+- issueDateOtherNonFinal
+- dateComplaintFiled
+- teoProceedingInvolved
+- patentNumber
+- finalDetNoViolation
+- complainant
+- investigationTermDate
+- respondent
+- copyrightNumbers
+- actualEndDateEvidHear
+- ouiiAttorney
+- startDateMarkmanHearing
+- finalIdOnViolationDue
+- lastUpdated
+- ouiiParticipation
+- reportingRequirements
+- title
+- finalIdOnViolationIssue
+- investigationNo
+- actualStartDateEvidHear
+- scheduledEndDateEvidHear
+- scheduledStartDateEvidHear
+- dateCreated
+- teoReliefGranted
+- targetDate
+- teoIdDueDate
+- markmanHearing
+- currentActiveALJ
+- trademarkNumbers
+- patentNumbers
+- internalRemand
+- aljAssigned
+- publication_number
+- endDateMarkmanHearing
+- investigationType
+- id
+- dateOfPublicationFrNotice
+- docketNo
 shortname: unfair_import_investigations
 tags:
 - import
