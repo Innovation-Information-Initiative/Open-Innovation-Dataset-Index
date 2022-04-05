@@ -15,33 +15,132 @@ last_edit: Mon, 04 Apr 2022 19:02:57 GMT
 location: https://patentsview.org/
 maintained_by: USPTO
 record_creation_timestamp: 12/2/2020 17:20:46
-schema_fields: '[''withdrawn'', ''disamb_inventor_id_20191008'', ''organization_id'',
-  ''fname'', ''state'', ''longitude'', ''abstract'', ''term_extension'', ''name'',
-  ''group_id'', ''subsection_id'', ''classification_data_source'', ''assignee_id'',
-  ''rawinventor_id'', ''name_first'', ''latin_name'', ''uuid'', ''location_id'', ''exemplary'',
-  ''reldocno'', ''disamb_assignee_id_20190312'', ''title'', ''classification_status'',
-  ''disamb_assignee_id_20200630'', ''lname'', ''citation_id'', ''subgroup_id'', ''ipc_class'',
-  ''lawyer_id'', ''role'', ''sequence'', ''dependent'', ''rule_47'', ''variety'',
-  ''disamb_inventor_id_20201229'', ''disamb_assignee_id_20200929'', ''publication_number'',
-  ''kind'', ''disclaimer_date'', ''rawassignee_id'', ''f371_date'', ''num_figures'',
-  ''num'', ''disamb_inventor_id_20171226'', ''designation'', ''relkind'', ''attribution_status'',
-  ''latlong'', ''num_sheets'', ''category_id'', ''section'', ''term_disclaimer'',
-  ''field_id'', ''level_three'', ''rawlocation_id'', ''f102_date'', ''series_code'',
-  ''mainclass_id'', ''disamb_inventor_id_20200929'', ''disamb_assignee_id_20200331'',
-  ''latitude'', ''deceased'', ''application_id'', ''filename'', ''disamb_inventor_id_20180528'',
-  ''id'', ''length'', ''classification_level'', ''disamb_inventor_id_20170307'', ''disamb_inventor_id_20181127'',
-  ''state_fips'', ''disamb_assignee_id_20191008'', ''disamb_inventor_id_20191231'',
-  ''doctype'', ''contract_award_number'', ''disamb_inventor_id_20200630'', ''num_claims'',
-  ''doc_type'', ''name_last'', ''category'', ''applicant_type'', ''level_one'', ''county_fips'',
-  ''term_grant'', ''disamb_inventor_id_20190820'', ''male_flag'', ''patent_id'', ''sector_title'',
-  ''main_group'', ''subgroup'', ''country_transformed'', ''type'', ''disamb_inventor_id_20190312'',
-  ''disamb_assignee_id_20191231'', ''status'', ''ipc_version_indicator'', ''country'',
-  ''disamb_inventor_id_20171003'', ''male'', ''disamb_inventor_id_20200331'', ''field_title'',
-  ''action_date'', ''text'', ''group'', ''disamb_inventor_id_20170808'', ''_102_date'',
-  ''rel_id'', ''subclass'', ''level_two'', ''gi_statement'', ''inventor_id'', ''classification_value'',
-  ''county'', ''disamb_assignee_id_20190820'', ''_371_date'', ''disamb_assignee_id_20181127'',
-  ''lapse_of_patent'', ''organization'', ''symbol_position'', ''section_id'', ''subclass_id'',
-  ''city'', ''subcategory_id'', ''date'', ''number'']'
+schema_fields:
+- application_id
+- patent_id
+- text
+- exemplary
+- subgroup_id
+- f371_date
+- date
+- state_fips
+- field_title
+- assignee_id
+- gi_statement
+- location_id
+- num_sheets
+- term_extension
+- contract_award_number
+- disamb_inventor_id_20191008
+- doctype
+- latitude
+- section_id
+- inventor_id
+- disamb_assignee_id_20200331
+- disamb_inventor_id_20201229
+- county_fips
+- term_grant
+- abstract
+- _102_date
+- country
+- classification_data_source
+- level_two
+- name
+- disclaimer_date
+- field_id
+- deceased
+- disamb_inventor_id_20171003
+- category
+- disamb_inventor_id_20181127
+- subclass_id
+- disamb_inventor_id_20180528
+- citation_id
+- f102_date
+- level_one
+- longitude
+- sector_title
+- male
+- rawassignee_id
+- kind
+- name_last
+- type
+- lname
+- disamb_assignee_id_20190820
+- subcategory_id
+- subgroup
+- disamb_inventor_id_20170307
+- filename
+- lawyer_id
+- ipc_version_indicator
+- disamb_assignee_id_20190312
+- dependent
+- classification_status
+- term_disclaimer
+- num_figures
+- section
+- disamb_inventor_id_20190312
+- latin_name
+- attribution_status
+- status
+- relkind
+- disamb_inventor_id_20190820
+- disamb_inventor_id_20200929
+- disamb_assignee_id_20200929
+- num_claims
+- mainclass_id
+- role
+- category_id
+- disamb_inventor_id_20171226
+- disamb_assignee_id_20200630
+- title
+- city
+- disamb_assignee_id_20191008
+- state
+- number
+- classification_level
+- disamb_inventor_id_20191231
+- group
+- rel_id
+- group_id
+- main_group
+- disamb_inventor_id_20170808
+- rawinventor_id
+- doc_type
+- publication_number
+- uuid
+- name_first
+- sequence
+- series_code
+- rawlocation_id
+- latlong
+- male_flag
+- ipc_class
+- disamb_inventor_id_20200331
+- length
+- symbol_position
+- rule_47
+- disamb_assignee_id_20181127
+- classification_value
+- action_date
+- fname
+- organization_id
+- subclass
+- reldocno
+- organization
+- variety
+- applicant_type
+- num
+- disamb_assignee_id_20191231
+- subsection_id
+- designation
+- country_transformed
+- disamb_inventor_id_20200630
+- withdrawn
+- county
+- level_three
+- id
+- _371_date
+- lapse_of_patent
 shortname: patentsview
 tags:
 - disambiguation
