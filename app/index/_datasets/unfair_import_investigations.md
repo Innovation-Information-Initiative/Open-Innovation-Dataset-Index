@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 10:43:13
+last_edit: 04/05/2022, 11:00:00
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- invUnfairAct
-- ouiiAttorney
-- teoIdIssueDate
-- finalDetViolation
-- complainant
-- copyrightNumbers
-- currentActiveALJ
-- scheduledEndDateEvidHear
-- id
-- markmanHearing
-- actualStartDateEvidHear
-- ouiiParticipation
-- issueDateOtherNonFinal
-- actualEndDateEvidHear
-- internalRemand
-- dateCreated
-- title
-- endDateMarkmanHearing
-- patentNumber
-- trademarkNumbers
-- cafcAppeals
-- respondent
-- investigationNo
-- publication_number
-- finalIdOnViolationIssue
-- docketNo
-- aljAssigned
-- investigationType
-- targetDate
-- lastUpdated
 - investigationTermDate
-- teoProceedingInvolved
-- dateComplaintFiled
-- finalDetNoViolation
-- teoReliefGranted
-- gcAttorney
-- finalIdOnViolationDue
-- patentNumbers
-- teoIdDueDate
+- copyrightNumbers
 - scheduledStartDateEvidHear
+- teoIdDueDate
+- lastUpdated
+- targetDate
+- publication_number
+- issueDateOtherNonFinal
+- respondent
+- actualEndDateEvidHear
+- id
+- reportingRequirements
+- finalDetNoViolation
 - htsNumbers
-- startDateMarkmanHearing
+- dateCreated
+- investigationType
+- investigationNo
+- teoReliefGranted
+- currentActiveALJ
+- finalIdOnViolationDue
+- finalDetViolation
+- patentNumber
+- invUnfairAct
+- patentNumbers
+- gcAttorney
+- dateComplaintFiled
+- docketNo
+- ouiiParticipation
+- teoIdIssueDate
+- complainant
 - dateOfPublicationFrNotice
 - currentStatus
-- reportingRequirements
+- aljAssigned
+- title
+- markmanHearing
+- teoProceedingInvolved
+- cafcAppeals
+- actualStartDateEvidHear
+- scheduledEndDateEvidHear
+- endDateMarkmanHearing
+- finalIdOnViolationIssue
+- startDateMarkmanHearing
+- internalRemand
+- ouiiAttorney
+- trademarkNumbers
 shortname: unfair_import_investigations
 tags:
 - import
