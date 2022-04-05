@@ -23,8 +23,8 @@ doi: https://doi.org/10.1093/nar/gkv1253
 last_edit: Mon, 04 Apr 2022 19:05:20 GMT
 location: https://www.surechembl.org/search/
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
-schema_fields: '[''schembl_id'', ''corpus_frequency'', ''field_frequency'', ''publication_date'',
-  ''publication_number'', ''field'', ''inchi_key'', ''smiles'', ''patent_id'']'
+schema_fields: '[''schembl_id'', ''publication_number'', ''smiles'', ''inchi_key'',
+  ''patent_id'', ''field'', ''field_frequency'', ''publication_date'', ''corpus_frequency'']'
 shortname: surechembl
 tags:
 - biotechnology
