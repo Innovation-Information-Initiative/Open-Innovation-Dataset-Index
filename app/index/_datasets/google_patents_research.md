@@ -12,11 +12,11 @@ description: Google Patents Research Data contains the output of much of the dat
 last_edit: Mon, 04 Apr 2022 19:04:23 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-research-data
 maintained_by: Google Patents https://patents.google.com/
-schema_fields: '[''priority_date_eu'', ''issuer'', ''inventor_line_1'', ''class_us'',
-  ''number'', ''x_relative_min'', ''class_international'', ''x_relative_max'', ''y_relative_max'',
-  ''publication_date'', ''invention_type'', ''title_line_1'', ''applicant_line_1'',
-  ''y_relative_min'', ''language'', ''representative_line_1_eu'', ''gcs_path'', ''application_number'',
-  ''filing_date'']'
+schema_fields: '[''issuer'', ''priority_date_eu'', ''applicant_line_1'', ''y_relative_min'',
+  ''application_number'', ''representative_line_1_eu'', ''x_relative_max'', ''y_relative_max'',
+  ''invention_type'', ''class_international'', ''x_relative_min'', ''class_us'', ''gcs_path'',
+  ''publication_date'', ''title_line_1'', ''number'', ''filing_date'', ''inventor_line_1'',
+  ''language'']'
 shortname: google_patents_research
 tags:
 - terms
