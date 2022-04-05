@@ -11,55 +11,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 11:22:26
+last_edit: 04/05/2022, 11:37:10
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- actualEndDateEvidHear
+- publication_number
+- teoReliefGranted
+- docketNo
+- gcAttorney
+- htsNumbers
+- finalDetNoViolation
+- scheduledEndDateEvidHear
+- dateCreated
+- ouiiParticipation
+- teoProceedingInvolved
+- targetDate
+- investigationType
+- dateComplaintFiled
+- title
+- ouiiAttorney
+- lastUpdated
+- respondent
+- actualStartDateEvidHear
+- id
+- complainant
 - patentNumber
+- actualEndDateEvidHear
+- teoIdIssueDate
+- finalDetViolation
+- invUnfairAct
+- copyrightNumbers
+- finalIdOnViolationIssue
+- finalIdOnViolationDue
+- investigationNo
+- aljAssigned
+- cafcAppeals
+- startDateMarkmanHearing
 - investigationTermDate
 - currentStatus
-- finalIdOnViolationIssue
-- markmanHearing
-- ouiiParticipation
-- invUnfairAct
-- finalDetNoViolation
-- finalDetViolation
-- dateComplaintFiled
-- teoReliefGranted
-- aljAssigned
-- teoIdIssueDate
-- actualStartDateEvidHear
-- respondent
-- docketNo
-- finalIdOnViolationDue
-- cafcAppeals
-- teoIdDueDate
-- teoProceedingInvolved
-- title
-- dateCreated
-- targetDate
-- publication_number
-- ouiiAttorney
-- complainant
-- id
-- startDateMarkmanHearing
-- internalRemand
 - trademarkNumbers
-- endDateMarkmanHearing
-- lastUpdated
-- reportingRequirements
-- dateOfPublicationFrNotice
-- investigationType
-- investigationNo
-- copyrightNumbers
-- scheduledStartDateEvidHear
-- htsNumbers
-- issueDateOtherNonFinal
-- scheduledEndDateEvidHear
 - currentActiveALJ
+- teoIdDueDate
+- scheduledStartDateEvidHear
+- markmanHearing
+- endDateMarkmanHearing
 - patentNumbers
-- gcAttorney
+- dateOfPublicationFrNotice
+- issueDateOtherNonFinal
+- internalRemand
+- reportingRequirements
 shortname: unfair_import_investigations
 tags:
 - import
