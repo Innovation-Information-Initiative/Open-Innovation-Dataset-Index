@@ -28,23 +28,23 @@ last_edit: Mon, 04 Apr 2022 19:06:22 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=29956744, https://ssrn.com/abstract=2702637
-schema_fields: '[''patent_issue_date'', ''disposal_type'', ''correspondence_name_line_1'',
-  ''file_location'', ''wipo_pub_date'', ''application_number'', ''parent_country_code'',
-  ''examiner_id'', ''inventor_country_name'', ''correspondence_country_name'', ''small_entity_indicator'',
-  ''correspondence_region_code'', ''inventor_region_code'', ''inventor_address_type'',
-  ''correspondence_region_name'', ''invention_subject_matter'', ''examiner_name_last'',
-  ''child_filing_date'', ''status_description'', ''continuation_type'', ''uspc_subclass'',
-  ''abandon_date'', ''appl_status_code'', ''correspondence_street_line_2'', ''status_code'',
-  ''inventor_name_last'', ''earliest_pgpub_date'', ''file_location_date'', ''child_application_number'',
-  ''parent_filing_date'', ''inventor_country_code'', ''examiner_name_middle'', ''parent_application_number'',
-  ''correspondence_postal_code'', ''inventor_name_middle'', ''uspc_class'', ''patent_number'',
-  ''examiner_art_unit'', ''foreign_parent_id'', ''earliest_pgpub_number'', ''recorded_date'',
-  ''inventor_name_first'', ''inventor_rank'', ''atty_docket_number'', ''correspondence_city'',
-  ''correspondence_country_code'', ''correspondence_name_line_2'', ''examiner_name_first'',
-  ''filing_date'', ''wipo_pub_number'', ''correspondence_street_line_1'', ''confirm_number'',
-  ''event_description'', ''parent_country'', ''appl_status_date'', ''aia_first_to_file'',
-  ''application_number_pair'', ''foreign_parent_date'', ''application_type'', ''invention_title'',
-  ''event_code'', ''customer_number'', ''sequence_number'']'
+schema_fields: '[''correspondence_name_line_2'', ''file_location'', ''inventor_country_name'',
+  ''appl_status_date'', ''correspondence_city'', ''correspondence_country_code'',
+  ''uspc_subclass'', ''abandon_date'', ''event_description'', ''patent_issue_date'',
+  ''status_description'', ''earliest_pgpub_date'', ''foreign_parent_date'', ''examiner_art_unit'',
+  ''child_application_number'', ''correspondence_street_line_1'', ''inventor_rank'',
+  ''aia_first_to_file'', ''continuation_type'', ''foreign_parent_id'', ''correspondence_postal_code'',
+  ''inventor_country_code'', ''correspondence_street_line_2'', ''patent_number'',
+  ''inventor_name_first'', ''filing_date'', ''invention_subject_matter'', ''inventor_name_last'',
+  ''confirm_number'', ''disposal_type'', ''event_code'', ''status_code'', ''application_number'',
+  ''examiner_id'', ''inventor_name_middle'', ''parent_country'', ''examiner_name_middle'',
+  ''customer_number'', ''application_type'', ''atty_docket_number'', ''earliest_pgpub_number'',
+  ''correspondence_country_name'', ''wipo_pub_number'', ''child_filing_date'', ''correspondence_region_code'',
+  ''application_number_pair'', ''parent_country_code'', ''correspondence_name_line_1'',
+  ''uspc_class'', ''examiner_name_last'', ''file_location_date'', ''small_entity_indicator'',
+  ''parent_application_number'', ''recorded_date'', ''wipo_pub_date'', ''sequence_number'',
+  ''inventor_address_type'', ''appl_status_code'', ''inventor_region_code'', ''invention_title'',
+  ''parent_filing_date'', ''correspondence_region_name'', ''examiner_name_first'']'
 shortname: patex
 tags:
 - patents
