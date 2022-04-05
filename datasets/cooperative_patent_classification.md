@@ -13,13 +13,13 @@ documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefin
 last_edit: Mon, 04 Apr 2022 19:07:06 GMT
 location: https://www.cooperativepatentclassification.org/index
 maintained_by: USPTO, EPO
-schema_fields: '[''status'', ''limitingReferences'', ''title_full'', ''titleFull'',
-  ''ipcConcordant'', ''date_revised'', ''informative_references'', ''parents'', ''additional_only'',
-  ''symbol'', ''not_allocatable'', ''child_groups'', ''residualReferences'', ''limiting_references'',
-  ''childGroups'', ''applicationReferences'', ''sizeCache'', ''breakdownCode'', ''dateRevised'',
-  ''children'', ''titlePart'', ''ipc_concordant'', ''application_references'', ''notAllocatable'',
-  ''breakdown_code'', ''level'', ''title_part'', ''residual_references'', ''informativeReferences'',
-  ''glossary'', ''definition'', ''synonyms'']'
+schema_fields: '[''children'', ''informativeReferences'', ''not_allocatable'', ''glossary'',
+  ''date_revised'', ''application_references'', ''additional_only'', ''limiting_references'',
+  ''title_full'', ''level'', ''status'', ''notAllocatable'', ''definition'', ''titleFull'',
+  ''titlePart'', ''synonyms'', ''dateRevised'', ''informative_references'', ''breakdownCode'',
+  ''title_part'', ''symbol'', ''limitingReferences'', ''residualReferences'', ''applicationReferences'',
+  ''breakdown_code'', ''sizeCache'', ''ipcConcordant'', ''child_groups'', ''residual_references'',
+  ''ipc_concordant'', ''parents'', ''childGroups'']'
 shortname: cooperative_patent_classification
 tags:
 - patents
