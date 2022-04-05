@@ -18,14 +18,14 @@ documentation: https://funginstitute.berkeley.edu/wp-content/uploads/2016/11/Mac
 last_edit: Mon, 04 Apr 2022 19:12:10 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ucb-fung-patent
 related_publications: ' https://doi.org/10.1111/jems.12259'
-schema_fields: '[''FutureUse'', ''pdpass'', ''State'', ''IssueDate'', ''sequence'',
-  ''Self_Citation_Flag'', ''Word'', ''PrimaryExaminer'', ''CurrentUse'', ''CPC_Layer_2'',
-  ''Sequence'', ''InventorFullname'', ''CountryCodeOrNPL_cited'', ''FirstMiddleName'',
-  ''InventorID'', ''AssistExaminer'', ''Country'', ''string_field_2'', ''assignee_disambiguated'',
-  ''PatentNo'', ''CPC_Layer_1'', ''Company'', ''Geography'', ''FullName'', ''FamilyID'',
-  ''ApplNo'', ''CPC_Full'', ''string_field_1'', ''Title'', ''PatentNoOrNPL_cited'',
-  ''LastName'', ''id'', ''PatentNo_citing'', ''int64_field_0'', ''Abstract'', ''ApplDate'',
-  ''LawFirm'', ''GovernmentInterests'', ''Type'', ''City'']'
+schema_fields: '[''FullName'', ''IssueDate'', ''Abstract'', ''FutureUse'', ''Company'',
+  ''ApplDate'', ''int64_field_0'', ''State'', ''PatentNo'', ''Sequence'', ''Title'',
+  ''City'', ''CurrentUse'', ''Type'', ''PatentNo_citing'', ''string_field_2'', ''LawFirm'',
+  ''FirstMiddleName'', ''CPC_Full'', ''CountryCodeOrNPL_cited'', ''string_field_1'',
+  ''FamilyID'', ''Word'', ''AssistExaminer'', ''CPC_Layer_1'', ''Self_Citation_Flag'',
+  ''PatentNoOrNPL_cited'', ''assignee_disambiguated'', ''ApplNo'', ''pdpass'', ''Geography'',
+  ''CPC_Layer_2'', ''InventorFullname'', ''GovernmentInterests'', ''InventorID'',
+  ''Country'', ''sequence'', ''LastName'', ''id'', ''PrimaryExaminer'']'
 shortname: ucb_fung
 tags:
 - patents
