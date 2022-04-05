@@ -19,14 +19,14 @@ documentation: https://funginstitute.berkeley.edu/wp-content/uploads/2016/11/Mac
 last_edit: Mon, 04 Apr 2022 19:12:10 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ucb-fung-patent
 related_publications: ' https://doi.org/10.1111/jems.12259'
-schema_fields: '[''ApplNo'', ''PatentNo'', ''Sequence'', ''CPC_Layer_2'', ''GovernmentInterests'',
-  ''CPC_Layer_1'', ''string_field_1'', ''LawFirm'', ''FirstMiddleName'', ''sequence'',
-  ''PatentNo_citing'', ''CurrentUse'', ''Word'', ''ApplDate'', ''AssistExaminer'',
-  ''FullName'', ''Self_Citation_Flag'', ''PatentNoOrNPL_cited'', ''assignee_disambiguated'',
-  ''InventorID'', ''int64_field_0'', ''Type'', ''State'', ''string_field_2'', ''City'',
-  ''IssueDate'', ''PrimaryExaminer'', ''FamilyID'', ''Abstract'', ''CountryCodeOrNPL_cited'',
-  ''Company'', ''LastName'', ''FutureUse'', ''Title'', ''pdpass'', ''CPC_Full'', ''Country'',
-  ''Geography'', ''InventorFullname'', ''id'']'
+schema_fields: '[''CurrentUse'', ''PatentNo_citing'', ''CountryCodeOrNPL_cited'',
+  ''IssueDate'', ''Geography'', ''CPC_Layer_1'', ''LawFirm'', ''Country'', ''PatentNoOrNPL_cited'',
+  ''PatentNo'', ''ApplNo'', ''LastName'', ''id'', ''Word'', ''FamilyID'', ''FutureUse'',
+  ''Company'', ''Abstract'', ''FullName'', ''Sequence'', ''sequence'', ''assignee_disambiguated'',
+  ''string_field_1'', ''City'', ''FirstMiddleName'', ''string_field_2'', ''GovernmentInterests'',
+  ''Title'', ''CPC_Layer_2'', ''int64_field_0'', ''Self_Citation_Flag'', ''State'',
+  ''InventorFullname'', ''Type'', ''ApplDate'', ''pdpass'', ''AssistExaminer'', ''PrimaryExaminer'',
+  ''CPC_Full'', ''InventorID'']'
 shortname: ucb_fung
 tags:
 - patents
