@@ -14,17 +14,17 @@ documentation: FAQ and tutorial available on the site
 last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
-schema_fields: '[''finalIdOnViolationDue'', ''scheduledStartDateEvidHear'', ''gcAttorney'',
-  ''issueDateOtherNonFinal'', ''trademarkNumbers'', ''actualStartDateEvidHear'', ''teoIdDueDate'',
-  ''cafcAppeals'', ''title'', ''invUnfairAct'', ''ouiiAttorney'', ''patentNumber'',
-  ''publication_number'', ''investigationTermDate'', ''finalDetNoViolation'', ''currentStatus'',
-  ''investigationNo'', ''investigationType'', ''aljAssigned'', ''finalDetViolation'',
-  ''lastUpdated'', ''patentNumbers'', ''dateComplaintFiled'', ''startDateMarkmanHearing'',
-  ''ouiiParticipation'', ''teoProceedingInvolved'', ''dateCreated'', ''reportingRequirements'',
-  ''targetDate'', ''docketNo'', ''htsNumbers'', ''internalRemand'', ''endDateMarkmanHearing'',
-  ''actualEndDateEvidHear'', ''teoIdIssueDate'', ''scheduledEndDateEvidHear'', ''dateOfPublicationFrNotice'',
-  ''copyrightNumbers'', ''respondent'', ''teoReliefGranted'', ''complainant'', ''currentActiveALJ'',
-  ''id'', ''markmanHearing'', ''finalIdOnViolationIssue'']'
+schema_fields: '[''patentNumber'', ''endDateMarkmanHearing'', ''scheduledEndDateEvidHear'',
+  ''publication_number'', ''startDateMarkmanHearing'', ''patentNumbers'', ''aljAssigned'',
+  ''finalDetNoViolation'', ''gcAttorney'', ''currentStatus'', ''investigationTermDate'',
+  ''investigationNo'', ''actualEndDateEvidHear'', ''issueDateOtherNonFinal'', ''dateComplaintFiled'',
+  ''title'', ''trademarkNumbers'', ''teoIdDueDate'', ''actualStartDateEvidHear'',
+  ''investigationType'', ''finalIdOnViolationIssue'', ''dateCreated'', ''scheduledStartDateEvidHear'',
+  ''respondent'', ''teoIdIssueDate'', ''ouiiAttorney'', ''dateOfPublicationFrNotice'',
+  ''currentActiveALJ'', ''invUnfairAct'', ''id'', ''ouiiParticipation'', ''cafcAppeals'',
+  ''markmanHearing'', ''teoReliefGranted'', ''finalIdOnViolationDue'', ''finalDetViolation'',
+  ''teoProceedingInvolved'', ''internalRemand'', ''copyrightNumbers'', ''docketNo'',
+  ''complainant'', ''htsNumbers'', ''reportingRequirements'', ''targetDate'', ''lastUpdated'']'
 shortname: unfair_import_investigations
 tags:
 - import
