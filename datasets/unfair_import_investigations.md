@@ -11,55 +11,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 20:46:05
+last_edit: 04/05/2022, 21:00:06
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationTermDate
-- currentActiveALJ
-- endDateMarkmanHearing
-- finalIdOnViolationIssue
 - scheduledStartDateEvidHear
-- cafcAppeals
+- teoProceedingInvolved
 - teoIdDueDate
-- investigationType
+- publication_number
 - reportingRequirements
+- finalIdOnViolationDue
+- startDateMarkmanHearing
+- internalRemand
+- currentStatus
+- aljAssigned
+- complainant
+- ouiiAttorney
 - invUnfairAct
 - dateComplaintFiled
-- finalDetNoViolation
-- teoIdIssueDate
-- actualStartDateEvidHear
-- finalIdOnViolationDue
-- ouiiParticipation
-- trademarkNumbers
-- htsNumbers
-- scheduledEndDateEvidHear
-- targetDate
-- teoProceedingInvolved
-- copyrightNumbers
-- currentStatus
-- startDateMarkmanHearing
-- aljAssigned
-- actualEndDateEvidHear
-- internalRemand
-- complainant
-- respondent
-- lastUpdated
-- finalDetViolation
-- patentNumber
-- id
-- teoReliefGranted
-- publication_number
-- investigationNo
-- title
-- dateCreated
-- dateOfPublicationFrNotice
-- gcAttorney
 - markmanHearing
-- docketNo
-- issueDateOtherNonFinal
-- ouiiAttorney
+- actualEndDateEvidHear
 - patentNumbers
+- cafcAppeals
+- title
+- issueDateOtherNonFinal
+- scheduledEndDateEvidHear
+- currentActiveALJ
+- patentNumber
+- docketNo
+- endDateMarkmanHearing
+- investigationTermDate
+- respondent
+- dateOfPublicationFrNotice
+- finalDetViolation
+- gcAttorney
+- teoIdIssueDate
+- trademarkNumbers
+- investigationNo
+- investigationType
+- actualStartDateEvidHear
+- dateCreated
+- id
+- copyrightNumbers
+- lastUpdated
+- ouiiParticipation
+- finalIdOnViolationIssue
+- teoReliefGranted
+- htsNumbers
+- finalDetNoViolation
+- targetDate
 shortname: unfair_import_investigations
 tags:
 - import
