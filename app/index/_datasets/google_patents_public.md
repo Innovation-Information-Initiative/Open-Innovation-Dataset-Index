@@ -16,14 +16,14 @@ last_edit: Mon, 04 Apr 2022 19:03:34 GMT
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46
-schema_fields: '[''application_number'', ''description_localized'', ''fi'', ''priority_claim'',
-  ''uspc'', ''inventor_harmonized'', ''assignee'', ''assignee_harmonized'', ''claims_localized_html'',
-  ''examiner'', ''filing_date'', ''entity_status'', ''parent'', ''title_localized'',
-  ''pct_number'', ''description_localized_html'', ''fterm'', ''family_id'', ''abstract_localized'',
-  ''application_number_formatted'', ''grant_date'', ''spif_application_number'', ''art_unit'',
-  ''spif_publication_number'', ''application_kind'', ''country_code'', ''citation'',
-  ''cpc'', ''claims_localized'', ''ipc'', ''inventor'', ''priority_date'', ''publication_date'',
-  ''child'', ''publication_number'', ''locarno'', ''kind_code'']'
+schema_fields: '[''description_localized_html'', ''assignee'', ''fi'', ''spif_application_number'',
+  ''application_number_formatted'', ''filing_date'', ''priority_date'', ''application_number'',
+  ''inventor'', ''publication_number'', ''claims_localized'', ''priority_claim'',
+  ''examiner'', ''cpc'', ''ipc'', ''inventor_harmonized'', ''child'', ''parent'',
+  ''uspc'', ''assignee_harmonized'', ''family_id'', ''locarno'', ''fterm'', ''description_localized'',
+  ''pct_number'', ''country_code'', ''abstract_localized'', ''publication_date'',
+  ''art_unit'', ''title_localized'', ''claims_localized_html'', ''application_kind'',
+  ''grant_date'', ''citation'', ''entity_status'', ''spif_publication_number'', ''kind_code'']'
 shortname: google_patents_public
 superseded_by: Fri, 25 Feb 2022 23:34:33 GMT
 tags:
