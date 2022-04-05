@@ -12,8 +12,8 @@ documentation: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
 last_edit: Mon, 04 Apr 2022 19:08:15 GMT
 location: https://datacatalog.worldbank.org/search/dataset/0037712
 maintained_by: data@worldbank.org
-schema_fields: '[''indicator_value'', ''country_code'', ''country_name'', ''indicator_name'',
-  ''year'', ''indicator_code'']'
+schema_fields: '[''country_name'', ''year'', ''indicator_name'', ''indicator_value'',
+  ''indicator_code'', ''country_code'']'
 shortname: world_bank_development_indicators
 tags:
 - development
