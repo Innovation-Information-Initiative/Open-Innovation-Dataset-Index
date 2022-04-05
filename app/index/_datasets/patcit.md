@@ -31,16 +31,16 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 relationships:
 - rons
 - lens
-schema_fields: '[''is_cited_by_count'', ''ISSN'', ''hostname'', ''institution'', ''citation'',
-  ''event'', ''tdoc_num'', ''wg'', ''is_referenced_by_count'', ''meeting'', ''subject'',
-  ''URL'', ''title'', ''bibref_score'', ''abstract'', ''pat_publn_id'', ''version'',
-  ''type'', ''npl_cat_language_flag'', ''npl_cat'', ''DOI'', ''PMID'', ''source'',
-  ''tsg'', ''tech'', ''docdb_family_id'', ''PMCID'', ''inpadoc_family_id'', ''item'',
-  ''reference_doi'', ''md5'', ''issue'', ''appln_id'', ''publication_date'', ''reference_count'',
-  ''language_code'', ''volume'', ''ISBN'', ''language_is_reliable'', ''page'', ''npl_publn_id'',
-  ''hash_id'', ''journal_title_abbrev'', ''patcit_id'', ''acc_num'', ''npl_cat_score'',
-  ''funder'', ''name'', ''cited_by'', ''author'', ''body'', ''journal_title'', ''ref'',
-  ''publication_number'', ''url'', ''date'']'
+schema_fields: '[''appln_id'', ''source'', ''hash_id'', ''abstract'', ''item'', ''tsg'',
+  ''reference_count'', ''name'', ''npl_publn_id'', ''npl_cat_score'', ''title'', ''tdoc_num'',
+  ''publication_number'', ''PMCID'', ''body'', ''meeting'', ''tech'', ''wg'', ''reference_doi'',
+  ''DOI'', ''date'', ''type'', ''ISSN'', ''inpadoc_family_id'', ''ref'', ''institution'',
+  ''journal_title_abbrev'', ''bibref_score'', ''publication_date'', ''is_cited_by_count'',
+  ''acc_num'', ''md5'', ''URL'', ''ISBN'', ''subject'', ''pat_publn_id'', ''citation'',
+  ''event'', ''issue'', ''language_is_reliable'', ''PMID'', ''page'', ''funder'',
+  ''npl_cat_language_flag'', ''journal_title'', ''url'', ''npl_cat'', ''patcit_id'',
+  ''docdb_family_id'', ''volume'', ''author'', ''version'', ''language_code'', ''is_referenced_by_count'',
+  ''cited_by'', ''hostname'']'
 shortname: patcit
 superseded_by: Wed, 23 Feb 2022 03:04:44 GMT
 tags:
