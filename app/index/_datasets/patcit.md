@@ -31,16 +31,16 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 relationships:
 - rons
 - lens
-schema_fields: '[''URL'', ''pat_publn_id'', ''page'', ''journal_title'', ''cited_by'',
-  ''npl_cat_score'', ''date'', ''funder'', ''citation'', ''issue'', ''is_cited_by_count'',
-  ''PMCID'', ''language_is_reliable'', ''body'', ''tsg'', ''bibref_score'', ''npl_cat_language_flag'',
-  ''type'', ''is_referenced_by_count'', ''source'', ''language_code'', ''ref'', ''tech'',
-  ''appln_id'', ''docdb_family_id'', ''inpadoc_family_id'', ''reference_doi'', ''patcit_id'',
-  ''md5'', ''item'', ''ISBN'', ''publication_number'', ''PMID'', ''url'', ''npl_publn_id'',
-  ''journal_title_abbrev'', ''volume'', ''tdoc_num'', ''ISSN'', ''hash_id'', ''event'',
-  ''name'', ''hostname'', ''acc_num'', ''abstract'', ''subject'', ''author'', ''reference_count'',
-  ''meeting'', ''npl_cat'', ''version'', ''wg'', ''institution'', ''DOI'', ''title'',
-  ''publication_date'']'
+schema_fields: '[''PMID'', ''hostname'', ''url'', ''appln_id'', ''npl_cat'', ''npl_cat_score'',
+  ''acc_num'', ''ref'', ''journal_title_abbrev'', ''wg'', ''reference_count'', ''publication_number'',
+  ''issue'', ''hash_id'', ''ISBN'', ''citation'', ''reference_doi'', ''abstract'',
+  ''tsg'', ''tech'', ''publication_date'', ''version'', ''URL'', ''is_cited_by_count'',
+  ''date'', ''npl_cat_language_flag'', ''page'', ''type'', ''bibref_score'', ''source'',
+  ''npl_publn_id'', ''docdb_family_id'', ''journal_title'', ''event'', ''meeting'',
+  ''subject'', ''ISSN'', ''language_is_reliable'', ''patcit_id'', ''md5'', ''item'',
+  ''tdoc_num'', ''cited_by'', ''pat_publn_id'', ''author'', ''is_referenced_by_count'',
+  ''PMCID'', ''institution'', ''body'', ''DOI'', ''volume'', ''language_code'', ''inpadoc_family_id'',
+  ''funder'', ''title'', ''name'']'
 shortname: patcit
 superseded_by: Wed, 23 Feb 2022 03:04:44 GMT
 tags:
