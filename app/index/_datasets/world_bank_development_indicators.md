@@ -12,7 +12,7 @@ documentation: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
 last_edit: Mon, 04 Apr 2022 19:08:15 GMT
 location: https://datacatalog.worldbank.org/search/dataset/0037712
 maintained_by: data@worldbank.org
-schema_fields: '[''indicator_value'', ''year'', ''country_code'', ''country_name'',
+schema_fields: '[''country_code'', ''indicator_value'', ''country_name'', ''year'',
   ''indicator_code'', ''indicator_name'']'
 shortname: world_bank_development_indicators
 tags:
