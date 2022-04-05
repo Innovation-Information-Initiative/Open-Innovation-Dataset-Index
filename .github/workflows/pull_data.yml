@@ -2,8 +2,7 @@ name: pull_data
 
 on:
   schedule:
-  - cron: "*/2 * * * *"
-  push:
+  - cron: "*/30 * * * *"
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
