@@ -11,55 +11,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 13:50:15
+last_edit: 04/05/2022, 14:07:47
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalDetNoViolation
-- trademarkNumbers
-- investigationType
-- teoIdDueDate
-- lastUpdated
-- dateOfPublicationFrNotice
-- complainant
-- markmanHearing
-- finalDetViolation
-- respondent
 - scheduledStartDateEvidHear
-- teoIdIssueDate
-- id
-- teoProceedingInvolved
+- respondent
 - endDateMarkmanHearing
-- currentActiveALJ
-- investigationTermDate
-- htsNumbers
-- currentStatus
-- targetDate
-- patentNumber
-- startDateMarkmanHearing
-- patentNumbers
-- reportingRequirements
-- finalIdOnViolationIssue
-- internalRemand
-- dateComplaintFiled
-- actualStartDateEvidHear
-- teoReliefGranted
-- scheduledEndDateEvidHear
-- dateCreated
-- title
-- issueDateOtherNonFinal
-- ouiiAttorney
-- gcAttorney
-- copyrightNumbers
-- docketNo
 - investigationNo
 - aljAssigned
-- ouiiParticipation
-- actualEndDateEvidHear
+- internalRemand
 - cafcAppeals
-- invUnfairAct
-- finalIdOnViolationDue
+- complainant
+- gcAttorney
+- trademarkNumbers
+- currentStatus
+- issueDateOtherNonFinal
+- currentActiveALJ
+- lastUpdated
+- dateOfPublicationFrNotice
+- teoProceedingInvolved
+- dateCreated
 - publication_number
+- finalIdOnViolationIssue
+- docketNo
+- teoIdDueDate
+- scheduledEndDateEvidHear
+- title
+- finalIdOnViolationDue
+- actualStartDateEvidHear
+- invUnfairAct
+- htsNumbers
+- reportingRequirements
+- copyrightNumbers
+- actualEndDateEvidHear
+- investigationTermDate
+- patentNumber
+- teoIdIssueDate
+- dateComplaintFiled
+- markmanHearing
+- ouiiAttorney
+- ouiiParticipation
+- finalDetViolation
+- startDateMarkmanHearing
+- finalDetNoViolation
+- targetDate
+- investigationType
+- patentNumbers
+- id
+- teoReliefGranted
 shortname: unfair_import_investigations
 tags:
 - import
