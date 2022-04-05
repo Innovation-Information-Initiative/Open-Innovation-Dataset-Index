@@ -20,14 +20,14 @@ last_edit: Mon, 04 Apr 2022 19:06:23 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-assignment-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: http://ssrn.com/abstract=2636461
-schema_fields: '[''frame_no'', ''cname'', ''caddress_2'', ''caddress_1'', ''last_update_dt'',
-  ''pgpub_doc_num'', ''pgpub_date'', ''exec_dt'', ''grant_country'', ''record_dt'',
-  ''error'', ''caddress_3'', ''appno_doc_num'', ''pgpub_country'', ''ee_address_1'',
-  ''lang'', ''ee_name'', ''ee_address_2'', ''ee_state'', ''rf_id'', ''convey_text'',
-  ''ee_country'', ''convey_ty'', ''or_name'', ''employer_assign'', ''caddress_4'',
-  ''ee_city'', ''publication_number'', ''ack_dt'', ''admin_appl_id_for_grant'', ''appno_date'',
-  ''appno_country'', ''title'', ''grant_date'', ''admin_pat_no_for_appno'', ''purge_in'',
-  ''reel_no'', ''file_id'', ''page_count'', ''grant_doc_num'', ''ee_postcode'']'
+schema_fields: '[''grant_date'', ''caddress_2'', ''record_dt'', ''appno_date'', ''last_update_dt'',
+  ''title'', ''admin_pat_no_for_appno'', ''publication_number'', ''ee_state'', ''pgpub_date'',
+  ''pgpub_country'', ''grant_doc_num'', ''cname'', ''admin_appl_id_for_grant'', ''ee_address_1'',
+  ''or_name'', ''convey_ty'', ''ee_country'', ''grant_country'', ''purge_in'', ''ee_city'',
+  ''lang'', ''error'', ''convey_text'', ''employer_assign'', ''caddress_1'', ''appno_country'',
+  ''frame_no'', ''caddress_4'', ''ee_name'', ''appno_doc_num'', ''ack_dt'', ''file_id'',
+  ''rf_id'', ''exec_dt'', ''ee_postcode'', ''page_count'', ''reel_no'', ''pgpub_doc_num'',
+  ''ee_address_2'', ''caddress_3'']'
 shortname: uspto_patent_assignment
 tags:
 - patents
