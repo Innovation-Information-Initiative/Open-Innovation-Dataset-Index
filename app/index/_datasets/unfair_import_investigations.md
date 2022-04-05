@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 22:43:08
+last_edit: 04/05/2022, 22:59:59
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiAttorney
-- dateOfPublicationFrNotice
-- reportingRequirements
-- patentNumber
-- actualStartDateEvidHear
-- id
-- actualEndDateEvidHear
-- cafcAppeals
-- targetDate
-- investigationType
-- dateComplaintFiled
-- finalIdOnViolationDue
-- internalRemand
-- issueDateOtherNonFinal
-- startDateMarkmanHearing
-- respondent
-- title
+- patentNumbers
 - htsNumbers
-- teoReliefGranted
-- finalDetViolation
+- endDateMarkmanHearing
 - scheduledEndDateEvidHear
-- markmanHearing
+- teoReliefGranted
+- publication_number
+- teoIdDueDate
+- currentStatus
+- docketNo
+- finalDetViolation
+- actualEndDateEvidHear
+- reportingRequirements
+- targetDate
+- internalRemand
+- cafcAppeals
+- ouiiAttorney
+- teoIdIssueDate
 - lastUpdated
 - invUnfairAct
-- gcAttorney
-- trademarkNumbers
-- ouiiParticipation
 - dateCreated
-- scheduledStartDateEvidHear
-- teoIdIssueDate
-- copyrightNumbers
-- patentNumbers
-- teoIdDueDate
+- trademarkNumbers
+- investigationType
+- issueDateOtherNonFinal
 - complainant
-- teoProceedingInvolved
-- publication_number
-- aljAssigned
+- markmanHearing
+- finalIdOnViolationDue
 - investigationNo
-- endDateMarkmanHearing
-- finalDetNoViolation
-- currentStatus
-- currentActiveALJ
-- finalIdOnViolationIssue
+- teoProceedingInvolved
+- actualStartDateEvidHear
 - investigationTermDate
-- docketNo
+- id
+- startDateMarkmanHearing
+- gcAttorney
+- dateComplaintFiled
+- respondent
+- finalIdOnViolationIssue
+- patentNumber
+- aljAssigned
+- currentActiveALJ
+- finalDetNoViolation
+- ouiiParticipation
+- copyrightNumbers
+- dateOfPublicationFrNotice
+- scheduledStartDateEvidHear
+- title
 shortname: unfair_import_investigations
 tags:
 - import
