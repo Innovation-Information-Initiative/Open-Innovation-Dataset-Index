@@ -14,18 +14,17 @@ documentation: FAQ and tutorial available on the site
 last_edit: Mon, 04 Apr 2022 19:10:40 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
-schema_fields: '[''ouiiParticipation'', ''patentNumbers'', ''teoProceedingInvolved'',
-  ''publication_number'', ''scheduledStartDateEvidHear'', ''investigationNo'', ''investigationType'',
-  ''id'', ''copyrightNumbers'', ''startDateMarkmanHearing'', ''endDateMarkmanHearing'',
-  ''title'', ''actualEndDateEvidHear'', ''currentStatus'', ''investigationTermDate'',
-  ''aljAssigned'', ''scheduledEndDateEvidHear'', ''complainant'', ''internalRemand'',
-  ''ouiiAttorney'', ''teoReliefGranted'', ''patentNumber'', ''trademarkNumbers'',
-  ''finalDetNoViolation'', ''finalIdOnViolationIssue'', ''issueDateOtherNonFinal'',
-  ''dateOfPublicationFrNotice'', ''teoIdIssueDate'', ''finalIdOnViolationDue'', ''gcAttorney'',
-  ''reportingRequirements'', ''finalDetViolation'', ''lastUpdated'', ''htsNumbers'',
-  ''cafcAppeals'', ''markmanHearing'', ''respondent'', ''targetDate'', ''docketNo'',
-  ''invUnfairAct'', ''dateCreated'', ''teoIdDueDate'', ''currentActiveALJ'', ''dateComplaintFiled'',
-  ''actualStartDateEvidHear'']'
+schema_fields: '[''currentActiveALJ'', ''respondent'', ''finalDetNoViolation'', ''scheduledStartDateEvidHear'',
+  ''id'', ''copyrightNumbers'', ''dateCreated'', ''teoReliefGranted'', ''finalIdOnViolationDue'',
+  ''issueDateOtherNonFinal'', ''investigationNo'', ''finalIdOnViolationIssue'', ''cafcAppeals'',
+  ''docketNo'', ''publication_number'', ''scheduledEndDateEvidHear'', ''currentStatus'',
+  ''complainant'', ''finalDetViolation'', ''aljAssigned'', ''gcAttorney'', ''endDateMarkmanHearing'',
+  ''teoIdDueDate'', ''teoIdIssueDate'', ''invUnfairAct'', ''targetDate'', ''startDateMarkmanHearing'',
+  ''teoProceedingInvolved'', ''dateOfPublicationFrNotice'', ''lastUpdated'', ''investigationTermDate'',
+  ''investigationType'', ''title'', ''actualStartDateEvidHear'', ''actualEndDateEvidHear'',
+  ''patentNumbers'', ''internalRemand'', ''trademarkNumbers'', ''dateComplaintFiled'',
+  ''markmanHearing'', ''reportingRequirements'', ''patentNumber'', ''ouiiParticipation'',
+  ''htsNumbers'', ''ouiiAttorney'']'
 shortname: unfair_import_investigations
 tags:
 - import
