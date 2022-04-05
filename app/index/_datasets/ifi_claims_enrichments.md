@@ -7,7 +7,7 @@ cost: Costs to access via IFI, Google Patents Public Datasets hosts a core publi
 description: IFI CLAIMS Patent Data Enrichments includes standardized assignee/applicant
   names and integrated legal status information.
 documentation: https://www.ificlaims.com/news/view/blog-posts/public-patent-data-now.htm
-last_edit: Fri, 03 Dec 2021 12:00:13 GMT
+last_edit: 04/05/2022, 08:46:17
 location: https://www.ificlaims.com/product/product-data-enrichments.htm
 maintained_by: IFI CLAIMS
 schema_fields: '[]'

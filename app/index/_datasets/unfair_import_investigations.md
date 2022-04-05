@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: Mon, 04 Apr 2022 19:10:40 GMT
+last_edit: 04/05/2022, 08:46:17
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- gcAttorney
-- finalDetViolation
-- htsNumbers
-- teoIdIssueDate
-- currentStatus
-- cafcAppeals
-- invUnfairAct
-- issueDateOtherNonFinal
-- dateComplaintFiled
-- teoProceedingInvolved
-- patentNumber
-- finalDetNoViolation
-- complainant
-- investigationTermDate
-- respondent
-- copyrightNumbers
-- actualEndDateEvidHear
-- ouiiAttorney
-- startDateMarkmanHearing
-- finalIdOnViolationDue
-- lastUpdated
-- ouiiParticipation
-- reportingRequirements
-- title
-- finalIdOnViolationIssue
-- investigationNo
-- actualStartDateEvidHear
-- scheduledEndDateEvidHear
-- scheduledStartDateEvidHear
-- dateCreated
-- teoReliefGranted
-- targetDate
-- teoIdDueDate
 - markmanHearing
-- currentActiveALJ
-- trademarkNumbers
-- patentNumbers
-- internalRemand
-- aljAssigned
+- gcAttorney
+- targetDate
+- teoProceedingInvolved
 - publication_number
+- startDateMarkmanHearing
+- ouiiAttorney
+- finalIdOnViolationDue
+- htsNumbers
+- finalDetViolation
+- ouiiParticipation
+- lastUpdated
+- title
+- cafcAppeals
+- finalDetNoViolation
 - endDateMarkmanHearing
-- investigationType
-- id
-- dateOfPublicationFrNotice
+- patentNumber
+- invUnfairAct
+- currentActiveALJ
+- actualStartDateEvidHear
 - docketNo
+- teoIdDueDate
+- trademarkNumbers
+- dateCreated
+- investigationType
+- finalIdOnViolationIssue
+- patentNumbers
+- issueDateOtherNonFinal
+- respondent
+- id
+- investigationTermDate
+- copyrightNumbers
+- dateOfPublicationFrNotice
+- reportingRequirements
+- teoReliefGranted
+- scheduledEndDateEvidHear
+- complainant
+- teoIdIssueDate
+- aljAssigned
+- dateComplaintFiled
+- scheduledStartDateEvidHear
+- internalRemand
+- currentStatus
+- investigationNo
+- actualEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
