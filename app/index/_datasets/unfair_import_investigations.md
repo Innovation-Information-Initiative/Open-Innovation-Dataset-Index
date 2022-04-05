@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 18:37:24
+last_edit: 04/05/2022, 18:55:39
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- issueDateOtherNonFinal
-- finalIdOnViolationIssue
-- patentNumber
-- finalIdOnViolationDue
-- cafcAppeals
-- title
-- currentActiveALJ
-- invUnfairAct
-- respondent
-- actualEndDateEvidHear
-- teoIdIssueDate
-- teoProceedingInvolved
-- internalRemand
-- investigationTermDate
-- scheduledEndDateEvidHear
-- investigationType
-- lastUpdated
-- htsNumbers
-- actualStartDateEvidHear
-- complainant
-- teoIdDueDate
-- aljAssigned
-- endDateMarkmanHearing
-- gcAttorney
+- patentNumbers
 - finalDetNoViolation
-- startDateMarkmanHearing
-- finalDetViolation
+- targetDate
 - publication_number
-- investigationNo
 - ouiiAttorney
+- ouiiParticipation
+- trademarkNumbers
+- endDateMarkmanHearing
+- patentNumber
+- title
+- investigationTermDate
+- finalIdOnViolationDue
+- finalIdOnViolationIssue
+- gcAttorney
+- teoIdDueDate
+- teoIdIssueDate
 - copyrightNumbers
+- startDateMarkmanHearing
+- invUnfairAct
+- htsNumbers
+- complainant
 - dateOfPublicationFrNotice
+- lastUpdated
+- scheduledStartDateEvidHear
+- scheduledEndDateEvidHear
+- reportingRequirements
+- actualEndDateEvidHear
+- teoReliefGranted
+- internalRemand
+- actualStartDateEvidHear
+- currentActiveALJ
+- respondent
+- aljAssigned
+- finalDetViolation
+- teoProceedingInvolved
+- markmanHearing
+- id
+- issueDateOtherNonFinal
+- investigationType
+- currentStatus
+- cafcAppeals
+- dateCreated
 - docketNo
 - dateComplaintFiled
-- patentNumbers
-- markmanHearing
-- currentStatus
-- id
-- dateCreated
-- trademarkNumbers
-- ouiiParticipation
-- scheduledStartDateEvidHear
-- reportingRequirements
-- targetDate
-- teoReliefGranted
+- investigationNo
 shortname: unfair_import_investigations
 tags:
 - import
