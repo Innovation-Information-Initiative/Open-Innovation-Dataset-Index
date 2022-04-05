@@ -3,7 +3,7 @@ sys.path.append('scripts/libraries')
 import google
 from google.cloud import bigquery
 from furl import furl
-import datetime
+from datetime import datetime
 
 client = bigquery.Client()
 
