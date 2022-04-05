@@ -11,55 +11,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 20:05:10
+last_edit: 04/05/2022, 20:31:51
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- dateCreated
-- copyrightNumbers
-- trademarkNumbers
-- actualStartDateEvidHear
-- ouiiAttorney
 - actualEndDateEvidHear
-- publication_number
-- teoIdIssueDate
-- finalDetViolation
-- startDateMarkmanHearing
-- gcAttorney
-- markmanHearing
-- targetDate
-- aljAssigned
-- finalIdOnViolationIssue
-- dateOfPublicationFrNotice
 - respondent
-- patentNumbers
-- scheduledStartDateEvidHear
 - investigationNo
-- currentStatus
-- issueDateOtherNonFinal
-- investigationTermDate
-- htsNumbers
-- lastUpdated
-- investigationType
-- scheduledEndDateEvidHear
-- title
-- teoReliefGranted
-- cafcAppeals
-- complainant
 - internalRemand
-- patentNumber
+- actualStartDateEvidHear
+- issueDateOtherNonFinal
 - teoIdDueDate
-- teoProceedingInvolved
-- id
-- finalDetNoViolation
-- docketNo
-- currentActiveALJ
-- invUnfairAct
-- reportingRequirements
-- finalIdOnViolationDue
-- dateComplaintFiled
-- ouiiParticipation
+- patentNumbers
 - endDateMarkmanHearing
+- aljAssigned
+- scheduledEndDateEvidHear
+- startDateMarkmanHearing
+- finalIdOnViolationIssue
+- teoIdIssueDate
+- complainant
+- publication_number
+- ouiiAttorney
+- patentNumber
+- dateOfPublicationFrNotice
+- investigationTermDate
+- currentActiveALJ
+- lastUpdated
+- currentStatus
+- cafcAppeals
+- finalDetNoViolation
+- teoReliefGranted
+- teoProceedingInvolved
+- dateComplaintFiled
+- gcAttorney
+- investigationType
+- reportingRequirements
+- htsNumbers
+- finalDetViolation
+- docketNo
+- ouiiParticipation
+- invUnfairAct
+- markmanHearing
+- id
+- trademarkNumbers
+- copyrightNumbers
+- dateCreated
+- targetDate
+- title
+- finalIdOnViolationDue
+- scheduledStartDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
