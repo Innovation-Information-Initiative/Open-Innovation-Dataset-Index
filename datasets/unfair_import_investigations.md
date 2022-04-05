@@ -11,55 +11,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/05/2022, 14:59:42
+last_edit: 04/05/2022, 15:28:41
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- aljAssigned
-- currentActiveALJ
-- finalIdOnViolationIssue
-- finalDetNoViolation
-- cafcAppeals
-- startDateMarkmanHearing
 - dateCreated
-- copyrightNumbers
-- targetDate
-- ouiiAttorney
-- patentNumbers
-- trademarkNumbers
+- currentActiveALJ
+- teoIdDueDate
+- endDateMarkmanHearing
+- startDateMarkmanHearing
 - markmanHearing
-- finalIdOnViolationDue
-- investigationTermDate
+- investigationType
+- dateComplaintFiled
+- teoIdIssueDate
+- aljAssigned
+- teoProceedingInvolved
+- patentNumbers
+- respondent
+- copyrightNumbers
+- trademarkNumbers
+- finalDetViolation
+- id
 - patentNumber
 - docketNo
-- teoIdIssueDate
-- currentStatus
+- htsNumbers
+- title
+- scheduledStartDateEvidHear
 - complainant
 - dateOfPublicationFrNotice
-- actualEndDateEvidHear
-- investigationNo
-- scheduledEndDateEvidHear
-- internalRemand
-- title
-- lastUpdated
-- finalDetViolation
-- teoProceedingInvolved
-- reportingRequirements
-- respondent
-- issueDateOtherNonFinal
-- publication_number
-- ouiiParticipation
 - gcAttorney
+- investigationTermDate
 - invUnfairAct
-- scheduledStartDateEvidHear
-- investigationType
-- id
-- dateComplaintFiled
-- teoIdDueDate
-- htsNumbers
-- actualStartDateEvidHear
-- endDateMarkmanHearing
+- issueDateOtherNonFinal
 - teoReliefGranted
+- targetDate
+- finalDetNoViolation
+- publication_number
+- reportingRequirements
+- finalIdOnViolationIssue
+- ouiiAttorney
+- cafcAppeals
+- internalRemand
+- scheduledEndDateEvidHear
+- ouiiParticipation
+- currentStatus
+- lastUpdated
+- actualStartDateEvidHear
+- investigationNo
+- finalIdOnViolationDue
+- actualEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
