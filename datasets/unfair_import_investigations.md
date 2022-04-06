@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 16:36:34
+last_edit: 04/06/2022, 17:02:01
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationNo
-- docketNo
-- investigationTermDate
-- cafcAppeals
-- finalDetViolation
-- currentActiveALJ
-- startDateMarkmanHearing
-- teoReliefGranted
-- endDateMarkmanHearing
-- ouiiAttorney
-- dateOfPublicationFrNotice
-- copyrightNumbers
-- teoProceedingInvolved
-- scheduledStartDateEvidHear
-- finalIdOnViolationIssue
-- teoIdDueDate
-- publication_number
-- finalDetNoViolation
-- respondent
-- scheduledEndDateEvidHear
 - invUnfairAct
-- dateCreated
 - gcAttorney
-- patentNumber
-- id
-- complainant
-- trademarkNumbers
-- ouiiParticipation
-- actualStartDateEvidHear
-- currentStatus
-- dateComplaintFiled
-- targetDate
-- internalRemand
-- patentNumbers
-- actualEndDateEvidHear
-- htsNumbers
-- teoIdIssueDate
-- aljAssigned
-- issueDateOtherNonFinal
+- finalDetViolation
 - investigationType
-- markmanHearing
+- actualEndDateEvidHear
+- issueDateOtherNonFinal
+- internalRemand
+- investigationNo
+- aljAssigned
+- copyrightNumbers
 - lastUpdated
+- dateComplaintFiled
+- scheduledEndDateEvidHear
+- teoReliefGranted
+- currentStatus
+- dateCreated
+- id
+- patentNumbers
+- ouiiAttorney
 - finalIdOnViolationDue
+- markmanHearing
+- teoIdDueDate
+- teoProceedingInvolved
+- startDateMarkmanHearing
+- publication_number
+- trademarkNumbers
+- targetDate
+- finalIdOnViolationIssue
+- currentActiveALJ
+- cafcAppeals
+- investigationTermDate
+- respondent
 - title
+- dateOfPublicationFrNotice
+- actualStartDateEvidHear
+- endDateMarkmanHearing
+- finalDetNoViolation
+- htsNumbers
+- docketNo
+- ouiiParticipation
+- complainant
+- teoIdIssueDate
+- scheduledStartDateEvidHear
+- patentNumber
 shortname: unfair_import_investigations
 tags:
 - import
