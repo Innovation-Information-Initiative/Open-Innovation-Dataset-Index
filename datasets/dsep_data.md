@@ -19,29 +19,29 @@ description: "The OEIDD database provides a full overview of all disclosed IPR a
   or patent applications identified in PATSTAT, belonging to 4814 different INPADOC
   patent families and 5337 different DOCDB patent families. \n"
 documentation: Included with files
-last_edit: 04/05/2022, 23:43:44
+last_edit: 04/06/2022, 00:00:12
 location: http://ssopatents.org/
 schema_fields:
-- pub_cleaned
-- standard
+- sc_name
+- copyright
+- blanket_scope
 - reciprocity
-- wg_name
-- disclosure_event
-- blanket_type
+- family_id
 - patent_owner_unharmonized
 - patent_owner_harmonized
-- sc_name
-- blanket_scope
-- committee_project
-- tc_name
+- disclosure_event
 - licensing_commitment
-- record_id
-- sso
-- family_id
-- date
-- copyright
-- serial_cleaned
+- blanket_type
 - third_party
+- date
+- serial_cleaned
+- committee_project
+- pub_cleaned
+- sso
+- record_id
+- tc_name
+- wg_name
+- standard
 shortname: dsep_data
 tags:
 - disclosure
