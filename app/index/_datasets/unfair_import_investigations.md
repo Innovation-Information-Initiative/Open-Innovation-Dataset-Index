@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 20:30:28
+last_edit: 04/06/2022, 20:43:38
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoIdIssueDate
-- investigationNo
-- docketNo
-- scheduledEndDateEvidHear
-- finalIdOnViolationIssue
-- teoProceedingInvolved
-- cafcAppeals
-- invUnfairAct
-- actualEndDateEvidHear
-- ouiiAttorney
-- currentActiveALJ
-- ouiiParticipation
-- patentNumber
-- finalIdOnViolationDue
-- htsNumbers
-- teoIdDueDate
-- teoReliefGranted
-- scheduledStartDateEvidHear
-- issueDateOtherNonFinal
-- publication_number
-- complainant
-- copyrightNumbers
-- endDateMarkmanHearing
-- finalDetViolation
-- targetDate
-- aljAssigned
-- dateOfPublicationFrNotice
-- lastUpdated
-- gcAttorney
-- id
-- actualStartDateEvidHear
-- markmanHearing
-- investigationType
-- dateComplaintFiled
-- startDateMarkmanHearing
-- trademarkNumbers
-- internalRemand
-- dateCreated
-- patentNumbers
-- currentStatus
 - respondent
+- id
+- dateComplaintFiled
+- patentNumbers
+- complainant
+- htsNumbers
 - title
-- finalDetNoViolation
+- scheduledEndDateEvidHear
 - investigationTermDate
+- teoIdIssueDate
+- teoProceedingInvolved
+- publication_number
+- copyrightNumbers
+- actualEndDateEvidHear
+- finalIdOnViolationDue
+- gcAttorney
+- actualStartDateEvidHear
+- dateOfPublicationFrNotice
+- ouiiAttorney
+- aljAssigned
+- currentStatus
+- currentActiveALJ
+- scheduledStartDateEvidHear
+- dateCreated
+- docketNo
+- startDateMarkmanHearing
+- finalDetNoViolation
+- trademarkNumbers
+- finalIdOnViolationIssue
+- ouiiParticipation
+- cafcAppeals
+- patentNumber
+- targetDate
+- finalDetViolation
+- investigationType
+- lastUpdated
+- investigationNo
+- markmanHearing
+- endDateMarkmanHearing
+- invUnfairAct
+- issueDateOtherNonFinal
+- teoReliefGranted
+- teoIdDueDate
+- internalRemand
 shortname: unfair_import_investigations
 tags:
 - import
