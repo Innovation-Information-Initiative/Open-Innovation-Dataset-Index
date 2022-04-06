@@ -12,55 +12,55 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 03:38:29
+last_edit: 04/06/2022, 03:57:26
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- copyrightNumbers
 - finalIdOnViolationDue
-- aljAssigned
-- patentNumbers
-- actualEndDateEvidHear
-- investigationNo
-- dateComplaintFiled
-- lastUpdated
-- patentNumber
-- dateCreated
-- markmanHearing
-- id
-- complainant
-- finalDetViolation
-- investigationType
-- internalRemand
-- respondent
-- scheduledEndDateEvidHear
-- issueDateOtherNonFinal
-- publication_number
-- finalIdOnViolationIssue
-- teoIdDueDate
-- actualStartDateEvidHear
-- gcAttorney
-- dateOfPublicationFrNotice
-- currentStatus
 - teoReliefGranted
-- endDateMarkmanHearing
-- finalDetNoViolation
-- title
-- scheduledStartDateEvidHear
-- trademarkNumbers
-- docketNo
 - htsNumbers
-- teoIdIssueDate
-- ouiiParticipation
-- targetDate
-- teoProceedingInvolved
-- investigationTermDate
-- startDateMarkmanHearing
-- ouiiAttorney
+- dateCreated
+- finalDetViolation
+- internalRemand
+- patentNumbers
+- markmanHearing
+- copyrightNumbers
 - invUnfairAct
-- currentActiveALJ
+- ouiiParticipation
+- endDateMarkmanHearing
+- trademarkNumbers
+- startDateMarkmanHearing
+- patentNumber
+- dateOfPublicationFrNotice
+- title
+- finalIdOnViolationIssue
+- teoProceedingInvolved
+- issueDateOtherNonFinal
+- gcAttorney
+- publication_number
+- finalDetNoViolation
+- actualStartDateEvidHear
+- respondent
+- docketNo
+- id
 - reportingRequirements
+- currentActiveALJ
 - cafcAppeals
+- scheduledStartDateEvidHear
+- investigationNo
+- complainant
+- aljAssigned
+- scheduledEndDateEvidHear
+- teoIdIssueDate
+- actualEndDateEvidHear
+- ouiiAttorney
+- targetDate
+- investigationTermDate
+- teoIdDueDate
+- lastUpdated
+- investigationType
+- currentStatus
+- dateComplaintFiled
 shortname: unfair_import_investigations
 tags:
 - import
