@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 09:43:38
+last_edit: 04/06/2022, 09:59:57
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- trademarkNumbers
-- id
-- dateCreated
-- actualEndDateEvidHear
-- ouiiParticipation
-- finalDetNoViolation
-- currentActiveALJ
-- ouiiAttorney
-- actualStartDateEvidHear
-- teoIdDueDate
-- issueDateOtherNonFinal
-- currentStatus
-- teoProceedingInvolved
-- aljAssigned
-- respondent
-- scheduledStartDateEvidHear
-- endDateMarkmanHearing
-- teoIdIssueDate
-- complainant
-- title
-- patentNumber
-- patentNumbers
-- copyrightNumbers
-- cafcAppeals
-- lastUpdated
-- publication_number
-- markmanHearing
-- investigationType
-- dateComplaintFiled
-- finalIdOnViolationDue
-- finalIdOnViolationIssue
-- htsNumbers
-- finalDetViolation
-- internalRemand
-- invUnfairAct
-- teoReliefGranted
-- targetDate
-- gcAttorney
-- investigationNo
-- investigationTermDate
 - docketNo
-- scheduledEndDateEvidHear
-- startDateMarkmanHearing
+- patentNumbers
+- teoIdDueDate
+- internalRemand
+- gcAttorney
 - dateOfPublicationFrNotice
+- copyrightNumbers
+- finalIdOnViolationIssue
+- investigationTermDate
+- ouiiParticipation
+- lastUpdated
+- actualStartDateEvidHear
+- dateComplaintFiled
+- teoReliefGranted
+- title
+- ouiiAttorney
+- id
+- investigationNo
+- issueDateOtherNonFinal
+- trademarkNumbers
+- scheduledEndDateEvidHear
+- teoIdIssueDate
+- investigationType
+- markmanHearing
+- aljAssigned
+- complainant
+- finalDetNoViolation
+- patentNumber
+- currentStatus
+- currentActiveALJ
+- publication_number
+- finalDetViolation
+- respondent
+- endDateMarkmanHearing
+- finalIdOnViolationDue
+- invUnfairAct
+- targetDate
+- cafcAppeals
+- htsNumbers
+- scheduledStartDateEvidHear
+- teoProceedingInvolved
+- actualEndDateEvidHear
+- startDateMarkmanHearing
+- dateCreated
 shortname: unfair_import_investigations
 tags:
 - import
