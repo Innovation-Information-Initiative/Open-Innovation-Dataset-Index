@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 13:16:16
+last_edit: 04/06/2022, 13:44:31
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalIdOnViolationDue
-- gcAttorney
-- actualEndDateEvidHear
-- ouiiParticipation
-- htsNumbers
-- ouiiAttorney
-- investigationNo
-- lastUpdated
-- targetDate
-- currentActiveALJ
-- trademarkNumbers
-- internalRemand
-- publication_number
-- complainant
-- dateComplaintFiled
-- investigationType
 - finalDetViolation
-- respondent
-- docketNo
 - teoProceedingInvolved
-- patentNumber
-- scheduledEndDateEvidHear
-- finalIdOnViolationIssue
-- id
-- teoIdIssueDate
-- scheduledStartDateEvidHear
-- finalDetNoViolation
-- cafcAppeals
-- patentNumbers
-- teoIdDueDate
-- invUnfairAct
-- actualStartDateEvidHear
-- title
-- copyrightNumbers
-- startDateMarkmanHearing
-- teoReliefGranted
-- dateOfPublicationFrNotice
-- endDateMarkmanHearing
-- investigationTermDate
-- issueDateOtherNonFinal
 - markmanHearing
-- aljAssigned
-- dateCreated
+- invUnfairAct
+- investigationNo
+- targetDate
+- id
+- finalIdOnViolationDue
+- investigationType
+- complainant
+- title
+- actualEndDateEvidHear
+- cafcAppeals
+- scheduledStartDateEvidHear
+- ouiiParticipation
+- patentNumber
+- actualStartDateEvidHear
 - currentStatus
+- finalDetNoViolation
+- htsNumbers
+- patentNumbers
+- startDateMarkmanHearing
+- teoIdIssueDate
+- investigationTermDate
+- dateCreated
+- respondent
+- teoIdDueDate
+- ouiiAttorney
+- publication_number
+- issueDateOtherNonFinal
+- aljAssigned
+- dateComplaintFiled
+- currentActiveALJ
+- copyrightNumbers
+- trademarkNumbers
+- lastUpdated
+- docketNo
+- dateOfPublicationFrNotice
+- finalIdOnViolationIssue
+- gcAttorney
+- teoReliefGranted
+- internalRemand
+- endDateMarkmanHearing
+- scheduledEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
