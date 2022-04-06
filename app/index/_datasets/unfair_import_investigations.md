@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 11:23:13
+last_edit: 04/06/2022, 11:40:40
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoReliefGranted
-- actualStartDateEvidHear
-- respondent
-- lastUpdated
-- finalIdOnViolationDue
-- gcAttorney
-- trademarkNumbers
-- patentNumber
-- publication_number
-- markmanHearing
-- teoIdIssueDate
-- dateOfPublicationFrNotice
-- investigationNo
-- targetDate
-- issueDateOtherNonFinal
-- cafcAppeals
-- patentNumbers
-- copyrightNumbers
-- teoIdDueDate
-- title
-- ouiiParticipation
-- startDateMarkmanHearing
-- actualEndDateEvidHear
-- docketNo
-- id
-- finalDetNoViolation
-- currentActiveALJ
-- aljAssigned
-- finalIdOnViolationIssue
-- currentStatus
-- finalDetViolation
-- endDateMarkmanHearing
-- dateCreated
-- scheduledStartDateEvidHear
-- invUnfairAct
-- internalRemand
-- dateComplaintFiled
-- investigationType
 - complainant
-- htsNumbers
-- teoProceedingInvolved
-- investigationTermDate
+- dateComplaintFiled
+- internalRemand
+- investigationType
+- investigationNo
 - ouiiAttorney
+- trademarkNumbers
+- scheduledStartDateEvidHear
+- currentActiveALJ
+- copyrightNumbers
+- currentStatus
+- htsNumbers
+- id
+- teoProceedingInvolved
+- dateOfPublicationFrNotice
+- respondent
+- markmanHearing
+- finalIdOnViolationDue
+- actualEndDateEvidHear
+- finalDetViolation
+- actualStartDateEvidHear
+- gcAttorney
+- invUnfairAct
+- issueDateOtherNonFinal
+- patentNumbers
+- patentNumber
 - scheduledEndDateEvidHear
+- finalIdOnViolationIssue
+- title
+- dateCreated
+- finalDetNoViolation
+- cafcAppeals
+- targetDate
+- publication_number
+- docketNo
+- ouiiParticipation
+- teoIdIssueDate
+- teoReliefGranted
+- teoIdDueDate
+- endDateMarkmanHearing
+- investigationTermDate
+- startDateMarkmanHearing
+- aljAssigned
+- lastUpdated
 shortname: unfair_import_investigations
 tags:
 - import
