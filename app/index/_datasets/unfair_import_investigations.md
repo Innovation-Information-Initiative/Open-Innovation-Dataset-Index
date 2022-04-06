@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 19:03:01
+last_edit: 04/06/2022, 19:21:07
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- docketNo
-- copyrightNumbers
-- htsNumbers
-- actualStartDateEvidHear
-- dateOfPublicationFrNotice
-- invUnfairAct
-- teoIdDueDate
-- finalDetViolation
-- teoReliefGranted
-- dateComplaintFiled
-- finalIdOnViolationIssue
-- teoProceedingInvolved
-- investigationNo
 - finalDetNoViolation
-- dateCreated
-- scheduledEndDateEvidHear
-- currentActiveALJ
-- markmanHearing
-- publication_number
-- complainant
-- issueDateOtherNonFinal
-- ouiiAttorney
-- lastUpdated
-- patentNumbers
-- ouiiParticipation
-- endDateMarkmanHearing
-- gcAttorney
-- investigationTermDate
-- scheduledStartDateEvidHear
-- respondent
-- internalRemand
-- id
-- targetDate
-- finalIdOnViolationDue
-- startDateMarkmanHearing
-- cafcAppeals
-- patentNumber
-- title
-- actualEndDateEvidHear
-- currentStatus
-- aljAssigned
-- teoIdIssueDate
-- trademarkNumbers
 - investigationType
+- id
+- currentStatus
+- respondent
+- investigationNo
+- currentActiveALJ
+- cafcAppeals
+- dateCreated
+- htsNumbers
+- aljAssigned
+- patentNumber
+- publication_number
+- title
+- dateOfPublicationFrNotice
+- docketNo
+- gcAttorney
+- teoReliefGranted
+- actualEndDateEvidHear
+- complainant
+- internalRemand
+- endDateMarkmanHearing
+- markmanHearing
+- startDateMarkmanHearing
+- ouiiParticipation
+- copyrightNumbers
+- finalIdOnViolationDue
+- investigationTermDate
+- issueDateOtherNonFinal
+- teoIdIssueDate
+- targetDate
+- patentNumbers
+- ouiiAttorney
+- finalDetViolation
+- dateComplaintFiled
+- lastUpdated
+- invUnfairAct
+- finalIdOnViolationIssue
+- scheduledEndDateEvidHear
+- teoProceedingInvolved
+- trademarkNumbers
+- actualStartDateEvidHear
+- scheduledStartDateEvidHear
+- teoIdDueDate
 shortname: unfair_import_investigations
 tags:
 - import
