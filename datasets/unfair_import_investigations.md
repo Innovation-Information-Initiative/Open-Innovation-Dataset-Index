@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 17:44:11
+last_edit: 04/06/2022, 18:00:05
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationType
-- ouiiAttorney
-- copyrightNumbers
-- startDateMarkmanHearing
-- trademarkNumbers
-- dateComplaintFiled
-- dateOfPublicationFrNotice
 - issueDateOtherNonFinal
-- publication_number
-- scheduledEndDateEvidHear
-- teoIdDueDate
-- finalDetViolation
-- title
-- finalIdOnViolationIssue
-- markmanHearing
-- docketNo
-- complainant
-- endDateMarkmanHearing
-- finalDetNoViolation
-- id
+- teoProceedingInvolved
 - cafcAppeals
-- investigationTermDate
-- patentNumbers
-- respondent
-- aljAssigned
-- scheduledStartDateEvidHear
-- ouiiParticipation
-- actualEndDateEvidHear
-- invUnfairAct
 - finalIdOnViolationDue
+- complainant
+- currentActiveALJ
+- investigationNo
+- ouiiAttorney
+- teoReliefGranted
+- invUnfairAct
 - teoIdIssueDate
+- patentNumber
+- investigationType
+- lastUpdated
+- targetDate
+- publication_number
+- internalRemand
+- actualEndDateEvidHear
+- finalIdOnViolationIssue
+- ouiiParticipation
+- id
 - currentStatus
 - actualStartDateEvidHear
-- dateCreated
-- internalRemand
 - gcAttorney
-- investigationNo
-- patentNumber
-- currentActiveALJ
-- lastUpdated
-- teoProceedingInvolved
-- targetDate
-- teoReliefGranted
+- endDateMarkmanHearing
+- investigationTermDate
+- markmanHearing
+- trademarkNumbers
+- patentNumbers
+- dateCreated
+- dateOfPublicationFrNotice
+- copyrightNumbers
+- scheduledEndDateEvidHear
+- respondent
+- scheduledStartDateEvidHear
+- aljAssigned
+- title
+- docketNo
+- startDateMarkmanHearing
 - htsNumbers
+- finalDetNoViolation
+- finalDetViolation
+- teoIdDueDate
+- dateComplaintFiled
 shortname: unfair_import_investigations
 tags:
 - import
