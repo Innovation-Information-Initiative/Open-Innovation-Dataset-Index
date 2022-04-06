@@ -15,52 +15,52 @@ description: The USPTO allows parties to record assignments of patents and paten
   on 8.97 million patent assignments and other transactions recorded at the USPTO
   since 1970 and involving roughly 15.1 million patents and patent applications. It
   is derived from the recording of patent transfers by parties with the USPTO.
-last_edit: 04/06/2022, 14:24:30
+last_edit: 04/06/2022, 14:42:23
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-assignment-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: http://ssrn.com/abstract=2636461
 schema_fields:
 - publication_number
-- lang
-- admin_pat_no_for_appno
-- ee_country
-- pgpub_country
-- rf_id
-- grant_country
-- caddress_4
+- ee_address_1
+- caddress_2
+- caddress_1
+- pgpub_doc_num
 - reel_no
-- file_id
+- rf_id
+- ack_dt
 - ee_city
 - employer_assign
-- grant_date
-- title
-- ack_dt
-- ee_postcode
-- ee_address_2
-- or_name
+- file_id
 - cname
+- appno_date
+- admin_appl_id_for_grant
+- ee_country
+- grant_doc_num
+- admin_pat_no_for_appno
+- error
+- appno_country
+- convey_text
+- exec_dt
+- convey_ty
+- title
+- ee_address_2
+- grant_country
+- ee_postcode
+- lang
+- ee_name
+- purge_in
+- last_update_dt
 - record_dt
 - appno_doc_num
-- caddress_1
-- frame_no
-- caddress_3
-- ee_name
-- ee_state
-- error
-- convey_ty
-- purge_in
-- admin_appl_id_for_grant
-- ee_address_1
-- grant_doc_num
-- caddress_2
-- appno_country
-- appno_date
 - page_count
+- pgpub_country
 - pgpub_date
-- pgpub_doc_num
-- convey_text
-- last_update_dt
-- exec_dt
+- grant_date
+- caddress_3
+- or_name
+- frame_no
+- caddress_4
+- ee_state
 shortname: uspto_patent_assignment
 tags:
 - patents
