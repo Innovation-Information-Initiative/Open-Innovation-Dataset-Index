@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 23:43:52
+last_edit: 04/06/2022, 23:59:24
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoProceedingInvolved
-- complainant
-- finalDetViolation
-- startDateMarkmanHearing
-- finalDetNoViolation
-- lastUpdated
-- investigationNo
-- investigationType
-- investigationTermDate
-- title
-- markmanHearing
-- publication_number
-- ouiiAttorney
-- copyrightNumbers
-- trademarkNumbers
 - internalRemand
-- scheduledStartDateEvidHear
-- dateComplaintFiled
-- issueDateOtherNonFinal
-- scheduledEndDateEvidHear
-- patentNumbers
-- targetDate
-- teoReliefGranted
-- dateCreated
-- teoIdIssueDate
-- dateOfPublicationFrNotice
+- startDateMarkmanHearing
+- finalDetViolation
 - actualEndDateEvidHear
-- finalIdOnViolationIssue
-- invUnfairAct
-- respondent
-- gcAttorney
-- teoIdDueDate
-- patentNumber
-- endDateMarkmanHearing
-- ouiiParticipation
-- actualStartDateEvidHear
-- finalIdOnViolationDue
-- docketNo
-- htsNumbers
-- aljAssigned
-- cafcAppeals
-- id
 - currentActiveALJ
+- finalIdOnViolationDue
+- investigationNo
+- teoIdIssueDate
+- htsNumbers
+- issueDateOtherNonFinal
+- complainant
+- endDateMarkmanHearing
+- teoIdDueDate
+- finalDetNoViolation
+- dateComplaintFiled
+- teoReliefGranted
 - currentStatus
+- teoProceedingInvolved
+- trademarkNumbers
+- respondent
+- docketNo
+- finalIdOnViolationIssue
+- cafcAppeals
+- publication_number
+- scheduledEndDateEvidHear
+- dateCreated
+- ouiiAttorney
+- title
+- invUnfairAct
+- investigationType
+- targetDate
+- copyrightNumbers
+- actualStartDateEvidHear
+- aljAssigned
+- lastUpdated
+- dateOfPublicationFrNotice
+- id
+- patentNumbers
+- investigationTermDate
+- patentNumber
+- ouiiParticipation
+- scheduledStartDateEvidHear
+- gcAttorney
+- markmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
