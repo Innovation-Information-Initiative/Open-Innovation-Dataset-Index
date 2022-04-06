@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 18:31:00
+last_edit: 04/06/2022, 18:50:13
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- copyrightNumbers
-- patentNumbers
-- patentNumber
-- gcAttorney
-- lastUpdated
-- investigationType
-- scheduledEndDateEvidHear
-- actualEndDateEvidHear
 - finalIdOnViolationDue
-- actualStartDateEvidHear
-- finalDetViolation
-- teoReliefGranted
-- publication_number
-- docketNo
-- dateComplaintFiled
-- ouiiParticipation
-- endDateMarkmanHearing
-- finalIdOnViolationIssue
-- startDateMarkmanHearing
-- aljAssigned
-- teoProceedingInvolved
-- currentStatus
-- investigationNo
-- currentActiveALJ
-- htsNumbers
-- dateCreated
-- ouiiAttorney
 - dateOfPublicationFrNotice
-- teoIdIssueDate
-- invUnfairAct
-- cafcAppeals
-- trademarkNumbers
-- id
-- issueDateOtherNonFinal
-- complainant
-- internalRemand
-- markmanHearing
-- respondent
-- teoIdDueDate
-- finalDetNoViolation
+- gcAttorney
+- scheduledEndDateEvidHear
+- currentStatus
 - title
-- targetDate
-- scheduledStartDateEvidHear
+- endDateMarkmanHearing
+- internalRemand
 - investigationTermDate
+- markmanHearing
+- teoIdDueDate
+- finalDetViolation
+- aljAssigned
+- invUnfairAct
+- complainant
+- cafcAppeals
+- dateCreated
+- dateComplaintFiled
+- lastUpdated
+- id
+- startDateMarkmanHearing
+- actualEndDateEvidHear
+- currentActiveALJ
+- ouiiAttorney
+- scheduledStartDateEvidHear
+- finalDetNoViolation
+- copyrightNumbers
+- investigationNo
+- patentNumber
+- trademarkNumbers
+- publication_number
+- teoProceedingInvolved
+- targetDate
+- teoIdIssueDate
+- actualStartDateEvidHear
+- htsNumbers
+- ouiiParticipation
+- docketNo
+- issueDateOtherNonFinal
+- teoReliefGranted
+- patentNumbers
+- finalIdOnViolationIssue
+- investigationType
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
