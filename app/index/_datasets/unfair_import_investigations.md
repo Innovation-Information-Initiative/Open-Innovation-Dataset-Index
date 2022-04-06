@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/06/2022, 14:54:36
+last_edit: 04/06/2022, 15:25:48
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationType
-- actualStartDateEvidHear
-- trademarkNumbers
-- scheduledEndDateEvidHear
-- htsNumbers
-- respondent
-- finalIdOnViolationDue
-- currentActiveALJ
-- actualEndDateEvidHear
-- investigationNo
-- endDateMarkmanHearing
-- scheduledStartDateEvidHear
-- currentStatus
-- targetDate
-- id
-- docketNo
-- gcAttorney
-- ouiiAttorney
-- startDateMarkmanHearing
-- finalIdOnViolationIssue
+- ouiiParticipation
 - teoProceedingInvolved
-- patentNumber
+- title
+- htsNumbers
+- docketNo
+- finalIdOnViolationIssue
+- invUnfairAct
+- currentStatus
+- scheduledStartDateEvidHear
+- issueDateOtherNonFinal
+- scheduledEndDateEvidHear
+- currentActiveALJ
+- copyrightNumbers
+- trademarkNumbers
+- endDateMarkmanHearing
+- investigationTermDate
+- teoReliefGranted
 - complainant
 - teoIdDueDate
-- issueDateOtherNonFinal
-- lastUpdated
-- patentNumbers
-- teoReliefGranted
-- dateCreated
-- invUnfairAct
-- aljAssigned
-- copyrightNumbers
-- investigationTermDate
-- publication_number
-- cafcAppeals
-- markmanHearing
-- dateComplaintFiled
-- internalRemand
-- ouiiParticipation
-- title
-- teoIdIssueDate
-- finalDetViolation
+- finalIdOnViolationDue
+- actualStartDateEvidHear
+- investigationType
 - dateOfPublicationFrNotice
+- targetDate
+- id
+- patentNumbers
+- ouiiAttorney
+- cafcAppeals
+- respondent
+- gcAttorney
+- lastUpdated
+- teoIdIssueDate
+- publication_number
+- startDateMarkmanHearing
+- investigationNo
+- internalRemand
+- patentNumber
 - finalDetNoViolation
+- aljAssigned
+- dateComplaintFiled
+- dateCreated
+- markmanHearing
+- finalDetViolation
+- actualEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
