@@ -16,50 +16,50 @@ description: 'Drawing upon recent advances in machine learning and natural langu
   statistics, a novelty measure based on the first appearance of a word in the patent
   corpus, and an automated co-inventor network mapping tool. '
 documentation: https://funginstitute.berkeley.edu/wp-content/uploads/2016/11/Machine_learning_and_natural_language_processing_on_the_patent_corpus.pdf
-last_edit: 04/07/2022, 11:23:28
+last_edit: 04/07/2022, 11:40:25
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ucb-fung-patent
 related_publications: ' https://doi.org/10.1111/jems.12259'
 schema_fields:
-- State
-- FutureUse
-- InventorFullname
-- string_field_1
-- FirstMiddleName
 - Title
-- LastName
-- Word
-- ApplNo
-- FullName
 - CPC_Layer_2
-- Sequence
-- PatentNo_citing
-- City
-- Company
-- int64_field_0
-- sequence
-- id
-- CPC_Layer_1
-- PatentNoOrNPL_cited
-- Self_Citation_Flag
-- CountryCodeOrNPL_cited
-- PatentNo
-- CurrentUse
-- assignee_disambiguated
-- LawFirm
-- FamilyID
-- AssistExaminer
-- Country
 - InventorID
-- Type
 - PrimaryExaminer
+- pdpass
+- LastName
+- CountryCodeOrNPL_cited
+- Abstract
+- CurrentUse
+- string_field_1
+- City
+- State
+- int64_field_0
+- Word
+- Sequence
+- CPC_Layer_1
+- FutureUse
+- PatentNoOrNPL_cited
+- AssistExaminer
+- Self_Citation_Flag
 - GovernmentInterests
-- string_field_2
+- CPC_Full
+- FullName
 - IssueDate
 - Geography
-- CPC_Full
+- id
+- sequence
+- Company
+- assignee_disambiguated
 - ApplDate
-- pdpass
-- Abstract
+- Country
+- PatentNo
+- FamilyID
+- PatentNo_citing
+- string_field_2
+- ApplNo
+- Type
+- InventorFullname
+- LawFirm
+- FirstMiddleName
 shortname: ucb_fung
 tags:
 - patents
