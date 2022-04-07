@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 07:59:56
+last_edit: 04/07/2022, 08:31:01
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- cafcAppeals
-- patentNumber
-- scheduledEndDateEvidHear
-- investigationNo
-- teoProceedingInvolved
-- dateCreated
-- actualEndDateEvidHear
-- teoIdIssueDate
-- markmanHearing
-- id
-- investigationTermDate
-- publication_number
-- htsNumbers
-- invUnfairAct
-- complainant
-- teoReliefGranted
-- respondent
-- copyrightNumbers
-- title
-- finalDetViolation
-- lastUpdated
-- currentActiveALJ
-- currentStatus
-- investigationType
-- aljAssigned
-- ouiiAttorney
 - dateOfPublicationFrNotice
-- internalRemand
-- finalIdOnViolationDue
-- docketNo
-- trademarkNumbers
-- gcAttorney
-- finalDetNoViolation
-- startDateMarkmanHearing
-- issueDateOtherNonFinal
-- teoIdDueDate
-- actualStartDateEvidHear
-- finalIdOnViolationIssue
+- id
+- investigationNo
 - endDateMarkmanHearing
-- targetDate
-- ouiiParticipation
+- respondent
+- actualStartDateEvidHear
+- internalRemand
+- actualEndDateEvidHear
 - dateComplaintFiled
-- scheduledStartDateEvidHear
+- trademarkNumbers
+- targetDate
+- gcAttorney
 - patentNumbers
+- startDateMarkmanHearing
+- aljAssigned
+- ouiiParticipation
+- issueDateOtherNonFinal
+- patentNumber
+- complainant
+- investigationType
+- publication_number
+- teoIdDueDate
+- scheduledEndDateEvidHear
+- teoReliefGranted
+- currentActiveALJ
+- title
+- scheduledStartDateEvidHear
+- lastUpdated
+- finalDetNoViolation
+- teoProceedingInvolved
+- finalDetViolation
+- finalIdOnViolationDue
+- cafcAppeals
+- finalIdOnViolationIssue
+- dateCreated
+- htsNumbers
+- docketNo
+- teoIdIssueDate
+- investigationTermDate
+- invUnfairAct
+- markmanHearing
+- currentStatus
+- copyrightNumbers
+- ouiiAttorney
 shortname: unfair_import_investigations
 tags:
 - import
