@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 16:00:52
+last_edit: 04/07/2022, 16:37:09
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
+- currentActiveALJ
+- issueDateOtherNonFinal
+- internalRemand
+- finalDetViolation
+- dateCreated
+- investigationTermDate
+- investigationType
+- copyrightNumbers
+- aljAssigned
+- respondent
+- targetDate
+- dateOfPublicationFrNotice
+- actualStartDateEvidHear
+- teoReliefGranted
+- title
+- actualEndDateEvidHear
+- currentStatus
+- cafcAppeals
+- dateComplaintFiled
+- htsNumbers
+- ouiiAttorney
+- markmanHearing
+- patentNumbers
+- complainant
+- trademarkNumbers
+- id
+- teoProceedingInvolved
+- gcAttorney
+- finalIdOnViolationIssue
+- ouiiParticipation
+- teoIdDueDate
+- teoIdIssueDate
+- startDateMarkmanHearing
+- publication_number
 - docketNo
 - scheduledStartDateEvidHear
-- actualEndDateEvidHear
-- trademarkNumbers
-- teoIdIssueDate
-- id
-- gcAttorney
-- dateCreated
-- ouiiParticipation
 - patentNumber
-- actualStartDateEvidHear
-- issueDateOtherNonFinal
-- aljAssigned
-- investigationType
-- internalRemand
-- teoIdDueDate
-- copyrightNumbers
-- currentActiveALJ
-- startDateMarkmanHearing
-- teoProceedingInvolved
-- teoReliefGranted
-- targetDate
-- markmanHearing
-- publication_number
 - investigationNo
-- complainant
-- patentNumbers
-- finalIdOnViolationDue
 - lastUpdated
-- finalIdOnViolationIssue
-- endDateMarkmanHearing
-- dateOfPublicationFrNotice
-- respondent
+- finalIdOnViolationDue
 - finalDetNoViolation
-- finalDetViolation
-- htsNumbers
-- investigationTermDate
-- title
-- cafcAppeals
-- invUnfairAct
-- ouiiAttorney
-- currentStatus
-- dateComplaintFiled
 - scheduledEndDateEvidHear
+- invUnfairAct
+- endDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
