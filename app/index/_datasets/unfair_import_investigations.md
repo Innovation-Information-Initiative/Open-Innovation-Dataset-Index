@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 22:26:27
+last_edit: 04/07/2022, 22:43:29
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- startDateMarkmanHearing
-- gcAttorney
-- issueDateOtherNonFinal
-- invUnfairAct
-- teoIdIssueDate
-- markmanHearing
-- htsNumbers
-- dateCreated
-- dateComplaintFiled
-- currentActiveALJ
-- id
-- internalRemand
-- actualStartDateEvidHear
-- lastUpdated
-- patentNumbers
-- finalDetNoViolation
-- scheduledStartDateEvidHear
-- investigationTermDate
-- docketNo
-- cafcAppeals
-- actualEndDateEvidHear
-- endDateMarkmanHearing
-- ouiiParticipation
-- teoReliefGranted
-- title
-- finalIdOnViolationIssue
-- investigationType
-- dateOfPublicationFrNotice
-- respondent
-- copyrightNumbers
-- teoProceedingInvolved
-- patentNumber
-- ouiiAttorney
 - complainant
-- finalDetViolation
-- investigationNo
-- targetDate
-- teoIdDueDate
-- aljAssigned
-- publication_number
 - finalIdOnViolationDue
-- scheduledEndDateEvidHear
+- aljAssigned
+- dateComplaintFiled
+- endDateMarkmanHearing
+- actualEndDateEvidHear
+- internalRemand
+- investigationType
+- invUnfairAct
+- investigationNo
+- id
+- actualStartDateEvidHear
+- gcAttorney
+- respondent
+- finalDetNoViolation
+- investigationTermDate
+- markmanHearing
+- scheduledStartDateEvidHear
+- targetDate
+- teoReliefGranted
+- issueDateOtherNonFinal
+- finalDetViolation
+- publication_number
+- finalIdOnViolationIssue
+- teoIdDueDate
 - currentStatus
+- title
+- lastUpdated
+- ouiiParticipation
+- patentNumber
+- copyrightNumbers
+- currentActiveALJ
+- ouiiAttorney
+- dateOfPublicationFrNotice
+- dateCreated
+- cafcAppeals
+- teoProceedingInvolved
+- scheduledEndDateEvidHear
+- htsNumbers
+- patentNumbers
+- teoIdIssueDate
 - trademarkNumbers
+- docketNo
+- startDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
