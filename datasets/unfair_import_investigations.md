@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 04:01:07
+last_edit: 04/07/2022, 04:34:09
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiAttorney
+- targetDate
 - htsNumbers
+- title
+- teoIdIssueDate
+- actualEndDateEvidHear
+- teoReliefGranted
+- ouiiParticipation
+- dateOfPublicationFrNotice
+- internalRemand
+- docketNo
+- copyrightNumbers
+- cafcAppeals
+- dateCreated
 - finalIdOnViolationDue
 - startDateMarkmanHearing
-- finalIdOnViolationIssue
-- aljAssigned
-- lastUpdated
-- ouiiParticipation
-- publication_number
-- internalRemand
-- complainant
-- teoIdIssueDate
-- docketNo
-- finalDetNoViolation
-- investigationTermDate
-- patentNumbers
-- cafcAppeals
-- teoReliefGranted
-- currentActiveALJ
-- markmanHearing
-- finalDetViolation
-- scheduledStartDateEvidHear
-- targetDate
-- endDateMarkmanHearing
-- teoProceedingInvolved
-- title
+- actualStartDateEvidHear
+- ouiiAttorney
+- scheduledEndDateEvidHear
 - currentStatus
 - trademarkNumbers
-- dateOfPublicationFrNotice
-- invUnfairAct
-- gcAttorney
-- actualStartDateEvidHear
-- investigationType
-- scheduledEndDateEvidHear
 - id
-- dateComplaintFiled
-- dateCreated
 - patentNumber
-- issueDateOtherNonFinal
-- investigationNo
-- copyrightNumbers
-- actualEndDateEvidHear
-- respondent
+- investigationType
+- scheduledStartDateEvidHear
 - teoIdDueDate
+- dateComplaintFiled
+- endDateMarkmanHearing
+- complainant
+- gcAttorney
+- invUnfairAct
+- teoProceedingInvolved
+- finalDetNoViolation
+- patentNumbers
+- aljAssigned
+- finalDetViolation
+- investigationTermDate
+- investigationNo
+- finalIdOnViolationIssue
+- lastUpdated
+- currentActiveALJ
+- issueDateOtherNonFinal
+- respondent
+- publication_number
+- markmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
