@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 21:24:08
+last_edit: 04/07/2022, 21:42:21
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- cafcAppeals
-- teoIdDueDate
-- complainant
-- actualEndDateEvidHear
-- lastUpdated
-- internalRemand
-- teoProceedingInvolved
-- finalIdOnViolationDue
-- respondent
-- ouiiParticipation
-- dateOfPublicationFrNotice
-- teoReliefGranted
-- dateCreated
 - finalDetViolation
-- investigationType
+- lastUpdated
+- dateOfPublicationFrNotice
+- actualEndDateEvidHear
+- endDateMarkmanHearing
+- internalRemand
+- startDateMarkmanHearing
+- ouiiParticipation
+- trademarkNumbers
+- scheduledStartDateEvidHear
 - finalIdOnViolationIssue
 - htsNumbers
-- startDateMarkmanHearing
-- currentStatus
-- investigationNo
-- aljAssigned
-- scheduledEndDateEvidHear
-- targetDate
-- finalDetNoViolation
-- currentActiveALJ
-- markmanHearing
-- patentNumbers
-- issueDateOtherNonFinal
-- dateComplaintFiled
-- gcAttorney
-- invUnfairAct
-- id
-- copyrightNumbers
-- teoIdIssueDate
-- actualStartDateEvidHear
-- ouiiAttorney
-- patentNumber
-- docketNo
-- investigationTermDate
-- scheduledStartDateEvidHear
 - title
-- trademarkNumbers
+- complainant
+- scheduledEndDateEvidHear
 - publication_number
-- endDateMarkmanHearing
+- aljAssigned
+- patentNumber
+- actualStartDateEvidHear
+- currentActiveALJ
+- investigationTermDate
+- finalDetNoViolation
+- finalIdOnViolationDue
+- targetDate
+- id
+- invUnfairAct
+- markmanHearing
+- cafcAppeals
+- gcAttorney
+- dateCreated
+- copyrightNumbers
+- teoReliefGranted
+- teoProceedingInvolved
+- currentStatus
+- teoIdIssueDate
+- ouiiAttorney
+- teoIdDueDate
+- respondent
+- docketNo
+- issueDateOtherNonFinal
+- investigationType
+- investigationNo
+- dateComplaintFiled
+- patentNumbers
 shortname: unfair_import_investigations
 tags:
 - import
