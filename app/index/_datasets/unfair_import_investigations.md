@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 15:56:51
+last_edit: 04/07/2022, 16:00:52
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- internalRemand
-- teoIdDueDate
-- title
-- endDateMarkmanHearing
-- teoIdIssueDate
-- markmanHearing
-- finalDetNoViolation
-- id
-- currentActiveALJ
-- copyrightNumbers
-- ouiiAttorney
-- patentNumbers
-- investigationNo
-- startDateMarkmanHearing
-- scheduledEndDateEvidHear
+- docketNo
 - scheduledStartDateEvidHear
-- actualStartDateEvidHear
-- finalIdOnViolationDue
+- actualEndDateEvidHear
+- trademarkNumbers
+- teoIdIssueDate
+- id
 - gcAttorney
-- dateOfPublicationFrNotice
-- issueDateOtherNonFinal
+- dateCreated
 - ouiiParticipation
-- finalIdOnViolationIssue
-- htsNumbers
-- dateComplaintFiled
+- patentNumber
+- actualStartDateEvidHear
+- issueDateOtherNonFinal
 - aljAssigned
 - investigationType
-- investigationTermDate
-- actualEndDateEvidHear
-- cafcAppeals
-- respondent
-- targetDate
-- patentNumber
-- dateCreated
-- trademarkNumbers
-- currentStatus
-- teoReliefGranted
-- complainant
+- internalRemand
+- teoIdDueDate
+- copyrightNumbers
+- currentActiveALJ
+- startDateMarkmanHearing
 - teoProceedingInvolved
-- lastUpdated
-- invUnfairAct
+- teoReliefGranted
+- targetDate
+- markmanHearing
 - publication_number
+- investigationNo
+- complainant
+- patentNumbers
+- finalIdOnViolationDue
+- lastUpdated
+- finalIdOnViolationIssue
+- endDateMarkmanHearing
+- dateOfPublicationFrNotice
+- respondent
+- finalDetNoViolation
 - finalDetViolation
-- docketNo
+- htsNumbers
+- investigationTermDate
+- title
+- cafcAppeals
+- invUnfairAct
+- ouiiAttorney
+- currentStatus
+- dateComplaintFiled
+- scheduledEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
