@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/07/2022, 11:40:25
+last_edit: 04/07/2022, 11:52:49
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoIdDueDate
-- finalDetViolation
-- currentActiveALJ
-- trademarkNumbers
-- title
-- ouiiParticipation
-- gcAttorney
-- investigationNo
-- finalIdOnViolationIssue
-- ouiiAttorney
-- dateCreated
-- cafcAppeals
-- complainant
-- aljAssigned
-- scheduledEndDateEvidHear
-- startDateMarkmanHearing
-- currentStatus
 - dateComplaintFiled
+- actualEndDateEvidHear
+- startDateMarkmanHearing
+- finalDetViolation
+- investigationTermDate
 - invUnfairAct
+- htsNumbers
+- scheduledEndDateEvidHear
+- scheduledStartDateEvidHear
 - patentNumbers
-- investigationType
+- actualStartDateEvidHear
+- teoProceedingInvolved
+- aljAssigned
+- gcAttorney
+- respondent
+- teoIdDueDate
+- patentNumber
+- currentActiveALJ
+- docketNo
+- publication_number
+- endDateMarkmanHearing
 - internalRemand
+- title
+- cafcAppeals
+- finalIdOnViolationIssue
 - targetDate
+- investigationNo
+- copyrightNumbers
+- complainant
+- id
+- ouiiAttorney
+- finalIdOnViolationDue
+- teoIdIssueDate
+- finalDetNoViolation
+- markmanHearing
+- issueDateOtherNonFinal
+- ouiiParticipation
+- investigationType
+- trademarkNumbers
+- dateCreated
 - dateOfPublicationFrNotice
 - lastUpdated
-- scheduledStartDateEvidHear
-- id
-- teoIdIssueDate
-- docketNo
-- markmanHearing
-- patentNumber
-- endDateMarkmanHearing
-- issueDateOtherNonFinal
-- actualEndDateEvidHear
-- htsNumbers
-- respondent
-- teoProceedingInvolved
-- finalDetNoViolation
-- finalIdOnViolationDue
-- investigationTermDate
+- currentStatus
 - teoReliefGranted
-- publication_number
-- actualStartDateEvidHear
-- copyrightNumbers
 shortname: unfair_import_investigations
 tags:
 - import
