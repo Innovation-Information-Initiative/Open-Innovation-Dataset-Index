@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 21:54:40
+last_edit: 04/08/2022, 22:24:04
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationNo
-- finalIdOnViolationIssue
-- finalDetNoViolation
+- id
+- scheduledStartDateEvidHear
 - dateComplaintFiled
+- currentStatus
+- endDateMarkmanHearing
+- aljAssigned
+- cafcAppeals
+- currentActiveALJ
+- title
+- trademarkNumbers
+- teoIdDueDate
+- publication_number
+- respondent
+- finalDetNoViolation
+- gcAttorney
+- targetDate
+- teoIdIssueDate
+- finalIdOnViolationIssue
+- htsNumbers
+- scheduledEndDateEvidHear
+- patentNumber
+- teoProceedingInvolved
+- finalIdOnViolationDue
+- investigationNo
+- finalDetViolation
+- investigationTermDate
+- complainant
 - issueDateOtherNonFinal
+- ouiiAttorney
+- invUnfairAct
+- teoReliefGranted
+- internalRemand
+- ouiiParticipation
+- lastUpdated
+- actualStartDateEvidHear
+- dateCreated
+- startDateMarkmanHearing
+- copyrightNumbers
+- docketNo
+- investigationType
+- dateOfPublicationFrNotice
+- patentNumbers
 - markmanHearing
 - actualEndDateEvidHear
-- finalIdOnViolationDue
-- currentActiveALJ
-- startDateMarkmanHearing
-- teoProceedingInvolved
-- scheduledEndDateEvidHear
-- teoReliefGranted
-- docketNo
-- currentStatus
-- patentNumbers
-- complainant
-- id
-- patentNumber
-- htsNumbers
-- title
-- investigationType
-- targetDate
-- ouiiParticipation
-- trademarkNumbers
-- dateOfPublicationFrNotice
-- cafcAppeals
-- teoIdDueDate
-- internalRemand
-- investigationTermDate
-- ouiiAttorney
-- scheduledStartDateEvidHear
-- invUnfairAct
-- teoIdIssueDate
-- dateCreated
-- lastUpdated
-- endDateMarkmanHearing
-- respondent
-- publication_number
-- aljAssigned
-- actualStartDateEvidHear
-- finalDetViolation
-- copyrightNumbers
-- gcAttorney
 shortname: unfair_import_investigations
 tags:
 - import
