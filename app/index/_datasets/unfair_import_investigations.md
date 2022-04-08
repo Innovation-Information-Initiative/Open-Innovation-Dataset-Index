@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 06:56:17
+last_edit: 04/08/2022, 07:23:57
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
+- investigationType
+- scheduledEndDateEvidHear
+- investigationNo
 - cafcAppeals
-- teoIdDueDate
-- trademarkNumbers
-- ouiiAttorney
+- gcAttorney
+- dateComplaintFiled
+- endDateMarkmanHearing
+- currentStatus
+- patentNumbers
+- docketNo
+- finalIdOnViolationIssue
+- dateCreated
+- finalDetNoViolation
+- startDateMarkmanHearing
 - scheduledStartDateEvidHear
+- teoIdDueDate
+- issueDateOtherNonFinal
+- title
+- patentNumber
+- ouiiParticipation
+- aljAssigned
+- id
+- lastUpdated
+- finalIdOnViolationDue
+- currentActiveALJ
+- actualEndDateEvidHear
+- finalDetViolation
+- markmanHearing
+- ouiiAttorney
+- teoIdIssueDate
+- actualStartDateEvidHear
+- teoReliefGranted
 - investigationTermDate
+- respondent
+- complainant
+- copyrightNumbers
 - teoProceedingInvolved
+- dateOfPublicationFrNotice
 - htsNumbers
 - internalRemand
-- docketNo
-- aljAssigned
-- scheduledEndDateEvidHear
-- endDateMarkmanHearing
-- targetDate
 - invUnfairAct
-- actualStartDateEvidHear
-- id
-- finalIdOnViolationIssue
-- finalDetViolation
-- investigationNo
-- startDateMarkmanHearing
-- dateCreated
-- patentNumbers
-- dateOfPublicationFrNotice
-- investigationType
-- title
-- teoReliefGranted
-- dateComplaintFiled
-- teoIdIssueDate
-- finalIdOnViolationDue
+- trademarkNumbers
+- targetDate
 - publication_number
-- markmanHearing
-- copyrightNumbers
-- respondent
-- ouiiParticipation
-- currentStatus
-- gcAttorney
-- complainant
-- lastUpdated
-- currentActiveALJ
-- patentNumber
-- actualEndDateEvidHear
-- finalDetNoViolation
-- issueDateOtherNonFinal
 shortname: unfair_import_investigations
 tags:
 - import
