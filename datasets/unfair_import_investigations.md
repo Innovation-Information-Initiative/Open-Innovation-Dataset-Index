@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 23:44:48
+last_edit: 04/08/2022, 23:59:30
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationNo
-- finalIdOnViolationIssue
-- finalIdOnViolationDue
-- actualEndDateEvidHear
-- ouiiParticipation
-- actualStartDateEvidHear
-- issueDateOtherNonFinal
-- finalDetNoViolation
-- investigationType
-- dateCreated
-- aljAssigned
-- invUnfairAct
-- scheduledEndDateEvidHear
-- cafcAppeals
-- internalRemand
-- respondent
-- patentNumber
-- trademarkNumbers
-- targetDate
-- publication_number
-- gcAttorney
-- investigationTermDate
-- currentActiveALJ
-- teoIdDueDate
-- teoProceedingInvolved
-- currentStatus
-- docketNo
-- markmanHearing
-- title
-- id
-- patentNumbers
-- dateOfPublicationFrNotice
-- endDateMarkmanHearing
-- dateComplaintFiled
-- scheduledStartDateEvidHear
-- lastUpdated
-- teoIdIssueDate
-- copyrightNumbers
 - finalDetViolation
+- publication_number
+- respondent
+- endDateMarkmanHearing
+- gcAttorney
+- currentStatus
+- ouiiParticipation
 - complainant
-- teoReliefGranted
-- ouiiAttorney
+- targetDate
+- dateOfPublicationFrNotice
+- id
+- patentNumber
+- lastUpdated
+- cafcAppeals
+- actualStartDateEvidHear
+- investigationTermDate
+- title
 - htsNumbers
+- docketNo
+- aljAssigned
 - startDateMarkmanHearing
+- teoReliefGranted
+- dateCreated
+- internalRemand
+- currentActiveALJ
+- issueDateOtherNonFinal
+- trademarkNumbers
+- finalDetNoViolation
+- investigationNo
+- patentNumbers
+- teoIdDueDate
+- actualEndDateEvidHear
+- ouiiAttorney
+- teoProceedingInvolved
+- scheduledStartDateEvidHear
+- investigationType
+- copyrightNumbers
+- markmanHearing
+- scheduledEndDateEvidHear
+- dateComplaintFiled
+- finalIdOnViolationDue
+- invUnfairAct
+- teoIdIssueDate
+- finalIdOnViolationIssue
 shortname: unfair_import_investigations
 tags:
 - import
