@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 18:55:20
+last_edit: 04/08/2022, 19:20:06
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- scheduledStartDateEvidHear
-- complainant
-- dateOfPublicationFrNotice
+- ouiiParticipation
+- dateComplaintFiled
+- startDateMarkmanHearing
+- endDateMarkmanHearing
+- investigationTermDate
+- invUnfairAct
+- finalDetNoViolation
+- teoReliefGranted
+- title
+- ouiiAttorney
 - respondent
+- finalDetViolation
+- publication_number
+- complainant
+- internalRemand
+- issueDateOtherNonFinal
+- cafcAppeals
+- id
 - investigationType
 - targetDate
-- endDateMarkmanHearing
-- teoIdIssueDate
-- htsNumbers
-- issueDateOtherNonFinal
-- markmanHearing
-- finalDetViolation
 - teoProceedingInvolved
 - lastUpdated
-- trademarkNumbers
-- scheduledEndDateEvidHear
-- finalDetNoViolation
-- internalRemand
-- investigationTermDate
-- patentNumbers
-- gcAttorney
-- aljAssigned
-- publication_number
-- ouiiParticipation
-- currentStatus
-- actualEndDateEvidHear
-- dateComplaintFiled
-- dateCreated
-- id
-- finalIdOnViolationIssue
 - patentNumber
-- startDateMarkmanHearing
-- invUnfairAct
-- investigationNo
-- actualStartDateEvidHear
-- finalIdOnViolationDue
-- docketNo
-- teoReliefGranted
-- cafcAppeals
 - copyrightNumbers
-- ouiiAttorney
-- teoIdDueDate
-- title
+- dateOfPublicationFrNotice
+- dateCreated
+- actualEndDateEvidHear
+- gcAttorney
 - currentActiveALJ
+- aljAssigned
+- htsNumbers
+- trademarkNumbers
+- patentNumbers
+- scheduledStartDateEvidHear
+- currentStatus
+- actualStartDateEvidHear
+- docketNo
+- finalIdOnViolationDue
+- investigationNo
+- scheduledEndDateEvidHear
+- teoIdDueDate
+- markmanHearing
+- finalIdOnViolationIssue
+- teoIdIssueDate
 shortname: unfair_import_investigations
 tags:
 - import
