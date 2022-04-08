@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 07:42:09
+last_edit: 04/08/2022, 07:54:53
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- aljAssigned
-- docketNo
-- respondent
-- finalIdOnViolationIssue
-- htsNumbers
-- dateOfPublicationFrNotice
-- teoReliefGranted
-- markmanHearing
-- internalRemand
-- id
-- dateComplaintFiled
-- startDateMarkmanHearing
-- investigationNo
-- investigationType
-- finalDetNoViolation
-- currentStatus
-- ouiiParticipation
-- actualEndDateEvidHear
-- cafcAppeals
-- scheduledEndDateEvidHear
-- teoIdDueDate
-- copyrightNumbers
 - patentNumber
-- actualStartDateEvidHear
-- finalDetViolation
-- investigationTermDate
-- issueDateOtherNonFinal
-- ouiiAttorney
-- lastUpdated
-- targetDate
-- title
-- finalIdOnViolationDue
-- patentNumbers
-- publication_number
-- teoIdIssueDate
-- trademarkNumbers
-- currentActiveALJ
+- docketNo
 - teoProceedingInvolved
-- invUnfairAct
-- complainant
-- endDateMarkmanHearing
-- scheduledStartDateEvidHear
-- dateCreated
+- ouiiParticipation
+- teoIdIssueDate
+- finalIdOnViolationDue
+- dateComplaintFiled
+- cafcAppeals
+- startDateMarkmanHearing
+- actualEndDateEvidHear
+- finalDetNoViolation
+- ouiiAttorney
+- investigationTermDate
+- currentStatus
 - gcAttorney
+- teoReliefGranted
+- internalRemand
+- currentActiveALJ
+- dateOfPublicationFrNotice
+- patentNumbers
+- dateCreated
+- investigationType
+- invUnfairAct
+- investigationNo
+- endDateMarkmanHearing
+- lastUpdated
+- aljAssigned
+- title
+- trademarkNumbers
+- scheduledStartDateEvidHear
+- id
+- finalIdOnViolationIssue
+- publication_number
+- targetDate
+- issueDateOtherNonFinal
+- scheduledEndDateEvidHear
+- copyrightNumbers
+- markmanHearing
+- complainant
+- actualStartDateEvidHear
+- htsNumbers
+- finalDetViolation
+- teoIdDueDate
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
