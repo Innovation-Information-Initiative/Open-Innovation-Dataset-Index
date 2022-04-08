@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 18:38:47
+last_edit: 04/08/2022, 18:55:20
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- internalRemand
+- scheduledStartDateEvidHear
+- complainant
+- dateOfPublicationFrNotice
+- respondent
+- investigationType
+- targetDate
+- endDateMarkmanHearing
 - teoIdIssueDate
+- htsNumbers
+- issueDateOtherNonFinal
+- markmanHearing
+- finalDetViolation
+- teoProceedingInvolved
+- lastUpdated
+- trademarkNumbers
+- scheduledEndDateEvidHear
+- finalDetNoViolation
+- internalRemand
+- investigationTermDate
+- patentNumbers
+- gcAttorney
+- aljAssigned
+- publication_number
+- ouiiParticipation
+- currentStatus
+- actualEndDateEvidHear
+- dateComplaintFiled
+- dateCreated
+- id
+- finalIdOnViolationIssue
+- patentNumber
+- startDateMarkmanHearing
+- invUnfairAct
+- investigationNo
+- actualStartDateEvidHear
+- finalIdOnViolationDue
 - docketNo
 - teoReliefGranted
-- dateOfPublicationFrNotice
-- startDateMarkmanHearing
-- lastUpdated
-- respondent
-- aljAssigned
-- patentNumbers
-- publication_number
-- invUnfairAct
-- teoProceedingInvolved
-- patentNumber
-- finalDetNoViolation
-- htsNumbers
-- investigationNo
-- actualEndDateEvidHear
-- trademarkNumbers
-- complainant
-- finalIdOnViolationIssue
-- actualStartDateEvidHear
-- finalDetViolation
-- gcAttorney
-- dateCreated
-- copyrightNumbers
-- ouiiParticipation
-- targetDate
-- currentActiveALJ
-- currentStatus
-- dateComplaintFiled
-- title
-- teoIdDueDate
-- finalIdOnViolationDue
-- issueDateOtherNonFinal
-- scheduledEndDateEvidHear
-- id
-- scheduledStartDateEvidHear
-- investigationTermDate
-- ouiiAttorney
 - cafcAppeals
-- markmanHearing
-- investigationType
-- endDateMarkmanHearing
+- copyrightNumbers
+- ouiiAttorney
+- teoIdDueDate
+- title
+- currentActiveALJ
 shortname: unfair_import_investigations
 tags:
 - import
