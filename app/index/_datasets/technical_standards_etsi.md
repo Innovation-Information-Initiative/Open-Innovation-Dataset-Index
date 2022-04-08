@@ -9,12 +9,12 @@ description: European Telecommunications Standards Institute (ETSI) IPR dataset 
   technical standards. These are the US assets disclosed by companies as related to
   technical standards in ETSI. The two major ones included are 3GPP and LTE.
 documentation: https://github.com/google/patents-public-data/blob/master/tables/dataset_CPA%20Global.md
-last_edit: 04/08/2022, 05:50:06
+last_edit: 04/08/2022, 06:09:03
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/cpa-global-technical-standards-etsi
 maintained_by: Google Patents Public Data
 schema_fields:
-- PublicationNumber
 - StandardBody
+- PublicationNumber
 - TechnicalStandard
 shortname: technical_standards_etsi
 tags:

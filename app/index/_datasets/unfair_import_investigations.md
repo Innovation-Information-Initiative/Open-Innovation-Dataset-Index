@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 05:50:06
+last_edit: 04/08/2022, 06:09:03
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalDetViolation
-- publication_number
-- id
-- complainant
-- respondent
-- targetDate
-- markmanHearing
 - finalIdOnViolationIssue
-- dateComplaintFiled
-- investigationNo
-- title
-- actualStartDateEvidHear
-- internalRemand
-- ouiiParticipation
-- currentStatus
-- scheduledEndDateEvidHear
-- dateCreated
-- currentActiveALJ
-- teoIdIssueDate
-- finalIdOnViolationDue
-- investigationTermDate
-- lastUpdated
-- startDateMarkmanHearing
-- scheduledStartDateEvidHear
-- cafcAppeals
-- actualEndDateEvidHear
-- trademarkNumbers
-- htsNumbers
-- gcAttorney
-- docketNo
-- ouiiAttorney
-- endDateMarkmanHearing
-- teoProceedingInvolved
-- copyrightNumbers
-- patentNumber
-- investigationType
 - patentNumbers
-- teoReliefGranted
 - finalDetNoViolation
-- teoIdDueDate
-- dateOfPublicationFrNotice
-- issueDateOtherNonFinal
-- aljAssigned
+- dateCreated
+- scheduledStartDateEvidHear
+- trademarkNumbers
+- markmanHearing
+- gcAttorney
+- teoIdIssueDate
+- complainant
+- id
+- targetDate
+- patentNumber
+- currentStatus
+- teoReliefGranted
+- cafcAppeals
 - invUnfairAct
+- scheduledEndDateEvidHear
+- internalRemand
+- issueDateOtherNonFinal
+- respondent
+- docketNo
+- publication_number
+- investigationType
+- copyrightNumbers
+- investigationNo
+- teoProceedingInvolved
+- aljAssigned
+- teoIdDueDate
+- dateComplaintFiled
+- investigationTermDate
+- finalDetViolation
+- startDateMarkmanHearing
+- currentActiveALJ
+- dateOfPublicationFrNotice
+- endDateMarkmanHearing
+- ouiiAttorney
+- title
+- htsNumbers
+- lastUpdated
+- actualStartDateEvidHear
+- ouiiParticipation
+- actualEndDateEvidHear
+- finalIdOnViolationDue
 shortname: unfair_import_investigations
 tags:
 - import
