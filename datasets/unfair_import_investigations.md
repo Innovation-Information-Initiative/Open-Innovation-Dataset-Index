@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 17:35:45
+last_edit: 04/08/2022, 17:50:43
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalIdOnViolationIssue
-- investigationTermDate
-- publication_number
-- currentStatus
-- dateOfPublicationFrNotice
-- complainant
-- teoIdIssueDate
-- actualStartDateEvidHear
-- teoProceedingInvolved
-- internalRemand
-- finalDetViolation
-- teoReliefGranted
-- actualEndDateEvidHear
-- gcAttorney
-- aljAssigned
-- respondent
-- targetDate
-- dateCreated
-- markmanHearing
-- title
 - lastUpdated
-- patentNumber
-- investigationType
-- copyrightNumbers
-- invUnfairAct
-- scheduledStartDateEvidHear
-- finalIdOnViolationDue
-- cafcAppeals
-- htsNumbers
-- id
-- trademarkNumbers
-- ouiiAttorney
-- dateComplaintFiled
-- endDateMarkmanHearing
 - startDateMarkmanHearing
-- currentActiveALJ
-- ouiiParticipation
-- issueDateOtherNonFinal
-- teoIdDueDate
-- patentNumbers
-- finalDetNoViolation
-- scheduledEndDateEvidHear
+- actualEndDateEvidHear
 - investigationNo
+- teoReliefGranted
+- teoIdDueDate
+- respondent
+- finalIdOnViolationDue
+- markmanHearing
+- scheduledStartDateEvidHear
+- patentNumber
+- currentStatus
+- invUnfairAct
+- publication_number
+- actualStartDateEvidHear
+- dateCreated
+- dateOfPublicationFrNotice
+- finalDetNoViolation
+- htsNumbers
+- finalIdOnViolationIssue
+- id
+- currentActiveALJ
 - docketNo
+- ouiiAttorney
+- teoIdIssueDate
+- finalDetViolation
+- investigationTermDate
+- targetDate
+- complainant
+- endDateMarkmanHearing
+- trademarkNumbers
+- internalRemand
+- teoProceedingInvolved
+- title
+- gcAttorney
+- scheduledEndDateEvidHear
+- dateComplaintFiled
+- ouiiParticipation
+- investigationType
+- patentNumbers
+- copyrightNumbers
+- aljAssigned
+- issueDateOtherNonFinal
+- cafcAppeals
 shortname: unfair_import_investigations
 tags:
 - import
