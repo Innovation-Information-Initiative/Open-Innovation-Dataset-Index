@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 12:42:49
+last_edit: 04/08/2022, 13:21:37
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- startDateMarkmanHearing
-- complainant
-- teoProceedingInvolved
-- ouiiParticipation
-- finalIdOnViolationIssue
-- actualStartDateEvidHear
-- investigationNo
-- endDateMarkmanHearing
-- currentActiveALJ
-- investigationType
-- scheduledEndDateEvidHear
-- finalDetViolation
-- gcAttorney
-- investigationTermDate
-- targetDate
-- finalDetNoViolation
-- patentNumbers
-- patentNumber
-- id
-- htsNumbers
-- dateCreated
-- scheduledStartDateEvidHear
-- copyrightNumbers
-- dateComplaintFiled
-- finalIdOnViolationDue
-- internalRemand
-- ouiiAttorney
-- teoIdDueDate
-- title
-- cafcAppeals
 - invUnfairAct
-- lastUpdated
-- teoReliefGranted
-- docketNo
-- dateOfPublicationFrNotice
-- currentStatus
+- startDateMarkmanHearing
+- scheduledEndDateEvidHear
+- endDateMarkmanHearing
+- investigationNo
 - issueDateOtherNonFinal
-- actualEndDateEvidHear
-- respondent
-- markmanHearing
-- publication_number
-- aljAssigned
+- finalIdOnViolationIssue
+- currentStatus
+- teoIdDueDate
+- actualStartDateEvidHear
+- internalRemand
+- finalDetNoViolation
+- gcAttorney
 - trademarkNumbers
+- patentNumbers
+- markmanHearing
+- aljAssigned
+- finalDetViolation
+- ouiiAttorney
+- cafcAppeals
 - teoIdIssueDate
+- respondent
+- patentNumber
+- publication_number
+- id
+- scheduledStartDateEvidHear
+- dateCreated
+- complainant
+- currentActiveALJ
+- finalIdOnViolationDue
+- targetDate
+- investigationTermDate
+- title
+- docketNo
+- teoReliefGranted
+- teoProceedingInvolved
+- dateComplaintFiled
+- copyrightNumbers
+- dateOfPublicationFrNotice
+- ouiiParticipation
+- investigationType
+- lastUpdated
+- actualEndDateEvidHear
+- htsNumbers
 shortname: unfair_import_investigations
 tags:
 - import
