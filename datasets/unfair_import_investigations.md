@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 19:20:06
+last_edit: 04/08/2022, 19:32:36
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiParticipation
 - dateComplaintFiled
-- startDateMarkmanHearing
-- endDateMarkmanHearing
-- investigationTermDate
-- invUnfairAct
-- finalDetNoViolation
-- teoReliefGranted
-- title
-- ouiiAttorney
-- respondent
-- finalDetViolation
-- publication_number
-- complainant
-- internalRemand
-- issueDateOtherNonFinal
-- cafcAppeals
-- id
-- investigationType
-- targetDate
-- teoProceedingInvolved
-- lastUpdated
-- patentNumber
-- copyrightNumbers
-- dateOfPublicationFrNotice
 - dateCreated
+- finalIdOnViolationDue
+- invUnfairAct
+- endDateMarkmanHearing
+- patentNumbers
+- finalDetViolation
+- ouiiParticipation
+- teoReliefGranted
+- id
+- investigationNo
+- patentNumber
+- publication_number
+- finalDetNoViolation
+- issueDateOtherNonFinal
+- htsNumbers
+- docketNo
+- scheduledStartDateEvidHear
+- teoIdIssueDate
+- investigationType
+- teoIdDueDate
+- currentActiveALJ
+- lastUpdated
+- teoProceedingInvolved
+- cafcAppeals
+- ouiiAttorney
+- finalIdOnViolationIssue
 - actualEndDateEvidHear
 - gcAttorney
-- currentActiveALJ
+- targetDate
 - aljAssigned
-- htsNumbers
+- dateOfPublicationFrNotice
 - trademarkNumbers
-- patentNumbers
-- scheduledStartDateEvidHear
-- currentStatus
-- actualStartDateEvidHear
-- docketNo
-- finalIdOnViolationDue
-- investigationNo
-- scheduledEndDateEvidHear
-- teoIdDueDate
+- complainant
+- title
 - markmanHearing
-- finalIdOnViolationIssue
-- teoIdIssueDate
+- scheduledEndDateEvidHear
+- copyrightNumbers
+- actualStartDateEvidHear
+- currentStatus
+- internalRemand
+- investigationTermDate
+- startDateMarkmanHearing
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
