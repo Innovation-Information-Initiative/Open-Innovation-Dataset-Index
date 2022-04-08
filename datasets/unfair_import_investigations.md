@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 10:59:59
+last_edit: 04/08/2022, 11:23:13
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- cafcAppeals
-- teoIdIssueDate
-- patentNumber
-- docketNo
-- finalDetViolation
-- respondent
-- copyrightNumbers
-- actualStartDateEvidHear
-- markmanHearing
-- publication_number
-- investigationType
-- dateOfPublicationFrNotice
-- startDateMarkmanHearing
-- ouiiParticipation
-- issueDateOtherNonFinal
-- patentNumbers
-- endDateMarkmanHearing
 - trademarkNumbers
-- complainant
-- ouiiAttorney
-- teoReliefGranted
-- finalIdOnViolationIssue
-- invUnfairAct
-- scheduledStartDateEvidHear
-- lastUpdated
-- dateComplaintFiled
-- scheduledEndDateEvidHear
-- actualEndDateEvidHear
-- currentStatus
-- htsNumbers
-- gcAttorney
-- investigationTermDate
-- finalIdOnViolationDue
-- aljAssigned
-- finalDetNoViolation
-- dateCreated
 - currentActiveALJ
+- gcAttorney
+- dateOfPublicationFrNotice
+- lastUpdated
+- patentNumber
+- internalRemand
+- finalIdOnViolationDue
+- investigationType
+- patentNumbers
+- teoProceedingInvolved
+- finalDetNoViolation
+- teoIdDueDate
+- endDateMarkmanHearing
+- scheduledStartDateEvidHear
+- finalIdOnViolationIssue
+- scheduledEndDateEvidHear
+- aljAssigned
+- dateCreated
+- actualEndDateEvidHear
+- issueDateOtherNonFinal
+- startDateMarkmanHearing
+- actualStartDateEvidHear
+- invUnfairAct
+- copyrightNumbers
+- ouiiAttorney
+- docketNo
 - id
 - targetDate
-- teoIdDueDate
-- investigationNo
+- cafcAppeals
+- complainant
+- publication_number
+- teoIdIssueDate
+- htsNumbers
 - title
-- internalRemand
-- teoProceedingInvolved
+- ouiiParticipation
+- teoReliefGranted
+- dateComplaintFiled
+- investigationNo
+- respondent
+- investigationTermDate
+- markmanHearing
+- finalDetViolation
+- currentStatus
 shortname: unfair_import_investigations
 tags:
 - import
