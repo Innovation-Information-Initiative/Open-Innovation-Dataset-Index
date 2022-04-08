@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/08/2022, 15:47:15
+last_edit: 04/08/2022, 16:00:12
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- investigationTermDate
-- htsNumbers
-- teoProceedingInvolved
+- aljAssigned
+- investigationType
+- copyrightNumbers
+- docketNo
+- teoIdIssueDate
+- dateComplaintFiled
+- dateCreated
 - currentStatus
+- finalIdOnViolationDue
+- internalRemand
+- scheduledStartDateEvidHear
+- investigationTermDate
+- gcAttorney
+- startDateMarkmanHearing
+- teoProceedingInvolved
+- title
+- currentActiveALJ
+- patentNumber
+- endDateMarkmanHearing
+- teoIdDueDate
+- markmanHearing
+- investigationNo
+- actualEndDateEvidHear
 - id
 - publication_number
-- scheduledStartDateEvidHear
-- docketNo
-- issueDateOtherNonFinal
-- trademarkNumbers
-- patentNumber
-- title
-- finalDetNoViolation
-- copyrightNumbers
-- finalDetViolation
-- internalRemand
-- investigationType
-- lastUpdated
-- cafcAppeals
-- finalIdOnViolationDue
-- ouiiParticipation
-- dateComplaintFiled
-- investigationNo
-- markmanHearing
-- teoIdDueDate
-- respondent
-- invUnfairAct
-- startDateMarkmanHearing
-- teoIdIssueDate
-- currentActiveALJ
-- scheduledEndDateEvidHear
-- targetDate
-- aljAssigned
-- dateOfPublicationFrNotice
-- actualStartDateEvidHear
-- ouiiAttorney
-- endDateMarkmanHearing
-- complainant
-- teoReliefGranted
-- finalIdOnViolationIssue
-- actualEndDateEvidHear
-- dateCreated
-- gcAttorney
 - patentNumbers
+- htsNumbers
+- trademarkNumbers
+- issueDateOtherNonFinal
+- finalDetNoViolation
+- finalDetViolation
+- invUnfairAct
+- ouiiAttorney
+- respondent
+- targetDate
+- finalIdOnViolationIssue
+- lastUpdated
+- actualStartDateEvidHear
+- scheduledEndDateEvidHear
+- teoReliefGranted
+- ouiiParticipation
+- cafcAppeals
+- dateOfPublicationFrNotice
+- complainant
 shortname: unfair_import_investigations
 tags:
 - import
