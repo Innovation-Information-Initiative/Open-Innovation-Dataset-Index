@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 13:13:52
+last_edit: 04/09/2022, 13:37:52
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- actualEndDateEvidHear
-- finalIdOnViolationDue
+- copyrightNumbers
 - teoProceedingInvolved
 - docketNo
+- scheduledEndDateEvidHear
+- dateCreated
+- finalIdOnViolationDue
+- issueDateOtherNonFinal
+- lastUpdated
+- markmanHearing
+- respondent
+- patentNumber
 - aljAssigned
 - targetDate
-- teoIdDueDate
-- actualStartDateEvidHear
-- htsNumbers
-- cafcAppeals
 - finalDetViolation
-- copyrightNumbers
-- finalIdOnViolationIssue
-- invUnfairAct
-- investigationType
-- respondent
-- ouiiAttorney
-- dateComplaintFiled
-- patentNumbers
-- currentActiveALJ
-- complainant
-- finalDetNoViolation
-- investigationTermDate
-- startDateMarkmanHearing
-- currentStatus
-- internalRemand
-- scheduledEndDateEvidHear
-- teoIdIssueDate
-- teoReliefGranted
-- patentNumber
-- lastUpdated
-- dateCreated
 - gcAttorney
-- endDateMarkmanHearing
-- dateOfPublicationFrNotice
-- issueDateOtherNonFinal
-- markmanHearing
+- internalRemand
+- currentActiveALJ
+- currentStatus
+- complainant
 - id
-- publication_number
-- investigationNo
-- trademarkNumbers
+- teoReliefGranted
+- teoIdIssueDate
 - ouiiParticipation
 - scheduledStartDateEvidHear
+- cafcAppeals
+- invUnfairAct
+- dateComplaintFiled
+- startDateMarkmanHearing
+- actualStartDateEvidHear
+- trademarkNumbers
+- publication_number
+- investigationType
+- finalDetNoViolation
+- investigationTermDate
+- dateOfPublicationFrNotice
+- finalIdOnViolationIssue
 - title
+- ouiiAttorney
+- patentNumbers
+- teoIdDueDate
+- investigationNo
+- htsNumbers
+- actualEndDateEvidHear
+- endDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
