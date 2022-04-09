@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 09:30:17
+last_edit: 04/09/2022, 09:44:24
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- id
-- ouiiParticipation
+- investigationTermDate
+- scheduledStartDateEvidHear
+- finalIdOnViolationDue
 - actualEndDateEvidHear
-- targetDate
-- startDateMarkmanHearing
-- scheduledEndDateEvidHear
 - investigationType
 - invUnfairAct
-- patentNumber
-- scheduledStartDateEvidHear
-- issueDateOtherNonFinal
-- teoProceedingInvolved
-- investigationNo
-- dateCreated
-- currentActiveALJ
-- teoIdIssueDate
-- title
-- finalIdOnViolationDue
-- markmanHearing
-- finalIdOnViolationIssue
-- publication_number
-- docketNo
-- trademarkNumbers
-- finalDetViolation
-- teoIdDueDate
-- dateComplaintFiled
-- ouiiAttorney
-- endDateMarkmanHearing
-- dateOfPublicationFrNotice
-- investigationTermDate
+- targetDate
 - patentNumbers
-- gcAttorney
-- aljAssigned
+- title
 - currentStatus
-- internalRemand
-- lastUpdated
-- copyrightNumbers
-- actualStartDateEvidHear
-- respondent
-- teoReliefGranted
+- teoIdDueDate
+- teoProceedingInvolved
+- patentNumber
+- aljAssigned
+- scheduledEndDateEvidHear
+- currentActiveALJ
+- startDateMarkmanHearing
 - complainant
-- cafcAppeals
+- ouiiParticipation
+- publication_number
+- finalIdOnViolationIssue
+- actualStartDateEvidHear
+- internalRemand
 - finalDetNoViolation
+- dateComplaintFiled
+- docketNo
+- endDateMarkmanHearing
+- issueDateOtherNonFinal
+- teoIdIssueDate
+- copyrightNumbers
+- investigationNo
+- gcAttorney
+- dateOfPublicationFrNotice
+- teoReliefGranted
+- dateCreated
+- ouiiAttorney
+- cafcAppeals
+- respondent
 - htsNumbers
+- finalDetViolation
+- id
+- lastUpdated
+- markmanHearing
+- trademarkNumbers
 shortname: unfair_import_investigations
 tags:
 - import
