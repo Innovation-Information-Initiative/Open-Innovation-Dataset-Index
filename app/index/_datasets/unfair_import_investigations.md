@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 18:00:00
+last_edit: 04/09/2022, 18:30:46
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- publication_number
 - lastUpdated
-- trademarkNumbers
-- patentNumber
-- targetDate
-- scheduledEndDateEvidHear
-- currentActiveALJ
-- finalDetViolation
+- actualStartDateEvidHear
+- scheduledStartDateEvidHear
+- copyrightNumbers
+- cafcAppeals
+- endDateMarkmanHearing
 - teoIdDueDate
+- trademarkNumbers
+- complainant
+- dateCreated
+- investigationTermDate
+- actualEndDateEvidHear
+- patentNumbers
+- investigationNo
+- respondent
+- finalDetNoViolation
+- scheduledEndDateEvidHear
+- dateComplaintFiled
+- currentStatus
+- investigationType
+- aljAssigned
+- startDateMarkmanHearing
 - markmanHearing
 - teoReliefGranted
-- currentStatus
-- docketNo
-- teoProceedingInvolved
-- gcAttorney
-- htsNumbers
-- issueDateOtherNonFinal
-- ouiiAttorney
-- investigationTermDate
-- aljAssigned
-- dateOfPublicationFrNotice
-- copyrightNumbers
-- scheduledStartDateEvidHear
-- title
-- id
-- teoIdIssueDate
-- cafcAppeals
-- finalIdOnViolationDue
-- endDateMarkmanHearing
-- actualEndDateEvidHear
-- investigationNo
-- patentNumbers
-- finalDetNoViolation
-- finalIdOnViolationIssue
+- targetDate
+- patentNumber
 - internalRemand
-- dateCreated
-- respondent
-- startDateMarkmanHearing
-- investigationType
-- ouiiParticipation
+- publication_number
+- finalIdOnViolationIssue
+- id
 - invUnfairAct
-- dateComplaintFiled
-- complainant
-- actualStartDateEvidHear
+- ouiiAttorney
+- teoProceedingInvolved
+- dateOfPublicationFrNotice
+- docketNo
+- ouiiParticipation
+- teoIdIssueDate
+- currentActiveALJ
+- htsNumbers
+- title
+- finalDetViolation
+- finalIdOnViolationDue
+- issueDateOtherNonFinal
+- gcAttorney
 shortname: unfair_import_investigations
 tags:
 - import
