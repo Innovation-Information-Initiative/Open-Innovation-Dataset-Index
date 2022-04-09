@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 18:30:46
+last_edit: 04/09/2022, 18:49:36
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- lastUpdated
-- actualStartDateEvidHear
-- scheduledStartDateEvidHear
-- copyrightNumbers
-- cafcAppeals
-- endDateMarkmanHearing
-- teoIdDueDate
-- trademarkNumbers
-- complainant
-- dateCreated
-- investigationTermDate
-- actualEndDateEvidHear
-- patentNumbers
-- investigationNo
-- respondent
-- finalDetNoViolation
-- scheduledEndDateEvidHear
-- dateComplaintFiled
-- currentStatus
 - investigationType
-- aljAssigned
-- startDateMarkmanHearing
-- markmanHearing
-- teoReliefGranted
-- targetDate
-- patentNumber
-- internalRemand
-- publication_number
-- finalIdOnViolationIssue
-- id
-- invUnfairAct
-- ouiiAttorney
-- teoProceedingInvolved
+- scheduledEndDateEvidHear
+- trademarkNumbers
+- finalDetNoViolation
+- scheduledStartDateEvidHear
 - dateOfPublicationFrNotice
-- docketNo
-- ouiiParticipation
-- teoIdIssueDate
-- currentActiveALJ
-- htsNumbers
-- title
-- finalDetViolation
-- finalIdOnViolationDue
-- issueDateOtherNonFinal
 - gcAttorney
+- patentNumbers
+- publication_number
+- teoReliefGranted
+- finalIdOnViolationIssue
+- issueDateOtherNonFinal
+- htsNumbers
+- dateComplaintFiled
+- cafcAppeals
+- complainant
+- respondent
+- invUnfairAct
+- teoProceedingInvolved
+- ouiiAttorney
+- targetDate
+- ouiiParticipation
+- actualStartDateEvidHear
+- id
+- startDateMarkmanHearing
+- actualEndDateEvidHear
+- finalDetViolation
+- endDateMarkmanHearing
+- title
+- currentStatus
+- currentActiveALJ
+- copyrightNumbers
+- teoIdDueDate
+- docketNo
+- teoIdIssueDate
+- markmanHearing
+- investigationNo
+- lastUpdated
+- patentNumber
+- investigationTermDate
+- dateCreated
+- aljAssigned
+- finalIdOnViolationDue
+- internalRemand
 shortname: unfair_import_investigations
 tags:
 - import
