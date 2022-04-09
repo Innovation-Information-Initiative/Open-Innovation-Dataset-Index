@@ -12,48 +12,48 @@ description: Worldwide (100+ countries) bibliographic and USPTO full-text, avail
   via BigQuery. Provided by IFI CLAIMS Patent Services, a worldwide bibliographic
   and US full-text dataset of patent publications. Updated quarterly.
 documentation: https://cloud.google.com/blog/topics/public-datasets/google-patents-public-datasets-connecting-public-paid-and-private-patent-data
-last_edit: 04/09/2022, 14:27:52
+last_edit: 04/09/2022, 14:41:43
 location: https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
 maintained_by: Google Patents https://patents.google.com/
 record_creation_timestamp: 12/6/2020 17:20:46
 schema_fields:
-- priority_claim
-- child
-- grant_date
-- art_unit
-- spif_publication_number
-- inventor
-- claims_localized_html
-- examiner
-- application_kind
-- title_localized
-- parent
-- application_number_formatted
-- citation
-- entity_status
-- fterm
-- kind_code
-- family_id
-- pct_number
-- locarno
-- abstract_localized
-- claims_localized
-- assignee
-- priority_date
-- country_code
-- publication_number
-- description_localized
-- cpc
-- description_localized_html
-- spif_application_number
-- inventor_harmonized
-- assignee_harmonized
-- fi
 - uspc
-- filing_date
-- ipc
+- pct_number
+- grant_date
+- claims_localized
+- assignee_harmonized
 - publication_date
+- spif_publication_number
+- parent
+- cpc
+- art_unit
+- country_code
+- ipc
+- application_number_formatted
+- child
 - application_number
+- priority_date
+- inventor_harmonized
+- publication_number
+- spif_application_number
+- claims_localized_html
+- assignee
+- citation
+- fi
+- title_localized
+- abstract_localized
+- kind_code
+- description_localized
+- family_id
+- locarno
+- filing_date
+- fterm
+- inventor
+- description_localized_html
+- entity_status
+- application_kind
+- priority_claim
+- examiner
 shortname: google_patents_public
 superseded_by: Fri, 25 Feb 2022 23:34:33 GMT
 tags:
