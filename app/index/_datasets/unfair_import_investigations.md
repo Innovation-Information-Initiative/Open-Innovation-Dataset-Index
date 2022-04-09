@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 10:59:46
+last_edit: 04/09/2022, 11:21:37
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoReliefGranted
-- patentNumber
-- aljAssigned
-- dateCreated
-- finalIdOnViolationIssue
-- htsNumbers
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
-- scheduledEndDateEvidHear
-- finalDetNoViolation
-- patentNumbers
-- cafcAppeals
-- invUnfairAct
-- targetDate
-- currentActiveALJ
+- dateComplaintFiled
+- endDateMarkmanHearing
 - docketNo
+- startDateMarkmanHearing
+- aljAssigned
+- ouiiParticipation
 - issueDateOtherNonFinal
 - trademarkNumbers
-- investigationType
-- endDateMarkmanHearing
-- finalDetViolation
-- ouiiParticipation
-- id
-- lastUpdated
-- currentStatus
-- actualEndDateEvidHear
-- teoIdDueDate
-- investigationTermDate
-- ouiiAttorney
-- dateOfPublicationFrNotice
-- publication_number
-- teoProceedingInvolved
-- dateComplaintFiled
-- respondent
-- markmanHearing
-- investigationNo
-- finalIdOnViolationDue
 - internalRemand
 - actualStartDateEvidHear
+- ouiiAttorney
+- markmanHearing
 - copyrightNumbers
-- teoIdIssueDate
-- title
+- patentNumbers
 - complainant
+- patentNumber
+- actualEndDateEvidHear
+- respondent
+- teoIdIssueDate
+- currentStatus
+- invUnfairAct
+- id
+- htsNumbers
+- scheduledStartDateEvidHear
+- investigationNo
 - gcAttorney
+- dateCreated
+- finalDetViolation
+- teoProceedingInvolved
+- title
+- finalIdOnViolationDue
+- targetDate
+- publication_number
+- investigationType
+- dateOfPublicationFrNotice
+- investigationTermDate
+- teoReliefGranted
+- currentActiveALJ
+- lastUpdated
+- finalDetNoViolation
+- cafcAppeals
+- teoIdDueDate
+- scheduledEndDateEvidHear
+- finalIdOnViolationIssue
 shortname: unfair_import_investigations
 tags:
 - import
