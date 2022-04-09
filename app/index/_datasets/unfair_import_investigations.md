@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 15:45:49
+last_edit: 04/09/2022, 15:59:41
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- publication_number
-- dateCreated
-- copyrightNumbers
-- dateOfPublicationFrNotice
-- finalIdOnViolationDue
-- investigationTermDate
-- actualStartDateEvidHear
-- endDateMarkmanHearing
-- internalRemand
-- ouiiParticipation
-- markmanHearing
-- invUnfairAct
-- finalIdOnViolationIssue
-- dateComplaintFiled
-- docketNo
-- investigationType
-- teoReliefGranted
-- scheduledEndDateEvidHear
-- scheduledStartDateEvidHear
-- gcAttorney
-- targetDate
-- issueDateOtherNonFinal
-- investigationNo
-- respondent
-- actualEndDateEvidHear
-- teoProceedingInvolved
-- currentStatus
-- teoIdIssueDate
-- cafcAppeals
-- finalDetViolation
-- currentActiveALJ
-- patentNumber
-- patentNumbers
-- htsNumbers
-- teoIdDueDate
-- startDateMarkmanHearing
-- id
-- title
-- aljAssigned
-- lastUpdated
-- ouiiAttorney
-- complainant
 - finalDetNoViolation
+- patentNumber
+- targetDate
+- actualStartDateEvidHear
+- publication_number
+- finalIdOnViolationIssue
+- title
+- ouiiAttorney
+- finalDetViolation
+- copyrightNumbers
+- currentStatus
+- teoProceedingInvolved
 - trademarkNumbers
+- invUnfairAct
+- internalRemand
+- gcAttorney
+- teoIdIssueDate
+- teoIdDueDate
+- actualEndDateEvidHear
+- ouiiParticipation
+- teoReliefGranted
+- startDateMarkmanHearing
+- patentNumbers
+- id
+- dateComplaintFiled
+- dateOfPublicationFrNotice
+- docketNo
+- lastUpdated
+- currentActiveALJ
+- markmanHearing
+- htsNumbers
+- dateCreated
+- endDateMarkmanHearing
+- scheduledStartDateEvidHear
+- cafcAppeals
+- investigationNo
+- scheduledEndDateEvidHear
+- aljAssigned
+- finalIdOnViolationDue
+- complainant
+- investigationType
+- respondent
+- investigationTermDate
+- issueDateOtherNonFinal
 shortname: unfair_import_investigations
 tags:
 - import
