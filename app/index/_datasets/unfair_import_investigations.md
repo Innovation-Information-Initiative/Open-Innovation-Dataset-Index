@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 22:43:14
+last_edit: 04/09/2022, 23:00:02
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalDetViolation
-- finalDetNoViolation
-- patentNumber
-- id
-- patentNumbers
-- scheduledStartDateEvidHear
-- investigationNo
-- lastUpdated
-- actualStartDateEvidHear
-- investigationType
-- markmanHearing
-- teoIdDueDate
-- teoReliefGranted
-- title
-- targetDate
-- currentActiveALJ
-- ouiiAttorney
-- copyrightNumbers
-- invUnfairAct
-- complainant
-- aljAssigned
-- htsNumbers
-- cafcAppeals
-- issueDateOtherNonFinal
 - currentStatus
-- dateComplaintFiled
-- dateOfPublicationFrNotice
-- startDateMarkmanHearing
 - respondent
+- lastUpdated
+- cafcAppeals
+- dateComplaintFiled
+- scheduledStartDateEvidHear
+- patentNumber
+- investigationType
 - docketNo
-- endDateMarkmanHearing
+- htsNumbers
+- targetDate
+- ouiiAttorney
 - finalIdOnViolationIssue
-- teoIdIssueDate
-- ouiiParticipation
-- publication_number
-- finalIdOnViolationDue
-- trademarkNumbers
-- internalRemand
+- patentNumbers
+- currentActiveALJ
+- aljAssigned
+- actualStartDateEvidHear
+- finalDetNoViolation
+- complainant
+- teoReliefGranted
+- markmanHearing
 - actualEndDateEvidHear
+- internalRemand
+- finalIdOnViolationDue
 - teoProceedingInvolved
-- gcAttorney
-- investigationTermDate
+- copyrightNumbers
+- investigationNo
+- publication_number
 - scheduledEndDateEvidHear
+- issueDateOtherNonFinal
+- endDateMarkmanHearing
+- dateOfPublicationFrNotice
+- invUnfairAct
+- ouiiParticipation
+- startDateMarkmanHearing
+- finalDetViolation
+- teoIdDueDate
+- teoIdIssueDate
+- trademarkNumbers
+- title
+- investigationTermDate
 - dateCreated
+- gcAttorney
+- id
 shortname: unfair_import_investigations
 tags:
 - import
