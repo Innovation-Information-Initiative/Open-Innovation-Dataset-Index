@@ -9,29 +9,29 @@ description: Google Patents Research Data contains the output of much of the dat
   analysis work used in Google Patents (patents.google.com), including machine translations
   of titles and abstracts from Google Translate, embedding vectors, extracted top
   terms, similar documents, and forward references.
-last_edit: 04/09/2022, 02:45:58
+last_edit: 04/09/2022, 03:16:46
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/google-patents-research-data
 maintained_by: Google Patents https://patents.google.com/
 schema_fields:
-- class_international
-- invention_type
-- representative_line_1_eu
-- issuer
-- publication_date
-- number
+- x_relative_max
+- application_number
 - y_relative_max
 - title_line_1
-- y_relative_min
-- application_number
-- priority_date_eu
-- inventor_line_1
-- gcs_path
-- x_relative_min
 - class_us
-- x_relative_max
-- filing_date
+- publication_date
+- priority_date_eu
 - language
+- representative_line_1_eu
+- gcs_path
 - applicant_line_1
+- class_international
+- number
+- issuer
+- inventor_line_1
+- y_relative_min
+- filing_date
+- x_relative_min
+- invention_type
 shortname: google_patents_research
 tags:
 - terms
