@@ -14,7 +14,7 @@ description: 'GRID is a free and openly available global database of over 100,00
   Registry IDs, ISNI and link to country specific IDs like UCAS codes, UKPRN numbers,
   HESA codes are used. '
 documentation: 'https://www.grid.ac/pages/policies '
-last_edit: 04/09/2022, 15:59:41
+last_edit: 04/09/2022, 16:35:45
 location: https://www.grid.ac/
 maintained_by: contact@grid.ac, Digital Science
 schema_fields: '[]'
