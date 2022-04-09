@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 23:42:15
+last_edit: 04/09/2022, 23:59:38
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- id
-- cafcAppeals
-- teoIdDueDate
-- patentNumber
-- finalIdOnViolationIssue
-- gcAttorney
-- investigationType
-- internalRemand
-- investigationNo
-- issueDateOtherNonFinal
-- ouiiAttorney
-- dateCreated
-- finalDetNoViolation
-- markmanHearing
-- actualStartDateEvidHear
-- teoProceedingInvolved
-- teoReliefGranted
-- startDateMarkmanHearing
-- investigationTermDate
-- dateComplaintFiled
-- complainant
-- invUnfairAct
-- aljAssigned
-- lastUpdated
-- trademarkNumbers
-- title
-- htsNumbers
-- teoIdIssueDate
-- targetDate
-- scheduledStartDateEvidHear
-- dateOfPublicationFrNotice
-- finalIdOnViolationDue
-- actualEndDateEvidHear
-- docketNo
 - copyrightNumbers
+- dateComplaintFiled
+- teoIdIssueDate
+- teoReliefGranted
+- dateCreated
+- finalDetViolation
+- finalDetNoViolation
+- trademarkNumbers
+- actualStartDateEvidHear
+- currentActiveALJ
+- actualEndDateEvidHear
+- finalIdOnViolationIssue
+- markmanHearing
+- patentNumbers
+- dateOfPublicationFrNotice
+- invUnfairAct
+- investigationType
+- currentStatus
+- respondent
+- scheduledStartDateEvidHear
+- gcAttorney
+- teoProceedingInvolved
+- publication_number
 - scheduledEndDateEvidHear
 - endDateMarkmanHearing
-- currentActiveALJ
-- publication_number
-- currentStatus
+- complainant
+- docketNo
+- startDateMarkmanHearing
+- lastUpdated
+- investigationNo
+- cafcAppeals
+- issueDateOtherNonFinal
+- finalIdOnViolationDue
+- investigationTermDate
+- title
 - ouiiParticipation
-- respondent
-- patentNumbers
-- finalDetViolation
+- id
+- internalRemand
+- targetDate
+- teoIdDueDate
+- patentNumber
+- htsNumbers
+- ouiiAttorney
+- aljAssigned
 shortname: unfair_import_investigations
 tags:
 - import
