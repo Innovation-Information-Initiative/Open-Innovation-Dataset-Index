@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/09/2022, 14:54:26
+last_edit: 04/09/2022, 15:24:50
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiAttorney
-- investigationNo
-- respondent
-- investigationType
-- complainant
-- issueDateOtherNonFinal
-- finalIdOnViolationIssue
-- endDateMarkmanHearing
-- markmanHearing
-- scheduledStartDateEvidHear
-- currentStatus
 - id
-- currentActiveALJ
-- aljAssigned
-- actualEndDateEvidHear
-- lastUpdated
-- trademarkNumbers
-- copyrightNumbers
-- investigationTermDate
-- ouiiParticipation
-- gcAttorney
-- patentNumbers
-- startDateMarkmanHearing
-- publication_number
-- dateOfPublicationFrNotice
-- internalRemand
-- teoIdDueDate
-- title
-- cafcAppeals
-- finalIdOnViolationDue
-- htsNumbers
-- dateCreated
-- teoIdIssueDate
-- teoReliefGranted
-- dateComplaintFiled
-- scheduledEndDateEvidHear
-- finalDetNoViolation
-- invUnfairAct
-- docketNo
-- actualStartDateEvidHear
+- investigationType
 - finalDetViolation
 - teoProceedingInvolved
+- currentActiveALJ
+- dateComplaintFiled
+- investigationTermDate
+- internalRemand
+- ouiiAttorney
+- teoIdDueDate
+- title
+- investigationNo
+- lastUpdated
 - patentNumber
+- markmanHearing
+- invUnfairAct
+- teoReliefGranted
+- dateCreated
+- issueDateOtherNonFinal
+- teoIdIssueDate
+- trademarkNumbers
+- publication_number
+- endDateMarkmanHearing
+- finalIdOnViolationDue
+- actualEndDateEvidHear
+- startDateMarkmanHearing
+- actualStartDateEvidHear
+- dateOfPublicationFrNotice
+- currentStatus
+- patentNumbers
+- htsNumbers
+- cafcAppeals
+- copyrightNumbers
+- docketNo
+- respondent
+- finalIdOnViolationIssue
+- scheduledStartDateEvidHear
+- aljAssigned
+- scheduledEndDateEvidHear
+- ouiiParticipation
+- complainant
 - targetDate
+- gcAttorney
+- finalDetNoViolation
 shortname: unfair_import_investigations
 tags:
 - import
