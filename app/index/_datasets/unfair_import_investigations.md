@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 22:23:43
+last_edit: 04/10/2022, 22:43:03
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- actualStartDateEvidHear
-- teoIdIssueDate
+- issueDateOtherNonFinal
+- finalIdOnViolationIssue
 - patentNumber
+- dateOfPublicationFrNotice
+- trademarkNumbers
+- teoProceedingInvolved
+- finalDetNoViolation
+- id
+- gcAttorney
+- cafcAppeals
+- startDateMarkmanHearing
+- teoIdDueDate
+- endDateMarkmanHearing
+- ouiiParticipation
+- scheduledEndDateEvidHear
+- title
+- investigationType
+- actualEndDateEvidHear
+- complainant
+- dateCreated
+- investigationTermDate
+- finalIdOnViolationDue
+- copyrightNumbers
+- teoIdIssueDate
+- patentNumbers
 - aljAssigned
 - markmanHearing
-- dateCreated
-- respondent
-- complainant
-- targetDate
-- ouiiAttorney
-- internalRemand
-- actualEndDateEvidHear
-- lastUpdated
-- teoReliefGranted
-- gcAttorney
-- teoProceedingInvolved
-- investigationNo
-- dateComplaintFiled
-- investigationType
-- scheduledStartDateEvidHear
-- scheduledEndDateEvidHear
-- finalIdOnViolationIssue
-- teoIdDueDate
-- trademarkNumbers
-- investigationTermDate
-- endDateMarkmanHearing
-- copyrightNumbers
-- finalDetNoViolation
-- invUnfairAct
-- htsNumbers
-- title
-- issueDateOtherNonFinal
-- patentNumbers
-- currentActiveALJ
-- finalIdOnViolationDue
-- currentStatus
-- id
-- publication_number
-- startDateMarkmanHearing
-- dateOfPublicationFrNotice
-- docketNo
-- cafcAppeals
 - finalDetViolation
-- ouiiParticipation
+- ouiiAttorney
+- targetDate
+- dateComplaintFiled
+- actualStartDateEvidHear
+- lastUpdated
+- docketNo
+- respondent
+- internalRemand
+- investigationNo
+- teoReliefGranted
+- publication_number
+- invUnfairAct
+- currentStatus
+- htsNumbers
+- scheduledStartDateEvidHear
+- currentActiveALJ
 shortname: unfair_import_investigations
 tags:
 - import
