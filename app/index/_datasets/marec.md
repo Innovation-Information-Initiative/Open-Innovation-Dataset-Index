@@ -10,12 +10,12 @@ description: 'MAREC Data is a static collection of over 19 million patent applic
   languages, references, person names, and companies as well as rich subject classifications.
   It is a comparable corpus, where many documents are available in similar versions
   in other languages. '
-last_edit: 04/10/2022, 12:36:49
+last_edit: 04/10/2022, 13:05:13
 location: http://www.ifs.tuwien.ac.at/imp/marec.shtml
 maintained_by: marec@fandan.net
 schema_fields:
-- truncated
 - xml
+- truncated
 - publication_number_original
 - publication_number
 shortname: marec
