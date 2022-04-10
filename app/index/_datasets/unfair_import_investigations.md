@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 19:40:22
+last_edit: 04/10/2022, 19:53:05
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- trademarkNumbers
-- investigationNo
-- finalIdOnViolationDue
-- id
-- complainant
-- investigationType
-- invUnfairAct
-- scheduledStartDateEvidHear
+- copyrightNumbers
+- currentActiveALJ
+- title
 - patentNumbers
-- scheduledEndDateEvidHear
-- teoIdDueDate
-- gcAttorney
-- lastUpdated
-- currentStatus
-- endDateMarkmanHearing
-- finalDetNoViolation
-- dateComplaintFiled
-- cafcAppeals
 - finalIdOnViolationIssue
+- id
+- scheduledStartDateEvidHear
+- scheduledEndDateEvidHear
+- dateOfPublicationFrNotice
+- dateCreated
+- finalDetViolation
+- ouiiAttorney
+- cafcAppeals
+- finalDetNoViolation
+- issueDateOtherNonFinal
+- endDateMarkmanHearing
+- actualEndDateEvidHear
+- gcAttorney
+- ouiiParticipation
+- invUnfairAct
+- teoReliefGranted
+- teoProceedingInvolved
+- investigationNo
+- lastUpdated
+- htsNumbers
+- patentNumber
+- aljAssigned
+- currentStatus
+- markmanHearing
+- trademarkNumbers
+- startDateMarkmanHearing
 - respondent
 - targetDate
-- issueDateOtherNonFinal
-- title
-- teoIdIssueDate
-- ouiiAttorney
-- patentNumber
-- currentActiveALJ
-- copyrightNumbers
-- investigationTermDate
-- htsNumbers
-- docketNo
-- finalDetViolation
-- dateCreated
-- actualEndDateEvidHear
-- aljAssigned
-- ouiiParticipation
-- dateOfPublicationFrNotice
-- publication_number
-- teoProceedingInvolved
-- teoReliefGranted
-- internalRemand
-- startDateMarkmanHearing
+- teoIdDueDate
+- complainant
 - actualStartDateEvidHear
-- markmanHearing
+- finalIdOnViolationDue
+- publication_number
+- investigationTermDate
+- docketNo
+- investigationType
+- teoIdIssueDate
+- dateComplaintFiled
+- internalRemand
 shortname: unfair_import_investigations
 tags:
 - import
