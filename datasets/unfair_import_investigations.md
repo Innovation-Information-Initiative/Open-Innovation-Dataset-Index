@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 15:59:36
+last_edit: 04/10/2022, 16:35:39
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- scheduledStartDateEvidHear
-- patentNumbers
-- currentStatus
-- cafcAppeals
-- htsNumbers
 - teoIdDueDate
-- complainant
-- finalIdOnViolationDue
-- issueDateOtherNonFinal
-- investigationType
-- investigationNo
-- invUnfairAct
-- internalRemand
-- lastUpdated
-- investigationTermDate
-- teoProceedingInvolved
-- dateCreated
-- finalIdOnViolationIssue
-- respondent
-- endDateMarkmanHearing
-- aljAssigned
-- copyrightNumbers
-- ouiiAttorney
-- scheduledEndDateEvidHear
-- targetDate
-- currentActiveALJ
-- actualEndDateEvidHear
-- markmanHearing
-- finalDetNoViolation
-- docketNo
-- ouiiParticipation
-- patentNumber
-- actualStartDateEvidHear
-- teoIdIssueDate
-- gcAttorney
 - trademarkNumbers
-- dateOfPublicationFrNotice
-- dateComplaintFiled
-- finalDetViolation
-- startDateMarkmanHearing
-- teoReliefGranted
+- patentNumbers
+- actualStartDateEvidHear
+- issueDateOtherNonFinal
+- dateCreated
+- teoIdIssueDate
+- patentNumber
 - publication_number
 - id
+- finalDetViolation
+- scheduledEndDateEvidHear
+- teoReliefGranted
 - title
+- startDateMarkmanHearing
+- teoProceedingInvolved
+- cafcAppeals
+- docketNo
+- investigationType
+- investigationNo
+- currentActiveALJ
+- htsNumbers
+- finalIdOnViolationDue
+- investigationTermDate
+- ouiiAttorney
+- scheduledStartDateEvidHear
+- copyrightNumbers
+- dateOfPublicationFrNotice
+- gcAttorney
+- lastUpdated
+- aljAssigned
+- internalRemand
+- ouiiParticipation
+- dateComplaintFiled
+- actualEndDateEvidHear
+- markmanHearing
+- finalIdOnViolationIssue
+- currentStatus
+- finalDetNoViolation
+- endDateMarkmanHearing
+- invUnfairAct
+- targetDate
+- complainant
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
