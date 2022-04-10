@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 06:36:36
+last_edit: 04/10/2022, 06:54:10
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiAttorney
-- dateComplaintFiled
-- cafcAppeals
-- dateOfPublicationFrNotice
-- lastUpdated
-- docketNo
-- patentNumber
-- ouiiParticipation
-- title
-- issueDateOtherNonFinal
-- actualEndDateEvidHear
-- aljAssigned
-- teoReliefGranted
-- endDateMarkmanHearing
-- currentActiveALJ
-- markmanHearing
-- teoIdDueDate
-- finalIdOnViolationIssue
-- id
-- respondent
-- htsNumbers
-- internalRemand
 - scheduledEndDateEvidHear
-- actualStartDateEvidHear
+- docketNo
+- investigationNo
+- teoProceedingInvolved
+- teoIdIssueDate
+- teoReliefGranted
+- finalIdOnViolationDue
+- ouiiParticipation
+- finalIdOnViolationIssue
+- currentStatus
+- invUnfairAct
+- copyrightNumbers
 - finalDetNoViolation
-- gcAttorney
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
+- currentActiveALJ
+- investigationType
+- respondent
+- ouiiAttorney
+- id
+- actualEndDateEvidHear
+- complainant
 - dateCreated
+- gcAttorney
+- targetDate
+- scheduledStartDateEvidHear
 - trademarkNumbers
 - patentNumbers
-- currentStatus
-- finalDetViolation
-- teoProceedingInvolved
+- htsNumbers
+- patentNumber
+- aljAssigned
 - publication_number
+- dateOfPublicationFrNotice
+- dateComplaintFiled
+- markmanHearing
+- actualStartDateEvidHear
+- issueDateOtherNonFinal
+- startDateMarkmanHearing
+- cafcAppeals
+- title
+- finalDetViolation
 - investigationTermDate
-- targetDate
-- invUnfairAct
-- teoIdIssueDate
-- copyrightNumbers
-- investigationNo
-- complainant
-- finalIdOnViolationDue
-- investigationType
+- endDateMarkmanHearing
+- internalRemand
+- lastUpdated
+- teoIdDueDate
 shortname: unfair_import_investigations
 tags:
 - import
