@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 22:43:03
+last_edit: 04/10/2022, 22:59:37
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- issueDateOtherNonFinal
-- finalIdOnViolationIssue
-- patentNumber
-- dateOfPublicationFrNotice
-- trademarkNumbers
-- teoProceedingInvolved
-- finalDetNoViolation
-- id
-- gcAttorney
-- cafcAppeals
 - startDateMarkmanHearing
-- teoIdDueDate
-- endDateMarkmanHearing
+- publication_number
+- actualStartDateEvidHear
+- scheduledStartDateEvidHear
+- dateOfPublicationFrNotice
+- investigationNo
+- issueDateOtherNonFinal
+- finalDetViolation
+- markmanHearing
 - ouiiParticipation
-- scheduledEndDateEvidHear
+- id
 - title
-- investigationType
+- lastUpdated
 - actualEndDateEvidHear
 - complainant
+- trademarkNumbers
+- respondent
+- targetDate
+- patentNumbers
+- copyrightNumbers
+- currentActiveALJ
+- finalIdOnViolationIssue
+- finalIdOnViolationDue
+- gcAttorney
+- scheduledEndDateEvidHear
+- teoProceedingInvolved
+- invUnfairAct
+- teoReliefGranted
+- patentNumber
+- aljAssigned
+- htsNumbers
+- finalDetNoViolation
+- dateComplaintFiled
+- investigationType
+- teoIdIssueDate
+- currentStatus
+- cafcAppeals
+- teoIdDueDate
+- docketNo
+- ouiiAttorney
 - dateCreated
 - investigationTermDate
-- finalIdOnViolationDue
-- copyrightNumbers
-- teoIdIssueDate
-- patentNumbers
-- aljAssigned
-- markmanHearing
-- finalDetViolation
-- ouiiAttorney
-- targetDate
-- dateComplaintFiled
-- actualStartDateEvidHear
-- lastUpdated
-- docketNo
-- respondent
 - internalRemand
-- investigationNo
-- teoReliefGranted
-- publication_number
-- invUnfairAct
-- currentStatus
-- htsNumbers
-- scheduledStartDateEvidHear
-- currentActiveALJ
+- endDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
