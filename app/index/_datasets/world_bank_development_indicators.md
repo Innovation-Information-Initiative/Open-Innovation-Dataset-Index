@@ -9,16 +9,16 @@ description: World Development Indicators Data is the primary World Bank collect
   It presents the most current and accurate global development data available, and
   includes national, regional and global estimates.
 documentation: https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
-last_edit: 04/10/2022, 05:34:53
+last_edit: 04/10/2022, 05:50:31
 location: https://datacatalog.worldbank.org/search/dataset/0037712
 maintained_by: data@worldbank.org
 schema_fields:
-- indicator_value
-- country_code
-- indicator_code
-- indicator_name
-- country_name
 - year
+- country_code
+- indicator_value
+- indicator_code
+- country_name
+- indicator_name
 shortname: world_bank_development_indicators
 tags:
 - development
