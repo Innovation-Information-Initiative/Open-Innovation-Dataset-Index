@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/10/2022, 14:02:27
+last_edit: 04/10/2022, 14:27:56
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- ouiiAttorney
-- lastUpdated
-- startDateMarkmanHearing
-- actualEndDateEvidHear
-- docketNo
 - endDateMarkmanHearing
-- issueDateOtherNonFinal
-- teoIdIssueDate
-- trademarkNumbers
-- scheduledStartDateEvidHear
-- teoProceedingInvolved
-- currentActiveALJ
-- internalRemand
-- actualStartDateEvidHear
-- invUnfairAct
-- teoReliefGranted
-- teoIdDueDate
-- investigationNo
-- dateOfPublicationFrNotice
+- patentNumber
+- complainant
 - dateComplaintFiled
 - finalIdOnViolationDue
-- scheduledEndDateEvidHear
-- markmanHearing
-- investigationTermDate
 - aljAssigned
-- publication_number
-- currentStatus
-- finalIdOnViolationIssue
-- id
-- finalDetNoViolation
-- dateCreated
-- cafcAppeals
-- copyrightNumbers
-- patentNumber
-- patentNumbers
 - respondent
-- targetDate
-- htsNumbers
-- complainant
-- title
+- startDateMarkmanHearing
+- teoIdIssueDate
+- actualStartDateEvidHear
+- teoProceedingInvolved
+- actualEndDateEvidHear
+- patentNumbers
 - gcAttorney
-- ouiiParticipation
+- lastUpdated
+- issueDateOtherNonFinal
+- docketNo
+- investigationNo
+- publication_number
+- scheduledEndDateEvidHear
+- investigationTermDate
+- teoReliefGranted
+- scheduledStartDateEvidHear
 - finalDetViolation
+- internalRemand
+- dateOfPublicationFrNotice
+- cafcAppeals
+- finalIdOnViolationIssue
+- ouiiAttorney
+- teoIdDueDate
+- invUnfairAct
+- htsNumbers
+- markmanHearing
+- currentActiveALJ
+- id
+- ouiiParticipation
+- targetDate
+- currentStatus
 - investigationType
+- finalDetNoViolation
+- trademarkNumbers
+- title
+- copyrightNumbers
+- dateCreated
 shortname: unfair_import_investigations
 tags:
 - import
