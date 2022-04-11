@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 20:02:33
+last_edit: 04/11/2022, 20:32:16
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- htsNumbers
-- scheduledEndDateEvidHear
-- teoIdDueDate
-- currentActiveALJ
-- finalIdOnViolationDue
-- investigationTermDate
-- id
-- ouiiAttorney
-- teoReliefGranted
-- complainant
+- teoProceedingInvolved
+- cafcAppeals
+- title
+- invUnfairAct
+- markmanHearing
+- endDateMarkmanHearing
 - targetDate
-- currentStatus
-- finalIdOnViolationIssue
+- patentNumbers
+- startDateMarkmanHearing
+- dateOfPublicationFrNotice
+- copyrightNumbers
+- htsNumbers
+- trademarkNumbers
+- patentNumber
+- finalDetViolation
 - finalDetNoViolation
+- complainant
+- scheduledStartDateEvidHear
+- finalIdOnViolationDue
+- actualStartDateEvidHear
+- currentActiveALJ
+- ouiiParticipation
+- teoIdDueDate
+- investigationTermDate
+- docketNo
+- ouiiAttorney
+- scheduledEndDateEvidHear
+- lastUpdated
+- teoIdIssueDate
+- investigationType
+- teoReliefGranted
+- issueDateOtherNonFinal
+- internalRemand
+- gcAttorney
+- id
+- aljAssigned
+- finalIdOnViolationIssue
+- publication_number
+- dateComplaintFiled
+- respondent
+- dateCreated
+- currentStatus
 - investigationNo
 - actualEndDateEvidHear
-- docketNo
-- lastUpdated
-- dateComplaintFiled
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
-- ouiiParticipation
-- title
-- markmanHearing
-- internalRemand
-- invUnfairAct
-- actualStartDateEvidHear
-- copyrightNumbers
-- publication_number
-- dateCreated
-- respondent
-- teoProceedingInvolved
-- patentNumber
-- cafcAppeals
-- gcAttorney
-- dateOfPublicationFrNotice
-- endDateMarkmanHearing
-- patentNumbers
-- teoIdIssueDate
-- trademarkNumbers
-- investigationType
-- aljAssigned
-- finalDetViolation
-- issueDateOtherNonFinal
 shortname: unfair_import_investigations
 tags:
 - import
