@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 21:43:33
+last_edit: 04/11/2022, 21:59:55
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- scheduledStartDateEvidHear
-- title
-- endDateMarkmanHearing
-- finalDetNoViolation
-- invUnfairAct
-- finalDetViolation
-- ouiiParticipation
-- teoIdDueDate
-- id
-- patentNumbers
-- startDateMarkmanHearing
-- trademarkNumbers
-- publication_number
-- markmanHearing
-- gcAttorney
-- investigationType
-- scheduledEndDateEvidHear
-- issueDateOtherNonFinal
-- currentActiveALJ
-- targetDate
-- finalIdOnViolationDue
-- currentStatus
-- aljAssigned
 - dateComplaintFiled
-- docketNo
-- dateOfPublicationFrNotice
-- finalIdOnViolationIssue
-- investigationTermDate
-- complainant
-- copyrightNumbers
-- htsNumbers
-- investigationNo
 - lastUpdated
-- patentNumber
-- teoProceedingInvolved
-- teoIdIssueDate
-- respondent
-- actualEndDateEvidHear
-- cafcAppeals
-- ouiiAttorney
-- internalRemand
-- actualStartDateEvidHear
-- dateCreated
+- investigationTermDate
+- finalIdOnViolationDue
 - teoReliefGranted
+- dateOfPublicationFrNotice
+- cafcAppeals
+- investigationNo
+- copyrightNumbers
+- currentStatus
+- internalRemand
+- publication_number
+- finalDetViolation
+- finalDetNoViolation
+- ouiiParticipation
+- teoIdIssueDate
+- actualStartDateEvidHear
+- startDateMarkmanHearing
+- issueDateOtherNonFinal
+- title
+- aljAssigned
+- patentNumbers
+- docketNo
+- scheduledEndDateEvidHear
+- trademarkNumbers
+- markmanHearing
+- htsNumbers
+- ouiiAttorney
+- currentActiveALJ
+- finalIdOnViolationIssue
+- complainant
+- targetDate
+- actualEndDateEvidHear
+- endDateMarkmanHearing
+- id
+- investigationType
+- teoProceedingInvolved
+- invUnfairAct
+- teoIdDueDate
+- scheduledStartDateEvidHear
+- dateCreated
+- patentNumber
+- gcAttorney
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
