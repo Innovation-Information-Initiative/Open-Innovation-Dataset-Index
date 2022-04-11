@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 13:16:02
+last_edit: 04/11/2022, 13:44:02
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- docketNo
-- ouiiAttorney
-- teoIdIssueDate
-- actualStartDateEvidHear
-- copyrightNumbers
-- dateCreated
-- investigationNo
-- investigationType
-- endDateMarkmanHearing
-- finalIdOnViolationIssue
-- teoIdDueDate
-- internalRemand
-- currentStatus
-- currentActiveALJ
-- lastUpdated
-- targetDate
-- scheduledStartDateEvidHear
-- issueDateOtherNonFinal
-- complainant
-- actualEndDateEvidHear
-- dateOfPublicationFrNotice
-- finalDetNoViolation
-- markmanHearing
-- finalDetViolation
-- ouiiParticipation
-- patentNumber
-- investigationTermDate
-- gcAttorney
-- startDateMarkmanHearing
-- teoProceedingInvolved
 - patentNumbers
-- teoReliefGranted
-- id
+- copyrightNumbers
 - cafcAppeals
-- dateComplaintFiled
-- trademarkNumbers
-- publication_number
+- issueDateOtherNonFinal
 - respondent
-- finalIdOnViolationDue
-- scheduledEndDateEvidHear
-- htsNumbers
 - title
 - aljAssigned
+- finalDetNoViolation
+- teoReliefGranted
+- ouiiAttorney
+- markmanHearing
+- docketNo
+- scheduledEndDateEvidHear
+- lastUpdated
+- publication_number
+- currentActiveALJ
+- dateOfPublicationFrNotice
+- trademarkNumbers
+- startDateMarkmanHearing
+- endDateMarkmanHearing
+- teoIdDueDate
+- actualEndDateEvidHear
+- actualStartDateEvidHear
+- complainant
+- finalIdOnViolationDue
+- investigationNo
+- teoProceedingInvolved
+- gcAttorney
+- ouiiParticipation
+- teoIdIssueDate
+- internalRemand
+- targetDate
+- investigationTermDate
+- finalDetViolation
+- currentStatus
+- patentNumber
+- dateCreated
+- scheduledStartDateEvidHear
+- id
+- finalIdOnViolationIssue
+- htsNumbers
 - invUnfairAct
+- investigationType
+- dateComplaintFiled
 shortname: unfair_import_investigations
 tags:
 - import
