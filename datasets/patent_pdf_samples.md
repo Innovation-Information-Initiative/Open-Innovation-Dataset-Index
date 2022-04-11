@@ -23,29 +23,29 @@ description: 'The dataset consists of PDFs in Google Cloud Storage from the firs
 
   '
 documentation: At site
-last_edit: 04/11/2022, 00:00:10
+last_edit: 04/11/2022, 02:03:10
 location: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
 maintained_by: Google Cloud Public Datasets Program
 schema_fields:
-- issuer
-- y_relative_min
-- x_relative_max
-- title_line_1
-- class_us
-- priority_date_eu
 - gcs_path
-- y_relative_max
-- publication_date
+- filing_date
+- title_line_1
+- x_relative_min
 - invention_type
+- priority_date_eu
+- application_number
 - representative_line_1_eu
+- applicant_line_1
+- y_relative_min
 - language
 - number
-- inventor_line_1
-- filing_date
-- application_number
-- applicant_line_1
-- x_relative_min
+- issuer
 - class_international
+- inventor_line_1
+- publication_date
+- y_relative_max
+- class_us
+- x_relative_max
 shortname: patent_pdf_samples
 tags:
 - machine learning
