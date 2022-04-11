@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 19:32:26
+last_edit: 04/11/2022, 19:49:52
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoReliefGranted
-- teoIdDueDate
-- startDateMarkmanHearing
-- lastUpdated
-- cafcAppeals
+- scheduledEndDateEvidHear
+- currentActiveALJ
 - teoIdIssueDate
-- internalRemand
-- publication_number
-- respondent
-- endDateMarkmanHearing
-- aljAssigned
-- gcAttorney
-- actualStartDateEvidHear
-- investigationNo
-- investigationTermDate
+- title
+- patentNumbers
+- cafcAppeals
 - investigationType
-- markmanHearing
+- teoProceedingInvolved
+- issueDateOtherNonFinal
+- finalIdOnViolationDue
+- finalDetViolation
+- finalIdOnViolationIssue
+- internalRemand
+- teoReliefGranted
+- actualStartDateEvidHear
+- respondent
 - scheduledStartDateEvidHear
+- dateOfPublicationFrNotice
 - dateComplaintFiled
-- patentNumber
-- trademarkNumbers
-- finalDetNoViolation
 - invUnfairAct
 - docketNo
-- finalDetViolation
-- ouiiAttorney
-- patentNumbers
-- finalIdOnViolationDue
-- scheduledEndDateEvidHear
-- dateCreated
-- finalIdOnViolationIssue
-- id
-- complainant
-- copyrightNumbers
-- actualEndDateEvidHear
-- dateOfPublicationFrNotice
-- teoProceedingInvolved
-- currentStatus
+- finalDetNoViolation
+- investigationNo
+- publication_number
+- endDateMarkmanHearing
+- trademarkNumbers
+- investigationTermDate
 - htsNumbers
+- gcAttorney
+- lastUpdated
+- startDateMarkmanHearing
+- dateCreated
+- copyrightNumbers
+- aljAssigned
 - targetDate
-- title
-- currentActiveALJ
+- patentNumber
+- actualEndDateEvidHear
+- teoIdDueDate
+- currentStatus
+- complainant
+- markmanHearing
+- id
 - ouiiParticipation
-- issueDateOtherNonFinal
+- ouiiAttorney
 shortname: unfair_import_investigations
 tags:
 - import
