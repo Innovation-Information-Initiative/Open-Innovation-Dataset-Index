@@ -15,40 +15,40 @@ description: The Patent Claims Research Dataset contain detailed information on 
   measures of patent scope.
 documentation: Available at source, including documentation of variables
 doi: 'http://dx.doi.org/10.2139/ssrn.2844964 '
-last_edit: 04/11/2022, 12:40:57
+last_edit: 04/11/2022, 13:16:02
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=2844964
 schema_fields:
-- cns_ct
-- claim_txt
+- sf_ct
 - pub_wrd_min
-- publication_number
-- pub_dep_wrd_ct
-- ind_flg
-- char_ct
-- pub_wrd_ct
+- pub_dep_wrd_avg
+- pat_wrd_ct
 - pub_wrd_avg
 - pat_no
-- pat_clm_ct
-- pat_wrd_ct
-- dependencies
-- sf_ct
-- word_ct
-- pub_no
-- appl_id
-- pub_clm_ct
-- pat_dep_wrd_min
 - pat_dep_wrd_avg
-- pat_wrd_min
-- or_ct
 - pat_dep_wrd_ct
-- pat_dep_clm_ct
+- char_ct
+- pub_dep_wrd_ct
+- pat_wrd_min
 - pub_dep_clm_ct
-- pub_dep_wrd_avg
-- pub_dep_wrd_min
-- claim_no
+- pub_no
+- pat_clm_ct
+- pat_dep_wrd_min
+- appl_id
+- pat_dep_clm_ct
+- pub_clm_ct
+- dependencies
 - pat_wrd_avg
+- pub_wrd_ct
+- or_ct
+- word_ct
+- publication_number
+- pub_dep_wrd_min
+- cns_ct
+- ind_flg
+- claim_txt
+- claim_no
 shortname: uspto_patent_claims
 tags:
 - financial services
