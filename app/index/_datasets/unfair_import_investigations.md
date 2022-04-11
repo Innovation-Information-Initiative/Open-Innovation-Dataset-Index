@@ -12,53 +12,53 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 15:48:38
+last_edit: 04/11/2022, 16:01:38
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- patentNumber
-- finalDetNoViolation
-- dateComplaintFiled
-- cafcAppeals
-- dateOfPublicationFrNotice
-- investigationType
-- investigationTermDate
-- targetDate
-- finalIdOnViolationIssue
-- finalDetViolation
-- currentStatus
-- invUnfairAct
-- scheduledStartDateEvidHear
-- trademarkNumbers
-- id
-- currentActiveALJ
-- scheduledEndDateEvidHear
 - teoIdDueDate
-- ouiiAttorney
-- lastUpdated
-- patentNumbers
-- gcAttorney
-- investigationNo
-- teoReliefGranted
-- dateCreated
-- internalRemand
-- htsNumbers
-- complainant
-- actualEndDateEvidHear
-- endDateMarkmanHearing
 - aljAssigned
-- markmanHearing
-- teoIdIssueDate
-- title
-- publication_number
-- copyrightNumbers
-- startDateMarkmanHearing
-- teoProceedingInvolved
-- actualStartDateEvidHear
+- currentStatus
+- actualEndDateEvidHear
+- investigationType
 - finalIdOnViolationDue
+- id
+- startDateMarkmanHearing
+- dateCreated
+- markmanHearing
 - ouiiParticipation
-- respondent
+- teoProceedingInvolved
+- finalIdOnViolationIssue
+- lastUpdated
 - docketNo
+- investigationNo
+- scheduledEndDateEvidHear
+- htsNumbers
+- publication_number
+- actualStartDateEvidHear
+- cafcAppeals
+- gcAttorney
+- copyrightNumbers
+- complainant
+- invUnfairAct
+- teoIdIssueDate
+- investigationTermDate
+- ouiiAttorney
+- finalDetNoViolation
+- patentNumbers
+- patentNumber
+- scheduledStartDateEvidHear
+- respondent
+- teoReliefGranted
+- dateComplaintFiled
+- internalRemand
+- targetDate
+- dateOfPublicationFrNotice
+- endDateMarkmanHearing
+- finalDetViolation
+- currentActiveALJ
+- trademarkNumbers
+- title
 - issueDateOtherNonFinal
 shortname: unfair_import_investigations
 tags:
