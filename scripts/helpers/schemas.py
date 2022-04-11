@@ -87,10 +87,12 @@ def get_schemas(data):
 			# do we need to update the sheet
 			if 'schema_fields' in row and project['schema'] != row['schema_fields']:
 				update_metadata = True
+				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+				row['schema_fields'] = project['schema']
 			elif 'schema_fields' not in row:
 				update_metadata = True
-			row['schema_fields'] = project['schema']
-			row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+				row['schema_fields'] = project['schema']
 			print('added fields to', row['title'])
 
 	return data, update_metadata
