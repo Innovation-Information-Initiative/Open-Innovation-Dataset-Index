@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 20:59:33
+last_edit: 04/11/2022, 21:24:56
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- copyrightNumbers
-- publication_number
-- investigationType
-- invUnfairAct
-- lastUpdated
-- finalIdOnViolationIssue
-- scheduledEndDateEvidHear
-- ouiiAttorney
-- dateComplaintFiled
-- endDateMarkmanHearing
-- targetDate
 - actualEndDateEvidHear
+- startDateMarkmanHearing
 - teoIdIssueDate
+- copyrightNumbers
+- respondent
 - actualStartDateEvidHear
-- finalIdOnViolationDue
+- investigationTermDate
+- investigationType
+- complainant
+- issueDateOtherNonFinal
+- markmanHearing
 - docketNo
-- id
+- targetDate
+- investigationNo
+- endDateMarkmanHearing
+- htsNumbers
+- aljAssigned
+- trademarkNumbers
+- teoIdDueDate
+- scheduledStartDateEvidHear
+- publication_number
+- currentActiveALJ
+- ouiiParticipation
+- dateCreated
+- gcAttorney
+- dateOfPublicationFrNotice
+- ouiiAttorney
+- scheduledEndDateEvidHear
+- teoProceedingInvolved
+- finalIdOnViolationDue
 - title
+- currentStatus
 - patentNumber
 - patentNumbers
-- dateOfPublicationFrNotice
-- currentActiveALJ
-- investigationTermDate
-- gcAttorney
-- investigationNo
-- trademarkNumbers
-- htsNumbers
-- startDateMarkmanHearing
-- respondent
 - internalRemand
-- currentStatus
-- issueDateOtherNonFinal
-- ouiiParticipation
-- finalDetNoViolation
+- lastUpdated
 - finalDetViolation
-- complainant
-- scheduledStartDateEvidHear
-- teoIdDueDate
-- markmanHearing
-- dateCreated
-- teoProceedingInvolved
+- finalDetNoViolation
 - cafcAppeals
-- aljAssigned
+- finalIdOnViolationIssue
+- invUnfairAct
 - teoReliefGranted
+- dateComplaintFiled
+- id
 shortname: unfair_import_investigations
 tags:
 - import
