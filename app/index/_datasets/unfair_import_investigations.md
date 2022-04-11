@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 12:40:57
+last_edit: 04/11/2022, 13:16:02
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- aljAssigned
-- investigationType
-- finalDetViolation
-- scheduledStartDateEvidHear
-- lastUpdated
-- publication_number
-- finalDetNoViolation
-- respondent
-- teoIdDueDate
-- teoReliefGranted
+- docketNo
+- ouiiAttorney
+- teoIdIssueDate
 - actualStartDateEvidHear
+- copyrightNumbers
+- dateCreated
+- investigationNo
+- investigationType
+- endDateMarkmanHearing
+- finalIdOnViolationIssue
+- teoIdDueDate
+- internalRemand
 - currentStatus
-- finalIdOnViolationDue
-- investigationTermDate
-- trademarkNumbers
-- ouiiParticipation
-- markmanHearing
-- patentNumbers
+- currentActiveALJ
+- lastUpdated
 - targetDate
+- scheduledStartDateEvidHear
+- issueDateOtherNonFinal
+- complainant
+- actualEndDateEvidHear
+- dateOfPublicationFrNotice
+- finalDetNoViolation
+- markmanHearing
+- finalDetViolation
+- ouiiParticipation
+- patentNumber
+- investigationTermDate
+- gcAttorney
 - startDateMarkmanHearing
 - teoProceedingInvolved
-- copyrightNumbers
-- patentNumber
-- complainant
-- ouiiAttorney
-- finalIdOnViolationIssue
-- htsNumbers
-- actualEndDateEvidHear
-- title
-- cafcAppeals
-- issueDateOtherNonFinal
+- patentNumbers
+- teoReliefGranted
 - id
-- currentActiveALJ
+- cafcAppeals
 - dateComplaintFiled
-- docketNo
-- gcAttorney
-- investigationNo
-- dateOfPublicationFrNotice
-- invUnfairAct
-- dateCreated
+- trademarkNumbers
+- publication_number
+- respondent
+- finalIdOnViolationDue
 - scheduledEndDateEvidHear
-- teoIdIssueDate
-- internalRemand
-- endDateMarkmanHearing
+- htsNumbers
+- title
+- aljAssigned
+- invUnfairAct
 shortname: unfair_import_investigations
 tags:
 - import
