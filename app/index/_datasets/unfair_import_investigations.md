@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 09:59:39
+last_edit: 04/11/2022, 10:31:00
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- aljAssigned
-- teoIdDueDate
-- markmanHearing
-- trademarkNumbers
-- finalDetViolation
-- scheduledEndDateEvidHear
-- targetDate
-- finalDetNoViolation
-- startDateMarkmanHearing
-- gcAttorney
-- actualStartDateEvidHear
-- issueDateOtherNonFinal
-- invUnfairAct
-- ouiiAttorney
-- htsNumbers
-- publication_number
-- investigationNo
-- dateComplaintFiled
-- investigationTermDate
-- investigationType
-- patentNumbers
-- respondent
-- lastUpdated
-- patentNumber
-- endDateMarkmanHearing
-- teoReliefGranted
-- internalRemand
-- currentStatus
-- actualEndDateEvidHear
-- dateCreated
-- copyrightNumbers
-- dateOfPublicationFrNotice
-- id
-- currentActiveALJ
 - finalIdOnViolationDue
 - title
-- scheduledStartDateEvidHear
-- ouiiParticipation
+- dateOfPublicationFrNotice
+- publication_number
 - teoProceedingInvolved
-- cafcAppeals
+- investigationType
+- actualEndDateEvidHear
 - complainant
-- teoIdIssueDate
-- finalIdOnViolationIssue
+- startDateMarkmanHearing
+- currentStatus
 - docketNo
+- investigationTermDate
+- trademarkNumbers
+- copyrightNumbers
+- patentNumber
+- investigationNo
+- dateComplaintFiled
+- ouiiAttorney
+- teoReliefGranted
+- patentNumbers
+- gcAttorney
+- scheduledEndDateEvidHear
+- htsNumbers
+- actualStartDateEvidHear
+- dateCreated
+- endDateMarkmanHearing
+- ouiiParticipation
+- scheduledStartDateEvidHear
+- aljAssigned
+- currentActiveALJ
+- teoIdIssueDate
+- respondent
+- cafcAppeals
+- invUnfairAct
+- finalIdOnViolationIssue
+- finalDetNoViolation
+- internalRemand
+- id
+- finalDetViolation
+- lastUpdated
+- markmanHearing
+- teoIdDueDate
+- issueDateOtherNonFinal
+- targetDate
 shortname: unfair_import_investigations
 tags:
 - import
