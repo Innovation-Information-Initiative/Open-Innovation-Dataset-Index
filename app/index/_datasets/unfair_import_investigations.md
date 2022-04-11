@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 11:00:58
+last_edit: 04/11/2022, 11:23:57
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- currentActiveALJ
-- title
-- ouiiAttorney
-- lastUpdated
-- endDateMarkmanHearing
-- htsNumbers
-- patentNumber
-- targetDate
-- aljAssigned
-- invUnfairAct
-- teoProceedingInvolved
-- ouiiParticipation
-- copyrightNumbers
-- teoIdIssueDate
-- finalIdOnViolationDue
-- complainant
-- patentNumbers
-- teoIdDueDate
-- dateComplaintFiled
-- currentStatus
-- startDateMarkmanHearing
-- dateOfPublicationFrNotice
-- trademarkNumbers
-- id
-- actualStartDateEvidHear
-- issueDateOtherNonFinal
-- dateCreated
-- respondent
-- investigationNo
-- investigationTermDate
-- markmanHearing
-- scheduledStartDateEvidHear
-- docketNo
-- investigationType
 - finalIdOnViolationIssue
-- gcAttorney
-- teoReliefGranted
-- internalRemand
-- finalDetViolation
-- scheduledEndDateEvidHear
+- id
+- issueDateOtherNonFinal
+- actualStartDateEvidHear
+- currentActiveALJ
+- scheduledStartDateEvidHear
 - publication_number
-- cafcAppeals
-- finalDetNoViolation
+- teoReliefGranted
+- dateOfPublicationFrNotice
 - actualEndDateEvidHear
+- complainant
+- patentNumber
+- markmanHearing
+- currentStatus
+- internalRemand
+- lastUpdated
+- respondent
+- targetDate
+- ouiiAttorney
+- aljAssigned
+- trademarkNumbers
+- copyrightNumbers
+- startDateMarkmanHearing
+- ouiiParticipation
+- docketNo
+- teoProceedingInvolved
+- dateComplaintFiled
+- teoIdIssueDate
+- finalDetViolation
+- teoIdDueDate
+- htsNumbers
+- investigationTermDate
+- title
+- dateCreated
+- patentNumbers
+- cafcAppeals
+- investigationType
+- finalDetNoViolation
+- finalIdOnViolationDue
+- scheduledEndDateEvidHear
+- endDateMarkmanHearing
+- invUnfairAct
+- gcAttorney
+- investigationNo
 shortname: unfair_import_investigations
 tags:
 - import
