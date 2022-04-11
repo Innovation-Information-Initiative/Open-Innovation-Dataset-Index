@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 05:49:55
+last_edit: 04/11/2022, 06:02:35
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoIdDueDate
-- docketNo
-- complainant
-- currentStatus
-- investigationType
-- gcAttorney
-- patentNumbers
-- respondent
-- teoIdIssueDate
-- title
-- copyrightNumbers
-- investigationNo
-- trademarkNumbers
-- finalIdOnViolationIssue
-- issueDateOtherNonFinal
-- cafcAppeals
-- dateComplaintFiled
-- scheduledEndDateEvidHear
-- markmanHearing
-- internalRemand
-- invUnfairAct
-- finalIdOnViolationDue
-- endDateMarkmanHearing
-- targetDate
-- dateCreated
-- lastUpdated
-- htsNumbers
-- ouiiAttorney
-- ouiiParticipation
-- publication_number
-- actualEndDateEvidHear
-- currentActiveALJ
-- aljAssigned
-- actualStartDateEvidHear
-- investigationTermDate
-- finalDetViolation
-- dateOfPublicationFrNotice
-- patentNumber
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
-- id
 - teoReliefGranted
+- aljAssigned
+- finalIdOnViolationIssue
+- currentStatus
+- finalDetViolation
+- investigationType
+- issueDateOtherNonFinal
+- teoIdDueDate
+- respondent
+- docketNo
+- title
+- markmanHearing
+- invUnfairAct
+- teoIdIssueDate
+- endDateMarkmanHearing
+- finalIdOnViolationDue
+- lastUpdated
+- currentActiveALJ
+- patentNumber
+- trademarkNumbers
+- startDateMarkmanHearing
+- cafcAppeals
+- gcAttorney
+- actualStartDateEvidHear
+- dateComplaintFiled
 - teoProceedingInvolved
+- internalRemand
+- dateCreated
+- actualEndDateEvidHear
+- publication_number
+- ouiiAttorney
+- investigationNo
+- copyrightNumbers
+- ouiiParticipation
+- dateOfPublicationFrNotice
+- patentNumbers
 - finalDetNoViolation
+- scheduledStartDateEvidHear
+- complainant
+- htsNumbers
+- investigationTermDate
+- targetDate
+- id
+- scheduledEndDateEvidHear
 shortname: unfair_import_investigations
 tags:
 - import
