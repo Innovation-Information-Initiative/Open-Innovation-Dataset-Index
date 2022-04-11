@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 14:59:47
+last_edit: 04/11/2022, 15:29:15
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- currentActiveALJ
-- docketNo
-- aljAssigned
-- gcAttorney
-- startDateMarkmanHearing
-- investigationTermDate
-- investigationType
-- teoIdIssueDate
-- finalDetNoViolation
-- ouiiAttorney
-- htsNumbers
-- lastUpdated
-- teoProceedingInvolved
 - dateCreated
-- targetDate
-- dateComplaintFiled
-- ouiiParticipation
-- publication_number
+- actualEndDateEvidHear
+- invUnfairAct
+- dateOfPublicationFrNotice
+- investigationTermDate
+- internalRemand
+- startDateMarkmanHearing
 - currentStatus
+- lastUpdated
 - finalIdOnViolationDue
-- endDateMarkmanHearing
+- scheduledStartDateEvidHear
+- investigationType
+- finalDetViolation
+- teoProceedingInvolved
+- actualStartDateEvidHear
+- finalDetNoViolation
+- ouiiParticipation
+- dateComplaintFiled
+- htsNumbers
+- cafcAppeals
+- id
+- ouiiAttorney
+- teoIdDueDate
+- copyrightNumbers
 - patentNumber
 - complainant
-- actualStartDateEvidHear
-- actualEndDateEvidHear
-- teoReliefGranted
-- internalRemand
-- markmanHearing
-- title
-- finalDetViolation
-- investigationNo
-- trademarkNumbers
-- scheduledStartDateEvidHear
-- respondent
-- invUnfairAct
-- id
-- copyrightNumbers
-- issueDateOtherNonFinal
 - finalIdOnViolationIssue
-- cafcAppeals
-- teoIdDueDate
-- dateOfPublicationFrNotice
 - patentNumbers
+- title
+- docketNo
+- publication_number
+- issueDateOtherNonFinal
+- investigationNo
+- teoReliefGranted
+- markmanHearing
+- targetDate
+- teoIdIssueDate
+- trademarkNumbers
+- currentActiveALJ
+- aljAssigned
+- gcAttorney
 - scheduledEndDateEvidHear
+- respondent
+- endDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
