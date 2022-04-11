@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 06:38:09
+last_edit: 04/11/2022, 06:54:56
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoReliefGranted
-- finalDetNoViolation
-- ouiiParticipation
-- endDateMarkmanHearing
-- targetDate
-- scheduledStartDateEvidHear
-- markmanHearing
-- dateCreated
-- startDateMarkmanHearing
-- finalIdOnViolationDue
-- invUnfairAct
-- dateOfPublicationFrNotice
-- teoProceedingInvolved
-- scheduledEndDateEvidHear
-- trademarkNumbers
-- currentStatus
-- teoIdIssueDate
-- publication_number
-- finalIdOnViolationIssue
-- investigationNo
-- title
-- patentNumbers
-- finalDetViolation
-- lastUpdated
-- id
-- copyrightNumbers
-- investigationTermDate
-- docketNo
-- actualStartDateEvidHear
 - investigationType
-- internalRemand
-- actualEndDateEvidHear
-- patentNumber
-- htsNumbers
-- gcAttorney
-- aljAssigned
-- ouiiAttorney
-- dateComplaintFiled
-- cafcAppeals
-- teoIdDueDate
-- respondent
+- startDateMarkmanHearing
+- finalIdOnViolationIssue
+- teoIdIssueDate
 - currentActiveALJ
+- finalDetViolation
 - issueDateOtherNonFinal
+- cafcAppeals
+- respondent
+- invUnfairAct
+- id
+- docketNo
+- finalDetNoViolation
+- title
+- finalIdOnViolationDue
+- dateCreated
+- lastUpdated
+- aljAssigned
+- teoReliefGranted
+- investigationNo
+- publication_number
+- teoProceedingInvolved
+- targetDate
+- teoIdDueDate
+- trademarkNumbers
+- gcAttorney
+- actualEndDateEvidHear
+- currentStatus
+- actualStartDateEvidHear
+- scheduledStartDateEvidHear
+- dateOfPublicationFrNotice
+- scheduledEndDateEvidHear
+- investigationTermDate
+- patentNumbers
+- ouiiParticipation
+- copyrightNumbers
+- endDateMarkmanHearing
+- htsNumbers
+- dateComplaintFiled
+- markmanHearing
 - complainant
+- ouiiAttorney
+- patentNumber
+- internalRemand
 shortname: unfair_import_investigations
 tags:
 - import
