@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/11/2022, 07:59:54
+last_edit: 04/11/2022, 08:31:41
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- currentActiveALJ
-- ouiiParticipation
-- dateComplaintFiled
+- scheduledEndDateEvidHear
+- copyrightNumbers
+- currentStatus
+- dateCreated
+- patentNumbers
+- scheduledStartDateEvidHear
 - lastUpdated
-- respondent
-- actualStartDateEvidHear
+- finalIdOnViolationDue
+- complainant
 - investigationTermDate
+- title
+- id
+- ouiiAttorney
+- patentNumber
+- publication_number
+- ouiiParticipation
+- markmanHearing
+- finalDetNoViolation
+- finalDetViolation
+- teoIdDueDate
+- investigationNo
+- startDateMarkmanHearing
+- aljAssigned
+- currentActiveALJ
+- trademarkNumbers
+- teoReliefGranted
+- cafcAppeals
+- endDateMarkmanHearing
+- internalRemand
+- actualEndDateEvidHear
+- issueDateOtherNonFinal
+- finalIdOnViolationIssue
+- actualStartDateEvidHear
+- gcAttorney
+- dateComplaintFiled
+- docketNo
+- htsNumbers
+- invUnfairAct
+- dateOfPublicationFrNotice
+- targetDate
+- teoIdIssueDate
+- respondent
 - teoProceedingInvolved
 - investigationType
-- endDateMarkmanHearing
-- complainant
-- invUnfairAct
-- docketNo
-- dateOfPublicationFrNotice
-- markmanHearing
-- aljAssigned
-- internalRemand
-- finalIdOnViolationDue
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
-- gcAttorney
-- trademarkNumbers
-- finalIdOnViolationIssue
-- patentNumber
-- cafcAppeals
-- scheduledEndDateEvidHear
-- id
-- patentNumbers
-- targetDate
-- teoIdDueDate
-- publication_number
-- teoIdIssueDate
-- actualEndDateEvidHear
-- finalDetNoViolation
-- ouiiAttorney
-- finalDetViolation
-- investigationNo
-- dateCreated
-- issueDateOtherNonFinal
-- copyrightNumbers
-- htsNumbers
-- title
-- teoReliefGranted
-- currentStatus
 shortname: unfair_import_investigations
 tags:
 - import
