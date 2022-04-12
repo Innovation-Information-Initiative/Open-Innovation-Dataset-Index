@@ -15,40 +15,40 @@ description: The Patent Claims Research Dataset contain detailed information on 
   measures of patent scope.
 documentation: Available at source, including documentation of variables
 doi: 'http://dx.doi.org/10.2139/ssrn.2844964 '
-last_edit: 04/12/2022, 20:59:50
+last_edit: 04/12/2022, 21:24:20
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
 related_publications: https://ssrn.com/abstract=2844964
 schema_fields:
-- pub_wrd_ct
-- publication_number
-- claim_txt
-- pat_wrd_ct
-- pat_no
-- pub_wrd_avg
-- dependencies
-- pub_wrd_min
-- pat_wrd_avg
-- pat_dep_clm_ct
-- or_ct
-- word_ct
-- appl_id
-- cns_ct
-- pub_dep_wrd_min
-- pat_wrd_min
-- sf_ct
-- pub_dep_clm_ct
-- pat_clm_ct
-- char_ct
-- pub_dep_wrd_avg
 - claim_no
-- pub_clm_ct
-- pat_dep_wrd_ct
-- pub_dep_wrd_ct
-- pat_dep_wrd_min
+- pat_no
+- word_ct
+- char_ct
 - ind_flg
+- pub_clm_ct
+- pat_dep_wrd_min
+- pat_dep_clm_ct
+- pub_dep_wrd_min
+- dependencies
 - pub_no
+- pub_dep_wrd_avg
+- publication_number
+- pat_wrd_avg
+- cns_ct
+- pat_dep_wrd_ct
+- pat_clm_ct
+- pub_wrd_ct
+- pub_dep_wrd_ct
+- pub_dep_clm_ct
+- pub_wrd_min
+- claim_txt
+- appl_id
+- sf_ct
+- pub_wrd_avg
+- pat_wrd_ct
 - pat_dep_wrd_avg
+- pat_wrd_min
+- or_ct
 shortname: uspto_patent_claims
 tags:
 - financial services
