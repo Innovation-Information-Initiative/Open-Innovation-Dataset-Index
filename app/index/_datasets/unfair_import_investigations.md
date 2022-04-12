@@ -12,54 +12,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 20:02:51
+last_edit: 04/12/2022, 20:31:54
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- teoReliefGranted
-- finalIdOnViolationIssue
-- id
-- dateCreated
-- lastUpdated
-- markmanHearing
-- teoIdIssueDate
-- actualEndDateEvidHear
-- gcAttorney
 - currentActiveALJ
-- investigationType
-- investigationTermDate
-- scheduledStartDateEvidHear
-- copyrightNumbers
-- invUnfairAct
-- actualStartDateEvidHear
-- startDateMarkmanHearing
-- issueDateOtherNonFinal
-- currentStatus
-- complainant
-- trademarkNumbers
-- dateComplaintFiled
-- internalRemand
-- finalIdOnViolationDue
-- htsNumbers
-- investigationNo
-- finalDetNoViolation
-- docketNo
-- targetDate
 - ouiiParticipation
-- scheduledEndDateEvidHear
-- aljAssigned
-- cafcAppeals
-- dateOfPublicationFrNotice
-- ouiiAttorney
-- title
-- teoIdDueDate
+- dateCreated
+- teoIdIssueDate
+- lastUpdated
+- publication_number
+- patentNumbers
+- docketNo
+- finalIdOnViolationIssue
+- markmanHearing
+- internalRemand
+- htsNumbers
 - endDateMarkmanHearing
 - finalDetViolation
-- patentNumbers
-- teoProceedingInvolved
-- patentNumber
-- publication_number
+- issueDateOtherNonFinal
+- targetDate
+- cafcAppeals
+- title
+- investigationNo
+- copyrightNumbers
 - respondent
+- aljAssigned
+- currentStatus
+- scheduledEndDateEvidHear
+- id
+- startDateMarkmanHearing
+- actualEndDateEvidHear
+- investigationTermDate
+- patentNumber
+- dateOfPublicationFrNotice
+- teoIdDueDate
+- teoReliefGranted
+- scheduledStartDateEvidHear
+- ouiiAttorney
+- actualStartDateEvidHear
+- investigationType
+- dateComplaintFiled
+- invUnfairAct
+- finalDetNoViolation
+- gcAttorney
+- trademarkNumbers
+- complainant
+- teoProceedingInvolved
+- finalIdOnViolationDue
 shortname: unfair_import_investigations
 tags:
 - import
