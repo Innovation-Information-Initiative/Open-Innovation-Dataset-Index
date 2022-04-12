@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 18:55:44
+last_edit: 04/12/2022, 19:19:57
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
 - markmanHearing
-- patentNumbers
-- internalRemand
-- targetDate
-- investigationNo
 - investigationTermDate
-- finalDetNoViolation
-- copyrightNumbers
-- id
-- currentActiveALJ
-- docketNo
-- dateCreated
-- invUnfairAct
-- ouiiParticipation
-- startDateMarkmanHearing
-- teoIdDueDate
-- endDateMarkmanHearing
-- ouiiAttorney
-- teoProceedingInvolved
-- actualEndDateEvidHear
-- teoIdIssueDate
-- finalDetViolation
-- publication_number
-- title
-- scheduledStartDateEvidHear
-- respondent
-- finalIdOnViolationIssue
-- lastUpdated
-- cafcAppeals
 - patentNumber
-- currentStatus
-- gcAttorney
-- trademarkNumbers
+- dateCreated
+- finalDetNoViolation
+- actualEndDateEvidHear
+- id
+- dateComplaintFiled
 - finalIdOnViolationDue
 - issueDateOtherNonFinal
-- dateComplaintFiled
-- scheduledEndDateEvidHear
-- actualStartDateEvidHear
-- dateOfPublicationFrNotice
-- investigationType
-- teoReliefGranted
-- aljAssigned
+- respondent
+- publication_number
+- currentStatus
+- ouiiParticipation
+- internalRemand
+- currentActiveALJ
+- finalIdOnViolationIssue
 - htsNumbers
+- patentNumbers
+- docketNo
+- finalDetViolation
+- targetDate
+- invUnfairAct
+- copyrightNumbers
+- scheduledStartDateEvidHear
+- lastUpdated
+- teoReliefGranted
+- title
+- gcAttorney
+- ouiiAttorney
+- investigationType
+- actualStartDateEvidHear
+- startDateMarkmanHearing
+- aljAssigned
 - complainant
+- teoIdIssueDate
+- trademarkNumbers
+- teoIdDueDate
+- scheduledEndDateEvidHear
+- investigationNo
+- cafcAppeals
+- endDateMarkmanHearing
+- teoProceedingInvolved
+- dateOfPublicationFrNotice
 shortname: unfair_import_investigations
 tags:
 - import
