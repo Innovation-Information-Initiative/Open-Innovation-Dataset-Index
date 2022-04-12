@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 16:40:12
+last_edit: 04/12/2022, 17:03:51
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- actualEndDateEvidHear
-- currentActiveALJ
-- ouiiAttorney
-- ouiiParticipation
-- title
-- id
+- finalDetViolation
+- cafcAppeals
+- finalIdOnViolationDue
+- teoIdIssueDate
 - issueDateOtherNonFinal
 - targetDate
-- teoIdIssueDate
-- endDateMarkmanHearing
-- docketNo
-- investigationTermDate
-- cafcAppeals
-- trademarkNumbers
-- aljAssigned
-- respondent
-- dateCreated
-- invUnfairAct
-- publication_number
-- teoReliefGranted
-- lastUpdated
-- actualStartDateEvidHear
-- htsNumbers
-- patentNumber
-- finalDetNoViolation
-- teoProceedingInvolved
-- copyrightNumbers
-- gcAttorney
-- currentStatus
-- scheduledEndDateEvidHear
 - investigationType
-- finalDetViolation
-- dateComplaintFiled
-- markmanHearing
+- copyrightNumbers
+- endDateMarkmanHearing
+- title
+- finalDetNoViolation
+- dateOfPublicationFrNotice
+- currentStatus
+- investigationTermDate
+- ouiiAttorney
 - teoIdDueDate
 - investigationNo
-- finalIdOnViolationDue
-- scheduledStartDateEvidHear
-- startDateMarkmanHearing
-- internalRemand
-- complainant
+- gcAttorney
+- publication_number
+- invUnfairAct
+- aljAssigned
 - patentNumbers
+- dateCreated
 - finalIdOnViolationIssue
-- dateOfPublicationFrNotice
+- scheduledEndDateEvidHear
+- patentNumber
+- teoReliefGranted
+- actualStartDateEvidHear
+- actualEndDateEvidHear
+- markmanHearing
+- ouiiParticipation
+- internalRemand
+- startDateMarkmanHearing
+- docketNo
+- currentActiveALJ
+- complainant
+- teoProceedingInvolved
+- trademarkNumbers
+- lastUpdated
+- dateComplaintFiled
+- htsNumbers
+- id
+- scheduledStartDateEvidHear
+- respondent
 shortname: unfair_import_investigations
 tags:
 - import
