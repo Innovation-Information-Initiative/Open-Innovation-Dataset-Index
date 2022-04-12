@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 20:46:18
+last_edit: 04/12/2022, 20:59:50
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalIdOnViolationDue
-- investigationNo
-- currentActiveALJ
-- currentStatus
-- finalIdOnViolationIssue
-- targetDate
-- teoReliefGranted
-- docketNo
-- cafcAppeals
-- teoIdDueDate
-- internalRemand
-- finalDetNoViolation
-- aljAssigned
-- title
-- patentNumber
-- actualStartDateEvidHear
-- patentNumbers
-- respondent
-- trademarkNumbers
-- teoProceedingInvolved
-- startDateMarkmanHearing
-- scheduledEndDateEvidHear
-- teoIdIssueDate
 - dateOfPublicationFrNotice
-- endDateMarkmanHearing
-- htsNumbers
-- actualEndDateEvidHear
-- investigationTermDate
-- finalDetViolation
-- investigationType
-- markmanHearing
 - ouiiAttorney
-- id
-- invUnfairAct
-- scheduledStartDateEvidHear
-- dateComplaintFiled
-- gcAttorney
-- dateCreated
-- issueDateOtherNonFinal
-- complainant
+- finalIdOnViolationDue
+- teoProceedingInvolved
 - publication_number
+- finalDetNoViolation
 - copyrightNumbers
-- lastUpdated
+- complainant
+- gcAttorney
+- scheduledEndDateEvidHear
+- targetDate
+- dateCreated
+- cafcAppeals
+- finalIdOnViolationIssue
 - ouiiParticipation
+- internalRemand
+- startDateMarkmanHearing
+- teoIdIssueDate
+- actualEndDateEvidHear
+- actualStartDateEvidHear
+- respondent
+- teoIdDueDate
+- patentNumber
+- id
+- dateComplaintFiled
+- teoReliefGranted
+- currentStatus
+- htsNumbers
+- patentNumbers
+- aljAssigned
+- investigationType
+- scheduledStartDateEvidHear
+- markmanHearing
+- trademarkNumbers
+- investigationTermDate
+- invUnfairAct
+- investigationNo
+- lastUpdated
+- currentActiveALJ
+- title
+- endDateMarkmanHearing
+- issueDateOtherNonFinal
+- docketNo
+- finalDetViolation
 shortname: unfair_import_investigations
 tags:
 - import
