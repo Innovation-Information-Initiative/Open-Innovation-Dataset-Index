@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 22:43:20
+last_edit: 04/12/2022, 23:00:05
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- internalRemand
-- gcAttorney
-- htsNumbers
-- actualStartDateEvidHear
-- trademarkNumbers
-- finalDetViolation
+- finalDetNoViolation
 - scheduledStartDateEvidHear
+- actualEndDateEvidHear
+- gcAttorney
+- investigationType
+- dateComplaintFiled
+- finalIdOnViolationIssue
+- ouiiAttorney
+- finalDetViolation
+- currentStatus
+- actualStartDateEvidHear
+- patentNumber
+- scheduledEndDateEvidHear
+- cafcAppeals
+- teoProceedingInvolved
+- complainant
+- lastUpdated
+- issueDateOtherNonFinal
+- targetDate
+- teoIdDueDate
+- id
 - respondent
 - copyrightNumbers
-- complainant
-- dateOfPublicationFrNotice
-- investigationTermDate
-- finalIdOnViolationIssue
-- startDateMarkmanHearing
-- teoIdDueDate
-- dateCreated
-- actualEndDateEvidHear
-- currentActiveALJ
-- publication_number
 - endDateMarkmanHearing
-- investigationNo
-- ouiiAttorney
-- teoProceedingInvolved
-- targetDate
-- currentStatus
-- aljAssigned
-- finalDetNoViolation
-- finalIdOnViolationDue
-- invUnfairAct
-- teoReliefGranted
+- currentActiveALJ
 - title
-- issueDateOtherNonFinal
 - ouiiParticipation
-- teoIdIssueDate
-- patentNumber
-- cafcAppeals
-- id
-- dateComplaintFiled
-- patentNumbers
+- htsNumbers
+- internalRemand
+- investigationNo
+- publication_number
+- aljAssigned
+- dateCreated
 - markmanHearing
+- invUnfairAct
+- trademarkNumbers
+- investigationTermDate
+- patentNumbers
+- teoReliefGranted
+- dateOfPublicationFrNotice
+- startDateMarkmanHearing
 - docketNo
-- investigationType
-- lastUpdated
-- scheduledEndDateEvidHear
+- finalIdOnViolationDue
+- teoIdIssueDate
 shortname: unfair_import_investigations
 tags:
 - import
