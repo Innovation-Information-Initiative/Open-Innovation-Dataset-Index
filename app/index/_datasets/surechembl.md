@@ -20,19 +20,19 @@ description: 'SureChEMBL is a publicly available large-scale resource containing
   17 million compounds extracted from 14 million patent documents. '
 documentation: http://chembl.blogspot.com/
 doi: https://doi.org/10.1093/nar/gkv1253
-last_edit: 04/12/2022, 11:22:48
+last_edit: 04/12/2022, 11:40:36
 location: https://www.surechembl.org/search/
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 schema_fields:
-- publication_date
-- publication_number
+- inchi_key
+- field_frequency
 - field
 - schembl_id
+- publication_number
+- publication_date
 - smiles
-- field_frequency
-- inchi_key
-- patent_id
 - corpus_frequency
+- patent_id
 shortname: surechembl
 tags:
 - biotechnology
