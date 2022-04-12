@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/12/2022, 10:30:32
+last_edit: 04/12/2022, 10:47:51
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- finalIdOnViolationDue
-- lastUpdated
-- issueDateOtherNonFinal
-- investigationTermDate
-- finalDetViolation
 - patentNumbers
-- internalRemand
-- currentActiveALJ
-- ouiiParticipation
-- finalDetNoViolation
-- teoIdIssueDate
-- actualStartDateEvidHear
-- investigationNo
-- htsNumbers
-- markmanHearing
-- docketNo
-- gcAttorney
-- scheduledEndDateEvidHear
-- aljAssigned
-- scheduledStartDateEvidHear
-- cafcAppeals
-- endDateMarkmanHearing
-- ouiiAttorney
-- teoReliefGranted
-- patentNumber
-- title
-- teoProceedingInvolved
-- actualEndDateEvidHear
-- invUnfairAct
-- id
-- teoIdDueDate
-- dateOfPublicationFrNotice
-- respondent
-- copyrightNumbers
-- targetDate
-- dateComplaintFiled
 - currentStatus
+- teoProceedingInvolved
+- copyrightNumbers
 - complainant
-- finalIdOnViolationIssue
+- teoIdIssueDate
+- aljAssigned
+- id
+- trademarkNumbers
+- respondent
 - startDateMarkmanHearing
 - investigationType
+- finalDetViolation
+- internalRemand
+- finalIdOnViolationDue
+- htsNumbers
+- investigationNo
+- patentNumber
+- scheduledStartDateEvidHear
 - dateCreated
-- trademarkNumbers
+- investigationTermDate
+- gcAttorney
 - publication_number
+- title
+- lastUpdated
+- ouiiAttorney
+- targetDate
+- teoIdDueDate
+- teoReliefGranted
+- actualEndDateEvidHear
+- finalIdOnViolationIssue
+- scheduledEndDateEvidHear
+- finalDetNoViolation
+- dateComplaintFiled
+- issueDateOtherNonFinal
+- cafcAppeals
+- actualStartDateEvidHear
+- endDateMarkmanHearing
+- docketNo
+- invUnfairAct
+- dateOfPublicationFrNotice
+- markmanHearing
+- ouiiParticipation
+- currentActiveALJ
 shortname: unfair_import_investigations
 tags:
 - import
