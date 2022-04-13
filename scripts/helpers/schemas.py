@@ -87,11 +87,13 @@ def get_schemas(data):
 			# do we need to update the sheet
 			# convert row back to list -> sets and then compare
 			row_schema_list = row['schema_fields'].split(', ')
-			if 'schema_fields' in row and set(project['schema']) != set(row_schema_list):
+			if 'schema_fields' in row and set(project['schema']) != set(row_schema_list) and row_schema_list != ['']:
+				print("sets don't match")
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 				row['schema_fields'] = ', '.join(project['schema'])
 			elif 'schema_fields' not in row:
+				print("field doesn't exist")
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 				row['schema_fields'] = ', '.join(project['schema'])
