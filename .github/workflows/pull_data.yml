@@ -47,6 +47,7 @@ jobs:
               { "id": "${{ env.id }}", "title": "Open_Innovation_Datasets", "directory": "datasets" },
               { "id": "${{ env.id }}", "title": "Innovation_Data_Toolkit", "directory": "tools" },
               { "id": "${{ env.id }}", "title": "Data_Publishing_Platform_Guide", "directory": "platforms" }
+              { "id": "${{ env.id }}", "title": "Salient_Fields" }
             ]
           INPUT_TEMPDIR: 'index_archive'
         run: python3 scripts/pull_data.py
