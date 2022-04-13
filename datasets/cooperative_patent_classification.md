@@ -10,42 +10,42 @@ description: Cooperative Patent Classification Data contains the scheme and defi
   technical documents, in particular patent publications, which will be used by both
   offices in the patent granting process
 documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions
-last_edit: 04/13/2022, 04:59:48
+last_edit: 04/13/2022, 05:24:51
 location: https://www.cooperativepatentclassification.org/index
 maintained_by: USPTO, EPO
 schema_fields:
-- limitingReferences
-- children
-- additional_only
-- ipcConcordant
-- limiting_references
-- glossary
-- level
-- symbol
 - child_groups
-- residual_references
-- residualReferences
-- informativeReferences
-- synonyms
-- childGroups
-- titlePart
+- status
+- informative_references
+- breakdownCode
+- limiting_references
+- symbol
 - ipc_concordant
+- dateRevised
+- children
+- glossary
+- not_allocatable
+- applicationReferences
+- definition
+- level
+- ipcConcordant
+- residualReferences
+- residual_references
+- additional_only
+- title_full
+- date_revised
+- sizeCache
 - titleFull
 - title_part
-- application_references
-- breakdown_code
-- applicationReferences
-- date_revised
-- not_allocatable
-- dateRevised
-- definition
-- informative_references
-- title_full
-- sizeCache
-- parents
-- status
 - notAllocatable
-- breakdownCode
+- breakdown_code
+- synonyms
+- titlePart
+- application_references
+- childGroups
+- parents
+- informativeReferences
+- limitingReferences
 shortname: cooperative_patent_classification
 tags:
 - patents
