@@ -79,20 +79,22 @@ def get_schemas(data):
 	bq_projects = get_bq_datasets(bq_fields)
 
 	for project in bq_projects:
-		project['schema'] = ', '.join(get_schema_fields(project))
+		project['schema'] = get_schema_fields(project)
 
 	for row in data:
 		project = next((item for item in bq_projects if item["uuid"] == row["uuid"]), None)
 		if project is not None:
 			# do we need to update the sheet
-			if 'schema_fields' in row and project['schema'] != row['schema_fields']:
+			# convert row back to list -> sets and then compare
+			row_schema_list = row['schema_fields'].split(', ')
+			if 'schema_fields' in row and set(project['schema']) != set(row_schema_list):
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-				row['schema_fields'] = project['schema']
+				row['schema_fields'] = ', '.join(project['schema'])
 			elif 'schema_fields' not in row:
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-				row['schema_fields'] = project['schema']
+				row['schema_fields'] = ', '.join(project['schema'])
 			print('added fields to', row['title'])
 
 	return data, update_metadata
