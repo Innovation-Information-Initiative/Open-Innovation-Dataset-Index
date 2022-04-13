@@ -11,54 +11,54 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/13/2022, 10:00:11
+last_edit: 04/13/2022, 10:29:41
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
 schema_fields:
-- patentNumbers
+- htsNumbers
+- investigationType
+- scheduledStartDateEvidHear
+- startDateMarkmanHearing
+- issueDateOtherNonFinal
+- internalRemand
+- actualStartDateEvidHear
 - copyrightNumbers
-- lastUpdated
+- finalIdOnViolationIssue
+- finalIdOnViolationDue
+- scheduledEndDateEvidHear
+- actualEndDateEvidHear
+- dateOfPublicationFrNotice
+- currentStatus
+- endDateMarkmanHearing
+- finalDetNoViolation
+- markmanHearing
+- patentNumbers
+- ouiiAttorney
+- publication_number
+- patentNumber
+- respondent
+- trademarkNumbers
+- aljAssigned
+- currentActiveALJ
+- teoReliefGranted
 - id
+- investigationNo
+- teoProceedingInvolved
+- docketNo
+- cafcAppeals
+- teoIdDueDate
+- lastUpdated
+- invUnfairAct
+- dateCreated
+- dateComplaintFiled
+- complainant
+- investigationTermDate
+- gcAttorney
+- finalDetViolation
+- ouiiParticipation
+- targetDate
 - teoIdIssueDate
 - title
-- dateComplaintFiled
-- teoReliefGranted
-- ouiiAttorney
-- complainant
-- currentActiveALJ
-- internalRemand
-- respondent
-- dateOfPublicationFrNotice
-- gcAttorney
-- scheduledStartDateEvidHear
-- targetDate
-- finalIdOnViolationIssue
-- scheduledEndDateEvidHear
-- markmanHearing
-- teoIdDueDate
-- investigationType
-- aljAssigned
-- ouiiParticipation
-- teoProceedingInvolved
-- trademarkNumbers
-- patentNumber
-- publication_number
-- finalDetNoViolation
-- docketNo
-- investigationNo
-- endDateMarkmanHearing
-- actualStartDateEvidHear
-- currentStatus
-- investigationTermDate
-- htsNumbers
-- invUnfairAct
-- finalIdOnViolationDue
-- cafcAppeals
-- actualEndDateEvidHear
-- issueDateOtherNonFinal
-- dateCreated
-- finalDetViolation
-- startDateMarkmanHearing
 shortname: unfair_import_investigations
 tags:
 - import
