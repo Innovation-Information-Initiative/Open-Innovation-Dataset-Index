@@ -3,9 +3,10 @@ import json
 import os
 import pkg_resources
 import subprocess
+from datetime import time
 import pandas as pd
 
-from helpers import gsheets, files, schemas
+from helpers import gsheets, files, schemas, timing
 from helpers.utils import get_project_root
 from helpers.sprites import create_sprites
 
@@ -23,7 +24,11 @@ def archive_gsheet(sheets, output_dir, creds):
 
 		if sh["title"] in archive_targets:
 			data, headers = gsheets.json_from_data(data)
-			data, update_metadata = schemas.get_schemas(data)
+
+			if timing.check_day_period(0, time(00,00), time(00,30)):
+				data, update_metadata = schemas.get_schemas(data)
+			else:
+				update_metadata = False
 			md_path = os.path.join(get_project_root(), sh["directory"])
 			new_files = files.generate_markdown(data, md_path)
 			create_sprites(new_files)
