@@ -14,7 +14,6 @@ def check_bigquery(data):
 			bq_fields.append({'uuid': row['uuid'], 'bq_url': row['bigquery']})
 	return bq_fields
 
-
 def get_schema_fields(bq_project):
 	field_set = set()
 	print('project is', bq_project['project'])

@@ -1,4 +1,3 @@
-,0,1,2,3,4,5
 0,UUID,Name,Definition,Variants,Aliases,Last Edit
 1,25176ade-62ea-4aea-aa25-ae5ce32ccde4,Document Number,The document number assigned to a patent application on publication. e.g. 20130227762,,,"Wed, 13 Apr 2022 16:12:04 GMT"
 2,2948c32f-7386-472a-ae3f-e7aca6837248,Patent ID,"A string used to identify a patent. Important to note: this is not always a consistent 'identifier' as such as a combination of jurisdiction, document number, application stage that can be used to identify a patent document. While most patent id formats can be used to uniquely id patents, different datasets might use different formats.",,,"Wed, 13 Apr 2022 16:00:04 GMT"
