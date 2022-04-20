@@ -18,6 +18,7 @@ Many researchers focused on innovation want to understand the origins of ideas, 
 	* [***Google Patents Public Datasets***](https://iiindex.org/datasets/google_patents_public)
 	* [***PatentsView***](https://iiindex.org/datasets/patentsview) -- contains data on USPTO patents since 1976.
 	* [PATSTAT](https://iiindex.org/datasets/patstat) -- must be licensed, but much underlying DOCDB metadata available in Google Patents Public Datasets.
+	* [***PatentCity***](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PG6THV) -- Bergeaud/Verluise locations for inventors & assignees for US, UK, FR and DE patent offices through 2013
 * scientific literature
 	*  [***Microsoft Academic Graph "MAG"***](https://iiindex.org/datasets/makg.html) -- open metadata on scientific articles from all fields, 1800-2020
 	*  [***OpenAlex***](http://openalex.org) -- an open-source, drop-in replacement for MAG 
