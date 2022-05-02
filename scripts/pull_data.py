@@ -6,7 +6,7 @@ import subprocess
 from datetime import time
 import pandas as pd
 
-from helpers import gsheets, files, metadata, timing
+from helpers import gsheets, files, timing
 from helpers.utils import get_project_root
 from helpers.sprites import create_sprites
 
