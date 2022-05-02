@@ -1,7 +1,7 @@
 # this file handles requests to external APIs
 # (citoid, bigquery, dataverse, zenodo) to retrieve
 # additional metadata about a source
-import urllib.parse
+from urllib.parse import *
 import requests
 import json
 import sys
@@ -10,7 +10,8 @@ import google
 from google.cloud import bigquery
 from furl import furl
 from datetime import datetime
-import sickle
+from sickle import Sickle
+import os
 
 client = bigquery.Client()
 
@@ -24,7 +25,7 @@ def check_oai(data):
 	for substring, endpoint in oai_mappings.items():
 		for row in data:
 			if 'location' in row and substring in row['location']:
-				oai_entries.append({'uuid': row['uuid'], 'location': row['location'], 'endpoint': endpoint})
+				oai_entries.append({'uuid': row['uuid'], 'location': row['location'], 'endpoint': endpoint, 'shortname': row['shortname']})
 
 	return oai_entries
 
@@ -129,7 +130,15 @@ def get_citation_metadata(data):
 
 def get_oai_metadata(data):
 	projects = check_oai(data)
-	print(projects)
+
+	for project in projects:
+		sickle = Sickle(project['endpoint'])
+		identifier =  parse_qs(urlparse(project['location']).query)['persistentId'][0]
+		record = sickle.GetRecord(identifier=identifier, metadataPrefix='oai_dc')
+		filepath = os.path.join('oai_pmh_xml/', project['shortname'] + '.xml')
+
+		with open(filepath, "wb") as f:
+			f.write(record.raw.encode('utf8'))
 
 	return []
 
