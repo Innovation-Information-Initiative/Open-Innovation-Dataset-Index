@@ -5,6 +5,7 @@ from urllib.parse import *
 import requests
 import json
 import sys
+import xmltodict
 sys.path.append('scripts/libraries')
 import google
 from google.cloud import bigquery
@@ -136,6 +137,9 @@ def get_oai_metadata(data):
 		identifier =  parse_qs(urlparse(project['location']).query)['persistentId'][0]
 		record = sickle.GetRecord(identifier=identifier, metadataPrefix='oai_dc')
 		filepath = os.path.join('oai_pmh_xml/', project['shortname'] + '.xml')
+		data_dict = xmltodict.parse(record.raw.encode('utf8'))
+		print(data_dict)
+
 
 		with open(filepath, "wb") as f:
 			f.write(record.raw.encode('utf8'))
@@ -148,7 +152,8 @@ def get_metadata(data):
 
 	# check if OAI repo (dv, zenodo to start)
 	projects = get_oai_metadata(data)
-	projects = projects + get_bq_metadata(data) 
+	projects = projects + get_dv_metadata()
+	# projects = projects + get_bq_metadata(data)
 
 	# add all the updates
 	for row in data:
