@@ -4,7 +4,7 @@ cost: None
 description: Regularly-updated and archived index of economic indicators, including
   interest rates, stock reserves, home sales, labour statistics and productivity.
   This page is updated Monday-Friday.
-last_edit: Sun, 15 May 2022 12:54:11 GMT
+last_edit: Sun, 29 May 2022 11:39:05 GMT
 location: https://back.nber.org/releases/
 maintained_by: NBER
 shortname: nber_indicators
