@@ -25,5 +25,12 @@ collections:
       - google_patents.md
       - nber.md
 
+relationship_types:
+  - similar
+  - parent
+  - child
+  - supercedes
+  - superceded by
+
 include:
   - _redirects
