@@ -21,7 +21,7 @@ description: Different open access data files related to the text of USPTO paten
 documentation: https://zenodo.org/record/3515985
 doi: https://doi.org/10.5281/zenodo.3515985
 error_metrics: 'Yes'
-last_edit: Tue, 01 Mar 2022 12:19:53 GMT
+last_edit: Thu, 12 May 2022 16:43:59 GMT
 location: https://zenodo.org/record/3515985
 maintained_by: Sam Arts
 related_publications: 'Arts S, Hou J, Gomez JC. (2020). Natural language processing

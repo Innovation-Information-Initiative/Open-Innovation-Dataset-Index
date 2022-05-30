@@ -17,6 +17,7 @@ Many researchers focused on innovation want to understand the origins of ideas, 
 	* [***Google Patents Public Datasets***](https://iiindex.org/datasets/google_patents_public)
 	* [***PatentsView***](https://iiindex.org/datasets/patentsview) -- contains data on USPTO patents since 1976.
 	* [PATSTAT](https://iiindex.org/datasets/patstat) -- must be licensed, but much underlying DOCDB metadata available in Google Patents Public Datasets.
+	* [***PatentCity***](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PG6THV) -- Bergeaud/Verluise locations for inventors & assignees for US, UK, FR and DE patent offices through 2013
 * scientific literature
 	*  [***Microsoft Academic Graph "MAG"***](https://iiindex.org/datasets/makg.html) -- open metadata on scientific articles from all fields, 1800-2020
 	*  [***OpenAlex***](http://openalex.org) -- an open-source, drop-in replacement for MAG 
@@ -27,8 +28,9 @@ Many researchers focused on innovation want to understand the origins of ideas, 
 	* [***Lens.org***](https://iiindex.org/datasets/lens) -- Data queriable through the Lens API and also downloadable in bulk. Creates a unique identifier for papers, patents, authors, inventors and institutions.
 	* [***Patcit***](https://iiindex.org/datasets/patcit)
 	* [***Reliance on Science***](http://relianceonscience.org) -- contains front-page and in-text citations to scientific articles from worldwide patents
-* matching patents to products
+* matching patents to products, distinguishing product vs. product innovation
 	* [***IPRoduct***](http://iproduct.io) -- links patents to products via Virtual Patent Marking.
+	* [***Classifying Patent Claims***](https://zenodo.org/record/6395308) -- Ganglmair, Robinson, & Seeligson classification of patent claims 1836-2020 as process, product, or product-by-process
 * matching patents to firms
 	* [***DISCERN Patent Compustat Crosswalk***](https://iiindex.org/datasets/discern) -- links patent assignees to public firms 1980-2015, including resolution of firm acquisitions and reclassifications.
 	* [***KPSS patent assignees to firms***](https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data) -- 1926-2019.

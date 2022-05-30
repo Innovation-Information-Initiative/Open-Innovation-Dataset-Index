@@ -1,9 +1,10 @@
+,0,1,2,3,4,5
 0,UUID,Name,Definition,Variants,Aliases,Last Edit
-1,25176ade-62ea-4aea-aa25-ae5ce32ccde4,Document Number,The document number assigned to a patent application on publication. e.g. 20130227762,,,"Wed, 13 Apr 2022 16:12:04 GMT"
+1,25176ade-62ea-4aea-aa25-ae5ce32ccde4,Document Number,The document number assigned to a patent application on publication. e.g. 20130227762,,doc number,"Fri, 22 Apr 2022 17:45:29 GMT"
 2,2948c32f-7386-472a-ae3f-e7aca6837248,Patent ID,"A string used to identify a patent. Important to note: this is not always a consistent 'identifier' as such as a combination of jurisdiction, document number, application stage that can be used to identify a patent document. While most patent id formats can be used to uniquely id patents, different datasets might use different formats.",,,"Wed, 13 Apr 2022 16:00:04 GMT"
 3,13643658-5460-40c3-b871-bcb61ffd5565,DocDB ID,The DocDB identifier of a patent document (assigned by EPO worldwide bibliographic data),,,"Wed, 13 Apr 2022 15:55:52 GMT"
 4,dd1b0b2d-5da4-4af1-ae0d-4c2c173d4c04,Patent Family,Information pertaining to the patent's family,,,"Wed, 13 Apr 2022 16:00:18 GMT"
-5,fbd8d0c3-8302-41e9-a663-3c4520dff39d,Publication Date,"Date of publication, for a paper or patent document",,,"Wed, 13 Apr 2022 16:00:29 GMT"
-6,e798ad87-7bad-4195-9d0f-2b18993b7e69,PubMed ID,Identifier associated with biomedical and life sciences journal literature,,,"Wed, 13 Apr 2022 16:14:53 GMT"
+5,fbd8d0c3-8302-41e9-a663-3c4520dff39d,Publication Date,"Date of publication, for a paper or patent document",,"pub date, date of publication","Fri, 22 Apr 2022 17:45:34 GMT"
+6,e798ad87-7bad-4195-9d0f-2b18993b7e69,PubMed ID,Identifier associated with biomedical and life sciences journal literature,,pmid,"Fri, 22 Apr 2022 17:45:21 GMT"
 7,dfaabaaf-b595-416b-86ff-070ff5238ef8,Lens ID,Unique lens identifier. Every document in the Lens has a unique 15-digit identifier called a Lens ID. e.g. 186-488-232-022-055,,,"Wed, 13 Apr 2022 15:54:01 GMT"
-8,aec66463-67db-4eb4-b16c-6e1164e42f32,DOI,"Digital Object Identifier, used to uniquely ID academic papers",,,"Wed, 13 Apr 2022 16:13:35 GMT"
+8,aec66463-67db-4eb4-b16c-6e1164e42f32,DOI,"Digital Object Identifier, used to uniquely ID academic papers",sometimes formatted as a URL,digital object identifier,"Fri, 22 Apr 2022 17:52:04 GMT"
