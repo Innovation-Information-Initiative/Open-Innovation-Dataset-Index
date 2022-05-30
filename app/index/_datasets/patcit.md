@@ -22,11 +22,14 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: 04/13/2022, 12:40:04
+last_edit: Mon, 30 May 2022 10:46:58 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 record_creation_timestamp: 11/17/2020 10:38:00
 related_project_shortnames: rons, lens
+related_projects: '[{uuid: "e390a212-3a92-4d8f-ac4d-ca2c960a36d3", shortname: "patstat",
+  relationship_type: "similar"}, {uuid: "c39f4844-5ae2-4dcb-bf2c-d6b957125704", shortname:
+  "lens", relationship_type: "similar"}]'
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
 relationships:
 - rons
