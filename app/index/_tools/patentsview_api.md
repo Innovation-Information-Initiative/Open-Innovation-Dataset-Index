@@ -7,6 +7,7 @@ description: The PatentsView platform is built on a newly developed database tha
   and space. These tools also permit users to explore technology categories, assignees,
   citation patterns, and co-inventor networks.
 location: https://patentsview.org/apis/api-query-language
+related_projects: {}
 shortname: patentsview_api
 tags:
 - disambiguation

@@ -14,6 +14,7 @@ description: CiteSpace generates interactive visualizations of structural and te
 documentation: http://cluster.ischool.drexel.edu/~cchen/citespace/tutorial/
 last_edit: Tue, 30 Nov 2021 17:24:01 GMT
 location: https://citespace.podia.com
+related_projects: {}
 shortname: citespace
 title: CiteSpace
 uuid: fd1340fe-fcae-4c59-9c5e-5e1bbbc19592
