@@ -9,6 +9,7 @@ description: CPC is the outcome of an ambitious harmonization effort to bring th
 documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions
 last_edit: Thu, 02 Dec 2021 11:52:57 GMT
 location: https://www.cooperativepatentclassification.org/about
+related_projects: {}
 shortname: cooperative_patent_classification
 title: Cooperative Patent Classification Scheme
 uuid: 3aa314f5-20eb-4e21-96e8-d1f28e8dd51c

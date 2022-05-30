@@ -9,6 +9,7 @@ description: We demonstrate a machine learning (ML) based approach to estimating
   patent data in BigQuery to further the state of the art in patent research.
 documentation: https://cloud.google.com/blog/products/ai-machine-learning/measuring-patent-claim-breadth-using-google-patents-public-datasets
 location: https://github.com/google/patents-public-data/blob/master/models/claim_breadth/README.md
+related_projects: {}
 shortname: claim_breadth_model
 tags:
 - machine learning

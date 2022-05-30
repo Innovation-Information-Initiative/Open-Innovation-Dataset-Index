@@ -10,6 +10,7 @@ description: OpenRefine is a desktop application that uses your web browser as a
   external APIs.
 documentation: https://openrefine.org/documentation.html
 location: https://openrefine.org/
+related_projects: {}
 shortname: openrefine
 tags:
 - data cleaning

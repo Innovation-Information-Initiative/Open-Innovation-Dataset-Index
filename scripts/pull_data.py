@@ -33,7 +33,9 @@ def archive_gsheet(sheets, output_dir, creds):
 		print(f"sheet written to {filename}")
 
 if __name__ == "__main__":
-	creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
+	# creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
+	f = open('keys/sheets_key.json')
+	creds = json.load(f)
 	sheets = json.loads(os.environ.get("INPUT_SHEETS", "{}"))
 	output_dir = os.environ.get("INPUT_TEMPDIR")
 

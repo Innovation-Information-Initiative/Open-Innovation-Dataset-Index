@@ -5,6 +5,7 @@ description: Frictionless is a framework to describe, extract, validate, and tra
   standardised and reproducible way by improving data quality and consistency.
 documentation: https://framework.frictionlessdata.io/docs/guides/introduction/
 location: https://framework.frictionlessdata.io/
+related_projects: {}
 shortname: frictionless_framework
 tags:
 - reproducibility

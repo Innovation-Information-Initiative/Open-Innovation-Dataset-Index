@@ -44,8 +44,19 @@ def update_markdown(data, directory):
 						title = re.sub('\s+',' ',row["title"]).strip() # stop the titles breaking search
 						record["title"] = title
 
-					if "related_project_shortnames" in row and row["related_project_shortnames"].strip():
-						record["relationships"] = list(map(lambda tag: tag.strip(), row["related_project_shortnames"].split(',')))
+					if "related_projects" in row and row["related_projects"].strip():
+						record["related_projects"] = {}
+						try:
+							#try reading as JSON
+							related_projects = json.loads(row["related_projects"])
+							for project in related_projects:
+								print(project)
+								if project["relationship_type"] in record["related_projects"]:
+									record["related_projects"][project["relationship_type"]].append(project["shortname"])
+								else:
+									record["related_projects"][project["relationship_type"]] = [project["shortname"]]
+						except:
+							print("can't read as JSON")
 
 					if "tags" in row and row["tags"].strip():
 						record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
@@ -103,14 +114,28 @@ def generate_markdown(data, directory):
 			title = re.sub('\s+',' ',row["title"]).strip() # stop the titles breaking search
 			record["title"] = title
 
-		if "related_project_shortnames" in row and row["related_project_shortnames"].strip():
-			record["relationships"] = list(map(lambda tag: tag.strip(), row["related_project_shortnames"].split(',')))
+		# if "related_project_shortnames" in row and row["related_project_shortnames"].strip():
+		# 	record["relationships"] = list(map(lambda tag: tag.strip(), row["related_project_shortnames"].split(',')))
 
 		if "tags" in row and row["tags"].strip():
 			record["tags"] = list(map(lambda tag: tag.strip(), row["tags"].split(',')))
 
 		if "schema_fields" in row and row["schema_fields"].strip():
 			record["schema_fields"] = list(map(lambda field: field.strip(), row["schema_fields"].split(',')))
+
+		if "related_projects" in row and row["related_projects"].strip():
+			record["related_projects"] = {}
+			try:
+				#try reading as JSON
+				related_projects = json.loads(row["related_projects"])
+				for project in related_projects:
+					print(project)
+					if project["relationship_type"] not in record["related_projects"]:
+						record["related_projects"][project["relationship_type"]].append(project["shortname"])
+					else:
+						record["related_projects"][project["relationship_type"]] = [project["shortname"]]
+			except:
+				print("can't read as JSON")
 
 		record["description"] = row["description"].replace('\n', ' ')
 

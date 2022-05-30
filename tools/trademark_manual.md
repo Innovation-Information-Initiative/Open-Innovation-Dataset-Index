@@ -8,6 +8,7 @@ description: The Manual is published to provide trademark examining attorneys in
   to follow in the examination of trademark applications.
 last_edit: Fri, 03 Dec 2021 11:01:49 GMT
 location: https://tmep.uspto.gov/RDMS/TMEP/current
+related_projects: {}
 shortname: trademark_manual
 title: Trademark Manual of Examining Procedure
 uuid: 87dc0ebf-1af2-4a43-a9c2-f61f82b7a3ba
