@@ -130,19 +130,29 @@
 <script type="text/javascript">
 			const form = document.getElementById("rship-form");
 
+			var rship_search = SimpleJekyllSearch({
+				searchInput: document.getElementById('rshipSearchInput'),
+				resultsContainer: document.getElementById('rshipResultsContainer'),
+				templateMiddleware: function(prop, value, template) {
+					if (prop === 'url') {
+						return value.split(/[\.\/]/)[2]
+					}
+				},
+				json: '/search.json',
+				searchResultTemplate: '<option value="{category}|{url}|{title}">{title}</option>'
+			})
+
 			form.addEventListener("submit", function(e) {
 				e.preventDefault();
 				const data = new FormData(form);
 				for (const [name,value] of data) {
-					console.log(name, ":", value)
+					console.log(name + ": " + value)
+					if(name == 'rship-dataset'){
+						const set = rship_search.search('europe')
+						console.log('search is', set)
+					}
+					
 				}
-			})
-
-			var rship_search = SimpleJekyllSearch({
-				searchInput: document.getElementById('rshipSearchInput'),
-				resultsContainer: document.getElementById('rshipResultsContainer'),
-				json: '/search.json',
-				searchResultTemplate: '<option value={url}>{title}</option>'
 			})
 
 </script>

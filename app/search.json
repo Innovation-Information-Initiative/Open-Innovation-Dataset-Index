@@ -7,7 +7,7 @@
 
       "title"    : "{{ dataset.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ dataset.url }}",
-      "category" : "{{ dataset.category }}",
+      "category" : "{{ dataset.uuid }}",
       "tags"     : "{{ dataset.tags | join: ', ' }}",
       "date"     : "{{ dataset.date }}",
       "content"  : "{{ dataset.content | strip_html | strip_newlines }}"
