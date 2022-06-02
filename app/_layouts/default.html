@@ -74,19 +74,21 @@
 							</p>
 						{% endif %}
 
-						<form>
+						<form id="rship-form">
 							Create new relationship:
 									<div id="search-container">
 										<input type="text" id="rshipSearchInput" placeholder="search..."><br>
-										<select id="rshipResultsContainer" class="form-control"></select>
+										<select name="rship-dataset" id="rshipResultsContainer" class="form-control"></select>
 									</span><br>
 									<span id="rship-container">
-										<select class="form-control">
+										<select name="rship-type" class="form-control">
 											<option>similar</option>
 											<option>parent</option>
 											<option>child</option>
+											<option>supercedes</option>
+											<option>superceded by</option>
 										</select>
-										<button>submit</button>
+										<input type="submit"/>
 									</div>
 						</form>
 
@@ -126,19 +128,27 @@
 		</script>
 
 <script type="text/javascript">
-	
+			const form = document.getElementById("rship-form");
+
+			form.addEventListener("submit", function(e) {
+				e.preventDefault();
+				const data = new FormData(form);
+				for (const [name,value] of data) {
+					console.log(name, ":", value)
+				}
+			})
+
 			var rship_search = SimpleJekyllSearch({
 				searchInput: document.getElementById('rshipSearchInput'),
 				resultsContainer: document.getElementById('rshipResultsContainer'),
 				json: '/search.json',
-				searchResultTemplate: '<option value={title}>{title}</option>'
+				searchResultTemplate: '<option value={url}>{title}</option>'
 			})
 
 </script>
 
 <!-- Script pointing to search-script.js -->
 <script src="/search.js" type="text/javascript"></script>
-
 
 		<p id="output"></p>
 			{% include footer.html %}
