@@ -11,6 +11,7 @@ description: This tool creates the csv tables that allow county boundaries to be
   csvs was writen to be used with Haines' census data (ICPSR 02896).
 last_edit: Thu, 02 Dec 2021 13:37:42 GMT
 location: https://elisabethperlman.net/code.html
+related_projects: {}
 shortname: harmonising_county_boundaries
 tags:
 - geography

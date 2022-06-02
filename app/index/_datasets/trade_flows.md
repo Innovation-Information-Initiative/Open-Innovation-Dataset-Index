@@ -1,5 +1,6 @@
 ---
 layout: default
+layout: default
 citation: "\n@misc{richard_j._gentry_open_2021,\n        title = {Open {Sourced} {Database}
   for {CEO} {Dismissal} 1992-2018},\n        url = {https://zenodo.org/record/4618103},\n
   \       abstract = {There is a newer version of this database - please check the

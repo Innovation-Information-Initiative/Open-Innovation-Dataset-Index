@@ -11,6 +11,7 @@ description: A BERT (bidirectional encoder representation from transformers) mod
 documentation: https://github.com/google/patents-public-data/blob/master/examples/BERT_For_Patents.ipynb
 last_edit: Thu, 02 Dec 2021 02:14:21 GMT
 location: https://github.com/google/patents-public-data/blob/master/models/BERT%20for%20Patents.md
+related_projects: {}
 shortname: bert_for_patents
 terms_of_use: http://www.apache.org/licenses/LICENSE-2.0
 title: Google BERT for Patents
