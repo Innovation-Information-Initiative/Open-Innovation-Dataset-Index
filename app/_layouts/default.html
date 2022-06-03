@@ -74,8 +74,8 @@
 							</p>
 						{% endif %}
 
+						<p><b>add relationship:</b> <span onclick='toggleAddRelationship'>+</span>
 						<form id="rship-form">
-							Create new relationship:
 									<div id="search-container">
 										<input type="text" id="rshipSearchInput" placeholder="search..."><br>
 										<select name="rship-dataset" id="rshipResultsContainer" class="form-control"></select>
@@ -139,20 +139,21 @@
 					}
 				},
 				json: '/search.json',
-				searchResultTemplate: '<option value="{category}|{url}|{title}">{title}</option>'
+				searchResultTemplate: '<option value="{category}|{url}">{title}</option>'
 			})
 
 			form.addEventListener("submit", function(e) {
 				e.preventDefault();
 				const data = new FormData(form);
-				for (const [name,value] of data) {
-					console.log(name + ": " + value)
-					if(name == 'rship-dataset'){
-						const set = rship_search.search('europe')
-						console.log('search is', set)
-					}
-					
+				console.log(data)
+
+				const rship = {
+					"uuid": data.get("rship-dataset").split('|')[0],
+					"shortname": data.get("rship-dataset").split('|')[1],
+					"relationship_type": data.get("rship-type")
 				}
+
+				console.log(rship)
 			})
 
 </script>
