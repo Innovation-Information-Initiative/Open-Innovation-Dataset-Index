@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 **/.DS_Store
 keys/
+
+# Local Netlify folder
+.netlify

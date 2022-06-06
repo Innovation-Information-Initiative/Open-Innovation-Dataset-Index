@@ -153,6 +153,17 @@
 					"relationship_type": data.get("rship-type")
 				}
 
+				const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
+
+				// const function_url = "https://localhost:59601/.netlify/functions/webhook_trigger"
+
+				  fetch(function_url, {
+				    method: "post",
+				    body: JSON.stringify({
+				      event_type: 'update_relationship',
+				    })
+				  });
+
 				console.log(rship)
 			})
 
