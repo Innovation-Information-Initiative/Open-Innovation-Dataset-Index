@@ -1,0 +1,13 @@
+on:
+  # edit site using webhook
+  repository_dispatch:
+    types: [update_relationship]
+
+jobs:
+  update_sheet:
+    runs-on: ubuntu-latest
+   # steps
+    steps:
+      - name: update relationship
+        run: |
+          echo "workflow running"
