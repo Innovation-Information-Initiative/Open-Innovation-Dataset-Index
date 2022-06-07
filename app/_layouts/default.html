@@ -5,7 +5,7 @@
 		<div class="pageContainer">
 		{% include header.html %}
 				{% include edit-nav.html %}
-				<div  class="pageTitle"> 
+				<div class="pageTitle"> 
 					<div>
 						{% if page.thumbnail_url %}
 							<img class="pageThumb" src="{{ page.thumbnail_url }}"/>
@@ -79,17 +79,19 @@
 									<div id="search-container">
 										<input type="text" id="rshipSearchInput" placeholder="search..."><br>
 										<select name="rship-dataset" id="rshipResultsContainer" class="form-control"></select>
-									</span><br>
-									<span id="rship-container">
-										<select name="rship-type" class="form-control">
-											<option>similar</option>
-											<option>parent</option>
-											<option>child</option>
-											<option>supercedes</option>
-											<option>superceded by</option>
-										</select>
-										<input type="submit"/>
-									</div>
+									</span>
+								</div>
+								<span id="rship-container">
+									<select name="rship-type" class="form-control">
+										<option>similar</option>
+										<option>parent</option>
+										<option>child</option>
+										<option>supercedes</option>
+										<option>superceded by</option>
+									</select>
+								</span>
+								<input type="hidden" id="page-id" name="page-id" value="{{ page.uuid }}">
+								<input type="submit"/>
 						</form>
 
 						{% assign DISPLAY_FIELDS = "timeframe, terms_of_use, documentation, size, code, related_publications, description, last_edit" | split: ', ' %}
@@ -153,14 +155,22 @@
 					"relationship_type": data.get("rship-type")
 				}
 
-				const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
+				const uuid = data.get("page-id")
 
-				// const function_url = "https://localhost:59601/.netlify/functions/webhook_trigger"
+				// console.log('uuid is', {{ page.uuid }})
+
+				// const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
+
+				const function_url = "http://localhost:53055/.netlify/functions/webhook_trigger"
 
 				  fetch(function_url, {
 				    method: "post",
 				    body: JSON.stringify({
 				      event_type: 'update_relationship',
+				      payload: {
+					      rship: rship,
+					      uuid: uuid
+					    }
 				    })
 				  });
 

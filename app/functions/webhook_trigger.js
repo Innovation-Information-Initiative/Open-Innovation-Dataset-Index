@@ -2,10 +2,13 @@ exports.handler = (event, context, callback) => {
   console.log('making call to webhook')
   const url = 'https://api.github.com/repos/Innovation-Information-Initiative/Open-Innovation-Dataset-Index/dispatches';
   const github_PAT = process.env.GH_PAT
+  const request = JSON.parse(event.body)
+
   fetch(url, {
     method: "post",
     body: JSON.stringify({
-      event_type: 'update_relationship',
+      event_type: request.event_type,
+      client_payload: request.payload
     }),
     headers: {
       Authorization: "token " + github_PAT,
