@@ -9,6 +9,7 @@ description: 'Citoid is an auto-filled citation generator which automatically cr
 documentation: https://www.mediawiki.org/wiki/Citoid
 last_edit: Wed, 01 Dec 2021 19:24:42 GMT
 location: https://en.wikipedia.org/api/rest_v1/#/Citation/getCitation
+related_projects: {}
 shortname: citoid
 tags:
 - citation

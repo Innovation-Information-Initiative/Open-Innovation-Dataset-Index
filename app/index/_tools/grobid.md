@@ -21,6 +21,7 @@ description: 'GROBID (or Grobid, but not GroBid nor GroBiD) means GeneRation Of 
 documentation: https://grobid.readthedocs.io/en/latest/Introduction/
 last_edit: 12/03/2021, 19:20:52
 location: https://github.com/kermitt2/grobid
+related_projects: {}
 shortname: grobid
 terms_of_use: GROBID is distributed under Apache 2.0 license.
 title: Grobid

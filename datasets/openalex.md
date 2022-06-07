@@ -1,6 +1,5 @@
 ---
-? ''
-: 200Gb
+'': 200Gb
 contributors: MAG, Crossref, OurResearch, Heather Piwowar, Jason Priem
 cost: None
 description: OpenAlex is a free and open catalog of the world's scholarly papers,

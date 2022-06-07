@@ -13,6 +13,7 @@ description: Patent landscaping is the process of finding patents related to a p
 documentation: https://github.com/google/patents-public-data/tree/master/models/landscaping
 last_edit: Wed, 04 May 2022 11:04:06 GMT
 location: https://github.com/google/patents-public-data/tree/master/models/landscaping
+related_projects: {}
 shortname: patent_landscaping
 tags:
 - machine learning
