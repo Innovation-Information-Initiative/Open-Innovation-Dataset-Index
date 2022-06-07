@@ -9,7 +9,7 @@ description: Dimensions contains more than 100 million publications, ranging fro
   sets, funding, publications, patents, clinical trials, and policy documents. You
   can also view associated categories, funders, institutions, and researcher profiles.
 documentation: https://docs.dimensions.ai/bigquery/index.html
-last_edit: 04/13/2022, 12:40:04
+last_edit: 06/07/2022, 13:20:00
 location: https://www.dimensions.ai/products/free/
 maintained_by: Digital Science, https://www.digital-science.com/
 schema_fields:
