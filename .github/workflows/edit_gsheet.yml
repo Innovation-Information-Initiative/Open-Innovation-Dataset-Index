@@ -3,13 +3,72 @@ on:
   repository_dispatch:
     types: [update_relationship]
 
+env:
+  id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
+  remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
+  branch: main
+
 jobs:
   update_sheet:
     runs-on: ubuntu-latest
-   # steps
+
     steps:
-      - name: update relationship
+      - name: checkout repository
+        uses: actions/checkout@v2
+        with:
+          ssh-key: "${{ secrets.COMMIT_KEY }}"
+
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+
+      - name: set up Python environment
         run: |
-          echo "workflow running"
-      - name: Print payload
-        run: echo ${{ github.event.client_payload.uuid }}
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -v gspread==4.0.1
+          python3 -m pip install gspread_dataframe
+          python3 -m pip install pandas
+          python3 -m pip install furl
+          python3 -m pip install Pillow
+          python3 -m pip install python-frontmatter
+          python3 -m pip install six
+
+      - name: update relationship
+        id: 'sheet_to_csv'
+        env: 
+          INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
+          INPUT_TEMPDIR: 'index_archive'
+        run: >
+          python3 scripts/update_gsheet.py
+          ${{ github.event.client_payload.uuid }}
+          "related_projects"
+          ${{ github.event.client_payload.rship }}
+
+      - name: Check if files changed
+        id: check_diff
+        run: |
+          echo "list changed files:"
+          git diff --name-only
+          
+          echo "check paths of new and changed files:"
+          git diff --name-only > files.txt
+          git status --porcelain | grep -e '^??' | sed -e 's/^?? //g' >> files.txt
+          while IFS= read -r file
+          do
+            echo "$file"
+            if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
+              echo "updated files"
+              echo "::set-output name=commit_files::true"
+            fi
+          done < files.txt
+
+      - name: Commit files
+        if: steps.check_diff.outputs.commit_files == 'true'
+        run: |
+            git pull
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add index_archive datasets tools app/assets/thumbnails
+            git commit -m "generated files based on google sheet"
+            git push
