@@ -11,3 +11,5 @@ jobs:
       - name: update relationship
         run: |
           echo "workflow running"
+      - name: Print payload
+        run: echo ${{ github.event.client_payload }}
