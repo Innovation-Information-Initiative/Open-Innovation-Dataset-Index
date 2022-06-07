@@ -4,7 +4,6 @@ on:
     types: [update_relationship]
 
 env:
-  id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
   branch: main
 
@@ -39,6 +38,7 @@ jobs:
         env: 
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
+          INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
         run: >
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
