@@ -33,7 +33,7 @@ if __name__ == "__main__":
 	update_col = sys.argv[2]
 	payload = sys.argv[3]
 
-	print(uuid, update_col, payload)
+	print("input is", json.loads(payload, "{}"))
 
 	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
 	# f = open('keys/sheets_key.json')
