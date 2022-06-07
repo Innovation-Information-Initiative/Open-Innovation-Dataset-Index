@@ -31,7 +31,7 @@ def parse_and_submit(record_uuid, update_col, update_payload, sheet_id, sheet_ti
 if __name__ == "__main__":
 	uuid = sys.argv[1]
 	update_col = sys.argv[2]
-	payload = json.loads(sys.argv[3], "{}")
+	payload = json.loads(sys.argv[3])
 
 	print("input is", payload)
 
