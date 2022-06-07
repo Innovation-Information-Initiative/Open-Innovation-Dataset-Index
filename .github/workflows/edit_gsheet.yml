@@ -39,11 +39,14 @@ jobs:
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
           INPUT_TEMPDIR: 'index_archive'
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
-        run: >
-          python3 scripts/update_gsheet.py
-          ${{ github.event.client_payload.uuid }}
-          "related_projects"
-          ${{ github.event.client_payload.rship }}
+
+        - run: relationship=$( ${{ github.event.client_payload.rship }} | jq )
+
+        - run: >
+            python3 scripts/update_gsheet.py
+            ${{ github.event.client_payload.uuid }}
+            "related_projects"
+            $relationship
 
       - name: Check if files changed
         id: check_diff
