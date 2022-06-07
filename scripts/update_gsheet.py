@@ -35,9 +35,9 @@ if __name__ == "__main__":
 
 	print(uuid, update_col, payload)
 
-	# creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
-	f = open('keys/sheets_key.json')
-	creds = json.load(f)
+	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
+	# f = open('keys/sheets_key.json')
+	# creds = json.load(f)
 
 	parse_and_submit(
 		record_uuid = uuid,
