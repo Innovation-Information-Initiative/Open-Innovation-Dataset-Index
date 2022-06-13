@@ -44,7 +44,7 @@ jobs:
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
           "related_projects"
-          ${{ toJson(github.event.client_payload.rship) }}
+          "${{ toJson(github.event.client_payload.rship) }}"
 
       - name: Check if files changed
         id: check_diff
