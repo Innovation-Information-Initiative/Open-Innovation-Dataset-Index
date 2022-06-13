@@ -40,11 +40,11 @@ jobs:
           INPUT_TEMPDIR: 'index_archive'
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
           rship: |
-            { 
+            [{ 
               "uuid": "${{ github.event.client_payload.rship.uuid }}", 
               "shortname": "${{ github.event.client_payload.rship.shortname }}", 
               "relationship_type": "${{ github.event.client_payload.rship.relationship_type }}"
-            }
+            }]
         run: >
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
