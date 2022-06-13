@@ -43,10 +43,12 @@ jobs:
         run: >
           relationship=$(echo github.event.client_payload.rship | jq)
         
+          echo $relationship
+        
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
           "related_projects"
-          "$relationship"
+          $relationship
 
       - name: Check if files changed
         id: check_diff
