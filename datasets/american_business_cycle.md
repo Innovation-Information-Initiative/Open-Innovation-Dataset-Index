@@ -13,9 +13,10 @@ description: 'Presented here are the tables of quarterly data from Appendix B of
   data, as NIPA quarterly data series do not otherwise exist before 1947. These files
   include the components of GDP back from 1941 to 1919 and the quarterly real GDP
   back to 1875.'
-last_edit: 06/07/2022, 13:29:43
+last_edit: 06/13/2022, 12:36:15
 location: https://www.nber.org/research/data/tables-american-business-cycle
 maintained_by: Daniel Feenberg (feenberg at nber dot org)
+related_projects: {}
 related_publications: '"The American Business Cycle: Continuity and Change" Edited
   by Robert J. Gordon. National Bureau of Economic Research Studies in Business Cycles
   Volume 25, Univerisity of Chicago Press 1986, https://www.nber.org/books-and-chapters/american-business-cycle-continuity-and-change'
