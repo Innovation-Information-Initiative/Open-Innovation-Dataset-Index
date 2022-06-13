@@ -31,8 +31,9 @@ def parse_and_submit(record_uuid, update_col, update_payload, sheet_id, sheet_ti
 if __name__ == "__main__":
 	uuid = sys.argv[1]
 	update_col = sys.argv[2]
-	payload = sys.argv[3]
 
+
+	payload =  json.loads(os.environ.get("rship", "{}"))
 	print("input is", payload)
 
 	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))

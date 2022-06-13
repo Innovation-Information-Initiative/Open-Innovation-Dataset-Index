@@ -3,6 +3,7 @@ exports.handler = (event, context, callback) => {
   const url = 'https://api.github.com/repos/Innovation-Information-Initiative/Open-Innovation-Dataset-Index/dispatches';
   const github_PAT = process.env.GH_PAT
   const request = JSON.parse(event.body)
+  console.log("request is", request.payload)
 
   fetch(url, {
     method: "post",
