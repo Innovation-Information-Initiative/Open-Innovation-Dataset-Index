@@ -41,12 +41,10 @@ jobs:
           INPUT_SHEET_ID: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
 
         run: >
-          relationship=$( "${{ github.event.client_payload.rship }}" | jq -r );
-
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
           "related_projects"
-          $relationship
+          ${{ toJson(github.event.client_payload.rship) }}
 
       - name: Check if files changed
         id: check_diff
