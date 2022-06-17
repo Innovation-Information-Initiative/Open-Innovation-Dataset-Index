@@ -3,6 +3,11 @@ name: pull_data
 on:
   schedule:
   - cron: "*/10 * * * *"
+  workflow_run:
+    workflows: ["Process Google Sheet Edits"]
+    types:
+      - completed
+
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
   remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'

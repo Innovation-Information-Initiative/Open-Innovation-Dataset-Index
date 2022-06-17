@@ -1,3 +1,5 @@
+name: Process Google Sheet Edits
+
 on:
   # edit site using webhook
   repository_dispatch:
@@ -49,31 +51,3 @@ jobs:
           python3 scripts/update_gsheet.py
           ${{ github.event.client_payload.uuid }}
           "related_projects"
-
-      - name: Check if files changed
-        id: check_diff
-        run: |
-          echo "list changed files:"
-          git diff --name-only
-          
-          echo "check paths of new and changed files:"
-          git diff --name-only > files.txt
-          git status --porcelain | grep -e '^??' | sed -e 's/^?? //g' >> files.txt
-          while IFS= read -r file
-          do
-            echo "$file"
-            if [[ $file == *.csv ]] || [[ $file == *.md ]]; then
-              echo "updated files"
-              echo "::set-output name=commit_files::true"
-            fi
-          done < files.txt
-
-      - name: Commit files
-        if: steps.check_diff.outputs.commit_files == 'true'
-        run: |
-            git pull
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add index_archive datasets tools app/assets/thumbnails
-            git commit -m "generated files based on google sheet"
-            git push

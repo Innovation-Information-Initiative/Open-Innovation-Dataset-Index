@@ -34,11 +34,9 @@ if __name__ == "__main__":
 
 
 	payload =  json.loads(os.environ.get("rship", "{}"))
-	print("input is", payload)
+	print("input is", payload, payload['uuid'], payload['shortname'])
 
 	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
-	# f = open('keys/sheets_key.json')
-	# creds = json.load(f)
 
 	parse_and_submit(
 		record_uuid = uuid,
