@@ -21,7 +21,18 @@ def parse_and_submit(record_uuid, update_col, update_payload, sheet_id, sheet_ti
 	print(sheets_record.columns.values)
 
 	if update_col in list(sheets_record.columns.values):
-		sheets_record.at[ind, update_col] = update_payload
+		relationships = sheets_record.at[ind, update_col].replace("'", '"')
+
+		try:
+			relationships = json.loads(relationships)
+		except:
+			print('existing relationships not in list form')
+
+		if isinstance(relationships, list):
+			relationships.append(update_payload)
+			sheets_record.at[ind, update_col] = relationships
+		else:
+			sheets_record.at[ind, update_col] = [update_payload]
 
 	sheets_record.at[ind, 'last_edit'] = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 	sheets_record.columns=schema
@@ -32,10 +43,11 @@ if __name__ == "__main__":
 	uuid = sys.argv[1]
 	update_col = sys.argv[2]
 
-
 	payload =  json.loads(os.environ.get("rship", "{}"))
 	print("input is", payload, payload['uuid'], payload['shortname'])
 
+	# f = open('keys/sheets_key.json')
+	# creds = json.load(f)
 	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
 
 	parse_and_submit(

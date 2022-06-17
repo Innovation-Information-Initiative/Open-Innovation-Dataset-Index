@@ -157,18 +157,18 @@
 
 				const uuid = data.get("page-id")
 
-				const function_url = "http://localhost:53959/.netlify/functions/webhook_trigger"
+				const function_url = "http://localhost:57316/.netlify/functions/webhook_trigger"
 
-				  fetch(function_url, {
-				    method: "post",
-				    body: JSON.stringify({
-				      event_type: 'update_relationship',
-				      payload: {
-					      rship: rship,
-					      uuid: uuid
-					    }
-				    })
-				  });
+			  fetch(function_url, {
+			    method: "post",
+			    body: JSON.stringify({
+			      event_type: 'update_relationship',
+			      payload: {
+				      rship: rship,
+				      uuid: uuid
+				    }
+			    })
+			  });
 
 				console.log(rship)
 			})
