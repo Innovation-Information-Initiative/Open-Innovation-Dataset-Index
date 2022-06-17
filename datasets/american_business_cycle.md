@@ -13,7 +13,7 @@ description: 'Presented here are the tables of quarterly data from Appendix B of
   data, as NIPA quarterly data series do not otherwise exist before 1947. These files
   include the components of GDP back from 1941 to 1919 and the quarterly real GDP
   back to 1875.'
-last_edit: 06/17/2022, 14:11:51
+last_edit: 06/17/2022, 16:45:17
 location: https://www.nber.org/research/data/tables-american-business-cycle
 maintained_by: Daniel Feenberg (feenberg at nber dot org)
 related_projects: {}
