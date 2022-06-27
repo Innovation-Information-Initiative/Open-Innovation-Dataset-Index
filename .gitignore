@@ -8,3 +8,6 @@ keys/
 
 # Local Netlify folder
 .netlify
+
+*/node_modules/
+*/package-lock.json
