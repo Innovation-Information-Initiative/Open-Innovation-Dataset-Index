@@ -1,3 +1,5 @@
+const fetch = require('node-fetch')
+
 exports.handler = (event, context, callback) => {
   console.log('making call to webhook')
   const url = 'https://api.github.com/repos/Innovation-Information-Initiative/Open-Innovation-Dataset-Index/dispatches';
