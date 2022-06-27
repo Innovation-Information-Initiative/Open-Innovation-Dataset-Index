@@ -22,7 +22,9 @@ location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
 maintained_by: Matt Marx, mmarx@cornell.edu
 record_creation_timestamp: 11/16/2020 17:20:46
 related_project_shortnames: patcit, lens
-related_projects: {}
+related_projects:
+  similar:
+  - patcit
 relationships:
 - patcit
 - lens
