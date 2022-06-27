@@ -1,4 +1,4 @@
-const fetch = require('node-fetch')
+import fetch from 'node-fetch';
 
 exports.handler = (event, context, callback) => {
   console.log('making call to webhook')
