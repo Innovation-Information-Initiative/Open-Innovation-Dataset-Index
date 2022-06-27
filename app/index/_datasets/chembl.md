@@ -14,7 +14,7 @@ documentation: 'schema: https://www.ebi.ac.uk/chembl/db_schema
 
 
   '
-last_edit: 06/27/2022, 16:08:48
+last_edit: 06/27/2022, 16:11:52
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/chembl
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 related_projects:
@@ -24,6 +24,8 @@ related_projects:
   - chembl_ntd
   - surechembl
   - chembl_ntd
+  - surechembl
+  - surechembl
 related_publications: '
 
   ChEMBL: towards direct deposition of bioassay data.
