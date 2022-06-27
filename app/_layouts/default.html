@@ -63,12 +63,22 @@
 								<b>relationships to other tools:</b> {{ page.relationship_description }}
 							</p>
 						{% endif %}
-						{% if page.relationships and page.relationships.size > 0 %}
+
+						{% assign RSHIP_TYPES = "parent, child, supercedes, 'superceded by', similar" | split: ', ' %}
+
+						{% if page.related_projects and page.related_projects.size > 0 %}
 							<p>
-								<b>related pages:</b>
+								<b>related projects:</b>
 								<ul>
-									{% for relationship in page.relationships %}
-										<li><a href="{{ site.baseurl }}{{ relationship }}">{{ relationship }}</a></li>
+									{% for relationship_type in RSHIP_TYPES %}
+										{% if page.related_projects contains relationship_type %}
+										<b>{{ relationship_type }}:</b>
+											<ul>
+													{% for project in page.related_projects[relationship_type] %}
+														<li><a href="{{ site.baseurl }}{{ project }}">{{ project }}</a></li>
+													{% endfor %}
+											</ul>
+											{% endif %}
 									{% endfor %}
 								</ul>
 							</p>
