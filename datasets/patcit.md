@@ -26,7 +26,11 @@ location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 record_creation_timestamp: 11/17/2020 10:38:00
 related_project_shortnames: rons, lens
-related_projects: {}
+related_projects:
+  similar:
+  - patstat
+  - lens
+  - rons
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
 relationships:
 - rons
@@ -89,7 +93,6 @@ schema_fields:
 - reference_doi
 - citation
 shortname: patcit
-superseded_by: Wed, 23 Feb 2022 03:04:44 GMT
 tags:
 - citation
 - scholarly literature

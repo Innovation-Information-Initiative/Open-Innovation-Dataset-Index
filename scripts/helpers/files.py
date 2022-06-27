@@ -46,9 +46,11 @@ def update_markdown(data, directory):
 
 					if "related_projects" in row and row["related_projects"].strip():
 						record["related_projects"] = {}
+						related_projects = row["related_projects"].replace("'", '"')
+
 						try:
 							#try reading as JSON
-							related_projects = json.loads(row["related_projects"])
+							related_projects = json.loads(related_projects)
 							for project in related_projects:
 								print(project)
 								if project["relationship_type"] in record["related_projects"]:
