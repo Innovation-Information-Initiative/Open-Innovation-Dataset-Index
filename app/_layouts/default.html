@@ -74,7 +74,7 @@
 							</p>
 						{% endif %}
 
-						<p><b>add relationship:</b> <span onclick='toggleAddRelationship'>+</span>
+						<p><b>add relationship:</b> <span id='toggleAddRship' onclick='toggleAddRship()'>+</span>
 						<form id="rship-form">
 									<div id="search-container">
 										<input type="text" id="rshipSearchInput" placeholder="search..."><br>
@@ -130,7 +130,20 @@
 		</script>
 
 <script type="text/javascript">
-			const form = document.getElementById("rship-form");
+
+			function toggleAddRship() {
+				const form = document.getElementById("rship-form");
+
+					if (form.style.display === "block") {
+						console.log('block')
+						form.style.display = "none";
+						document.getElementById('toggleAddRship').innerText = '+';
+					} else {
+						console.log('none')
+						form.style.display = "block";
+						document.getElementById('toggleAddRship').innerText = '-';
+					}
+			}
 
 			var rship_search = SimpleJekyllSearch({
 				searchInput: document.getElementById('rshipSearchInput'),
@@ -144,34 +157,38 @@
 				searchResultTemplate: '<option value="{category}|{url}">{title}</option>'
 			})
 
-			form.addEventListener("submit", function(e) {
-				e.preventDefault();
-				const data = new FormData(form);
-				console.log(data)
+			window.onload = function() {
+				const form = document.getElementById("rship-form");
 
-				const rship = {
-					"uuid": data.get("rship-dataset").split('|')[0],
-					"shortname": data.get("rship-dataset").split('|')[1],
-					"relationship_type": data.get("rship-type")
-				}
+				form.addEventListener("submit", function(e) {
+					e.preventDefault();
+					const data = new FormData(form);
+					console.log(data)
 
-				const uuid = data.get("page-id")
+					const rship = {
+						"uuid": data.get("rship-dataset").split('|')[0],
+						"shortname": data.get("rship-dataset").split('|')[1],
+						"relationship_type": data.get("rship-type")
+					}
 
-				const function_url = "http://localhost:57316/.netlify/functions/webhook_trigger"
+					const uuid = data.get("page-id")
 
-			  fetch(function_url, {
-			    method: "post",
-			    body: JSON.stringify({
-			      event_type: 'update_relationship',
-			      payload: {
-				      rship: rship,
-				      uuid: uuid
-				    }
-			    })
-			  });
+					const function_url = "http://localhost:57316/.netlify/functions/webhook_trigger"
 
-				console.log(rship)
-			})
+				  fetch(function_url, {
+				    method: "post",
+				    body: JSON.stringify({
+				      event_type: 'update_relationship',
+				      payload: {
+					      rship: rship,
+					      uuid: uuid
+					    }
+				    })
+				  });
+
+					console.log(rship)
+				})
+		}
 
 </script>
 
