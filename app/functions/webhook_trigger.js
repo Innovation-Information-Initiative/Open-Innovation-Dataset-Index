@@ -16,11 +16,26 @@ exports.handler = (event, context, callback) => {
     headers: {
       Authorization: "token " + github_PAT,
     },
+  })
+  .then(handleErrors)
+  .then(response => {
+    console.log('ok')
+    callback(null, {
+      statusCode: 200,
+      body: 'triggered action'
+    })
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+    callback(null, {
+      statusCode: 502,
+      body: 'error with github action'
+    })
   });
 
-  // mod this to run differently on success/failure
-  callback(null, {
-    statusCode: 200,
-    body: 'made post req'
-  })
+}
+
+function handleErrors(response) {
+    if (!response.ok) throw new Error(response.status);
+    return response;
 }
