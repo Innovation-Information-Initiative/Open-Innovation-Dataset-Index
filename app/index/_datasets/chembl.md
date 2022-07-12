@@ -14,17 +14,13 @@ documentation: 'schema: https://www.ebi.ac.uk/chembl/db_schema
 
 
   '
-last_edit: 06/27/2022, 16:11:52
+last_edit: Tue, 12 Jul 2022 13:53:50 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/chembl
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 related_projects:
   similar:
   - unichem
   - chembl_ntd
-  - chembl_ntd
-  - surechembl
-  - chembl_ntd
-  - surechembl
   - surechembl
 related_publications: '
 
