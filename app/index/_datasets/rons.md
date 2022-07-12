@@ -17,7 +17,7 @@ description: 'We introduce an open-access dataset of references from the front p
 documentation: https://zenodo.org/record/4235193#.X6Fgb5CSm38
 doi: https://doi.org/10.5281/zenodo.3575146
 error_metrics: 'Yes'
-last_edit: 06/27/2022, 13:26:59
+last_edit: Fri, 08 Jul 2022 07:52:10 GMT
 location: https://zenodo.org/record/3575146#.XfQZMWRKiUk
 maintained_by: Matt Marx, mmarx@cornell.edu
 record_creation_timestamp: 11/16/2020 17:20:46

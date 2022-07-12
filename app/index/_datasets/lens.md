@@ -9,7 +9,7 @@ description: 'Lens serves nearly all of the patent documents in the world as ope
   literature along with regulatory and business data. The Lens will allow documents
   and analyses to be shared and embedded to support open mapping of knowledge-directed
   innovation. '
-last_edit: Tue, 12 Apr 2022 17:05:29 GMT
+last_edit: Fri, 08 Jul 2022 08:02:40 GMT
 location: https://lens.org/
 maintained_by: "Cambia Foundation, \nhttps://about.lens.org/contact-us/"
 record_creation_timestamp: 11/28/2020 17:20:46
