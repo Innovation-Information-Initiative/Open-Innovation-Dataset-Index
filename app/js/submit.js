@@ -34,11 +34,11 @@ window.onload = function() {
 
 		const function_url = "http://localhost:4001/.netlify/functions/webhook_trigger"
 
-		const source_uuid = data.get("page-id").split('|')[0]
-		const source_shortname = data.get("page-id").split('|')[1]
-		const target_uuid = data.get("rship-dataset").split('|')[0]
-		const target_shortname = data.get("rship-dataset").split('|')[1]
-		const rship_type = data.get("rship-type")
+		const source_uuid = data.get("pageId").split('|')[0]
+		const source_shortname = data.get("pageId").split('|')[1]
+		const target_uuid = data.get("rshipDataset").split('|')[0]
+		const target_shortname = data.get("rshipDataset").split('|')[1]
+		const rship_type = data.get("rshipType")
 		const inv_rship_type = transform[rship_type]
 
 		const rship = {

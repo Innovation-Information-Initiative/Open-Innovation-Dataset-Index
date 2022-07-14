@@ -89,22 +89,23 @@
 					{% if page.path contains 'datasets' %}
 						<p><b>add relationship:</b> <span id='toggleAddRship' onclick='toggleAddRship()'>+</span>
 						<form id="rship-form">
-									<div id="search-container">
-										<input type="text" id="rshipSearchInput" placeholder="search..."><br>
-										<select name="rship-dataset" id="rshipResultsContainer" class="form-control"></select>
-									</span>
+								<div id="searchContainer">
+									<label>Related dataset:</label><br>
+									<input type="text" id="rshipSearchInput" placeholder="search...">
+									<select name="rshipDataset" id="rshipResultsContainer" class="form-control"></select>
 								</div>
-								<span id="rship-container">
-									<select name="rship-type" class="form-control">
+								<div id="rship-container">
+									<label>Type of Relationship:</label><br>
+									<select name="rshipType" class="form-control">
 										<option>similar</option>
 										<option>parent</option>
 										<option>child</option>
 										<option>supercedes</option>
 										<option>superceded by</option>
 									</select>
-								</span>
-								<input type="hidden" id="page-id" name="page-id" value="{{ page.uuid }}|{{page.shortname}}">
-								<input type="submit"/>
+								</div>
+								<input type="submit" value="submit relationship">
+								<input type="hidden" id="pageId" name="pageId" value="{{ page.uuid }}|{{page.shortname}}"><br>
 						</form>
 						{% endif %}
 
@@ -125,6 +126,13 @@
 
 		<script type="text/javascript">
 
+			function updateInput(){
+				console.log('clicked', this.innerHTML)
+				var value = this.innerHTML;
+				var input = $('#rshipSearchInput');
+				input.val(value);
+			};
+
 			$.getJSON("/js/search.json", function(json){
 				var rship_search = SimpleJekyllSearch({
 					searchInput: document.getElementById('rshipSearchInput'),
@@ -135,7 +143,7 @@
 						}
 					},
 					json: json,
-					searchResultTemplate: '<option value="{category}|{url}">{title}</option>'
+					searchResultTemplate: '<option onclick="updateInput.call(this)" class="searchResult" value="{category}|{url}">{title}</option>'
 				})
 			})
 			function isURL(str) {

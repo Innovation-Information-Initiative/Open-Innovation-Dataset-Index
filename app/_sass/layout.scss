@@ -177,6 +177,23 @@ a:hover {
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: -50px 50px 30px lightgray;
+    max-width: 350px;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    width: 90%;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100px;
 }
 
 .searchResult {
@@ -191,11 +208,6 @@ a:hover {
 .searchResult > a {
     text-decoration: none;
     padding: 2px;
-}
-
-#resultsContainer {
-    box-shadow: -50px 50px 30px lightgray;
-    max-width: 350px;
 }
 
 footer {
