@@ -1,17 +1,13 @@
-
-	function toggleAddRship() {
-		const form = document.getElementById("rship-form");
-
-			if (form.style.display === "block") {
-				console.log('block')
-				form.style.display = "none";
-				document.getElementById('toggleAddRship').innerText = '+';
-			} else {
-				console.log('none')
-				form.style.display = "block";
-				document.getElementById('toggleAddRship').innerText = '-';
-			}
+function toggleAddRship() {
+	console.log('toggling')
+	const form = $("#rship-form");
+	form.toggle();
+	if (form.is(':visible')) {
+		$('#toggleAddRship').text('-');
+	} else {
+		$('#toggleAddRship').text('+');
 	}
+}
 
 
 function handleErrors(response) {
@@ -21,7 +17,7 @@ function handleErrors(response) {
 
 
 window.onload = function() {
-	const form = document.getElementById("rship-form");
+	const form = $("#rship-form");
 
 	const transform = {
 		"parent": "child",
@@ -31,7 +27,7 @@ window.onload = function() {
 		"superceded by": "supercedes"
 	}
 
-	form.addEventListener("submit", function(e) {
+	form.on("submit", function(e) {
 		e.preventDefault();
 		const data = new FormData(form);
 		// const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
