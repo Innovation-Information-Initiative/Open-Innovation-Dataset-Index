@@ -22,15 +22,17 @@ You can use the search bar to explore the datasets, or browse the <a href="/data
 {{ intro.content }}
 
 <!-- Script pointing to search-script.js -->
-<script src="search.js" type="text/javascript"></script>
+<script src="/js/search.js" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
-SimpleJekyllSearch({
-	searchInput: document.getElementById('searchInput'),
-	resultsContainer: document.getElementById('resultsContainer'),
-	json: 'search.json',
-	searchResultTemplate: '<li class="searchResult"><a href="{{ site.url }}{url}">{title}</a></li>'
-})
+	$.getJSON("/js/search.json", function(json){
+		SimpleJekyllSearch({
+			searchInput: document.getElementById('searchInput'),
+			resultsContainer: document.getElementById('resultsContainer'),
+			json: json,
+			searchResultTemplate: '<li class="searchResult"><a href="{{ site.url }}{url}">{title}</a></li>'
+		})
+	})
 </script>
 
