@@ -30,9 +30,9 @@ window.onload = function() {
 	form.on("submit", function(e) {
 		e.preventDefault();
 		const data = new FormData(form[0]);
-		// const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
+		const function_url = "https://iiindex.org/.netlify/functions/webhook_trigger"
 
-		const function_url = "http://localhost:4001/.netlify/functions/webhook_trigger"
+		// const function_url = "http://localhost:4001/.netlify/functions/webhook_trigger"
 
 		const source_uuid = data.get("pageId").split('|')[0]
 		const source_shortname = data.get("pageId").split('|')[1]
