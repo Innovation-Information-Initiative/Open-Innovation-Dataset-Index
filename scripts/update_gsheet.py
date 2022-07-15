@@ -30,7 +30,9 @@ def parse_and_submit(record_uuid, update_col, update_payload, sheet_id, sheet_ti
 
 		if isinstance(relationships, list):
 			relationships.append(update_payload)
-			sheets_record.at[ind, update_col] = relationships
+			rships_no_dup = [i for n, i in enumerate(relationships) if i not in relationships[n + 1:]]
+			print('before', relationships, 'after', rships_no_dup)
+			sheets_record.at[ind, update_col] = rships_no_dup
 		else:
 			sheets_record.at[ind, update_col] = [update_payload]
 
@@ -46,9 +48,9 @@ if __name__ == "__main__":
 	payload =  json.loads(os.environ.get("rship", "{}"))
 	print("input is", payload, payload['uuid'], payload['shortname'])
 
-	# f = open('keys/sheets_key.json')
-	# creds = json.load(f)
-	creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
+	f = open('keys/sheets_key.json')
+	creds = json.load(f)
+	# creds =  json.loads(os.environ.get("INPUT_CREDS", "{}"))
 
 	parse_and_submit(
 		record_uuid = uuid,
