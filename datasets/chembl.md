@@ -13,7 +13,7 @@ documentation: 'schema: https://www.ebi.ac.uk/chembl/db_schema
 
 
   '
-last_edit: 07/15/2022, 13:10:30
+last_edit: 07/15/2022, 13:11:21
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/chembl
 maintained_by: EMBL-EBI, an outstation of European Molecular Biology Laboratory
 related_projects:
@@ -22,6 +22,7 @@ related_projects:
   - chembl_ntd
   - surechembl
   - uses_of_petroleum
+  - chembl_ntd
   - chembl_ntd
   - chembl_ntd
   - chembl_ntd

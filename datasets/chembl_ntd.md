@@ -7,10 +7,11 @@ description: CHEMBL-NTD is a repository for Open Access primary screening and me
   ChEMBL-NTD is to provide a freely accessible and permanent archive and distribution
   centre for deposited data. ChEMBL-NTD is a subset of the data in the free medicinal
   chemistry and drug discovery database ChEMBL.
-last_edit: 07/15/2022, 13:10:35
+last_edit: 07/15/2022, 13:11:17
 location: https://chembl.gitbook.io/chembl-ntd/
 related_projects:
   similar:
+  - chembl
   - chembl
   - chembl
   - chembl
