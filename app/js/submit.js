@@ -62,6 +62,8 @@ window.onload = function() {
 			})
 			.then(handleErrors)
 			.then(response => {
+				alert("Success! Thanks for adding a new relationship. It will take about a minute for the site to update with the new addition.")
+				form[0].reset();
 				console.log(response.status)
 			})
 			.catch((error) => {
