@@ -15,7 +15,7 @@ description: 'Improving access to data sets related to transportation economics 
   categories below. The DOT data span a wide range of transportation modes and include
   information about the transportation infrastructure, the delivery of transportation
   services, and the demand for these services. '
-last_edit: Fri, 03 Dec 2021 13:12:25 GMT
+last_edit: Sat, 30 Jul 2022 16:44:52 GMT
 location: https://www.nber.org/research/data/transportation-economics-21st-century-data-resources
 maintained_by: Caitlin Gorback, gorback@nber.org
 shortname: transportation_economics
