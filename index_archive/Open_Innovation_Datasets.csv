@@ -113,9 +113,9 @@ GDP data: Bergeaud, A., Cette, G. and Lecat, R. (2016): ""Productivity Trends in
 	year = {2019},
 	note = {type: dataset},
 }
-",None,Contact maintainer through Dataverse,"Historical Patents, Technological Change, Inventions, Geography, Economics", , , , ,, , ,,10.7910/DVN/BPC15W, ,,,,,,,"Mon, 04 Apr 2022 18:08:13 GMT"
+",None,Contact maintainer through Dataverse,"Historical Patents, Technological Change, Inventions, Geography, Economics", , , , ,, , ,,10.7910/DVN/BPC15W, ,,,,,,,"Tue, 02 Aug 2022 00:46:38 GMT"
 45,9651d1f2-3c24-46ef-9ade-e2e31f4ffe12,BACI,baci,http://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37,BACI provides disaggregated data on bilateral trade flows for more than 5000 products and 200 countries.,, ,,"Pierre Cotterlaz, baci@cepii.fr","trade, global","BACI is freely available to anyone, after a quick registration.", ,http://www.cepii.fr/DATA_DOWNLOAD/baci/doc/DescriptionBACI.html,,, , ,,  ,,https://www.whoswho.fr/usr/y/R/X/cepii.png,,,,,,"Tue, 07 Jun 2022 10:04:37 GMT"
-46,1b372a68-18ae-45e3-9a28-a6feecc3e7b8,Chinese Patent Data Project Dataverse,sipo_matching,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO," 	
+46,1b372a68-18ae-45e3-9a28-a6feecc3e7b8,Chinese Patent Data Project Dataverse,sipo_matching,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO,"         
 Matching SIPO patents to Chinese listed firms (""Main Board""). Please refer to the user documentation ""Chinese Patent Database User Documentation: Matching SIPO Patents to Chinese Publicly-Listed Companies and Subsidiaries"" for more details about this dataset. ",,"
 @article{he_matching_2019,
 	title = {Matching {SIPO} patents to {Chinese} listed firms (""{Main} {Board}"")},
@@ -129,7 +129,7 @@ Matching SIPO patents to Chinese listed firms (""Main Board""). Please refer to 
 	year = {2019},
 	note = {type: dataset},
 }
-",,Contact maintainer through Dataverse,"China, SIPO, disambiguation, patents, firms", ,through 2016?,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT , ,, , ,,, ,,,,,,,"Tue, 01 Mar 2022 12:21:44 GMT"
+",,Contact maintainer through Dataverse,"China, SIPO, disambiguation, patents, firms", ,through 2016?,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT , ,, , ,,, ,,,,,,,"Tue, 02 Aug 2022 00:45:56 GMT"
 47,5ab54caa-f53c-4537-8dac-8bf20cab594e,GPT Indicators,gpt_indicators,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA,"This database contains yearly technology-level measures of Growth, Use Complementarity (UC) and Innovation Complementarity (IC) since 1920 for all technological classes in the United States Patent and Trademark Office (USPTO) classification system, as described in the article entitled ""Mapping General Purpose Technologies with Patent Data"". (2020-03-06) ",Sergio Petralia,"
 @article{petralia_gpt_2020,
 	title = {{GPT} {Indicators}},
@@ -176,7 +176,7 @@ Matching SIPO patents to Chinese listed firms (""Main Board""). Please refer to 
         note = {type: dataset},
         keywords = {CEO Dismissal, Management, Strategic Management},
 }
-",None,Richard Gentry,"CEO, Dismissal Management, Strategic Management",Open Data Commons Attribution License v1.0,1992-2018,Documentation included as a .docx on Zenodo, ,, , ,,10.5281/zenodo.4618103, https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278,,,"Execucomp, https://libguides.uml.edu/wrds/ExecuComp",,,,"Thu, 02 Dec 2021 17:41:04 GMT"
+",None,Richard Gentry,"CEO, Dismissal Management, Strategic Management",Open Data Commons Attribution License v1.0,1992-2018,Documentation included as a .docx on Zenodo, ,, , ,,10.5281/zenodo.4618103, https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278,,,"Execucomp, https://libguides.uml.edu/wrds/ExecuComp",,,,"Tue, 02 Aug 2022 00:44:36 GMT"
 54,1a7fc85d-38af-4fe6-83b8-0d629e85d418,A large-scale COVID-19 Twitter chatter dataset for open scientific research,covid_twitter_chatter,https://zenodo.org/record/5595136,"Dataset of tweets acquired from the Twitter Stream related to COVID-19 chatter. The first 9 weeks of data (from January 1st, 2020 to March 11th, 2020) contain very low tweet counts as we filtered other data we were collecting for other research purposes, however, one can see the dramatic increase as the awareness for the virus spread. Dedicated data gathering started from March 11th yielding over 4 million tweets a day.
 
 The data collected from the stream captures all languages, but the higher prevalence are: English, Spanish, and French. We release all tweets and retweets on the full dataset, and a cleaned version with no retweets. There are several practical reasons for us to leave the retweets, tracing important tweets and their dissemination is one of them. For NLP tasks we provide the top 1000 frequent terms, the top 1000 bigrams, and the top 1000 trigrams. Some general statistics per day are included for both datasets.",,"
