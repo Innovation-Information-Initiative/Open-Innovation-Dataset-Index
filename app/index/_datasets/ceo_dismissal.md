@@ -15,7 +15,7 @@ description: This is a database of qualitatively coded reasons for a CEO’s dis
 description_of_relationships_to_other_projects: Execucomp, https://libguides.uml.edu/wrds/ExecuComp
 documentation: Documentation included as a .docx on Zenodo
 doi: 10.5281/zenodo.4618103
-last_edit: Thu, 02 Dec 2021 17:41:04 GMT
+last_edit: Tue, 02 Aug 2022 00:44:36 GMT
 location: https://zenodo.org/record/5348198
 maintained_by: Richard Gentry
 record_creation_timestamp: 09/02/2021, 11:24:03
