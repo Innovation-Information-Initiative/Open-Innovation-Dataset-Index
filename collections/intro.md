@@ -39,5 +39,5 @@ Many researchers focused on innovation want to understand the origins of ideas, 
 ## Guides
 
 * [WIPO Manual on Open Source Patent Analytics](https://wipo-analytics.github.io/) and accompanying [Github Repository](https://github.com/wipo-analytics), which gives a practical guide to free and open source software tools for patent analytics
-* [Lens Labs Knowledge Database](https://support.lens.org/knowledge-database/), which contains extensive information about patent analysis, including legal status calculation, geographical variability in patent law, analysis of biological patents and guides to reading patents
+* [Lens Labs Knowledge-base](https://support.lens.org/knowledge-base/), which contains extensive information about patent analysis, including legal status calculation, geographical variability in patent law, analysis of biological patents and guides to reading patents
 * Paul Oldham's guide [Understanding Patent Data Fields](https://www.pauloldham.net/patent-data-fields/), which gives a thorough overview of using patent identifiers, and also features in the WIPO manual
