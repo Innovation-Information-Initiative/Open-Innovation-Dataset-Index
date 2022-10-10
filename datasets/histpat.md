@@ -15,7 +15,7 @@ description: 'HistPat provides the geography of historical patents granted by th
   Additionally, it can easily be merged with post-1975 USPTO digital patent data to
   extend it until today. (2016-05-23) '
 doi: 10.7910/DVN/BPC15W
-last_edit: Tue, 02 Aug 2022 00:46:38 GMT
+last_edit: Mon, 10 Oct 2022 18:00:10 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W
 maintained_by: Contact maintainer through Dataverse
 record_creation_timestamp: 08/24/2021, 15:31:52
