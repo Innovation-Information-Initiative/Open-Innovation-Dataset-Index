@@ -7,6 +7,9 @@ on:
     workflows: ["Process Google Sheet Edits"]
     types:
       - completed
+  push:
+      paths:
+      - '.github/workflows/pull_data.yml'
 
 env:
   id: '1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms'
@@ -25,7 +28,7 @@ jobs:
       - name: Install Python 3
         uses: actions/setup-python@v1
         with:
-          python-version: 3.10
+          python-version: 3.10.8
 
       - name: set up Python environment
         run: |
