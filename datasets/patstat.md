@@ -6,7 +6,7 @@ cost: €975.00 - € 1460.00
 description: 'PATSTAT contains bibliographical and legal event patent data from leading
   industrialised and developing countries. This is extracted from the EPO’s databases
   and is either provided as bulk data or can be consulted online. '
-last_edit: Sun, 20 Nov 2022 19:54:44 GMT
+last_edit: Thu, 24 Nov 2022 06:26:46 GMT
 location: https://www.epo.org/searching-for-patents/business/patstat.html#tab3
 maintained_by: European Patent Office
 record_creation_timestamp: 11/27/2020 17:20:46
