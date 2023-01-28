@@ -18,7 +18,7 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   to their database of interest.'
 documentation: https://doi.org/10.5281/zenodo.3594642
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Sun, 03 Apr 2022 10:30:08 GMT
+last_edit: Sat, 28 Jan 2023 18:05:01 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 shortname: discern
