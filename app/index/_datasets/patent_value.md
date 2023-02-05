@@ -5,7 +5,7 @@ cost: None
 description: 'The data contains all articles in 244 journals as described in "In-Text
   Patent Citations: A User''s Guide", and all front-page and in-text citations as
   found by the algorithm described in this paper. '
-last_edit: Mon, 28 Mar 2022 19:59:28 GMT
+last_edit: Sun, 05 Feb 2023 00:19:06 GMT
 location: https://iu.box.com/patents
 maintained_by: Noah Stoffman, nstoffma@iu.edu
 shortname: patent_value
