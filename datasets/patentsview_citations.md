@@ -3,7 +3,7 @@ cost: None
 description: Citation to foreign patents from US patents (foreigncitation), citation
   to US patent applications from US patents (usapplicationcitation), citation to US
   patents from US patents (uspatentcitation), non-patent citations in patents (otherreference)
-last_edit: Tue, 14 Mar 2023 03:32:13 GMT
+last_edit: Wed, 05 Apr 2023 15:39:07 GMT
 location: https://patentsview.org/download/data-download-tables
 maintained_by: USPTO
 record_creation_timestamp: 10/26/2021
