@@ -4,7 +4,7 @@ description: 'CMS periodically produces SSA to FIPS CBSA to county crosswalk fil
   They released a CBSA to MSA to FIPS county crosswalk as well. Some CMS data files
   have SSA state and county codes or county name rather than FIPS state and county
   codes. Jean Roth processed the data files below for greater ease of use. '
-last_edit: Fri, 03 Dec 2021 23:11:07 GMT
+last_edit: Fri, 21 Apr 2023 15:35:35 GMT
 location: https://data.nber.org/data/cbsa-msa-fips-ssa-county-crosswalk.html
 shortname: cms_ssa_fips_county_crosswalk
 tags:
