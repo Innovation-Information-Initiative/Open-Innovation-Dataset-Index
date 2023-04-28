@@ -22,7 +22,7 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Sat, 12 Nov 2022 22:08:03 GMT
+last_edit: Fri, 28 Apr 2023 12:19:59 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 record_creation_timestamp: 11/17/2020 10:38:00
@@ -36,6 +36,7 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 relationships:
 - rons
 - lens
+salient_fields: DOI, PMID, ISSN, ISBN
 schema_fields:
 - DOI
 - npl_cat_language_flag
