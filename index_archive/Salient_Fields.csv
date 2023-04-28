@@ -8,3 +8,5 @@
 6,e798ad87-7bad-4195-9d0f-2b18993b7e69,PubMed ID,Identifier associated with biomedical and life sciences journal literature,,pmid,"Fri, 22 Apr 2022 17:45:21 GMT"
 7,dfaabaaf-b595-416b-86ff-070ff5238ef8,Lens ID,Unique lens identifier. Every document in the Lens has a unique 15-digit identifier called a Lens ID. e.g. 186-488-232-022-055,,,"Wed, 13 Apr 2022 15:54:01 GMT"
 8,aec66463-67db-4eb4-b16c-6e1164e42f32,DOI,"Digital Object Identifier, used to uniquely ID academic papers",sometimes formatted as a URL,digital object identifier,"Fri, 22 Apr 2022 17:52:04 GMT"
+9,49278650-b987-4b47-9fe2-d6040a6f57a2,ISSN,"International Standard Serial Number, used to uniquely id serial publications",,,"Fri, 28 Apr 2023 12:18:44 GMT"
+10,3ab93c3d-886e-4f1a-b100-aa06999419df,ISBN,"International Standard Book Number, used to uniquely identify books",,,"Fri, 28 Apr 2023 12:19:12 GMT"
