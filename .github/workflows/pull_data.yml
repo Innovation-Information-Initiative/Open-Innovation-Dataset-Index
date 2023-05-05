@@ -50,6 +50,7 @@ jobs:
         id: 'sheet_to_csv'
         env: 
           INPUT_CREDS: ${{ secrets.GSHEET_CREDENTIALS }}
+          ENV: 'prod'
           INPUT_SHEETS: |
             [
               { "id": "${{ env.id }}", "title": "Open_Innovation_Datasets", "directory": "datasets" },
