@@ -5,7 +5,7 @@ description: The publication Approved Drug Products with Therapeutic Equivalence
   of safety and effectiveness by the Food and Drug Administration (FDA) under the
   Federal Food, Drug, and Cosmetic Act (the Act) and related patent and exclusivity
   information.
-last_edit: Fri, 05 May 2023 11:36:01 GMT
+last_edit: 05/05/2023, 13:27:17
 location: https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book
 maintained_by: 'The Orange Book downloadable data files are updated monthly. We make
   every effort to prevent errors and discrepancies in the Approved Drug Products data
@@ -15,6 +15,9 @@ maintained_by: 'The Orange Book downloadable data files are updated monthly. We 
 
   General questions related to the drug data in these files should be directed to
   the Center for Drug Evaluation and Research, Division of Drug Information druginfo@fda.hhs.gov.'
+related_projects:
+  parent:
+  - orangebook_nber
 shortname: orangebook_fda
 tags:
 - drugs
