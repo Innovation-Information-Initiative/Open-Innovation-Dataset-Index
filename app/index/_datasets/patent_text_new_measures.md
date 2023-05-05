@@ -5,6 +5,7 @@ citation: 'Arts S, Hou J, Gomez JC. (2020). Natural language processing to ident
   the creation and impact of new technologies in patent text: code, data, and new
   measures. Forthcoming Research Policy. (https://doi.org/10.1016/j.respol.2020.104144)'
 code: https://github.com/sam-arts/respol_patents_code
+cost: None
 datasets_and_publications_using_this_dataset: 'Arts S, Hou J, Gomez JC. (2020). Natural
   language processing to identify the creation and impact of new technologies in patent
   text: code, data, and new measures. Forthcoming Research Policy. (https://doi.org/10.1016/j.respol.2020.104144)'
@@ -22,7 +23,7 @@ description: Different open access data files related to the text of USPTO paten
 documentation: https://zenodo.org/record/3515985
 doi: https://doi.org/10.5281/zenodo.3515985
 error_metrics: 'Yes'
-last_edit: Thu, 12 May 2022 16:43:59 GMT
+last_edit: Fri, 05 May 2023 11:39:35 GMT
 location: https://zenodo.org/record/3515985
 maintained_by: Sam Arts
 related_publications: 'Arts S, Hou J, Gomez JC. (2020). Natural language processing
