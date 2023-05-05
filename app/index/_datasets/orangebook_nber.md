@@ -27,9 +27,12 @@ description: "Each edition of the Orange Book provides a snapshot of unexpired p
   and data from these PDF files was either hand-entered or parsed in order to create
   the digital files."
 documentation: https://www.nber.org/system/files/working_papers/w30628/w30628.pdf
-last_edit: Fri, 05 May 2023 11:39:15 GMT
+last_edit: 05/05/2023, 13:27:23
 location: https://www.nber.org/research/data/orange-book-patent-and-exclusivity-data-1985-2016
 maintained_by: 'Heidi Williams: hlwill@stanford.edu'
+related_projects:
+  child:
+  - orangebook_fda
 shortname: orangebook_nber
 tags:
 - drugs
