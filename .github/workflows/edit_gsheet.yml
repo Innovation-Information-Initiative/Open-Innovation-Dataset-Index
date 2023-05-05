@@ -22,7 +22,7 @@ jobs:
       - name: Install Python 3
         uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.9.16
 
       - name: set up Python environment
         run: |
