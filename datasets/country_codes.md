@@ -1,11 +1,10 @@
 ---
-citation: "\n@article{seliger_imputation_2020,\n\ttitle = {Imputation of missing applicant\
-  \ country codes in worldwide patent data},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W},\n\
-  \tdoi = {10.7910/DVN/XNTL0W},\n\tabstract = {The file ctry\\_app\\_person.txt contains\
-  \ identifiers for patent first filings and the applicant (corresponding to appln\\\
-  _id and person\\_id in PATSTAT) a...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\
-  \tauthor = {Seliger, Florian},\n\tmonth = oct,\n\tyear = {2020},\n\tnote = {type:\
-  \ dataset},\n}\n"
+citation: "\n@article{seliger_imputation_2020,\n\ttitle = {Imputation of missing applicant
+  country codes in worldwide patent data},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W},\n\tdoi
+  = {10.7910/DVN/XNTL0W},\n\tabstract = {The file ctry\\_app\\_person.txt contains
+  identifiers for patent first filings and the applicant (corresponding to appln\\_id
+  and person\\_id in PATSTAT) a...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
+  = {Seliger, Florian},\n\tmonth = oct,\n\tyear = {2020},\n\tnote = {type: dataset},\n}\n"
 code: ' https://github.com/seligerf/Imputation-of-missing-location-information-for-worldwide-patent-data'
 cost: None
 datasets_and_publications_using_this_dataset: ' https://doi.org/10.1016/j.dib.2020.106615'
