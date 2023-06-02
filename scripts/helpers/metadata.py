@@ -13,8 +13,6 @@ from datetime import datetime
 from sickle import Sickle
 import os
 
-client = bigquery.Client()
-
 def check_oai(data):
 	oai_entries = []
 	oai_mappings = {
@@ -39,6 +37,7 @@ def check_bigquery(data):
 
 def get_schema_fields(bq_project):
 	field_set = set()
+	client = bigquery.Client()
 	print('project is', bq_project['project'])
 	try:
 		client = bigquery.Client(bq_project['project'])
@@ -62,6 +61,7 @@ def get_schema_fields(bq_project):
 
 
 def get_bq_datasets(bq_fields):
+	client = bigquery.Client()
 	for bq_project in bq_fields:
 		# is the url for a bigquery project at all?
 		if 'bigquery' in bq_project['location']:
@@ -133,12 +133,15 @@ def get_oai_metadata(data):
 
 	for project in projects:
 		sickle = Sickle(project['endpoint'])
-		identifier =  parse_qs(urlparse(project['location']).query)['persistentId'][0]
-		record = sickle.GetRecord(identifier=identifier, metadataPrefix='oai_dc')
-		filepath = os.path.join('oai_pmh_xml/', project['shortname'] + '.xml')
+		print('pid', urlparse(project['location']).query, project['location'])
 
-		with open(filepath, "wb") as f:
-			f.write(record.raw.encode('utf8'))
+		if 'persistentId' in parse_qs(urlparse(project['location']).query):
+			identifier =  parse_qs(urlparse(project['location']).query)['persistentId'][0]
+			record = sickle.GetRecord(identifier=identifier, metadataPrefix='oai_dc')
+			filepath = os.path.join('oai_pmh_xml/', project['shortname'] + '.xml')
+
+			with open(filepath, "wb") as f:
+				f.write(record.raw.encode('utf8'))
 
 	return []
 
@@ -149,6 +152,10 @@ def get_metadata(data):
 	# check if OAI repo (dv, zenodo to start)
 	projects = get_oai_metadata(data)
 	projects = projects + get_bq_metadata(data) 
+	print('after we got all the metadata, projects is', projects)
+	f = open("proj_sample.txt", "w")
+	f.write(json.dumps(projects))
+	f.close()
 
 	# add all the updates
 	for row in data:
@@ -157,17 +164,20 @@ def get_metadata(data):
 			# do we need to update the sheet
 			# convert row back to list -> sets and then compare
 			row_schema_list = row['schema_fields'].split(', ')
-			if 'schema_fields' in row and set(project['schema']) != set(row_schema_list) and row_schema_list != ['']:
+			if 'schema_fields' in row and set(project['schema_fields']) != set(row_schema_list) and row_schema_list != ['']:
 				print("sets don't match")
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-				row['schema_fields'] = ', '.join(project['schema'])
+				row['schema_fields'] = ', '.join(project['schema_fields'])
 			elif 'schema_fields' not in row:
 				print("field doesn't exist")
 				update_metadata = True
 				row['last_edit'] =  datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-				row['schema_fields'] = ', '.join(project['schema'])
+				row['schema_fields'] = ', '.join(project['schema_fields'])
 			print('added fields to', row['title'])
+
+	#return data, False
+	return data, update_metadata
 
 
 # todo: add bigquery, dataverse, zenodo requests

@@ -5,6 +5,11 @@ import pkg_resources
 import subprocess
 from datetime import time
 import pandas as pd
+import sys
+sys.path.append('scripts/libraries')
+
+import google
+from google.cloud import bigquery
 
 from helpers import gsheets, files, metadata, timing
 from helpers.utils import get_project_root
@@ -45,9 +50,15 @@ def update_metadata(sheets, output_dir, creds):
 
 
 if __name__ == "__main__":
-	creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
+	if os.environ.get("ENV") == 'local':
+		f = open('keys/sheets_key.json')
+		creds = json.load(f)
+	else:
+		creds = json.loads(os.environ.get("INPUT_CREDS", "{}"))
 	sheets = json.loads(os.environ.get("INPUT_SHEETS", "{}"))
 	output_dir = os.environ.get("INPUT_TEMPDIR")
+
+	client = bigquery.Client()
 
 	update_metadata(
 		sheets=sheets,

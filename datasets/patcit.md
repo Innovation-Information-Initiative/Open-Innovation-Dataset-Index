@@ -7,7 +7,7 @@ citation: 'Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, & Gaé
   de Rassenfosse. (2020). PatCit: A Comprehensive Dataset of Patent Citations (Version
   0.3.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4391095'
 code: https://cverluise.github.io/notebook
-contributors: Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, Gaétan
+contributors: Cyril Verluise,Gabriele Cristelli, Kyle Higham, Lucas Violon, Gaétan
   de Rassenfosse
 cost: None
 datasets_and_publications_using_this_dataset: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
@@ -21,7 +21,7 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Fri, 28 Apr 2023 12:19:59 GMT
+last_edit: Fri, 26 May 2023 11:19:00 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 record_creation_timestamp: 11/17/2020 10:38:00
