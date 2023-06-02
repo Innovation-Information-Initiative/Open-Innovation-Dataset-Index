@@ -10,7 +10,7 @@ from helpers import gsheets, files, timing
 from helpers.utils import get_project_root
 from helpers.sprites import create_sprites
 
-archive_targets = ['Open_Innovation_Datasets', 'Innovation_Data_Toolkit', 'Salient_Fields']
+archive_targets = ['Open_Innovation_Datasets', 'Innovation_Data_Toolkit']
 
 
 def archive_gsheet(sheets, output_dir, creds):

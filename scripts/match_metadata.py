@@ -1,6 +1,8 @@
 from fuzzywuzzy import fuzz
 import pandas as pd
 import os
+from helpers import files
+from helpers.utils import get_project_root
 
 def match_schema_fields():
 	data = pd.read_csv('index_archive/Open_Innovation_Datasets.csv', header=0)
@@ -32,10 +34,10 @@ def match_schema_fields():
 				row['salient_fields'] += suggestion['salient_field'] + ', '
 
 
-		md_path = os.path.join(get_project_root(), 'datasets')
-		files.update_markdown(data, md_path)
-		files.write_csv_from_dict(data, filename)
-
+		#todo -- figure out how to write to file
+		# md_path = os.path.join(get_project_root(), 'datasets')
+		# files.update_markdown(data, md_path)
+		# files.write_csv_from_dict(data, filename)
 
 if __name__ == "__main__":
 	match_schema_fields()
