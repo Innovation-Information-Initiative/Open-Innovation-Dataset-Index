@@ -86,7 +86,8 @@ def generate_markdown(data, directory):
 
 	to_gen = []
 	for i, record in enumerate(data):
-		if record['uuid'] not in uuids:
+		print(record)
+		if 'uuid' in record and record['uuid'] not in uuids:
 			to_gen.append(data[i])
 
 	new_files = []

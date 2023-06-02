@@ -1,11 +1,13 @@
 from fuzzywuzzy import fuzz
 import pandas as pd
+import os
 
 def match_schema_fields():
 	data = pd.read_csv('index_archive/Open_Innovation_Datasets.csv', header=0)
 	salient_fields = pd.read_csv('index_archive/Salient_Fields.csv', header=0)
 
 	print(data.columns.values, salient_fields.columns.values)
+	print(salient_fields)
 
 	for index, row in data.iterrows():
 		fields_list = str(row['schema_fields']).split(', ')
@@ -25,6 +27,15 @@ def match_schema_fields():
 				suggestions.append(top_suggestion)
 		if len(suggestions) > 0:
 			print(row['title'], suggestions)
+			# have some way of logging suggestions file?
+			for suggestion in suggestions:
+				row['salient_fields'] += suggestion['salient_field'] + ', '
+
+
+		md_path = os.path.join(get_project_root(), 'datasets')
+		files.update_markdown(data, md_path)
+		files.write_csv_from_dict(data, filename)
+
 
 if __name__ == "__main__":
 	match_schema_fields()
