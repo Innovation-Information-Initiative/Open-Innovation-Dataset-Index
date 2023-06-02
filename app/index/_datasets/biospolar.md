@@ -1,14 +1,14 @@
 ---
 layout: default
 api_or_bulk_downloads: CC-By Attribution 4.0 International
-citation: "@article{oldham_biospolar_2019,\n        title = {Biospolar {Antarctic}\
-  \ {Literature} and {Patents}},\n        url = {https://osf.io/py6ve/},\n       \
-  \ doi = {10.17605/OSF.IO/PY6VE},\n        abstract = {Mapping the scientific and\
-  \ patent landscapes for biodiversity based research and innovation from Antarctica\
-  \ and the Southern Ocean. Created under the Biospolar Project, Research Council\
-  \ of Norway (RCN project number 257631/E10) \n    Hosted on the Open Science Framework},\n\
-  \        language = {en},\n        urldate = {2021-09-10},\n        author = {Oldham,\
-  \ Paul},\n        month = may,\n        year = {2019},\n}\n"
+citation: "@article{oldham_biospolar_2019,\n        title = {Biospolar {Antarctic}
+  {Literature} and {Patents}},\n        url = {https://osf.io/py6ve/},\n        doi
+  = {10.17605/OSF.IO/PY6VE},\n        abstract = {Mapping the scientific and patent
+  landscapes for biodiversity based research and innovation from Antarctica and the
+  Southern Ocean. Created under the Biospolar Project, Research Council of Norway
+  (RCN project number 257631/E10) \n    Hosted on the Open Science Framework},\n        language
+  = {en},\n        urldate = {2021-09-10},\n        author = {Oldham, Paul},\n        month
+  = may,\n        year = {2019},\n}\n"
 cost: None
 description: Mapping the scientific and patent landscapes for biodiversity based research
   and innovation from Antarctica and the Southern Ocean. Created under the Biospolar

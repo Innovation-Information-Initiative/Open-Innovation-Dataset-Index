@@ -1,15 +1,15 @@
 ---
 layout: default
 api_or_bulk_downloads: Bulk
-citation: "\n@misc{banda_large-scale_2021,\n        title = {A large-scale {COVID}-19\
-  \ {Twitter} chatter dataset for open scientific research - an international collaboration},\n\
-  \        url = {https://zenodo.org/record/5458943},\n        abstract = {Version\
-  \ 78 of the dataset...},\n        urldate = {2021-09-07},\n        publisher = {Zenodo},\n\
-  \        author = {Banda, Juan M. and Tekumalla, Ramya and Wang, Guanyu and Yu,\
-  \ Jingyuan and Liu, Tuo and Ding, Yuning and Artemova, Katya and Tutubalina, Elena\
-  \ and Chowell, Gerardo},\n        month = sep,\n        year = {2021},\n       \
-  \ doi = {10.5281/zenodo.5458943},\n        note = {type: dataset},\n        keywords\
-  \ = {social media, twitter, nlp, covid-19, covid19},\n}\n"
+citation: "\n@misc{banda_large-scale_2021,\n        title = {A large-scale {COVID}-19
+  {Twitter} chatter dataset for open scientific research - an international collaboration},\n
+  \       url = {https://zenodo.org/record/5458943},\n        abstract = {Version
+  78 of the dataset...},\n        urldate = {2021-09-07},\n        publisher = {Zenodo},\n
+  \       author = {Banda, Juan M. and Tekumalla, Ramya and Wang, Guanyu and Yu, Jingyuan
+  and Liu, Tuo and Ding, Yuning and Artemova, Katya and Tutubalina, Elena and Chowell,
+  Gerardo},\n        month = sep,\n        year = {2021},\n        doi = {10.5281/zenodo.5458943},\n
+  \       note = {type: dataset},\n        keywords = {social media, twitter, nlp,
+  covid-19, covid19},\n}\n"
 code: https://github.com/thepanacealab/covid19_twitter
 cost: None
 description: 'Dataset of tweets acquired from the Twitter Stream related to COVID-19
