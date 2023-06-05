@@ -21,7 +21,7 @@ description: This data sample (in support the article "Indicators on firm level 
   connecting to other databases such as financial data. (2021-10-04)
 documentation: https://www.sciencedirect.com/science/article/pii/S2352340922004486
 doi: https://doi.org/10.34894/CI5XRR
-last_edit: Fri, 05 May 2023 11:40:50 GMT
+last_edit: Mon, 05 Jun 2023 08:06:32 GMT
 location: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/CI5XRR
 maintained_by: 'Sajad Ashouri: sajad.ashouri@vtt.fi, Arash Hajikhani: arash.hajikhani@vtt.fi'
 related_publications: Ashouri, S., Suominen, A., Hajikhani, A., Pukelis, L., Schubert,
