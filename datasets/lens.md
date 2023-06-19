@@ -8,9 +8,10 @@ description: 'Lens serves nearly all of the patent documents in the world as ope
   literature along with regulatory and business data. The Lens will allow documents
   and analyses to be shared and embedded to support open mapping of knowledge-directed
   innovation. '
-last_edit: Thu, 16 Feb 2023 04:59:11 GMT
+last_edit: Mon, 19 Jun 2023 16:35:01 GMT
 location: https://lens.org/
 maintained_by: "Cambia Foundation, \nhttps://about.lens.org/contact-us/"
+open_access: 'FALSE'
 record_creation_timestamp: 11/28/2020 17:20:46
 shortname: lens
 tags:
@@ -22,6 +23,7 @@ terms_of_use: Cambia grants you a non-exclusive, non-transferable, revocable, li
   of Creative Commons Attribution licenses with a public benefit element.
 title: Lens.org
 uuid: c39f4844-5ae2-4dcb-bf2c-d6b957125704
+versioning: 'FALSE'
 ---
 
 Lens.org is a platform that aggregates and normalises metadata about 'knowledge objects' -- namely, patents and scholarly works -- and makes available three core datasets (patents, scholarly works, biological sequences and species), as well as management tools for analysing collections of these objects. The following tools are available to users via the Lens website, with or without registration:

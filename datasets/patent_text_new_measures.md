@@ -22,9 +22,10 @@ description: Different open access data files related to the text of USPTO paten
 documentation: https://zenodo.org/record/3515985
 doi: https://doi.org/10.5281/zenodo.3515985
 error_metrics: 'Yes'
-last_edit: 05/05/2023, 15:11:31
+last_edit: Mon, 19 Jun 2023 16:39:26 GMT
 location: https://zenodo.org/record/3515985
 maintained_by: Sam Arts
+open_access: 'TRUE'
 related_projects:
   supercedes:
   - patenttext
@@ -45,5 +46,5 @@ terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1969-2018
 title: 'Patent text: code, data, and new measures'
 uuid: 44f33a6f-5099-4481-abed-af9aadf0bd4f
-versioning: 'Yes'
+versioning: 'FALSE'
 ---

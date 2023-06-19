@@ -20,9 +20,10 @@ doi: '10.5281/zenodo.3552078
 
   '
 error_metrics: None
-last_edit: Tue, 01 Mar 2022 17:21:25 GMT
+last_edit: Mon, 19 Jun 2023 16:35:29 GMT
 location: https://zenodo.org/record/3552078
 maintained_by: Ryan Whalen
+open_access: 'FALSE'
 record_creation_timestamp: 09/15/2021, 05:50:18
 shortname: us_patent_similarity
 tags:
@@ -36,5 +37,5 @@ terms_of_use: ' Creative Commons Attribution 4.0 International'
 timeframe: None
 title: US Patent Similarity Data
 uuid: 868eaad1-3c6a-4730-a70f-853996962d39
-versioning: 'Yes'
+versioning: 'TRUE'
 ---

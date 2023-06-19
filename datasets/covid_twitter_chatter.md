@@ -31,9 +31,10 @@ doi: '10.5281/zenodo.5458943
 
   '
 error_metrics: null
-last_edit: Thu, 02 Dec 2021 17:15:32 GMT
+last_edit: Mon, 19 Jun 2023 16:35:28 GMT
 location: https://zenodo.org/record/5595136
 maintained_by: Panacea Labs, http://www.panacealab.org/covid19/
+open_access: 'FALSE'
 record_creation_timestamp: 09/07/2021, 16:35:04
 references: null
 related_publications: 'https://doi.org/10.3390/epidemiologia2030024, http://doi.org/10.2196/25108,
@@ -52,5 +53,5 @@ terms_of_use: null
 timeframe: 2000-2018
 title: A large-scale COVID-19 Twitter chatter dataset for open scientific research
 uuid: 1a7fc85d-38af-4fe6-83b8-0d629e85d418
-versioning: 'Yes'
+versioning: 'TRUE'
 ---

@@ -21,9 +21,10 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Thu, 15 Jun 2023 18:50:08 GMT
+last_edit: Mon, 19 Jun 2023 16:35:16 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
+open_access: 'TRUE'
 record_creation_timestamp: 11/17/2020 10:38:00
 related_project_shortnames: rons, lens
 related_projects:
@@ -107,5 +108,5 @@ terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit
 uuid: bd8a562a-ce58-4a61-925d-88f0d0695974
-versioning: 'Yes'
+versioning: 'TRUE'
 ---

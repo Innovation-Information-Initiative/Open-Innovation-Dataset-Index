@@ -21,9 +21,10 @@ description: We present a general method for imputing missing information in the
   in PATSTAT.
 documentation: https://www.sciencedirect.com/science/article/pii/S2352340920314955
 doi: https://doi.org/10.7910/DVN/XNTL0W
-last_edit: Sat, 30 Jul 2022 16:19:28 GMT
+last_edit: Mon, 19 Jun 2023 16:35:25 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XNTL0W
 maintained_by: Contact maintainer through Dataverse
+open_access: 'FALSE'
 record_creation_timestamp: 08/17/2021, 11:51:42
 related_publications: ' https://doi.org/10.1016/j.dib.2020.106615'
 shortname: missing_applicant_codes
@@ -35,4 +36,5 @@ tags:
 terms_of_use: ' CC0 - "Public Domain Dedication" '
 title: Imputation of missing applicant country codes in worldwide patent data
 uuid: fb46d05b-2bd9-41fc-a739-91b77a2e85d6
+versioning: 'FALSE'
 ---

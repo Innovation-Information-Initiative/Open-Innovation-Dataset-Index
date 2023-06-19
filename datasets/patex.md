@@ -23,9 +23,10 @@ documentation: 'For the 2019 and later releases, new technical documentation is 
   Graham, Stuart J.H. and Marco, Alan C. and Miller, Richard, The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination (November 30, 2015).
   Available at SSRN: https://ssrn.com/abstract=2702637.'
-last_edit: 04/13/2022, 12:40:04
+last_edit: Mon, 19 Jun 2023 16:35:34 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair
 maintained_by: EconomicsData@uspto.gov
+open_access: 'FALSE'
 related_publications: https://ssrn.com/abstract=29956744, https://ssrn.com/abstract=2702637
 schema_fields:
 - inventor_name_middle
@@ -109,4 +110,5 @@ terms_of_use: 'USPTO’s online databases are not designed or intended to be a s
   Products: https://www.uspto.gov/learning-and-resources/electronic-bulk-data-products'
 title: USPTO OCE Patent Examination Research Data (PatEx)
 uuid: 4342caa7-23af-420c-b2f6-6088f133df6a
+versioning: 'FALSE'
 ---

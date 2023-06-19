@@ -10,9 +10,10 @@ description: Cooperative Patent Classification Data contains the scheme and defi
   technical documents, in particular patent publications, which will be used by both
   offices in the patent granting process
 documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions
-last_edit: 06/02/2023, 12:35:47
+last_edit: Mon, 19 Jun 2023 16:35:36 GMT
 location: https://www.cooperativepatentclassification.org/index
 maintained_by: USPTO, EPO
+open_access: 'FALSE'
 schema_fields:
 - level
 - sizeCache
@@ -55,4 +56,5 @@ tags:
 - science
 title: Cooperative Patent Classification Data
 uuid: 984374a7-16e9-4b35-9445-458daceb01bf
+versioning: 'FALSE'
 ---

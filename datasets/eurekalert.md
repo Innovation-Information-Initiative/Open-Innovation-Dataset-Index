@@ -7,12 +7,14 @@ description: EurekAlert! is a nonprofit news-release distribution platform opera
   organizations engaged in all disciplines of scientific research. EurekAlert! only
   accepts content contributions from public information officers (PIOs) at eligible
   organizations that conduct, publish, or fund scientific research.
-last_edit: Mon, 19 Jun 2023 16:16:38 GMT
+last_edit: Mon, 19 Jun 2023 16:35:53 GMT
 location: https://www.eurekalert.org
 maintained_by: American Academy for the Advancement of Science
+open_access: 'FALSE'
 shortname: eurekalert
 tags:
 - media mentions
 title: EurekAlert
 uuid: 9fb60772-5857-4a4e-aea5-1ff46d5e25d6
+versioning: 'FALSE'
 ---

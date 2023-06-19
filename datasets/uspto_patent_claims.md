@@ -15,9 +15,10 @@ description: The Patent Claims Research Dataset contain detailed information on 
   measures of patent scope.
 documentation: Available at source, including documentation of variables
 doi: 'http://dx.doi.org/10.2139/ssrn.2844964 '
-last_edit: 04/13/2022, 12:40:04
+last_edit: Mon, 19 Jun 2023 16:35:35 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
+open_access: 'FALSE'
 related_publications: https://ssrn.com/abstract=2844964
 schema_fields:
 - pat_dep_wrd_ct
@@ -68,4 +69,5 @@ terms_of_use: 'USPTO’s online databases are not designed or intended to be a s
 timeframe: 1976-2014
 title: USPTO OCE Patent Claims Research Data
 uuid: 7d8cda0b-9ee1-47b9-9dca-8adb93206024
+versioning: 'FALSE'
 ---

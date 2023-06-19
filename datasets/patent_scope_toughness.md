@@ -19,9 +19,10 @@ description: This dataset includes an easy-to-use measure of patent scope that i
   examiner Scope Toughness, which we also validate.
 description_of_relationships_to_other_projects: USPTO patent claims dataset
 documentation: Not unless it’s in the paper
-last_edit: Thu, 10 Mar 2022 11:55:26 GMT
+last_edit: Mon, 19 Jun 2023 16:38:37 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Thompson_Patent_Scope_2017-10-23.csv
 maintained_by: Jeff Kuhn
+open_access: 'TRUE'
 record_creation_timestamp: 11/15/2020 17:47:00
 related_datasets: USPTO patent claims dataset
 related_publications: https://ssrn.com/abstract=2977273
@@ -38,4 +39,5 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
 timeframe: Need to check paper https://ssrn.com/abstract=2977273
 title: Patent Scope and Examiner Toughness
 uuid: b547441d-efdd-4b30-8c78-852d68c9c2ac
+versioning: 'FALSE'
 ---

@@ -8,9 +8,10 @@ description: Dimensions contains more than 100 million publications, ranging fro
   sets, funding, publications, patents, clinical trials, and policy documents. You
   can also view associated categories, funders, institutions, and researcher profiles.
 documentation: https://docs.dimensions.ai/bigquery/index.html
-last_edit: 06/02/2023, 12:35:47
+last_edit: Mon, 19 Jun 2023 16:35:32 GMT
 location: https://www.dimensions.ai/products/free/
 maintained_by: Digital Science, https://www.digital-science.com/
+open_access: 'FALSE'
 schema_fields:
 - gender
 - current_assignee
@@ -213,4 +214,5 @@ terms_of_use: 'Use of both the Dimensions COVID-19 dataset and full Dimensions d
   are subject to the Dimensions Terms of use: https://www.dimensions.ai/policies-terms-legal '
 title: Dimensions
 uuid: dcff88bd-fe6b-4fdb-8159-809bf9d7bc1c
+versioning: 'FALSE'
 ---

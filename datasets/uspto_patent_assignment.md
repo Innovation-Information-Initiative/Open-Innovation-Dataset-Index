@@ -15,9 +15,10 @@ description: The USPTO allows parties to record assignments of patents and paten
   on 8.97 million patent assignments and other transactions recorded at the USPTO
   since 1970 and involving roughly 15.1 million patents and patent applications. It
   is derived from the recording of patent transfers by parties with the USPTO.
-last_edit: Fri, 03 Mar 2023 13:41:19 GMT
+last_edit: Mon, 19 Jun 2023 16:35:36 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-assignment-dataset
 maintained_by: EconomicsData@uspto.gov
+open_access: 'FALSE'
 related_publications: http://ssrn.com/abstract=2636461
 schema_fields:
 - reel_no
@@ -80,4 +81,5 @@ terms_of_use: 'USPTO’s online databases are not designed or intended to be a s
 timeframe: 1970-2020
 title: USPTO OCE Patent Assignment Data
 uuid: 7c697eb3-2d99-4b44-87cb-d3c7bb0568e1
+versioning: 'FALSE'
 ---

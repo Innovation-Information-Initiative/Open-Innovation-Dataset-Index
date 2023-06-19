@@ -11,9 +11,10 @@ description: 'Patent-level variables that provide researchers a new way to chara
   innovation.'
 documentation: https://bowen.finance/bfh_data/
 doi: https://doi.org/10.1287/mnsc.2022.4362
-last_edit: Fri, 05 May 2023 11:40:56 GMT
+last_edit: Mon, 19 Jun 2023 16:35:45 GMT
 location: https://bowen.finance/bfh_data/
 maintained_by: Donald Bowen
+open_access: 'FALSE'
 related_publications: Donald E. Bowen, III, Laurent Frésard, Gerard Hoberg (2022)
   Rapidly Evolving Technologies and Startup Exits. Management Science 0(0). https://doi.org/10.1287/mnsc.2022.4362
 shortname: breadth
@@ -28,7 +29,7 @@ thumbnail_url: https://github.com/donbowen/Patent-Text-Variables/raw/main/code/u
 timeframe: 1930-2018
 title: Breadth and RETech (Text-based)
 uuid: 08826b49-31e3-4487-a2c7-302b71f23a88
-versioning: 'yes'
+versioning: 'TRUE'
 ---
 
 The variables provided here are based on the text in the section of patents describing the innovation. They provide researchers a new way to characterize innovation within public firms, startups, places and more. Importantly, they are distinct from existing measures and do not have look-ahead bias: they only use information available in the patent itself.

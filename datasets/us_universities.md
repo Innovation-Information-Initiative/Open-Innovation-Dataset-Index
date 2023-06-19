@@ -7,9 +7,10 @@ description: Using cross-state panel and cross-U.S. commuting-zone data to look 
   assignee is a univeristy and give the name and state of this university (originally
   taken from USPTO and improved).
 doi: https://doi.org/10.1093/restud/rdy027
-last_edit: Fri, 03 Dec 2021 20:14:51 GMT
+last_edit: Mon, 19 Jun 2023 16:40:16 GMT
 location: https://sites.google.com/site/abergeaudeco/data?authuser=0
 maintained_by: Contact maintainer through Dataverse
+open_access: 'TRUE'
 record_creation_timestamp: 08/17/2021, 09:11:41
 related_publications: https://academic.oup.com/restud/article/86/1/1/5026613
 shortname: us_university_patents
@@ -18,7 +19,9 @@ tags:
 - geography
 - social mobility
 - patents
+terms_of_use: ' CC0 1.0'
 timeframe: 1969-2016
 title: List of USPTO patents from US universities
 uuid: f61ebc77-4082-43c5-ae60-383a756ce308
+versioning: 'FALSE'
 ---

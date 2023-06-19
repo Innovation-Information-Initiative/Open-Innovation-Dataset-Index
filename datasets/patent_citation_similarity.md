@@ -14,9 +14,10 @@ description: Many studies of innovation rely on patent citations to measure inte
   for all citations made by patents issued between 1976 and 2017 to issued patents
   or published patent applications.
 documentation: https://ssrn.com/abstract=2714954
-last_edit: Tue, 11 Jan 2022 08:14:01 GMT
+last_edit: Mon, 19 Jun 2023 16:38:34 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Similarity_2017-10-23.csv
 maintained_by: Jeff Kuhn
+open_access: 'TRUE'
 record_creation_timestamp: 11/14/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_similarity
@@ -29,4 +30,5 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
 timeframe: 1976-2017
 title: Patent Citation Similarity
 uuid: f1a7dfa7-c1f0-4414-a6b9-5a0f0d0e37f1
+versioning: 'FALSE'
 ---

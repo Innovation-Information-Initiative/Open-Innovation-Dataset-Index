@@ -16,9 +16,10 @@ description: 'We introduce the employer-employee inventor dataset INV-BIO ADIAB 
   data of the IAB as employees and disambiguated using a combination of record linkage
   and machine learning methods.'
 doi: 10.5164/IAB.INV-BIO-ADIAB8014.de.en.v1
-last_edit: Mon, 19 Jun 2023 13:42:26 GMT
+last_edit: Mon, 19 Jun 2023 16:35:52 GMT
 location: https://fdz.iab.de/en/our-data-products/individual-and-household-data/inv-bio-adiab/
 maintained_by: IAB FDZ
+open_access: 'FALSE'
 shortname: inv_bio
 tags:
 - patents
@@ -29,4 +30,5 @@ tags:
 timeframe: 1980-2014
 title: Inventor biography data linked to administrative data of the IAB (INV-BIO ADIAB)
 uuid: c379def9-ecaa-484b-8f8e-ed401eec70d3
+versioning: 'FALSE'
 ---
