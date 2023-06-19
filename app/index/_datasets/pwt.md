@@ -10,9 +10,10 @@ description: PWT version 10.0 is a database with information on relative levels 
   2019. Access to the data is provided in Excel, Stata and online formats.
 documentation: https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf
 doi: https://doi.org/10.15141/S50T0R
-last_edit: Sat, 30 Jul 2022 10:40:30 GMT
+last_edit: Mon, 19 Jun 2023 16:36:28 GMT
 location: https://www.rug.nl/ggdc/productivity/pwt/?lang=en
 maintained_by: Contact pwt@rug.nl
+open_access: 'TRUE'
 record_creation_timestamp: 11/22/2020 17:20:46
 shortname: pwt
 tags:
@@ -23,4 +24,5 @@ terms_of_use: CC 4.0
 timeframe: 1950-2017
 title: Penn World Tables
 uuid: 00c6f78f-f689-4d50-a965-812bfd528477
+versioning: 'FALSE'
 ---

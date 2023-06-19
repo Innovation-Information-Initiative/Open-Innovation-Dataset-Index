@@ -11,8 +11,9 @@ description: ' UniChem is large-scale non-redundant database of pointers between
   is not small molecules, but which may nevertheless contain some small molecule information
   (eg: Gene Expression Atlas, PDBe). '
 documentation: https://chembl.gitbook.io/unichem/unichem-2.0/unichem-2.0-beta
-last_edit: Fri, 03 Dec 2021 11:44:45 GMT
+last_edit: Mon, 19 Jun 2023 16:35:37 GMT
 location: https://www.ebi.ac.uk/unichem/beta/
+open_access: 'FALSE'
 shortname: unichem
 tags:
 - biotechnology
@@ -22,4 +23,5 @@ tags:
 - medical
 title: UniChem
 uuid: 640ed301-691a-45c6-aa9d-5f8364424044
+versioning: 'FALSE'
 ---

@@ -14,9 +14,10 @@ description: Patent applicants frequently file groups of patent applications lin
   of family identifiers (clone for near copies, and extended for more attenuated linkages)
   for each patent issued 2005-2014
 documentation: https://ssrn.com/abstract=2709238
-last_edit: Thu, 02 Dec 2021 17:29:51 GMT
+last_edit: Mon, 19 Jun 2023 16:38:43 GMT
 location: https://storage.googleapis.com/jmk_public/Younge-Kuhn_Patent_Families_2017-09-25.csv
 maintained_by: Jeff Kuhn
+open_access: 'TRUE'
 related_publications: https://ssrn.com/abstract=2709238
 shortname: patent_families
 tags:
@@ -28,4 +29,5 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
 timeframe: 2005-2014
 title: Patent Families Dataset
 uuid: eaee5eaa-985b-4ba5-a13a-797d3cfeef1f
+versioning: 'FALSE'
 ---

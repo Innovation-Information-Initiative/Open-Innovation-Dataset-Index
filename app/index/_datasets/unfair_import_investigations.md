@@ -12,9 +12,10 @@ description: US International Trade Commission 337Info Unfair Import Investigati
   Most Section 337 investigations involve allegations of patent or registered trademark
   infringement.
 documentation: FAQ and tutorial available on the site
-last_edit: 04/13/2022, 12:40:04
+last_edit: Mon, 19 Jun 2023 16:35:39 GMT
 location: https://pubapps2.usitc.gov/337external/
 maintained_by: US International Trade Comission
+open_access: 'FALSE'
 schema_fields:
 - teoProceedingInvolved
 - lastUpdated
@@ -68,4 +69,5 @@ tags:
 timeframe: 2008-2021 (prior to 2008 downloadable as a JSON file)
 title: 337Info - Unfair Import Investigations Information System
 uuid: 2721f5ec-e599-4890-9265-9706719fc71e
+versioning: 'FALSE'
 ---

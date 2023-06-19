@@ -11,7 +11,7 @@ description: 'During the first several decades of its existence, the National Bu
   although it predominantly covers the United States.
 
   '
-last_edit: Fri, 03 Dec 2021 13:28:26 GMT
+last_edit: Mon, 19 Jun 2023 16:35:42 GMT
 location: https://www.nber.org/research/data/nber-macrohistory-database
 maintained_by: 'Daniel Feenberg (feenberg at nber dot org)
 
@@ -20,10 +20,12 @@ maintained_by: 'Daniel Feenberg (feenberg at nber dot org)
   data@nber.org
 
   '
+open_access: 'FALSE'
 related_publications: Improving the Accessibility of the NBER's Historical Data, by
   Daniel Feenberg and Jeff Miron (NBER Working Paper 5186). Published in the Journal
   of Business and Economic Statistics, Volume 15 Number 3 (July 1997) pages 293-299.
 shortname: nber_macrohistory
 title: NBER Macrohistory Database
 uuid: 9b37a63b-4bfd-43e9-815e-3fd84cd29301
+versioning: 'FALSE'
 ---

@@ -5,9 +5,10 @@ contributors: Gaétan de Rassenfosse, Bruno van Pottelsberghe de la Potterie
 cost: None
 description: Fees since 1980 at the European (EPO), the US and the Japanese patent
   offices.
-last_edit: Wed, 01 Dec 2021 19:36:06 GMT
+last_edit: Mon, 19 Jun 2023 16:36:44 GMT
 location: http://www.gder.info/download_OBES_data.html
 maintained_by: Gaétan de Rassenfosse
+open_access: 'TRUE'
 record_creation_timestamp: 11/25/2020 17:20:46
 shortname: patent_price_elasticity
 tags:
@@ -17,4 +18,5 @@ tags:
 - Japan
 title: On the price elasticity of demand for patents
 uuid: d76b71a1-2f43-447d-b296-a1b52db6e3d7
+versioning: 'FALSE'
 ---

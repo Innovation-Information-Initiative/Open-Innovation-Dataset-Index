@@ -11,9 +11,10 @@ description: 'This database contains bibliographic and legal event data on publi
   (EPO). The information in PATSTAT Register is, however, considerably deeper and
   more detailed.'
 documentation: https://www.epo.org/searching-for-patents/business/patstat.html
-last_edit: Wed, 01 Dec 2021 15:19:19 GMT
+last_edit: Mon, 19 Jun 2023 16:35:29 GMT
 location: https://www.epo.org/searching-for-patents/business/patstat.html
 maintained_by: EPO
+open_access: 'FALSE'
 record_creation_timestamp: 10/04/2021
 shortname: patstat_register
 superseded_by: Wed, 01 Dec 2021 19:25:00 GMT
@@ -25,6 +26,7 @@ tags:
 terms_of_use: Requires a subscription to access
 title: Patstat Register
 uuid: eb43fc38-8786-4b0f-b3b8-b9d610f456ed
+versioning: 'FALSE'
 wed,_01_dec_2021_19:13:44_gmt: Wed, 01 Dec 2021 19:25:00 GMT
 ---
 

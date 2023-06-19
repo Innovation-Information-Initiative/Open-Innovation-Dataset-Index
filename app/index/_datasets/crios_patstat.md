@@ -17,9 +17,10 @@ description: "Disambiguated inventor's and applicant's names for EPO records. A 
   EPO applications is 1978, bytheway in many reports by priority date you'll meat
   earlier dates."
 documentation: http://ssrn.com/abstract=2404344
-last_edit: Sat, 05 Mar 2022 18:46:31 GMT
+last_edit: Mon, 19 Jun 2023 16:38:10 GMT
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/PATENTS-ICRIOS+database/
 maintained_by: crios@unibocconi.it
+open_access: 'TRUE'
 record_creation_timestamp: 11/30/2020 17:20:46
 shortname: crios_patstat
 tags:
@@ -28,4 +29,5 @@ tags:
 terms_of_use: EPO License
 title: Crios‐Patstat Database
 uuid: 233d7290-f32f-46bb-8a6d-8837e59d9ffb
+versioning: 'FALSE'
 ---

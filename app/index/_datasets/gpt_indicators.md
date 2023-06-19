@@ -14,9 +14,10 @@ description: 'This database contains yearly technology-level measures of Growth,
   system, as described in the article entitled "Mapping General Purpose Technologies
   with Patent Data". (2020-03-06) '
 documentation: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/PQGHKA/KZDEBE&version=1.0
-last_edit: Thu, 02 Dec 2021 17:15:28 GMT
+last_edit: Mon, 19 Jun 2023 16:35:24 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA
 maintained_by: Sergio Petralia (contact maintainer through Dataverse)
+open_access: 'FALSE'
 record_creation_timestamp: 08/17/2021, 11:25:28
 related_publications: https://ideas.repec.org/p/egu/wpaper/2027.html
 shortname: gpt_indicators
@@ -31,4 +32,5 @@ terms_of_use: ' CC0 - "Public Domain Dedication" '
 timeframe: ' 1920-2020'
 title: GPT Indicators
 uuid: 5ab54caa-f53c-4537-8dac-8bf20cab594e
+versioning: 'FALSE'
 ---

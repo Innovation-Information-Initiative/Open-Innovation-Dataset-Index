@@ -16,9 +16,10 @@ description: Innovation studies frequently distinguish between patent citation s
   issued 2001-2014, although some level of leftward truncation is evident due to limitations
   in internal data availability at the USPTO.
 documentation: https://ssrn.com/abstract=2714954
-last_edit: Thu, 02 Dec 2021 17:29:45 GMT
+last_edit: Mon, 19 Jun 2023 16:38:40 GMT
 location: https://storage.googleapis.com/jmk_public/Kuhn-Younge-Marco_Patent_Citation_Source_and_Timing_2017-09-25.csv
 maintained_by: Jeff Kuhn
+open_access: 'TRUE'
 record_creation_timestamp: 11/16/2020 17:47:00
 related_publications: https://ssrn.com/abstract=2714954
 shortname: patent_citation_timing
@@ -32,4 +33,5 @@ terms_of_use: These datasets are provided to the public  subject to the Creative
 timeframe: 2001-2014
 title: Patent Citation Timing and Source
 uuid: 2d88904f-056b-4230-96b4-f70c178d9f88
+versioning: 'FALSE'
 ---

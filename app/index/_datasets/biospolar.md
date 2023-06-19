@@ -16,9 +16,10 @@ description: Mapping the scientific and patent landscapes for biodiversity based
 description_of_relationships_to_other_projects: lens.org
 documentation: https://osf.io/py6ve/wiki/home/
 doi: 10.17605/OSF.IO/PY6VE
-last_edit: Thu, 02 Dec 2021 17:15:32 GMT
+last_edit: Mon, 19 Jun 2023 16:35:28 GMT
 location: https://osf.io/py6ve/
 maintained_by: Paul Oldham
+open_access: 'FALSE'
 record_creation_timestamp: 09/10/2021, 08:10:36
 references: Lens
 related_datasets: lens.org
@@ -43,6 +44,7 @@ terms_of_use: 'The datasets are made available under a Creative Commons Attribut
   If using in a publication please cite the two articles described here.'
 title: Biospolar Antarctic Literature and Patents
 uuid: fcf09f34-d5a8-483d-94a3-09a03c167100
+versioning: 'FALSE'
 ---
 
 The Biospolar project aimed to identify research and innovation involving Antarctic biodiversity. As part of the project large datasets were created of the scientific literature and patent data for the Antarctic using the [open access Lens database](https://www.lens.org/). This OSF repository provides public access to those datasets for further research. Data is provided as csv files and larger datasets are zipped using bzip.

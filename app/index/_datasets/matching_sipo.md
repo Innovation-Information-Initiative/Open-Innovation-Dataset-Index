@@ -13,9 +13,10 @@ description: "         \nMatching SIPO patents to Chinese listed firms (\"Main B
   Matching SIPO Patents to Chinese Publicly-Listed Companies and Subsidiaries\" for
   more details about this dataset. "
 documentation: 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT '
-last_edit: Fri, 05 May 2023 11:41:18 GMT
+last_edit: Mon, 19 Jun 2023 16:35:23 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO
 maintained_by: Contact maintainer through Dataverse
+open_access: 'FALSE'
 record_creation_timestamp: 08/17/2021, 11:16:07
 record_superceded_by: Tue, 01 Mar 2022 12:17:46 GMT
 shortname: sipo_matching
@@ -29,5 +30,6 @@ tags:
 timeframe: through 2016?
 title: Chinese Patent Data Project Dataverse
 uuid: 1b372a68-18ae-45e3-9a28-a6feecc3e7b8
+versioning: 'FALSE'
 wed,_01_dec_2021_19:13:44_gmt: 2a0949bb-2f36-45a7-b4cf-109456cec21d
 ---

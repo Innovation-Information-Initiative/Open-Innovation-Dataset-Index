@@ -13,9 +13,10 @@ description: 'This includes patent level metadata, 1926-1975 (OCRed from USPTO I
   agencies, entity size of the patent owner etc, government support categories at
   patent level and finally, aggregate yearly statistics. (2019-06-02) '
 documentation: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
-last_edit: Wed, 05 Apr 2023 15:34:10 GMT
+last_edit: Mon, 19 Jun 2023 16:38:41 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
 maintained_by: Contact maintainer through Dataverse
+open_access: 'TRUE'
 record_creation_timestamp: 12/05/2020 17:20:46
 shortname: gov_research_fuels_innovation
 tags:
@@ -25,5 +26,5 @@ terms_of_use: CC0 - "Public Domain Dedication"
 timeframe: 1926-1975 and 1975-2017
 title: 'Replication Data for: Government-funded research increasingly fuels innovation'
 uuid: 50c1e32c-d2f5-4328-be8e-b7f172772a26
-versioning: Y
+versioning: 'TRUE'
 ---

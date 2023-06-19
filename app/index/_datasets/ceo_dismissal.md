@@ -15,9 +15,10 @@ description: This is a database of qualitatively coded reasons for a CEO’s dis
 description_of_relationships_to_other_projects: Execucomp, https://libguides.uml.edu/wrds/ExecuComp
 documentation: Documentation included as a .docx on Zenodo
 doi: 10.5281/zenodo.4618103
-last_edit: Tue, 02 Aug 2022 00:44:36 GMT
+last_edit: Mon, 19 Jun 2023 16:35:27 GMT
 location: https://zenodo.org/record/5348198
 maintained_by: Richard Gentry
+open_access: 'FALSE'
 record_creation_timestamp: 09/02/2021, 11:24:03
 related_datasets: Execucomp, https://libguides.uml.edu/wrds/ExecuComp
 related_publications: ' https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278'
@@ -31,4 +32,5 @@ terms_of_use: Open Data Commons Attribution License v1.0
 timeframe: 1992-2018
 title: Open Sourced Database for CEO Dismissal 1992-2018
 uuid: 29154d41-30ef-4539-b428-819ca4c66965
+versioning: 'FALSE'
 ---

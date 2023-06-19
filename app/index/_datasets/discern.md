@@ -18,9 +18,10 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   to their database of interest.'
 documentation: https://doi.org/10.5281/zenodo.3594642
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Wed, 05 Apr 2023 21:08:05 GMT
+last_edit: Mon, 19 Jun 2023 16:38:28 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
+open_access: 'TRUE'
 shortname: discern
 tags:
 - Compustat
@@ -34,5 +35,5 @@ tags:
 timeframe: 1980-2015
 title: 'DISCERN: Duke Innovation & SCientific Enterprises Research Network'
 uuid: f2fcc603-7883-4e18-a82a-6275ffd82e98
-versioning: 'Yes'
+versioning: 'TRUE'
 ---

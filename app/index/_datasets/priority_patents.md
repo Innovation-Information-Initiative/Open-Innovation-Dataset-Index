@@ -9,9 +9,10 @@ contributors: Gaétan de Rassenfosse, Hélène Dernis, Dominique Guellec, Lucio 
 cost: None
 description: The goal of the project was to produce a dataset of priority patent applications
   filed across the globe, allocated by inventor and applicant location.
-last_edit: Sat, 30 Jul 2022 13:50:32 GMT
+last_edit: Mon, 19 Jun 2023 16:36:38 GMT
 location: http://www.gder.info/download_wwc_excel.html
 maintained_by: Gaétan de Rassenfosse
+open_access: 'TRUE'
 record_creation_timestamp: 11/23/2020 17:20:46
 shortname: priority_patents
 tags:
@@ -19,4 +20,5 @@ tags:
 - location of inventors
 title: Worldwide Count of Priority Patents
 uuid: 068fb03e-642a-4896-b61c-ff6a16251e08
+versioning: 'FALSE'
 ---

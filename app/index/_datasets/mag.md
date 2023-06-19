@@ -12,9 +12,10 @@ cost: None
 description: 'The Microsoft Academic Graph is a heterogeneous graph containing scientific
   publication records, citation relationships between those publications, as well
   as authors, institutions, journals, conferences, and fields of study. '
-last_edit: Thu, 02 Dec 2021 11:54:52 GMT
+last_edit: Mon, 19 Jun 2023 16:37:01 GMT
 location: https://academic.microsoft.com/home
 maintained_by: Currently in transition
+open_access: 'TRUE'
 record_creation_timestamp: 11/29/2020 17:20:46
 shortname: mag
 tags:
@@ -23,4 +24,5 @@ tags:
 terms_of_use: ODC-BY
 title: Microsoft Academic Graph
 uuid: 9c4124ed-5337-4b36-a1c9-7cf256a3384b
+versioning: 'FALSE'
 ---

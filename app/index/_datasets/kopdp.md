@@ -16,9 +16,10 @@ description: 'The project collects all utility patents granted from the Korea In
   of all sample KIPO patents and 87% of US patents assigned to Korean assignees are
   matched. '
 documentation: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3404698
-last_edit: Fri, 05 May 2023 15:09:36 GMT
+last_edit: Mon, 19 Jun 2023 16:35:47 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AUYERV
 maintained_by: Jihong Lee
+open_access: 'FALSE'
 related_publications: https://dx.doi.org/10.2139/ssrn.3404698
 shortname: kopdp
 tags:
@@ -32,5 +33,5 @@ terms_of_use: '
 timeframe: 1948-2016
 title: Korea Patent Data Project (KoPDP)
 uuid: 8db0db57-b063-4421-b6ac-ace9e75f5411
-versioning: 'yes'
+versioning: 'TRUE'
 ---
