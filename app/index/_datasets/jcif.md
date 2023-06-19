@@ -1,5 +1,6 @@
 ---
 layout: default
+cost: None
 description: This measure is analogous to the commonly used Journal Impact Factor
   (JIF), which is also calculated here. A journal’s impact factor is a popular measure
   of its quality, calculated for year t as the number of times articles from years
@@ -7,7 +8,7 @@ description: This measure is analogous to the commonly used Journal Impact Facto
   during years t-1 and t-2. Just like JIF is a journal-level measure of quality, it
   is possible to build a journal-level measure of appliedness or commercial relevance
   by replacing paper-to-paper citationss by patent-to-paper citations.
-last_edit: Mon, 19 Jun 2023 16:48:34 GMT
+last_edit: Mon, 19 Jun 2023 17:03:53 GMT
 location: https://github.com/mattmarx/jcif
 open_access: 'TRUE'
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3006859
