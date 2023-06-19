@@ -1,11 +1,12 @@
 ---
+cost: None
 description: ExPORTER is an open data dump of the National Institute of Health RePORTER
   database, which tracks administrative data on NIH funded projects. ExPORTER provides
   bulk administrative data found in RePORTER to the public for detailed analyses or
   to load into their own data systems. Generally, files for downloading are provided
   in CSV formats.
 documentation: https://report.nih.gov/faqs
-last_edit: Mon, 19 Jun 2023 16:48:45 GMT
+last_edit: Mon, 19 Jun 2023 17:03:52 GMT
 location: https://reporter.nih.gov/exporter
 open_access: 'TRUE'
 shortname: exporter
