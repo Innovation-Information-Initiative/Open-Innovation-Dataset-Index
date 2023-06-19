@@ -12,7 +12,7 @@ description: This is a human rated contextual phrase to phrase matching dataset 
   related. The dataset was used in the U.S. Patent Phrase to Phrase Matching competition.
 documentation: https://www.kaggle.com/datasets/google/google-patent-phrase-similarity-dataset
 doi: " \t\nhttps://doi.org/10.48550/arXiv.2208.01171"
-last_edit: Fri, 05 May 2023 11:53:51 GMT
+last_edit: Mon, 19 Jun 2023 13:55:01 GMT
 location: https://www.kaggle.com/datasets/google/google-patent-phrase-similarity-dataset
 maintained_by: Grigor Aslanyan
 related_publications: https://arxiv.org/abs/2208.01171
@@ -21,6 +21,7 @@ tags:
 - phrases
 - similarity
 - semantic matching
+- validation
 terms_of_use: Please cite the paper if you use the dataset.
 title: Google Patent Phrase Similarity Dataset
 uuid: fd8045d7-6a3e-4731-9f0d-9e7ac31eed60
