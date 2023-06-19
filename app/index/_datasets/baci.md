@@ -4,7 +4,7 @@ cost: None
 description: BACI provides disaggregated data on bilateral trade flows for more than
   5000 products and 200 countries.
 documentation: http://www.cepii.fr/DATA_DOWNLOAD/baci/doc/DescriptionBACI.html
-last_edit: Mon, 19 Jun 2023 16:40:32 GMT
+last_edit: Mon, 19 Jun 2023 16:40:35 GMT
 location: http://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37
 maintained_by: Pierre Cotterlaz, baci@cepii.fr
 open_access: 'TRUE'

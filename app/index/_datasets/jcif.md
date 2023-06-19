@@ -7,9 +7,9 @@ description: This measure is analogous to the commonly used Journal Impact Facto
   during years t-1 and t-2. Just like JIF is a journal-level measure of quality, it
   is possible to build a journal-level measure of appliedness or commercial relevance
   by replacing paper-to-paper citationss by patent-to-paper citations.
-last_edit: Mon, 19 Jun 2023 16:35:54 GMT
+last_edit: Mon, 19 Jun 2023 16:48:34 GMT
 location: https://github.com/mattmarx/jcif
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3006859
 shortname: jcif
 terms_of_use: 'Michael Bikard and Matt Marx introduced JCIF in the paper "From Academia

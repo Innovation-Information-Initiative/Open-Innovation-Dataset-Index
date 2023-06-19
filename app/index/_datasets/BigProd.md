@@ -22,10 +22,10 @@ description: This data sample (in support the article "Indicators on firm level 
   connecting to other databases such as financial data. (2021-10-04)
 documentation: https://www.sciencedirect.com/science/article/pii/S2352340922004486
 doi: https://doi.org/10.34894/CI5XRR
-last_edit: Mon, 19 Jun 2023 16:35:45 GMT
+last_edit: Mon, 19 Jun 2023 16:46:47 GMT
 location: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/CI5XRR
 maintained_by: 'Sajad Ashouri: sajad.ashouri@vtt.fi, Arash Hajikhani: arash.hajikhani@vtt.fi'
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: Ashouri, S., Suominen, A., Hajikhani, A., Pukelis, L., Schubert,
   T., Türkeli, S., Van Beers, C. and Cunningham, S., 2022. Indicators on firm level
   innovation activities from web scraped data. Data in brief, 42, p.108246.

@@ -16,9 +16,9 @@ description: 'Drawing upon recent advances in machine learning and natural langu
   statistics, a novelty measure based on the first appearance of a word in the patent
   corpus, and an automated co-inventor network mapping tool. '
 documentation: https://funginstitute.berkeley.edu/wp-content/uploads/2016/11/Machine_learning_and_natural_language_processing_on_the_patent_corpus.pdf
-last_edit: Mon, 19 Jun 2023 16:35:40 GMT
+last_edit: Mon, 19 Jun 2023 16:46:02 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ucb-fung-patent
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: ' https://doi.org/10.1111/jems.12259'
 schema_fields:
 - Country

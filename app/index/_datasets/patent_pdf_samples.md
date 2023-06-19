@@ -24,10 +24,10 @@ description: 'The dataset consists of PDFs in Google Cloud Storage from the firs
 
   '
 documentation: At site
-last_edit: Mon, 19 Jun 2023 16:35:41 GMT
+last_edit: Mon, 19 Jun 2023 16:46:06 GMT
 location: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
 maintained_by: Google Cloud Public Datasets Program
-open_access: 'FALSE'
+open_access: 'TRUE'
 schema_fields:
 - invention_type
 - title_line_1

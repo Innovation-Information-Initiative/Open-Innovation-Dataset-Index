@@ -13,10 +13,10 @@ description: This is a human rated contextual phrase to phrase matching dataset 
   related. The dataset was used in the U.S. Patent Phrase to Phrase Matching competition.
 documentation: https://www.kaggle.com/datasets/google/google-patent-phrase-similarity-dataset
 doi: " \t\nhttps://doi.org/10.48550/arXiv.2208.01171"
-last_edit: Mon, 19 Jun 2023 16:35:47 GMT
+last_edit: Mon, 19 Jun 2023 16:47:03 GMT
 location: https://www.kaggle.com/datasets/google/google-patent-phrase-similarity-dataset
 maintained_by: Grigor Aslanyan
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: https://arxiv.org/abs/2208.01171
 shortname: phrase_similarity
 tags:

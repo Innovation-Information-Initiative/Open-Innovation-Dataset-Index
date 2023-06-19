@@ -12,10 +12,10 @@ description: 'Patent-level variables that provide researchers a new way to chara
   innovation.'
 documentation: https://bowen.finance/bfh_data/
 doi: https://doi.org/10.1287/mnsc.2022.4362
-last_edit: Mon, 19 Jun 2023 16:35:45 GMT
+last_edit: Mon, 19 Jun 2023 16:46:46 GMT
 location: https://bowen.finance/bfh_data/
 maintained_by: Donald Bowen
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: Donald E. Bowen, III, Laurent Frésard, Gerard Hoberg (2022)
   Rapidly Evolving Technologies and Startup Exits. Management Science 0(0). https://doi.org/10.1287/mnsc.2022.4362
 shortname: breadth

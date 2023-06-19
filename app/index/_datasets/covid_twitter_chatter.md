@@ -9,7 +9,7 @@ citation: "\n@misc{banda_large-scale_2021,\n        title = {A large-scale {COVI
   and Liu, Tuo and Ding, Yuning and Artemova, Katya and Tutubalina, Elena and Chowell,
   Gerardo},\n        month = sep,\n        year = {2021},\n        doi = {10.5281/zenodo.5458943},\n
   \       note = {type: dataset},\n        keywords = {social media, twitter, nlp,
-  covid-19, covid19},\n}\n"
+  covid-19, covid19},\n}"
 code: https://github.com/thepanacealab/covid19_twitter
 cost: None
 description: 'Dataset of tweets acquired from the Twitter Stream related to COVID-19
@@ -32,10 +32,10 @@ doi: '10.5281/zenodo.5458943
 
   '
 error_metrics: null
-last_edit: Mon, 19 Jun 2023 16:35:28 GMT
+last_edit: Mon, 19 Jun 2023 16:41:37 GMT
 location: https://zenodo.org/record/5595136
 maintained_by: Panacea Labs, http://www.panacealab.org/covid19/
-open_access: 'FALSE'
+open_access: 'TRUE'
 record_creation_timestamp: 09/07/2021, 16:35:04
 references: null
 related_publications: 'https://doi.org/10.3390/epidemiologia2030024, http://doi.org/10.2196/25108,

@@ -21,10 +21,10 @@ doi: '10.5281/zenodo.3552078
 
   '
 error_metrics: None
-last_edit: Mon, 19 Jun 2023 16:35:29 GMT
+last_edit: Mon, 19 Jun 2023 16:42:15 GMT
 location: https://zenodo.org/record/3552078
 maintained_by: Ryan Whalen
-open_access: 'FALSE'
+open_access: 'TRUE'
 record_creation_timestamp: 09/15/2021, 05:50:18
 shortname: us_patent_similarity
 tags:
