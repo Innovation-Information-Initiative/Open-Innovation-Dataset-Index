@@ -1,5 +1,6 @@
 ---
 contributors: Luca Falciola, Massimo Barbieri
+cost: None
 description: 'Most scientific publishers require authors to submit their manuscripts
   with a text reporting their own parallel activities, including patent-related ones,
   that may be considered as potential Conflict-of-Interest (COI). The authors’ or
@@ -15,9 +16,9 @@ description: 'Most scientific publishers require authors to submit their manuscr
   Scholar Lens, using searches detailed in the documentation.'
 documentation: https://assets.researchsquare.com/files/rs-3022970/v1/750fe82ea1989b37659632d7.pdf
 doi: https://doi.org/10.21203/rs.3.rs-3022970/v1
-last_edit: Mon, 19 Jun 2023 16:35:52 GMT
+last_edit: Mon, 19 Jun 2023 16:48:19 GMT
 maintained_by: lfalciola@scibilis.be
-open_access: 'FALSE'
+open_access: 'TRUE'
 shortname: patent_disclosure_conflicts
 tags:
 - Conflict of interest

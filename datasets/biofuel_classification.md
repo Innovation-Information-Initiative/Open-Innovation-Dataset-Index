@@ -2,7 +2,7 @@
 citation: 'Kessler, Jeff, 2015, "Stanford NLP Model Output for Biofuel Patent Classification",
   https://doi.org/10.7910/DVN/29374, Harvard Dataverse, V1 '
 contributors: Jeff Kessler
-cost: Free
+cost: None
 description: 'Through use of natural language processing and machine-learning algorithms,
   we expand patent classification capabilities to better explain the history of biofuels
   innovation.
@@ -15,10 +15,10 @@ description: 'Through use of natural language processing and machine-learning al
   2014. Included are the classification results and associated patent numbers for
   both the manually trained patents, and for the automatically categorized patents.
   (2015-03)'
-last_edit: Mon, 19 Jun 2023 16:35:52 GMT
+last_edit: Mon, 19 Jun 2023 16:48:17 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/29374
 maintained_by: Jeff Kessler
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: https://www.sciencedirect.com/science/article/abs/pii/S0301421516304451
 shortname: biofuel_classification
 tags:

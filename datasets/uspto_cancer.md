@@ -13,10 +13,10 @@ description: 'The USPTO Cancer Moonshot Patent Data contains detailed informatio
   surgical devices, data analytics, and genomic-based inventions. The final dataset
   consist of roughly 270,000 patent documents spanning the 1976 to 2016 period. '
 documentation: https://bulkdata.uspto.gov/data/patent/cancer/moonshot/2016/cancer_patent_data_doc_v15.docx
-last_edit: Mon, 19 Jun 2023 16:35:40 GMT
+last_edit: Mon, 19 Jun 2023 16:46:04 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/cancer-moonshot-patent-data
 maintained_by: economicsData@uspto.gov
-open_access: 'FALSE'
+open_access: 'TRUE'
 schema_fields: '[]'
 shortname: uspto_cancer
 tags:

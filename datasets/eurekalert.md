@@ -1,5 +1,5 @@
 ---
-cost: free
+cost: None
 description: EurekAlert! is a nonprofit news-release distribution platform operated
   by the American Association for the Advancement of Science (AAAS) as a resource
   for journalists and the public. EurekAlert! hosts news releases produced by universities,
@@ -7,7 +7,7 @@ description: EurekAlert! is a nonprofit news-release distribution platform opera
   organizations engaged in all disciplines of scientific research. EurekAlert! only
   accepts content contributions from public information officers (PIOs) at eligible
   organizations that conduct, publish, or fund scientific research.
-last_edit: Mon, 19 Jun 2023 16:35:53 GMT
+last_edit: Mon, 19 Jun 2023 16:48:23 GMT
 location: https://www.eurekalert.org
 maintained_by: American Academy for the Advancement of Science
 open_access: 'FALSE'

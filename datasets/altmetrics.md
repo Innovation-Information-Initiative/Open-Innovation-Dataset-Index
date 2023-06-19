@@ -3,7 +3,7 @@ cost: Altmetrics provides free access to the Altmetric Details Page API for nonc
   academic research purposes.
 description: Tracks a combination of public policy documents, wikipedia, open syllabi,
   social media and mainstream media to provide enhanced measures of academic impact.
-last_edit: Mon, 19 Jun 2023 16:35:53 GMT
+last_edit: Mon, 19 Jun 2023 16:48:16 GMT
 location: https://www.altmetric.com/
 open_access: 'FALSE'
 shortname: altmetrics

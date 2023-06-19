@@ -5,9 +5,9 @@ cost: None
 description: 'We provide open access to the code and data to calculate the text-based
   similarity between any two utility patents granted by the United States Patent and
   Trademark Office between 1976 and 2013, or between any two patent portfolios '
-last_edit: Mon, 19 Jun 2023 16:35:46 GMT
+last_edit: Mon, 19 Jun 2023 16:46:53 GMT
 location: https://dataverse.harvard.edu/dataverse/patenttext
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_projects:
   superceded by:
   - patent_text_new_measures

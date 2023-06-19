@@ -15,10 +15,10 @@ description: Mapping the scientific and patent landscapes for biodiversity based
 description_of_relationships_to_other_projects: lens.org
 documentation: https://osf.io/py6ve/wiki/home/
 doi: 10.17605/OSF.IO/PY6VE
-last_edit: Mon, 19 Jun 2023 16:35:28 GMT
+last_edit: Mon, 19 Jun 2023 16:42:14 GMT
 location: https://osf.io/py6ve/
 maintained_by: Paul Oldham
-open_access: 'FALSE'
+open_access: 'TRUE'
 record_creation_timestamp: 09/10/2021, 08:10:36
 references: Lens
 related_datasets: lens.org

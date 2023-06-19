@@ -3,10 +3,10 @@ cost: None
 description: These statistics include monthly data for designs, patents, trade marks.
 documentation: The attached documents describe the data
 doi: ' '
-last_edit: Mon, 19 Jun 2023 16:35:27 GMT
+last_edit: Mon, 19 Jun 2023 16:41:17 GMT
 location: https://www.gov.uk/government/collections/patents-trade-marks-and-designs-monthly-statistics
 maintained_by: UK Intellectual Property Office, https://www.gov.uk/government/organisations/intellectual-property-office
-open_access: 'FALSE'
+open_access: 'TRUE'
 record_creation_timestamp: 09/02/2021, 10:13:39
 shortname: uk_ipo_monthly
 tags:

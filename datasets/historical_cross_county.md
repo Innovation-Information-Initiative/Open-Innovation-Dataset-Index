@@ -8,10 +8,10 @@ description: This Historical Cross Country Technology Adoption Dataset is a data
   the major technologies introduced in the past 250 years across the World's leading
   industrialized economies.
 documentation: https://www.nber.org/hccta/hcctadhelp.pdf
-last_edit: Mon, 19 Jun 2023 16:35:43 GMT
+last_edit: Mon, 19 Jun 2023 16:46:41 GMT
 location: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
 maintained_by: Diego A. Comin, diego.comin@nyu.edu, Bart Hobijin, bart.hobijn@ny.frb.org
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: 'Comin, D. and Hohijn B., "Cross-Country Technological Adoption:
   Making the Theories Face the Facts". Journal of Monetary Economics, January 2004,
   pp. 39-83.'

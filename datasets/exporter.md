@@ -5,9 +5,9 @@ description: ExPORTER is an open data dump of the National Institute of Health R
   to load into their own data systems. Generally, files for downloading are provided
   in CSV formats.
 documentation: https://report.nih.gov/faqs
-last_edit: Mon, 19 Jun 2023 16:35:54 GMT
+last_edit: Mon, 19 Jun 2023 16:48:45 GMT
 location: https://reporter.nih.gov/exporter
-open_access: 'FALSE'
+open_access: 'TRUE'
 shortname: exporter
 tags:
 - scholarly

@@ -1,6 +1,6 @@
 ---
 contributors: Fabian Gaessler, M. Dorner, D. Harhoff, K. Hoisl and F. Poege
-cost: free
+cost: None
 description: 'We introduce the employer-employee inventor dataset INV-BIO ADIAB 1980-2014,
   which records complete biographies of more than 150,000 inventors in Germany between
   1980 and 2014. This dataset tracks each inventor’s employment status and inventive
@@ -16,10 +16,10 @@ description: 'We introduce the employer-employee inventor dataset INV-BIO ADIAB 
   data of the IAB as employees and disambiguated using a combination of record linkage
   and machine learning methods.'
 doi: 10.5164/IAB.INV-BIO-ADIAB8014.de.en.v1
-last_edit: Mon, 19 Jun 2023 16:35:52 GMT
+last_edit: Mon, 19 Jun 2023 16:48:01 GMT
 location: https://fdz.iab.de/en/our-data-products/individual-and-household-data/inv-bio-adiab/
 maintained_by: IAB FDZ
-open_access: 'FALSE'
+open_access: 'TRUE'
 shortname: inv_bio
 tags:
 - patents

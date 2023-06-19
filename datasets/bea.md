@@ -6,10 +6,10 @@ description: The US Bureau of Economic Analysis publishes live data and metrics 
   spending and investment. This data is exposed through their API, and also made available
   through an R package (bea.R).
 documentation: https://www.bea.gov/data
-last_edit: Mon, 19 Jun 2023 16:35:48 GMT
+last_edit: Mon, 19 Jun 2023 16:47:50 GMT
 location: https://www.bea.gov/data
 maintained_by: Bureau of Economic Analysis
-open_access: 'FALSE'
+open_access: 'TRUE'
 related_publications: https://www.ucl.ac.uk/bartlett/public-purpose/wp2023-02
 shortname: bea
 tags:
