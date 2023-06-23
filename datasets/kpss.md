@@ -15,7 +15,7 @@ description: 'We propose a new measure of the economic importance of each innova
 
   This data provides an updated data series for KPSS values and forward citations,
   a patent number to the CRSP "permno" match and a patent number to CPC class match.'
-last_edit: Mon, 19 Jun 2023 17:04:45 GMT
+last_edit: Fri, 23 Jun 2023 04:24:31 GMT
 location: https://github.com/KPSS2017/Technological-Innovation-Resource-Allocation-and-Growth-Extended-Data
 maintained_by: 'Please contact Dimitris Papanikolaou (d-papanikolaou@kellogg.northwestern.edu)
   or Amit Seru (aseru@stanford.edu) for any questions regarding the data.
