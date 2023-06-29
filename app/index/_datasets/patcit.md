@@ -22,7 +22,7 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Mon, 19 Jun 2023 16:35:16 GMT
+last_edit: Thu, 29 Jun 2023 09:10:18 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 open_access: 'TRUE'
@@ -105,6 +105,7 @@ tags:
 - science
 - database
 - Wikipedia
+- validation
 terms_of_use: CC-BY 4.0 International
 timeframe: 1836-2018
 title: PatCit
