@@ -16,7 +16,7 @@ description: 'Through use of natural language processing and machine-learning al
   2014. Included are the classification results and associated patent numbers for
   both the manually trained patents, and for the automatically categorized patents.
   (2015-03)'
-last_edit: Mon, 19 Jun 2023 16:48:17 GMT
+last_edit: Wed, 12 Jul 2023 16:01:38 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/29374
 maintained_by: Jeff Kessler
 open_access: 'TRUE'
