@@ -7,6 +7,7 @@ tags:
 - validation
 - open data
 title: Validation in Innovation Data
+uuid: a2ba7a86-73af-4494-8a28-3c86784f7d03
 ---
 
 Within the space of Innovation research, there is a diversity of approaches to validating the reliability of new datasets, metrics and tools. Validation datasets are of particular salience to machine learning tasks, where they are used to evaluate and tune models prior to testing. The wider concept of a 'validation dataset' is necessarily a bit ambiguous -- many regular datasets may be used for the cross-checking of the effectiveness of a particular model. Here, we list datasets designed with this task in mind, however, this list could be extended to include datasets popularly employed for this task.
