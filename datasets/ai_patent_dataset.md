@@ -28,4 +28,5 @@ tags:
 timeframe: 1976-2020
 title: Artificial Intelligence Patent Dataset
 uuid: 335a9e17-069a-468f-b5b3-fa7151c83a8a
+versioning: 'FALSE'
 ---
