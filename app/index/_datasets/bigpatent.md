@@ -36,4 +36,5 @@ tags:
 terms_of_use: CC-by-4.0
 title: BIGPATENT
 uuid: 6b086e22-fda6-4c15-add6-04253bcb41d3
+versioning: 'FALSE'
 ---
