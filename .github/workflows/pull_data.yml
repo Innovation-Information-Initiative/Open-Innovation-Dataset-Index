@@ -21,7 +21,7 @@ jobs:
     name: Pulling regular updates from the I³ Essential Innovation Datasets sheet
     steps:
       - name: checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ssh-key: "${{ secrets.COMMIT_KEY }}"
 
