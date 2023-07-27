@@ -23,7 +23,7 @@ description: 'The dataset consists of PDFs in Google Cloud Storage from the firs
 
   '
 documentation: At site
-last_edit: Mon, 19 Jun 2023 16:46:06 GMT
+last_edit: Thu, 27 Jul 2023 09:52:46 GMT
 location: https://console.cloud.google.com/marketplace/product/global-patents/labeled-patents
 maintained_by: Google Cloud Public Datasets Program
 open_access: 'TRUE'
@@ -53,6 +53,7 @@ tags:
 - OCR
 - document recognition
 - benchmarking
+- validation
 terms_of_use: CC BY 4.0
 title: Patent PDF Samples with Extracted Structured Data
 uuid: 8b8da8ff-2b09-4e1f-9523-c0c549c5cfa1
