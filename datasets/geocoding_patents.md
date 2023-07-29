@@ -15,8 +15,8 @@ description: The dataset provides geographic coordinates for inventor and applic
   offices.
 documentation: https://doi.org/10.1038/s41597-019-0264-6
 doi: https://doi.org/10.7910/DVN/OTTBDX
-last_edit: Fri, 28 Jul 2023 08:25:56 GMT
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX
+last_edit: Sat, 29 Jul 2023 06:33:13 GMT
+location: Geocoding of worldwide patent data - Harvard Dataverse
 maintained_by: Contact maintainer through Dataverse
 open_access: 'TRUE'
 record_creation_timestamp: 11/24/2020 17:20:46
