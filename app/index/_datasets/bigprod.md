@@ -12,6 +12,7 @@ layout: default
 layout: default
 layout: default
 layout: default
+layout: default
 citation: Ashouri, S., Suominen, A., Hajikhani, A., Pukelis, L., Schubert, T., Türkeli,
   S., Van Beers, C. and Cunningham, S., 2022. Indicators on firm level innovation
   activities from web scraped data. Data in brief, 42, p.108246.
