@@ -3,7 +3,7 @@ cost: None
 description: CPC classifications, NBER classifications (to 2015), USP classificiations,
   WIPO technology fields, Lookup tables (CPC, USPC, WIPO, NBER, US gov. organizations),
   botanic info for plant patents.
-last_edit: Mon, 19 Jun 2023 16:42:49 GMT
+last_edit: Mon, 04 Sep 2023 02:51:35 GMT
 location: https://patentsview.org/download/data-download-tables
 maintained_by: USPTO
 open_access: 'TRUE'
