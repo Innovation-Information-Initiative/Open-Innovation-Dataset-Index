@@ -21,7 +21,7 @@ description: 'BIGPATENT, consisting of 1.3 million records of U.S. patent docume
   baselines and popular learning models on BIGPATENT to shed light on new challenges
   and motivate future directions for summarization research.'
 documentation: https://arxiv.org/pdf/1906.03741.pdf
-last_edit: Fri, 01 Sep 2023 02:29:53 GMT
+last_edit: Mon, 04 Sep 2023 02:24:29 GMT
 location: https://huggingface.co/datasets/big_patent
 maintained_by: Lu Wang, wangluxy@umich.edu
 open_access: 'TRUE'

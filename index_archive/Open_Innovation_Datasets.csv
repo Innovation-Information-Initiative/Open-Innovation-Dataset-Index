@@ -373,7 +373,7 @@ Compared to existing summarization datasets, BIGPATENT has the following propert
   timestamp = {Wed, 26 Jun 2019 07:14:58 +0200},
   biburl    = {https://dblp.org/rec/journals/corr/abs-1906-03741.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-}",CC-by-4.0,None,TRUE,"Lu Wang, wangluxy@umich.edu","patents, summarization, classification, validation",,https://arxiv.org/pdf/1906.03741.pdf,,,,FALSE,,,https://arxiv.org/pdf/1906.03741.pdf,,,,,,,"Fri, 01 Sep 2023 02:29:53 GMT"
+}",CC-by-4.0,None,TRUE,"Lu Wang, wangluxy@umich.edu","patents, summarization, classification, validation",,https://arxiv.org/pdf/1906.03741.pdf,,,,FALSE,,,https://arxiv.org/pdf/1906.03741.pdf,,,,,,,"Mon, 04 Sep 2023 02:24:29 GMT"
 117,1a42da30-ecdc-4f97-b6ba-7f484a8ea4df,FinBERT,finbert,https://huggingface.co/ProsusAI/finbert,"FinBERT is a pre-trained NLP model to analyze sentiment of financial text. It is built by further training the BERT language model in the finance domain, using a large financial corpus and thereby fine-tuning it for financial sentiment classification. Financial PhraseBank by Malo et al. (2014) is used for fine-tuning.","Doğu Tan Aracı, Zulkuf Genc","@misc{araci2019finbert,
       title={FinBERT: Financial Sentiment Analysis with Pre-trained Language Models}, 
       author={Dogu Araci},
