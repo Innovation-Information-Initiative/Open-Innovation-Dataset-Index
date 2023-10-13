@@ -1,13 +1,12 @@
 ---
-citation: "\n@misc{richard_j._gentry_open_2021,\n        title = {Open {Sourced} {Database}\
-  \ for {CEO} {Dismissal} 1992-2018},\n        url = {https://zenodo.org/record/4618103},\n\
-  \        abstract = {There is a newer version of this database - please check the\
-  \ right-hand navigation for the latest version...},\n        urldate = {2021-09-02},\n\
-  \        publisher = {Zenodo},\n        author = {{Richard J. Gentry} and {Joseph\
-  \ Harrison} and {Timothy Quigley} and {Steven Boivie}},\n        month = feb,\n\
-  \        year = {2021},\n        doi = {10.5281/zenodo.4618103},\n        note =\
-  \ {type: dataset},\n        keywords = {CEO Dismissal, Management, Strategic Management},\n\
-  }\n"
+citation: "\n@misc{richard_j._gentry_open_2021,\n        title = {Open {Sourced} {Database}
+  for {CEO} {Dismissal} 1992-2018},\n        url = {https://zenodo.org/record/4618103},\n
+  \       abstract = {There is a newer version of this database - please check the
+  right-hand navigation for the latest version...},\n        urldate = {2021-09-02},\n
+  \       publisher = {Zenodo},\n        author = {{Richard J. Gentry} and {Joseph
+  Harrison} and {Timothy Quigley} and {Steven Boivie}},\n        month = feb,\n        year
+  = {2021},\n        doi = {10.5281/zenodo.4618103},\n        note = {type: dataset},\n
+  \       keywords = {CEO Dismissal, Management, Strategic Management},\n}\n"
 cost: None
 description: This is a database of qualitatively coded reasons for a CEO’s dismissal,
   for S&P 1500 Companies. The maintainers of this dataset run a mailing list with

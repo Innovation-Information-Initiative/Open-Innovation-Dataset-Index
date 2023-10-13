@@ -1,11 +1,10 @@
 ---
-citation: "\n@article{petralia_gpt_2020,\n\ttitle = {{GPT} {Indicators}},\n\turl =\
-  \ {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA},\n\
-  \tdoi = {10.7910/DVN/PQGHKA},\n\tabstract = {This database contains yearly technology-level\
-  \ measures of Growth, Use Complementarity (UC) and Innovation Complementarity (IC)\
-  \ since 1920 for all ...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor\
-  \ = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2020},\n\tnote = {type: dataset},\n\
-  }\n"
+citation: "\n@article{petralia_gpt_2020,\n\ttitle = {{GPT} {Indicators}},\n\turl =
+  {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA},\n\tdoi
+  = {10.7910/DVN/PQGHKA},\n\tabstract = {This database contains yearly technology-level
+  measures of Growth, Use Complementarity (UC) and Innovation Complementarity (IC)
+  since 1920 for all ...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
+  = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2020},\n\tnote = {type: dataset},\n}\n"
 contributors:
 - Sergio Petralia
 cost: None

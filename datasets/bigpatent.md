@@ -1,12 +1,12 @@
 ---
-citation: "@article{DBLP:journals/corr/abs-1906-03741,\n  author    = {Eva Sharma\
-  \ and\n               Chen Li and\n               Lu Wang},\n  title     = {{BIGPATENT:}\
-  \ {A} Large-Scale Dataset for Abstractive and Coherent\n               Summarization},\n\
-  \  journal   = {CoRR},\n  volume    = {abs/1906.03741},\n  year      = {2019},\n\
-  \  url       = {http://arxiv.org/abs/1906.03741},\n  eprinttype = {arXiv},\n  eprint\
-  \    = {1906.03741},\n  timestamp = {Wed, 26 Jun 2019 07:14:58 +0200},\n  biburl\
-  \    = {https://dblp.org/rec/journals/corr/abs-1906-03741.bib},\n  bibsource = {dblp\
-  \ computer science bibliography, https://dblp.org}\n}"
+citation: "@article{DBLP:journals/corr/abs-1906-03741,\n  author    = {Eva Sharma
+  and\n               Chen Li and\n               Lu Wang},\n  title     = {{BIGPATENT:}
+  {A} Large-Scale Dataset for Abstractive and Coherent\n               Summarization},\n
+  \ journal   = {CoRR},\n  volume    = {abs/1906.03741},\n  year      = {2019},\n
+  \ url       = {http://arxiv.org/abs/1906.03741},\n  eprinttype = {arXiv},\n  eprint
+  \   = {1906.03741},\n  timestamp = {Wed, 26 Jun 2019 07:14:58 +0200},\n  biburl
+  \   = {https://dblp.org/rec/journals/corr/abs-1906-03741.bib},\n  bibsource = {dblp
+  computer science bibliography, https://dblp.org}\n}"
 contributors:
 - Eva Sharma
 - Chen Li
