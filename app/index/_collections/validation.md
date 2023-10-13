@@ -24,6 +24,7 @@ These bear the most similarity to machine learning approaches to data publicatio
 
 * **[Google Patent Phrase Similarity Dataset](https://iiindex.org/datasets/phrase_similarity.html)** -- A human rated contextual phrase to phrase matching dataset focused on technical terms from patents.
 * **[BIGPATENT](https://iiindex.org/datasets/bigpatent.html)** -- Human-written abstractive summaries of 1.3 million patent document records, plus evaluations of popular learning/summarisation models trained on this data.
+* **[Patent PDF Samples with Extracted Structured Data](https://iiindex.org/datasets/patent_pdf_samples.html)** -- Training dataset for entity extraction from PDFs of US and EU patents. The structured data contains labels for eleven patent entities (e.g. patent inventor, publication date, classification number, patent title), global properties (US/EU issued, language, invention type), and the location of any figures or schematics on the patent's first page. 
 
 ### Projects with published validation data
 
@@ -39,7 +40,6 @@ These projects have developed and published validation datasets for reuse as par
 (please correct if published!)
 
 * **[Patent Scope and Examiner Toughness](https://iiindex.org/datasets/patent_scope_toughness.html)** -- Kuhn and Thompson collaborate with seven patent attorneys who complete a questionnaire on the scope of a patent (140 total) relative to other patents in the same area. Described in [this paper](https://ssrn.com/abstract=2977273).
-* **[Artificial Intelligence Patent Dataset](https://iiindex.org/datasets/ai_patent_dataset.html)** -- Giczy, Pairolero and Toole used a group of four USPTO patent examiners specialized in AI to assess whether the patent document contained one of eight AI components, reviewing 1600 documents total.
 
 ### Tools for constructing validation datasets
 

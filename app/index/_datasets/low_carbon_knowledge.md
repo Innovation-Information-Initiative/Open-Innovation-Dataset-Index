@@ -16,10 +16,11 @@ description: 'This data publication offers updated data about low-carbon energy 
 documentation: https://doi.org/10.4119/unibi/2950291
 doi: https://doi.org/10.4119/unibi/2950291
 error_metrics: 'No'
-last_edit: Mon, 19 Jun 2023 16:35:23 GMT
+last_edit: Thu, 27 Jul 2023 09:13:49 GMT
 location: https://doi.org/10.4119/unibi/2950291
 open_access: 'TRUE'
 record_creation_timestamp: 6/13/2021 20:55:50
+related_publications: https://www.sciencedirect.com/science/article/abs/pii/S0172219011001979?via%3Dihub
 shortname: low_carbon_knowledge
 tags:
 - citation
