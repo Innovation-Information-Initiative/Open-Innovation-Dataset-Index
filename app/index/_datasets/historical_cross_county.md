@@ -2,7 +2,8 @@
 layout: default
 citation: 'Comin, D. and Hohijn B., "Cross-Country Technological Adoption: Making
   the Theories Face the Facts". Journal of Monetary Economics, January 2004, pp. 39-83.'
-contributors: NBER
+contributors:
+- NBER
 cost: None
 description: This Historical Cross Country Technology Adoption Dataset is a dataset
   that was collected to allow for the analysis of the adoption patterns of some of

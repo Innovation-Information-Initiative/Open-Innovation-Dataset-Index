@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: Noah Stoffman
+contributors:
+- Noah Stoffman
 cost: None
 description: 'The data contains all articles in 244 journals as described in "In-Text
   Patent Citations: A User''s Guide", and all front-page and in-text citations as

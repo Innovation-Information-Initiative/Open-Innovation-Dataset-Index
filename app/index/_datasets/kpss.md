@@ -3,8 +3,16 @@ layout: default
 citation: 'Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017. Technological
   innovation, resource allocation, and growth. Quarterly Journal of Economics, 132(2),
   pp. 665-712. '
-contributors: Gin Xiaojin Zheng, Winston Xu, Siqi Xue, Kogan, L., Dimitris Papanikolaou,
-  Amit Seru, Stoffman, N.
+contributors:
+- Gin Xiaojin Zheng
+- Winston Xu
+- Siqi Xue
+- Kogan
+- L.
+- Dimitris Papanikolaou
+- Amit Seru
+- Stoffman
+- N.
 cost: None
 description: 'We propose a new measure of the economic importance of each innovation.
   Our measure uses newly collected data on patents issued to U.S. firms in the 1926

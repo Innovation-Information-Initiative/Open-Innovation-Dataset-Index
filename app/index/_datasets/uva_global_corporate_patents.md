@@ -3,7 +3,11 @@ layout: default
 citation: 'Jan Bena, Miguel A. Ferreira, Pedro Matos, and Pedro Pires. "Are foreign
   investors locusts? The long-term effects of foreign institutional ownership." Journal
   of Financial Economics 126, no. 1 (2017): 122-146'
-contributors: Jan Bena, Miguel A. Ferreira, Pedro Matos, Pedro Pires
+contributors:
+- Jan Bena
+- Miguel A. Ferreira
+- Pedro Matos
+- Pedro Pires
 cost: None
 description: 'The dataset has information on about 3 million USPTO patents, which
   were granted between 1980 and 2017, assigned to publicly listed companies worldwide,

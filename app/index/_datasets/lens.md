@@ -2,7 +2,8 @@
 layout: default
 citation: Please use the expression 'Enabled by The Lens' or 'Data Sourced from The
   Lens' and the Lens.org URL.
-contributors: Cambia
+contributors:
+- Cambia
 cost: None
 description: 'Lens serves nearly all of the patent documents in the world as open,
   annotatable digital public goods that are integrated with scholarly and technical

@@ -2,7 +2,8 @@
 layout: default
 api_or_bulk_downloads: Bulk
 citation: 'State that you used: III Patent DB'
-contributors: JPO
+contributors:
+- JPO
 cost: None
 description: '
 

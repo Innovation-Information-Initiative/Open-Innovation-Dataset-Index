@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: NBER
+contributors:
+- NBER
 description: The NIH CRISP (Computer Retrieval of Information on Scientific Projects)
   is a searchable database of federally funded biomedical research projects conducted
   at universities, hospitals, and other research institutions. This dataset has not

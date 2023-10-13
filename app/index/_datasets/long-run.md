@@ -2,7 +2,8 @@
 layout: default
 citation: Lafond, Francois, 2018, "Long-run dynamics of the US patent classification
   system", https://doi.org/10.7910/DVN/ZJCDCE, Harvard Dataverse, V1
-contributors: Francis Lafond
+contributors:
+- Francis Lafond
 cost: None
 description: The dataset contains several files used in the paper "Long-run dynamics
   of the US patent classification system" by François Lafond and Daniel Kim. The files

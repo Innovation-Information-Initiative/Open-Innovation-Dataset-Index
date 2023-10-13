@@ -3,7 +3,10 @@ layout: default
 citation: ' Kuhn, Jeffrey M. and Younge, Kenneth A. and Marco, Alan C., Patent Citations
   Reexamined (June 24, 2019). RAND Journal of Economics, Forthcoming, Available at
   SSRN: https://ssrn.com/abstract=2714954 or http://dx.doi.org/10.2139/ssrn.2714954 '
-contributors: Jeffrey Kuhn, Kenneth Younge, Alan Marco
+contributors:
+- Jeffrey Kuhn
+- Kenneth Younge
+- Alan Marco
 cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2714954
 description: Innovation studies frequently distinguish between patent citation submitted

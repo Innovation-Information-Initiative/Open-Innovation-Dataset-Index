@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: The Lens
+contributors:
+- The Lens
 cost: None
 description: 'This collection encompasses patents that cite the scholarly works of
   Massachusetts Institute of Technology. '

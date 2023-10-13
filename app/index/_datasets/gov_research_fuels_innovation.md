@@ -6,7 +6,12 @@ citation: 'Lee Fleming; Hillary Green; Guan-Cheng Li; Matt Marx; Dennis Yao, 201
   https://doi.org/10.7910/DVN/DKESRC, Harvard Dataverse, V4, UNF:6:kMIqsh3DCvKiKYgMT6/H8A==
   [fileUNF] '
 code: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DKESRC
-contributors: Lee Fleming, Hillary Green, Guan-Cheng Li, Matt Marx, Dennis Yao
+contributors:
+- Lee Fleming
+- Hillary Green
+- Guan-Cheng Li
+- Matt Marx
+- Dennis Yao
 cost: None
 description: 'This includes patent level metadata, 1926-1975 (OCRed from USPTO Image
   PDF files), 1976-2017 (parsed from USPTO HTML files), patent meta data, CPC, geography,

@@ -2,7 +2,9 @@
 layout: default
 api_or_bulk_downloads: coming soon
 code: https://github.com/Antoberge/patent_city
-contributors: Antonin Bergeaud, Cyril Verluise
+contributors:
+- Antonin Bergeaud
+- Cyril Verluise
 cost: None
 description: PatentCity is a dataset on the location of patentees since the 19th century
   in Germany, France, Great Britain and the United States of America. Beta available

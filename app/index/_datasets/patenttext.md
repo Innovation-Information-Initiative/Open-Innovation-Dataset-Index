@@ -1,7 +1,10 @@
 ---
 layout: default
 code: https://github.com/sam-arts/smj_code
-contributors: Sam Arts, Bruno Cassiman, Juan Carlos Gomez
+contributors:
+- Sam Arts
+- Bruno Cassiman
+- Juan Carlos Gomez
 cost: None
 description: 'We provide open access to the code and data to calculate the text-based
   similarity between any two utility patents granted by the United States Patent and

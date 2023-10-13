@@ -1,6 +1,9 @@
 ---
 layout: default
-contributors: Daniel Feenberg, Jeff Miron, NBER
+contributors:
+- Daniel Feenberg
+- Jeff Miron
+- NBER
 cost: None
 description: 'During the first several decades of its existence, the National Bureau
   of Economic Research (NBER) assembled an extensive data set that covers all aspects

@@ -1,9 +1,12 @@
 ---
 layout: default
-citation: "@misc{araci2019finbert,\n      title={FinBERT: Financial Sentiment Analysis
-  with Pre-trained Language Models}, \n      author={Dogu Araci},\n      year={2019},\n
-  \     eprint={1908.10063},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
-contributors: Doğu Tan Aracı, Zulkuf Genc
+citation: "@misc{araci2019finbert,\n      title={FinBERT: Financial Sentiment Analysis\
+  \ with Pre-trained Language Models}, \n      author={Dogu Araci},\n      year={2019},\n\
+  \      eprint={1908.10063},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n\
+  }"
+contributors:
+- Doğu Tan Aracı
+- Zulkuf Genc
 description: FinBERT is a pre-trained NLP model to analyze sentiment of financial
   text. It is built by further training the BERT language model in the finance domain,
   using a large financial corpus and thereby fine-tuning it for financial sentiment

@@ -3,10 +3,14 @@ layout: default
 citation: Ashouri, S., Suominen, A., Hajikhani, A., Pukelis, L., Schubert, T., Türkeli,
   S., Van Beers, C. and Cunningham, S., 2022. Indicators on firm level innovation
   activities from web scraped data. Data in brief, 42, p.108246.
-contributors: VTT Technical Research Centre of Finland Ltd, Fraunhofer Institute for
-  Systems and Innovation Research ISI, Public Policy and Management Institute, United
-  Nations University Maastricht Economic and Social Research Insitute on Innovation
-  and Technology, Delft University of Technology, University of Strathclyde
+contributors:
+- VTT Technical Research Centre of Finland Ltd
+- Fraunhofer Institute for Systems and Innovation Research ISI
+- Public Policy and Management Institute
+- United Nations University Maastricht Economic and Social Research Insitute on Innovation
+  and Technology
+- Delft University of Technology
+- University of Strathclyde
 cost: None
 description: This data sample (in support the article "Indicators on firm level innovation
   activities from web scraped data" https://ssrn.com/abstract=3938767) contains data

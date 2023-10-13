@@ -1,10 +1,13 @@
 ---
 layout: default
-citation: "@misc{aslanyan2022patents,\n      title={Patents Phrase to Phrase Semantic
-  Matching Dataset}, \n      author={Grigor Aslanyan and Ian Wetherbee},\n      year={2022},\n
-  \     eprint={2208.01171},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+citation: "@misc{aslanyan2022patents,\n      title={Patents Phrase to Phrase Semantic\
+  \ Matching Dataset}, \n      author={Grigor Aslanyan and Ian Wetherbee},\n     \
+  \ year={2022},\n      eprint={2208.01171},\n      archivePrefix={arXiv},\n     \
+  \ primaryClass={cs.CL}\n}"
 code: https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/data
-contributors: Grigor Aslanyan, Ian Wetherbee
+contributors:
+- Grigor Aslanyan
+- Ian Wetherbee
 cost: None
 description: This is a human rated contextual phrase to phrase matching dataset focused
   on technical terms from patents. In addition to similarity scores that are typically

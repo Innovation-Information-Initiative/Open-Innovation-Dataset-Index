@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: The Lens
+contributors:
+- The Lens
 cost: None
 description: Scholarly works produced by MIT 1950-2018
 documentation: https://www.lens.org/lens/search/scholar/analysis?q=&st=true&regex=false&institution.must=Massachusetts%20Institute%20of%20Technology&p=0&n=10&s=score&d=%2B&dateFilterField=publishedYear&dashboardId=189&preview=false

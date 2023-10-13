@@ -4,7 +4,10 @@ citation: 'Seliger, Florian; Kozak, Jan; de Rassenfosse, Gaétan, 2019, "Geocodi
   of worldwide patent data", https://doi.org/10.7910/DVN/OTTBDX, Harvard Dataverse,
   V5 '
 code: https://github.com/seligerf/Imputation-of-missing-location-information-for-worldwide-patent-data
-contributors: Florian Seliger, Jan Kozak, Gaétan de Rassenfosse
+contributors:
+- Florian Seliger
+- Jan Kozak
+- Gaétan de Rassenfosse
 cost: None
 description: The dataset provides geographic coordinates for inventor and applicant
   locations in 18.8 million patent documents spanning over more than 30 years. The

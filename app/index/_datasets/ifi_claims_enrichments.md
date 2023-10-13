@@ -1,7 +1,8 @@
 ---
 layout: default
 bigquery: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/ifi-claims-patent-data-enrichments
-contributors: IFI CLAIMS
+contributors:
+- IFI CLAIMS
 cost: Costs to access via IFI, Google Patents Public Datasets hosts a core public
   version on BigQuery
 description: IFI CLAIMS Patent Data Enrichments includes standardized assignee/applicant

@@ -3,7 +3,12 @@ layout: default
 bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_oce_pair&page=dataset
 citation: 'Graham, S. Marco, A., and Miller, A. (2015). “The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination.”'
-contributors: Graham, S. Marco, A., Miller, A.
+contributors:
+- Graham
+- S. Marco
+- A.
+- Miller
+- A.
 cost: None
 description: The latest version of PatEx (referred to below as the 2020 release) contains
   detailed information on nearly 11.9 million publicly-viewable provisional and non-provisional

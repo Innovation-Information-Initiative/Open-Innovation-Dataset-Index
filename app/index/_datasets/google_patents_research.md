@@ -3,7 +3,9 @@ layout: default
 bigquery: https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=labeled_patents&page=dataset
 citation: Google Patents Research Data by Google, based on data provided by IFI CLAIMS
   Patent Services
-contributors: Google Patents, IFI CLAIMS Patent Services
+contributors:
+- Google Patents
+- IFI CLAIMS Patent Services
 cost: None
 description: Google Patents Research Data contains the output of much of the data
   analysis work used in Google Patents (patents.google.com), including machine translations

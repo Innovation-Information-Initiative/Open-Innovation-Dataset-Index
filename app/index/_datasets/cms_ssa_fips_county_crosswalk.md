@@ -1,6 +1,8 @@
 ---
 layout: default
-contributors: NBER, CMS
+contributors:
+- NBER
+- CMS
 description: 'CMS periodically produces SSA to FIPS CBSA to county crosswalk files.
   They released a CBSA to MSA to FIPS county crosswalk as well. Some CMS data files
   have SSA state and county codes or county name rather than FIPS state and county
