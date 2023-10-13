@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: FDA Center for Drug Evaluation and Research
+contributors:
+- FDA Center for Drug Evaluation and Research
 description: The publication Approved Drug Products with Therapeutic Equivalence Evaluations
   (commonly known as the Orange Book) identifies drug products approved on the basis
   of safety and effectiveness by the Food and Drug Administration (FDA) under the

@@ -4,7 +4,9 @@ citation: ' Kuhn, Jeffrey M. and Thompson, Neil, How to Measure and Draw Causal 
   with Patent Scope (October 9, 2017). International Journal of the Economics of Business,
   26(1) 5-38 (2019), Kenan Institute of Private Enterprise Research Paper No. 19-29,
   Available at SSRN: https://ssrn.com/abstract=2977273 or http://dx.doi.org/10.2139/ssrn.2977273 '
-contributors: Jeffrey Kuhn, Neil Thompson
+contributors:
+- Jeffrey Kuhn
+- Neil Thompson
 cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2977273
 description: This dataset includes an easy-to-use measure of patent scope that is

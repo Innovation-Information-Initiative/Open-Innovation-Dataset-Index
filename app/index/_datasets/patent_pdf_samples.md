@@ -1,7 +1,8 @@
 ---
 layout: default
 bigquery: https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=labeled_patents&page=dataset
-contributors: Google Patents
+contributors:
+- Google Patents
 cost: None
 description: 'The dataset consists of PDFs in Google Cloud Storage from the first
   page of select US and EU patents, and BigQuery tables with extracted entities, labels,

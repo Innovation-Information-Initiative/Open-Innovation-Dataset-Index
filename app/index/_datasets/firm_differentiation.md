@@ -3,7 +3,10 @@ layout: default
 citation: Arts, Sam, Cassiman, Bruno, & Hou, Jianan. (2023). Measuring the Position
   and Differentiation of Firms in Technology Space [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5172146
 code: https://github.com/JiananHou429/measuring-the-position-of-firms-in-technology-space
-contributors: Sam Arts, Bruno Cassiman, Jianan Hou
+contributors:
+- Sam Arts
+- Bruno Cassiman
+- Jianan Hou
 cost: none
 description: Although the rate of invention by firms and the effect on firm performance
   have been central themes in economics and strategy, the position and differentiation

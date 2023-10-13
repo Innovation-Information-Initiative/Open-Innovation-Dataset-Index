@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: NBER
+contributors:
+- NBER
 cost: None
 description: Regularly-updated and archived index of economic indicators, including
   interest rates, stock reserves, home sales, labour statistics and productivity.

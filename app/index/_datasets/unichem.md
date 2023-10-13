@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: European Bioinformatics Institute
+contributors:
+- European Bioinformatics Institute
 description: ' UniChem is large-scale non-redundant database of pointers between chemical
   structures and EMBL-EBI chemistry resources. Its purpose is to optimise the efficiency
   with which structure-based hyperlinks may be built and maintained between chemistry-based

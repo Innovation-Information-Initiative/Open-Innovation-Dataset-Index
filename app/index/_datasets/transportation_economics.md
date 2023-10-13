@@ -1,8 +1,9 @@
 ---
 layout: default
-contributors: This project is supported by the U.S. Department of Transportation through
-  an inter-agency agreement with the National Science Foundation, which has extended
-  a grant to the NBER.
+contributors:
+- This project is supported by the U.S. Department of Transportation through an inter-agency
+  agreement with the National Science Foundation
+- which has extended a grant to the NBER.
 cost: None
 description: 'Improving access to data sets related to transportation economics and
   facilitating research with these datasets are cental objectives of this project.

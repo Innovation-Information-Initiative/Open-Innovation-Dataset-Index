@@ -3,7 +3,9 @@ layout: default
 bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspto_cancer&page=dataset&project=sheets-management-319211
 citation: 'Frumkin, Jesse and Myers, Amanda F., Cancer Moonshot Patent Data (August,
   2016). '
-contributors: Jesse Frumkin, Amanda F. Myers
+contributors:
+- Jesse Frumkin
+- Amanda F. Myers
 cost: None
 description: 'The USPTO Cancer Moonshot Patent Data contains detailed information
   on published patent applications and granted patents relevant to cancer research

@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: NBER
+contributors:
+- NBER
 description: 'Census Block Distances are great-circle distances calculated using the
   Haversine formula based on internal points in the geographic area.
 

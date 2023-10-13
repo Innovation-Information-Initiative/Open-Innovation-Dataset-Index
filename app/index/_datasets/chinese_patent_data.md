@@ -2,7 +2,11 @@
 layout: default
 api_or_bulk_downloads: Bulk
 authors: Wenlong He, Zi-lin He, Tony W. Tong, Yuchen Zhang
-contributors: Wenlong He, Zi-lin He, Tony W. Tong, Yuchen Zhang
+contributors:
+- Wenlong He
+- Zi-lin He
+- Tony W. Tong
+- Yuchen Zhang
 cost: None
 description: In this project, patents from China's State Intellectual Property Office
   (SIPO) are matched to various types of companies. Matching SIPO patents to firms

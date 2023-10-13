@@ -6,7 +6,12 @@ citation: 'Ronald Lai; Alexander D''Amour; Amy Yu; Ye Sun; Lee Fleming, 2011, "D
   https://doi.org/10.7910/DVN/5F1RRI, Harvard Dataverse, V5, UNF:5:RqsI3LsQEYLHkkg5jG/jRg==
   [fileUNF] '
 code: https://github.com/funginstitute/downloads
-contributors: Ronald Lai, Alexander D'Amour, Amy Yu, Ye Sun, Lee Fleming
+contributors:
+- Ronald Lai
+- Alexander D'Amour
+- Amy Yu
+- Ye Sun
+- Lee Fleming
 cost: None
 description: 'Name disambiguation of US inventors, 1975-2010. Using a Bayesian supervised
   learning approach, we identify individual inventors from the U.S. utility patent

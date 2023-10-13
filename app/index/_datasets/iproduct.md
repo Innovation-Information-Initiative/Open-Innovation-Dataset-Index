@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: Gaétan de Rassenfosse
+contributors:
+- Gaétan de Rassenfosse
 cost: None
 description: 'The IPRoduct project seeks to link innovative goods to the patents upon
   which they are based. By directly linking products to patents, this project tracks

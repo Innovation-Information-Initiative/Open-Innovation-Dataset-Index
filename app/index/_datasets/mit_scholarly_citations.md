@@ -1,6 +1,7 @@
 ---
 layout: default
-contributors: The Lens
+contributors:
+- The Lens
 cost: None
 description: MIT Scholarly Works Cited by Patents 1950-2018
 documentation: https://www.lens.org/lens/labs/dashboards

@@ -4,8 +4,17 @@ bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspt
 citation: '"USPTO OCE Patent Assignment Data" by the USPTO, for public use. Marco,
   Alan C., Graham, Stuart J.H., Myers, Amanda F., D''Agostino, Paul A and Apple, Kirsten,
   "The USPTO Patent Assignment Dataset: Descriptions and Analysis" (July 27, 2015).'
-contributors: Marco, Alan C., Graham, Stuart J.H., Myers, Amanda F., D'Agostino, Paul
-  A, Apple, Kirsten
+contributors:
+- Marco
+- Alan C.
+- Graham
+- Stuart J.H.
+- Myers
+- Amanda F.
+- D'Agostino
+- Paul A
+- Apple
+- Kirsten
 cost: None
 description: The USPTO allows parties to record assignments of patents and patent
   applications to, as much as possible, maintain a complete history of claimed interests

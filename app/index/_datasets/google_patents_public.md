@@ -6,7 +6,8 @@ citation: “Google Patents Public Data” by IFI CLAIMS Patent Services and Goo
   under CC BY 4.0
 code: 'patent analysis sample code: https://github.com/google/patents-public-data,
   source code not accessible'
-contributors: Google Patents
+contributors:
+- Google Patents
 cost: None
 description: Worldwide (100+ countries) bibliographic and USPTO full-text, available
   via BigQuery. Provided by IFI CLAIMS Patent Services, a worldwide bibliographic

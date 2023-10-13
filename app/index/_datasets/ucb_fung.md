@@ -5,8 +5,30 @@ citation: Balsmeier, B., Assaf, M., Chesebro, T., Fierro, G., Johnson, K., Johns
   S., Li, G., W.S. Lueck, O’Reagan, D., Yeh, W., Zang, G., Fleming, L. “Machine learning
   and natural language processing applied to the patent corpus.” Forthcoming at Journal
   of Economics and Management Strategy.
-contributors: Balsmeier, B., Assaf, M., Chesebro, T., Fierro, G., Johnson, K., Johnson,
-  S., Li, G., W.S. Lueck, O’Reagan, D., Yeh, W., Zang, G., Fleming, L.
+contributors:
+- Balsmeier
+- B.
+- Assaf
+- M.
+- Chesebro
+- T.
+- Fierro
+- G.
+- Johnson
+- K.
+- Johnson
+- S.
+- Li
+- G.
+- W.S. Lueck
+- O’Reagan
+- D.
+- Yeh
+- W.
+- Zang
+- G.
+- Fleming
+- L.
 cost: None
 description: 'Drawing upon recent advances in machine learning and natural language
   processing, we introduce new tools that automatically ingest, parse, disambiguate
