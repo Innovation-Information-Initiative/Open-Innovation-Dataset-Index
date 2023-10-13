@@ -1,14 +1,14 @@
 ---
 layout: default
-citation: "@misc{whalen_us_2019,\n        title = {{US} {Patent} {Similarity} {Data}},\n\
-  \        url = {https://zenodo.org/record/3552078},\n        abstract = {Pairwise\
-  \ semantic similarity measures for US utility patents. Includes measures for citing/cited\
-  \ patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for\
-  \ each patent.},\n        urldate = {2021-09-15},\n        publisher = {Zenodo},\n\
-  \        author = {Whalen, Ryan and Lungeanu, Alina and DeChurch, Leslie and Contractor,\
-  \ Noshir},\n        month = nov,\n        year = {2019},\n        doi = {10.5281/zenodo.3552078},\n\
-  \        note = {type: dataset},\n        keywords = {patents, intellectual property,\
-  \ innovation, semantic similarity, empirical legal studies},\n}\n"
+citation: "@misc{whalen_us_2019,\n        title = {{US} {Patent} {Similarity} {Data}},\n
+  \       url = {https://zenodo.org/record/3552078},\n        abstract = {Pairwise
+  semantic similarity measures for US utility patents. Includes measures for citing/cited
+  patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for
+  each patent.},\n        urldate = {2021-09-15},\n        publisher = {Zenodo},\n
+  \       author = {Whalen, Ryan and Lungeanu, Alina and DeChurch, Leslie and Contractor,
+  Noshir},\n        month = nov,\n        year = {2019},\n        doi = {10.5281/zenodo.3552078},\n
+  \       note = {type: dataset},\n        keywords = {patents, intellectual property,
+  innovation, semantic similarity, empirical legal studies},\n}\n"
 code: None
 cost: None
 description: Pairwise semantic similarity measures for US utility patents. Includes
