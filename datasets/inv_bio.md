@@ -1,5 +1,9 @@
 ---
-contributors: Fabian Gaessler, M. Dorner, D. Harhoff, K. Hoisl and F. Poege
+contributors:
+- Fabian Gaessler
+- M. Dorner
+- D. Harhoff
+- K. Hoisl and F. Poege
 cost: None
 description: 'We introduce the employer-employee inventor dataset INV-BIO ADIAB 1980-2014,
   which records complete biographies of more than 150,000 inventors in Germany between

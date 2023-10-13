@@ -1,7 +1,8 @@
 ---
 bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=worldbank_wdi&page=dataset
 citation: “World Development Indicators” by the World Bank
-contributors: World Bank
+contributors:
+- World Bank
 cost: None
 description: World Development Indicators Data is the primary World Bank collection
   of development indicators, compiled from officially-recognized international sources.

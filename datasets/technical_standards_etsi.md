@@ -2,7 +2,8 @@
 bigquery: https://console.cloud.google.com/bigquery?p=innography-174118&d=technical_standards&page=dataset&project=sheets-management-319211&ws=!1m4!1m3!3m2!1sinnography-174118!2stechnical_standards
 citation: “CPA Global Technical Standards ETSI Data” by CPA Global (through ETSI IPR)
   is licensed under a Creative Commons Attribution 4.0 International License.
-contributors: CPA Global (now owned by Clarivate)
+contributors:
+- CPA Global (now owned by Clarivate)
 cost: None
 description: European Telecommunications Standards Institute (ETSI) IPR dataset for
   technical standards. These are the US assets disclosed by companies as related to

@@ -1,7 +1,8 @@
 ---
 citation: PATSTAT
 code: 'patstat cookbook'' by Gaétan de Rassenfosse https://onlinelibrary.wiley.com/doi/full/10.1111/1467-8462.12073 '
-contributors: EPO
+contributors:
+- EPO
 cost: €975.00 - € 1460.00
 description: 'PATSTAT contains bibliographical and legal event patent data from leading
   industrialised and developing countries. This is extracted from the EPO’s databases

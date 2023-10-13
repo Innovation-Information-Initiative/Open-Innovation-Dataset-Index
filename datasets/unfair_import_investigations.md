@@ -2,7 +2,8 @@
 bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=usitc_investigations&page=dataset&project=sheets-management-319211
 citation: US International Trade Commission 337Info Unfair Import Investigations Information
   System
-contributors: US International Trade Comission
+contributors:
+- US International Trade Comission
 cost: None
 description: US International Trade Commission 337Info Unfair Import Investigations
   Information System contains data on investigations done under Section 337. Section

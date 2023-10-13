@@ -1,5 +1,6 @@
 ---
-contributors: Bureau van Dijk
+contributors:
+- Bureau van Dijk
 cost: not free, cost varies
 description: Database that links patents to companies
 last_edit: Mon, 19 Jun 2023 16:35:48 GMT

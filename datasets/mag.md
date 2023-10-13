@@ -5,13 +5,19 @@ citation: 'Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Darrin Eide, Bo-June (P
   Web (WWW ''15 Companion). ACM, New York, NY, USA, 243-246. DOI=http://dx.doi.org/10.1145/2740908.2742839      K.
   Wang et al., “A Review of Microsoft Academic Services for Science of Science Studies”,
   Frontiers in Big Data, 2019, doi: 10.3389/fdata.2019.00045'
-contributors: Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Darrin Eide, Bo-June (Paul)
-  Hsu, and Kuansan Wang.
+contributors:
+- Arnab Sinha
+- Zhihong Shen
+- Yang Song
+- Hao Ma
+- Darrin Eide
+- Bo-June (Paul) Hsu
+- and Kuansan Wang.
 cost: None
 description: 'The Microsoft Academic Graph is a heterogeneous graph containing scientific
   publication records, citation relationships between those publications, as well
   as authors, institutions, journals, conferences, and fields of study. '
-last_edit: Mon, 19 Jun 2023 16:37:01 GMT
+last_edit: Mon, 02 Oct 2023 00:48:49 GMT
 location: https://academic.microsoft.com/home
 maintained_by: Currently in transition
 open_access: 'TRUE'

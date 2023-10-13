@@ -2,13 +2,16 @@
 citation: 'HJT refers to Hall, Bronwyn, Adam Jaffe and Manuel Trajtenberg, "The NBER
   Patent Citation Data File: Lessons, Insights and Methodological Tools," NBER Working
   Paper 8498.'
-contributors: Bronwyn H. Hall, Jim Bessen, Grid Thoma
+contributors:
+- Bronwyn H. Hall
+- Jim Bessen
+- Grid Thoma
 cost: None
 description: The main dataset extends from Jan 1, 1963, through december 30, 2006,
   and includes all the utility patents granted during that period. The citations file
   includes all citations made by patents granted in 1975-1999.
 documentation: https://docs.google.com/document/d/1FyDsjZHhq7okHWMBOc_E7EquLUoAwwEZYtxw5M3UDTY/edit
-last_edit: Mon, 19 Jun 2023 16:38:12 GMT
+last_edit: Wed, 11 Oct 2023 03:01:57 GMT
 location: https://sites.google.com/site/patentdataproject/Home/downloads?authuser=0
 maintained_by: Adam Jaffe
 open_access: 'TRUE'

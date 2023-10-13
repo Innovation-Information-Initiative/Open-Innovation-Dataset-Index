@@ -2,7 +2,9 @@
 citation: 'Younge, Kenneth A. and Kuhn, Jeffrey M., Patent-to-Patent Similarity: A
   Vector Space Model (July 30, 2016). Available at SSRN: https://ssrn.com/abstract=2709238
   or http://dx.doi.org/10.2139/ssrn.2709238 '
-contributors: Kenneth Younge, Jeffrey Kuhn
+contributors:
+- Kenneth Younge
+- Jeffrey Kuhn
 cost: None
 datasets_and_publications_using_this_dataset: https://ssrn.com/abstract=2709238
 description: Patent applicants frequently file groups of patent applications linked

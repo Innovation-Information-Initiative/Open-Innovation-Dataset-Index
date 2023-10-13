@@ -2,7 +2,10 @@
 citation: Donald E. Bowen, III, Laurent Frésard, Gerard Hoberg (2022) Rapidly Evolving
   Technologies and Startup Exits. Management Science 0(0). https://doi.org/10.1287/mnsc.2022.4362
 code: https://github.com/donbowen/Patent-Text-Variables
-contributors: Donald Bowen, Laurent Fresard, Gerard Hoberg
+contributors:
+- Donald Bowen
+- Laurent Fresard
+- Gerard Hoberg
 cost: None
 description: 'Patent-level variables that provide researchers a new way to characterize
   innovation within public firms, startups, places and more. Importantly, they are

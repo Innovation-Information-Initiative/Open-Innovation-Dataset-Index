@@ -1,5 +1,7 @@
 ---
-contributors: Luca Falciola, Massimo Barbieri
+contributors:
+- Luca Falciola
+- Massimo Barbieri
 cost: None
 description: 'Most scientific publishers require authors to submit their manuscripts
   with a text reporting their own parallel activities, including patent-related ones,

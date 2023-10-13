@@ -3,7 +3,10 @@ citation: 'Seliger, Florian; Kozak, Jan; de Rassenfosse, Gaétan, 2019, "Geocodi
   of worldwide patent data", https://doi.org/10.7910/DVN/OTTBDX, Harvard Dataverse,
   V5 '
 code: https://github.com/seligerf/Imputation-of-missing-location-information-for-worldwide-patent-data
-contributors: Florian Seliger, Jan Kozak, Gaétan de Rassenfosse
+contributors:
+- Florian Seliger
+- Jan Kozak
+- Gaétan de Rassenfosse
 cost: None
 description: The dataset provides geographic coordinates for inventor and applicant
   locations in 18.8 million patent documents spanning over more than 30 years. The
@@ -15,8 +18,8 @@ description: The dataset provides geographic coordinates for inventor and applic
   offices.
 documentation: https://doi.org/10.1038/s41597-019-0264-6
 doi: https://doi.org/10.7910/DVN/OTTBDX
-last_edit: Wed, 21 Jun 2023 16:47:31 GMT
-location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX
+last_edit: Sat, 29 Jul 2023 06:33:13 GMT
+location: Geocoding of worldwide patent data - Harvard Dataverse
 maintained_by: Contact maintainer through Dataverse
 open_access: 'TRUE'
 record_creation_timestamp: 11/24/2020 17:20:46

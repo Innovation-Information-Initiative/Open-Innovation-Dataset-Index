@@ -1,5 +1,10 @@
 ---
-contributors: MAG, Crossref, OurResearch, Heather Piwowar, Jason Priem
+contributors:
+- MAG
+- Crossref
+- OurResearch
+- Heather Piwowar
+- Jason Priem
 cost: None
 description: OpenAlex is a free and open catalog of the world's scholarly papers,
   researchers, journals, and institutions — along with all the ways they're connected

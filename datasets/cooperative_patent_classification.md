@@ -1,7 +1,9 @@
 ---
 bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=cpc&page=dataset
 citation: '“Cooperative Patent Classification” by the EPO and USPTO, for public use. '
-contributors: EPO, USPTO
+contributors:
+- EPO
+- USPTO
 cost: None
 description: Cooperative Patent Classification Data contains the scheme and definitions
   of the Cooperative Patent Classification system for classifying patent documents.

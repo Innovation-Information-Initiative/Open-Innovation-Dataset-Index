@@ -6,8 +6,19 @@ citation: '“SureChEMBL” by the European Bioinformatics Institute (EMBL-EBI),
   Overington (2016). SureChEMBL: a large-scale, chemically annotated patent document
   database. Nucleic Acids Research Database Issue, 44, D1220-D1228, DOI:10.1093/nar/gkv1253,
   PMID:26582922.'
-contributors: G. Papadatos, M. Davies, N. Dedman, J. Chambers, A. Gaulton, J. Siddle,
-  R. Koks, S. A. Irvine, J. Pettersson, N. Goncharoff, A. Hersey, J. P. Overington
+contributors:
+- G. Papadatos
+- M. Davies
+- N. Dedman
+- J. Chambers
+- A. Gaulton
+- J. Siddle
+- R. Koks
+- S. A. Irvine
+- J. Pettersson
+- N. Goncharoff
+- A. Hersey
+- J. P. Overington
 cost: None
 description: 'SureChEMBL is a publicly available large-scale resource containing compounds
   extracted from the full text, images and attachments of patent documents. The data

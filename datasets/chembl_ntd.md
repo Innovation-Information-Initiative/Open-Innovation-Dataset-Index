@@ -1,6 +1,7 @@
 ---
 citation: use the citation associated with the deposited dataset
-contributors: EMBL-EBI at Hinxton in the United Kingdom
+contributors:
+- EMBL-EBI at Hinxton in the United Kingdom
 description: CHEMBL-NTD is a repository for Open Access primary screening and medicinal
   chemistry data directed at neglected diseases - endemic tropical diseases of the
   developing regions of the Africa, Asia, and the Americas. The primary purpose of

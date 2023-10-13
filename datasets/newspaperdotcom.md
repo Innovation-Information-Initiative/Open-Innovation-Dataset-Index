@@ -1,5 +1,6 @@
 ---
-contributors: Bitsy Perlman
+contributors:
+- Bitsy Perlman
 cost: None
 description: Index of newspaper.com articles
 last_edit: Mon, 19 Jun 2023 16:39:34 GMT

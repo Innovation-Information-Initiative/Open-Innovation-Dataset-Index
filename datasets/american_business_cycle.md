@@ -1,5 +1,7 @@
 ---
-contributors: Robert J. Gordon, Nathan S. Balke
+contributors:
+- Robert J. Gordon
+- Nathan S. Balke
 cost: None
 description: 'Presented here are the tables of quarterly data from Appendix B of "The
   American Business Cycle: Continuity and Change" Edited by Robert J. Gordon. National

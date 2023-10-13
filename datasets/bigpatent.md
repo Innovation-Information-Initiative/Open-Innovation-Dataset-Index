@@ -1,13 +1,16 @@
 ---
-citation: "@article{DBLP:journals/corr/abs-1906-03741,\n  author    = {Eva Sharma
-  and\n               Chen Li and\n               Lu Wang},\n  title     = {{BIGPATENT:}
-  {A} Large-Scale Dataset for Abstractive and Coherent\n               Summarization},\n
-  \ journal   = {CoRR},\n  volume    = {abs/1906.03741},\n  year      = {2019},\n
-  \ url       = {http://arxiv.org/abs/1906.03741},\n  eprinttype = {arXiv},\n  eprint
-  \   = {1906.03741},\n  timestamp = {Wed, 26 Jun 2019 07:14:58 +0200},\n  biburl
-  \   = {https://dblp.org/rec/journals/corr/abs-1906-03741.bib},\n  bibsource = {dblp
-  computer science bibliography, https://dblp.org}\n}"
-contributors: Eva Sharma, Chen Li, Lu Wang
+citation: "@article{DBLP:journals/corr/abs-1906-03741,\n  author    = {Eva Sharma\
+  \ and\n               Chen Li and\n               Lu Wang},\n  title     = {{BIGPATENT:}\
+  \ {A} Large-Scale Dataset for Abstractive and Coherent\n               Summarization},\n\
+  \  journal   = {CoRR},\n  volume    = {abs/1906.03741},\n  year      = {2019},\n\
+  \  url       = {http://arxiv.org/abs/1906.03741},\n  eprinttype = {arXiv},\n  eprint\
+  \    = {1906.03741},\n  timestamp = {Wed, 26 Jun 2019 07:14:58 +0200},\n  biburl\
+  \    = {https://dblp.org/rec/journals/corr/abs-1906-03741.bib},\n  bibsource = {dblp\
+  \ computer science bibliography, https://dblp.org}\n}"
+contributors:
+- Eva Sharma
+- Chen Li
+- Lu Wang
 cost: None
 description: 'BIGPATENT, consisting of 1.3 million records of U.S. patent documents
   along with human written abstractive summaries. Each US patent application is filed
@@ -21,7 +24,7 @@ description: 'BIGPATENT, consisting of 1.3 million records of U.S. patent docume
   baselines and popular learning models on BIGPATENT to shed light on new challenges
   and motivate future directions for summarization research.'
 documentation: https://arxiv.org/pdf/1906.03741.pdf
-last_edit: Thu, 29 Jun 2023 09:31:30 GMT
+last_edit: Mon, 04 Sep 2023 02:24:29 GMT
 location: https://huggingface.co/datasets/big_patent
 maintained_by: Lu Wang, wangluxy@umich.edu
 open_access: 'TRUE'

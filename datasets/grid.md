@@ -1,6 +1,7 @@
 ---
 bigquery: https://console.cloud.google.com/bigquery?p=grid-ac&page=table&d=data&t=research_orgs&project=sheets-management-319211
-contributors: Digital Science & Research Solutions Ltd
+contributors:
+- Digital Science & Research Solutions Ltd
 cost: None
 description: 'GRID is a free and openly available global database of over 100,000
   research-related organisations, including healthcare organizations, companies, governments,

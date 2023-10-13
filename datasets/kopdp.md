@@ -4,7 +4,12 @@ citation: 'Lee, Jihong and Lim, Hyunkyeong and Kim, Sangdong and Song, Keunsang 
   and Methods) (May 30, 2019). Available at SSRN: https://ssrn.com/abstract=3404698
   or http://dx.doi.org/10.2139/ssrn.3404698 '
 code: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AUYERV
-contributors: Jihong Lee, Hyunkyeong Lim, Sangdong Kim, Keunsang Song, Jae Yu Jung
+contributors:
+- Jihong Lee
+- Hyunkyeong Lim
+- Sangdong Kim
+- Keunsang Song
+- Jae Yu Jung
 cost: None
 description: 'The project collects all utility patents granted from the Korea Intellectual
   Property Office (KIPO) for the period 1948-2016 and the US Patent and Trademark

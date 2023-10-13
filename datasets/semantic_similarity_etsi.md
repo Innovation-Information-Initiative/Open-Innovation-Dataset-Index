@@ -1,5 +1,8 @@
 ---
-contributors: Lorenz Brachtendorf, Fabian Gaessler, Dietmar Harhoff
+contributors:
+- Lorenz Brachtendorf
+- Fabian Gaessler
+- Dietmar Harhoff
 cost: None
 description: 'We provide data with information on the semantic similarity of more
   than 200 million patent-standard pairs for three major standard-setting organizations:

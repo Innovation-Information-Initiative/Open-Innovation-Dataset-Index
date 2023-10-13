@@ -3,14 +3,15 @@ bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=pate
 citation: Attribution should be given to PatentsView for use, distribution, or derivative
   works.
 code: https://github.com/CSSIP-AIR/PatentsView-Code-Snippets/
-contributors: USPTO
+contributors:
+- USPTO
 cost: None
 description: 'PatentsView includes US patent data including raw data (summaries, applications,
   pregrant applications), disambugations of inventors and assignees, and inventor
   gender estimates.  Also foreign priority data, # of figures and sheets, and government
   interest statements.'
 documentation: https://patentsview.org/query/builder-faqs
-last_edit: Mon, 19 Jun 2023 16:38:15 GMT
+last_edit: Wed, 11 Oct 2023 03:01:59 GMT
 location: https://patentsview.org/
 maintained_by: USPTO
 open_access: 'TRUE'

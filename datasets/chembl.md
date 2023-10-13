@@ -5,7 +5,8 @@ citation: '"The ChEMBL database in 2017." Anna Gaulton, Anne Hersey, Michał Now
   Louisa J Bellis, Elena Cibrián-Uhalte, Mark Davies, Nathan Dedman, Anneli Karlsson,
   María Paula Magariños, John P Overington, George Papadatos, Ines Smit, Andrew R
   Leach Nucleic acids Research (2017) 45 (Database Issue), D945-D954'
-contributors: European Bioinformatics Institute
+contributors:
+- European Bioinformatics Institute
 cost: None
 description: ChEMBL Data is a manually curated database of small molecules used in
   drug discovery, including information about existing patented drugs.
