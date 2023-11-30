@@ -1,8 +1,8 @@
 // On input change use the current value of the input field (e.target.value)
 // to update the state's query value
-export const quickSearch = (query, index, store) => {
+const quickSearch = (query, index, store) => {
   // const q = e.target.value
-  let q = query.slice(-1) === " " ? query : query + '*';
+  let q = String(query).slice(-1) === " " ? query : query + '*';
   q = q + "~1"
 
   let res = []
@@ -23,7 +23,6 @@ export const quickSearch = (query, index, store) => {
       }
     })
 
-  console.log(res)
   return res
 
   } catch (error) {
@@ -32,3 +31,4 @@ export const quickSearch = (query, index, store) => {
 
 }
 
+export default quickSearch;

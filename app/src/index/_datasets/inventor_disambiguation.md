@@ -7,7 +7,8 @@ cost: None
 description: ''
 location: https://dataverse.harvard.edu/dataverse/patent
 slug: inventor_disambiguation
-tags: '[Disambiguation]'
+tags: 
+  - Disambiguation
 timeframe: 1975-2010
 title: Inventor disambiguation
 uuid: e77ef2c0-6a35-437a-8893-83eb88ad7bc9
