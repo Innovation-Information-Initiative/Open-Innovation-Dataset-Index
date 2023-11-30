@@ -6,6 +6,7 @@ on:
       - 'collections/*.md'
       - 'datasets/*.md'
       - 'tools/*.md'
+      - 'workflows/*.yml'
     branches:
       - main
 
@@ -31,9 +32,9 @@ jobs:
         run: |
             IFS=';' read -ra input_array <<< "${{ env.INPUT_FOLDERS }}"
             for dir in "${input_array[@]}"; do
-              cp -r ${dir}/* app/index/_${dir}/
-              for file in app/index/_${dir}/*.md; do
-                sed -i '2s/^/layout\: default\n/;' $file
+              cp -r ${dir}/* app/src/index/_${dir}/
+              for file in app/src/index/_${dir}/*.md; do
+                sed -i 's/shortname:/slug:/g;' $file
               done
             done
 
