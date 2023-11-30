@@ -4,7 +4,7 @@ on:
   pull_request_target:
     types: [opened, reopened, edited]
     paths:
-    - 'collections/**.md'
+    - 'guides/**.md'
 
 env:
   remote: 'Innovation-Information-Initiative/Open-Innovation-Dataset-Index'
@@ -62,7 +62,7 @@ jobs:
             git status
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add collections/*.md app/assets/thumbnails
+            git add guides/*.md app/static/assets/thumbnails
             git commit -m "accepted new collection PR (#${{ github.event.number }})"
 
       - name: Push to new branch
