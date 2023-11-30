@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+body {
+    font-family: helvetica;
+    line-height: 1.2;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+header img {
+    height: 50px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: lightyellow;
+}
+
+.pageContainer {
+    margin-left: 20px;
+    max-width: 800px;
+    min-width: 400px;
+    margin-bottom: 50px;
+}
+
+.pageTitle {
+    display: flex;
+}
+
+.pageTitle div {
+    padding: 10px 10px 10px 0px;
+}
+
+.pageTitle img {
+    width: 120px;
+}
+
+#rship-form {
+    display: none;
+}
+
+.videoContainer {
+    /* width is set as 100% here. any width can be specified as per requirement */
+    width: 90%;
+    padding-top: 50%;
+    height: 0px;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.infoBox {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 600px;
+    height: 400;
+    word-wrap: break-word;
+}
+
+.infoBox p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tagsBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.headerContainer > a:hover {
+    background-color: lightgray;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer {
+    border-bottom: 1px solid black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+}
+
+.navContainer a:hover {
+    box-shadow: 0px 0px 10px 2px lightyellow;
+    border-radius: 10px;
+}
+
+.indexList {;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.indexList li {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.indexList li:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.indexList a {
+    text-decoration: none;
+}
+
+.itemThumb {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.itemThumb img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+}
+
+.itemCard {
+    width: calc(100% - 65px);
+}
+
+.nav {
+    max-width: 700px;
+    min-width: 450px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.editNav {
+    width: 80%;
+    min-width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.editNav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+#editInfo {
+    float: right;
+}
+
+#editInfo img {
+    width: 20px;
+}
+
+#editInfo a:hover {
+    background-color: lightgray;
+}
+
+#resultsContainer {
+    padding: 0px;
+    position: absolute;
+    z-index: 3;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: -50px 50px 30px lightgray;
+    max-width: 350px;
+}
+
+/*form {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    width: 90%;
+}
+
+form > div {
+    margin-bottom: 20px;
+}*/
+
+
+select {
+    width: 100px;
+}
+
+.searchResult {
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+
+.searchResult:hover {
+    background-color: lightyellow;
+}
+
+.searchResult > a {
+    text-decoration: none;
+    padding: 2px;
+}
+
+footer {
+    font-size: small;
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgrey;
+    height: 20px;
+    margin-top: 70px;
+    width: 100%;
+    box-shadow: 0px 0px 30px 30px lightgray;
+    padding: 5px;
+}
+
+p a:hover {
+    box-shadow: 0px 0px 10px 2px lightyellow;
+    border-radius: 5px;
+}
+
+li a:hover {
+    box-shadow: 0px 0px 10px 2px lightyellow;
+    border-radius: 5px;
+}
+
+
+footer a:hover {
+    box-shadow: 0px 0px 10px 2px lightyellow;
+    border-radius: 5px;
+}

@@ -1,9 +1,0 @@
-[build]
-  functions = "./functions"
-
-[dev]
-  port = 4001
-  command = "bundle exec jekyll serve"
-
-[functions]
-  node_bundler = "esbuild"

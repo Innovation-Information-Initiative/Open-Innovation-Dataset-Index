@@ -1,0 +1,70 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent div {
+  padding: 2px;
+}
+
+.dropdownContent div:hover {
+  background-color: lightyellow;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.formSection {
+/*    margin-bottom: 20px;*/
+    margin-top: -10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70%;
+    min-width: 550px;
+}
+
+.filter > * {
+  margin: 2px;
+}
+
+#filterButton {
+  margin: 2px;
+}
+
+#submitAdvSearch {
+    margin-top: 20px;
+    width: 70%;
+    min-width: 550px;
+/*    border: 1px solid black;*/
+}
+
+#submitAdvSearch div {
+  width: 80%;
+  height: 30px;
+}
+
+#submitAdvSearch button {
+  float: right;
+}
+
+.results {
+  margin-top: 100px;
+  max-width: 600px;
+/*  border: 1px solid black;*/
+/*  padding: 5px;*/
+  border-radius: 10px;
+}
