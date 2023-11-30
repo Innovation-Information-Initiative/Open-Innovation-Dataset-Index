@@ -50,5 +50,5 @@ def create_sprites(uuids):
 		origImage = Image.new('RGB', (origDimension, origDimension), (255, 255, 255))  
 		draw = ImageDraw.Draw(origImage)
 		draw_sprite((topLeftX, topLeftY, botRightX, botRightY), draw, size)
-		origImage.save("app/assets/thumbnails/" + uuid + ".png")
+		origImage.save("app/static/assets/thumbnails/" + uuid + ".png")
 
