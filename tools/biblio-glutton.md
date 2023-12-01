@@ -23,8 +23,9 @@ description: 'Framework dedicated to bibliographic information. It includes:
 
   --  MeSH classes mapping for PubMed articles.'
 documentation: https://github.com/kermitt2/biblio-glutton
-last_edit: Fri, 01 Dec 2023 12:22:22 GMT
+last_edit: Fri, 01 Dec 2023 12:42:05 GMT
 location: https://github.com/kermitt2/biblio-glutton
+maintained_by: Patrice Lopez, info@science-miner.com
 shortname: biblio-glutton
 tags:
 - citation
