@@ -12,7 +12,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String!
       contributors: [String]
-      authors: [String]
       description: String
       tags: [String]
       salient_fields: [String]
@@ -139,7 +138,7 @@ exports.createResolvers =  async ({ cache, createResolvers }) => {
           const type = info.schema.getType(`MarkdownRemark`)
           return createIndex(toolNodes, type, cache, 'IndexTools')
         },
-      },   
+      },
       LunrIndexTags: {
         type: GraphQLJSONObject,
         resolve: async (source, args, context, info) => {
@@ -151,6 +150,32 @@ exports.createResolvers =  async ({ cache, createResolvers }) => {
           })
           const type = info.schema.getType(`MarkdownRemark`)
           return createTagIndex(dataNodes, type, cache, 'IndexTags')
+        },
+      },
+      LunrIndexToolTags: {
+        type: GraphQLJSONObject,
+        resolve: async (source, args, context, info) => {
+          const toolNodes = await context.nodeModel.findAll({
+            type: `MarkdownRemark`,
+            query: {
+              filter: { fileAbsolutePath: {regex: "/_tools/"  } },
+            },
+          })
+          const type = info.schema.getType(`MarkdownRemark`)
+          return createTagIndex(toolNodes, type, cache, 'IndexToolTags')
+        },
+      },
+      LunrIndexToolContributors: {
+        type: GraphQLJSONObject,
+        resolve: async (source, args, context, info) => {
+          const toolNodes = await context.nodeModel.findAll({
+            type: `MarkdownRemark`,
+            query: {
+              filter: { fileAbsolutePath: {regex: "/_tools/"  } },
+            },
+          })
+          const type = info.schema.getType(`MarkdownRemark`)
+          return createContributorIndex(toolNodes, type, cache, 'IndexToolContributors')
         },
       },
       LunrIndexFields: {

@@ -1,7 +1,5 @@
 ---
 api_or_bulk_downloads: Bulk
-authors: Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, Gaétan de
-  Rassenfosse
 bigquery: https://console.cloud.google.com/bigquery?project=patcit-public-data&p=patcit-public-data&page=project
 citation: 'Cyril Verluise, Gabriele Cristelli, Kyle Higham, Lucas Violon, & Gaétan
   de Rassenfosse. (2020). PatCit: A Comprehensive Dataset of Patent Citations (Version
