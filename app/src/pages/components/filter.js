@@ -1,16 +1,26 @@
 import React from 'react';
 import './search.css';
 import { Index } from "lunr"
+import { graphql, useStaticQuery } from "gatsby"
 
-const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleFilterChange, removeFilter}) => {
+const Filter = ({num, handleFilterChange, removeFilter}) => {
+  const {
+    tagStore,
+    fieldStore,
+    contributorStore
+  } = useStaticQuery( graphql`
+    {
+      tagStore: LunrIndexTags
+      fieldStore: LunrIndexFields
+      contributorStore: LunrIndexContributors
+    }
+`)
+
   const [searchTags, setSearchTags] = React.useState(false);
   const [searchFields, setSearchFields] = React.useState(false);
   const [searchContributors, setSearchContributors] = React.useState(false);
   const [results, setResults] = React.useState([]);
 
-  const tagsIndex = Index.load(tagStore.index)
-  const fieldsIndex = Index.load(fieldStore.index)
-  const contributorIndex = Index.load(contributorStore.index)
 
   const setInput = (event, field) => {
     const input = document.getElementById('searchInput' + num)

@@ -35,12 +35,7 @@ const AdvSearch = ({ initialQuery = "" }) => {
   const {
     pages: { nodes },
     store,
-    tagStore,
-    toolStore,
-    toolTagStore,
-    fieldStore,
-    contributorStore,
-    toolContributorStore
+    toolStore
   } = useStaticQuery( graphql`
     {
       pages: allMarkdownRemark {
@@ -62,11 +57,6 @@ const AdvSearch = ({ initialQuery = "" }) => {
       }
       store: LunrIndex
       toolStore: LunrIndexTools
-      tagStore: LunrIndexTags
-      toolTagStore: LunrIndexToolTags
-      fieldStore: LunrIndexFields
-      contributorStore: LunrIndexContributors
-      toolContributorStore: LunrIndexToolContributors
     }
 `)
   
@@ -161,20 +151,14 @@ const AdvSearch = ({ initialQuery = "" }) => {
                <div className="formSection">
               { currentForm.index === 'datasets' ? filters.map( (filter, i) => <Filter 
                 key={i}
-                num={i} 
-                tagStore={tagStore}
-                toolStore={toolStore}
-                contributorStore={contributorStore}
-                fieldStore={fieldStore}
+                num={i}
                 handleFilterChange={handleFilterChange}
                 removeFilter={removeFilter}
                 /> ) :
 
               filters.map( (filter, i) => <ToolFilter 
                 key={i}
-                num={i} 
-                tagStore={toolTagStore}
-                contributorStore={toolContributorStore}
+                num={i}
                 handleFilterChange={handleFilterChange}
                 removeFilter={removeFilter}
                 /> )
