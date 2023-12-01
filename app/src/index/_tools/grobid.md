@@ -1,5 +1,5 @@
 ---
-authors: 'The main author is Patrice Lopez (patrice.lopez@science-miner.com).
+contributors: 'The main author is Patrice Lopez (patrice.lopez@science-miner.com).
 
 
   Core committers and maintenance: Patrice Lopez (science-miner) and Luca Foppiano
