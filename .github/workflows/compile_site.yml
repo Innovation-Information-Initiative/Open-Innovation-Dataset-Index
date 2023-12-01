@@ -44,7 +44,7 @@ jobs:
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add app/**.md
+            git add app/*/*.md
             git commit -m "compiled site after edit to markdown files"
             git push
 
