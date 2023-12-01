@@ -70,7 +70,7 @@ const DatasetPage = () => {
     </div>
     <ul className="indexList">
         {results.map(node => (
-        <Link to={"/" + node.frontmatter.slug}>
+        <Link to={node.frontmatter.slug}>
           <li key={node.frontmatter.slug}>
           <div className="itemThumb">
             { node.frontmatter.thumbnail_url ?

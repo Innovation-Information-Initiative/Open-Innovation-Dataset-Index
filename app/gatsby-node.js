@@ -32,7 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data, errors } = await graphql(`
   {
-  	pages: allMarkdownRemark {
+  	datasets: allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/_datasets/"  }}) {
   	    nodes {
   	    	html
   	    	id
@@ -41,20 +41,66 @@ exports.createPages = async ({ graphql, actions }) => {
           }
   	    }
   	}
+    tools: allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/_tools/"  }}) {
+        nodes {
+          html
+          id
+          frontmatter {
+            slug
+          }
+        }
+    }
+    guides: allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/_guides/"  }}) {
+        nodes {
+          html
+          id
+          frontmatter {
+            slug
+          }
+        }
+    }
   }
   `)
 
   if (errors) {
     console.log("gets here, errors are", errors)
   }
-  data.pages.nodes.forEach((page, index) => {
+  data.datasets.nodes.forEach((page, index) => {
     try {
       createPage({
-        path: page.frontmatter.slug,
+        path: 'datasets/' + page.frontmatter.slug,
         component: require.resolve(`./src/templates/dataset.js`),
         context: {
         	id: page.id
       	}
+      })
+    }
+    catch (e) {
+      console.log(e)
+    }
+  })
+  data.guides.nodes.forEach((page, index) => {
+    try {
+      createPage({
+        path: 'guides/' + page.frontmatter.slug,
+        component: require.resolve(`./src/templates/dataset.js`),
+        context: {
+          id: page.id
+        }
+      })
+    }
+    catch (e) {
+      console.log(e)
+    }
+  })
+  data.tools.nodes.forEach((page, index) => {
+    try {
+      createPage({
+        path: 'tools/' + page.frontmatter.slug,
+        component: require.resolve(`./src/templates/dataset.js`),
+        context: {
+          id: page.id
+        }
       })
     }
     catch (e) {

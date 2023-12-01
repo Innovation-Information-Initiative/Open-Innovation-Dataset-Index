@@ -82,7 +82,7 @@ const SearchForm = ({ initialQuery = "" }) => {
         />
           { results.length > 0 && <div className="dropdownContent">
             { results.filter( (item, i) => i < 5 ).map( 
-              (result, j) => <div key={j}> <Link to={result.slug}> {result.title} </Link></div> 
+              (result, j) => <div key={j}> <Link to={"datasets/" + result.slug}> {result.title} </Link></div> 
               )}</div>}
       </div>
     </form>
