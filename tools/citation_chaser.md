@@ -1,5 +1,5 @@
 ---
-authors: Neal Haddaway
+contributors: Neal Haddaway
 citation: 'Haddaway, N.R., Grainger, M.J., Gray, C.T. 2021. citationchaser: An R package
   and Shiny app for forward and backward citations chasing in academic searching.'
 description: 'In systematic reviews, we often want to obtain lists of references from

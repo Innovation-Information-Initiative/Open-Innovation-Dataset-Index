@@ -1,5 +1,5 @@
 ---
-authors: Mediawiki, Zotero
+contributors: Mediawiki, Zotero
 description: 'Citoid is an auto-filled citation generator which automatically creates
   a citation template from online sources based on a URL or some academic reference
   identifiers like DOIs, PMIDs, PMCIDs and ISBNs. Mediawiki hosts a citoid API, which

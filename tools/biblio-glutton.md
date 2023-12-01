@@ -1,5 +1,5 @@
 ---
-authors: Patrice Lopez
+contributors: Patrice Lopez
 description: 'Framework dedicated to bibliographic information. It includes:
 
 
