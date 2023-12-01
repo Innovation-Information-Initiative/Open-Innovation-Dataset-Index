@@ -1,6 +1,5 @@
 ---
 api_or_bulk_downloads: Bulk
-authors: Matt Marx, Aaron Fuegi
 citation: 'Marx, Matt and Aaron Fuegi, "Reliance on Science: Worldwide Front-Page
   Patent Citations to Scientific Articles"'
 code: https://github.com/mattmarx/reliance_on_science

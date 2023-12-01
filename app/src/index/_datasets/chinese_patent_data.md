@@ -1,6 +1,5 @@
 ---
 api_or_bulk_downloads: Bulk
-authors: Wenlong He, Zi-lin He, Tony W. Tong, Yuchen Zhang
 contributors:
 - Wenlong He
 - Zi-lin He
