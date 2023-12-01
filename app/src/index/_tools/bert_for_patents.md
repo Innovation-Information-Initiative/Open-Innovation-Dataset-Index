@@ -1,6 +1,9 @@
 ---
-contributors: Google Patents, Rob Srebrovic, Jay Yonamine
 citation: https://cloud.google.com/blog/products/ai-machine-learning/how-ai-improves-patent-analysis
+contributors:
+- Google Patents
+- Rob Srebrovic
+- Jay Yonamine
 description: A BERT (bidirectional encoder representation from transformers) model
   pretrained on over 100 million patent publications from the U.S. and other countries
   using open-source tooling. The trained model can be used for a number of use cases,

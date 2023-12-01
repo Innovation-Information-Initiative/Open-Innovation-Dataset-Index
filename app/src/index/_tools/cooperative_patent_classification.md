@@ -1,5 +1,6 @@
 ---
-contributors: collaboration between EPO and USPTO
+contributors:
+- collaboration between EPO and USPTO
 description: CPC is the outcome of an ambitious harmonization effort to bring the
   best practices from the EPO and USPTO together. In fact, most U.S. patent documents
   are already classified in ECLA. The conversion from ECLA to CPC at the EPO will

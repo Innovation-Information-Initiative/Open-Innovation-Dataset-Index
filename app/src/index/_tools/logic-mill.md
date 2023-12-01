@@ -1,10 +1,15 @@
 ---
 associated_papers: https://arxiv.org/pdf/2301.00200.pdf
-contributors: Sebastian Erhardt, Mainak Ghosh, Erik Buunk, Michael E. Rose, Dietmar Harhoff
 citation: "@misc{erhardt2022logic,\n      title={Logic Mill - A Knowledge Navigation
   System},\n      author={Sebastian Erhardt and Mainak Ghosh and Erik Buunk and Michael
   E. Rose and Dietmar Harhoff},\n      year={2022},\n      eprint={2301.00200},\n
   \     archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+contributors:
+- Sebastian Erhardt
+- Mainak Ghosh
+- Erik Buunk
+- Michael E. Rose
+- Dietmar Harhoff
 description: 'Logic Mill is a scalable and openly accessible soft- ware system that
   identifies semantically similar documents within either one domain-specific corpus
   or multi-domain corpora. It uses advanced Natural Language Processing (NLP) techniques
