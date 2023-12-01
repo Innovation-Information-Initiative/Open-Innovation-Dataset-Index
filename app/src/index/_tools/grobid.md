@@ -18,8 +18,9 @@ description: 'GROBID (or Grobid, but not GroBid nor GroBiD) means GeneRation Of 
 
   GROBID should run properly "out of the box" on Linux (32 and 64 bits) and macOS. '
 documentation: https://grobid.readthedocs.io/en/latest/Introduction/
-last_edit: 12/03/2021, 19:20:52
+last_edit: Fri, 01 Dec 2023 12:42:11 GMT
 location: https://github.com/kermitt2/grobid
+maintained_by: Patrice Lopez, info@science-miner.com
 related_projects: {}
 slug: grobid
 terms_of_use: GROBID is distributed under Apache 2.0 license.
