@@ -66,6 +66,9 @@ def update_markdown(data, directory):
 					if "schema_fields" in row and row["schema_fields"].strip():
 						record["schema_fields"] = list(map(lambda field: field.strip(), row["schema_fields"].split(',')))
 
+					if "salient_fields" in row and row["salient_fields"].strip():
+						record["salient_fields"] = list(map(lambda field: field.strip(), row["salient_fields"].split(',')))
+
 					if "contributors" in row and row["contributors"].strip():
 						record["contributors"] = list(map(lambda tag: tag.strip(), row["contributors"].split(',')))
 
@@ -127,6 +130,10 @@ def generate_markdown(data, directory):
 
 		if "schema_fields" in row and row["schema_fields"].strip():
 			record["schema_fields"] = list(map(lambda field: field.strip(), row["schema_fields"].split(',')))
+
+		if "salient_fields" in row and row["salient_fields"].strip():
+			record["salient_fields"] = list(map(lambda field: field.strip(), row["salient_fields"].split(',')))
+
 
 		if "related_projects" in row and row["related_projects"].strip():
 			record["related_projects"] = {}

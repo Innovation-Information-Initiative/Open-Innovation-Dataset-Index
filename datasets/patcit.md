@@ -40,7 +40,11 @@ related_publications: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=375477
 relationships:
 - rons
 - lens
-salient_fields: DOI, PMID, ISSN, ISBN
+salient_fields:
+- DOI
+- PMID
+- ISSN
+- ISBN
 schema_fields:
 - DOI
 - npl_cat_language_flag

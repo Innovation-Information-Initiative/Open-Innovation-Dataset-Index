@@ -28,6 +28,7 @@ def match_schema_fields():
 				top_suggestion = sorted(possibilities, key=lambda poss: poss['score'])[0]
 				suggestions.append(top_suggestion)
 		if len(suggestions) > 0:
+			print('im in suggestions!')
 			print(row['title'], suggestions)
 			# have some way of logging suggestions file?
 			for suggestion in suggestions:
