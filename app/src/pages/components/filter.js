@@ -21,11 +21,13 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, toolsIndex, tagStore, toolS
     let res = []
     try {
       res = tagsIndex.search(q).map(({ ref }) => {
+        console.log('ref is', ref, 'tag store ref is', tagStore[ref])
         return {
           _id: ref,
-          ...tagStore[ref],
+          ...tagStore.store[ref],
         }
       })
+      console.log('setting tag results', res, 'tag store', tagStore)
       setTagResults(res)
       handleFilterChange(num, event)
     } catch (error) {
@@ -40,7 +42,7 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, toolsIndex, tagStore, toolS
       res = fieldsIndex.search(q).map(({ ref }) => {
         return {
           _id: ref,
-          ...fieldStore[ref],
+          ...fieldStore.store[ref],
         }
       })
       console.log('res is', res)

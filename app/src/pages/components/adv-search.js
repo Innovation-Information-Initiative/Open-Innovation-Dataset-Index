@@ -132,15 +132,17 @@ const AdvSearch = ({ initialQuery = "" }) => {
     })
 
     const index = currentForm.index === 'datasets' ? mainIndex : toolsIndex
+    const using_store = currentForm.index === 'datasets' ? store : toolStore
 
-    console.log('search string is', searchString, 'current form is', currentForm)
+    // console.log('search string is', searchString, 'current form is', currentForm)
 
     let res_temp = []
     try {
       res_temp = index.search(searchString).map(({ ref }) => {
+        console.log('store is', store)
         return {
           slug: ref,
-          ...store[ref],
+          ...using_store.store[ref],
         }
       })
       const res_nodes = res_temp.map(res => nodes.find(node => node.frontmatter.slug === res.slug.replace('/', '')))

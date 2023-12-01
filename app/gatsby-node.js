@@ -189,7 +189,7 @@ const createTagIndex = async (dataNodes, type, cache, cacheKey) => {
   if (cached) {
     return cached
   }
-  const tagStore = {}
+  const store = {}
 
   dataNodes.entries.forEach(entry => allTags = allTags.concat(entry.frontmatter.tags));
 
@@ -203,11 +203,11 @@ const createTagIndex = async (dataNodes, type, cache, cacheKey) => {
     tagJson.forEach( entry => {
       this.add(entry);
       const tag = entry.tag
-      tagStore[entry._id] = { tag }
+      store[entry._id] = { tag }
     }, this)
   })
 
-  const json = { index: tagIndex.toJSON(), tagStore }
+  const json = { index: tagIndex.toJSON(), store }
   await cache.set(cacheKey, json)
   return json
 }
@@ -218,7 +218,7 @@ const createFieldIndex = async (dataNodes, type, cache, cacheKey) => {
   if (cached) {
     return cached
   }
-  const fieldStore = {}
+  const store = {}
 
   dataNodes.entries.forEach(entry => allFields = allFields.concat(entry.frontmatter.salient_fields));
   allFields = allFields.filter(field => field !== undefined)
@@ -230,11 +230,11 @@ const createFieldIndex = async (dataNodes, type, cache, cacheKey) => {
       fieldJson.forEach( entry => {
         this.add(entry);
         const field = entry.field
-        fieldStore[entry._id] = { field }
+        store[entry._id] = { field }
       }, this)
     })
 
-  const json = { index: fieldIndex.toJSON(), fieldStore }
+  const json = { index: fieldIndex.toJSON(), store }
   await cache.set(cacheKey, json)
   return json
 }
