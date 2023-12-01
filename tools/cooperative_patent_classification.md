@@ -7,10 +7,12 @@ description: CPC is the outcome of an ambitious harmonization effort to bring th
   documents. At the USPTO, the conversion will provide an up-to date classification
   system that is internationally compatible.
 documentation: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions
-last_edit: Thu, 02 Dec 2021 11:52:57 GMT
+last_edit: Fri, 01 Dec 2023 12:20:30 GMT
 location: https://www.cooperativepatentclassification.org/about
 related_projects: {}
 shortname: cooperative_patent_classification
+tags:
+- classification
 title: Cooperative Patent Classification Scheme
 uuid: 3aa314f5-20eb-4e21-96e8-d1f28e8dd51c
 ---
