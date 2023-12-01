@@ -4,11 +4,10 @@ citation: 'Waleed Ammar et al. 2018. Construction of the Literature Graph in Sem
 contributors:
 - Waleed Ammar
 - Dirk Groneveld
-- +20 authors
 cost: None
 description: 'Semantic Scholar''s records for research papers published in all fields
   provided as an easy-to-use JSON archive. '
-last_edit: Fri, 28 Jul 2023 11:50:37 GMT
+last_edit: Fri, 01 Dec 2023 18:12:25 GMT
 location: https://api.semanticscholar.org/corpus
 maintained_by: Semantic Scholar, feedback@semanticscholar.org
 open_access: 'TRUE'

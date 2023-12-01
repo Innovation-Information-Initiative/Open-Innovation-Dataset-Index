@@ -4,16 +4,11 @@ citation: '"USPTO OCE Patent Assignment Data" by the USPTO, for public use. Marc
   Alan C., Graham, Stuart J.H., Myers, Amanda F., D''Agostino, Paul A and Apple, Kirsten,
   "The USPTO Patent Assignment Dataset: Descriptions and Analysis" (July 27, 2015).'
 contributors:
-- Marco
-- Alan C.
-- Graham
-- Stuart J.H.
-- Myers
-- Amanda F.
-- D'Agostino
-- Paul A
-- Apple
-- Kirsten
+- Alan C. Marco
+- Stuart J.H. Graham
+- Amanda F. Myers
+- Paul A. D'Agostino
+- Kirsten Apple
 cost: None
 description: The USPTO allows parties to record assignments of patents and patent
   applications to, as much as possible, maintain a complete history of claimed interests
@@ -24,7 +19,7 @@ description: The USPTO allows parties to record assignments of patents and paten
   on 8.97 million patent assignments and other transactions recorded at the USPTO
   since 1970 and involving roughly 15.1 million patents and patent applications. It
   is derived from the recording of patent transfers by parties with the USPTO.
-last_edit: Thu, 13 Jul 2023 00:33:32 GMT
+last_edit: Fri, 01 Dec 2023 18:14:47 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-assignment-dataset
 maintained_by: EconomicsData@uspto.gov
 open_access: 'FALSE'

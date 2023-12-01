@@ -3,13 +3,13 @@ bigquery: https://console.cloud.google.com/bigquery?p=innography-174118&d=techni
 citation: “CPA Global Technical Standards ETSI Data” by CPA Global (through ETSI IPR)
   is licensed under a Creative Commons Attribution 4.0 International License.
 contributors:
-- CPA Global (now owned by Clarivate)
+- CPA Global
 cost: None
 description: European Telecommunications Standards Institute (ETSI) IPR dataset for
   technical standards. These are the US assets disclosed by companies as related to
   technical standards in ETSI. The two major ones included are 3GPP and LTE.
 documentation: https://github.com/google/patents-public-data/blob/master/tables/dataset_CPA%20Global.md
-last_edit: Mon, 19 Jun 2023 16:43:31 GMT
+last_edit: Fri, 01 Dec 2023 18:14:56 GMT
 location: https://console.cloud.google.com/marketplace/product/google_patents_public_datasets/cpa-global-technical-standards-etsi
 maintained_by: Google Patents Public Data
 open_access: 'TRUE'
