@@ -5,7 +5,9 @@ authors:
 description: Starting point list of datasets and resources for the study of innovation,
   including guides to interpreting patent identifiers, request APIs, and disambiguation
   tools.
-tags: patents
+tags: 
+ - patents
+slug: intro
 title: Essential Patent Analysis Datasets
 uuid: 4f841bda-4401-4cfd-ab89-403d577099f4
 ---

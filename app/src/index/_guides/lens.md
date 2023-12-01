@@ -9,6 +9,7 @@ tags:
 - scholarly literature
 - biotechnology
 - COVID-19
+slug: lens
 title: Lens Labs Apps and Data
 uuid: a86f4fb0-6975-4192-8ca9-be43d224e2ef
 ---

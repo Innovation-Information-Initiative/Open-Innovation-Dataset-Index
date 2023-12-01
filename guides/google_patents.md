@@ -15,6 +15,7 @@ tags:
 - patents
 - drug discovery
 title: Google Patents Public Datasets
+shortname: google_patents
 uuid: b79ddeaf-e746-4e5b-bee7-3c3724cc2540
 ---
 

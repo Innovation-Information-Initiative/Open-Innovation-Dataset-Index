@@ -8,6 +8,7 @@ tags:
 - scientific research
 title: Essential Publication Analysis Datasets and Measures
 uuid: a2ba7f45-73af-4494-8a28-3c86784f7d03
+slug: publications
 ---
 
 ## Raw Publication Data

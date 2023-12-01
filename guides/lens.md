@@ -10,6 +10,7 @@ tags:
 - biotechnology
 - COVID-19
 title: Lens Labs Apps and Data
+shortname: lens_apps_data
 uuid: a86f4fb0-6975-4192-8ca9-be43d224e2ef
 ---
 

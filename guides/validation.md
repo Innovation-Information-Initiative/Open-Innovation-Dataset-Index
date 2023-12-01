@@ -6,6 +6,7 @@ tags:
 - validation
 - open data
 title: Validation in Innovation Data
+shortname: validation
 uuid: a2ba7a86-73af-4494-8a28-3c86784f7d03
 ---
 
