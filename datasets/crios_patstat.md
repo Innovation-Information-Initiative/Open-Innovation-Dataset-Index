@@ -2,10 +2,8 @@
 citation: 'Coffano, M., & Tarasconi, G. (2014). CRIOS - Patstat Database: Sources,
   Contents and Access Rules. SSRN Electronic Journal. doi:10.2139/ssrn.2404344 '
 contributors:
-- Coffano
-- M.
-- '& Tarasconi'
-- G.
+- Monica Coffano
+- Gianluca Tarasconi
 cost: None
 description: "Disambiguated inventor and applicant names for EPO records. A major
   problem with PATSTAT was that data are provided in a raw format. Data have been
@@ -20,7 +18,7 @@ description: "Disambiguated inventor and applicant names for EPO records. A majo
   EPO applications is 1978, in many reports by priority date you might see earlier
   dates."
 documentation: http://ssrn.com/abstract=2404344
-last_edit: Fri, 20 Oct 2023 10:38:04 GMT
+last_edit: Fri, 01 Dec 2023 18:12:01 GMT
 location: https://www.icrios.unibocconi.eu/wps/wcm/connect/Cdr/Icrios/Home/Resources/Databases/PATENTS-ICRIOS+database/
 maintained_by: crios@unibocconi.it
 open_access: 'TRUE'
