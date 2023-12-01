@@ -262,7 +262,8 @@ const createContributorIndex = async (dataNodes, type, cache, cacheKey) => {
   const store = {}
 
   dataNodes.entries.forEach(entry => allContributors = allContributors.concat(entry.frontmatter.contributors));
-  allContributors = allContributors.filter(contributor => contributor !== undefined)
+  //filter for valid names
+  allContributors = allContributors.filter(contributor => contributor !== undefined && String(contributor).length < 20 && String(contributor).length > 4)
 
   const contributorJson = [...new Set(allContributors)].map((contributor, index) => ({contributor: contributor, _id: index}));
 

@@ -50,10 +50,9 @@ const SearchForm = ({ initialQuery = "" }) => {
           ...store[ref],
         }
       })
-      console.log('got results', results)
       setResults(res)
     } catch (error) {
-      console.log(error)
+      console.log("hit error", error)
     }
 
   }
@@ -70,7 +69,7 @@ const SearchForm = ({ initialQuery = "" }) => {
     <div>
     <form role="search" onSubmit={handleSubmit}>
       <label htmlFor="search-input" style={{ display: "block" }}>
-        Search for:
+        <h3>Search for:</h3>
       </label>
       <div className="dropdown">
         <input
