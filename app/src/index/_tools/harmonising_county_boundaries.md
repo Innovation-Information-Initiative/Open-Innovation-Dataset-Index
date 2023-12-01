@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: Bitsy Perlman
 description: This tool creates the csv tables that allow county boundaries to be synchronized
   to a base year, exported to the directory you run this from. While this code takes

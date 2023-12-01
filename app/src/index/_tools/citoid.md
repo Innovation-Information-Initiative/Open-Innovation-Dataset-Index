@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: Mediawiki, Zotero
 description: 'Citoid is an auto-filled citation generator which automatically creates
   a citation template from online sources based on a URL or some academic reference

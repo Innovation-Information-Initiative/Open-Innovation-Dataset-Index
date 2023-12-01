@@ -1,5 +1,4 @@
 ---
-layout: default
 author:
 - Lens Labs
 description: Projects relating to the Lens platform, and to patent citation to scholarly
@@ -11,7 +10,6 @@ tags:
 - biotechnology
 - COVID-19
 title: Lens Labs Apps and Data
-slug: lens
 uuid: a86f4fb0-6975-4192-8ca9-be43d224e2ef
 ---
 

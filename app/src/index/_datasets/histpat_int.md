@@ -1,11 +1,10 @@
 ---
-citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {International}\
-  \ {Dataset}},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS},\n\
-  \tdoi = {10.7910/DVN/QT4OJS},\n\tabstract = {HistPat International provides the\
-  \ geography of historical patents granted to foreigns by the United States Patent\
-  \ and Trademark Office (USPTO) fro...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\
-  \tauthor = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2019},\n\tnote = {type:\
-  \ dataset},\n}\n"
+citation: "\n@article{petralia_histpat_2019,\n\ttitle = {{HistPat} {International}
+  {Dataset}},\n\turl = {https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QT4OJS},\n\tdoi
+  = {10.7910/DVN/QT4OJS},\n\tabstract = {HistPat International provides the geography
+  of historical patents granted to foreigns by the United States Patent and Trademark
+  Office (USPTO) fro...},\n\tlanguage = {en},\n\turldate = {2021-08-17},\n\tauthor
+  = {Petralia, Sergio},\n\tmonth = mar,\n\tyear = {2019},\n\tnote = {type: dataset},\n}\n"
 cost: None
 description: 'HistPat International provides the geography of historical patents granted
   to foreign nationals by the United States Patent and Trademark Office (USPTO) from

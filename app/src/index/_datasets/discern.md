@@ -17,13 +17,21 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   the match to Compustat up to 2015, we address two major challenges: name changes
   and ownership changes. Our UO and subsidiary historical standardized firm name lists,
   including the dynamic reassignment, are publicly available for researches to match
-  to their database of interest.'
+  to their database of interest.
+
+
+  As of 2023, DISCERN has been enriched to extend additional years, broader coverage
+  of subsidiary data, and to add open-access matches to scientific publications. More
+  information about the updates may be found in the following NBER whitepaper: https://conference.nber.org/conf_papers/f193007.pdf'
 documentation: https://doi.org/10.5281/zenodo.3594642
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Mon, 19 Jun 2023 16:38:28 GMT
+last_edit: Fri, 01 Dec 2023 12:36:44 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 open_access: 'TRUE'
+related_publications: 'http://dx.doi.org/10.1257/aer.20171742, http://dx.doi.org/10.1016/j.respol.2022.104550,
+  http://dx.doi.org/10.1287/mnsc.2023.4682, http://dx/doi.org/10.1287/mnsc.2023.00282,
+  http://dx.doi.org/10.1287/mnsc.2023.4830 '
 slug: discern
 tags:
 - Compustat

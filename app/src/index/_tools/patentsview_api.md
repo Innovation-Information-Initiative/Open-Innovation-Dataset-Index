@@ -1,5 +1,4 @@
 ---
-layout: default
 description: The PatentsView platform is built on a newly developed database that
   longitudinally links inventors, organizations, locations, and patenting activity
   since 1976. The data visualization tool, query tool, and flexible API enable a broad

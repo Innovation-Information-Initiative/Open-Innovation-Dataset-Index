@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: Google Patents, Otto Stegmaier, MtDersvan
 description: Imagine you're analyzing a subset of patents and want to do some text
   analysis of the first independent claim. To do this, you'd need to be able to join

@@ -1,5 +1,4 @@
 ---
-layout: default
 authors:
 - Lia Sheer
 description: Starting point for the analysis of scholarly literature in relation to
@@ -8,7 +7,6 @@ tags:
 - publications
 - scientific research
 title: Essential Publication Analysis Datasets and Measures
-slug: publications
 uuid: a2ba7f45-73af-4494-8a28-3c86784f7d03
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: 'The main author is Patrice Lopez (patrice.lopez@science-miner.com).
 
 

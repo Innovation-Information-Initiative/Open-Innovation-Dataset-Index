@@ -1,5 +1,4 @@
 ---
-layout: default
 description: The Manual is published to provide trademark examining attorneys in the
   USPTO, trademark applicants, and attorneys and representatives for trademark applicants
   with a reference work on the practices and procedures relative to prosecution of

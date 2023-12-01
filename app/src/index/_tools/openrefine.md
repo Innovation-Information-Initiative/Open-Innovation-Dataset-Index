@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: OpenRefine
 description: OpenRefine is a desktop application that uses your web browser as a graphical
   interface. It is described as “a power tool for working with messy data”. OpenRefine

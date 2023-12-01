@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: Anthony Trippe
 description: These Guidelines are designed both for general users of patent information,
   as well as for those involved in producing Patent Landscape Reports (PLRs). They

@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: 'Chaomei Chen '
 description: CiteSpace generates interactive visualizations of structural and temporal
   patterns and trends of a scientific field. It facilitates a systematic review of

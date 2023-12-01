@@ -1,5 +1,4 @@
 ---
-layout: default
 authors:
 - Ian Wetherbee
 description: The Google Patents team hosts a set of linked public, paid and private
@@ -16,7 +15,6 @@ tags:
 - patents
 - drug discovery
 title: Google Patents Public Datasets
-slug: google-patents
 uuid: b79ddeaf-e746-4e5b-bee7-3c3724cc2540
 ---
 

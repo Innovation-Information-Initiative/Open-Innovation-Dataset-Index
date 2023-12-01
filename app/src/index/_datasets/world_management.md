@@ -1,7 +1,7 @@
 ---
 citation: Bloom, Nicholas; Lemos, Renata; Sadun, Raffaella; Scur, Daniela; Van Reenen,
   John, 2021, "World Management Survey - Manufacturing", https://doi.org/10.7910/DVN/OY6CBK,
-  Harvard Dataverse, V1, UNF:6:k5xYE9W6U534XDiWu3RjrA==
+  Harvard Dataverse, V1, UNF:6:k5xYE9W6U534XDiWu3RjrA== [fileUNF]
 contributors:
 - Nick Bloom
 - Renata Lemos

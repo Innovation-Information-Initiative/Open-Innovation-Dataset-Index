@@ -1,5 +1,4 @@
 ---
-layout: default
 authors: frictionless data
 description: Frictionless is a framework to describe, extract, validate, and transform
   tabular data, available as a Python library. It supports working with data in a
