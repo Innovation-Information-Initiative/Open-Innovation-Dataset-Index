@@ -3,6 +3,7 @@ import React, { useState, useReducer } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { Index } from "lunr"
 import Filter from "./filter"
+import ToolFilter from "./tool-filter"
 import "./search.css"
 
 const formReducer = (state, event) => {
@@ -31,14 +32,16 @@ const AdvSearch = ({ initialQuery = "" }) => {
       "contributors": "Contributors", 
    }
 
-    const {
+  const {
     pages: { nodes },
     site: site,
     store: store,
     tagStore: tagStore,
     toolStore: toolStore,
+    toolTagStore: toolTagStore,
     fieldStore: fieldStore,
-    contributorStore: contributorStore
+    contributorStore: contributorStore,
+    toolContributorStore: toolContributorStore
   } = useStaticQuery( graphql`
     {
       pages: allMarkdownRemark {
@@ -61,8 +64,10 @@ const AdvSearch = ({ initialQuery = "" }) => {
       store: LunrIndex
       toolStore: LunrIndexTools
       tagStore: LunrIndexTags
+      toolTagStore: LunrIndexToolTags
       fieldStore: LunrIndexFields
       contributorStore: LunrIndexContributors
+      toolContributorStore: LunrIndexToolContributors
     }
 `)
   
@@ -155,13 +160,22 @@ const AdvSearch = ({ initialQuery = "" }) => {
               </div>
                <h3>filters</h3>
                <div className="formSection">
-              { filters.map( (filter, i) => <Filter 
+              { currentForm.index === 'datasets' ? filters.map( (filter, i) => <Filter 
                 key={i}
                 num={i} 
                 tagStore={tagStore}
                 toolStore={toolStore}
                 contributorStore={contributorStore}
                 fieldStore={fieldStore}
+                handleFilterChange={handleFilterChange}
+                removeFilter={removeFilter}
+                /> ) :
+
+              filters.map( (filter, i) => <ToolFilter 
+                key={i}
+                num={i} 
+                tagStore={toolTagStore}
+                contributorStore={toolContributorStore}
                 handleFilterChange={handleFilterChange}
                 removeFilter={removeFilter}
                 /> )

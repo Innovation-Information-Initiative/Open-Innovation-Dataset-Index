@@ -2,14 +2,12 @@ import React from 'react';
 import './search.css';
 import { Index } from "lunr"
 
-const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleFilterChange, removeFilter}) => {
+const ToolFilter = ({num, tagStore, contributorStore, handleFilterChange, removeFilter}) => {
   const [searchTags, setSearchTags] = React.useState(false);
-  const [searchFields, setSearchFields] = React.useState(false);
   const [searchContributors, setSearchContributors] = React.useState(false);
   const [results, setResults] = React.useState([]);
 
   const tagsIndex = Index.load(tagStore.index)
-  const fieldsIndex = Index.load(fieldStore.index)
   const contributorIndex = Index.load(contributorStore.index)
 
   const setInput = (event, field) => {
@@ -43,7 +41,6 @@ const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleF
   const handleFilterFieldChange = event => {
     handleFilterChange(num, event)
     event.target.value === 'tags' ? setSearchTags(true) : setSearchTags(false);
-    event.target.value === 'salient_fields' ? setSearchFields(true) : setSearchFields(false);
     event.target.value === 'contributors' ? setSearchContributors(true) : setSearchContributors(false);
   }
 
@@ -61,7 +58,6 @@ const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleF
        <option value="any">Any Field</option>
         <option value="title">Title</option>
         <option value="description">Description</option>
-        <option value="salient_fields">Dataset Headers</option>
         <option value="tags">Tags</option>
         <option value="contributors">Contributors</option>
       </select>
@@ -72,17 +68,12 @@ const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleF
             { results.length > 0 && <div id="inputAppend" className="dropdownContent">{results.filter( (item, i) => i < 5 ).map( (result, j) => <div key={j} onClick={(result) => setInput(result)}>{result.tag} </div> )}</div>}
             </div>
         }
-        { searchFields && 
-            <div className="dropdown"><input id={"searchInput" + num} name="fieldString" type="text" onChange={event => subIndexSearch(event, fieldStore)}/>
-            { results.length > 0 && <div id="inputAppend" className="dropdownContent">{results.filter( (item, i) => i < 5 ).map( (result, j) => <div key={j} onClick={(result) => setInput(result)}>{result.field} </div>)}</div>}
-            </div>
-        }
         { searchContributors && 
             <div className="dropdown"><input id={"searchInput" + num} name="fieldString" type="text" onChange={event => subIndexSearch(event, contributorStore)}/>
             { results && <div id="inputAppend" className="dropdownContent">{results.filter( (item, i) => i < 5 ).map( (result, j) => <div key={j} onClick={(result) => setInput(result)}>{result.contributor} </div>)}</div>}
             </div>
         }
-        { ( !searchTags && !searchFields && !searchContributors ) && 
+        { ( !searchTags && !searchContributors ) && 
           <input id="tagSearch" name="fieldString" type="text" onChange={event => handleFilterChange(num, event)}/>
         }
       
@@ -91,4 +82,4 @@ const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleF
   )
 }
 
-export default Filter;
+export default ToolFilter;

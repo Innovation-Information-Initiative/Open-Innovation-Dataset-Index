@@ -249,6 +249,7 @@ const createIndex = async (dataNodes, type, cache, cacheKey) => {
     this.field(`title`)
     this.field(`contributors`)
     this.field(`description`)
+    this.field(`documentation`)
     this.field(`salient_fields`)
     this.field(`schema_fields`)
     this.field(`content`)
