@@ -3,11 +3,9 @@ bigquery: https://console.cloud.google.com/bigquery?p=patents-public-data&d=uspt
 citation: 'Graham, S. Marco, A., and Miller, A. (2015). “The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination.”'
 contributors:
-- Graham
-- S. Marco
-- A.
-- Miller
-- A.
+- Stuart J.H. Graham
+- Alan C. Marco
+- Richard Miller
 cost: None
 description: The latest version of PatEx (referred to below as the 2020 release) contains
   detailed information on nearly 11.9 million publicly-viewable provisional and non-provisional
@@ -28,7 +26,7 @@ documentation: 'For the 2019 and later releases, new technical documentation is 
   Graham, Stuart J.H. and Marco, Alan C. and Miller, Richard, The USPTO Patent Examination
   Research Dataset: A Window on the Process of Patent Examination (November 30, 2015).
   Available at SSRN: https://ssrn.com/abstract=2702637.'
-last_edit: Mon, 19 Jun 2023 16:35:34 GMT
+last_edit: Fri, 01 Dec 2023 18:14:00 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-examination-research-dataset-public-pair
 maintained_by: EconomicsData@uspto.gov
 open_access: 'FALSE'
