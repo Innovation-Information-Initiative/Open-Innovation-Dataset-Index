@@ -40,6 +40,8 @@ These projects have developed and published validation datasets for reuse as par
 (please correct if published!)
 
 * **[Patent Scope and Examiner Toughness](https://iiindex.org/datasets/patent_scope_toughness.html)** -- Kuhn and Thompson collaborate with seven patent attorneys who complete a questionnaire on the scope of a patent (140 total) relative to other patents in the same area. Described in [this paper](https://ssrn.com/abstract=2977273).
+* **[Text Matching to Measure Patent Similarity](https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.2699)** -- Arts, Cassiman and Gomez recruited thirteen paid experts from five different fields to rate the technological similarity of different patents in their field of expertise, a total of 850 patents
+* **[Natural language processing to identify the creation and impact of new technologies in patent text](https://www.sciencedirect.com/science/article/pii/S0048733320302195?via%3Dihub)** -- Arts et. Al manually collect patents linked to prestigious awards, and manually match to patents, as a marker for impact / radical innovation
 
 ### Tools for constructing validation datasets
 
