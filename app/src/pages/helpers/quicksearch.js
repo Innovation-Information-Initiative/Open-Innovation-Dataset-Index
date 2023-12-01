@@ -31,4 +31,4 @@ const quickSearch = (query, index, store) => {
 
 }
 
-export default quickSearch;
+export { quickSearch };
