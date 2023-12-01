@@ -3,7 +3,6 @@ import * as React from 'react'
 import Layout from './components/layout'
 import "./index.css"
 import SearchForm from "./components/search-form";
-import { quickSearch } from "./helpers/quicksearch"
 import { Index } from "lunr"
 
 const DatasetPage = () => {
@@ -26,6 +25,36 @@ const DatasetPage = () => {
       lunr: LunrIndex
       }
   `)
+
+const quickSearch = (query, index, store) => {
+    // const q = e.target.value
+    let q = String(query).slice(-1) === " " ? query : query + '*';
+    q = q + "~1"
+
+    let res = []
+
+    try {
+      // Search is a lunr method
+      res = index.search(q, {
+          fields: {
+              title: {boost: 10},
+              description: {boost: 5},
+              contents: {boost: 3}
+          }
+        }).map(({ ref }) => {
+        // Map search results to an array of {slug, title, excerpt} objects
+        return {
+          slug: ref,
+          ...store[ref],
+        }
+      })
+
+    return res
+
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   const [results, setResults] = React.useState(nodes);
   const { store } = lunr
