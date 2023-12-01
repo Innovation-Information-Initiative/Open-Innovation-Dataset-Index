@@ -5,7 +5,7 @@ slug:
 location:
 description:
 documentation:
-authors:
+contributors:
 citation:
 terms_of_use:
 tags:

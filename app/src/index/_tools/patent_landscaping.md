@@ -1,6 +1,6 @@
 ---
 associated_papers: https://link.springer.com/content/pdf/10.1007%2Fs10506-018-9222-4.pdf
-authors: Google Patents, Aaron Abood, Dave Feltenberger
+contributors: Google Patents, Aaron Abood, Dave Feltenberger
 description: Patent landscaping is the process of finding patents related to a particular
   topic. It is important for companies, investors, governments, and academics seeking
   to gauge innovation and assess risk. However, there is no broadly recognized best
