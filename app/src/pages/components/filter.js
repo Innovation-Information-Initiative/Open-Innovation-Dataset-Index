@@ -1,13 +1,18 @@
 import React from 'react';
 import './search.css';
+import { Index } from "lunr"
 
-const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsIndex, tagStore, toolStore, contributorStore, fieldStore, handleFilterChange, removeFilter}) => {
-    const [searchTags, setSearchTags] = React.useState(false);
-    const [searchFields, setSearchFields] = React.useState(false);
-    const [searchContributors, setSearchContributors] = React.useState(false);
-    const [tagResults, setTagResults] = React.useState([]);
-    const [fieldResults, setFieldResults] = React.useState([]);
-    const [contributorResults, setContributorResults] = React.useState([]);
+const Filter = ({num, tagStore, toolStore, contributorStore, fieldStore, handleFilterChange, removeFilter}) => {
+  const [searchTags, setSearchTags] = React.useState(false);
+  const [searchFields, setSearchFields] = React.useState(false);
+  const [searchContributors, setSearchContributors] = React.useState(false);
+  const [tagResults, setTagResults] = React.useState([]);
+  const [fieldResults, setFieldResults] = React.useState([]);
+  const [contributorResults, setContributorResults] = React.useState([]);
+
+  const tagsIndex = Index.load(tagStore.index)
+  const fieldsIndex = Index.load(fieldStore.index)
+  const contributorIndex = Index.load(contributorStore.index)
 
   const setInput = (event, field) => {
     const input = document.getElementById('searchInput' + num)
@@ -23,13 +28,11 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsInde
     let res = []
     try {
       res = tagsIndex.search(q).map(({ ref }) => {
-        console.log('ref is', ref, 'tag store ref is', tagStore[ref])
         return {
           _id: ref,
           ...tagStore.store[ref],
         }
       })
-      console.log('setting tag results', res, 'tag store', tagStore)
       setTagResults(res)
       handleFilterChange(num, event)
     } catch (error) {
@@ -47,7 +50,6 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsInde
           ...fieldStore.store[ref],
         }
       })
-      console.log('res is', res)
       setFieldResults(res)
       handleFilterChange(num, event)
     } catch (error) {
@@ -57,7 +59,6 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsInde
 
   const contributorSearch = event => {
     let q = event.target.value.slice(-1) === " " ? event.target.value : event.target.value + '*';
-    console.log('store is', contributorStore)
     let res = []
     try {
       res = contributorIndex.search(q).map(({ ref }) => {
@@ -66,7 +67,6 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsInde
           ...contributorStore.store[ref],
         }
       })
-      console.log('res is', res)
       setContributorResults(res)
       handleFilterChange(num, event)
     } catch (error) {

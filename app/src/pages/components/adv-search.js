@@ -66,22 +66,8 @@ const AdvSearch = ({ initialQuery = "" }) => {
     }
 `)
   
-  // LunrIndex is available via page query
-  // const { store } = data.LunrIndex
-  // const { toolStore } = data.LunrIndexTools
-  // const { tagStore } = data.LunrIndexTags
-  // const { fieldStore } = data.LunrIndexFields
-  // Lunr in action here
   const mainIndex = Index.load(store.index)
   const toolsIndex = Index.load(toolStore.index)
-  const tagsIndex = Index.load(tagStore.index)
-  const fieldsIndex = Index.load(fieldStore.index)
-  const contributorIndex = Index.load(contributorStore.index)
-
-
-  console.log('contributor store is', contributorStore, 'contributor index is', contributorIndex)
-
-  console.log(currentForm)
 
   const handleFormChange = event => {
     if(event.target.value !== '') {
@@ -132,8 +118,6 @@ const AdvSearch = ({ initialQuery = "" }) => {
     //if it's not an OR type query, require first field
     searchString = orQuery ? searchString : '+' + searchString
 
-    console.log('searchstring is', searchString)
-
     Object.keys(currentForm).forEach(key => {
       if (currentForm[key] === true) searchString += '+' + key + ":* ";
     })
@@ -174,11 +158,6 @@ const AdvSearch = ({ initialQuery = "" }) => {
               { filters.map( (filter, i) => <Filter 
                 key={i}
                 num={i} 
-                index={mainIndex}
-                tagsIndex={tagsIndex}
-                fieldsIndex={fieldsIndex}
-                contributorIndex={contributorIndex}
-                toolsIndex={toolsIndex}
                 tagStore={tagStore}
                 toolStore={toolStore}
                 contributorStore={contributorStore}
@@ -211,7 +190,7 @@ const AdvSearch = ({ initialQuery = "" }) => {
             { results.length > 0 && <div className="results"><h2>Advanced search results:</h2>
             <ul className="indexList"> 
               { results.filter( (item, i) => i < 5 ).map( (node, j) => 
-              <Link to={"/" + node.frontmatter.slug} key={node.frontmatter.slug}>
+              <Link to={"/" + currentForm.index + "/" + node.frontmatter.slug} key={node.frontmatter.slug}>
                 <li>
                 <div className="itemThumb">
                   { node.frontmatter.thumbnail_url ?
