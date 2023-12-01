@@ -1,5 +1,6 @@
 ---
-contributors: Anthony Trippe
+contributors: 
+  - Anthony Trippe
 description: These Guidelines are designed both for general users of patent information,
   as well as for those involved in producing Patent Landscape Reports (PLRs). They
   provide step-by-step instructions on how to prepare a PLR, as well as background
