@@ -1,4 +1,5 @@
 ---
+authors: Patrice Lopez
 description: 'Framework dedicated to bibliographic information. It includes:
 
 
@@ -21,7 +22,8 @@ description: 'Framework dedicated to bibliographic information. It includes:
   that your glutton data service stays always in sync with Crossref,
 
   --  MeSH classes mapping for PubMed articles.'
-last_edit: Wed, 28 Jun 2023 18:35:29 GMT
+documentation: https://github.com/kermitt2/biblio-glutton
+last_edit: Fri, 01 Dec 2023 12:22:22 GMT
 location: https://github.com/kermitt2/biblio-glutton
 shortname: biblio-glutton
 tags:
@@ -29,6 +31,7 @@ tags:
 - metadata
 - identifiers
 - mapping
+- entity reconciliation
 title: Biblio-glutton
 uuid: 9519fa86-2fa6-4600-9c10-06ceef41f423
 ---
