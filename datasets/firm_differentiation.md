@@ -22,7 +22,7 @@ description: Although the rate of invention by firms and the effect on firm perf
   and data to characterize the technology portfolio of firms and to measure the technological
   position and differentiation of U.S. public firms.
 doi: https://doi.org/10.5281/zenodo.5172145
-last_edit: Thu, 21 Sep 2023 16:18:23 GMT
+last_edit: Fri, 01 Dec 2023 20:14:54 GMT
 location: https://zenodo.org/record/5172146
 open_access: 'TRUE'
 related_publications: Arts S, Cassiman B, Hou J. (2023). Position and Differentiation
@@ -36,4 +36,5 @@ terms_of_use: Creative Commons Attribution Non Commercial 1.0 Generic
 timeframe: 1980-2015
 title: Measuring the Position and Differentiation of Firms in Technology Space
 uuid: 1983b9ee-f07a-479d-987d-839e7dfa45c0
+versioning: 'FALSE'
 ---

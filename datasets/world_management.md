@@ -22,7 +22,7 @@ description: 'The World Management Survey is the first cross-country, cross-indu
   about the dataset and to request access to the identified version of the dataset
   and for further variables, please visit the website https://worldmanagementsurvey.org/'
 documentation: https://worldmanagementsurvey.org/
-last_edit: Thu, 27 Jul 2023 08:58:28 GMT
+last_edit: Fri, 01 Dec 2023 20:14:50 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OY6CBK
 maintained_by: thomaz@worldmanagementsurvey.org
 open_access: 'TRUE'
@@ -33,4 +33,5 @@ terms_of_use: CC0 1.0
 timeframe: 2002-2023
 title: World Management Survey
 uuid: baed5247-a1ce-487c-95ef-5c5f8fc7fe22
+versioning: 'FALSE'
 ---
