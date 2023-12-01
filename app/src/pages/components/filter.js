@@ -1,11 +1,13 @@
 import React from 'react';
 import './search.css';
 
-const Filter = ({num, index, tagsIndex, fieldsIndex, toolsIndex, tagStore, toolStore, fieldStore, handleFilterChange, removeFilter}) => {
+const Filter = ({num, index, tagsIndex, fieldsIndex, contributorIndex, toolsIndex, tagStore, toolStore, contributorStore, fieldStore, handleFilterChange, removeFilter}) => {
     const [searchTags, setSearchTags] = React.useState(false);
     const [searchFields, setSearchFields] = React.useState(false);
+    const [searchContributors, setSearchContributors] = React.useState(false);
     const [tagResults, setTagResults] = React.useState([]);
     const [fieldResults, setFieldResults] = React.useState([]);
+    const [contributorResults, setContributorResults] = React.useState([]);
 
   const setInput = (event, field) => {
     const input = document.getElementById('searchInput' + num)
@@ -53,16 +55,31 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, toolsIndex, tagStore, toolS
     }
   }
 
+  const contributorSearch = event => {
+    let q = event.target.value.slice(-1) === " " ? event.target.value : event.target.value + '*';
+    console.log('store is', contributorStore)
+    let res = []
+    try {
+      res = contributorIndex.search(q).map(({ ref }) => {
+        return {
+          _id: ref,
+          ...contributorStore.store[ref],
+        }
+      })
+      console.log('res is', res)
+      setContributorResults(res)
+      handleFilterChange(num, event)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
   const handleFilterFieldChange = event => {
     handleFilterChange(num, event)
     event.target.value === 'tags' ? setSearchTags(true) : setSearchTags(false);
     event.target.value === 'salient_fields' ? setSearchFields(true) : setSearchFields(false);
+    event.target.value === 'contributors' ? setSearchContributors(true) : setSearchContributors(false);
   }
-
-  // const removeFilter = async event => {
-  //   event.preventDefault()
-  // }
-
 
   return(
     <div className="filter">
@@ -94,7 +111,12 @@ const Filter = ({num, index, tagsIndex, fieldsIndex, toolsIndex, tagStore, toolS
             { fieldResults && <div id="inputAppend" className="dropdownContent">{fieldResults.filter( (item, i) => i < 5 ).map( (result, j) => <div key={j} onClick={(result) => setInput(result)}>{result.field} </div>)}</div>}
             </div>
         }
-        { ( !searchTags && !searchFields ) && 
+        { searchContributors && 
+            <div className="dropdown"><input id={"searchInput" + num} name="fieldString" type="text" onChange={contributorSearch}/>
+            { contributorResults && <div id="inputAppend" className="dropdownContent">{contributorResults.filter( (item, i) => i < 5 ).map( (result, j) => <div key={j} onClick={(result) => setInput(result)}>{result.contributor} </div>)}</div>}
+            </div>
+        }
+        { ( !searchTags && !searchFields && !searchContributors ) && 
           <input id="tagSearch" name="fieldString" type="text" onChange={event => handleFilterChange(num, event)}/>
         }
       

@@ -37,7 +37,8 @@ const AdvSearch = ({ initialQuery = "" }) => {
     store: store,
     tagStore: tagStore,
     toolStore: toolStore,
-    fieldStore: fieldStore
+    fieldStore: fieldStore,
+    contributorStore: contributorStore
   } = useStaticQuery( graphql`
     {
       pages: allMarkdownRemark {
@@ -61,6 +62,7 @@ const AdvSearch = ({ initialQuery = "" }) => {
       toolStore: LunrIndexTools
       tagStore: LunrIndexTags
       fieldStore: LunrIndexFields
+      contributorStore: LunrIndexContributors
     }
 `)
   
@@ -74,6 +76,10 @@ const AdvSearch = ({ initialQuery = "" }) => {
   const toolsIndex = Index.load(toolStore.index)
   const tagsIndex = Index.load(tagStore.index)
   const fieldsIndex = Index.load(fieldStore.index)
+  const contributorIndex = Index.load(contributorStore.index)
+
+
+  console.log('contributor store is', contributorStore, 'contributor index is', contributorIndex)
 
   console.log(currentForm)
 
@@ -113,7 +119,6 @@ const AdvSearch = ({ initialQuery = "" }) => {
     let searchString='';
     let orQuery = false; // bit inelegant; need to know if and-ing or or-ing the first field
     filters.forEach( filter => {
-      console.log('filter', filter)
       if(filter.fieldString !== ""){
         let modifier = '';
         const fieldString = filter.fieldString.replace(/(?=[() ])/g, '\\')
@@ -127,6 +132,8 @@ const AdvSearch = ({ initialQuery = "" }) => {
     //if it's not an OR type query, require first field
     searchString = orQuery ? searchString : '+' + searchString
 
+    console.log('searchstring is', searchString)
+
     Object.keys(currentForm).forEach(key => {
       if (currentForm[key] === true) searchString += '+' + key + ":* ";
     })
@@ -139,7 +146,6 @@ const AdvSearch = ({ initialQuery = "" }) => {
     let res_temp = []
     try {
       res_temp = index.search(searchString).map(({ ref }) => {
-        console.log('store is', store)
         return {
           slug: ref,
           ...using_store.store[ref],
@@ -171,9 +177,11 @@ const AdvSearch = ({ initialQuery = "" }) => {
                 index={mainIndex}
                 tagsIndex={tagsIndex}
                 fieldsIndex={fieldsIndex}
+                contributorIndex={contributorIndex}
                 toolsIndex={toolsIndex}
                 tagStore={tagStore}
                 toolStore={toolStore}
+                contributorStore={contributorStore}
                 fieldStore={fieldStore}
                 handleFilterChange={handleFilterChange}
                 removeFilter={removeFilter}

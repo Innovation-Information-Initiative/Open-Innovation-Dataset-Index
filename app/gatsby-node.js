@@ -120,6 +120,19 @@ exports.createResolvers =  async ({ cache, createResolvers }) => {
           return createFieldIndex(dataNodes, type, cache, 'IndexFields')
         },
       },
+      LunrIndexContributors: {
+        type: GraphQLJSONObject,
+        resolve: async (source, args, context, info) => {
+          const dataNodes = await context.nodeModel.findAll({
+            type: `MarkdownRemark`,
+            query: {
+              filter: { fileAbsolutePath: {regex: "/_datasets/"  } },
+            },
+          })
+          const type = info.schema.getType(`MarkdownRemark`)
+          return createContributorIndex(dataNodes, type, cache, 'IndexContributors')
+        },
+      },
     },
   })
 }
@@ -235,6 +248,35 @@ const createFieldIndex = async (dataNodes, type, cache, cacheKey) => {
     })
 
   const json = { index: fieldIndex.toJSON(), store }
+  await cache.set(cacheKey, json)
+  return json
+}
+
+
+const createContributorIndex = async (dataNodes, type, cache, cacheKey) => {
+  let allContributors = [];
+  const cached = await cache.get(cacheKey)
+  if (cached) {
+    return cached
+  }
+  const store = {}
+
+  dataNodes.entries.forEach(entry => allContributors = allContributors.concat(entry.frontmatter.contributors));
+  allContributors = allContributors.filter(contributor => contributor !== undefined)
+
+  const contributorJson = [...new Set(allContributors)].map((contributor, index) => ({contributor: contributor, _id: index}));
+
+  const contributorIndex = lunr(function() {
+      this.ref('_id');
+      this.field('contributor');
+      contributorJson.forEach( entry => {
+        this.add(entry);
+        const contributor = entry.contributor
+        store[entry._id] = { contributor }
+      }, this)
+    })
+
+  const json = { index: contributorIndex.toJSON(), store }
   await cache.set(cacheKey, json)
   return json
 }
