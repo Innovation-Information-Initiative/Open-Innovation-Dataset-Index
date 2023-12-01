@@ -34,14 +34,13 @@ const AdvSearch = ({ initialQuery = "" }) => {
 
   const {
     pages: { nodes },
-    site: site,
-    store: store,
-    tagStore: tagStore,
-    toolStore: toolStore,
-    toolTagStore: toolTagStore,
-    fieldStore: fieldStore,
-    contributorStore: contributorStore,
-    toolContributorStore: toolContributorStore
+    store,
+    tagStore,
+    toolStore,
+    toolTagStore,
+    fieldStore,
+    contributorStore,
+    toolContributorStore
   } = useStaticQuery( graphql`
     {
       pages: allMarkdownRemark {
@@ -201,15 +200,16 @@ const AdvSearch = ({ initialQuery = "" }) => {
             <button>run search</button>
           </form>
           <div>
-            { results.length > 0 && <div className="results"><h2>Advanced search results:</h2>
+            { results.length > 0 && <div className="adv-search-results">
+            <div className="results-nav"><h2>Results:</h2>  <h2 onClick={event => setResults([])}>X</h2></div>
             <ul className="indexList"> 
-              { results.filter( (item, i) => i < 5 ).map( (node, j) => 
+              { results.map( (node, j) => 
               <Link to={"/" + currentForm.index + "/" + node.frontmatter.slug} key={node.frontmatter.slug}>
                 <li>
                 <div className="itemThumb">
                   { node.frontmatter.thumbnail_url ?
-                  <img src={node.frontmatter.thumbnail_url}/> :
-                  <img src={"/assets/thumbnails/"+ node.frontmatter.uuid +".png"}/>
+                  <img alt="decorative thumbnail" src={node.frontmatter.thumbnail_url}/> :
+                  <img alt="decorative thumbnail" src={"/assets/thumbnails/"+ node.frontmatter.uuid +".png"}/>
                   }
                 </div>
                   <div className="itemCard">
