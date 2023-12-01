@@ -3,11 +3,8 @@ citation: "@misc{GROBID,\n    title = {GROBID},\n    howpublished = {\\url{https
   \   publisher = {GitHub},\n    year = {2008--2021},\n    archivePrefix = {swh},\n
   \   eprint = {1:dir:dab86b296e3c3216e2241968f0d63b68e8209d3c}\n}\n"
 contributors:
-- 'The main author is Patrice Lopez (patrice.lopez@science-miner.com).
-
-
-  Core committers and maintenance: Patrice Lopez (science-miner) and Luca Foppiano
-  (NIMS).'
+  - Patrice Lopez
+  - Luca Foppiano
 description: 'GROBID (or Grobid, but not GroBid nor GroBiD) means GeneRation Of BIbliographic
   Data.
 
