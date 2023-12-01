@@ -1,5 +1,6 @@
 ---
-contributors: Google Patents
+contributors:
+- Google Patents
 description: Resolves messy patent publication and application numbers to DOCDB publication
   number format.
 documentation: https://patents.google.com/api/match
