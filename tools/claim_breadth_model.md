@@ -1,5 +1,9 @@
 ---
-contributors: Google Patents, Otto Stegmaier, Vihang Mehta, Darío Hereñú
+contributors:
+- Google Patents
+- Otto Stegmaier
+- Vihang Mehta
+- Darío Hereñú
 description: We demonstrate a machine learning (ML) based approach to estimating claim
   breadth, which has the ability to capture more nuance than a simple word count model.
   While our approach may be an improvement over simpler methods, it is still imperfect
