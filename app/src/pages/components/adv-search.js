@@ -185,7 +185,7 @@ const AdvSearch = ({ initialQuery = "" }) => {
           </form>
           <div>
             { results.length > 0 && <div className="adv-search-results">
-            <div className="results-nav"><h2>Results:</h2>  <h2 onClick={event => setResults([])}>X</h2></div>
+            <div className="results-nav"><h2>Results:</h2>  <h2 onClick={event => setResults([])}>x</h2></div>
             <ul className="indexList"> 
               { results.map( (node, j) => 
               <Link to={"/" + currentForm.index + "/" + node.frontmatter.slug} key={node.frontmatter.slug}>

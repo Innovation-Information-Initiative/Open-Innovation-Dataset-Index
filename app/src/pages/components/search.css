@@ -87,11 +87,6 @@
     margin-top: -10px;
 }
 
-.adv-search-results li {
-  border: 1px solid white;
-}
-
-
 .results-nav {
   display: flex;
   justify-content: space-between;
