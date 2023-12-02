@@ -35,9 +35,9 @@ const ToolTemplate = ({data}) => {
               <b>location:</b> <a href={info.location}>{ info.location }</a>
             </p>}
 
-            { Array.isArray(info.authors) && info.authors.length > 0 &&
+            { Array.isArray(info.contributors) && info.contributors.length > 0 &&
               <p>
-                <b>contributors:</b> {info.authors.join(', ')}
+                <b>contributors:</b> {info.contributors.join(', ')}
               </p>
             }
 
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
         uuid
         slug
         tags
-        authors
+        contributors
         documentation
         terms_of_use
         associated_papers

@@ -23,7 +23,7 @@ const GuideTemplate = ({data}) => {
         <div className="infoBox">
             { Array.isArray(info.contributors) && info.contributors.length > 0 &&
               <p>
-                <b>contributors:</b> {info.authors.join(', ')}
+                <b>contributors:</b> {info.contributors.join(', ')}
               </p>
             }
 
