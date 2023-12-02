@@ -1,5 +1,5 @@
 ---
-authors:
+contributors:
 - Agnes Cameron
 - Matt Marx
 description: Starting point list of datasets and resources for the study of innovation,

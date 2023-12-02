@@ -1,5 +1,5 @@
 ---
-authors:
+contributors:
 - Agnes Cameron
 description: Guide to popular validation datasets, tools and techniques for innovation research.
 tags:
@@ -16,7 +16,13 @@ The construction of a validation dataset often involves the costly production of
 
 This guide aims to index the validation datasets that are available (so researchers can make use of them), point to ones that have been made but are not currently public, outline various validation methods and tools, and also to index validation datasets that do not currently exist, but would be of use to the community.
 
+### Contribute
+
+As of December 2023, there is a [specific tab](https://docs.google.com/spreadsheets/d/1bdyhGrj0oNz-_qW3Rv2GNGqhZZ73rgj-DYWePLA_1Ms/edit#gid=1512625211) in the IIIndex Google sheet for researchers to name desired and existing validation datasets. You can also tag existing projects that you know have validation data using the 'validation' tag.
+
 This guide is [editable](https://github.com/Innovation-Information-Initiative/Open-Innovation-Dataset-Index/blob/main/collections/validation.md), and additions are enthusiastically welcome. This guide is also periodically updated both with datasets added to the index, and responses to our [researcher survey](https://docs.google.com/forms/d/1FojKdh00M0JTVPAO5pocF3d3agItxttZ2MQzrV160I4/edit?pli=1#responses).
+
+Lastly, I am always interested to talk to researchers about how to best support the contribution of validation data into the collective domain. Please [get in touch]("mailto:agnescam@mit") with any queries, comments and suggestions.
 
 ### Standalone validation datasets
 

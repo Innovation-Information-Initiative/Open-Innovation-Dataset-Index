@@ -1,6 +1,6 @@
 ---
 title: title
-authors:
+contributors:
   - author1
 tags:
   - tag1
