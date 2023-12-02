@@ -83,7 +83,7 @@ const DatasetTemplate = ({data}) => {
               </div>
             }
 
-            <b>add relationship:</b> <span id='toggleAddRship' onClick={toggle_add_rship}>+</span>
+{/*            <b>add relationship:</b> <span id='toggleAddRship' onClick={toggle_add_rship}>+</span>
             <form id="rship-form">
                 <div id="searchContainer">
                   <label>Related dataset:</label><br />
@@ -103,7 +103,7 @@ const DatasetTemplate = ({data}) => {
                 <input type="submit" value="submit relationship" / >
                 <input type="hidden" id="pageId" name="pageId" value="{{ page.uuid }}|{{page.shortname}}" /><br />
             </form>
-            
+            */}
 
             <>
             { Object.keys(info).map( field =>

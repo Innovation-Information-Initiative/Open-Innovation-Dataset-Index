@@ -12,12 +12,12 @@ const Nav = () => {
 
 		<div className="navContainer">
 			<div className="nav">
-				<a href="/">home</a>
 				<a href="/about">about</a>
 				<Link to="/search/">search</Link>
 				<Link to="/datasets/">datasets</Link>
 				<Link to="/tools/">tools</Link>
 				<Link to="/guides/">guides</Link>
+				<Link className="highlight" to="/guides/validation">validation project</Link>
 			</div>
 		</div>
 		</>

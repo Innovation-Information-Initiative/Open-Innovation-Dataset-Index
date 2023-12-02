@@ -21,7 +21,7 @@ const GuideTemplate = ({data}) => {
         </div>
 
         <div className="infoBox">
-            { Array.isArray(info.authors) && info.authors.length > 0 &&
+            { Array.isArray(info.contributors) && info.contributors.length > 0 &&
               <p>
                 <b>contributors:</b> {info.authors.join(', ')}
               </p>
@@ -38,7 +38,6 @@ const GuideTemplate = ({data}) => {
     <div>
     { guide.html.trim() !== '' && 
       <div>
-        <h2>Notes</h2>
         <p dangerouslySetInnerHTML={{__html: guide.html}} />
       </div>
     }

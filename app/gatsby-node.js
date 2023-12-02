@@ -82,7 +82,7 @@ exports.createPages = async ({ graphql, actions }) => {
     try {
       createPage({
         path: 'guides/' + page.frontmatter.slug,
-        component: require.resolve(`./src/templates/dataset.js`),
+        component: require.resolve(`./src/templates/guide.js`),
         context: {
           id: page.id
         }
