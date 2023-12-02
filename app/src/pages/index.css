@@ -94,6 +94,7 @@ a:hover {
     position: sticky;
     top: 0;
     background-color: lightgray;
+    max-width: 80vw;
 }
 
 .navContainer a:hover {
