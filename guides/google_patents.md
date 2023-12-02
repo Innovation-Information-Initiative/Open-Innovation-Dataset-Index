@@ -1,5 +1,5 @@
 ---
-authors:
+contributors:
 - Ian Wetherbee
 description: The Google Patents team hosts a set of linked public, paid and private
   data, publicly accessible on BigQuery. The core of these datasets is the public

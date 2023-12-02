@@ -1,5 +1,5 @@
 ---
-authors:
+contributors:
 - NBER
 description: The NBER public data archive is a mix of public economic, demographic,
   and enterprise data, obtained over the years in response to requests by NBER-affiliated

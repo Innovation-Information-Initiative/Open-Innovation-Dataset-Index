@@ -1,5 +1,5 @@
 ---
-authors:
+contributors:
 - Lia Sheer
 description: Starting point for the analysis of scholarly literature in relation to
   innovation.
