@@ -8,13 +8,8 @@ citation: "\n@article{bergeaud_classification_2017,\n        title = {Classifica
   Potiron and Raimbault, Juste},\n        month = apr,\n        year = {2017},\n        note
   = {type: dataset},\n}"
 cost: None
-description: 'An open consolidated database from raw data on 4 million patents taken
-  from the US patent office from 1976 onward. To build the pattern network, not only
-  do we look at each patent title, but we also examine their full abstract and extract
-  the relevant keywords accordingly. We refer to this classification as semantic approach
-  in contrast with the more common technological approach which consists in taking
-  the topology when considering US Patent office technological classes. '
-last_edit: Mon, 19 Jun 2023 16:40:13 GMT
+description: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
+last_edit: Mon, 04 Dec 2023 16:09:58 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZULMOY
 maintained_by: Contact maintainer through Dataverse
 open_access: 'TRUE'
