@@ -23,7 +23,7 @@ description: 'In-text and front page citations to non-patent literature and in-t
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Mon, 25 Sep 2023 19:06:41 GMT
+last_edit: Wed, 06 Dec 2023 16:23:43 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 open_access: 'TRUE'
