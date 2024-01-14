@@ -13,17 +13,18 @@ contributors:
 - Gaétan de Rassenfosse
 cost: None
 datasets_and_publications_using_this_dataset: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3754772
-description: 'In-text and front page citations to non-patent literature and in-text
-  patent citations, extracted and parsed. patCit builds on DOCDB, the largest database
-  of Non Patent Literature (NPL) citations. First, we deduplicate this corpus and
-  organize it into 10 categories. Then, we design and apply category specific information
-  extraction models using spaCy. Eventually, when possible, we enrich the data using
-  external domain specific high quality databases. Managed as an open-source, collaboratively
-  maintained project. '
+description: 'Citazioni nel testo e in prima pagina alla letteratura non brevettuale
+  e citazioni brevettuali nel testo, estratte e analizzate. patCit si basa su DOCDB,
+  il più grande database di citazioni di letteratura non brevettuale (NPL). Innanzitutto,
+  deduplicamo questo corpus e lo organizziamo in 10 categorie. Quindi, progettiamo
+  e applichiamo modelli di estrazione delle informazioni specifici per categoria utilizzando
+  spaCy. Eventualmente, quando possibile, arricchiamo i dati utilizzando database
+  esterni di alta qualità specifici per il dominio. Gestito come un progetto open-source
+  e gestito in modo collaborativo. '
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Thu, 04 Jan 2024 07:53:42 GMT
+last_edit: Sun, 14 Jan 2024 00:52:03 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 open_access: 'TRUE'
