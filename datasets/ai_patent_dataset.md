@@ -17,7 +17,7 @@ description: "The Artificial Intelligence Patent Dataset consists of two files, 
   and citations to identify AI in U.S. patent documents. The second data file contains
   the patent documents used to train the ML models."
 documentation: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866793
-last_edit: Thu, 13 Jul 2023 07:34:32 GMT
+last_edit: Sun, 11 Feb 2024 16:27:14 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
 maintained_by: EconomicsData@uspto.gov
 open_access: 'TRUE'
