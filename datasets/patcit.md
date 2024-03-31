@@ -24,7 +24,7 @@ description: 'Citazioni nel testo e in prima pagina alla letteratura non brevett
 documentation: https://cverluise.github.io/PatCit/
 doi: https://doi.org/10.5281/zenodo.3710993
 error_metrics: 'yes'
-last_edit: Sun, 14 Jan 2024 00:52:03 GMT
+last_edit: Sun, 31 Mar 2024 23:38:16 GMT
 location: https://doi.org/10.5281/zenodo.3710993
 maintained_by: Cyril Verluise
 open_access: 'TRUE'
