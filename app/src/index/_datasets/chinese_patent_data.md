@@ -11,7 +11,7 @@ description: In this project, patents from China's State Intellectual Property O
   in the Annual Survey of Industrial Enterprises (ASIE) of China's National Bureau
   of Statistics.
 doi: https://doi.org/10.7910/DVN/CF1IXO
-last_edit: Sun, 24 Sep 2023 10:07:26 GMT
+last_edit: Tue, 28 May 2024 00:50:50 GMT
 location: Chinese Patent Data Project
 maintained_by: Zi-lin He, Z.L.He@uvt.nl; Tony W. Tong, tony.tong@colorado.edu; Yuchen
   Zhang, yzhang54@tulane.edu

@@ -11,7 +11,7 @@ description: 'PatentsView includes US patent data including raw data (summaries,
   gender estimates.  Also foreign priority data, # of figures and sheets, and government
   interest statements.'
 documentation: https://patentsview.org/query/builder-faqs
-last_edit: Wed, 11 Oct 2023 03:01:59 GMT
+last_edit: Tue, 28 May 2024 01:03:35 GMT
 location: https://patentsview.org/
 maintained_by: USPTO
 open_access: 'TRUE'
