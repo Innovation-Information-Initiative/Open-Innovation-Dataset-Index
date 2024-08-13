@@ -113,7 +113,7 @@ GDP data: Bergeaud, A., Cette, G. and Lecat, R. (2016): ""Productivity Trends in
 	year = {2019},
 	note = {type: dataset},
 }
-", CC0 1.0,None,TRUE,Contact maintainer through Dataverse,"Historical Patents, Technological Change, Inventions, Geography, Economics", , , ,, ,FALSE,,10.7910/DVN/BPC15W, ,,,,,,,"Tue, 11 Jun 2024 15:45:06 GMT"
+", CC0 1.0,None,TRUE,Contact maintainer through Dataverse,"Historical Patents, Technological Change, Inventions, Geography, Economics", , , ,, ,FALSE,,10.7910/DVN/BPC15W, ,,,,,,,"Tue, 13 Aug 2024 16:03:47 GMT"
 45,9651d1f2-3c24-46ef-9ade-e2e31f4ffe12,BACI,baci,http://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37,BACI provides disaggregated data on bilateral trade flows for more than 5000 products and 200 countries.,, ,"BACI is freely available to anyone, after a quick registration.",None,TRUE,"Pierre Cotterlaz, baci@cepii.fr","trade, global", ,http://www.cepii.fr/DATA_DOWNLOAD/baci/doc/DescriptionBACI.html,,, ,FALSE,,  ,,https://www.whoswho.fr/usr/y/R/X/cepii.png,,,,,,"Mon, 19 Jun 2023 16:40:35 GMT"
 46,1b372a68-18ae-45e3-9a28-a6feecc3e7b8,Chinese Patent Data Project Dataverse,sipo_matching,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO,"         
 Matching SIPO patents to Chinese listed firms (""Main Board""). Please refer to the user documentation ""Chinese Patent Database User Documentation: Matching SIPO Patents to Chinese Publicly-Listed Companies and Subsidiaries"" for more details about this dataset. ",,"
