@@ -14,7 +14,7 @@ description: The Private-Sector AI Indicators dataset includes a diverse range o
   AI-related research, patenting, and hiring metrics for every company covered in
   PARAT.
 documentation: https://eto.tech/dataset-docs/private-sector-ai-indicators/
-last_edit: Mon, 15 Jul 2024 17:10:16 GMT
+last_edit: Fri, 30 Aug 2024 09:17:20 GMT
 location: https://zenodo.org/records/12520760
 open_access: 'TRUE'
 slug: ai_indicators
