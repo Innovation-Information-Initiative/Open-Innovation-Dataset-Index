@@ -25,7 +25,7 @@ description: 'Patents (as well as scientific articles, and NPL citations at the 
   information about the updates may be found in the following NBER whitepaper: https://conference.nber.org/conf_papers/f193007.pdf'
 documentation: https://doi.org/10.5281/zenodo.3594642
 doi: https://doi.org/10.5281/zenodo.4320782
-last_edit: Sat, 14 Sep 2024 11:09:47 GMT
+last_edit: Tue, 24 Sep 2024 12:37:14 GMT
 location: https://doi.org/10.5281/zenodo.3594642
 maintained_by: Lia Sheer
 open_access: 'TRUE'
