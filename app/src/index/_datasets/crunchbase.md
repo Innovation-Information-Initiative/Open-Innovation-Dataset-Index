@@ -5,7 +5,7 @@ description: 'Crunchbase collects data on both private and public companies.Thei
   in leadership positions, mergers and acquisitions, news, and industry trends. They
   have a free and paid-access tier, but can also grant use of the full API to academic
   researchers. https://about.crunchbase.com/partners/academic-research-access/ '
-last_edit: Tue, 19 Dec 2023 10:09:35 GMT
+last_edit: Wed, 09 Oct 2024 06:34:22 GMT
 location: https://data.crunchbase.com/docs
 open_access: 'TRUE'
 slug: crunchbase
