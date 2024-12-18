@@ -427,6 +427,14 @@ year = {2024},
 version = {V1},
 doi = {10.17617/3.BGRPMI},
 url = {https://doi.org/10.17617/3.BGRPMI}
-}",,none,TRUE,erik.buunk@ip.mpg.de,"patents, embeddings, PaECTER",until 2023-10,https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI,,24.4GB + 57.7GB,,,,,,,,,,,,"Wed, 18 Dec 2024 12:43:16 GMT"
+}",,none,TRUE,erik.buunk@ip.mpg.de,"patents, embeddings, PaECTER",until 2023-10,https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI,,24.4GB + 57.7GB,,,,10.17617/3.BGRPMI,PaECTER: Patent-level Representation Learning using Citation-informed Transformers: https://arxiv.org/abs/2402.19411,,Logic Mill,,,,,"Wed, 18 Dec 2024 12:48:24 GMT"
 128,78ea4cfc-eccd-476f-a3d0-8bb9f7c77545,"Pat-SPECTER embeddings for Patstat 2023 Fall (USPTO and EPO)
-",pat-specter,https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC,Pat-SPECTER embeddings at the Patstat family level (using one representative family member) based on Patstat Fall 2023,,,,,,,,,,,,,,,,,,,,,,,"Wed, 18 Dec 2024 12:44:00 GMT"
+",pat-specter,https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC,Pat-SPECTER embeddings at the Patstat family level (using one representative family member) based on Patstat Fall 2023,"Michael Rose, Erik Buunk, Sebastian Erhardt, Mainak Ghosh, Cheng Li, Dietmar Harhoff","@data{3.ES5ZSC_2024,
+author = {Rose, Michael and Buunk, Erik and Erhardt, Sebastian and Ghosh, Mainak and Li, Cheng and Harhoff, Dietmar},
+publisher = {Edmond},
+title = {{Pat-SPECTER embeddings for Patstat 2023 Fall (USPTO and EPO)}},
+year = {2024},
+version = {V1},
+doi = {10.17617/3.ES5ZSC},
+url = {https://doi.org/10.17617/3.ES5ZSC}
+}",,none,TRUE,erik.buunk@ip.mpg.de,"patents, embeddings, Pat-SPECTER",until 2023-10,https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC,,17.3GB + 40.7GB,,,,10.17617/3.ES5ZSC,,,Logic Mill,,,,,"Wed, 18 Dec 2024 12:48:02 GMT"

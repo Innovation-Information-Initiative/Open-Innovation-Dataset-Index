@@ -27,10 +27,14 @@ cost: none
 description: PaECTER embeddings at the Patstat family level (using one representative
   family member) based on Patstat Fall 2023
 documentation: https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI
-last_edit: Wed, 18 Dec 2024 12:43:16 GMT
+doi: 10.17617/3.BGRPMI
+last_edit: Wed, 18 Dec 2024 12:48:24 GMT
 location: https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI
 maintained_by: erik.buunk@ip.mpg.de
 open_access: 'TRUE'
+related_projects: {}
+related_publications: 'PaECTER: Patent-level Representation Learning using Citation-informed
+  Transformers: https://arxiv.org/abs/2402.19411'
 shortname: paecter
 size: 24.4GB + 57.7GB
 tags:
