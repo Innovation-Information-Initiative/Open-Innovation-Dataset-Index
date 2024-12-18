@@ -418,3 +418,15 @@ The data are available in twenty-six file parts, numbered sequentially, and incl
   volume = { },
 }
 ",,,TRUE,idankashtan11@gmail.com,,,,,,,,,,,,,,,,,"Fri, 30 Aug 2024 09:17:44 GMT"
+127,7272858a-dcf6-4ac7-bf64-3d2d46f23043,"PaECTER embeddings for Patstat 2023 Fall (USPTO and EPO)
+",paecter,https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI,PaECTER embeddings at the Patstat family level (using one representative family member) based on Patstat Fall 2023,"Mainak Ghosh, Sebastian Erhardt, Michael Rose, Erik Buunk, Dietmar Harhoff","@data{3.BGRPMI_2024,
+author = {Ghosh, Mainak and Erhardt, Sebastian and Rose, Michael and Buunk, Erik and Harhoff, Dietmar},
+publisher = {Edmond},
+title = {{PaECTER embeddings for Patstat 2023 Fall (USPTO and EPO)}},
+year = {2024},
+version = {V1},
+doi = {10.17617/3.BGRPMI},
+url = {https://doi.org/10.17617/3.BGRPMI}
+}",,none,TRUE,erik.buunk@ip.mpg.de,"patents, embeddings, PaECTER",until 2023-10,https://edmond.mpg.de/dataset.xhtml?persistentId=doi%3A10.17617%2F3.BGRPMI,,24.4GB + 57.7GB,,,,,,,,,,,,"Wed, 18 Dec 2024 12:43:16 GMT"
+128,78ea4cfc-eccd-476f-a3d0-8bb9f7c77545,"Pat-SPECTER embeddings for Patstat 2023 Fall (USPTO and EPO)
+",pat-specter,https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC,Pat-SPECTER embeddings at the Patstat family level (using one representative family member) based on Patstat Fall 2023,,,,,,,,,,,,,,,,,,,,,,,"Wed, 18 Dec 2024 12:44:00 GMT"
