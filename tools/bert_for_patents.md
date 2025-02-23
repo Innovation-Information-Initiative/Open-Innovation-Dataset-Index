@@ -11,7 +11,7 @@ description: A BERT (bidirectional encoder representation from transformers) mod
   of a patent application, automatically generate classification codes to assist with
   patent categorization, and autocomplete.
 documentation: https://github.com/google/patents-public-data/blob/master/examples/BERT_For_Patents.ipynb
-last_edit: Fri, 01 Dec 2023 12:20:34 GMT
+last_edit: Sun, 23 Feb 2025 16:02:45 GMT
 location: https://github.com/google/patents-public-data/blob/master/models/BERT%20for%20Patents.md
 related_projects: {}
 shortname: bert_for_patents
