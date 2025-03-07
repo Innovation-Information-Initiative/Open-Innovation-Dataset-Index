@@ -12,7 +12,7 @@ contributors:
 cost: None
 description: The goal of the project was to produce a dataset of priority patent applications
   filed across the globe, allocated by inventor and applicant location.
-last_edit: Mon, 19 Jun 2023 16:36:38 GMT
+last_edit: Fri, 07 Mar 2025 13:42:42 GMT
 location: http://www.gder.info/download_wwc_excel.html
 maintained_by: Gaétan de Rassenfosse
 open_access: 'TRUE'
