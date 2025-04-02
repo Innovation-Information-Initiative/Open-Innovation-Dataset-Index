@@ -15,7 +15,7 @@ description: The Patent Claims Research Dataset contain detailed information on 
   measures of patent scope.
 documentation: Available at source, including documentation of variables
 doi: 'http://dx.doi.org/10.2139/ssrn.2844964 '
-last_edit: Mon, 19 Jun 2023 16:35:35 GMT
+last_edit: Wed, 02 Apr 2025 08:02:45 GMT
 location: https://www.uspto.gov/ip-policy/economic-research/research-datasets/patent-claims-research-dataset
 maintained_by: EconomicsData@uspto.gov
 open_access: 'FALSE'
