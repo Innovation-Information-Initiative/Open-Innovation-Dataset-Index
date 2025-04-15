@@ -12,7 +12,7 @@ description: PWT version 10.0 is a database with information on relative levels 
   2019. Access to the data is provided in Excel, Stata and online formats.
 documentation: https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf
 doi: https://doi.org/10.15141/S50T0R
-last_edit: Fri, 13 Oct 2023 11:13:33 GMT
+last_edit: Tue, 15 Apr 2025 08:08:48 GMT
 location: https://www.rug.nl/ggdc/productivity/pwt/?lang=en
 maintained_by: Contact pwt@rug.nl
 open_access: 'TRUE'
