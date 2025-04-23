@@ -41,10 +41,10 @@ jobs:
           python3 -m pip install python-frontmatter
           python3 -m pip install six
 
-      - name: Set Up GCP Credentials
-        uses: nodes-app/action-google-credentials@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          service-account-key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+          credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
 
       - name: Pull GSheet data and generate markdown
         id: 'sheet_to_csv'
