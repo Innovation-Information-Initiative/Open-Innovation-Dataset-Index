@@ -51,7 +51,7 @@ Core committers and maintenance: Patrice Lopez (science-miner) and Luca Foppiano
       primaryClass={cs.CL}
 }","
 
-If you use the Logic Mill system, please cite our paper: https://doi.org/10.48550/arXiv.2301.00200","Max Planck Institute for Innovation and Competition, email: team@logic-mill.net",semantic analysis,,https://arxiv.org/pdf/2301.00200.pdf,"Fri, 01 Dec 2023 12:42:49 GMT"
+If you use the Logic Mill system, please cite our paper: https://doi.org/10.48550/arXiv.2301.00200","Max Planck Institute for Innovation and Competition, email: team@logic-mill.net",semantic analysis,,https://arxiv.org/pdf/2301.00200.pdf,"Sat, 26 Apr 2025 15:47:36 GMT"
 20,3434d838-d220-420a-a23e-ced7492528d3,AIMixDetect: detect mixed authorship of a language model (LM) and humans,ai_mix_detect,https://github.com/idankash/AIMixDetect,"This replication package is designed to guide you through the process of replicating the results presented in our paper. The data used in this research was generated using GPT-3.5-turbo (ChatGPT) and is organized into five distinct datasets, which are located in the dataset folder. To facilitate the reading and parsing of these datasets, a script named parse_article.py is provided.",,"Alon Kipnis, Idan Kashtan","@article{Kashtan2024Information,
   author = {Kashtan, Idan and Kipnis, Alon},
   journal = {Harvard Data Science Review},

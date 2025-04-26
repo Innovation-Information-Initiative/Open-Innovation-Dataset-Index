@@ -20,7 +20,7 @@ description: 'Logic Mill is a scalable and openly accessible soft- ware system t
   Interface (API) or via a web interface. Moreover, it is continuously being updated
   and can be extended to text corpora from other domains. '
 documentation: https://github.com/max-planck-innovation-competition/logic-mill
-last_edit: Fri, 01 Dec 2023 12:42:49 GMT
+last_edit: Sat, 26 Apr 2025 15:47:36 GMT
 location: https://logic-mill.net/
 maintained_by: 'Max Planck Institute for Innovation and Competition, email: team@logic-mill.net'
 shortname: logic-mill
