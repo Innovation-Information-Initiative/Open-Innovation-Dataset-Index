@@ -5,7 +5,7 @@ description: The NIH CRISP (Computer Retrieval of Information on Scientific Proj
   is a searchable database of federally funded biomedical research projects conducted
   at universities, hospitals, and other research institutions. This dataset has not
   been updated since 2007, but is relevant to historic research
-last_edit: Mon, 19 Jun 2023 16:46:40 GMT
+last_edit: Mon, 02 Jun 2025 17:28:14 GMT
 location: https://www.nber.org/research/data/computer-retrieval-information-scientific-projects
 maintained_by: data@nber.org
 open_access: 'TRUE'
