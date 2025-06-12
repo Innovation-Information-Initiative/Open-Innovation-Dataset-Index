@@ -19,7 +19,7 @@ description: 'GROBID (or Grobid, but not GroBid nor GroBiD) means GeneRation Of 
 
   GROBID should run properly "out of the box" on Linux (32 and 64 bits) and macOS. '
 documentation: https://grobid.readthedocs.io/en/latest/Introduction/
-last_edit: Fri, 01 Dec 2023 12:42:11 GMT
+last_edit: Thu, 12 Jun 2025 21:00:29 GMT
 location: https://github.com/kermitt2/grobid
 maintained_by: Patrice Lopez, info@science-miner.com
 related_projects: {}
