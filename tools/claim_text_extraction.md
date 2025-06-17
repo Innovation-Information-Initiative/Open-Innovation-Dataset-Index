@@ -9,7 +9,7 @@ description: Imagine you're analyzing a subset of patents and want to do some te
   Additionally, you'd need a method to extract the first claim from the rest of the
   claims. This notebook is a demonstration of one method to perform this analysis
   using python, BigQuery, and Google's new public dataset on patents.
-last_edit: Fri, 03 Dec 2021 18:45:21 GMT
+last_edit: Tue, 17 Jun 2025 12:00:50 GMT
 location: https://github.com/google/patents-public-data/blob/master/examples/claim-text/claim_text_extraction.ipynb
 related_projects: {}
 shortname: claim_text_extraction
