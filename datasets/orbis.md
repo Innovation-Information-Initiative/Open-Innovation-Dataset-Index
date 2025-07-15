@@ -3,7 +3,7 @@ contributors:
 - Bureau van Dijk
 cost: not free, cost varies
 description: Database that links patents to companies
-last_edit: Thu, 23 Jan 2025 07:25:31 GMT
+last_edit: Tue, 15 Jul 2025 14:27:05 GMT
 location: https://www.bvdinfo.com/en-gb/our-products/data/international/orbis-intellectual-property
 maintained_by: Bureau van Dijk
 open_access: 'FALSE'
