@@ -11,7 +11,7 @@ description: The main dataset extends from Jan 1, 1963, through december 30, 200
   and includes all the utility patents granted during that period. The citations file
   includes all citations made by patents granted in 1975-1999.
 documentation: https://docs.google.com/document/d/1FyDsjZHhq7okHWMBOc_E7EquLUoAwwEZYtxw5M3UDTY/edit
-last_edit: Sat, 30 Nov 2024 19:08:59 GMT
+last_edit: Fri, 26 Sep 2025 14:00:06 GMT
 location: https://sites.google.com/site/patentdataproject/Home/downloads?authuser=0
 maintained_by: Adam Jaffe
 open_access: 'TRUE'
