@@ -10,9 +10,9 @@ citation: "@misc{whalen_us_2019,\n        title = {{US} {Patent} {Similarity} {D
   innovation, semantic similarity, empirical legal studies},\n}\n"
 code: None
 cost: None
-description: Pairwise semantic similarity measures for US utility patents. Includes
-  measures for citing/cited patent pairs, 100 most-similar patents for each patent,
-  and doc2vec vectors for each patent.
+description: Pairwise semantic similarity measures for US utility patents, covering
+  1976-2019. Includes measures for citing/cited patent pairs, 100 most-similar patents
+  for each patent, and doc2vec vectors for each patent.
 documentation: Pairwise semantic similarity measures for US utility patents. Includes
   measures for citing/cited patent pairs, 100 most-similar patents for each patent,
   and doc2vec vectors for each patent.
@@ -20,7 +20,7 @@ doi: '10.5281/zenodo.3552078
 
   '
 error_metrics: None
-last_edit: Mon, 19 Jun 2023 16:42:15 GMT
+last_edit: Tue, 28 Oct 2025 22:16:53 GMT
 location: https://zenodo.org/record/3552078
 maintained_by: Ryan Whalen
 open_access: 'TRUE'
