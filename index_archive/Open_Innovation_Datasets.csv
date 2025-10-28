@@ -211,7 +211,7 @@ The data collected from the stream captures all languages, but the higher preval
 When using datasets from the repository please retain the lens_id to meet with the Lens terms of use. The lens_id along with the paperid (Microsoft Academic Graph) are the main unique identifiers for table joins so you will want to keep them anyway.
 
 Data from Microsoft Academic Graph is made available under the Open Data Commons Attribution License (ODC-By) v1.0. If using the data in a product. service or data redistribution please include this url https://aka.ms/msracad as described here. If using in a publication please cite the two articles described here.",None,TRUE,Paul Oldham,"antarctic, krill, biodiversity", ,https://osf.io/py6ve/wiki/home/, ,, ,FALSE,,10.17605/OSF.IO/PY6VE, ,,,lens.org,,,,"Mon, 19 Jun 2023 16:42:14 GMT"
-56,868eaad1-3c6a-4730-a70f-853996962d39,US Patent Similarity Data,us_patent_similarity,https://zenodo.org/record/3552078,"Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.",,"@misc{whalen_us_2019,
+56,868eaad1-3c6a-4730-a70f-853996962d39,US Patent Similarity Data,us_patent_similarity,https://zenodo.org/record/3552078,"Pairwise semantic similarity measures for US utility patents, covering 1976-2019. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.",,"@misc{whalen_us_2019,
         title = {{US} {Patent} {Similarity} {Data}},
         url = {https://zenodo.org/record/3552078},
         abstract = {Pairwise semantic similarity measures for US utility patents. Includes measures for citing/cited patent pairs, 100 most-similar patents for each patent, and doc2vec vectors for each patent.},
@@ -225,7 +225,7 @@ Data from Microsoft Academic Graph is made available under the Open Data Commons
         keywords = {patents, intellectual property, innovation, semantic similarity, empirical legal studies},
 }
 ", Creative Commons Attribution 4.0 International,None,TRUE,Ryan Whalen,"patents, intellectual property, innovation, similarity, legal, patents",,,,,,TRUE,,"10.5281/zenodo.3552078
-", ,,,,,,,"Mon, 19 Jun 2023 16:42:15 GMT"
+", ,,,,,,,"Tue, 28 Oct 2025 22:16:53 GMT"
 57,eb43fc38-8786-4b0f-b3b8-b9d610f456ed,Patstat Register,patstat_register,https://www.epo.org/searching-for-patents/business/patstat.html,"This database contains bibliographic and legal event data on published European and Euro-PCT patent applications.
 
 Like the core PATSTAT database, it is maintained by the EPO, however PATSTAT Register only contains information about patent applications at the European Patent Ofﬁce (EPO). The information in PATSTAT Register is, however, considerably deeper and more detailed.",,,Requires a subscription to access,"€ 1.420,00 - € 1.460,00",FALSE,EPO,"Europe, patents, legal, citation",,https://www.epo.org/searching-for-patents/business/patstat.html,,,https://github.com/gderasse/patstat_register,FALSE,,,,,,,,,,"Mon, 19 Jun 2023 16:35:29 GMT"
