@@ -12,7 +12,7 @@ description: "         \nMatching SIPO patents to Chinese listed firms (\"Main B
   Matching SIPO Patents to Chinese Publicly-Listed Companies and Subsidiaries\" for
   more details about this dataset. "
 documentation: 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT '
-last_edit: Mon, 19 Jun 2023 16:40:56 GMT
+last_edit: Tue, 25 Nov 2025 13:38:35 GMT
 location: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO
 maintained_by: Contact maintainer through Dataverse
 open_access: 'TRUE'

@@ -129,7 +129,7 @@ Matching SIPO patents to Chinese listed firms (""Main Board""). Please refer to 
 	year = {2019},
 	note = {type: dataset},
 }
-", CC0 1.0,None,TRUE,Contact maintainer through Dataverse,"China, SIPO, disambiguation, patents, firms",through 2016?,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT , ,, ,FALSE,,, ,,,,,,,"Mon, 19 Jun 2023 16:40:56 GMT"
+", CC0 1.0,None,TRUE,Contact maintainer through Dataverse,"China, SIPO, disambiguation, patents, firms",through 2016?,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QUH8KT , ,, ,FALSE,,, ,,,,,,,"Tue, 25 Nov 2025 13:38:35 GMT"
 47,5ab54caa-f53c-4537-8dac-8bf20cab594e,GPT Indicators,gpt_indicators,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQGHKA,"This database contains yearly technology-level measures of Growth, Use Complementarity (UC) and Innovation Complementarity (IC) since 1920 for all technological classes in the United States Patent and Trademark Office (USPTO) classification system, as described in the article entitled ""Mapping General Purpose Technologies with Patent Data"". (2020-03-06) ",Sergio Petralia,"
 @article{petralia_gpt_2020,
 	title = {{GPT} {Indicators}},
