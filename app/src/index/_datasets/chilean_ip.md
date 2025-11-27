@@ -15,7 +15,7 @@ description: This study describes patterns and trends of intellectual property (
   by different economic sectors, the relevance of IP bundles, and the patenting behavior
   of Chilean applicants overseas
 documentation: https://eml.berkeley.edu//~bhhall/Chile_ipdata/chile_inno_ip.txt
-last_edit: Thu, 16 Oct 2025 08:33:30 GMT
+last_edit: Thu, 27 Nov 2025 07:38:25 GMT
 location: https://eml.berkeley.edu//~bhhall/Chile_ipdata.html
 maintained_by: Bronwyn Hall
 open_access: 'TRUE'
