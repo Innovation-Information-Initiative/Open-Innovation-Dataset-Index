@@ -29,7 +29,7 @@ description: Pat-SPECTER embeddings at the Patstat family level (using one repre
   family member) based on Patstat Fall 2023
 documentation: https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC
 doi: 10.17617/3.ES5ZSC
-last_edit: Wed, 18 Dec 2024 12:48:02 GMT
+last_edit: Wed, 17 Dec 2025 00:08:03 GMT
 location: https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.ES5ZSC
 maintained_by: erik.buunk@ip.mpg.de
 open_access: 'TRUE'
