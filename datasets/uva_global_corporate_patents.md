@@ -13,8 +13,8 @@ description: 'The dataset has information on about 3 million USPTO patents, whic
   and linked to those assignee companies using the following identifiers: Unique Patent
   Number, as given by the USPTO, GVKEY, as the firm identifier, from the S&P Compustat
   Global database. '
-documentation: https://patents.darden.virginia.edu/documents/DataConstructionDetails_v01.pdf
-last_edit: Mon, 22 Sep 2025 03:31:50 GMT
+documentation: 'UVA Darden Global Corporate Patent Dataset: Construction and Features'
+last_edit: Mon, 19 Jan 2026 23:12:05 GMT
 location: https://patents.darden.virginia.edu/
 maintained_by: GCPD@darden.virginia.edu
 open_access: 'TRUE'
